@@ -1,0 +1,20 @@
+{
+  "python": "3.14.8",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1"
+  },
+  "source_sha256": {
+    "audit.py": "4030649f1c7a9f92ace54656f8c15d5fce4a9537f92ca2f58fed51892185c880",
+    "data.py": "093cf69989f7be2ab2274fae57e571b57fc3be94323f2261786bd389b752bf75",
+    "features.py": "70c46379d53cd006b36a687eb0c544be59a6d817b92709e5afc74f240476600e",
+    "metrics.py": "f38df04db4e3091bf787155a4236225185ad96d4d09c71fe7049c3f00b9dfa35",
+    "pipeline.py": "a6c3f67a25c59db80392fe9fda0c022e2f5e8c8da0dc0614798c63fb28f8dc9d",
+    "__init__.py": "192281fd1b4aeb0910fb9b52c4d7a4962667b897abc25c17a9faf0da7b7241cc",
+    "__main__.py": "e3501cb3b5b91ba08959982710396a3577f5d05b29ad6a460e84da1cc7638528"
+  },
+  "contract_sha256": "b2e40965cfd426d503dc579825dcfc37541fafc34594ff5d98f99e53ba5c4d0c"
+}

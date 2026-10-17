@@ -1,0 +1,19 @@
+{
+  "command": "run",
+  "release_root": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public",
+  "panels": [
+    "D12_I5_N"
+  ],
+  "output": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\dev_20261016_160422",
+  "fit_start": "2030-06-01",
+  "fit_end": "2030-12-31",
+  "max_fit_days": null,
+  "sample_per_day": 1000,
+  "rounds": 350,
+  "threads": 4,
+  "max_gap_minutes": 60,
+  "seed": 20261016,
+  "eval_start": "2031-01-01",
+  "eval_end": "2031-01-31",
+  "max_eval_days": null
+}

@@ -1,0 +1,33 @@
+{
+  "command": "all-baseline-resume",
+  "panels": [
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I210_E",
+    "D7_I210_W",
+    "D7_I405_N",
+    "D7_I405_S",
+    "D12_I5_N",
+    "D12_I5_S",
+    "D12_I405_N",
+    "D12_I405_S"
+  ],
+  "release_root": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public",
+  "output": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\all_baseline_resume_20261017_011520_258735",
+  "cache_dir": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\cache\\task1",
+  "fit_start": "2030-06-01",
+  "fit_end": "2030-12-31",
+  "eval_start": "2031-01-01",
+  "eval_end": "2031-01-31",
+  "max_fit_days": null,
+  "max_eval_days": null,
+  "sample_per_day": 1000,
+  "rounds": 350,
+  "threads": 4,
+  "max_gap_minutes": 60,
+  "seed": 20261016,
+  "fusion_rules": {
+    "Fusion_mean50": "0.5 * residual + 0.5 * direct for both channels",
+    "Fusion_gap60mean": "speed bracketing span >60min or missing side: direct; otherwise 50/50 mean, both channels"
+  }
+}

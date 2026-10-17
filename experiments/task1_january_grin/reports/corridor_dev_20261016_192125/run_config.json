@@ -1,0 +1,26 @@
+{
+  "command": "corridor-validate",
+  "release_root": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public",
+  "panels": [
+    "D7_I405_N"
+  ],
+  "output": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\corridor_dev_20261016_192125",
+  "fit_start": "2030-06-01",
+  "fit_end": "2030-12-31",
+  "max_fit_days": null,
+  "sample_per_day": 1000,
+  "rounds": 350,
+  "threads": 4,
+  "max_gap_minutes": 60,
+  "seed": 20261016,
+  "eval_start": "2031-01-01",
+  "eval_end": "2031-01-31",
+  "max_eval_days": null,
+  "cache_dir": "cache\\task1",
+  "no_log": false,
+  "fusion_rules": {
+    "Fusion_mean50": "0.5 * residual + 0.5 * direct for both channels",
+    "Fusion_gap60mean": "speed bracketing span >60min or missing side: direct; otherwise 50/50 mean, both channels"
+  },
+  "validation_type": "Same procedure, independently trained on the new corridor; not zero-shot model transfer"
+}

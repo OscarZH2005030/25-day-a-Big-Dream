@@ -1,0 +1,14 @@
+{
+  "experiment": "grin_hybrid",
+  "panel": "D7_I405_N",
+  "rule": "finite speed bracketing gap >60min: GRIN; otherwise frozen baseline; missing side stays baseline",
+  "reference_passed": true,
+  "methods": [
+    "Fusion_gap60mean",
+    "GRIN",
+    "Baseline_GRIN_gap60"
+  ],
+  "evaluated_rows": 819695,
+  "gated_rows": 17655,
+  "grin_source": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\grin_hybrid_d7_20261017_143642\\grin_run"
+}

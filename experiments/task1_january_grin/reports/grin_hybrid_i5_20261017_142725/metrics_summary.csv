@@ -1,0 +1,4 @@
+method,S_state,panel_count,family_count,all_regimes_present
+Baseline_GRIN_gap60,0.9294105052531005,1,1,True
+Fusion_gap60mean,0.928029407607709,1,1,True
+GRIN,0.9179904992603247,1,1,True

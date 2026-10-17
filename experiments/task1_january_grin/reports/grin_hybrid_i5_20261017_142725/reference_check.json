@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "method": "Fusion_gap60mean",
+      "passed": true,
+      "max_absolute_difference": {
+        "n": 0.0,
+        "S_state": 1.1102230246251565e-16,
+        "rmse_speed_kmh": 0.0,
+        "rmse_flow_per_lane": 0.0
+      },
+      "tolerance": 1e-07
+    },
+    {
+      "method": "GRIN",
+      "passed": true,
+      "max_absolute_difference": {
+        "n": 0.0,
+        "S_state": 1.1102230246251565e-16,
+        "rmse_speed_kmh": 0.0,
+        "rmse_flow_per_lane": 0.0
+      },
+      "tolerance": 1e-07
+    }
+  ],
+  "baseline_check": "all regimes reproduced"
+}

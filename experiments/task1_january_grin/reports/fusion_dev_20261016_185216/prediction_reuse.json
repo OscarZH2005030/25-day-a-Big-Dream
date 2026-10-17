@@ -1,0 +1,14 @@
+[
+  {
+    "panel": "D12_I5_N",
+    "evaluation_key": "ed7f9af63b7984ca94471e4308b2c70f9c8168a4802fc3e12bfa152bc38d3038",
+    "evaluation_cache_hit": true,
+    "prediction_sources": {
+      "B2_multihop": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\evaluation\\D12_I5_N\\B2_multihop_predictions.parquet",
+      "Direct_multihop": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\evaluation\\D12_I5_N\\Direct_multihop_predictions.parquet"
+    },
+    "target_rows": 550149,
+    "gap_gate_direct_rows": 82486,
+    "retrained": false
+  }
+]

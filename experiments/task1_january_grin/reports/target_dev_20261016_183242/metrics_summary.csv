@@ -1,0 +1,9 @@
+method,S_state,panel_count,family_count,all_regimes_present
+B0_history,0.5774713093647117,1,1,True
+B1_interpolation,0.8975184266239239,1,1,True
+B2_congestion,0.9250282922629731,1,1,True
+B2_lightgbm,0.9232198444558734,1,1,True
+B2_multihop,0.925986283090204,1,1,True
+Direct_baseline,0.9228586489893429,1,1,True
+Direct_congestion,0.9248345784790443,1,1,True
+Direct_multihop,0.9260350780613219,1,1,True

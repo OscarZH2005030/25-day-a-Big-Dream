@@ -1,0 +1,20 @@
+{
+  "experiment": "cross_corridor_review",
+  "sources": [
+    "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242",
+    "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\corridor_dev_20261016_192125"
+  ],
+  "fit_start": "2030-06-01",
+  "fit_end": "2030-12-31",
+  "eval_start": "2031-01-01",
+  "eval_end": "2031-01-31",
+  "retrained": false,
+  "new_I5_calculation": "Reuse existing residual/direct predictions; gap>60min or missing side selects direct, otherwise 50/50 mean",
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261016,
+    "unit": "paired whole calendar day across regimes",
+    "recompute": "Count-weighted MSE within regime, then equal regime score mean",
+    "limitation": "Exploratory within-January interval; daily serial dependence and model-selection uncertainty are not modeled"
+  }
+}

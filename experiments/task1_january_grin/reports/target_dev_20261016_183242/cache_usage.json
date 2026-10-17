@@ -1,0 +1,11 @@
+[
+  {
+    "panel": "D12_I5_N",
+    "training_key": "8101f3e541df5c3f35598ee209fb10900a2b25bde9839fc722446e733af77f13",
+    "training_hit": true,
+    "evaluation_key": "ed7f9af63b7984ca94471e4308b2c70f9c8168a4802fc3e12bfa152bc38d3038",
+    "evaluation_hit": true,
+    "direct_labels_key": "9e7299099f4377bd1cc8d071348f35f7523618cd5e8454fd3aa144d8cb3d8a7f",
+    "direct_labels_hit": false
+  }
+]

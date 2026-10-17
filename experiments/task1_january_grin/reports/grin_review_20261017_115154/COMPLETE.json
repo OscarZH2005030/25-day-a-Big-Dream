@@ -1,0 +1,7 @@
+{
+  "experiment": "grin_posthoc_review",
+  "source_controls_reproduced": true,
+  "evaluated_rows": 550149,
+  "hybrid_gated_rows": 10331,
+  "retrained": false
+}

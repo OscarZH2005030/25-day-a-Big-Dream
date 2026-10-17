@@ -1,0 +1,18 @@
+{
+  "experiment": "multihop_fusion",
+  "panels": [
+    "D12_I5_N"
+  ],
+  "source_run": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242",
+  "controls": [
+    "B2_multihop",
+    "Direct_multihop"
+  ],
+  "rules": {
+    "Fusion_channels": "speed=residual; flow=direct",
+    "Fusion_mean50": "0.5 * residual + 0.5 * direct for both channels",
+    "Fusion_gap30": "speed bracketing span <=30min: residual; >30min or missing side: direct, both channels"
+  },
+  "reference_passed": true,
+  "retrained": false
+}

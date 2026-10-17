@@ -1,0 +1,10 @@
+{
+  "experiment": "cross_corridor_review",
+  "panels": [
+    "D12_I5_N",
+    "D7_I405_N"
+  ],
+  "I5_controls_and_mean50_reproduced": true,
+  "D7_original_log_verified": true,
+  "retrained": false
+}

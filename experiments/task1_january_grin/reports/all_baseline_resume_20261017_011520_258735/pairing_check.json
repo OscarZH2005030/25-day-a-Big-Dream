@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "panel": "D7_I10_E",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "a3f2e8f899c583db887d8679f445858a15f5d8b3748db47ea6840c2ef7719d69",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D7_I10_W",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "6afba7f814adf758f9076182e688844eac79976f663c8c661e15a39e42d8b38b",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D7_I210_E",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "b0c88b2d0f5d4d4e44b204184c928feaa8f0e487cc067c9413edc3151b9d6314",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D7_I210_W",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "46d5aac3f3f5d1ed4c362ee2f7da7033241e94b99988ef6e30fc8cebf5177f6c",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D7_I405_N",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "8f75f4c97929432adf12d390cdc7350f86d394136c1247718f7b2873e1faa029",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D7_I405_S",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "ed768596d2ccdb5a5806616120dca604d05ecdb64a164494b80c0092fa9d2345",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D12_I5_N",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "cc2dcdabeef1cda91d17f619c6575b110c6de6de8d3fe77e928a2993a77c4a39",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D12_I5_S",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "e68606a3d520446b237ab94af3b2aacd49ecc5fefcc4dd389b553c89d921acb7",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D12_I405_N",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "6d963daee6e13b3ec8ff8667d9862ffc25a4372d65d0e2783127e857e189b8a2",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    },
+    {
+      "panel": "D12_I405_S",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "3cdd3935a6dc75e0a4c77ccda030dac2d33d5168dacc71709e37706266632659",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    }
+  ]
+}

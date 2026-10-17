@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "panel": "D7_I405_N",
+      "passed": true,
+      "n_features": 86,
+      "training_rows": 214000,
+      "sample_sha256": "8f75f4c97929432adf12d390cdc7350f86d394136c1247718f7b2873e1faa029",
+      "parameters": {
+        "objective": "regression",
+        "metric": "rmse",
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_data_in_leaf": 50,
+        "max_bin": 127,
+        "feature_fraction": 0.9,
+        "bagging_fraction": 0.8,
+        "bagging_freq": 1,
+        "lambda_l2": 1.0,
+        "seed": 20261016,
+        "deterministic": true,
+        "force_col_wise": true,
+        "num_threads": 4,
+        "verbosity": -1
+      },
+      "rounds": 350,
+      "feature_variant": "multihop",
+      "target_modes": [
+        "residual",
+        "direct"
+      ]
+    }
+  ]
+}

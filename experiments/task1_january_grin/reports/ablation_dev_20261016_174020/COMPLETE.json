@@ -1,0 +1,11 @@
+{
+  "panels": [
+    "D12_I5_N"
+  ],
+  "variants": [
+    "baseline",
+    "multihop",
+    "congestion"
+  ],
+  "note": "One-at-a-time feature ablations; all variants share training rows and model parameters."
+}

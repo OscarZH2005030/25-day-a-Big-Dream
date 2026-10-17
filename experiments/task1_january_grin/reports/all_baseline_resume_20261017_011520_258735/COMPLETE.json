@@ -1,0 +1,26 @@
+{
+  "experiment": "all_task1_baseline",
+  "panels": [
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I210_E",
+    "D7_I210_W",
+    "D7_I405_N",
+    "D7_I405_S",
+    "D12_I5_N",
+    "D12_I5_S",
+    "D12_I405_N",
+    "D12_I405_S"
+  ],
+  "methods": [
+    "B2_multihop",
+    "Direct_multihop",
+    "Fusion_mean50",
+    "Fusion_gap60mean"
+  ],
+  "fusion_rules": {
+    "Fusion_mean50": "0.5 * residual + 0.5 * direct for both channels",
+    "Fusion_gap60mean": "speed bracketing span >60min or missing side: direct; otherwise 50/50 mean, both channels"
+  },
+  "pairing_passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "best_epoch": 16,
+  "best_dev_S_state": 0.9006063768374689,
+  "checkpoint_selection": "January S_state; no January gradient updates; February untouched",
+  "training_rows": 214000,
+  "nodes": 352,
+  "parameters": 76716,
+  "window": 48,
+  "stride": 24
+}

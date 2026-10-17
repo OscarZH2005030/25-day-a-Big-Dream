@@ -1,0 +1,21 @@
+{
+  "python": "3.14.8",
+  "packages": {
+    "torch": "2.10.0+cu128",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0"
+  },
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "source_sha256": {
+    "task1\\grin\\data.py": "949643668ed6bf01ffccc1cc9ccba1a10c54c18a1ce7cd5b588506876f76aead",
+    "task1\\grin\\log.py": "24a27e345bad97e15a47a4262b0e00271d819d6dc015dde7c743b20766b21563",
+    "task1\\grin\\model.py": "1c350d3e35cb95beadc4c32c4533f1dde48a3d9bbbc48c78060713a18c7a5ff4",
+    "task1\\grin\\runner.py": "4a533216efb1e9e655413bcba8fbef8e27797a384e3ac9ff43ffda918b06b513",
+    "task1\\grin\\__init__.py": "26ef09c26adfcd70ea4587d11a6786a9e1f11b28c9ab11d925c8e549e3939699",
+    "task1\\grin\\__main__.py": "827c5fc28f92e7233a65602f78107843c94773eda7884870e5ddc279c473f864"
+  },
+  "metric_sha256": "f38df04db4e3091bf787155a4236225185ad96d4d09c71fe7049c3f00b9dfa35",
+  "architecture_reference": "https://github.com/Graph-Machine-Learning-Group/grin"
+}

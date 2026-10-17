@@ -1,0 +1,13 @@
+{
+  "experiment": "grin_dev",
+  "panel": "D7_I405_N",
+  "methods": [
+    "GRIN",
+    "B2_multihop",
+    "Direct_multihop",
+    "Fusion_mean50",
+    "Fusion_gap60mean"
+  ],
+  "evaluation_rows": 819695,
+  "best_epoch": 16
+}

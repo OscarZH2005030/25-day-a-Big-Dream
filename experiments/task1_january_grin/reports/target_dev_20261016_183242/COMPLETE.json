@@ -1,0 +1,17 @@
+{
+  "experiment": "target_comparison",
+  "panels": [
+    "D12_I5_N"
+  ],
+  "variants": [
+    "baseline",
+    "multihop",
+    "congestion"
+  ],
+  "target_modes": [
+    "residual",
+    "direct"
+  ],
+  "pairing_passed": true,
+  "note": "Fixed-budget comparison; no claims about the optimal hyperparameters for either target mode."
+}

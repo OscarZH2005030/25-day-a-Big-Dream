@@ -1,0 +1,22 @@
+{
+  "python": "3.14.8",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1"
+  },
+  "source_sha256": {
+    "audit.py": "4030649f1c7a9f92ace54656f8c15d5fce4a9537f92ca2f58fed51892185c880",
+    "cache.py": "05a6e413272a05101612e7ffb870af6f4f3274e329cae4dd2190f434c99a23d8",
+    "cache_builder.py": "99b4be352af7c39f2f70d45c823bdc7bd018cb662cbdb207e1d36d796e92e773",
+    "data.py": "093cf69989f7be2ab2274fae57e571b57fc3be94323f2261786bd389b752bf75",
+    "experiments.py": "94879cfa4922a29cef61264aeef90a971edab33735b399db44cd3795e6062d94",
+    "features.py": "9c2775070762f82d53652faf9e84802e519ca581e85e100cfb84b4d465e908d1",
+    "metrics.py": "f38df04db4e3091bf787155a4236225185ad96d4d09c71fe7049c3f00b9dfa35",
+    "pipeline.py": "afe2ef635fe7762e31c2fc098237c3ea7b651d472f7aa426d18d77fb0fa02c4d",
+    "__init__.py": "192281fd1b4aeb0910fb9b52c4d7a4962667b897abc25c17a9faf0da7b7241cc",
+    "__main__.py": "95156b62bf9610136cac326fe0f63557bed235df2d002cf82b0f2f3923e66ad9"
+  }
+}

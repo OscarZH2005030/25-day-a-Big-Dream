@@ -1,0 +1,6 @@
+method,S_state,panel_count,family_count,all_regimes_present
+B2_multihop,0.9129941407742238,1,1,True
+Direct_multihop,0.9143352726831958,1,1,True
+Fusion_gap60mean,0.9150510860888365,1,1,True
+Fusion_mean50,0.914878633158967,1,1,True
+GRIN,0.9006063768374689,1,1,True

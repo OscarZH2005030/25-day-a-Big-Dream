@@ -1,0 +1,4 @@
+method,S_state,panel_count,family_count,all_regimes_present
+B0_history,0.5774713093647117,1,1,True
+B1_interpolation,0.8975184266239239,1,1,True
+B2_lightgbm,0.9232198444558734,1,1,True

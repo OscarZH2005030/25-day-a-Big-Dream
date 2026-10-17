@@ -1,0 +1,197 @@
+[
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_01.parquet",
+    "bytes": 2601501,
+    "sha256": "88d33d3d6723de7a40e319c214557c00260d610470d3a1196568755bb0576188"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_02.parquet",
+    "bytes": 2580286,
+    "sha256": "570a294ab402bd8d57f6895bf64737b01e22d8ac55d367acfc43baf529975035"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_03.parquet",
+    "bytes": 2621722,
+    "sha256": "85058403ed9aa6ed1dfbc5fc498397e4b12aaaf0d99194c1e5c40cdf42b757d3"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_04.parquet",
+    "bytes": 2544464,
+    "sha256": "03c9fc04783903f783a53d28c9398448de0693e47d6a0f4206b36c120c0f13db"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_05.parquet",
+    "bytes": 2567795,
+    "sha256": "6728c4c17946879eb63b538414d8d006170902aae15a180e01b95d994460eca9"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_06.parquet",
+    "bytes": 2616739,
+    "sha256": "c1386dd6e732857542be4c7ff96f29d488d36cd3b4c7302330e277b4be1a63cd"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_07.parquet",
+    "bytes": 2621555,
+    "sha256": "84e6a7072ce263883f4d5539c2fe48bb82267365d25607c5376c2e71dd40f156"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_08.parquet",
+    "bytes": 2624027,
+    "sha256": "033203b051114d5ded965173964c1b961538b64d27d6b0b886b722ef2f36e21c"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_09.parquet",
+    "bytes": 2557128,
+    "sha256": "8472730e50aa3130da7542ffd21c14dcea640fb7e2cc5adca3f5515897aa0694"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_10.parquet",
+    "bytes": 2564345,
+    "sha256": "1d0fed65dfe24f75f24794f738c9659eef4530d63bffb023cd8785b8b6eae9b2"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_11.parquet",
+    "bytes": 2603859,
+    "sha256": "cc7a8ae9c6ad1eeb265701a2422b39918ba1a5fb5301631f5a4f0fbe0a868ad4"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_12.parquet",
+    "bytes": 2615993,
+    "sha256": "53166f42625d2218569dc94f5fe6642d98b103d83707edc641889fd9c0cb8f4a"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_13.parquet",
+    "bytes": 2618494,
+    "sha256": "c9f5f0e8510bc1f8670da8bee229d0986c170b8f78c8eed1e6031e488b19126c"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_14.parquet",
+    "bytes": 2629857,
+    "sha256": "821ab8fcc0eef0857ea31919fe5d19bd42ae04b55867c3da9b749daedaeb66f9"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_15.parquet",
+    "bytes": 2626291,
+    "sha256": "81d5ca9861579f983d7698eac935e470c25cf3d943322599b61c74a35fc1f1ee"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_16.parquet",
+    "bytes": 2627920,
+    "sha256": "a8eec7ab1fca91c391863800242a164fc96c8beb3a0fb1e6240a9f1df1fa8004"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_17.parquet",
+    "bytes": 2631133,
+    "sha256": "3880c030e11d42e886b1b8050d7b7f6ac14bfc25c011cbf14b5559f295ea9fdd"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_18.parquet",
+    "bytes": 2612517,
+    "sha256": "2688fd05badcdef6efb1878389c314a46ba70401c3163c17a3d1112aa6a96f9a"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_19.parquet",
+    "bytes": 2541714,
+    "sha256": "f5197a4c5a5d34ee0b423ae1ad03abe6a4144f91b1243da79b7f5c271e33b2d2"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_20.parquet",
+    "bytes": 2612875,
+    "sha256": "8fb86a2b8c4ec83b8f1c0c8e9a4115ff5823d2b90ea8b6ec46ebe9b1dede7a66"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_21.parquet",
+    "bytes": 2627174,
+    "sha256": "848356c2ff0bc09ecd0d0c07e66085ba760ac64ee463c28ee8693a140867dfa4"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_22.parquet",
+    "bytes": 2567642,
+    "sha256": "8180e963d38073eb56bee4611081ff84b415831bb3da6700e29e1d224d37a1b3"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_23.parquet",
+    "bytes": 2526988,
+    "sha256": "90d5786e29ebf61d49820a64a033879187cee89339e2ab41a336655ba4814daf"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_24.parquet",
+    "bytes": 2573256,
+    "sha256": "c76a6e244557375751a8c451e4b3f7830abb4d37b21995664e14612dfc313b21"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_25.parquet",
+    "bytes": 2543353,
+    "sha256": "a046bc0e27c1c22e037b99a9f5f2b0ed8baed9a6c550cbac0799d41d37168660"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_26.parquet",
+    "bytes": 2543875,
+    "sha256": "f0b09b05ccef5411d4c68541554280f689a695d38023826f7ba3b97a44534a36"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_27.parquet",
+    "bytes": 2620342,
+    "sha256": "a60d2cd3ad2abd24b02feb5a5ce90e6eea5f38cac32b7abced342994446db170"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_28.parquet",
+    "bytes": 2549627,
+    "sha256": "ff6fe5369bcc8070d7f85377aedee3773beb61f328ea06a223f00768b3f993aa"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_29.parquet",
+    "bytes": 2583427,
+    "sha256": "f3e0339876e70d09e4c3a97ceea12d769acc9f15e9169a689f48d48c9298ab5b"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_30.parquet",
+    "bytes": 2612112,
+    "sha256": "0db5a4ee590a110cc3f63b4890660e7b47f97ffabca3598ce8cfde56af21a09e"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\2026-ieee-big-data-traffic-flow-bench\\kaggle_public\\corridors\\D12_I5_N\\train\\mainline_states\\year_month=2031-01\\synthetic_mainline_2031_01_31.parquet",
+    "bytes": 2612160,
+    "sha256": "74f981e2fb6815c5e6c4ce4b7ca7b6b68afc94a93711240bcd63b0339ef14718"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\cache\\task1\\ed7f9af63b7984ca94471e4308b2c70f9c8168a4802fc3e12bfa152bc38d3038\\manifest.json",
+    "bytes": 24348,
+    "sha256": "5f3ac7970f74886586937b1606faeb377d990797370a03def5e14446f5237377"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\COMPLETE.json",
+    "bytes": 345,
+    "sha256": "d5476ea238c8165bc95c149101cf09315231cdb258532ddf30c6d1d8a77aefec"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\cache_usage.json",
+    "bytes": 402,
+    "sha256": "cde0aec2b885ae94ef6a0b757a6bdcf9a41f41b4f2b9a8d6981be49a38a80d0d"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\evaluation\\D12_I5_N\\B2_multihop_predictions.parquet",
+    "bytes": 10672945,
+    "sha256": "66d9c93883a14dbcfa0f5554b120c0d3e49839d1555e8cdbc177ff9630fc5833"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\evaluation\\D12_I5_N\\Direct_multihop_predictions.parquet",
+    "bytes": 10672941,
+    "sha256": "237f9f8428e9157d512fa5e6a67f7cf9fa405e111c78a8a9b92fb9681f298f1d"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\metrics_by_panel_regime.csv",
+    "bytes": 3328,
+    "sha256": "86b6661f3a7109afaf80ceaa19edfdc4bfff018ef2153e5e975663adfc9cdb15"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\pairing_check.json",
+    "bytes": 17625,
+    "sha256": "ec38b8ea7e42d47cd419383b5b7d89c2e47528e1ec945fbd195a282609e4399a"
+  },
+  {
+    "path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\target_dev_20261016_183242\\run_config.json",
+    "bytes": 668,
+    "sha256": "f46f770126bc23270e8ef7dd31b66398ebbd9588ddf5415b0b4c5b2ae493d52f"
+  }
+]

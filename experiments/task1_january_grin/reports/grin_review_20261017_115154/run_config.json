@@ -1,0 +1,16 @@
+{
+  "experiment": "grin_posthoc_review",
+  "source": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\grin_dev_20261017_015925",
+  "baseline_run": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\cross_corridor_review_20261016_210254",
+  "gate": "GRIN only when gap is finite and >60min; frozen baseline otherwise",
+  "one_side_or_none": "Keep frozen baseline",
+  "gated_rows": 10331,
+  "retrained": false,
+  "threshold_sweep": false,
+  "selection": "Exploratory rule motivated by this same January development result",
+  "next_steps": [
+    "Stabilize GRIN training: lower learning rate and schedule; log original-mask and artificial-mask losses separately",
+    "Evaluate interpolation prior/residual modeling if short-gap errors persist",
+    "Freeze candidate rules before D7_I405_N validation; February remains held out"
+  ]
+}

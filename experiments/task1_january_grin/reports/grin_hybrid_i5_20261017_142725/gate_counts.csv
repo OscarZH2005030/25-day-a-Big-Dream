@@ -1,0 +1,16 @@
+mask_regime,gap,selected_model,n
+R1,15-30min,Fusion_gap60mean,36051
+R1,30-60min,Fusion_gap60mean,4472
+R1,<=15min,Fusion_gap60mean,93297
+R1,>60min,GRIN,822
+R1,one_side_or_none,Fusion_gap60mean,1451
+R2,15-30min,Fusion_gap60mean,63070
+R2,30-60min,Fusion_gap60mean,12795
+R2,<=15min,Fusion_gap60mean,107305
+R2,>60min,GRIN,1670
+R2,one_side_or_none,Fusion_gap60mean,2409
+R3,15-30min,Fusion_gap60mean,90567
+R3,30-60min,Fusion_gap60mean,46960
+R3,<=15min,Fusion_gap60mean,77373
+R3,>60min,GRIN,7839
+R3,one_side_or_none,Fusion_gap60mean,4068

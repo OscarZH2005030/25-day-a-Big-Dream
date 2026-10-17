@@ -1,0 +1,11 @@
+scope,method,S_state,rmse_speed_kmh,rmse_flow_per_lane,source
+10 panels / 5 corridor families; LightGBM only,Fusion_gap60mean,0.9228490305267275,2.1927839968567726,38.85239366239068,reports/all_baseline_resume_20261017_011520_258735/comparison_overall.csv
+10 panels / 5 corridor families; LightGBM only,Fusion_mean50,0.9227677697700412,2.196239128146349,38.8610413852146,reports/all_baseline_resume_20261017_011520_258735/comparison_overall.csv
+10 panels / 5 corridor families; LightGBM only,B2_multihop,0.9217144597779111,2.2407335339831898,38.981342462676615,reports/all_baseline_resume_20261017_011520_258735/comparison_overall.csv
+10 panels / 5 corridor families; LightGBM only,Direct_multihop,0.9214305927950861,2.233089818836391,39.56695711049717,reports/all_baseline_resume_20261017_011520_258735/comparison_overall.csv
+D12_I5_N; January development,Baseline_GRIN_gap60,0.9294105052531005,2.001185612105427,35.69202459837698,reports/grin_hybrid_i5_20261017_142725/comparison_hybrid.csv
+D12_I5_N; January development,Fusion_gap60mean,0.928029407607709,2.052741879471401,36.04091451614188,reports/grin_hybrid_i5_20261017_142725/comparison_hybrid.csv
+D12_I5_N; January development,GRIN,0.9179904992603247,2.3805284795965616,39.90011162659515,reports/grin_hybrid_i5_20261017_142725/comparison_hybrid.csv
+D7_I405_N; January development,Baseline_GRIN_gap60,0.915659036603737,2.2996760660230198,45.21907874369443,reports/grin_hybrid_d7_20261017_143642/comparison_hybrid.csv
+D7_I405_N; January development,Fusion_gap60mean,0.9150510860888365,2.3209850185429572,45.41170110082928,reports/grin_hybrid_d7_20261017_143642/comparison_hybrid.csv
+D7_I405_N; January development,GRIN,0.9006063768374689,2.800274704844887,50.74916026680205,reports/grin_hybrid_d7_20261017_143642/comparison_hybrid.csv

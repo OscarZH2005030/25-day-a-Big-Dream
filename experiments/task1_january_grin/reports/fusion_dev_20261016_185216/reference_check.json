@@ -1,0 +1,26 @@
+[
+  {
+    "panel": "D12_I5_N",
+    "method": "B2_multihop",
+    "passed": true,
+    "max_absolute_difference": {
+      "n": 0.0,
+      "rmse_speed_kmh": 4.440892098500626e-16,
+      "rmse_flow_per_lane": 0.0,
+      "S_state": 1.1102230246251565e-16
+    },
+    "tolerance": 1e-07
+  },
+  {
+    "panel": "D12_I5_N",
+    "method": "Direct_multihop",
+    "passed": true,
+    "max_absolute_difference": {
+      "n": 0.0,
+      "rmse_speed_kmh": 0.0,
+      "rmse_flow_per_lane": 7.105427357601002e-15,
+      "S_state": 0.0
+    },
+    "tolerance": 1e-07
+  }
+]

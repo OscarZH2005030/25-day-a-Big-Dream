@@ -1,0 +1,18 @@
+{
+  "hybrid_daily_wins": 21,
+  "hybrid_daily_losses": 10,
+  "hybrid_daily_ties": 0,
+  "whole_day_bootstrap_95ci": [
+    0.0003283043123245122,
+    0.002817323816688599
+  ],
+  "bootstrap_limitation": "Exploratory January result; does not account for day-to-day dependence or posthoc selection",
+  "original_GRIN_daily": {
+    "wins": 2,
+    "losses": 29
+  },
+  "training_balance_sample": {
+    "sampled_days": 16,
+    "expected_artificial_to_original_ratio": 1.9041375
+  }
+}

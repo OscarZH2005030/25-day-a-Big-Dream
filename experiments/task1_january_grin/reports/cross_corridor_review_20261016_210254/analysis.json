@@ -1,0 +1,506 @@
+{
+  "D12_I5_N": {
+    "daily_comparisons": [
+      {
+        "method": "Fusion_mean50",
+        "control": "B2_multihop",
+        "days": 31,
+        "wins": 28,
+        "losses": 3,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.0012477333803470436,
+          0.0023712261112200815
+        ]
+      },
+      {
+        "method": "Fusion_mean50",
+        "control": "Direct_multihop",
+        "days": 31,
+        "wins": 27,
+        "losses": 4,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.001327114691295872,
+          0.002236759053442877
+        ]
+      },
+      {
+        "method": "Fusion_gap60mean",
+        "control": "B2_multihop",
+        "days": 31,
+        "wins": 28,
+        "losses": 3,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.0012989181488448742,
+          0.0028105599964112593
+        ]
+      },
+      {
+        "method": "Fusion_gap60mean",
+        "control": "Direct_multihop",
+        "days": 31,
+        "wins": 29,
+        "losses": 2,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.001578677447712329,
+          0.002369511853470252
+        ]
+      },
+      {
+        "method": "Fusion_gap60mean",
+        "control": "Fusion_mean50",
+        "days": 31,
+        "wins": 20,
+        "losses": 11,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          1.457935664953558e-05,
+          0.00047038327474426255
+        ]
+      }
+    ],
+    "gap_rmse": {
+      "B2_multihop": [
+        {
+          "gap": "15-30min",
+          "n": 189688,
+          "speed_rmse": 2.2335306820976055,
+          "flow_rmse": 38.660952574647666
+        },
+        {
+          "gap": "30-60min",
+          "n": 64227,
+          "speed_rmse": 2.9846236121258496,
+          "flow_rmse": 43.338349332731426
+        },
+        {
+          "gap": "<=15min",
+          "n": 277975,
+          "speed_rmse": 1.75559314378819,
+          "flow_rmse": 32.80640898459591
+        },
+        {
+          "gap": ">60min",
+          "n": 10331,
+          "speed_rmse": 6.015057933928591,
+          "flow_rmse": 66.16802682050641
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 7928,
+          "speed_rmse": 0.9131182911345126,
+          "flow_rmse": 37.79766680534442
+        }
+      ],
+      "Direct_multihop": [
+        {
+          "gap": "15-30min",
+          "n": 189688,
+          "speed_rmse": 2.3176846070597104,
+          "flow_rmse": 38.54217647180592
+        },
+        {
+          "gap": "30-60min",
+          "n": 64227,
+          "speed_rmse": 2.8954811616202125,
+          "flow_rmse": 42.93172279234566
+        },
+        {
+          "gap": "<=15min",
+          "n": 277975,
+          "speed_rmse": 1.7835956319208497,
+          "flow_rmse": 32.94685324136046
+        },
+        {
+          "gap": ">60min",
+          "n": 10331,
+          "speed_rmse": 5.198100675281229,
+          "flow_rmse": 61.38891293461039
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 7928,
+          "speed_rmse": 0.872179335981133,
+          "flow_rmse": 35.78717149750682
+        }
+      ],
+      "Fusion_mean50": [
+        {
+          "gap": "15-30min",
+          "n": 189688,
+          "speed_rmse": 2.202952946103354,
+          "flow_rmse": 38.30399285028156
+        },
+        {
+          "gap": "30-60min",
+          "n": 64227,
+          "speed_rmse": 2.838537036768779,
+          "flow_rmse": 42.78532797530785
+        },
+        {
+          "gap": "<=15min",
+          "n": 277975,
+          "speed_rmse": 1.7089162142359908,
+          "flow_rmse": 32.60315719709901
+        },
+        {
+          "gap": ">60min",
+          "n": 10331,
+          "speed_rmse": 5.427876928013645,
+          "flow_rmse": 63.06846192975106
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 7928,
+          "speed_rmse": 0.8815736896262154,
+          "flow_rmse": 36.47549773465447
+        }
+      ],
+      "Fusion_gap60mean": [
+        {
+          "gap": "15-30min",
+          "n": 189688,
+          "speed_rmse": 2.202952946103354,
+          "flow_rmse": 38.30399285028156
+        },
+        {
+          "gap": "30-60min",
+          "n": 64227,
+          "speed_rmse": 2.838537036768779,
+          "flow_rmse": 42.78532797530785
+        },
+        {
+          "gap": "<=15min",
+          "n": 277975,
+          "speed_rmse": 1.7089162142359908,
+          "flow_rmse": 32.60315719709901
+        },
+        {
+          "gap": ">60min",
+          "n": 10331,
+          "speed_rmse": 5.198100675281229,
+          "flow_rmse": 61.38891293461039
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 7928,
+          "speed_rmse": 0.872179335981133,
+          "flow_rmse": 35.78717149750682
+        }
+      ]
+    },
+    "congestion_rmse": {
+      "B2_multihop": [
+        {
+          "congested": false,
+          "n": 515121,
+          "speed_rmse": 1.6467709903597094,
+          "flow_rmse": 35.81545051068218
+        },
+        {
+          "congested": true,
+          "n": 35028,
+          "speed_rmse": 6.2279239893311775,
+          "flow_rmse": 53.19374442426564
+        }
+      ],
+      "Direct_multihop": [
+        {
+          "congested": false,
+          "n": 515121,
+          "speed_rmse": 1.6557750860553706,
+          "flow_rmse": 35.50878227946432
+        },
+        {
+          "congested": true,
+          "n": 35028,
+          "speed_rmse": 6.126242428047269,
+          "flow_rmse": 53.82621710932455
+        }
+      ],
+      "Fusion_mean50": [
+        {
+          "congested": false,
+          "n": 515121,
+          "speed_rmse": 1.5960822517209203,
+          "flow_rmse": 35.37545527433318
+        },
+        {
+          "congested": true,
+          "n": 35028,
+          "speed_rmse": 5.969261689349518,
+          "flow_rmse": 52.99280690512603
+        }
+      ],
+      "Fusion_gap60mean": [
+        {
+          "congested": false,
+          "n": 515121,
+          "speed_rmse": 1.5974099971302793,
+          "flow_rmse": 35.30622115187134
+        },
+        {
+          "congested": true,
+          "n": 35028,
+          "speed_rmse": 5.903040491120571,
+          "flow_rmse": 52.9838995401907
+        }
+      ]
+    }
+  },
+  "D7_I405_N": {
+    "daily_comparisons": [
+      {
+        "method": "Fusion_mean50",
+        "control": "B2_multihop",
+        "days": 31,
+        "wins": 31,
+        "losses": 0,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.0015970398364942462,
+          0.0021456852384788947
+        ]
+      },
+      {
+        "method": "Fusion_mean50",
+        "control": "Direct_multihop",
+        "days": 31,
+        "wins": 25,
+        "losses": 6,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.0002912905805065036,
+          0.0008111147109959888
+        ]
+      },
+      {
+        "method": "Fusion_gap60mean",
+        "control": "B2_multihop",
+        "days": 31,
+        "wins": 31,
+        "losses": 0,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.0017529304663041535,
+          0.002336995939982184
+        ]
+      },
+      {
+        "method": "Fusion_gap60mean",
+        "control": "Direct_multihop",
+        "days": 31,
+        "wins": 28,
+        "losses": 3,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.000453068052691738,
+          0.0009904160352625423
+        ]
+      },
+      {
+        "method": "Fusion_gap60mean",
+        "control": "Fusion_mean50",
+        "days": 31,
+        "wins": 25,
+        "losses": 6,
+        "ties": 0,
+        "day_bootstrap_95ci": [
+          0.00012195041582272193,
+          0.00021653850836240716
+        ]
+      }
+    ],
+    "gap_rmse": {
+      "B2_multihop": [
+        {
+          "gap": "15-30min",
+          "n": 291568,
+          "speed_rmse": 2.553400466204949,
+          "flow_rmse": 47.60873111136353
+        },
+        {
+          "gap": "30-60min",
+          "n": 110277,
+          "speed_rmse": 3.3348866921203806,
+          "flow_rmse": 52.78407326015437
+        },
+        {
+          "gap": "<=15min",
+          "n": 387605,
+          "speed_rmse": 2.0544471963865316,
+          "flow_rmse": 43.11233780585543
+        },
+        {
+          "gap": ">60min",
+          "n": 17655,
+          "speed_rmse": 5.788718939709512,
+          "flow_rmse": 76.21922998219573
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 12590,
+          "speed_rmse": 2.2643717664229803,
+          "flow_rmse": 49.24714811036029
+        }
+      ],
+      "Direct_multihop": [
+        {
+          "gap": "15-30min",
+          "n": 291568,
+          "speed_rmse": 2.5078941334802227,
+          "flow_rmse": 47.33861163702211
+        },
+        {
+          "gap": "30-60min",
+          "n": 110277,
+          "speed_rmse": 3.251097519348416,
+          "flow_rmse": 52.093355134479836
+        },
+        {
+          "gap": "<=15min",
+          "n": 387605,
+          "speed_rmse": 2.0492704019194488,
+          "flow_rmse": 43.148292172468274
+        },
+        {
+          "gap": ">60min",
+          "n": 17655,
+          "speed_rmse": 4.978061489843994,
+          "flow_rmse": 70.89654678961516
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 12590,
+          "speed_rmse": 2.165146818359925,
+          "flow_rmse": 49.15884531519981
+        }
+      ],
+      "Fusion_mean50": [
+        {
+          "gap": "15-30min",
+          "n": 291568,
+          "speed_rmse": 2.48272387515769,
+          "flow_rmse": 47.18347834410307
+        },
+        {
+          "gap": "30-60min",
+          "n": 110277,
+          "speed_rmse": 3.234073216448234,
+          "flow_rmse": 52.05969737572531
+        },
+        {
+          "gap": "<=15min",
+          "n": 387605,
+          "speed_rmse": 2.0167886602773666,
+          "flow_rmse": 42.903186586170364
+        },
+        {
+          "gap": ">60min",
+          "n": 17655,
+          "speed_rmse": 5.208063785190982,
+          "flow_rmse": 72.83099370717206
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 12590,
+          "speed_rmse": 2.203913958786773,
+          "flow_rmse": 48.742661033606645
+        }
+      ],
+      "Fusion_gap60mean": [
+        {
+          "gap": "15-30min",
+          "n": 291568,
+          "speed_rmse": 2.48272387515769,
+          "flow_rmse": 47.18347834410307
+        },
+        {
+          "gap": "30-60min",
+          "n": 110277,
+          "speed_rmse": 3.234073216448234,
+          "flow_rmse": 52.05969737572531
+        },
+        {
+          "gap": "<=15min",
+          "n": 387605,
+          "speed_rmse": 2.0167886602773666,
+          "flow_rmse": 42.903186586170364
+        },
+        {
+          "gap": ">60min",
+          "n": 17655,
+          "speed_rmse": 4.978061489843994,
+          "flow_rmse": 70.89654678961516
+        },
+        {
+          "gap": "one_side_or_none",
+          "n": 12590,
+          "speed_rmse": 2.165146818359925,
+          "flow_rmse": 49.15884531519981
+        }
+      ]
+    },
+    "congestion_rmse": {
+      "B2_multihop": [
+        {
+          "congested": false,
+          "n": 762566,
+          "speed_rmse": 2.27384029445092,
+          "flow_rmse": 46.056788403282255
+        },
+        {
+          "congested": true,
+          "n": 57129,
+          "speed_rmse": 5.084376290505914,
+          "flow_rmse": 59.76674846221848
+        }
+      ],
+      "Direct_multihop": [
+        {
+          "congested": false,
+          "n": 762566,
+          "speed_rmse": 2.2271543684867354,
+          "flow_rmse": 45.64128283603326
+        },
+        {
+          "congested": true,
+          "n": 57129,
+          "speed_rmse": 4.845280503056965,
+          "flow_rmse": 59.8919855508277
+        }
+      ],
+      "Fusion_mean50": [
+        {
+          "congested": false,
+          "n": 762566,
+          "speed_rmse": 2.2161225346479565,
+          "flow_rmse": 45.571725696544654
+        },
+        {
+          "congested": true,
+          "n": 57129,
+          "speed_rmse": 4.810622699455052,
+          "flow_rmse": 59.36307380906376
+        }
+      ],
+      "Fusion_gap60mean": [
+        {
+          "congested": false,
+          "n": 762566,
+          "speed_rmse": 2.2114713933490022,
+          "flow_rmse": 45.51078562259728
+        },
+        {
+          "congested": true,
+          "n": 57129,
+          "speed_rmse": 4.759792456638275,
+          "flow_rmse": 59.33903462490235
+        }
+      ]
+    }
+  }
+}
