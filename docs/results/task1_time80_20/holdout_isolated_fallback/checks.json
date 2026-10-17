@@ -1,0 +1,149 @@
+{
+  "training_started": false,
+  "inference_started": false,
+  "temporal_condition_applied": false,
+  "total_holdout_targets": 6636705,
+  "fallback_targets": 1469797,
+  "prediction_keys": "exactly matched between models and all 550 cache key files; no duplicates",
+  "hidden_targets": "all target channel values invisible to input",
+  "exact_channel_routing": "passed",
+  "original_model_graph": "reconstructed from saved model-node order and official topology",
+  "frozen_models": "all ten checkpoint and twenty LightGBM hashes match internal evaluation",
+  "baseline_rmse_max_difference": 7.105427357601002e-15,
+  "baseline_rmse_tolerance": 1e-07,
+  "channel_score_additivity": "passed within 1e-12",
+  "bootstrap": "1000 shared-calendar-day paired resamples; fixed models, seed 2026; descriptive",
+  "independent_previous_structure_sse_reconstruction_max_difference": 1.4210854715202004e-14,
+  "inputs": [
+    {
+      "panel": "D12_I405_N",
+      "targets": 363106,
+      "transformer_prediction_sha256": "9e0d3a715d522b2b76892272184eced86b14258351f013ec7040741b6440dc6f",
+      "lightgbm_prediction_sha256": "a4913f4d35054b85b4ae32b978889dbd5f613fdaefee2bcb124f62a96017602f",
+      "topology_sha256": "be8345f1a580f25285c7db594cb4feb138a8caf468b422b217c05f1b998a1011",
+      "model_sha256": [
+        "268683992d8d8fec5719c5bb527ad1dc37ba3f5c641a662b3789b6b5f3cc6c4f",
+        "5357355a68584325e693b5f99707550b4f343ec4cec54e3bf48008441c65db24",
+        "9eaf690012ffe6c27d4cb520e9667ab2e3e7d29e9cb0702af55890e6c5eccae6"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "targets": 194969,
+      "transformer_prediction_sha256": "4fa5cc337e038f4af589ecf3b942b1be2d8cb0a24fe32245f33283ec66e27f25",
+      "lightgbm_prediction_sha256": "36b90a7d5b675b3e9282a6e4942689a645571aead7758d3b18e78aebe71008a2",
+      "topology_sha256": "7b0c0a29b49d71208409ad719f42d966d8476235627ae74b39d675ee1bbd849e",
+      "model_sha256": [
+        "67943e266d563f9606b2820f8b0f72ddd8a4c9902fba73292105f17913ab6db1",
+        "e24545551f79f9563f89276ce4d745f73c3fbb8c0bfd4a1fea81ff72a39c52be",
+        "2379f39d63320ac0effe2be30733eebd4926452f4e23d10716b2878c291bae50"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "targets": 1004145,
+      "transformer_prediction_sha256": "c0771b8b70badcf18c574b76e6f0a184a347745d15c2f98c4c10b366cdd10adb",
+      "lightgbm_prediction_sha256": "b823b1b262d52f7ece54b0b290912f142f2dd6b7ce0cc9af215281e2fdbfcdca",
+      "topology_sha256": "a49a7a337c57af65aeb4796a2122a06dbd5d7bc5e41cc70f3bedb3151d7c41cd",
+      "model_sha256": [
+        "e01028a2fc087e3537f52ca9969a82503bf0caf72fe4953b354ea75543d7748b",
+        "40babb2a8a8be4619a31647122a63008b1072d2eadf0fa06032e298669af64b5",
+        "58b8b6186a0cada689518c69ba2f846ad1b267475abbbeb451617c625ffdc5a1"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "targets": 415258,
+      "transformer_prediction_sha256": "9d054ad28c9a7e4faf94e286d0cb693ec37e6b64258c726652fac54c2140af50",
+      "lightgbm_prediction_sha256": "facec2a48995c1871a95923db77d6f3a33a4c990ac895606cf1fe089972d47dd",
+      "topology_sha256": "08d70cd76c65c1c6cbeff355fb61281596eff8be9423d839f478368f768cfd95",
+      "model_sha256": [
+        "355d6a3d77e42af108b7d4876320bc008a1117ee93a579b02f20a95044d5ee96",
+        "2d3c701a911cb091279457508dd9ecd2e91b200383936b9281af2823507e05d2",
+        "864237323f52330bce9b666ee5a38b9f69a7efa31c8ab9cf64d6c6d4eda67187"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "targets": 594132,
+      "transformer_prediction_sha256": "92a3a19ce5bdacd49dc8ba207da26568d58f6e159e62d9c8c447e7697b946c54",
+      "lightgbm_prediction_sha256": "867b3194d86886d6f587b3854d727fd89eadbc3b321f821420eda7eb14fa8921",
+      "topology_sha256": "c4db9ffa7dbfcf9e11a03e1b0190dfa20e2bd05ee6f351b37bcad810fad3e57b",
+      "model_sha256": [
+        "350300bed7fa0fcfcc7935632b9b05eb7b72d9ac3f2fc882dbcd3fda70fbb92b",
+        "8b07d9212bbfcb05ffd074417ad39ea77447d0051c8e8ed3c34094fc8443b6fb",
+        "278c4f829eed0dbd9be1807f6ace706c17406690e116c9ab27e1cc829439e76c"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "targets": 445815,
+      "transformer_prediction_sha256": "9f3f880a4e4fc842b82e0ac41373c76843769d2a55d83a0128a65a6f1739a7ab",
+      "lightgbm_prediction_sha256": "fdc8b356c5c44e03384218639b47f95fba67409ee65e191f1e1b32823f6bf9c9",
+      "topology_sha256": "b9a0ef5cd7690de841915817aa47ba66d349521ffce2f9f8e1edd94fa3c0f3ec",
+      "model_sha256": [
+        "2af8d036c7cf91a5c904592b09a4eace26e1ca2e9d0f8d951a0aedfbd3fd1417",
+        "df14b25b0ded1d3861b3f4ffc7abb8918dcf990b97d034c023285fc144fb1141",
+        "2a6019fa878e1a951db10b43e2e29f3d87d814f00c0599b10e1608eb5ed87c7d"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "targets": 1367094,
+      "transformer_prediction_sha256": "2aac3d97856985ab514dfb8b4854bb11a3732c5c24ff31f05c51c03650e19d6a",
+      "lightgbm_prediction_sha256": "ecbf128afd5267638d563a7c9c387fda9a418b0e71736f2ebbb0dfe77fa318b2",
+      "topology_sha256": "f2632aa02d532845808423ffb20453b6a7dc47133f08115ee22965bb4bfb8fb8",
+      "model_sha256": [
+        "61132899cc29e108070b0d45ba9fad92ccc6c9c6009cc3fc45778d056341575b",
+        "6f329ee76de8bab902ec8a134fea3824938adc897ec049b22cf99868a6ac317b",
+        "448c508fca43d8f5a05045f4ccd3fdfb29d8b76f3f5ff0dc33486d68d7baf1c7"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "targets": 344738,
+      "transformer_prediction_sha256": "17de5d632c9e6f881ffe11f10eab124750bc9f557100b54d63300762f523b43f",
+      "lightgbm_prediction_sha256": "c03777cc8dbff1461a7489d45e99457b742306b71eae6fca3f9e3322ecbe4bce",
+      "topology_sha256": "92417ff1963fa3ccfea6e7dd8dc66c06672d529554084416b62e780856ff16f7",
+      "model_sha256": [
+        "d13d2c3661c82958cfd395217c97a8b92bfa6ffb441169f69c75d3697dbeb83d",
+        "e11745eb39b418bb7e6870dbe571e4d4317c03b0cfa3b526fd33e23b6a1ca48e",
+        "f8392aea9f81c9bacd4dbf807084d88580a10e745bdf22eb41244e72bdce89ed"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "targets": 1470896,
+      "transformer_prediction_sha256": "dce6761207010673eaeb2d9bf843c07fb7b81b68420d8a9c7af283cd3110a138",
+      "lightgbm_prediction_sha256": "91f756ff04b633a523dd915ad8c8848e28a3092446060e764d3f48cc40840897",
+      "topology_sha256": "17c9e8dedca538ef0be85931581ae5404315fa0c760613aef00d030524a6f23f",
+      "model_sha256": [
+        "2299d4f0dca34bb817954073b483c5056ff7d746fe23f65e579a9f629aa6e54e",
+        "6de6f74685216e6f9b148478fbf5a4ab649d00be392adc4fe3e61f8b6b08c05a",
+        "3538cee28465707328a9c5acd8f70acf73e660810628c2459d0ab6b147426fa3"
+      ],
+      "frozen_models_match_internal": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "targets": 436552,
+      "transformer_prediction_sha256": "fc9464772afdcdc31b81435013d03e8f659063cc292a6fb874f95bb70abb23d9",
+      "lightgbm_prediction_sha256": "e6a62b0e7cb709180dbe650c946a2ae13814e14886a433ae06934293104ed3bb",
+      "topology_sha256": "31215651b677d43d30382189b0a4b1c3aa89fad431173d7165c3a75a43443f99",
+      "model_sha256": [
+        "3db9ef8e46024c3c538f637fa7804408cd750e941e949840ee28e028020b49af",
+        "db5261e7c0aa20f2d4dee6ecb1dec1fdf340805122df33e658d630e48564aa73",
+        "e3458e8a9328e4f273fb1d4181ad8e39774d62d0537d646e0fc846d90c101c08"
+      ],
+      "frozen_models_match_internal": true
+    }
+  ]
+}

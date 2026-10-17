@@ -1,0 +1,9 @@
+{
+  "captured_utc": "2026-10-17T23:01:01.006647+00:00",
+  "state": "running",
+  "completed_corridors": [],
+  "current": "D12_I405_N",
+  "stage": "crossfit",
+  "final_score_available": false,
+  "note": "Point-in-time snapshot only. No new training launched for this export. Queue timestamp can lag; inspect console.log for live progress."
+}

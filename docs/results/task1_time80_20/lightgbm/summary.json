@@ -1,0 +1,5 @@
+{
+  "corridors": 10,
+  "mean_corridor_S_state": 0.9318948987667433,
+  "note": "Equal-corridor local Task 1 mean, not official total score; identical date split, different optimization/sampling budgets."
+}

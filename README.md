@@ -55,3 +55,12 @@ Task 2 validation and private predictions use the same builder with
 `--split validation` or `--split private`. The Task 2 train IoU is a diagnostic
 proxy, not a Kaggle leaderboard score. Public/private leaderboard scores are
 available only after submitting on Kaggle.
+
+## Task 1 learned baselines and gated residual (local experiments)
+
+See [Task 1 experiment report](docs/TASK1_GATED_RESIDUAL.md) for the shared-51-feature
+LightGBM/graph Transformer comparison, topology-only fallback, per-channel diagnosis,
+and the in-progress cross-fitted gated residual. [Reproduction commands](experiments/task1/README.md)
+use isolated output directories. These use a different local split from Oscar's
+historical-mean baseline; the scores are not directly comparable. No new Kaggle
+submission or Task 3 physics improvement is claimed.

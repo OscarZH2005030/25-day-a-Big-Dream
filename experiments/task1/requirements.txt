@@ -1,0 +1,6 @@
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==26.0.0
+scipy==1.17.1
+lightgbm==4.7.0
+# Install torch separately for the selected platform; recorded run: 2.7.0+cu128.

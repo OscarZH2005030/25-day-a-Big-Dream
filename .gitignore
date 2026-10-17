@@ -7,3 +7,17 @@ __pycache__/
 
 /TrafficFlowBench_Oscar_Baseline_2026-10-17/
 /TrafficFlowBench_Oscar_Baseline_2026-10-17.tar
+
+# Task 1 reproducible source; runtime data stays local.
+/experiments/task1/**/runs/
+/experiments/task1/**/results/
+/experiments/task1/**/holdout_profile/
+/experiments/task1/**/all_cached_profile/
+/experiments/task1/gpu_activity_logs/
+/experiments/task1/**/preflight_validation.json
+/experiments/task1/**/self_checks.json
+*.pt
+*.pth
+*.parquet
+*.npy
+*.npz

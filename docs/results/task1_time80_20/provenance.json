@@ -1,0 +1,352 @@
+{
+  "exported_utc": "2026-10-17T23:01:01.006647+00:00",
+  "sources": [
+    {
+      "path": "experiments/task1/full_dataset_training_v2/full_train_worker.py",
+      "origin": "full_dataset_training_v2/full_train_worker.py",
+      "original_sha256": "8a33c4534f5b43807c316fc6b852985e51ff8ff5605de349a1254cb633a9832c",
+      "repository_sha256": "8a33c4534f5b43807c316fc6b852985e51ff8ff5605de349a1254cb633a9832c",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/full_dataset_training_v2/task1_baseline.py",
+      "origin": "full_dataset_training_v2/task1_baseline.py",
+      "original_sha256": "87e00183397638e3ec175ea1b3d61b7e5c8a5cbc8938de259f1af075ac26cca0",
+      "repository_sha256": "87e00183397638e3ec175ea1b3d61b7e5c8a5cbc8938de259f1af075ac26cca0",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/full_dataset_training_v2/train_all_corridors.py",
+      "origin": "full_dataset_training_v2/train_all_corridors.py",
+      "original_sha256": "ec43c9531db0cca5b558e895d84b65a7e0e9e239cb7f92248b6046ecf7b3f247",
+      "repository_sha256": "ec43c9531db0cca5b558e895d84b65a7e0e9e239cb7f92248b6046ecf7b3f247",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/full_dataset_training_v2/training_io.py",
+      "origin": "full_dataset_training_v2/training_io.py",
+      "original_sha256": "38c1365709a03cb1dfdc929fa4897e47a7437a90a85281aad8378fc274e19525",
+      "repository_sha256": "38c1365709a03cb1dfdc929fa4897e47a7437a90a85281aad8378fc274e19525",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/lightgbm_time80_20/train_lightgbm.py",
+      "origin": "lightgbm_time80_20/train_lightgbm.py",
+      "original_sha256": "554cf4254e8c238faf26d4d620af4f7acd771f758d9ebf54f42fba36a2974272",
+      "repository_sha256": "b4777dec47afb6a82b3b34d09dea7af18175e2dc433439bea5782aa43dc7c97b",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/common.py",
+      "origin": "lgb_gated_residual_v1/common.py",
+      "original_sha256": "c309f8c6582b2ad85ccfcd3849ecd48a13df2eaf66460636a679632209fa0a83",
+      "repository_sha256": "4b33983630fa7f017852c81cdce934ad9f31d672d2bb118540b184cf3e337ce4",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/crossfit.py",
+      "origin": "lgb_gated_residual_v1/crossfit.py",
+      "original_sha256": "00ee3a504524d4d2ef05afafa3a406d30ff5c22edcd3140b9536831cd09ded16",
+      "repository_sha256": "00ee3a504524d4d2ef05afafa3a406d30ff5c22edcd3140b9536831cd09ded16",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/dataset.py",
+      "origin": "lgb_gated_residual_v1/dataset.py",
+      "original_sha256": "ef9e50bb6c612bfcfa4abdbead3617ccf0c0edb2cebad39accd6c646373dfe92",
+      "repository_sha256": "ef9e50bb6c612bfcfa4abdbead3617ccf0c0edb2cebad39accd6c646373dfe92",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/model.py",
+      "origin": "lgb_gated_residual_v1/model.py",
+      "original_sha256": "bbf798ad18add68df2802554b324f4f6df5bbf4fe33688718c25caec57089286",
+      "repository_sha256": "bbf798ad18add68df2802554b324f4f6df5bbf4fe33688718c25caec57089286",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/neural.py",
+      "origin": "lgb_gated_residual_v1/neural.py",
+      "original_sha256": "f5806f1117b30d21712c0830e58c2275123181e295dbe592499d65f005045167",
+      "repository_sha256": "f5806f1117b30d21712c0830e58c2275123181e295dbe592499d65f005045167",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/run_pipeline.py",
+      "origin": "lgb_gated_residual_v1/run_pipeline.py",
+      "original_sha256": "461470d62ff28639c9be0e3177503bf090b25a24dac8707b39924cde3f90e88c",
+      "repository_sha256": "461470d62ff28639c9be0e3177503bf090b25a24dac8707b39924cde3f90e88c",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/lgb_gated_residual_v1/self_checks.py",
+      "origin": "lgb_gated_residual_v1/self_checks.py",
+      "original_sha256": "c159c7bcaca019b1604abb2ed2aeed08a418f9915386fb92fd51f9f697eb0c6c",
+      "repository_sha256": "c159c7bcaca019b1604abb2ed2aeed08a418f9915386fb92fd51f9f697eb0c6c",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/internal_gap_switch/bootstrap_switch.py",
+      "origin": "internal_gap_switch/bootstrap_switch.py",
+      "original_sha256": "28c04747c12287c7ed1de1a97ddb98c73c51daf08310fcf93f317168ebe3a578",
+      "repository_sha256": "28c04747c12287c7ed1de1a97ddb98c73c51daf08310fcf93f317168ebe3a578",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/internal_gap_switch/evaluate_switch.py",
+      "origin": "internal_gap_switch/evaluate_switch.py",
+      "original_sha256": "9b16a830eccea9338eddfe556ed6bd6c7aea4bafb79bcca5fc8801146d74f610",
+      "repository_sha256": "fbb99cf28841d29a8f7ba0b53c165ed512ef4b122937874b9e29d6a0959d8463",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/internal_gap_switch/summarize_switch.py",
+      "origin": "internal_gap_switch/summarize_switch.py",
+      "original_sha256": "9ad89cc47dfd17b67b1df6d245089d1f1b335f22109c17d37db796cff4d5bbeb",
+      "repository_sha256": "9ad89cc47dfd17b67b1df6d245089d1f1b335f22109c17d37db796cff4d5bbeb",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/internal_fallback_switch/evaluate_fallback.py",
+      "origin": "internal_fallback_switch/evaluate_fallback.py",
+      "original_sha256": "dab23fe25ea26f3827a731ceddcdca2444e148380072c7984610dcf52ddf26b9",
+      "repository_sha256": "d51c02fbea74e65c2b7ef07669e84111b487753d681f87dedb077d2a90b5be5a",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/internal_fallback_switch/write_report.py",
+      "origin": "internal_fallback_switch/write_report.py",
+      "original_sha256": "beaeef516cda15b8807faa1ac5e95f779d4d18a74102a54ae8cefad107bc5d5e",
+      "repository_sha256": "beaeef516cda15b8807faa1ac5e95f779d4d18a74102a54ae8cefad107bc5d5e",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/holdout_isolated_fallback/evaluate_holdout.py",
+      "origin": "holdout_isolated_fallback/evaluate_holdout.py",
+      "original_sha256": "935b9dce092f17f19cd4bd0f678a375c9771321aaef858c84c069490ab7befab",
+      "repository_sha256": "1516d2b2c8205183a4087223581b0a97bb8c8f02938b2819d9feceb40722c65f",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/holdout_isolated_fallback/verify_and_report.py",
+      "origin": "holdout_isolated_fallback/verify_and_report.py",
+      "original_sha256": "bb656cdc9107e43f8df878b76779c2b1105905f07b53d620e7f096ed02fe8397",
+      "repository_sha256": "9da6e98e53e16afc8a7afc2ebc93782d59bebe0584cc2c88c046257bf31fe933",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/remaining_four_diagnosis/analyze_remaining.py",
+      "origin": "remaining_four_diagnosis/analyze_remaining.py",
+      "original_sha256": "d88a4a5243ae3d2420eede1c984ee3f260aa4a304c9d44982ae6a526c7ecb8b5",
+      "repository_sha256": "c0e6494b029ebc35cd0ac23a1077ebf640f23d15fe75bec74d08ac7f2d2f6dae",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/remaining_four_diagnosis/summarize_patterns.py",
+      "origin": "remaining_four_diagnosis/summarize_patterns.py",
+      "original_sha256": "ce42c7cbc5ab41067f533695b2e01242fed20b80f32aad528f8cee21a9851a9a",
+      "repository_sha256": "ce42c7cbc5ab41067f533695b2e01242fed20b80f32aad528f8cee21a9851a9a",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/remaining_four_diagnosis/write_report.py",
+      "origin": "remaining_four_diagnosis/write_report.py",
+      "original_sha256": "906f7e880f1cfa7790a8fe83cddad6c126621e0ee5ee902d55b0b70e420b94fc",
+      "repository_sha256": "906f7e880f1cfa7790a8fe83cddad6c126621e0ee5ee902d55b0b70e420b94fc",
+      "adaptation": "none; byte-identical"
+    },
+    {
+      "path": "experiments/task1/missing_data_filter/filter_targets.py",
+      "origin": "missing_data_filter/filter_targets.py",
+      "original_sha256": "e13428b1381a5b053983d08b7b13747e27c61bed4748b4fe92a33e16e39c4479",
+      "repository_sha256": "0c5978ca727abd3dd3eb15b300130b0f712772428e5b45f9a2143f9e9d2dbe55",
+      "adaptation": "portable path defaults and LF line endings only"
+    },
+    {
+      "path": "experiments/task1/run_gated_residual_with_gpu_activity.py",
+      "origin": "gpu_companion/run_gated_residual_with_gpu_activity.py",
+      "original_sha256": "0df2cf76b44474b058c1fa70dab149558827065d48aa0fcdf376e936b7bf8699",
+      "repository_sha256": "0df2cf76b44474b058c1fa70dab149558827065d48aa0fcdf376e936b7bf8699",
+      "adaptation": "none; byte-identical"
+    }
+  ],
+  "immutable_artifacts": [
+    {
+      "path": "docs/results/task1_time80_20/transformer/all_metrics.csv",
+      "sha256": "e63039abb633a506ba2f1a9d5810504387a0f21c4aa85dcdd7a16d16b47a0be4",
+      "bytes": 4733
+    },
+    {
+      "path": "docs/results/task1_time80_20/transformer/summary.json",
+      "sha256": "4a6dcf411982d9b4fdb811a1d408c594922fe7134459345b00b87719007cf87d",
+      "bytes": 186
+    },
+    {
+      "path": "docs/results/task1_time80_20/transformer/environment_pip_freeze.txt",
+      "sha256": "5fa7ed58bd5e0d9fc7f30932afae0562eb799faa58edf027951b9bac5a0bbf93",
+      "bytes": 397
+    },
+    {
+      "path": "docs/results/task1_time80_20/lightgbm/all_metrics.csv",
+      "sha256": "02d2d6e7079acc14a40121ca0ee84220022d9a682f4d5bcf62cdff0c2d9fbb4d",
+      "bytes": 4727
+    },
+    {
+      "path": "docs/results/task1_time80_20/lightgbm/comparison.csv",
+      "sha256": "8502677b39d7c1805e187a8874ea8e8d018238bfd50135a5ad30b5a182060abe",
+      "bytes": 758
+    },
+    {
+      "path": "docs/results/task1_time80_20/lightgbm/summary.json",
+      "sha256": "a8fc07d3e80896905db93526fbdcfa8cca22cdbce9d2a4d84433addbd97bd9a0",
+      "bytes": 208
+    },
+    {
+      "path": "docs/results/task1_time80_20/lightgbm/environment_pip_freeze.txt",
+      "sha256": "5fa7ed58bd5e0d9fc7f30932afae0562eb799faa58edf027951b9bac5a0bbf93",
+      "bytes": 397
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_gap_switch/comparison.csv",
+      "sha256": "c8835205ac26909a5c28c274654a709f845ed1a7e3abf7ac604af3981a4df267",
+      "bytes": 1600
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_gap_switch/all_metrics.csv",
+      "sha256": "bfb69985dfcdf6dd7496063489ec18538e60f0f59c75a787668c71d72cf972f3",
+      "bytes": 22379
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_gap_switch/all_channel_metrics.csv",
+      "sha256": "3a4a9e9a4c7264ab4e8fe6860900bc3be905136a524f6fda3ac42ac68394ffff",
+      "bytes": 88867
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_gap_switch/method_summary.csv",
+      "sha256": "a595b3c743c21e1bf149c3c502d6b6f091607093577484acd9d6414840412d5c",
+      "bytes": 291
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_gap_switch/routing_counts.csv",
+      "sha256": "6495b8a92a2389b02993189e2c7b79023b92cd9772c02ac6f08ae21956de3fc0",
+      "bytes": 2791
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_gap_switch/definition_alignment_counts.csv",
+      "sha256": "c5ffc094dd699f0b2f2eaa2f4cea0cafefbc2e3c20baabae95a2829901669e67",
+      "bytes": 890
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_fallback_switch/comparison.csv",
+      "sha256": "fbe6f97587556f534f44c88ffe3b12641e15ff92280969ae05b418e5b6dd9928",
+      "bytes": 2880
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_fallback_switch/method_summary.csv",
+      "sha256": "24b305018693936b01047bda64da272c0f6b0c7aa369c119f96838e26c7709b7",
+      "bytes": 1395
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_fallback_switch/regime_metrics.csv",
+      "sha256": "34db0d212964b44fd524b628d12598d270b922966b381c57cc0e295c56449678",
+      "bytes": 31028
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_fallback_switch/corridor_channel_comparison.csv",
+      "sha256": "47119aa288dfc5a898049d141d1efa62b353b948bd9aae192769f8426a299c98",
+      "bytes": 4977
+    },
+    {
+      "path": "docs/results/task1_time80_20/internal_fallback_switch/routing_counts.csv",
+      "sha256": "76ca4ab346ef6f04a1735f966c7f7469d19540ad8ea4ea867f2b1f47773a78bd",
+      "bytes": 4777
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/ten_corridor_comparison.csv",
+      "sha256": "c17f708ca6259f7a4ff8ffe0c91c813de17a74bf89094671ef3b028f389a2f85",
+      "bytes": 2216
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/method_summary.csv",
+      "sha256": "9e562370cb6533d25ec8bdf38990092e5afa804d837f2f6b8284bd150f9812e2",
+      "bytes": 832
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/regime_metrics.csv",
+      "sha256": "60a2fc2cfae6aae5dddfb4ce705a305910ee325d025ecb744a02c1bcc1d3f485",
+      "bytes": 19429
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/routing_counts.csv",
+      "sha256": "4c0b45bf673982a33175a0c2fd3a5181c500e6e596f0d1e5b3d442dd98598c89",
+      "bytes": 547
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/structure_group_metrics.csv",
+      "sha256": "656e986aefccd1799ba35567f93e72b18963c894aac468fd9cadef8b182f8097",
+      "bytes": 10123
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/independent_audit_reconstruction.csv",
+      "sha256": "58d412cbe08f55617bdcd83b97ef90ae6397e2fed183a261d009089610cab384",
+      "bytes": 17075
+    },
+    {
+      "path": "docs/results/task1_time80_20/holdout_isolated_fallback/结果解读.txt",
+      "sha256": "d372d0346082f4d5235e2697e7bc17702af8e31f1e74e55c6069e337c7cfd98b",
+      "bytes": 8521
+    },
+    {
+      "path": "docs/results/task1_time80_20/neighbor_failure_analysis/topology_audit.csv",
+      "sha256": "2da9632e6e89977e3611dbe107882f87cb6dc3d6de655f4472c00a642a0c23e6",
+      "bytes": 450
+    },
+    {
+      "path": "docs/results/task1_time80_20/neighbor_failure_analysis/structure_errors_by_regime.csv",
+      "sha256": "b854c15cf922ac676afcbb9a30faca009f62d024941036ce07150640e63991c0",
+      "bytes": 5960
+    },
+    {
+      "path": "docs/results/task1_time80_20/neighbor_failure_analysis/corridor_diagnosis_summary.csv",
+      "sha256": "cc91030aa1d6df11ffc049003f24604861cb403ad6ece3883c4feba33eb51bc9",
+      "bytes": 2699
+    },
+    {
+      "path": "docs/results/task1_time80_20/neighbor_failure_analysis/四条走廊诊断与残差改进方案.txt",
+      "sha256": "fdb7137f8142f432b4eb7a5d9399a545df0ca60132178e4827d1bb409379ab18",
+      "bytes": 11302
+    },
+    {
+      "path": "docs/results/task1_time80_20/remaining_four_diagnosis/channel_by_regime.csv",
+      "sha256": "de973eb01ba48a2540787e26943acf66113f8537b90887978e19d2f7e9da2300",
+      "bytes": 5781
+    },
+    {
+      "path": "docs/results/task1_time80_20/remaining_four_diagnosis/channel_summary.csv",
+      "sha256": "42faba57a89eed12ba94756455ca4bf89a2095464bdfc9afb8bdf1dd68b97cac",
+      "bytes": 1936
+    },
+    {
+      "path": "docs/results/task1_time80_20/remaining_four_diagnosis/key_missing_cases.csv",
+      "sha256": "53688b40bd5361e2278717cc307fd59d193b0cf790fd1de6364415d015bdf959",
+      "bytes": 2199
+    },
+    {
+      "path": "docs/results/task1_time80_20/remaining_four_diagnosis/four_corridor_connected_groups.csv",
+      "sha256": "3b8dc0153d48db2e37db831e083117e71cde6a06249bcfae1e85c0b7a773de52",
+      "bytes": 19046
+    },
+    {
+      "path": "docs/results/task1_time80_20/remaining_four_diagnosis/problem_channel_top_cases.csv",
+      "sha256": "a424fc179a3e88220b8beb0c8c1c3660efab05a68dd297149ca9d551d0b8cb85",
+      "bytes": 7805
+    },
+    {
+      "path": "docs/results/task1_time80_20/remaining_four_diagnosis/四条走廊剩余误差与残差方案.txt",
+      "sha256": "cd2176a644a1b6caec51eaf9cac285824ab200e8143dc3b3877c9a1f01e4979d",
+      "bytes": 12571
+    }
+  ],
+  "reference_official_commit": "f9e3fbc35c066419726987e470448f33d4c72fd9",
+  "note": "Result artifacts preserve source bytes. This is a current-source snapshot; exact launch-time identity is not inferred from this export. Active experiment sources are not edited. Exported path adapters have new source hashes and must use fresh output directories."
+}
