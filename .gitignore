@@ -1,0 +1,9 @@
+/data/kaggle_public/
+/outputs/
+/.runtime/
+/.venv*/
+__pycache__/
+*.py[cod]
+
+/TrafficFlowBench_Oscar_Baseline_2026-10-17/
+/TrafficFlowBench_Oscar_Baseline_2026-10-17.tar
