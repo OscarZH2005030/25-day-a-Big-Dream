@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "4x42 outer prediction dates excluded from both inner selection and 126-day refit",
+    "zero initialization exactly equals LightGBM; CPU backward has finite nonzero gradients; no optimizer step",
+    "independent gates, global isolation despite local patch isolation, visible observations anchored",
+    "non-template residual labels cannot change loss",
+    "OS lock rejects duplicate writers and releases after context",
+    "changing hidden target labels changes only residual targets, never baseline/input; non-target labels ignored",
+    "actual disk block loader works after removing raw label file",
+    "106 feature order/mask and scaled residual units checked",
+    "CPU checkpoint/RNG round trip checked; CUDA resume not exercised"
+  ],
+  "training_started": false,
+  "tree_fitting_started": false,
+  "optimizer_steps": 0,
+  "device": "cpu",
+  "cuda_initialized": false
+}

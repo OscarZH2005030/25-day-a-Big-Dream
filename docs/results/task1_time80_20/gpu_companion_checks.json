@@ -1,0 +1,16 @@
+{
+  "script_sha256": "0df2cf76b44474b058c1fa70dab149558827065d48aa0fcdf376e936b7bf8699",
+  "syntax_check": true,
+  "dry_run_both_modes": true,
+  "ipc_parent_exit_and_process_handle_check": true,
+  "duplicate_queue_lock_check": true,
+  "training_source_unchanged": true,
+  "training_started": false,
+  "cuda_started": false,
+  "actual_gpu_workload_tested": false,
+  "numpy_first_import_check_passed": true,
+  "original_hang_reproduced_in_current_probe": false,
+  "actual_cuda_after_fix_tested": false,
+  "import_stage_reporting": true,
+  "torch_import_background_reader_started": false
+}
