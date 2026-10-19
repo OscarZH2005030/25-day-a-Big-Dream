@@ -12,7 +12,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from lightgbm import LGBMRegressor
+import lightgbm as lgb
 
 CHANNELS = ['speed_kmh', 'flow_vph']
 KEYS = ['panel', 'timestamp', 'station_id', 'link_id', 'mask_regime']
@@ -242,21 +242,21 @@ class Experiment:
         V, vy, vb, vh, lanes, regimes = valid
         rows = score(vy, np.maximum(vh, 0), regimes, 'historical')
         rows += score(vy, np.maximum(vb, 0), regimes, 'interpolation')
-        params = dict(n_estimators=self.args.trees, learning_rate=.05, num_leaves=31,
-                      min_child_samples=80, reg_lambda=1., colsample_bytree=.9,
-                      n_jobs=self.args.threads, random_state=self.args.seed,
+        params = dict(objective='regression', metric='rmse', learning_rate=.05, num_leaves=31,
+                      min_data_in_leaf=80, lambda_l2=1., feature_fraction=.9,
+                      num_threads=self.args.threads, seed=self.args.seed,
                       verbosity=-1, deterministic=True, force_col_wise=True)
         importance = []
         for mode in ['direct', 'residual']:
             prediction = np.zeros_like(vy)
             for c, channel in enumerate(CHANNELS):
                 log(f'Fit {mode}: {channel}, {len(y):,} training rows, {len(self.names)} features')
-                model = LGBMRegressor(**params)
                 label = y[:, c] - base[:, c] if mode=='residual' else y[:, c]
-                model.fit(X, label, feature_name=self.names)
-                prediction[:, c] = model.booster_.predict(V)+(vb[:, c] if mode=='residual' else 0)
-                model.booster_.save_model(str(self.out/f'{mode}_{channel}.txt'))
-                for name, gain in zip(self.names, model.booster_.feature_importance(importance_type='gain')):
+                dataset = lgb.Dataset(X, label=label, feature_name=self.names)
+                model = lgb.train(params, dataset, num_boost_round=self.args.trees)
+                prediction[:, c] = model.predict(V)+(vb[:, c] if mode=='residual' else 0)
+                model.save_model(str(self.out/f'{mode}_{channel}.txt'))
+                for name, gain in zip(self.names, model.feature_importance(importance_type='gain')):
                     importance.append(dict(model=mode, target=channel, feature=name, gain=float(gain)))
             prediction = np.maximum(prediction, 0)
             rows += score(vy, prediction, regimes, mode)
