@@ -1,0 +1,5 @@
+model,condition,IoU
+LightGBM,queue_ongoing,0.74491442
+LightGBM,queue_onset,0.25661376
+Persistence,queue_ongoing,0.54921209
+Persistence,queue_onset,0.11111111
