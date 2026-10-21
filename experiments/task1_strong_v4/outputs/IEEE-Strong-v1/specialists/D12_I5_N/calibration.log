@@ -1,0 +1,32 @@
+{"stage": "calibration_development", "panel": "D12_I5_N"}
+{
+  "status": "completed",
+  "raw_holdout_score": 0.9515460438866482,
+  "calibrated_holdout_score": 0.9515842709583043,
+  "original_transformer_score": 0.9576885062012988,
+  "existing_isolated_fallback_global_reference": 0.9369103120317692,
+  "calibration": {
+    "coefficients": [
+      1.0000947030780378,
+      1.0530465808837277
+    ],
+    "bounds": [
+      0,
+      2
+    ],
+    "channels": [
+      "speed",
+      "flow_per_lane"
+    ],
+    "selection_dates": [
+      "2030-12-14",
+      "2031-01-04"
+    ],
+    "raw_development_score": 0.9525540872599313,
+    "calibrated_development_score": 0.9525855648785896,
+    "holdout_used": false,
+    "note": "Only two coefficients. Chosen before reading holdout prediction/metric files."
+  },
+  "note": "Calibration selected only on internal development; no holdout-driven choice between raw and calibrated candidates.",
+  "delta_vs_transformer": -0.006104235242994416
+}

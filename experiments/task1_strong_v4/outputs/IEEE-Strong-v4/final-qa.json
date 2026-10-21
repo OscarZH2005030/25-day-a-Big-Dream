@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_matches_frozen_hashes": true,
+  "chart_visually_inspected": true,
+  "training_and_finish_processes_exited_successfully": true,
+  "active_v4_python_jobs": 0,
+  "raw_inference_parity": "Exact equality on all three checked benchmark days",
+  "previous_best_files_unchanged": 19,
+  "kaggle_uploaded": false
+}

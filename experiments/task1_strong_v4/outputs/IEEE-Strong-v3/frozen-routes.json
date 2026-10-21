@@ -1,0 +1,52 @@
+{
+  "baseline": "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\final-model.json",
+  "frozen_at": "2026-10-20T15:42:33.625985-07:00",
+  "holdout_used": false,
+  "routes": [
+    {
+      "panel": "D12_I5_N",
+      "alpha": 1.0,
+      "step": 500,
+      "pooled_flow": 29.850346073586774,
+      "macro_flow": 29.4184715103119,
+      "batch": 262144,
+      "parameters": 4302913,
+      "initial_identity_verified": true,
+      "seconds": 264.73399999999674,
+      "holdout_used": false
+    },
+    {
+      "panel": "D7_I405_N",
+      "alpha": 1.0,
+      "step": 500,
+      "pooled_flow": 40.39420595786717,
+      "macro_flow": 40.00784566070541,
+      "batch": 262144,
+      "parameters": 4305921,
+      "initial_identity_verified": true,
+      "seconds": 265.25,
+      "holdout_used": false
+    },
+    {
+      "panel": "D7_I210_E",
+      "alpha": 1.0,
+      "step": 500,
+      "pooled_flow": 33.102398807689205,
+      "macro_flow": 32.88705589874807,
+      "batch": 262144,
+      "parameters": 4304161,
+      "initial_identity_verified": true,
+      "seconds": 264.75,
+      "holdout_used": false
+    }
+  ],
+  "source_sha256": {
+    "build_candidate.py": "ba42455a937ca9b8fd46cfce6d720c98c878eb54bddce49a7ddd0c3951df7d1e",
+    "evaluate_residual.py": "8bd722101d94a8ccef03158dccb128c02bcf2dda65b77c522461568770b1e509",
+    "finish.py": "080521cbd7673c92c40fdecb9d1095238aeaa77ba2002ba325d978f88d0ba88d",
+    "residual_core.py": "bbcd34eb7501ef12926c5c2ec80b2059721faf0bf2597875c00f69face018ad1",
+    "train_residual.py": "3d9089fe1041ab84bcc8d7eda5aa8121f05296729e7a96497ea64c28cbe9453d",
+    "verify_delivery.py": "373a0f6a44eae71dfc08a03209829301cef5adac9d668c2f3f7d3b7d848179b9",
+    "write_report.py": "1dc045164a252f32980e025cff73fc1f037f8c7136669b1e6d46e977dcb1f94f"
+  }
+}

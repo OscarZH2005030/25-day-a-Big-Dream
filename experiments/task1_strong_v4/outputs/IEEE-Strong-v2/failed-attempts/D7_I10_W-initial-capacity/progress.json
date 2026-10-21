@@ -1,0 +1,10 @@
+{
+  "panel": "D7_I10_W",
+  "phase": "training",
+  "seconds": 10.546999999998661,
+  "epoch": 1,
+  "step": 1,
+  "steps": 20,
+  "loss": 0.06549961119890213,
+  "gradient_norm": 0.10346830636262894
+}

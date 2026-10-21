@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "maximum_float32_difference": 2.384185791015625e-07,
+  "small_parameters": 11388974,
+  "wide_parameters": 43855662
+}

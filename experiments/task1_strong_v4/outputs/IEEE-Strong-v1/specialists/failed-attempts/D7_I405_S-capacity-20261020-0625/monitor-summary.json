@@ -1,0 +1,11 @@
+{
+  "status": "stopped",
+  "child_exit_code": 1,
+  "stop_reason": null,
+  "started": "2026-10-20T06:24:34.835815-07:00",
+  "ended": "2026-10-20T06:25:11.868595-07:00",
+  "seconds": 37.03099999999904,
+  "peak_vram_mib": 15266.0,
+  "peak_temperature_c": 70.0,
+  "peak_power_w": 143.18
+}

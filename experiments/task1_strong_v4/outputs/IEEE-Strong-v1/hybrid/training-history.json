@@ -1,0 +1,105 @@
+[
+  {
+    "epoch": 0,
+    "training_loss": null,
+    "seconds": 61.57900000000154,
+    "development_score": 0.9311065582819665,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 1,
+    "training_loss": 0.06965964219222466,
+    "seconds": 283.0470000000023
+  },
+  {
+    "epoch": 2,
+    "training_loss": 0.07134918201093872,
+    "seconds": 478.3130000000019,
+    "development_score": 0.9312823100912044,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 3,
+    "training_loss": 0.06690491555879513,
+    "seconds": 734.1410000000033
+  },
+  {
+    "epoch": 4,
+    "training_loss": 0.07009988138452172,
+    "seconds": 938.969000000001,
+    "development_score": 0.9318823281961384,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 5,
+    "training_loss": 0.06807560886566838,
+    "seconds": 1190.5790000000015
+  },
+  {
+    "epoch": 6,
+    "training_loss": 0.06886636074632406,
+    "seconds": 1386.9850000000006,
+    "development_score": 0.9323797054671296,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 7,
+    "training_loss": 0.06928038652986288,
+    "seconds": 1629.25
+  },
+  {
+    "epoch": 8,
+    "training_loss": 0.06777787202348312,
+    "seconds": 1836.1100000000006,
+    "development_score": 0.9330477555737762,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 9,
+    "training_loss": 0.06838320788616935,
+    "seconds": 2089.907000000003
+  },
+  {
+    "epoch": 10,
+    "training_loss": 0.0659698199480772,
+    "seconds": 2293.813000000002,
+    "development_score": 0.9336906899329571,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 11,
+    "training_loss": 0.06279700246329109,
+    "seconds": 2541.6100000000006
+  },
+  {
+    "epoch": 12,
+    "training_loss": 0.06618570815771818,
+    "seconds": 2736.219000000001,
+    "development_score": 0.9339497821870442,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 13,
+    "training_loss": 0.06671206019818783,
+    "seconds": 2973.407000000003
+  },
+  {
+    "epoch": 14,
+    "training_loss": 0.0635467634536326,
+    "seconds": 3179.063000000002,
+    "development_score": 0.9342453401357537,
+    "initial_score": 0.9028337375034379
+  },
+  {
+    "epoch": 15,
+    "training_loss": 0.06713726359109083,
+    "seconds": 3430.469000000001
+  },
+  {
+    "epoch": 16,
+    "training_loss": 0.06254352377727627,
+    "seconds": 3632.094000000001,
+    "development_score": 0.9344191480927885,
+    "initial_score": 0.9028337375034379
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "panels": [
+    {
+      "panel": "D7_I10_E",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D7_I10_W",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D7_I210_E",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D7_I210_W",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D7_I405_N",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D7_I405_S",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D12_I5_N",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D12_I5_S",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D12_I405_N",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    },
+    {
+      "panel": "D12_I405_S",
+      "features": 64,
+      "day": "2030-12-14",
+      "bitwise_equal": true,
+      "hidden_target_occupancy_exposed": false
+    }
+  ]
+}

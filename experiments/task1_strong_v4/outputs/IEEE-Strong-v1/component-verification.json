@@ -1,0 +1,6 @@
+{
+  "cpu_only": true,
+  "fft_vs_direct_convolution_max_error": 8.940696716308594e-08,
+  "graph_vs_dense_operator_max_error": 1.1920928955078125e-07,
+  "all_ssm_gradients_finite": true
+}

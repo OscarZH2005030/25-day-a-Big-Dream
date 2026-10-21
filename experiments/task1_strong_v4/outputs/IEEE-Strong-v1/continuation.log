@@ -1,0 +1,3 @@
+{"rule": "best epoch >=14 and last three internal scores improved >=0.0008", "best_epoch": 16, "best_development_score": 0.9293909794222482, "recent_development_improvement": 0.002023581698031962, "refine": true, "holdout_score_read": false}
+Final report and learning chart saved.
+Accuracy experiment completed.

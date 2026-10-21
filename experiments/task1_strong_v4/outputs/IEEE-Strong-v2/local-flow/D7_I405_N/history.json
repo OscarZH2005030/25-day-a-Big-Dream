@@ -1,0 +1,38 @@
+[
+  {
+    "step": 100,
+    "best": {
+      "alpha": 0.0,
+      "step": 0,
+      "pooled_flow": 41.171442157956484,
+      "macro_flow": 40.76762880367061,
+      "parameters": 4304897,
+      "batch": 131072
+    },
+    "raw_pooled_flow": 54.4763338721988
+  },
+  {
+    "step": 200,
+    "best": {
+      "alpha": 0.1,
+      "step": 200,
+      "pooled_flow": 41.10726508390594,
+      "macro_flow": 40.70984079705551,
+      "parameters": 4304897,
+      "batch": 131072
+    },
+    "raw_pooled_flow": 49.56434510673354
+  },
+  {
+    "step": 300,
+    "best": {
+      "alpha": 0.1,
+      "step": 300,
+      "pooled_flow": 41.07794927923682,
+      "macro_flow": 40.68032472211627,
+      "parameters": 4304897,
+      "batch": 131072
+    },
+    "raw_pooled_flow": 48.4754831241178
+  }
+]

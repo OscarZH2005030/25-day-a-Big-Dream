@@ -1,0 +1,8 @@
+{
+  "split": "development",
+  "score": 0.9409591392351203,
+  "initial_score": 0.8975986337898859,
+  "n": 208905,
+  "pooled_speed_rmse": 1.4178756375978954,
+  "pooled_flow_rmse_per_lane": 36.48849530112109
+}

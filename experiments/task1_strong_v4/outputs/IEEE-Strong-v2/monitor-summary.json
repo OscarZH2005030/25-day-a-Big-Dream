@@ -1,0 +1,8 @@
+{
+  "seconds": 2767.653999999995,
+  "current_controller_seconds": 1239.8600000000006,
+  "includes_failed_attempt_peak": true,
+  "peak_vram_mib": 15031.0,
+  "peak_power_w": 147.83,
+  "peak_temperature_c": 73.0
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "nodes": 146,
+    "connected": 94,
+    "isolated_fraction": 0.3561643835616438
+  },
+  {
+    "panel": "D7_I10_W",
+    "nodes": 107,
+    "connected": 46,
+    "isolated_fraction": 0.5700934579439252
+  },
+  {
+    "panel": "D7_I210_E",
+    "nodes": 297,
+    "connected": 292,
+    "isolated_fraction": 0.016835016835016835
+  },
+  {
+    "panel": "D7_I210_W",
+    "nodes": 81,
+    "connected": 28,
+    "isolated_fraction": 0.654320987654321
+  },
+  {
+    "panel": "D7_I405_N",
+    "nodes": 352,
+    "connected": 334,
+    "isolated_fraction": 0.05113636363636364
+  },
+  {
+    "panel": "D7_I405_S",
+    "nodes": 109,
+    "connected": 29,
+    "isolated_fraction": 0.7339449541284404
+  },
+  {
+    "panel": "D12_I5_N",
+    "nodes": 258,
+    "connected": 258,
+    "isolated_fraction": 0.0
+  },
+  {
+    "panel": "D12_I5_S",
+    "nodes": 100,
+    "connected": 54,
+    "isolated_fraction": 0.46
+  },
+  {
+    "panel": "D12_I405_N",
+    "nodes": 89,
+    "connected": 77,
+    "isolated_fraction": 0.1348314606741573
+  },
+  {
+    "panel": "D12_I405_S",
+    "nodes": 44,
+    "connected": 17,
+    "isolated_fraction": 0.6136363636363636
+  }
+]

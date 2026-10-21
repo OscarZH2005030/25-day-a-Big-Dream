@@ -1,0 +1,53 @@
+{"phase": "batch_probe", "seconds": 0.9689999999973224, "candidate": 1, "panel": "D7_I405_S"}
+{"phase": "batch_probe", "seconds": 4.171999999998661, "candidate": 2, "panel": "D7_I405_S"}
+{"phase": "batch_probe", "seconds": 7.327999999997701, "candidate": 4, "panel": "D7_I405_S"}
+{"phase": "batch_probe", "seconds": 11.187999999998283, "candidate": 8, "panel": "D7_I405_S"}
+{"phase": "calibrated", "seconds": 16.28099999999904, "micro_batch": 8, "effective_batch": 16, "parameters": 11388974}
+{"phase": "evaluation", "seconds": 19.625, "split": "original-development", "panel": "D7_I405_S"}
+{"phase": "evaluation", "seconds": 22.9529999999977, "split": "proximity-development", "panel": "D7_I405_S"}
+{"phase": "evaluation", "seconds": 26.26599999999962, "split": "path-development", "panel": "D7_I405_S"}
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\train_specialist.py", line 297, in <module>
+    try:worker(args) if args.worker else monitor(args)
+        ^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\train_specialist.py", line 204, in worker
+    scaler.scale(loss/args.accumulate).backward()
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\autograd\__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\autograd\graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\utils\checkpoint.py", line 1154, in unpack_hook
+    _run_fn_with_dynamo_disabled(frame.recompute_fn, *args)
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\_compile.py", line 53, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1044, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\utils\checkpoint.py", line 1124, in _run_fn_with_dynamo_disabled
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\utils\checkpoint.py", line 1555, in recompute_fn
+    fn(*args, **kwargs)
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\model.py", line 83, in forward
+    x=x+self.drop(self.state(self.state_norm(x)))*.1
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\model.py", line 46, in forward
+    backward=torch.fft.irfft(reverse*torch.fft.rfft(kb,n=fft_length),n=fft_length)[...,:length].flip(-1)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 438.00 MiB. GPU 0 has a total capacity of 16.00 GiB of which 863.00 MiB is free. 14.24 GiB allowed; Of the allocated memory 11.93 GiB is allocated by PyTorch, and 2.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

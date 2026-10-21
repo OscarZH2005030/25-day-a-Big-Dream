@@ -1,0 +1,63 @@
+{"panel": "D7_I210_E", "split": "validation", "rows": 625014, "speed_unchanged": true}
+{"panel": "D7_I210_E", "split": "private", "rows": 581196, "speed_unchanged": true}
+{"panel": "D7_I405_N", "split": "validation", "rows": 673133, "speed_unchanged": true}
+{"panel": "D7_I405_N", "split": "private", "rows": 746097, "speed_unchanged": true}
+{"panel": "D12_I5_N", "split": "validation", "rows": 588468, "speed_unchanged": true}
+{"panel": "D12_I5_N", "split": "private", "rows": 543092, "speed_unchanged": true}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:03.998797-07:00", "rows": 250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:05.430675-07:00", "rows": 500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:06.870653-07:00", "rows": 750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:08.299544-07:00", "rows": 1000000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:09.714488-07:00", "rows": 1250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:11.142749-07:00", "rows": 1500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:12.567769-07:00", "rows": 1750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:13.984418-07:00", "rows": 2000000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:15.376186-07:00", "rows": 2250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:16.832824-07:00", "rows": 2500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:18.343339-07:00", "rows": 2750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:19.788025-07:00", "rows": 3000000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:21.212747-07:00", "rows": 3250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:22.679971-07:00", "rows": 3500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:24.115429-07:00", "rows": 3750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:25.549802-07:00", "rows": 4000000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:26.995382-07:00", "rows": 4250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:28.492327-07:00", "rows": 4500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:29.941130-07:00", "rows": 4750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:31.389992-07:00", "rows": 5000000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:32.811240-07:00", "rows": 5250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:34.252631-07:00", "rows": 5500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:35.670330-07:00", "rows": 5750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:37.095129-07:00", "rows": 6000000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:38.509680-07:00", "rows": 6250000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:39.931744-07:00", "rows": 6500000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:41.373222-07:00", "rows": 6750000}
+{"phase": "merge", "timestamp": "2026-10-20T15:47:42.609329-07:00", "rows": 6980503}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:42.830336-07:00", "rows": 250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:43.020758-07:00", "rows": 500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:43.215767-07:00", "rows": 750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:43.410278-07:00", "rows": 1000000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:43.603617-07:00", "rows": 1250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:43.795625-07:00", "rows": 1500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:43.987614-07:00", "rows": 1750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:44.181617-07:00", "rows": 2000000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:44.369616-07:00", "rows": 2250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:44.558617-07:00", "rows": 2500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:44.748325-07:00", "rows": 2750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:44.945592-07:00", "rows": 3000000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:45.138593-07:00", "rows": 3250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:45.333589-07:00", "rows": 3500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:45.530595-07:00", "rows": 3750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:45.727596-07:00", "rows": 4000000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:45.927590-07:00", "rows": 4250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:46.121971-07:00", "rows": 4500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:46.311974-07:00", "rows": 4750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:46.505075-07:00", "rows": 5000000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:46.693076-07:00", "rows": 5250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:46.882052-07:00", "rows": 5500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:47.103072-07:00", "rows": 5750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:47.293079-07:00", "rows": 6000000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:47.486175-07:00", "rows": 6250000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:47.679174-07:00", "rows": 6500000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:47.867187-07:00", "rows": 6750000}
+{"phase": "verify", "timestamp": "2026-10-20T15:47:48.051981-07:00", "rows": 6980503}
+{"phase": "complete", "timestamp": "2026-10-20T15:47:48.420292-07:00", "status": "passed", "rows": 6980503, "tasks": {"state": 6735795, "queue": 174000, "odme": 70708}, "columns": ["submission_id", "task", "speed_kmh", "flow_vph", "queue_pred", "path_flow"], "exact_template_order": true, "missing_predictions": 0, "duplicate_ids": 0, "nonfinite_values": 0, "negative_values": 0, "queue_binary": true, "unused_fields_zero": true, "sha256": "1facde0507c8af48dcd45ad856d202bb9a05b73ac344b6f980153701d1c3f448", "bytes": 387580244, "note": "Local structural validation only. No Kaggle upload or hidden-label score."}

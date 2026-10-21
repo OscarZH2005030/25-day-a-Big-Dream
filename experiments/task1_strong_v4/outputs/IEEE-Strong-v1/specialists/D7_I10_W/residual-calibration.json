@@ -1,0 +1,22 @@
+{
+  "coefficients": [
+    0.9621026669331054,
+    1.0227494450819818
+  ],
+  "bounds": [
+    0,
+    2
+  ],
+  "channels": [
+    "speed",
+    "flow_per_lane"
+  ],
+  "selection_dates": [
+    "2030-12-14",
+    "2031-01-04"
+  ],
+  "raw_development_score": 0.9496894784378154,
+  "calibrated_development_score": 0.9497121101932695,
+  "holdout_used": false,
+  "note": "Only two coefficients. Chosen before reading holdout prediction/metric files."
+}

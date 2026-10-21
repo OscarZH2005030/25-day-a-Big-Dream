@@ -1,0 +1,12 @@
+{
+  "replicates": 2000,
+  "score_delta_95pct": [
+    0.0002915342258506204,
+    0.0004253814104443475
+  ],
+  "flow_rmse_delta_95pct": [
+    -0.31016205383785456,
+    -0.26850398095160255
+  ],
+  "limitation": "Descriptive paired date-block bootstrap conditional on selected models. Cannot remove selection bias from historical holdout reuse."
+}

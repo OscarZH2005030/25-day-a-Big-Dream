@@ -1,0 +1,107 @@
+{
+  "formula": "0.5*exp(-gap/median_positive_gap), only gaps <=3*median_positive_gap; only globally isolated receivers",
+  "selection": "Compare original and supplemented model graph on internal development only",
+  "features": "Cached input features always retain the original physical graph",
+  "panels": [
+    {
+      "panel": "D7_I10_E",
+      "nodes": 146,
+      "initially_isolated": 52,
+      "remaining_isolated": 1,
+      "added_statistical_relations": 83,
+      "median_positive_milepost_gap": 0.2569999999999979,
+      "ascending": true,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "nodes": 107,
+      "initially_isolated": 61,
+      "remaining_isolated": 0,
+      "added_statistical_relations": 113,
+      "median_positive_milepost_gap": 0.3409999999999993,
+      "ascending": false,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "nodes": 297,
+      "initially_isolated": 5,
+      "remaining_isolated": 0,
+      "added_statistical_relations": 6,
+      "median_positive_milepost_gap": 0.16750000000000043,
+      "ascending": true,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "nodes": 81,
+      "initially_isolated": 53,
+      "remaining_isolated": 1,
+      "added_statistical_relations": 103,
+      "median_positive_milepost_gap": 0.40050000000000097,
+      "ascending": false,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "nodes": 352,
+      "initially_isolated": 18,
+      "remaining_isolated": 7,
+      "added_statistical_relations": 14,
+      "median_positive_milepost_gap": 0.10000000000000142,
+      "ascending": true,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "nodes": 109,
+      "initially_isolated": 80,
+      "remaining_isolated": 0,
+      "added_statistical_relations": 148,
+      "median_positive_milepost_gap": 0.29099999999999904,
+      "ascending": false,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "nodes": 258,
+      "initially_isolated": 0,
+      "remaining_isolated": 0,
+      "added_statistical_relations": 0,
+      "median_positive_milepost_gap": 0.1839999999999975,
+      "ascending": true,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "nodes": 100,
+      "initially_isolated": 46,
+      "remaining_isolated": 0,
+      "added_statistical_relations": 89,
+      "median_positive_milepost_gap": 0.3820000000000001,
+      "ascending": false,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I405_N",
+      "nodes": 89,
+      "initially_isolated": 12,
+      "remaining_isolated": 2,
+      "added_statistical_relations": 14,
+      "median_positive_milepost_gap": 0.3255000000000001,
+      "ascending": true,
+      "physical_connected_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "nodes": 44,
+      "initially_isolated": 27,
+      "remaining_isolated": 1,
+      "added_statistical_relations": 47,
+      "median_positive_milepost_gap": 0.305,
+      "ascending": false,
+      "physical_connected_rows_unchanged": true
+    }
+  ]
+}

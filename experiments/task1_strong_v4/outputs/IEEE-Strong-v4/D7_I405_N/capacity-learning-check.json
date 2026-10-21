@@ -1,0 +1,8 @@
+{
+  "panel": "D7_I405_N",
+  "checkpoint_step": 60,
+  "parameters": 43855662,
+  "mean_channel_copy_weight_difference": 9.077475056074036e-07,
+  "maximum_channel_copy_weight_difference": 4.669325426220894e-05,
+  "expanded_channels_no_longer_identical": true
+}

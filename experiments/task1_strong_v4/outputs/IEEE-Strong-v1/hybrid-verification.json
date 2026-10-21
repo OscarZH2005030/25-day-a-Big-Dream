@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "cpu_only": true,
+  "warm_start_max_error": 0.0,
+  "attention_vs_manual_max_error": 5.364418029785156e-07,
+  "chunked_full_attention_max_error": 5.364418029785156e-07,
+  "new_attention_gradient_l1": 102.21383559703827,
+  "parameters": 11388974
+}

@@ -1,0 +1,22 @@
+{"phase": "batch_probe", "seconds": 0.9070000000028813, "candidate": 1, "panel": "D7_I10_W"}
+{"phase": "batch_probe", "seconds": 4.157000000002881, "candidate": 2, "panel": "D7_I10_W"}
+{"phase": "batch_probe", "seconds": 7.51600000000326, "candidate": 4, "panel": "D7_I10_W"}
+{"phase": "batch_probe", "seconds": 11.329000000001543, "candidate": 8, "panel": "D7_I10_W"}
+{"phase": "calibrated", "seconds": 16.21900000000096, "micro_batch": 8, "effective_batch": 16, "parameters": 11388974}
+{"phase": "evaluation", "seconds": 19.454000000001543, "split": "original-development", "panel": "D7_I10_W"}
+{"phase": "evaluation", "seconds": 22.68800000000192, "split": "proximity-development", "panel": "D7_I10_W"}
+{"phase": "evaluation", "seconds": 25.90700000000288, "split": "path-development", "panel": "D7_I10_W"}
+{"phase": "training", "seconds": 35.11000000000058, "epoch": 1, "epochs": 2, "step": 1, "steps": 30, "mean_loss": 0.06143290176987648, "gradient_norm": 0.16700468957424164, "learning_rate": 8.916666666666665e-06}
+{"phase": "training", "seconds": 114.1720000000023, "epoch": 1, "epochs": 2, "step": 10, "steps": 30, "mean_loss": 0.05242050774395466, "gradient_norm": 0.17592787742614746, "learning_rate": 2.1666666666666667e-05}
+{"phase": "training", "seconds": 202.09400000000096, "epoch": 1, "epochs": 2, "step": 20, "steps": 30, "mean_loss": 0.052206288650631906, "gradient_norm": 0.06036146730184555, "learning_rate": 3.5833333333333335e-05}
+{"phase": "training", "seconds": 290.09400000000096, "epoch": 1, "epochs": 2, "step": 30, "steps": 30, "mean_loss": 0.051536729000508784, "gradient_norm": 0.31880319118499756, "learning_rate": 5e-05}
+{"phase": "evaluation", "seconds": 293.64100000000326, "split": "development", "panel": "D7_I10_W"}
+{"phase": "epoch_completed", "seconds": 290.09400000000096, "epoch": 1, "training_loss": 0.051536729000508784, "development_score": 0.9492178347851149, "initial_score": 0.932187559911357, "best_epoch": 1, "best_development_score": 0.9492178347851149}
+{"phase": "training", "seconds": 302.6570000000029, "epoch": 2, "epochs": 2, "step": 1, "steps": 30, "mean_loss": 0.05271122790873051, "gradient_norm": 0.2597257196903229, "learning_rate": 4.9874003593470286e-05}
+{"phase": "training", "seconds": 381.95400000000154, "epoch": 2, "epochs": 2, "step": 10, "steps": 30, "mean_loss": 0.05163243040442467, "gradient_norm": 0.6017755270004272, "learning_rate": 3.85e-05}
+{"phase": "training", "seconds": 470.1720000000023, "epoch": 2, "epochs": 2, "step": 20, "steps": 30, "mean_loss": 0.05154860345646739, "gradient_norm": 0.15754206478595734, "learning_rate": 1.5500000000000007e-05}
+{"phase": "training", "seconds": 558.469000000001, "epoch": 2, "epochs": 2, "step": 30, "steps": 30, "mean_loss": 0.05142714014897744, "gradient_norm": 0.07993389666080475, "learning_rate": 4.000000000000001e-06}
+{"phase": "evaluation", "seconds": 562.1880000000019, "split": "development", "panel": "D7_I10_W"}
+{"phase": "epoch_completed", "seconds": 558.4850000000006, "epoch": 2, "training_loss": 0.05142714014897744, "development_score": 0.949689478465082, "initial_score": 0.932187559911357, "best_epoch": 2, "best_development_score": 0.949689478465082}
+{"phase": "evaluation", "seconds": 571.5, "split": "holdout", "panel": "D7_I10_W"}
+{"phase": "complete", "seconds": 571.5160000000033, "status": "completed", "architecture": "gap-aware graph + bidirectional real diagonal SSM + full-day temporal attention", "parameters": 11388974, "trained_epochs": 2, "micro_batch": 8, "gradient_accumulation": 2, "best_epoch": 2, "best_development_score": 0.949689478465082, "holdout": {"split": "holdout", "score": 0.9474655679559847, "initial_score": 0.9282430146925519, "n": 445815, "pooled_speed_rmse": 1.3723710119644583, "pooled_flow_rmse_per_lane": 32.818882210402506}, "team_transformer_same_holdout_score": 0.945343407007699, "delta_holdout": 0.0021221609482856563, "targets_seen_including_repeats": 7593720, "protocol": "Exact date split and complete holdout target counts matched; shared cross-corridor model versus team per-corridor models.", "limitation": "Archived Transformer predictions/weights are not provided; no paired daily uncertainty estimate or retrained reference in this run."}

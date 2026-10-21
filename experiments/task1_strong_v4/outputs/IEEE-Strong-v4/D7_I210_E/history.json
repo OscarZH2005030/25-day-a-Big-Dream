@@ -1,0 +1,23 @@
+[
+  {
+    "step": 20,
+    "alpha": 0.0,
+    "pooled_flow": 33.1023988076892,
+    "macro_flow": 32.88705589874807,
+    "accepted": false
+  },
+  {
+    "step": 40,
+    "alpha": 0.75,
+    "pooled_flow": 33.06240666049411,
+    "macro_flow": 32.85004660831167,
+    "accepted": true
+  },
+  {
+    "step": 60,
+    "alpha": 1.0,
+    "pooled_flow": 33.000878031363555,
+    "macro_flow": 32.78450221067131,
+    "accepted": true
+  }
+]

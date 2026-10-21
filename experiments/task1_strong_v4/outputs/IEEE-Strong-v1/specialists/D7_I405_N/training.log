@@ -1,0 +1,21 @@
+{"phase": "batch_probe", "seconds": 0.9209999999984575, "candidate": 1, "panel": "D7_I405_N"}
+{"phase": "batch_probe", "seconds": 5.078000000001339, "candidate": 2, "panel": "D7_I405_N"}
+{"phase": "batch_probe", "seconds": 9.5, "candidate": 4, "panel": "D7_I405_N"}
+{"phase": "calibrated", "seconds": 10.968000000000757, "micro_batch": 2, "effective_batch": 4, "parameters": 11388974}
+{"phase": "evaluation", "seconds": 22.014999999999418, "split": "original-development", "panel": "D7_I405_N"}
+{"phase": "evaluation", "seconds": 32.93700000000172, "split": "proximity-development", "panel": "D7_I405_N"}
+{"phase": "evaluation", "seconds": 43.85900000000038, "split": "path-development", "panel": "D7_I405_N"}
+{"phase": "training", "seconds": 51.71800000000076, "epoch": 1, "epochs": 2, "step": 1, "steps": 30, "mean_loss": 0.07478519156575203, "gradient_norm": 0.09051719307899475, "learning_rate": 8.916666666666665e-06}
+{"phase": "training", "seconds": 119.79599999999846, "epoch": 1, "epochs": 2, "step": 10, "steps": 30, "mean_loss": 0.07321266923099756, "gradient_norm": 0.16233155131340027, "learning_rate": 2.1666666666666667e-05}
+{"phase": "training", "seconds": 195.43700000000172, "epoch": 1, "epochs": 2, "step": 20, "steps": 30, "mean_loss": 0.07480877554044127, "gradient_norm": 0.19104258716106415, "learning_rate": 3.5833333333333335e-05}
+{"phase": "training", "seconds": 271.1090000000004, "epoch": 1, "epochs": 2, "step": 30, "steps": 30, "mean_loss": 0.07449875045567751, "gradient_norm": 0.6914325952529907, "learning_rate": 5e-05}
+{"phase": "evaluation", "seconds": 282.6090000000004, "split": "development", "panel": "D7_I405_N"}
+{"phase": "epoch_completed", "seconds": 271.1090000000004, "epoch": 1, "training_loss": 0.07449875045567751, "development_score": 0.9285380867103289, "initial_score": 0.8762442037141683, "best_epoch": 1, "best_development_score": 0.9285380867103289}
+{"phase": "training", "seconds": 290.40599999999904, "epoch": 2, "epochs": 2, "step": 1, "steps": 30, "mean_loss": 0.07365177944302559, "gradient_norm": 0.5622323155403137, "learning_rate": 4.9874003593470286e-05}
+{"phase": "training", "seconds": 358.4840000000004, "epoch": 2, "epochs": 2, "step": 10, "steps": 30, "mean_loss": 0.07869081646203994, "gradient_norm": 0.09705772250890732, "learning_rate": 3.85e-05}
+{"phase": "training", "seconds": 434.1399999999994, "epoch": 2, "epochs": 2, "step": 20, "steps": 30, "mean_loss": 0.07570555284619332, "gradient_norm": 0.1631702184677124, "learning_rate": 1.5500000000000007e-05}
+{"phase": "training", "seconds": 509.82800000000134, "epoch": 2, "epochs": 2, "step": 30, "steps": 30, "mean_loss": 0.07434338368475438, "gradient_norm": 0.11798705905675888, "learning_rate": 4.000000000000001e-06}
+{"phase": "evaluation", "seconds": 521.125, "split": "development", "panel": "D7_I405_N"}
+{"phase": "epoch_completed", "seconds": 509.82800000000134, "epoch": 2, "training_loss": 0.07434338368475438, "development_score": 0.9294368801327043, "initial_score": 0.8762442037141683, "best_epoch": 2, "best_development_score": 0.9294368801327043}
+{"phase": "evaluation", "seconds": 553.25, "split": "holdout", "panel": "D7_I405_N"}
+{"phase": "complete", "seconds": 553.2649999999994, "status": "completed", "architecture": "gap-aware graph + bidirectional real diagonal SSM + full-day temporal attention", "parameters": 11388974, "trained_epochs": 2, "micro_batch": 2, "gradient_accumulation": 2, "best_epoch": 2, "best_development_score": 0.9294368801327043, "holdout": {"split": "holdout", "score": 0.9295497276822512, "initial_score": 0.8776330452037829, "n": 1470896, "pooled_speed_rmse": 1.862460950806753, "pooled_flow_rmse_per_lane": 40.987026493413225}, "team_transformer_same_holdout_score": 0.9321267545357003, "delta_holdout": -0.0025770268534490715, "targets_seen_including_repeats": 6425937, "protocol": "Exact date split and complete holdout target counts matched; shared cross-corridor model versus team per-corridor models.", "limitation": "Archived Transformer predictions/weights are not provided; no paired daily uncertainty estimate or retrained reference in this run."}

@@ -1,0 +1,77 @@
+{
+  "source": "Public path_set.csv link_seq only; no dynamic observations or labels",
+  "relation": "Consecutive observed nodes on a public path, separated by <=8 path links; minimum gap then maximum path support",
+  "weight": "0.5*exp(-(gap-1)/4)",
+  "panels": [
+    {
+      "panel": "D7_I10_E",
+      "initially_isolated": 52,
+      "remaining_isolated": 8,
+      "added_path_relations": 81,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "initially_isolated": 61,
+      "remaining_isolated": 5,
+      "added_path_relations": 105,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "initially_isolated": 5,
+      "remaining_isolated": 1,
+      "added_path_relations": 7,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "initially_isolated": 53,
+      "remaining_isolated": 0,
+      "added_path_relations": 92,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "initially_isolated": 18,
+      "remaining_isolated": 0,
+      "added_path_relations": 29,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "initially_isolated": 80,
+      "remaining_isolated": 12,
+      "added_path_relations": 131,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "initially_isolated": 0,
+      "remaining_isolated": 0,
+      "added_path_relations": 0,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "initially_isolated": 46,
+      "remaining_isolated": 0,
+      "added_path_relations": 91,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I405_N",
+      "initially_isolated": 12,
+      "remaining_isolated": 5,
+      "added_path_relations": 12,
+      "connected_physical_rows_unchanged": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "initially_isolated": 27,
+      "remaining_isolated": 5,
+      "added_path_relations": 43,
+      "connected_physical_rows_unchanged": true
+    }
+  ]
+}

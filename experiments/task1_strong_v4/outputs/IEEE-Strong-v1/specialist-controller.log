@@ -1,0 +1,11 @@
+{"panel": "D7_I10_E", "status": "completed", "best_epoch": 2}
+{"panel": "D7_I10_W", "status": "completed", "best_epoch": 2}
+{"panel": "D7_I210_E", "status": "completed", "best_epoch": 2}
+{"panel": "D7_I210_W", "status": "completed", "best_epoch": 2}
+{"panel": "D7_I405_N", "status": "completed", "best_epoch": 2}
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\specialist_search.py", line 41, in <module>
+    subprocess.run([sys.executable,'-X','utf8',str(root/'train_specialist.py'),
+  File "C:\Users\u\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\work\\gpu-env\\Scripts\\python.exe', '-X', 'utf8', 'C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v1\\train_specialist.py', '--cache', 'C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\work\\ieee-strong-cache-64', '--out', 'C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v1\\specialists\\D7_I405_S', '--reference', 'C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v1\\references\\transformer-all-metrics.csv', '--init-checkpoint', 'C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v1\\hybrid\\best-model.pt', '--panel', 'D7_I405_S', '--epochs', '2', '--steps', '30', '--eval-every', '1', '--accumulate', '2', '--lr', '.00005', '--seed', '20261028']' returned non-zero exit status 1.

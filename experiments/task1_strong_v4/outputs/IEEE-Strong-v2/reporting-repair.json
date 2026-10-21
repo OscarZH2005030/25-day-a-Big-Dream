@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-20T14:43:32.413863-07:00",
+  "failure": "Archived Transformer reference has no family column. Map it using the fixed panel metadata.",
+  "original_evaluate_source_sha256": "4ca8ac1edb2c78129858563689b8b717de04b6f90d6e4ace20e920e17fded435",
+  "repaired_evaluate_source_sha256": "f8e49646130fbb8fadbfc6af1cf228aa6de76ae3d6be33e18c5e278319fe0972",
+  "resume_source_sha256": "4f57ca70f92285ce9cd61646b7510429caf26639640d35fd98f0d78db63ed650",
+  "predictions_changed": false,
+  "models_changed": false,
+  "selections_changed": false,
+  "gpu_repeated": false,
+  "note": "CPU-only completion from all 30 saved group metrics and 550 saved daily errors."
+}

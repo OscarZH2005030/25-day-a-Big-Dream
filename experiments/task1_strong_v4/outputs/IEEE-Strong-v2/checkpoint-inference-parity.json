@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "prediction_tolerance": 2e-06,
+  "roads": 10,
+  "evidence": "All ten holdout_evaluated events occur after their checkpoint/development parity assertions in evaluate.py; numerical per-road maximum differences were not persisted before reporting failed. No GPU checks repeated."
+}

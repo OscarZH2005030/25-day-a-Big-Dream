@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D7_I10_W",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D7_I210_E",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D7_I210_W",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D7_I405_N",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0,
+      "local_flow_prediction_difference": 0.0
+    },
+    {
+      "panel": "D7_I405_S",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D12_I5_N",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D12_I5_S",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D12_I405_N",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    },
+    {
+      "panel": "D12_I405_S",
+      "features_bitwise_equal": true,
+      "maximum_prediction_difference": 0.0
+    }
+  ]
+}

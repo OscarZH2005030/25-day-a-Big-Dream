@@ -1,0 +1,19 @@
+# Complete weights and predictions are distributed in the GitHub Release asset.
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.zip
+/submission.csv
+/reference-predictions/
+/portable-smoke/parts/
+/new-predictions/
+/downloaded/
+__pycache__/
+*.pyc
+.env
+.env.*
+kaggle.json
+*.pem
+*.key

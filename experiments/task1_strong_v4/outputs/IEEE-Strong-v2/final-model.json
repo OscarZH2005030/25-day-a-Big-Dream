@@ -1,0 +1,382 @@
+{
+  "routes": [
+    {
+      "epoch": 3,
+      "blend": [
+        1.0,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9529917635978679,
+        "macro": [
+          1.1262531746273887,
+          29.584131952409468
+        ],
+        "pooled": [
+          1.2159582118302672,
+          30.043812552114662
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D12_I5_N",
+      "previous_route": {
+        "panel": "D12_I5_N",
+        "checkpoint": "specialists\\D12_I5_N\\best-model.pt",
+        "calibration": "specialists\\D12_I5_N\\residual-calibration.json",
+        "model_graph": "specialists\\D12_I5_N\\model-graph.npz",
+        "graph_variant": "original",
+        "best_epoch": 2,
+        "development_score": 0.9525540872621509
+      },
+      "micro_batch": 2,
+      "accumulation": 2,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 384.28199999999924
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        1.0,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9299100968893155,
+        "macro": [
+          1.797903751290297,
+          40.76762880367061
+        ],
+        "pooled": [
+          1.835022355868712,
+          41.17144215795647
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D7_I405_N",
+      "previous_route": {
+        "panel": "D7_I405_N",
+        "checkpoint": "specialists\\D7_I405_N\\best-model.pt",
+        "calibration": "specialists\\D7_I405_N\\residual-calibration.json",
+        "model_graph": "specialists\\D7_I405_N\\model-graph.npz",
+        "graph_variant": "path_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.9294368801327043
+      },
+      "micro_batch": 2,
+      "accumulation": 2,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 507.5310000000027
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.5,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9425838007208225,
+        "macro": [
+          1.4874185670604099,
+          32.98429334435569
+        ],
+        "pooled": [
+          1.4989796010794578,
+          33.20715552555156
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D7_I210_E",
+      "previous_route": {
+        "panel": "D7_I210_E",
+        "checkpoint": "specialists\\D7_I210_E\\best-model.pt",
+        "calibration": "specialists\\D7_I210_E\\residual-calibration.json",
+        "model_graph": "specialists\\D7_I210_E\\model-graph.npz",
+        "graph_variant": "original",
+        "best_epoch": 2,
+        "development_score": 0.9424541300772455
+      },
+      "micro_batch": 2,
+      "accumulation": 2,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 442.859000000004
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.0,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9410990594930972,
+        "macro": [
+          1.4366895234453119,
+          36.35014800063134
+        ],
+        "pooled": [
+          1.4178756388477394,
+          36.30928838757496
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D7_I10_E",
+      "previous_route": {
+        "panel": "D7_I10_E",
+        "checkpoint": "specialists\\D7_I10_E\\best-model.pt",
+        "calibration": "specialists\\D7_I10_E\\residual-calibration.json",
+        "model_graph": "specialists\\D7_I10_E\\model-graph.npz",
+        "graph_variant": "path_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.9409591392351203
+      },
+      "micro_batch": 4,
+      "accumulation": 1,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 216.57799999999406
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.0,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9498509133647649,
+        "macro": [
+          1.254963075076075,
+          30.054631582945902
+        ],
+        "pooled": [
+          1.2133723408975536,
+          29.627225636488618
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D7_I10_W",
+      "previous_route": {
+        "panel": "D7_I10_W",
+        "checkpoint": "specialists\\D7_I10_W\\best-model.pt",
+        "calibration": "specialists\\D7_I10_W\\residual-calibration.json",
+        "model_graph": "specialists\\D7_I10_W\\model-graph.npz",
+        "graph_variant": "proximity_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.949689478465082
+      },
+      "micro_batch": 4,
+      "accumulation": 2,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 280.09300000000076
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.5,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9233261375599986,
+        "macro": [
+          2.324602101828022,
+          34.51624831371676
+        ],
+        "pooled": [
+          2.502267906839065,
+          35.71976362398572
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D7_I210_W",
+      "previous_route": {
+        "panel": "D7_I210_W",
+        "checkpoint": "specialists\\D7_I210_W\\best-model.pt",
+        "calibration": "specialists\\D7_I210_W\\residual-calibration.json",
+        "model_graph": "specialists\\D7_I210_W\\model-graph.npz",
+        "graph_variant": "path_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.9228888206417661
+      },
+      "micro_batch": 8,
+      "accumulation": 1,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 204.48399999999674
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.5,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9285499185318671,
+        "macro": [
+          2.0480141549264617,
+          35.49518572398428
+        ],
+        "pooled": [
+          2.2021554792117177,
+          36.55529987937694
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D7_I405_S",
+      "previous_route": {
+        "panel": "D7_I405_S",
+        "checkpoint": "specialists\\D7_I405_S\\best-model.pt",
+        "calibration": "specialists\\D7_I405_S\\residual-calibration.json",
+        "model_graph": "specialists\\D7_I405_S\\model-graph.npz",
+        "graph_variant": "proximity_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.9280189451439433
+      },
+      "micro_batch": 4,
+      "accumulation": 1,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 151.81199999999808
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.5,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9327422772271141,
+        "macro": [
+          1.9098826939096913,
+          33.91859554491723
+        ],
+        "pooled": [
+          2.04071197678961,
+          34.74002981587273
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D12_I5_S",
+      "previous_route": {
+        "panel": "D12_I5_S",
+        "checkpoint": "specialists\\D12_I5_S\\best-model.pt",
+        "calibration": "specialists\\D12_I5_S\\residual-calibration.json",
+        "model_graph": "specialists\\D12_I5_S\\model-graph.npz",
+        "graph_variant": "path_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.9322538146186905
+      },
+      "micro_batch": 4,
+      "accumulation": 1,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 137.38999999999942
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        1.0,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9597842638367805,
+        "macro": [
+          0.945774568474681,
+          25.809137588043146
+        ],
+        "pooled": [
+          0.9677604632364667,
+          25.393973018279105
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D12_I405_N",
+      "previous_route": {
+        "panel": "D12_I405_N",
+        "checkpoint": "specialists\\D12_I405_N\\best-model.pt",
+        "calibration": "specialists\\D12_I405_N\\residual-calibration.json",
+        "model_graph": "specialists\\D12_I405_N\\model-graph.npz",
+        "graph_variant": "original",
+        "best_epoch": 2,
+        "development_score": 0.9592183055459887
+      },
+      "micro_batch": 4,
+      "accumulation": 2,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 233.06300000000192
+    },
+    {
+      "epoch": 3,
+      "blend": [
+        0.5,
+        1.0
+      ],
+      "metrics": {
+        "score": 0.9293018206639797,
+        "macro": [
+          1.8301253855416977,
+          40.65322305432992
+        ],
+        "pooled": [
+          1.8360350224969952,
+          41.719900049919545
+        ]
+      },
+      "checkpoint": "best-model.pt",
+      "panel": "D12_I405_S",
+      "previous_route": {
+        "panel": "D12_I405_S",
+        "checkpoint": "specialists\\D12_I405_S\\best-model.pt",
+        "calibration": "specialists\\D12_I405_S\\residual-calibration.json",
+        "model_graph": "specialists\\D12_I405_S\\model-graph.npz",
+        "graph_variant": "path_for_isolated",
+        "best_epoch": 2,
+        "development_score": 0.9285258213188472
+      },
+      "micro_batch": 16,
+      "accumulation": 1,
+      "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+      "seconds": 209.56199999999808
+    }
+  ],
+  "frozen_at": "2026-10-20T14:34:03.175969-07:00",
+  "holdout_used": false,
+  "local_flow_routes": [
+    {
+      "alpha": 0.0,
+      "step": 0,
+      "pooled_flow": 30.043812552114677,
+      "macro_flow": 29.58413195240948,
+      "parameters": 4301889,
+      "batch": 131072,
+      "panel": "D12_I5_N",
+      "seconds": 82.40600000000268,
+      "holdout_used": false
+    },
+    {
+      "alpha": 0.1,
+      "step": 300,
+      "pooled_flow": 41.07794927923682,
+      "macro_flow": 40.68032472211627,
+      "parameters": 4304897,
+      "batch": 131072,
+      "panel": "D7_I405_N",
+      "seconds": 83.18699999999808,
+      "holdout_used": false
+    },
+    {
+      "alpha": 0.0,
+      "step": 0,
+      "pooled_flow": 33.20715552555157,
+      "macro_flow": 32.9842933443557,
+      "parameters": 4303137,
+      "batch": 131072,
+      "panel": "D7_I210_E",
+      "seconds": 82.51600000000326,
+      "holdout_used": false
+    }
+  ],
+  "final_frozen_at": "2026-10-20T14:38:21.805744-07:00",
+  "source_sha256": {
+    "build_candidate.py": "329a2e4a298c1b5de1faeecb5713952bac8eeaf8b34527f8026163cbd4f91135",
+    "diagnose_internal.py": "50c811ba1a56cb46e370d40aa1fce7d3c82e95053f357c8ca627a4f7933e354e",
+    "evaluate.py": "4ca8ac1edb2c78129858563689b8b717de04b6f90d6e4ace20e920e17fded435",
+    "finish.py": "3a6877dbb4b4e8524ead5c6fc6a467c09fb92d87376ee026ad0f46eb4ebb2e66",
+    "local_flow_expert.py": "5df48fc994e502fd0d28c27c1b976d414120fbc1a3cb3398b39495ee6a9cadf7",
+    "optimize.py": "441c8f9cb5d7e36aad440dd2c1565b81f9365e2e76db9fd54f8158f13dc84808",
+    "probe_local_flow.py": "9fb4398cbf6ccfc4f19011b83052b3ace65296916a24f1693d7ba31a78b780ef",
+    "write_report.py": "3a4467c104cf585be361640fca5f6c04ffd2b4a45297b245ee72f13e9c32630b"
+  }
+}

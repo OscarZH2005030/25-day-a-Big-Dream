@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-20T03:41:33.939732-07:00",
+  "holdout_exists": false,
+  "decision_inputs": "Internal development history and checkpoint epoch only",
+  "condition": "Best primary epoch >=14 and latest 3 internal evaluations have improved by >=0.0008",
+  "additional_epochs": 8,
+  "steps_per_epoch": 60,
+  "learning_rate": 5e-05,
+  "selection": "Includes epoch 0 primary winner; only a higher internal score replaces it",
+  "note": "No holdout metric is used to decide whether to refine, select weights, or set hyperparameters."
+}

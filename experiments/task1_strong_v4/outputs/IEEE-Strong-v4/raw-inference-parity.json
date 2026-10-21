@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I210_E",
+      "features_bitwise_equal": true,
+      "wide_difference": 0.0,
+      "narrow_difference": 0.0,
+      "final_flow_difference": 0.0
+    },
+    {
+      "panel": "D7_I405_N",
+      "features_bitwise_equal": true,
+      "wide_difference": 0.0,
+      "narrow_difference": 0.0,
+      "final_flow_difference": 0.0
+    },
+    {
+      "panel": "D12_I5_N",
+      "features_bitwise_equal": true,
+      "wide_difference": 0.0,
+      "narrow_difference": 0.0,
+      "final_flow_difference": 0.0
+    }
+  ]
+}

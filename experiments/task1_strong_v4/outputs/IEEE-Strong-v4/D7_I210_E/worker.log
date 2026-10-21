@@ -1,0 +1,19 @@
+{"panel": "D7_I210_E", "phase": "preparing_teacher", "seconds": 14.359000000004016, "initial_pooled_flow": 33.1023988076892}
+{"panel": "D7_I210_E", "phase": "capacity_probe", "seconds": 19.14100000000326, "candidate": 1}
+{"panel": "D7_I210_E", "phase": "capacity_probe", "seconds": 24.156000000002678, "candidate": 2}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 70.07800000000134, "step": 5, "total": 60, "loss": 0.04429294355213642, "gradient_norm": 0.5230028033256531}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 112.2190000000046, "step": 10, "total": 60, "loss": 0.044633595272898674, "gradient_norm": 1.186013102531433}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 154.39100000000326, "step": 15, "total": 60, "loss": 0.04607369750738144, "gradient_norm": 0.6952927112579346}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 196.5940000000046, "step": 20, "total": 60, "loss": 0.04222363978624344, "gradient_norm": 0.4317765235900879}
+{"panel": "D7_I210_E", "phase": "development_checked", "seconds": 218.89100000000326, "step": 20, "alpha": 0.0, "pooled_flow": 33.1023988076892, "macro_flow": 32.88705589874807, "accepted": false}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 261.01600000000326, "step": 25, "total": 60, "loss": 0.04520531930029392, "gradient_norm": 0.40586450695991516}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 303.20300000000134, "step": 30, "total": 60, "loss": 0.05251955799758434, "gradient_norm": 0.2511447072029114}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 345.3440000000046, "step": 35, "total": 60, "loss": 0.041315196081995964, "gradient_norm": 0.38032668828964233}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 387.5940000000046, "step": 40, "total": 60, "loss": 0.04151081293821335, "gradient_norm": 0.7081714272499084}
+{"panel": "D7_I210_E", "phase": "development_checked", "seconds": 410.125, "step": 40, "alpha": 0.75, "pooled_flow": 33.06240666049411, "macro_flow": 32.85004660831167, "accepted": true}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 452.29699999999866, "step": 45, "total": 60, "loss": 0.04857433959841728, "gradient_norm": 0.8713082075119019}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 494.4690000000046, "step": 50, "total": 60, "loss": 0.040970394387841225, "gradient_norm": 0.40566226840019226}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 536.6880000000019, "step": 55, "total": 60, "loss": 0.04441215097904205, "gradient_norm": 0.3026287257671356}
+{"panel": "D7_I210_E", "phase": "training", "seconds": 578.8280000000013, "step": 60, "total": 60, "loss": 0.044387491419911385, "gradient_norm": 0.12923210859298706}
+{"panel": "D7_I210_E", "phase": "development_checked", "seconds": 601.4219999999987, "step": 60, "alpha": 1.0, "pooled_flow": 33.000878031363555, "macro_flow": 32.78450221067131, "accepted": true}
+{"panel": "D7_I210_E", "phase": "complete", "seconds": 601.4219999999987, "selection": {"panel": "D7_I210_E", "alpha": 1.0, "step": 60, "pooled_flow": 33.000878031363555, "macro_flow": 32.78450221067131, "checkpoint": "best-model.pt", "parameters": 43855662, "micro_batch": 1, "accumulation": 2, "seconds": 601.4219999999987, "holdout_used": false}}

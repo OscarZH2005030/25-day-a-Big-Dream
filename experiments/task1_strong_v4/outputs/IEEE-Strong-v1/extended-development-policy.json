@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-20T04:28:25.913484-07:00",
+  "revision": 3,
+  "primary_holdout_already_seen": true,
+  "refined_holdout_exists": false,
+  "supersedes": "extended-development-policy-v1.json; the idle SSM-extension controller was stopped before it trained",
+  "reason": "Internal refinement after two rounds improved only 0.000315; test content-dependent time retrieval instead of only extending the same architecture",
+  "model": "Warm-expand shared graph SSM with two full-day temporal-attention adapters",
+  "features": "64: preserve all 48 original channels and restore occupancy, availability and imputation inputs identified in the reference feature audit",
+  "trigger": "After the existing eight-round SSM refinement finishes",
+  "maximum_extra_rounds": 16,
+  "steps_per_round": 60,
+  "base_learning_rate": 0.0001,
+  "attention_learning_rate": 0.0005,
+  "seed": 20261022,
+  "checkpoint_selection": "Internal development only; preserve the initial winner as epoch 0 and compare against the preceding candidate",
+  "caveat": "Architecture and additional budget chosen after primary public holdout inspection. This is exploratory model development, not untouched-test evaluation."
+}

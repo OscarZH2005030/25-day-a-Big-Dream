@@ -1,0 +1,54 @@
+{
+  "routes": [
+    {
+      "panel": "D7_I405_N",
+      "alpha": 1.0,
+      "step": 60,
+      "pooled_flow": 40.18052572850849,
+      "macro_flow": 39.80854166374392,
+      "checkpoint": "best-model.pt",
+      "parameters": 43855662,
+      "micro_batch": 1,
+      "accumulation": 2,
+      "seconds": 683.4530000000013,
+      "holdout_used": false
+    },
+    {
+      "panel": "D12_I5_N",
+      "alpha": 1.0,
+      "step": 60,
+      "pooled_flow": 29.459736415872833,
+      "macro_flow": 29.086429958486164,
+      "checkpoint": "best-model.pt",
+      "parameters": 43855662,
+      "micro_batch": 1,
+      "accumulation": 2,
+      "seconds": 521.4219999999987,
+      "holdout_used": false
+    },
+    {
+      "panel": "D7_I210_E",
+      "alpha": 1.0,
+      "step": 60,
+      "pooled_flow": 33.000878031363555,
+      "macro_flow": 32.78450221067131,
+      "checkpoint": "best-model.pt",
+      "parameters": 43855662,
+      "micro_batch": 1,
+      "accumulation": 2,
+      "seconds": 601.4219999999987,
+      "holdout_used": false
+    }
+  ],
+  "frozen_at": "2026-10-20T16:29:09.468935-07:00",
+  "holdout_used": false,
+  "source_sha256": {
+    "build_candidate.py": "fece2964b6db13a708cc9db43c9fc55ae385271a88312ea7e4ff0c4799a31145",
+    "common.py": "a7260d299ca602c363526a1a963d62498bbddf234baffecd1c57867cbc0511e4",
+    "evaluate.py": "28da00ecd361dd8c863f53888742294d92dc621173aa70e1d8eb5ceceec0ae31",
+    "finish.py": "3896cca9ed1898a08d60b426dd41eda4b0e96bf97a43ff0779057522bf7bb19c",
+    "report.py": "ee5cd7bede0bf14edb3d0c68d91f0bb0d06c91a7e05447bc85992e0b05aaa973",
+    "train_wide.py": "3c8d77f629777971ec28faf6d130c7ab795662ffc0f308ae52acd79087ef4f74",
+    "wide_model.py": "062427a405357513e1a3f1591407cafbf20deda1d3dfbaec578d52d9b398cb64"
+  }
+}

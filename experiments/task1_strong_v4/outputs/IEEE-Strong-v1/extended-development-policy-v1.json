@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-20T04:10:28.622295-07:00",
+  "primary_holdout_already_seen": true,
+  "refined_holdout_exists": false,
+  "trigger": "Refinement best epoch >=6 and last three internal evaluations improved >=0.0008",
+  "maximum_extra_rounds": 16,
+  "steps_per_round": 60,
+  "learning_rate": 5e-05,
+  "seed": 20261022,
+  "checkpoint_selection": "Internal development only, including the initial winner as epoch 0",
+  "caveat": "Additional compute policy proposed after primary public holdout inspection; do not call the whole search untouched-test evaluation."
+}

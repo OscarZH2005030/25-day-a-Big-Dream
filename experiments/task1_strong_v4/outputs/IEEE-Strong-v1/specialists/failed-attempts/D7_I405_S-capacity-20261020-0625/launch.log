@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\train_specialist.py", line 297, in <module>
+    try:worker(args) if args.worker else monitor(args)
+                                         ^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\train_specialist.py", line 285, in monitor
+    if child.returncode:raise RuntimeError('Training failed; inspect training.log')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Training failed; inspect training.log

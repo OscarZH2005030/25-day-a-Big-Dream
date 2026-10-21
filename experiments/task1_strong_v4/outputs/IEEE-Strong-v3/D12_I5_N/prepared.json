@@ -1,0 +1,15 @@
+{
+  "nodes": 258,
+  "features": 136,
+  "source": "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\local-flow\\D12_I5_N",
+  "fit_indices": [
+    28,
+    196
+  ],
+  "dev_indices": [
+    196,
+    218
+  ],
+  "flow_base": "Immutable v2 final model, including its selected local branch",
+  "caution": "Frozen main model was fitted on the fitting period; residual fitting uses its in-sample errors. Development remains outside both models training."
+}

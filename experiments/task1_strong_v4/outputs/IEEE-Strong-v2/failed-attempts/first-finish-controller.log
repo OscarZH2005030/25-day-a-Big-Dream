@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\finish.py", line 55, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\finish.py", line 17, in main
+    raise RuntimeError('First-stage controller failed; inspect it before continuing')
+RuntimeError: First-stage controller failed; inspect it before continuing

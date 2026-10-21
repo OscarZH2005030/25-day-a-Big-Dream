@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "day": "2031-03-01",
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "rows": 14741,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 0.0
+    },
+    {
+      "panel": "D7_I10_W",
+      "rows": 6760,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 0.0
+    },
+    {
+      "panel": "D7_I210_E",
+      "rows": 30223,
+      "maximum_speed_difference_kmh": 9.999999974752427e-07,
+      "maximum_flow_difference_vph": 1.0000003385357559e-06
+    },
+    {
+      "panel": "D7_I210_W",
+      "rows": 7700,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 0.0
+    },
+    {
+      "panel": "D7_I405_N",
+      "rows": 21559,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 1.0000003385357559e-06
+    },
+    {
+      "panel": "D7_I405_S",
+      "rows": 4445,
+      "maximum_speed_difference_kmh": 9.999999974752427e-07,
+      "maximum_flow_difference_vph": 0.0
+    },
+    {
+      "panel": "D12_I5_N",
+      "rows": 10402,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 1.0000003385357559e-06
+    },
+    {
+      "panel": "D12_I5_S",
+      "rows": 5960,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 0.0
+    },
+    {
+      "panel": "D12_I405_N",
+      "rows": 5884,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 0.0
+    },
+    {
+      "panel": "D12_I405_S",
+      "rows": 1918,
+      "maximum_speed_difference_kmh": 0.0,
+      "maximum_flow_difference_vph": 0.0
+    }
+  ],
+  "model_root": "D:\\IEEE-Best-v4-20261020",
+  "external_training_cache_used": false
+}

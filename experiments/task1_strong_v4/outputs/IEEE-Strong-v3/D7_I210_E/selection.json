@@ -1,0 +1,12 @@
+{
+  "panel": "D7_I210_E",
+  "alpha": 1.0,
+  "step": 500,
+  "pooled_flow": 33.102398807689205,
+  "macro_flow": 32.88705589874807,
+  "batch": 262144,
+  "parameters": 4304161,
+  "initial_identity_verified": true,
+  "seconds": 264.75,
+  "holdout_used": false
+}

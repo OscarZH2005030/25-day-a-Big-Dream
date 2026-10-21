@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "child_exit_code": 0,
+  "stop_reason": null,
+  "started": "2026-10-20T06:28:02.223774-07:00",
+  "ended": "2026-10-20T06:37:46.035702-07:00",
+  "seconds": 583.8130000000019,
+  "peak_vram_mib": 14949.0,
+  "peak_temperature_c": 72.0,
+  "peak_power_w": 146.07
+}

@@ -1,0 +1,12 @@
+{
+  "panel": "D12_I5_N",
+  "alpha": 1.0,
+  "step": 500,
+  "pooled_flow": 29.850346073586774,
+  "macro_flow": 29.4184715103119,
+  "batch": 262144,
+  "parameters": 4302913,
+  "initial_identity_verified": true,
+  "seconds": 264.73399999999674,
+  "holdout_used": false
+}

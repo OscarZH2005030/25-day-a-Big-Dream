@@ -1,0 +1,6 @@
+{
+  "folder": "hybrid",
+  "selection": "Internal development only; public holdout does not choose checkpoints",
+  "refinement_performed": true,
+  "hybrid_performed": true
+}

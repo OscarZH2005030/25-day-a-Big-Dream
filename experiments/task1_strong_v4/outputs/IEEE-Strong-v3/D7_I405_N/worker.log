@@ -1,0 +1,21 @@
+{"phase": "training", "panel": "D7_I405_N", "step": 25, "steps": 500, "batch": 262144, "loss": 0.005008364096283913, "seconds": 17.14100000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 50, "steps": 500, "batch": 262144, "loss": 0.004952574148774147, "seconds": 30.01600000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 75, "steps": 500, "batch": 262144, "loss": 0.004958620294928551, "seconds": 42.90600000000268}
+{"phase": "training", "panel": "D7_I405_N", "step": 100, "steps": 500, "batch": 262144, "loss": 0.0049916720017790794, "seconds": 55.82800000000134}
+{"phase": "training", "panel": "D7_I405_N", "step": 125, "steps": 500, "batch": 262144, "loss": 0.004931372124701738, "seconds": 69.79699999999866}
+{"phase": "training", "panel": "D7_I405_N", "step": 150, "steps": 500, "batch": 262144, "loss": 0.00494296383112669, "seconds": 82.70300000000134}
+{"phase": "training", "panel": "D7_I405_N", "step": 175, "steps": 500, "batch": 262144, "loss": 0.004887741524726152, "seconds": 95.59399999999732}
+{"phase": "training", "panel": "D7_I405_N", "step": 200, "steps": 500, "batch": 262144, "loss": 0.0049051023088395596, "seconds": 108.51600000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 225, "steps": 500, "batch": 262144, "loss": 0.004926328547298908, "seconds": 121.39100000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 250, "steps": 500, "batch": 262144, "loss": 0.004880945198237896, "seconds": 134.26600000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 275, "steps": 500, "batch": 262144, "loss": 0.004892559256404638, "seconds": 147.17199999999866}
+{"phase": "training", "panel": "D7_I405_N", "step": 300, "steps": 500, "batch": 262144, "loss": 0.0048216297291219234, "seconds": 160.06300000000192}
+{"phase": "training", "panel": "D7_I405_N", "step": 325, "steps": 500, "batch": 262144, "loss": 0.004900738596916199, "seconds": 173.96899999999732}
+{"phase": "training", "panel": "D7_I405_N", "step": 350, "steps": 500, "batch": 262144, "loss": 0.004827060271054506, "seconds": 186.89100000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 375, "steps": 500, "batch": 262144, "loss": 0.004852124489843845, "seconds": 199.76600000000326}
+{"phase": "training", "panel": "D7_I405_N", "step": 400, "steps": 500, "batch": 262144, "loss": 0.0048477486707270145, "seconds": 212.67199999999866}
+{"phase": "training", "panel": "D7_I405_N", "step": 425, "steps": 500, "batch": 262144, "loss": 0.004838210996240377, "seconds": 225.54699999999866}
+{"phase": "training", "panel": "D7_I405_N", "step": 450, "steps": 500, "batch": 262144, "loss": 0.004860844928771257, "seconds": 238.45300000000134}
+{"phase": "training", "panel": "D7_I405_N", "step": 475, "steps": 500, "batch": 262144, "loss": 0.004778051748871803, "seconds": 251.32800000000134}
+{"phase": "training", "panel": "D7_I405_N", "step": 500, "steps": 500, "batch": 262144, "loss": 0.0048172082751989365, "seconds": 264.2189999999973}
+{"panel": "D7_I405_N", "alpha": 1.0, "step": 500, "pooled_flow": 40.39420595786717, "macro_flow": 40.00784566070541, "batch": 262144, "parameters": 4305921, "initial_identity_verified": true, "seconds": 265.25, "holdout_used": false}

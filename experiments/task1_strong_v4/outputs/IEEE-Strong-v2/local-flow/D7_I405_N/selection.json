@@ -1,0 +1,11 @@
+{
+  "alpha": 0.1,
+  "step": 300,
+  "pooled_flow": 41.07794927923682,
+  "macro_flow": 40.68032472211627,
+  "parameters": 4304897,
+  "batch": 131072,
+  "panel": "D7_I405_N",
+  "seconds": 83.18699999999808,
+  "holdout_used": false
+}

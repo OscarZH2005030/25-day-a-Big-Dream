@@ -1,0 +1,7 @@
+# Observed versions in this experiment; install the CUDA-specific Torch wheel separately.
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==26.0.0
+scipy==1.18.1
+matplotlib==3.11.2
+# torch==2.9.1+cu126

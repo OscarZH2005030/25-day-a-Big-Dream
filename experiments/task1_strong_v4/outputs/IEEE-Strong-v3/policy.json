@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-20T15:23:58.678285-07:00",
+  "reference": "Current v2 model only; original Transformer is unavailable and not compared.",
+  "baseline_score": 0.9397804646468753,
+  "baseline_flow_rmse": 34.6501080550362,
+  "panels": [
+    "D12_I5_N",
+    "D7_I405_N",
+    "D7_I210_E"
+  ],
+  "fit_indices": [
+    28,
+    196
+  ],
+  "dev_indices": [
+    196,
+    218
+  ],
+  "holdout_indices": [
+    218,
+    273
+  ],
+  "earlier_holdout_seen": true,
+  "architecture": "Frozen v2 model + zero-initialized 4-block width512 flow-error correction network, node embedding32, input136",
+  "steps": 500,
+  "evaluation_steps": [
+    100,
+    300,
+    500
+  ],
+  "seed": 20261026,
+  "loss": "Flow MSE + .05 correction squared; float32 baseline preserves identity",
+  "selection": "Mixing [0,.1,.25,.5,.75,1], pooled and regime-macro errors must not worsen in both early and late development halves and full development. Minimum pooled gain0.01. Freeze all selections before evaluation.",
+  "limitation": "Residual training uses in-sample predictions of a frozen supervised base; development remains outside both fitting periods.",
+  "source_sha256": {
+    "residual_core.py": "bbcd34eb7501ef12926c5c2ec80b2059721faf0bf2597875c00f69face018ad1",
+    "train_residual.py": "3d9089fe1041ab84bcc8d7eda5aa8121f05296729e7a96497ea64c28cbe9453d"
+  }
+}

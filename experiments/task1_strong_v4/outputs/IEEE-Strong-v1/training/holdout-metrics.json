@@ -1,0 +1,8 @@
+{
+  "split": "holdout",
+  "score": 0.9306161122056519,
+  "initial_score": 0.9038271584724547,
+  "n": 6636705,
+  "pooled_speed_rmse": 1.9421258225773157,
+  "pooled_flow_rmse_per_lane": 38.72195676652834
+}

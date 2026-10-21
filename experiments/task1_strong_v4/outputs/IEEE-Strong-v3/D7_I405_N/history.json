@@ -1,0 +1,44 @@
+[
+  {
+    "step": 100,
+    "raw_pooled_flow": 41.03179934365124,
+    "selected": {
+      "panel": "D7_I405_N",
+      "alpha": 1.0,
+      "step": 100,
+      "pooled_flow": 41.03179934365124,
+      "macro_flow": 40.635052506420855,
+      "batch": 262144,
+      "parameters": 4305921,
+      "initial_identity_verified": true
+    }
+  },
+  {
+    "step": 300,
+    "raw_pooled_flow": 40.66153317826193,
+    "selected": {
+      "panel": "D7_I405_N",
+      "alpha": 1.0,
+      "step": 300,
+      "pooled_flow": 40.66153317826193,
+      "macro_flow": 40.27105285902342,
+      "batch": 262144,
+      "parameters": 4305921,
+      "initial_identity_verified": true
+    }
+  },
+  {
+    "step": 500,
+    "raw_pooled_flow": 40.39420595786717,
+    "selected": {
+      "panel": "D7_I405_N",
+      "alpha": 1.0,
+      "step": 500,
+      "pooled_flow": 40.39420595786717,
+      "macro_flow": 40.00784566070541,
+      "batch": 262144,
+      "parameters": 4305921,
+      "initial_identity_verified": true
+    }
+  }
+]

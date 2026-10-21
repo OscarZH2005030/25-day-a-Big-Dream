@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "raw_holdout_score": 0.9603563961661296,
+  "calibrated_holdout_score": 0.9603392606817494,
+  "original_transformer_score": 0.9599199736706013,
+  "existing_isolated_fallback_global_reference": 0.9369103120317692,
+  "calibration": {
+    "coefficients": [
+      1.0297830416255156,
+      1.0291764641679804
+    ],
+    "bounds": [
+      0,
+      2
+    ],
+    "channels": [
+      "speed",
+      "flow_per_lane"
+    ],
+    "selection_dates": [
+      "2030-12-14",
+      "2031-01-04"
+    ],
+    "raw_development_score": 0.9592183055571756,
+    "calibrated_development_score": 0.9592622013657638,
+    "holdout_used": false,
+    "note": "Only two coefficients. Chosen before reading holdout prediction/metric files."
+  },
+  "note": "Calibration selected only on internal development; no holdout-driven choice between raw and calibrated candidates.",
+  "delta_vs_transformer": 0.00041928701114801736
+}

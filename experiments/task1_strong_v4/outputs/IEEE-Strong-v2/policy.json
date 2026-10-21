@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-20T13:44:55.074688-07:00",
+  "scope": "Target three regressed corridors first; reduce flow RMSE on all ten",
+  "earlier_holdout_seen": true,
+  "holdout_labels_in_fit": false,
+  "fit_indices": [
+    28,
+    196
+  ],
+  "development_indices": [
+    196,
+    218
+  ],
+  "holdout_indices": [
+    218,
+    273
+  ],
+  "epochs": 3,
+  "steps": 20,
+  "seed": 20261024,
+  "loss": ".35 speed_RMSE + .65 flow_RMSE + 3 flow_MSE + .05 speed_MSE; normalized by 25 and 600",
+  "selection": "One checkpoint per corridor chosen for lower internal pooled flow RMSE, >=0.02 physical unit gain and no score decrease; each channel mixing grid [0,.25,.5,.75,1] requires both pooled and macro RMSE not worsen.",
+  "holdout": "Only after all ten routes are frozen. No choosing candidates using holdout.",
+  "gpu": "Reuse previous proven actual batches, FP16, activation checkpointing, full 288-step corridors. No decorative memory allocations.",
+  "source_sha256": {
+    "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\optimize.py": "f19ae1bfd611d61ed48125746a77b165c1ad265ea3d5554db2965c8de4eb1ae3",
+    "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v1\\model.py": "e93e094953622ac6f6ffc584bf712f6a1b607169bf64dd098adf31f5dccf0900",
+    "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v1\\hybrid_model.py": "0f4a493d8c7097c5e55dc59b2d3e42e0115b278087139e5cd11081536b7058fb"
+  }
+}

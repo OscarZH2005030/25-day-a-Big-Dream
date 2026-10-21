@@ -1,0 +1,48 @@
+{"panel": "D7_I10_W", "phase": "initialized", "seconds": 5.125, "micro_batch": 8, "accumulation": 1, "parameters": 11388974, "initial": {"score": 0.9497121101932694, "macro": [1.254963075076075, 30.235679197940023], "pooled": [1.2133723408975536, 29.806294559702053]}}
+{"panel": "D7_I10_W", "phase": "training", "seconds": 10.546999999998661, "epoch": 1, "step": 1, "steps": 20, "loss": 0.06549961119890213, "gradient_norm": 0.10346830636262894}
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\optimize.py", line 226, in <module>
+    try:worker(args.worker) if args.worker else controller()
+        ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\optimize.py", line 132, in worker
+    scaler.scale(loss/accumulate).backward();running+=float(loss.detach())/accumulate
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\_tensor.py", line 625, in backward
+    torch.autograd.backward(
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\autograd\__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\autograd\graph.py", line 841, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\utils\checkpoint.py", line 1154, in unpack_hook
+    _run_fn_with_dynamo_disabled(frame.recompute_fn, *args)
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\_compile.py", line 53, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\_dynamo\eval_frame.py", line 1044, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\utils\checkpoint.py", line 1124, in _run_fn_with_dynamo_disabled
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\utils\checkpoint.py", line 1555, in recompute_fn
+    fn(*args, **kwargs)
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\model.py", line 83, in forward
+    x=x+self.drop(self.state(self.state_norm(x)))*.1
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\torch\nn\modules\module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v1\model.py", line 46, in forward
+    backward=torch.fft.irfft(reverse*torch.fft.rfft(kb,n=fft_length),n=fft_length)[...,:length].flip(-1)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 430.00 MiB. GPU 0 has a total capacity of 16.00 GiB of which 1.00 GiB is free. 14.24 GiB allowed; Of the allocated memory 11.80 GiB is allocated by PyTorch, and 2.05 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

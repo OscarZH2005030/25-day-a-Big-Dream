@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I405_N",
+      "checkpoint_step": 60,
+      "parameters": 43855662,
+      "mean_channel_copy_weight_difference": 9.077475056074036e-07,
+      "maximum_channel_copy_weight_difference": 4.669325426220894e-05,
+      "expanded_channels_no_longer_identical": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "checkpoint_step": 60,
+      "parameters": 43855662,
+      "mean_channel_copy_weight_difference": 1.2211819466756424e-06,
+      "maximum_channel_copy_weight_difference": 5.891919136047363e-05,
+      "expanded_channels_no_longer_identical": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "checkpoint_step": 60,
+      "parameters": 43855662,
+      "mean_channel_copy_weight_difference": 1.3040947806075565e-06,
+      "maximum_channel_copy_weight_difference": 4.8823654651641846e-05,
+      "expanded_channels_no_longer_identical": true
+    }
+  ]
+}

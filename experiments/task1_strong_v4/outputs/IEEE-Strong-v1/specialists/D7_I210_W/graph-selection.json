@@ -1,0 +1,10 @@
+{
+  "use_proximity": false,
+  "use_path": true,
+  "selected": "path_for_isolated",
+  "margin": 0.0001,
+  "original_internal": 0.91626537713343,
+  "proximity_internal": 0.920276131255811,
+  "path_internal": 0.9205332875578586,
+  "selection": "Internal development only; input features always retain the original graph"
+}

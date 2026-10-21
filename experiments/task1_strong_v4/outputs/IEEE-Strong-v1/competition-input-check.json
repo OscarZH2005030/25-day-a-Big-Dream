@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 28624
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 24036
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 18994
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 19988
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 52117
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 52139
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 14220
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 13407
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 65666
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 69529
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 19440
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 21370
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 45198
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 45311
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 17524
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 18578
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 17484
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 17416
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "validation",
+      "required_fields_present": true,
+      "occupancy_non_null": 8540
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "private",
+      "required_fields_present": true,
+      "occupancy_non_null": 8596
+    }
+  ]
+}

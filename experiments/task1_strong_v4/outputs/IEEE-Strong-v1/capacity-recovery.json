@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-20T06:28:00.469680-07:00",
+  "reason": "D7_I405_S CUDA OOM before first optimizer update during accumulated backward",
+  "completed_models_preserved": 5,
+  "failed_attempt_archived": "specialists/failed-attempts/D7_I405_S-capacity-20261020-0625",
+  "change": "Reject batch probes with allocated peak >10.5 GiB; increase gradient accumulation in proportion to preserve the previously fitting effective batch",
+  "expected_retry_micro_batch": 4,
+  "expected_retry_accumulation": 4,
+  "expected_retry_effective_batch": 16,
+  "model_and_graph_candidates_unchanged": true,
+  "holdout_metrics_used_for_change": false,
+  "source_sha256": {
+    "train_specialist.py": "d4aec96b3bf75b7976c72af0129d90fbe3e6022f8d4f75b6e93c0ac7832ba31d",
+    "specialist_search.py": "c6ece0e0a6bdc1e9de028d1e91d1bdeaf37688da6f4862f139a428d0fa42114f"
+  }
+}

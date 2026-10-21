@@ -1,0 +1,25 @@
+{
+  "status": "evaluated",
+  "previous": {
+    "score": 0.9394236731211079,
+    "speed_rmse": 1.6782290525141474,
+    "flow_rmse": 34.93949570766369
+  },
+  "new": {
+    "score": 0.9397804646468753,
+    "speed_rmse": 1.6693995198429752,
+    "flow_rmse": 34.6501080550362
+  },
+  "transformer": {
+    "score": 0.9358124847434317,
+    "speed_rmse": 1.7917702979330814,
+    "flow_rmse": 33.55242733209142
+  },
+  "targets": 6636705,
+  "directions_improved_vs_previous": 10,
+  "directions_improved_vs_transformer": 7,
+  "adapted_routes": 10,
+  "local_flow_routes": 1,
+  "selection": "Frozen internal-only selections; this evaluation does not choose or change routes.",
+  "limitation": "Exploratory reuse of a historically observed holdout. Not hidden-test evidence."
+}

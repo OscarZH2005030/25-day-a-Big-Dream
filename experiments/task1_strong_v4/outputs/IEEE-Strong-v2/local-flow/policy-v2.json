@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-20T13:57:31.287751-07:00",
+  "revision": 2,
+  "holdout_used": false,
+  "panels": [
+    "D12_I5_N",
+    "D7_I405_N",
+    "D7_I210_E"
+  ],
+  "reason": "Complement long-context model with an explicit multi-scale local flow expert on the three regressed dense corridors.",
+  "features": "Original 64 plus eight observed/initial/quality channels at offsets +/-5,15,30,60 minutes, plus fit-period weekday flow mean/std/support; 131 total; 32 learned node dimensions.",
+  "profile": "Only fitting indices28:196. Each fit day is subtracted from its own profile. Dev/holdout/competition features use fitting-period statistics only. No dev or holdout labels in feature profiles.",
+  "architecture": "width512 four residual MLP blocks expansion2; interpolation residual; flow output only",
+  "fit_indices": [
+    28,
+    196
+  ],
+  "development_indices": [
+    196,
+    218
+  ],
+  "training_steps": 300,
+  "checkpoints": [
+    100,
+    200,
+    300
+  ],
+  "loss": "flow MSE in units of 600 veh/hour/lane",
+  "seed": 20261025,
+  "mixing": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "selection": "Internal development only; require pooled and regime-macro RMSE improve in both early and late halves. Then choose lowest full development pooled RMSE.",
+  "source_sha256": "5c8bebb8ea02b02b8c7f64aea62a20cfe904d5a706a6ad91ae458a8e7d9e970a"
+}

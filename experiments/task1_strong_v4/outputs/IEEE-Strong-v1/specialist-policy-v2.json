@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-20T05:03:55.399960-07:00",
+  "revision": 2,
+  "hybrid_holdout_exists": false,
+  "earlier_public_holdouts_seen": true,
+  "reason": "Test whether corridor-specific adaptation improves over global sharing",
+  "global_source": "Internal development winner, selected without the global hybrid holdout score",
+  "rounds": 2,
+  "steps_per_round": 30,
+  "evaluate_every": 1,
+  "base_learning_rate": 5e-05,
+  "attention_learning_rate": 0.00025,
+  "ema_decay": 0.9,
+  "gradient_accumulation": 2,
+  "batch_probe": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "seeds": "20261023 + panel index",
+  "checkpoint_selection": "Per-corridor internal development, with unmodified global initialization as epoch 0",
+  "calibration": "Two scalars per corridor, internal dates only, bounds [0,2]",
+  "heldout_selection": false,
+  "graph_selection": "Original versus distance-decayed statistical proximity for isolated nodes; select on internal score with minimum gain 0.0001. Cached features keep the original graph.",
+  "source_sha256": {
+    "train_specialist.py": "f3bc684719a9d3da8c044c7220fe498b995b7806b7e5ac20c1bcf3d835f1bcbd",
+    "calibrate_specialist.py": "69e7eb5fde2e0e6e48cd2590538c66d9ae75e51e0df69ac3a5e267f0effa0bc6",
+    "hybrid_model.py": "0f4a493d8c7097c5e55dc59b2d3e42e0115b278087139e5cd11081536b7058fb",
+    "quality_features.py": "5608f7e62003257372b2faa537f9f99b442b8d1731c457759fbff8792ce24e7f",
+    "prepare_proximity_graphs.py": "8658d0125c40a610b18e834b1b96c2fcd1b4e353b3fd48315970865a3031659f",
+    "proximity-assets/manifest.json": "3ccb6acc394a5683fd306de061d56af197831da2e3afabdda6e41d42c304aa96"
+  }
+}

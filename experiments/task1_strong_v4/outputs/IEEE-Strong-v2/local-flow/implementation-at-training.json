@@ -1,0 +1,5 @@
+{
+  "recorded_at": "2026-10-20T14:34:05.294245-07:00",
+  "source_sha256": "5df48fc994e502fd0d28c27c1b976d414120fbc1a3cb3398b39495ee6a9cadf7",
+  "note": "Added shared full-grid inference helper after CPU data preparation. Training feature schema and policy unchanged."
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-20T15:58:52.311153-07:00",
+  "baseline": "IEEE-Strong-v3",
+  "fit": [
+    28,
+    196
+  ],
+  "development": [
+    196,
+    218
+  ],
+  "holdout": [
+    218,
+    273
+  ],
+  "holdout_previously_seen": true,
+  "architecture": "512 width,10 graph/SSM blocks,16 attention heads; 43,855,662 parameters,3.85x base",
+  "initialization": "Duplicate channels and attention heads, split input coefficients, cancelling 1% perturbations; real FP32 parity checked.",
+  "training": "60 updates per direction, EMA.1, AdamW2e-5 cosine, effective batch2; full288 steps/fullcorridor; FP16/activation checkpointing",
+  "deployment": "Flow=current_v3 + alpha*(wide_model-frozen_v2_raw_model); speeds and other outputs unchanged.",
+  "selection": "Check20,40,60; alpha[0,.1,.25,.5,.75,1]; pooled AND regime macro must not worsen on all/early11/late11 dev; minimum .01 pooled flow gain.",
+  "safeguards": "Freeze all selections before local holdout. Never overwrite v3. If no accepted expansion, reuse v3.",
+  "source_sha256": {
+    "common.py": "a7260d299ca602c363526a1a963d62498bbddf234baffecd1c57867cbc0511e4",
+    "train_wide.py": "3c8d77f629777971ec28faf6d130c7ab795662ffc0f308ae52acd79087ef4f74",
+    "wide_model.py": "062427a405357513e1a3f1591407cafbf20deda1d3dfbaec578d52d9b398cb64"
+  }
+}

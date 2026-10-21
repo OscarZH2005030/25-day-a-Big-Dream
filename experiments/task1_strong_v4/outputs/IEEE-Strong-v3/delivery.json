@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "baseline": "IEEE-Strong-v2",
+  "report": "优化结果与说明.txt",
+  "metrics": "evaluation-summary.json",
+  "routes": "frozen-routes.json",
+  "submission": "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\candidate-submission\\submission.csv",
+  "validation": "passed",
+  "previous_best_preserved": true,
+  "score": 0.9398510478146548,
+  "flow_rmse": 34.43954985052447
+}

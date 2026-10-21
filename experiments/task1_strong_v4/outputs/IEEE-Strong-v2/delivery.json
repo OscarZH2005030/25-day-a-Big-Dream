@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "metrics": "evaluation-summary.json",
+  "report": "优化结果与说明.txt",
+  "plot": "comparison.png",
+  "routes": "final-model.json",
+  "submission": "candidate-submission/submission.csv",
+  "previous_best_preserved": true,
+  "previous_score": 0.9394236731211079,
+  "new_score": 0.9397804646468753,
+  "previous_flow_rmse": 34.93949570766369,
+  "new_flow_rmse": 34.6501080550362
+}

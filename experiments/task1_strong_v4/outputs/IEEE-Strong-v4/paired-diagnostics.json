@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "panel": "D12_I5_N",
+      "improved_days": 50,
+      "total_days": 55,
+      "improved_regimes": 3,
+      "total_regimes": 3
+    },
+    {
+      "panel": "D7_I210_E",
+      "improved_days": 54,
+      "total_days": 55,
+      "improved_regimes": 3,
+      "total_regimes": 3
+    },
+    {
+      "panel": "D7_I405_N",
+      "improved_days": 50,
+      "total_days": 55,
+      "improved_regimes": 3,
+      "total_regimes": 3
+    }
+  ],
+  "selection_changed": false
+}

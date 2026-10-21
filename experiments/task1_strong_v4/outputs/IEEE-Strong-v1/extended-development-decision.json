@@ -1,0 +1,7 @@
+{
+  "variant": "full_day_attention_ssm",
+  "previous": "refinement",
+  "best_epoch": 8,
+  "best_development_score": 0.9311065434129802,
+  "decision_used_refined_holdout_metric": false
+}

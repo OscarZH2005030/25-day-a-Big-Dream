@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-20T14:13:22.937448-07:00",
+  "failed_panel": "D7_I10_W",
+  "failure": "CUDA allocator limit during second update backward; no selected candidate from this attempt",
+  "completed_routes_preserved": 4,
+  "change": "Limit microbatch times corridor nodes to704; halve microbatch and proportionally increase accumulation, preserving effective batch; restart this road from v1. Model/loss/learning-rate/epochs and internal selection unchanged.",
+  "holdout_used": false,
+  "source_sha256": "441c8f9cb5d7e36aad440dd2c1565b81f9365e2e76db9fd54f8158f13dc84808"
+}

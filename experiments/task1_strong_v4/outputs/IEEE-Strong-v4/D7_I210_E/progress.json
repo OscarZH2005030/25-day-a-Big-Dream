@@ -1,0 +1,18 @@
+{
+  "panel": "D7_I210_E",
+  "phase": "complete",
+  "seconds": 601.4219999999987,
+  "selection": {
+    "panel": "D7_I210_E",
+    "alpha": 1.0,
+    "step": 60,
+    "pooled_flow": 33.000878031363555,
+    "macro_flow": 32.78450221067131,
+    "checkpoint": "best-model.pt",
+    "parameters": 43855662,
+    "micro_batch": 1,
+    "accumulation": 2,
+    "seconds": 601.4219999999987,
+    "holdout_used": false
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "validation",
+      "days": 31,
+      "missing_ramp_dates": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "private",
+      "days": 30,
+      "missing_ramp_dates": 0
+    }
+  ]
+}

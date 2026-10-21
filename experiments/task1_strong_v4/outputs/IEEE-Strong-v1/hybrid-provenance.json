@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-20T04:31:45.370844-07:00",
+  "refined_holdout_exists": false,
+  "features": 64,
+  "parameters": 11388974,
+  "source_sha256": {
+    "model.py": "e93e094953622ac6f6ffc584bf712f6a1b607169bf64dd098adf31f5dccf0900",
+    "hybrid_model.py": "0f4a493d8c7097c5e55dc59b2d3e42e0115b278087139e5cd11081536b7058fb",
+    "train_hybrid.py": "5c2ba5665cde665966934fe4e054b81a00f51675022e69ed588b51ebce53144a",
+    "prepare_features.py": "7965edc5e50eaaad2896287ab998a76f4e3882ae7ec70d43ee993f5e3f70676d",
+    "prepare_quality_cache.py": "d83abc0e82458ae733cc87511586a71ec1df20b4304818c30529bda29130c1d0",
+    "quality_features.py": "5608f7e62003257372b2faa537f9f99b442b8d1731c457759fbff8792ce24e7f",
+    "calibrate_and_compare.py": "69c3ce322a0e666966c33854f8fc88da33beac69fd23a2bd8c6aa50fc19ef36e",
+    "inference.py": "046c08abe091a60b499871d3e90b400f26996691d1cbb409d39df55991e717fd"
+  },
+  "cache_metadata_sha256": "8f3e14fb590da61a67ecd00690f6187809d6555efabc68a905cc61a768850cf9",
+  "policy": "extended-development-policy.json",
+  "note": "Hybrid settings fixed before refined holdout is available; primary public holdout has already been seen. Feature additions and architecture are a joint candidate, not an isolated attention ablation."
+}

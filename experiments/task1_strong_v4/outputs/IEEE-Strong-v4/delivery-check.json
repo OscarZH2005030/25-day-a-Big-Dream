@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rows": 6980503,
+  "previous_best_files_unchanged": 19,
+  "speeds_identical": true,
+  "queue_identical": true,
+  "odme_identical": true,
+  "only_selected_road_flows_changed": true,
+  "changed_flow_rows": 3756943,
+  "selected_sha256": {
+    "D7_I405_N\\best-model.pt": "046999f11b94825cc1e0a6aec2e7891726adc606490257a3fb129a040588cd70",
+    "D12_I5_N\\best-model.pt": "c8ac487a5194c73ea1910604f29d18278ca7520dd3aee78217372b59100fd4c9",
+    "D7_I210_E\\best-model.pt": "5a571073911d7cc136330fae5c25277f137f3ca937308ecc33e1ca31bd150955"
+  }
+}

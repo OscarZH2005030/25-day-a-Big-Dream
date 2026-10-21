@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "lane_source": "network/fd_parameters.csv",
+  "normalization": {
+    "speed_kmh": 25,
+    "flow_per_lane": 600
+  },
+  "score_weights": [
+    0.54,
+    0.46
+  ],
+  "dates_and_all_30_target_counts_match": true,
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D7_I10_W",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D7_I210_E",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D7_I210_W",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D7_I405_N",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D7_I405_S",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D12_I5_N",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D12_I5_S",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D12_I405_N",
+      "maximum_normalized_label_difference": 0.0
+    },
+    {
+      "panel": "D12_I405_S",
+      "maximum_normalized_label_difference": 0.0
+    }
+  ]
+}

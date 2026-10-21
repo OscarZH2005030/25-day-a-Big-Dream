@@ -1,0 +1,30 @@
+{
+  "batch": 262144,
+  "trials": [
+    {
+      "batch": 32768,
+      "allocated_gib": 1.8596043586730957,
+      "status": "fits"
+    },
+    {
+      "batch": 65536,
+      "allocated_gib": 2.4966893196105957,
+      "status": "fits"
+    },
+    {
+      "batch": 131072,
+      "allocated_gib": 3.7679295539855957,
+      "status": "fits"
+    },
+    {
+      "batch": 262144,
+      "allocated_gib": 6.312363147735596,
+      "status": "fits"
+    },
+    {
+      "batch": 524288,
+      "allocated_gib": 11.401230335235596,
+      "status": "reserve_training_headroom"
+    }
+  ]
+}

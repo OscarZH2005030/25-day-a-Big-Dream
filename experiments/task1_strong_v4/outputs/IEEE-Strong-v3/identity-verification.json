@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "float32_base_preserved_exactly": true,
+  "finite_gradients": true,
+  "features": 136
+}

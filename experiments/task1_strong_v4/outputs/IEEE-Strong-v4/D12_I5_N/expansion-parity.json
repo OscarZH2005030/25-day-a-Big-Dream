@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "float32_maximum_difference": 1.9073486328125e-06,
+  "fp16_maximum_difference": 0.0014505386352539062,
+  "features": 64,
+  "width": 512,
+  "depth": 10,
+  "heads": 16,
+  "steps_per_day": 288,
+  "nodes": 258
+}

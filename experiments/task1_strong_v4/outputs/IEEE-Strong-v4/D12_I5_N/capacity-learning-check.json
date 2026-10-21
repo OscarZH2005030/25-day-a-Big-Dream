@@ -1,0 +1,8 @@
+{
+  "panel": "D12_I5_N",
+  "checkpoint_step": 60,
+  "parameters": 43855662,
+  "mean_channel_copy_weight_difference": 1.2211819466756424e-06,
+  "maximum_channel_copy_weight_difference": 5.891919136047363e-05,
+  "expanded_channels_no_longer_identical": true
+}

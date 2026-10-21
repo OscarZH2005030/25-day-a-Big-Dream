@@ -1,0 +1,26 @@
+{
+  "features": 134,
+  "offset_padding_passed": true,
+  "initial_output_exact_interpolation": true,
+  "hidden_input_flow_ignored_by_derived_adjustments": true,
+  "profile_checks": [
+    {
+      "panel": "D7_I210_E",
+      "profile_fitting_dates_only": true,
+      "fit_own_day_excluded": true,
+      "finite_gradients_real_fit_rows": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "profile_fitting_dates_only": true,
+      "fit_own_day_excluded": true,
+      "finite_gradients_real_fit_rows": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "profile_fitting_dates_only": true,
+      "fit_own_day_excluded": true,
+      "finite_gradients_real_fit_rows": true
+    }
+  ]
+}

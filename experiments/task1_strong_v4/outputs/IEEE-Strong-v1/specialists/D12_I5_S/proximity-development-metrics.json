@@ -1,0 +1,8 @@
+{
+  "split": "proximity-development",
+  "score": 0.9257796647155915,
+  "initial_score": 0.8948026366462803,
+  "n": 162479,
+  "pooled_speed_rmse": 2.2689468458836943,
+  "pooled_flow_rmse_per_lane": 36.09414855638994
+}

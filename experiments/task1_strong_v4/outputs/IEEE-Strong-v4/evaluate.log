@@ -1,0 +1,23 @@
+{"panel": "D7_I405_N", "phase": "evaluated"}
+{"panel": "D12_I5_N", "phase": "evaluated"}
+{"panel": "D7_I210_E", "phase": "evaluated"}
+{
+  "baseline": {
+    "score": 0.9398510478146548,
+    "flow_rmse": 34.43954985052447,
+    "speed_rmse": 1.6693995198429752
+  },
+  "new": {
+    "score": 0.9398981009229322,
+    "flow_rmse": 34.32018765327158,
+    "speed_rmse": 1.6693995198429752
+  },
+  "score_delta": 4.7053108277461675e-05,
+  "flow_rmse_delta": -0.11936219725289021,
+  "targets": 6636705,
+  "adopted": 3,
+  "improved_directions": 3,
+  "unchanged_speed": true,
+  "holdout_previously_seen": true,
+  "hidden_test_evidence": false
+}

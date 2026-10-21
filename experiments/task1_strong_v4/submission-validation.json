@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "rows": 6980503,
+  "tasks": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "columns": [
+    "submission_id",
+    "task",
+    "speed_kmh",
+    "flow_vph",
+    "queue_pred",
+    "path_flow"
+  ],
+  "exact_template_order": true,
+  "missing_predictions": 0,
+  "duplicate_ids": 0,
+  "nonfinite_values": 0,
+  "negative_values": 0,
+  "queue_binary": true,
+  "unused_fields_zero": true,
+  "sha256": "47a77bfa944c7d91fe04fc0741bedcd57635fa21d01a5e8471e16c3d0291763c",
+  "bytes": 387580204,
+  "note": "Local structural validation only. No Kaggle upload or hidden-label score."
+}

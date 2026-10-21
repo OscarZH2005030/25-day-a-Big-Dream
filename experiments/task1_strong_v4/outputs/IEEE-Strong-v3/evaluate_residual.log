@@ -1,0 +1,24 @@
+{"panel": "D7_I210_E", "phase": "evaluated"}
+{"panel": "D7_I405_N", "phase": "evaluated"}
+{"panel": "D12_I5_N", "phase": "evaluated"}
+{
+  "status": "evaluated",
+  "baseline": {
+    "score": 0.9397804646468753,
+    "flow_rmse": 34.6501080550362,
+    "speed_rmse": 1.6693995198429752
+  },
+  "new": {
+    "score": 0.9398510478146548,
+    "flow_rmse": 34.43954985052447,
+    "speed_rmse": 1.6693995198429752
+  },
+  "score_delta": 7.058316777952545e-05,
+  "flow_rmse_delta": -0.21055820451172735,
+  "targets": 6636705,
+  "adopted": 3,
+  "improved_directions": 3,
+  "unchanged_speed": true,
+  "selection": "All parameters and mixing frozen on internal development before this evaluation.",
+  "limitation": "Exploratory reuse of a previously viewed local holdout, not hidden-test evidence. No original Transformer comparison."
+}

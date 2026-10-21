@@ -1,0 +1,10 @@
+{"panel": "D7_I10_E", "split": "validation", "rows": 14741}
+{"panel": "D7_I10_W", "split": "validation", "rows": 6760}
+{"panel": "D7_I210_E", "split": "validation", "rows": 30223}
+{"panel": "D7_I210_W", "split": "validation", "rows": 7700}
+{"panel": "D7_I405_N", "split": "validation", "rows": 21559}
+{"panel": "D7_I405_S", "split": "validation", "rows": 4445}
+{"panel": "D12_I5_N", "split": "validation", "rows": 10402}
+{"panel": "D12_I5_S", "split": "validation", "rows": 5960}
+{"panel": "D12_I405_N", "split": "validation", "rows": 5884}
+{"panel": "D12_I405_S", "split": "validation", "rows": 1918}

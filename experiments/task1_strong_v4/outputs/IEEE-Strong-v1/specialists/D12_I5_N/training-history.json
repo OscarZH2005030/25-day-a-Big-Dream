@@ -1,0 +1,23 @@
+[
+  {
+    "epoch": 0,
+    "training_loss": null,
+    "seconds": 35.79599999999846,
+    "development_score": 0.9517971425306291,
+    "initial_score": 0.8975804207166584
+  },
+  {
+    "epoch": 1,
+    "training_loss": 0.04585624181975921,
+    "seconds": 205.09300000000076,
+    "development_score": 0.9519963171768415,
+    "initial_score": 0.8975804207166584
+  },
+  {
+    "epoch": 2,
+    "training_loss": 0.046074419654905795,
+    "seconds": 383.15599999999904,
+    "development_score": 0.9525540872621509,
+    "initial_score": 0.8975804207166584
+  }
+]

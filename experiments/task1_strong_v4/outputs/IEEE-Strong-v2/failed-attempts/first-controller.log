@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\optimize.py", line 226, in <module>
+    try:worker(args.worker) if args.worker else controller()
+                                                ^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\optimize.py", line 215, in controller
+    if child.returncode:raise RuntimeError('Worker failed: '+panel)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Worker failed: D7_I10_W

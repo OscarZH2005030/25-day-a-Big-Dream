@@ -1,0 +1,20 @@
+{
+  "diagnostic_only": true,
+  "rows": [
+    {
+      "panel": "D7_I210_E",
+      "old_profile_flow_rmse": 76.61155432824674,
+      "new_profile_flow_rmse": 65.47981706661761
+    },
+    {
+      "panel": "D7_I405_N",
+      "old_profile_flow_rmse": 142.1602075647741,
+      "new_profile_flow_rmse": 110.56393268976734
+    },
+    {
+      "panel": "D12_I5_N",
+      "old_profile_flow_rmse": 114.07991880876476,
+      "new_profile_flow_rmse": 119.8674606587225
+    }
+  ]
+}

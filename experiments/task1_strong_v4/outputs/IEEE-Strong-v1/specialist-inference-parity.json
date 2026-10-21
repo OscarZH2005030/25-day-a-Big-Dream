@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "prediction_tolerance": 0.0002,
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D12_I405_N",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "raw_features_bitwise_equal": true,
+      "maximum_normalized_prediction_difference": 0.0,
+      "correct_model_graph": true
+    }
+  ]
+}

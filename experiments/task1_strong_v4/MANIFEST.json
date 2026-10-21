@@ -1,0 +1,4309 @@
+{
+  "name": "IEEE-Best-v4-20261020",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 83,
+      "sha256": "f8f8ff0607c57163527dde58b38b85aab60a98ee403d47ad31cf921f8054943c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 265,
+      "sha256": "059266fda6cdc3a9c42c04996224ca83004ccfced882bc856178bf39a21bd0e0"
+    },
+    {
+      "path": "MODEL_CARD.json",
+      "bytes": 3576,
+      "sha256": "c7bd2036d793d12d4aa1733d84635548c21a208facb17a7da301492466a8f996"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4641,
+      "sha256": "ef53f13596a55d86df84048782350506334a10e27a1ba9c57320a1715a947ff1"
+    },
+    {
+      "path": "SOURCE_COPY_MANIFEST.json",
+      "bytes": 168073,
+      "sha256": "1f33d06207b0c46e680a4ead250e10e3a699a7e51e0eedd03f7a634ff316a8a1"
+    },
+    {
+      "path": "download_model.py",
+      "bytes": 1338,
+      "sha256": "c7d145cc1374621e540ad738b4f9b3b5fb717dcdded1dcdcd6b632f41c7ba8c6"
+    },
+    {
+      "path": "outputs/IEEE-Competition-Ready/build_submission.py",
+      "bytes": 17092,
+      "sha256": "7e56f36a3523b801bc8559ff005a268c3dde497802277714b6db02c732243326"
+    },
+    {
+      "path": "outputs/IEEE-Competition-Ready/run_monitored.py",
+      "bytes": 2801,
+      "sha256": "f2a90ec5aa379a1c8d19ff2088c892e9ddeb8b42b32454cf86b71c553798998f"
+    },
+    {
+      "path": "outputs/IEEE-Competition-Ready/trafficflow_model.py",
+      "bytes": 1032,
+      "sha256": "cd1b532e35ae0725c189af73d1f5b9cc29449b4044e793e426fac1cfcce08e13"
+    },
+    {
+      "path": "outputs/IEEE-Competition-Ready/train_full_data.py",
+      "bytes": 12374,
+      "sha256": "e6a12df6387f0804633d4ae109cc432e6e959eb3be6c25bda68190eb4ee1cafb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/all-stages-complete.json",
+      "bytes": 203,
+      "sha256": "42d271589cd6d6084d3af22ab04364867db2c41350fc715de97b6208c02b3e35"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/calibrate_and_compare.py",
+      "bytes": 7067,
+      "sha256": "69c3ce322a0e666966c33854f8fc88da33beac69fd23a2bd8c6aa50fc19ef36e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/calibrate_specialist.py",
+      "bytes": 7275,
+      "sha256": "69e7eb5fde2e0e6e48cd2590538c66d9ae75e51e0df69ac3a5e267f0effa0bc6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/candidate-summary.csv",
+      "bytes": 272,
+      "sha256": "76992d179137facfa34b7d072715d19bbf1fc2871b2267852fe5f945b92381f1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/capacity-recovery.json",
+      "bytes": 871,
+      "sha256": "424e9efc940b6042e64b065bcca55d66f2741d44e347e04eaafa72b7591962dc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/competition-input-check.json",
+      "bytes": 2986,
+      "sha256": "977c4bfc9d287099dc2993b5e3ab55096cd8f3285ef3896a7df55388bf31aaec"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/competition-ramp-coverage.json",
+      "bytes": 2488,
+      "sha256": "f33fdde7508ef85624088554ea0fcc859f4854eb55d9870e88305914677e0ed2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/component-verification.json",
+      "bytes": 190,
+      "sha256": "bc3a642bd737cb57d28308a1adcb6bf394d7d9f24f7e5c4fc2bb47153c26b2a0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/continuation.log",
+      "bytes": 315,
+      "sha256": "277f3fbd3ad3acd14a81a121d4dd9a1e068c411c2d3b3840bbe2fb11bc57d757"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/continue_if_needed.py",
+      "bytes": 2901,
+      "sha256": "38c5ba13c59f5d6684384dea0f9db05551287be628f0c9dc254d42cf12849d54"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/deliverables.json",
+      "bytes": 771,
+      "sha256": "185241a84b1accff7db970a9a701b252d9dbbc06c64a18ae4667b5bdafc80d13"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/delivery-complete.json",
+      "bytes": 84,
+      "sha256": "f2c0376163e489ab6dbe49851f38e884e39ddc6c77cba441ed253ea1eb402378"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/delivery-controller.log",
+      "bytes": 725,
+      "sha256": "1be95d3839e8f3c8bee1b461bfa4296a3fc79047496d799ac24cfa5bb7c1e0e8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/evaluation-alignment.json",
+      "bytes": 1201,
+      "sha256": "74539eee66cd912dbf400db05662741c50e4a6112aa402d5b6e244fa4d2d4114"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/experiment-complete.json",
+      "bytes": 166,
+      "sha256": "8429f954565f812d0f0ddcf470c2b0c6c5371b34512fe6b408c06c53af67a534"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/extended-development-decision.json",
+      "bytes": 191,
+      "sha256": "fd06d095bc8a187e9454fe693997d43426e62bd9b698262c5bb3036dad054220"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/extended-development-policy-v1.json",
+      "bytes": 581,
+      "sha256": "ce4c50526e9b5b3e61c37542b87a1ac28aacc096da74623c4c1d6c70b00d2967"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/extended-development-policy.json",
+      "bytes": 1212,
+      "sha256": "eccfd05557dc5024e9662e8e11c61baa5998bf045f41eccf9188e64b04fc2a5e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/extension-controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/extension-status.json",
+      "bytes": 58,
+      "sha256": "e3fd467a997942756289976bed9e551bccf588adf46d7c1d5c4a820fcc0fc71b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/final-inference-verification.log",
+      "bytes": 92,
+      "sha256": "9f5d60e9f773d360510b25e9d7207eaa1dc2846822db99a6aef2273251c7d18a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/final-model.json",
+      "bytes": 3764,
+      "sha256": "4ee268116628cb98134f5a8d0008a4fec34a4c156df5f1dc6e3f30cffcc6ecd0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/final-report-generation.log",
+      "bytes": 1330,
+      "sha256": "b0cbbf853247bf976b9e32e82ac80483a7ef5ac63a966eb650cd73b77540be4a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/finish_delivery.py",
+      "bytes": 3926,
+      "sha256": "518415f2d9d6833d5b101966a091c314fc99d33af7d76dbace52ec98a7e36146"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/graph-coverage.json",
+      "bytes": 1214,
+      "sha256": "b854faca8157fd484e3d6e6927f468fa525424fae961e614adbd3b8e9dcd98a8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid-controller.log",
+      "bytes": 90,
+      "sha256": "7daa94c34c5b286ecbd02045c7fd5dc384f5df8ceb4f45b1fe0c6e988902388c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid-initialization-check.json",
+      "bytes": 287,
+      "sha256": "f1155ff92ead1b79d397ee3acd4e3a29cb9ce5200c6365aa105c22c2bb9d7142"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid-policy-v2-48.json",
+      "bytes": 1056,
+      "sha256": "162f34ecebcf4832d548e93384bc21df3f057474702a9ee92b2c3c2f3bdf327d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid-provenance.json",
+      "bytes": 1276,
+      "sha256": "025a3762f166d00a65afb91313c8e2f128159095b57d88bc666f08b30017444b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid-verification.json",
+      "bytes": 275,
+      "sha256": "1cc0ea4581fc471ee17ac0815a5a627dcf89ecf5d276fb31e89e8b0057884bba"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/accuracy-chart.png",
+      "bytes": 139136,
+      "sha256": "a3ec2d181ebc4ef24f3738d97e708130161adf9e4480d7b015bc231e772d6995"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/batch-calibration.json",
+      "bytes": 417,
+      "sha256": "48d4978111941bddc6586eeb1d501b81a842b5d4b87879cddaa799bb76acb22f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/calibrated-comparison-with-transformer.csv",
+      "bytes": 4062,
+      "sha256": "3ccbd09989f530b121af6be257295421a7c83aceba9880f0b7d390262876fe52"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/calibrated-development-by-regime.csv",
+      "bytes": 2584,
+      "sha256": "6a52fb082355bda715dddb188e2632d8e11ab10f50586d563cb8d0380a0628fb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/calibrated-holdout-by-regime.csv",
+      "bytes": 2589,
+      "sha256": "c202a9584feb3d5e9b29fdafe689f2e06c72e815a29616de28bb32ae0269e6f0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/calibrated-result.json",
+      "bytes": 937,
+      "sha256": "933f903cb5f1747e76a3af1b758af831a81c2cb505f46ea5955351dfa006df48"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/calibration.log",
+      "bytes": 1537,
+      "sha256": "9a4b26be69e90b12886aa1afb537e7c675381fde8cfd163622553f501a575c05"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/comparison-by-panel.csv",
+      "bytes": 733,
+      "sha256": "211df35a62f01b610e29e5093f6341ec0b8c01dddcf051264cc2f04418c1caee"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/comparison-with-team-transformer.csv",
+      "bytes": 4645,
+      "sha256": "b31461f2ebafd1625aec8fcfcd3cfe86a0934c5b8f5b0271126b514633943fb7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/config.json",
+      "bytes": 2365,
+      "sha256": "ccb6fa2902d68208ee5cd22a02da14e73642abb5e419788d07a387d0d57211a9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/development-by-regime.csv",
+      "bytes": 3149,
+      "sha256": "37f10c6f0c70dee5e52712a665b0130e614bb676fe5eed0da2371b51376bcd5b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/development-metrics.json",
+      "bytes": 214,
+      "sha256": "6c3690ebf9f37599537d05103f69d5d40b7cd8d5d060801bd2e3316e43704e82"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/holdout-by-regime.csv",
+      "bytes": 3181,
+      "sha256": "2b89ebd7d7c006c56890fe48a6e6e4a650b1a10eb78979775dc9140a8e727923"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "4a9326a674349459fb8b5601d042ffcd1bb3370c25eb89f37479e4ca2ca6be8c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/initial-development-by-regime.csv",
+      "bytes": 3155,
+      "sha256": "2ed85ba587ec38b361f4c82f51b0fd6f14405107f287d92f270d4065013d131c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/initial-development-metrics.json",
+      "bytes": 222,
+      "sha256": "7602b2f4f6eec1f1a931c9117d62a4db9e1203a97bd5dbf2c7b874c9c4853ac2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/live-progress.png",
+      "bytes": 88153,
+      "sha256": "ca72477db98b7e95a4a30da4b8b9855117fc3583eff4b71d0f7e00774da9dff3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/monitor-summary.json",
+      "bytes": 287,
+      "sha256": "a4d979c5f76ec4658f53b567c8c11d5f343ceff3879700d45f87d6565a89f480"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/progress.json",
+      "bytes": 1047,
+      "sha256": "7a72942c46b19e5ec6bb35d379e8e4de32cf00c81fe0281cfd1f7a203022d9ea"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/residual-calibration.json",
+      "bytes": 460,
+      "sha256": "13fadcb46fe2b15fdad0d7707e364e3a0e8278a9588d79ec1093948b20302b39"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/source-hashes.json",
+      "bytes": 1569,
+      "sha256": "d4d880bc7c89782fd4ac2666c53bfac12849351ec207dc59bf672baefd6458d5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/telemetry.csv",
+      "bytes": 250333,
+      "sha256": "8d99435ee0609342908f5dda3f0bcb74d7b7ed557eb52bd709fb4268274fe816"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/training-history.json",
+      "bytes": 2563,
+      "sha256": "34a55ab55c7e68dc4739984e3f53511a7daafbecacc6ee8245c473d9a5a4a6bd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/training-result.json",
+      "bytes": 1023,
+      "sha256": "ef96b4b7650162fd07482ae8626c91a09babb633319eb7627525861675495082"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/training.log",
+      "bytes": 38803,
+      "sha256": "6aaf9c996f19e6aae574707a96a2cdab37e68a0d5d747325fb03ac93ae224e77"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid/重训结果.txt",
+      "bytes": 5016,
+      "sha256": "734a286a6db7867091fa0142406ef61f82986ace9f42f819794ff1321aaebab0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid_model.py",
+      "bytes": 3940,
+      "sha256": "0f4a493d8c7097c5e55dc59b2d3e42e0115b278087139e5cd11081536b7058fb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/hybrid_search.py",
+      "bytes": 3697,
+      "sha256": "c6269c9c3e70c23e609a5b8f83baccc13d2b9d0386c616a3d8a201132ae4c657"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I405_N/graph.npz",
+      "bytes": 4230,
+      "sha256": "00f1aa397d7e63dac1f3167bf104483f271edc8b12c9d68c2a243b03e39be1d3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I405_N/historical-profile.npz",
+      "bytes": 4308354,
+      "sha256": "66759feb13d52cfc461157ac649cdb0f05e89706c601eb7d437ab6e37a9bcb3d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I405_S/graph.npz",
+      "bytes": 2082,
+      "sha256": "cd0a24a9f8b1970f6cad2c2dffc9fe30bb96cefcdbbe7bc1fc03214695cf17da"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I405_S/historical-profile.npz",
+      "bytes": 2130354,
+      "sha256": "4f6b983f8e56c72225102af0f7ad57a154eb6695f9786decb10479e829e33163"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I5_N/graph.npz",
+      "bytes": 10314,
+      "sha256": "650bda197da7909d8987a92164060eef43d526568fe229b2f4e131dcb1ddd57b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I5_N/historical-profile.npz",
+      "bytes": 12487954,
+      "sha256": "8e0d3c5ff4ffb240949bbc9c966d902820bafe5e6cc058eeb0af1dc68a32fbfd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I5_S/graph.npz",
+      "bytes": 3426,
+      "sha256": "49ec4f6d792106c37a2045621b6c0d727adfbb57f96bf86236dc35aca154f9c5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D12_I5_S/historical-profile.npz",
+      "bytes": 4840754,
+      "sha256": "1436202b962a62620c56e3db148447810668d0be985264b151dbfb6f6b1dd609"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I10_E/graph.npz",
+      "bytes": 6282,
+      "sha256": "a3f014fadca5ade763f81199e154ecc3410c7e4e3b01a334c257c41dedd09df5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I10_E/historical-profile.npz",
+      "bytes": 7067154,
+      "sha256": "d9855080ebddea9f3aef9a8f1772a4319a19121848712fb6ec5e83e85b4047bb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I10_W/graph.npz",
+      "bytes": 3594,
+      "sha256": "7ba0d57632ab4381ccdc72041c9f5b6ab55161cabf00141d6096e98eb05ab8ae"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I10_W/historical-profile.npz",
+      "bytes": 5179554,
+      "sha256": "f720709b90979b665b74e78d2a2bdfe289dfc771783de9daafc104e85487127d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I210_E/graph.npz",
+      "bytes": 11718,
+      "sha256": "403dde63433d39784c62443ec71ca46569d47a1b0cfa599bca82bb146b1700ad"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I210_E/historical-profile.npz",
+      "bytes": 14375554,
+      "sha256": "86e180a8a8461208bd7f7f845e46096e4ade0b48a2205dbcaf57fa2673180388"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I210_W/graph.npz",
+      "bytes": 2970,
+      "sha256": "6596982feb7292ea674e2b3480a8ac1d27d50ba7d7ae62a73fb3fdf9c94dd6bd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I210_W/historical-profile.npz",
+      "bytes": 3921154,
+      "sha256": "46a585818e3109f50ceb76e4c385b3e1627e18df59477466158fa14e023175f8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I405_N/graph.npz",
+      "bytes": 9474,
+      "sha256": "a157b377cd3d58ba6235e51f39ffa9bc80a72c3cb9596d2cbc2c17ce212b0940"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I405_N/historical-profile.npz",
+      "bytes": 17037554,
+      "sha256": "2ff124550ce35285144e186fb0a18acc05573405d51cf67ac7ac58bf62f5e740"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I405_S/graph.npz",
+      "bytes": 3642,
+      "sha256": "b0a1829dcf3a97dda3ffd40f91cc0008808b181b3bbfafe5054a5ab35420375c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/D7_I405_S/historical-profile.npz",
+      "bytes": 5276354,
+      "sha256": "72f9190d0bcffedbebfb29c594e7f4f352f3d45c930429e859949cd70cd23d1c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets-64/manifest.json",
+      "bytes": 36722,
+      "sha256": "6dd51a35a90ce48be35da3872aefcd69c902393c12489dd07dd6ef3d3f43818b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-assets/manifest.json",
+      "bytes": 36319,
+      "sha256": "54ad02889a6218a5ba218b7ca77de3bbdd964e961cba48f9a8f79f4de25d1ade"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference-parity.json",
+      "bytes": 316,
+      "sha256": "9c333139551446006b37450f7730f9b5cada2827105ceb4530b9a09446320cc3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/inference.py",
+      "bytes": 9941,
+      "sha256": "046c08abe091a60b499871d3e90b400f26996691d1cbb409d39df55991e717fd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/model.py",
+      "bytes": 6271,
+      "sha256": "e93e094953622ac6f6ffc584bf712f6a1b607169bf64dd098adf31f5dccf0900"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/path-assets/manifest.json",
+      "bytes": 2201,
+      "sha256": "4b2ac26cc32f4feea45664ba1bfbaaa860c0401f00995e76758fa118447b5403"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/plot_hybrid_progress.py",
+      "bytes": 1057,
+      "sha256": "5f0bd19178572b0a58dedb85f0da36651c5aef66679096081b549d1b8fc15e91"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/plot_progress.py",
+      "bytes": 1252,
+      "sha256": "035f4878a3f11c4047ad503c29f28a378c84884c507caf746d644a91464d67f5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/prepare_features.py",
+      "bytes": 10884,
+      "sha256": "7965edc5e50eaaad2896287ab998a76f4e3882ae7ec70d43ee993f5e3f70676d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/prepare_path_graphs.py",
+      "bytes": 2949,
+      "sha256": "a733d072f52bc7d07b1f194491d3e9e896a6a6432cdb1dfb03229d06ef7c483d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/prepare_proximity_graphs.py",
+      "bytes": 2984,
+      "sha256": "8658d0125c40a610b18e834b1b96c2fcd1b4e353b3fd48315970865a3031659f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/prepare_quality_cache.py",
+      "bytes": 2507,
+      "sha256": "d83abc0e82458ae733cc87511586a71ec1df20b4304818c30529bda29130c1d0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/provenance.json",
+      "bytes": 1012,
+      "sha256": "163059d8552477feaa5045bb34e032ab2e4abc1ae8e443ce9ab87724685cecfd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/proximity-assets/manifest.json",
+      "bytes": 3369,
+      "sha256": "3ccb6acc394a5683fd306de061d56af197831da2e3afabdda6e41d42c304aa96"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/quality-inference-parity.json",
+      "bytes": 1770,
+      "sha256": "20f6e491e0927cd381c9c25893dfad9c54f8a04addac60f3288118b143057431"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/quality_features.py",
+      "bytes": 1786,
+      "sha256": "5608f7e62003257372b2faa537f9f99b442b8d1731c457759fbff8792ce24e7f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/references/team-method-summary.csv",
+      "bytes": 832,
+      "sha256": "9e562370cb6533d25ec8bdf38990092e5afa804d837f2f6b8284bd150f9812e2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/references/transformer-all-metrics.csv",
+      "bytes": 4733,
+      "sha256": "e63039abb633a506ba2f1a9d5810504387a0f21c4aa85dcdd7a16d16b47a0be4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/references/transformer-feature-names.json",
+      "bytes": 1222,
+      "sha256": "c6f9ecf4e7db21dcc2d7a1e40db41b956ab128364923d32eacbbb1436bd00c02"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/references/transformer-split.json",
+      "bytes": 5216,
+      "sha256": "8055ccf558b54ed067368edb7c0f30054b3726d757f885bc7b0f9448c60d68aa"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/references/transformer-summary.json",
+      "bytes": 186,
+      "sha256": "4a6dcf411982d9b4fdb811a1d408c594922fe7134459345b00b87719007cf87d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement-decision.json",
+      "bytes": 262,
+      "sha256": "0e3a083e6342b842806722c598c1c8cb0a544dc3e844ae666e2769601628cb8d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement-policy.json",
+      "bytes": 550,
+      "sha256": "c8b8550c8f3b2f583d0a774408f1af78856d1f7a63b96c75869243e9d09d843b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/accuracy-chart.png",
+      "bytes": 119181,
+      "sha256": "a2a83c76391b9a0ec39b078f0cc2416625701e88b2352fa3fb606dcd10399b7a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/batch-calibration.json",
+      "bytes": 415,
+      "sha256": "8312e7bd57936f1fa3ea02a2e423d0a8d0769368b8b3923b160ce5b0a5400678"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/calibrated-comparison-with-transformer.csv",
+      "bytes": 4068,
+      "sha256": "6f3e6e4b19fc85737869ca8a50628cfa35552915211e35fa4339792bc1e48c2e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/calibrated-development-by-regime.csv",
+      "bytes": 2580,
+      "sha256": "b0fc689e7304125f92c62abe5016944bb9a80be341a703dad85f75f5afb676b1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/calibrated-holdout-by-regime.csv",
+      "bytes": 2592,
+      "sha256": "40ed92ddfc24fb11a86d7b7f1b252c6694900b665fb461456c83b8f89553b31f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/calibrated-result.json",
+      "bytes": 938,
+      "sha256": "955bb359782f802a07bb50226a2dad6ba3e2833c5ef809888e0d8397709bb43d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/calibration.log",
+      "bytes": 1538,
+      "sha256": "51d90f3392040931003e9c885bbbab6bc48b25e6cd462817c4ea5c450216bc2b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/comparison-by-panel.csv",
+      "bytes": 738,
+      "sha256": "2138f92dc8b2c08875a3fc97775400e9e8b75a66f194b0f60fd53b143088d52d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/comparison-with-team-transformer.csv",
+      "bytes": 4637,
+      "sha256": "e0da171484449c7e9dc0de437d7b9f69975cd1573942832d3cfa7dd882a9cce6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/config.json",
+      "bytes": 1894,
+      "sha256": "6007e18d532fd65bd10778301959ac99041eed9317f0f4a127df576ed14527af"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/development-by-regime.csv",
+      "bytes": 3156,
+      "sha256": "018cdc735f66ed2a0c16a395eccdbae9836c7d02b2bde068388f15df5c8bab87"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/development-metrics.json",
+      "bytes": 214,
+      "sha256": "f9345d8dcad54159c7774f54123969652aaa1d233da20a1735bb6bb109c8f35b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/holdout-by-regime.csv",
+      "bytes": 3171,
+      "sha256": "1eae4283398a4445f0b90c9186c6580b3af9135e88263f05e707b8db56ed96f0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "8558b0bbca798c26c456b6474aab28f1e717cc11143ae2436ce394eaab3b0510"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/initial-development-by-regime.csv",
+      "bytes": 3158,
+      "sha256": "4532ab1743f47c7593df9c38d7cec0cb969e006d416f1cac622d565108452ce0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/initial-development-metrics.json",
+      "bytes": 222,
+      "sha256": "82317128bc9ce98fe50201fbf28039c15ecbd094f3bc02cf2f1d677e815f9ceb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/monitor-summary.json",
+      "bytes": 296,
+      "sha256": "15cfdaa891325cafed59612840865929c928968b9162cc3cb0ef1d927bba8b4b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/progress.json",
+      "bytes": 1026,
+      "sha256": "2e67c749a3bf42742e6c90365c800c83c3f6afc1c4bf603907ed4752b1263b89"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/residual-calibration.json",
+      "bytes": 460,
+      "sha256": "f0aaa209fa4fa2bf76ad1da93b3cc209264dc23a16ed98fb8b84ebd21f2d509c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/source-hashes.json",
+      "bytes": 915,
+      "sha256": "7a09acb72da45529be4c017c6b8b2aa462190763d661c8e17f090c66fd1c8529"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/telemetry.csv",
+      "bytes": 120234,
+      "sha256": "8a442a6752c1413f8b295855f0c7062bf35d10b22f711536a25d6e7b3ab4bb8e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/training-history.json",
+      "bytes": 1351,
+      "sha256": "7b1512436c81752cf8fc0ddf3d21126cea4f7001699cfd12f1dd8a1f4664d283"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/training-result.json",
+      "bytes": 1002,
+      "sha256": "286a8bd3a32f689461cbec78f6f48108788db2fb9fa5f944af6f369d37da0f82"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/training.log",
+      "bytes": 21025,
+      "sha256": "a3f2b7ec75211c50138dcfdbb3519ef66fbb54e77b360b297febfaa2affa038f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/refinement/重训结果.txt",
+      "bytes": 4889,
+      "sha256": "3a739ff5aecfaffe921f141ddf18a159b2a5845f59114e5118c578cfb1dc4f16"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/requirements.txt",
+      "bytes": 187,
+      "sha256": "f391bbd2a4c90aef91d234b296357186aaeee149028da95cdb506fa668e81535"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/run_training.ps1",
+      "bytes": 1905,
+      "sha256": "d8b339c4cf5d55dc78f53b015e3a024ee4266124402b3ab175cc4cca548796f6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/selected-model.json",
+      "bytes": 177,
+      "sha256": "1a3dba8b1caa5ca0087920d10a1721a49ffe7ddb2edab56b2086eb8e941a7a93"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/show_training_progress.py",
+      "bytes": 1231,
+      "sha256": "7a5aa52b7cd8a5b93c30fdacb89cca5a95cca5f76edd30b14a3ac974eb350751"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-controller.log",
+      "bytes": 1578,
+      "sha256": "00a668b6febc9664bd08872878018c5b87b5cd7b98c4cb0ec9586f80649b9e2f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-inference-parity.json",
+      "bytes": 1855,
+      "sha256": "82e690fd51766911b00eab7151f7407c8332ac1b480681220d68935d2f89ce74"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-policy-v1.json",
+      "bytes": 1251,
+      "sha256": "b8b3744ac8123fc7de344a8dd4051ec69ca353062d84aa5c41c2c43ef2d0a4d3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-policy-v2.json",
+      "bytes": 1672,
+      "sha256": "7e35363cfe61a95fa167edf310e06b060a36b7e6f6b3625b580eeb4832355b8f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-policy.json",
+      "bytes": 1910,
+      "sha256": "e3db62472f049e69ca52d2d178115ea16fdb8fbc7caabf7dbde3acf1b791b149"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-progress.json",
+      "bytes": 44,
+      "sha256": "1eab4e64ff0727b3188fb0620969139e22a9856ce8f7875632434ddc0b056aeb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist-recovery-controller.log",
+      "bytes": 1908,
+      "sha256": "04e6ac9812e83dc052338ae8a27fa9331d73584e2be3625bdead899ea39dcbc3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist_inference.py",
+      "bytes": 10340,
+      "sha256": "d09175776bf82a92ae27e01c318a74d2d0ffb7d493b5d6755a13c16421b4a0a5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialist_search.py",
+      "bytes": 4660,
+      "sha256": "c6ece0e0a6bdc1e9de028d1e91d1bdeaf37688da6f4862f139a428d0fa42114f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists-complete.json",
+      "bytes": 61,
+      "sha256": "5a63eafda268897f3bbc2dee4fd60e620ad70b28fd9099c432b330a9a0dc5ff0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/batch-calibration.json",
+      "bytes": 691,
+      "sha256": "9fae7f1ab5d08eb264bea98710b35c73cef0ce540837eadcf42b6ec9c7c4c5e9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "d1196e9705a65cc4a8675d22bae65f0c22c4d3679d042baf45c5e1e5fe94db4a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/calibrated-comparison-with-transformer.csv",
+      "bytes": 517,
+      "sha256": "ac73e64bf89c46d3aceaf93fbf136b53538658a6abb59e1dbf3e2073eba091ba"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/calibrated-development-by-regime.csv",
+      "bytes": 324,
+      "sha256": "6c736451cb0e97f9ab7c41fa32483622c66d21e1488bef6b7dcd132c8e7308ac"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/calibrated-holdout-by-regime.csv",
+      "bytes": 324,
+      "sha256": "79f0d4924a26b9738aff856892574394014cfe1dc0504006ebfe87b01da17745"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/calibrated-result.json",
+      "bytes": 950,
+      "sha256": "0d1f0ad32653557bd17a46e0059e537736d383dbd4d8e1ceea23ce06323d1e72"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/calibration.log",
+      "bytes": 1013,
+      "sha256": "376d8161cf959447d8e84ba0f7ab7b8c27dd35f5a4f5adc233fe11c86748ea1e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/comparison-with-team-transformer.csv",
+      "bytes": 591,
+      "sha256": "7ac5a06a9f311e0246aafdb42b9a17df41ac521d1526db2fbd339739db9553f8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/config.json",
+      "bytes": 2457,
+      "sha256": "16e075fd16c2055161ec30dab86b971b4e90c2249fbccb34f11284f5a7f30539"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/development-by-regime.csv",
+      "bytes": 396,
+      "sha256": "01be8a49dd4d393afb4edc745f6c29b7813fedeebde07385e8ab0cbd1b222b83"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/development-metrics.json",
+      "bytes": 214,
+      "sha256": "c7264651d81222bccd15103764bdcf378f2ff3769879ee69541e64e1bbcae832"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/graph-selection.json",
+      "bytes": 323,
+      "sha256": "d8e3263bc0b5ea1dbf58084899c1c093dc62001841438e2115b3f1888e3e7de1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/holdout-by-regime.csv",
+      "bytes": 399,
+      "sha256": "49a0897f5372d778bd248f9e7ce037d18bd9176ae0a161a04baba1f33070e959"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "66779d49b2bcb6ed93f9c48208fce591d8177752939416860f4afcf01769c66d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/initial-development-by-regime.csv",
+      "bytes": 394,
+      "sha256": "aff4367b58e5000ca83a25559933afe5a7c2a792b0da7704465549ba8b67b654"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/initial-development-metrics.json",
+      "bytes": 221,
+      "sha256": "6d2f819b2938122cfb1c70bd29d346be89f544918bdb4a4d12ff89e8b8e6898a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/model-graph.npz",
+      "bytes": 4230,
+      "sha256": "00f1aa397d7e63dac1f3167bf104483f271edc8b12c9d68c2a243b03e39be1d3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/monitor-summary.json",
+      "bytes": 286,
+      "sha256": "9472ff53500c40fdaa1cfbd2a62607fcd9ffbc4e0339bc9ec3331a9555e809dd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/original-development-by-regime.csv",
+      "bytes": 398,
+      "sha256": "bcdc252d7b4a0df03605ea78652f6dec10612855c6b970752533a3b7f6e3443e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/original-development-metrics.json",
+      "bytes": 222,
+      "sha256": "0e37bc00ecedc7257c3bfe5cb2ea90a935b9c18e63c593c0966da2efa29dfabb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/path-development-by-regime.csv",
+      "bytes": 398,
+      "sha256": "7ac0a07a19eab09cf524ee7820882b02b7a9a5160e333127daa255d1047fd918"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/path-development-metrics.json",
+      "bytes": 219,
+      "sha256": "717577fde7a962670fd15c239565e9296a27c7c7587af24578fb5cfa9f57d8df"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/progress.json",
+      "bytes": 1043,
+      "sha256": "51b9ec2ccb47c7b6c16d371f8dec4ee57bb6f4f044fe6e9fdd4fef3810d4d335"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/proximity-development-by-regime.csv",
+      "bytes": 397,
+      "sha256": "252381508fc2184dbe6df9882e38098de7aabebc5d8104f9d2f149eafc569cbf"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/proximity-development-metrics.json",
+      "bytes": 221,
+      "sha256": "d76af54a097a39f30623338205b8440837e5f1bd0fc11d95043c95ebbb39d9d2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/residual-calibration.json",
+      "bytes": 461,
+      "sha256": "40a7fdfb009dfac20361ebcb330b78e7a57ea2abbb5bf6f0f35821adbc99fb5d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "abc0e477c2af6840c6eae69bfb1bc3400209fa8846ae0db3edcdebe4f91cedf5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/telemetry.csv",
+      "bytes": 31613,
+      "sha256": "afe657a20d39d6f177ed16b0ed2ee6a87efa8578f95c920a07052ea4fbfc4a50"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/training-history.json",
+      "bytes": 546,
+      "sha256": "7ceaf20e5d484bb865237cab3972281404863ebdeb4da0369bd9ddb68b209f5c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/training-result.json",
+      "bytes": 1019,
+      "sha256": "36ce3ae5819b735458015f6d6934f1fa6166d51ef16f2b45d9367180606f1213"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_N/training.log",
+      "bytes": 4319,
+      "sha256": "5cd679f6d33cd35eeae1007ed175dfacae4c61b11b5f6d87877e6eb30c420c8a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/batch-calibration.json",
+      "bytes": 761,
+      "sha256": "b4b87a2cfd66d04fc66daec5247f58af7cff4c3536c52d0a85b374ae0e1da0a5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "c83f3c93b3410be34cf550b9a35ee76ceeb019613cd9fc945a099c9814af0cb2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/calibrated-comparison-with-transformer.csv",
+      "bytes": 510,
+      "sha256": "80df67665a65f5f5dd64061edb3bf04eb74630e235c2c6780a5416bde60e64e9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/calibrated-development-by-regime.csv",
+      "bytes": 322,
+      "sha256": "a6b235a353b557d34e646bdba8c3d9c9e327f6d86b86b95e6e08ac232dc36e48"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/calibrated-holdout-by-regime.csv",
+      "bytes": 324,
+      "sha256": "19491153fde8574338fc56ffc5de8bfa21ac22487359e56f3220977eb325a2d7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/calibrated-result.json",
+      "bytes": 948,
+      "sha256": "e322fc5db9101c3e7285a7f6aed18f5af7eee50b6db6b0e3b073b2977ed55f05"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/calibration.log",
+      "bytes": 1011,
+      "sha256": "aa84bd7f7a3e35eb3661657b81e08e666aad1d278e6836f77bfebc5d07e06a08"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/comparison-with-team-transformer.csv",
+      "bytes": 582,
+      "sha256": "44099563efacf8de4d81c35583b35225ae0e46fd6fb1ec0e1f477143949eccf8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/config.json",
+      "bytes": 2466,
+      "sha256": "0d54615866816ce4796a408082e0a5b0ba404ee5bd45b20d455078dae2826957"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/development-by-regime.csv",
+      "bytes": 394,
+      "sha256": "c1f86ca74f4827e70e6fa332644d285c5425df2affb65dc607cd37e0c81f60c7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/development-metrics.json",
+      "bytes": 213,
+      "sha256": "b40b59760ca5649bcd8cb9b5dbb772016638005032210b5b759008b8c8b3ea62"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/graph-selection.json",
+      "bytes": 328,
+      "sha256": "0a9a22af9af3cf19f4b5b17b9a3f4b24586f4bc570a093039bf08ecf6aa75dff"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/holdout-by-regime.csv",
+      "bytes": 397,
+      "sha256": "7d99c96b8c0ca2401025a9d88dfc57873f5dd7a779b061c6227c313ecd65a89e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "e12f13820c00573e0e518abb40cb2bf761a868621094ae3d183a628742783950"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/initial-development-by-regime.csv",
+      "bytes": 394,
+      "sha256": "d3dad72390983f421b609fc9740ebb46601a986d3cd1f346f1af3a667d2ea06e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/initial-development-metrics.json",
+      "bytes": 218,
+      "sha256": "235296f3d6b55dbaaa723f804b8b938b6b91e65529d10961486c830c45e99e79"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/model-graph.npz",
+      "bytes": 2082,
+      "sha256": "2e982874c59df096da0172ecc80408a2c0d97b79ba119bec0a713ba6165a4bfd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/monitor-summary.json",
+      "bytes": 295,
+      "sha256": "cd6224d5fe53f988ab591a0e39e96e6fc61a7b3191a3d72ffe676fad0f285028"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/original-development-by-regime.csv",
+      "bytes": 392,
+      "sha256": "0d68d8a28b4adf5a62770abccfa961e9220c34282c3b7de78fb74e8364c7d278"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/original-development-metrics.json",
+      "bytes": 220,
+      "sha256": "b183127d70701c110ac05a0c315efd6c58274ae1c79ec1557f5ac2494ab89078"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/path-development-by-regime.csv",
+      "bytes": 395,
+      "sha256": "d66fcc030aa1f8ad500d54b692f3ac9349358e3ba799a5ca1ed381301b4058fd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/path-development-metrics.json",
+      "bytes": 215,
+      "sha256": "d68f176c3d6a0eea0ddea5ce4ef1696aa006d11f20c164a6b24d1fe585f07123"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/progress.json",
+      "bytes": 1043,
+      "sha256": "1660c0773b676545b39e4195113ccb34ccad3caa3a9b8aa95482496433f45ec5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/proximity-development-by-regime.csv",
+      "bytes": 395,
+      "sha256": "425d91ddc35b57097ea188cc7af7ac8bfc4f92c3e0d91536eba5c990b2e78c6f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/proximity-development-metrics.json",
+      "bytes": 222,
+      "sha256": "9b20f1615d31dc02cfe69990f29a1f7e2b6679f262769a8905892b4267860f93"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/residual-calibration.json",
+      "bytes": 461,
+      "sha256": "271429c40deaec5b305edbb2d3eead7eebe4000b85352f0d73473ab3ed2a7bb8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "abc0e477c2af6840c6eae69bfb1bc3400209fa8846ae0db3edcdebe4f91cedf5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/telemetry.csv",
+      "bytes": 28560,
+      "sha256": "5709734bbcd763a1be7c8f9d463c5d87f937ff47e9148a9dc3b2359c1391728d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/training-history.json",
+      "bytes": 552,
+      "sha256": "f8137e8d1333c744f6f89c17ab2156cbc594452b2cd66a9d6eade55f7d26bb54"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/training-result.json",
+      "bytes": 1019,
+      "sha256": "be67ad6899bc93f27cffa3bbc6cb562f7d4c6ec9e59690226e60945deaa95214"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I405_S/training.log",
+      "bytes": 4337,
+      "sha256": "b90eef2075bc9ef81be5be1c6e8924e2289df90d72482b70f01983715d70c343"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/batch-calibration.json",
+      "bytes": 411,
+      "sha256": "7f5e3b85fb635f11f177cccb315117b5bd36be54df44e3402150053c4a8a8ff4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "96dd4abc06711a9c3deae744ec2203b555fe12cb45ff3246db3f6acbdf03ce7c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/calibrated-comparison-with-transformer.csv",
+      "bytes": 505,
+      "sha256": "86ac556065129c9e94706dc9a650ea885feaa4e5bacf0de4944322c1cd1e3cb0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/calibrated-development-by-regime.csv",
+      "bytes": 312,
+      "sha256": "ad92e04219dd1c1fdc22fe20afc9b3911ee6ad3c58ce303e64827eb5a3b3cf70"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/calibrated-holdout-by-regime.csv",
+      "bytes": 313,
+      "sha256": "f2f3aaca469a999d2dea79b3129732f18bcf89927d9581306ffc53ef960f1e84"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/calibrated-result.json",
+      "bytes": 949,
+      "sha256": "a4d1a3b03aebe00fe39e698935919e6497ffe23c2b2c99c694a39c4c3ddc4c06"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/calibration.log",
+      "bytes": 1010,
+      "sha256": "f388893ea930d375f4a9c0ef56b3be974af79a1512f6026f770a0f234fcb9255"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/comparison-with-team-transformer.csv",
+      "bytes": 578,
+      "sha256": "02f5f0b296caca3afddaf876909371d3fb187b22622daf80702216cba4066b0d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/config.json",
+      "bytes": 2455,
+      "sha256": "e0e5d647977eee820fed8257fc191cdccb79edd8303ab236b6c4d1f65bda4466"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/development-by-regime.csv",
+      "bytes": 385,
+      "sha256": "33f5d0ef96373f7527eddb1442fa6bdd058c6f93bb508fdc5410b2a6a6cba5a9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/development-metrics.json",
+      "bytes": 213,
+      "sha256": "ee095bd4f0ab9d7f5fee2d9265142495691a8e1e68cdf23cbd3082fc3725e1cf"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/graph-selection.json",
+      "bytes": 323,
+      "sha256": "6c54d08065df2da631b13725e90b463582ee36208dbec2bc676bad6b35fb29b0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/holdout-by-regime.csv",
+      "bytes": 388,
+      "sha256": "bc93c5cc39ffaaa8d138fdfbf5cb2babe263f3eb82822c0d7fb21e8a265165ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/holdout-metrics.json",
+      "bytes": 211,
+      "sha256": "f6a9bee72913780576a0597be126feb39fec90ca87e7b4f52d16b89054a28e32"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/initial-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "0d887a63557b1d748b26086e6628813610d276afd517a662aa6566528da9bf3a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/initial-development-metrics.json",
+      "bytes": 222,
+      "sha256": "4e4d10eb4c55ed83cd268c0ea2c32b7b02ea2a54ac1ff1412cdacff88a1f3f26"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/model-graph.npz",
+      "bytes": 10314,
+      "sha256": "650bda197da7909d8987a92164060eef43d526568fe229b2f4e131dcb1ddd57b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/monitor-summary.json",
+      "bytes": 296,
+      "sha256": "c807013b36259bb21d89dab94e4dbc18cf95c317a189f561f37c1d807485f9df"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/original-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "580cd224c6b0056e81b69fdab605a8ef333420d9136a6824d12f13db1c5e3b34"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/original-development-metrics.json",
+      "bytes": 223,
+      "sha256": "bf8cb6261abc60db914344c4df26ea86e89daa76ceab6dd21717b10b3d102a13"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/path-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "580cd224c6b0056e81b69fdab605a8ef333420d9136a6824d12f13db1c5e3b34"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/path-development-metrics.json",
+      "bytes": 219,
+      "sha256": "98747543885db40623c3e0725968aa8ef351c0dd1d26a6bed72f4732663bc31e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/progress.json",
+      "bytes": 1032,
+      "sha256": "4ea6ed33839d134105733d08c6d73bf2c68c3b4e41980aa6adffd41fd0e6246e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/proximity-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "580cd224c6b0056e81b69fdab605a8ef333420d9136a6824d12f13db1c5e3b34"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/proximity-development-metrics.json",
+      "bytes": 224,
+      "sha256": "648f8adce3cca3e2a669310b35145aa3547d97168bb5a323e49ccd8394af5e12"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/residual-calibration.json",
+      "bytes": 461,
+      "sha256": "66fe5ea8667ed1c0ad59e71730e630dbe045d3b566e6271a3a8d178df7f623bb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "a235070dc5b023012358ac1a4605e97e6f0a68f2724a17d15055d879af4c4cc1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/telemetry.csv",
+      "bytes": 27636,
+      "sha256": "ac2c94d7612bc46de3c3811b1472601d6f5c484568f84ebd81699f8852a99c59"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/training-history.json",
+      "bytes": 570,
+      "sha256": "505c9fee771c215f25170fc44e033823fdc361c2232d432bb79fb54d6a751eff"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/training-result.json",
+      "bytes": 1008,
+      "sha256": "2992d4d99309602d709c134631eac5b6177f25074c74c1ae5190aa1990142fc8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_N/training.log",
+      "bytes": 4160,
+      "sha256": "553cc1db6fc42663920136417e6687630b47fa35d42ba1263ca0d91eb5876b8e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/batch-calibration.json",
+      "bytes": 660,
+      "sha256": "1302fb5da6fb3bb6404d92d2c00cbd3526db37a83ff47a2d1eada70a9f912055"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "f84776791415d6bae685c2d7cef35b57170e6804bd0020a7f5c94319295f979b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/calibrated-comparison-with-transformer.csv",
+      "bytes": 499,
+      "sha256": "8885bbb7524339d6033e42cbdf1db71628616f724a61c01ce76c17ba16611b50"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/calibrated-development-by-regime.csv",
+      "bytes": 309,
+      "sha256": "1aac2dce8bb8a01c6d484705f3099a468aef6532e527cca14f6e2ff76015ee59"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/calibrated-holdout-by-regime.csv",
+      "bytes": 311,
+      "sha256": "a35dcd4dfd472ae4edaddc8f6f43651db7b22cf56fc175352f1ca68077d194d6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/calibrated-result.json",
+      "bytes": 945,
+      "sha256": "c8a04559c5a25781c1e2586de8bf4162b70498810098e2ffd43ad7ec25eeb878"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/calibration.log",
+      "bytes": 1006,
+      "sha256": "28cd4bd1da44ba028be57ad8d6ef9332817d259ab7059d2edf3fd58dd2c52a88"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/comparison-with-team-transformer.csv",
+      "bytes": 571,
+      "sha256": "7d053e2b710c624325f9583b0b097e20e367385a129e995966f81e3e632bc371"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/config.json",
+      "bytes": 2464,
+      "sha256": "442d979fb13759d2d0e9acbad11bb3b478e5175676dfd791cdb0451a4218228c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/development-by-regime.csv",
+      "bytes": 385,
+      "sha256": "1a8969728e5494cc4f1c14ae0fb8e88c2aadffd06a20cfd892422c0b9ba6d792"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/development-metrics.json",
+      "bytes": 213,
+      "sha256": "f3e4cf08f652ee94801e93704141f7c528a893155c5a9cafc0724e34cef9a05a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/graph-selection.json",
+      "bytes": 331,
+      "sha256": "f5bceeab2474068c5669f521341a16e452bac141538f624d64193a643d1189fa"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/holdout-by-regime.csv",
+      "bytes": 386,
+      "sha256": "8216e7419d9f177305e0fc1454b537d4beb669e642a6889153ce29cdddf8d34d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/holdout-metrics.json",
+      "bytes": 208,
+      "sha256": "8ae5ea58eb6c5b46027a629c954177e5752bf3bd218404df20194ad94a847951"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/initial-development-by-regime.csv",
+      "bytes": 384,
+      "sha256": "aba5e0d9217f09373b903927c1cdb7c00c3e36a8ee0a60784bbaac63c64398d6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/initial-development-metrics.json",
+      "bytes": 222,
+      "sha256": "2d535686e64c68c55dd19d359d41458a3f54155400424770f6c492fa68a3d661"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/model-graph.npz",
+      "bytes": 3426,
+      "sha256": "6468d0e53289a6da2ee54be34bd2dadc563548e102bbe6c7d587ac83f0fc3915"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/monitor-summary.json",
+      "bytes": 295,
+      "sha256": "d147b41b92a0571966f2742e74f6d3017efddd1aacb92b9495fe050cc9d2c259"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/original-development-by-regime.csv",
+      "bytes": 383,
+      "sha256": "dac7dfb983a39c86b743103e286ed84a2842f3c3890fab74c2d90dd927ef8f2a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/original-development-metrics.json",
+      "bytes": 222,
+      "sha256": "175286bd8f2153414ce1ef0a0acad83b8a2198ead7c4a8b7e4ad31166b14ab7a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/path-development-by-regime.csv",
+      "bytes": 384,
+      "sha256": "cacf93a3d3e1ac5e21c3d77a1465b3b7313e679b9e51a57cf52253813333dad6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/path-development-metrics.json",
+      "bytes": 219,
+      "sha256": "dd80753025b9a9dd53366d6669d1749e99a0100dcebff9853876a6b348f05df2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/progress.json",
+      "bytes": 1040,
+      "sha256": "5ce32fecabfe8194cb4aec5158f8cf3fa2e97dd8f3b9c91cbddef436dd481d58"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/proximity-development-by-regime.csv",
+      "bytes": 385,
+      "sha256": "1d56afadbee3e19042950c85e21c071868a43ade7ed64a63dac13b27927b1105"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/proximity-development-metrics.json",
+      "bytes": 223,
+      "sha256": "885868478080df09ff5c0a5e603f4ab01dfe9d816d5a0ccaa463a5a47411c07d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/residual-calibration.json",
+      "bytes": 460,
+      "sha256": "80b8c7f97e5e3729775eb07083be4822363a05501dad09b17adf688c84fc7552"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "a235070dc5b023012358ac1a4605e97e6f0a68f2724a17d15055d879af4c4cc1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/telemetry.csv",
+      "bytes": 34328,
+      "sha256": "19de649ed55c4d74993a05a88dc6b82f51b6c9f817645bfbbb4bddffb750120d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/training-history.json",
+      "bytes": 556,
+      "sha256": "4e5c8c5bfae4b1027335582b98fea56d5ee321512859be960de4a7756bcbdb53"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/training-result.json",
+      "bytes": 1016,
+      "sha256": "48257a4721ad14dc87176fb959be27b4da9a465455e8de643b2746b92e1f7e08"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D12_I5_S/training.log",
+      "bytes": 4209,
+      "sha256": "9f8bbd0a56a8bece66c1e130ca3c4f586e5917aac518c445438c2681f461f4ce"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/batch-calibration.json",
+      "bytes": 552,
+      "sha256": "c6c96131a4960c7e7930aaf121fb7e145fb30920231b36200b42c53b7a05c555"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "88e40cdd7474eab5f40f7c953dc9c446d29b043d2182e2eb1dce81a680cbb0f6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/calibrated-comparison-with-transformer.csv",
+      "bytes": 502,
+      "sha256": "f35219c14d924f46772608c39b18b1f355a522692230ea3cc01d66bfe56868af"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/calibrated-development-by-regime.csv",
+      "bytes": 313,
+      "sha256": "1fb2d737dcc638c97f3563414c2b464b1c7c0d1c8f7b2ee458c1f04b7b7b101b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/calibrated-holdout-by-regime.csv",
+      "bytes": 312,
+      "sha256": "c584785d4af80d457d8130980a670c72ba9be1a993eadbbb39803e038a4e3562"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/calibrated-result.json",
+      "bytes": 919,
+      "sha256": "7cc1c9936a46079fa65154d6f53940812dde0e76cc2e1949cdb00a785eb20583"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/calibration.log",
+      "bytes": 980,
+      "sha256": "6a34c5229b8232c7fa93204af5caf8a31cf702442692a2d0c25f7e42f39b113e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/comparison-with-team-transformer.csv",
+      "bytes": 577,
+      "sha256": "2ff623e3aa4e098161763e6c3ece240a7752606b202505cbbd4d0f2520b951f4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/config.json",
+      "bytes": 2464,
+      "sha256": "3cff9a5df05ba5423c883151eb54fe44fcda92971dd04249b916ddca0e3d724e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/development-by-regime.csv",
+      "bytes": 382,
+      "sha256": "a43a7e52213b38f46b9ef7eb4bc6b8c467c65518068580180bfe18448e0647b2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/development-metrics.json",
+      "bytes": 213,
+      "sha256": "8a2542edb88145fdf1ba037e95238f58181231eb24b9d5a342b70164be2e7329"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/graph-selection.json",
+      "bytes": 331,
+      "sha256": "a923dd0de211cdb520888e20a3790063e4af264235a8e5fd0b8e2f445e252e98"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/holdout-by-regime.csv",
+      "bytes": 386,
+      "sha256": "731544c3c5e5940a720d5bf01ec46a0848ee781032d5d85be8fc56e35fa9ab48"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "b40fb59bedfc31d029f99e5fee44ec0ba099191d3e13f0e54bd15f0d6a8018ee"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/initial-development-by-regime.csv",
+      "bytes": 380,
+      "sha256": "4c875ad239ec4465f4c228ad667e751d42be2a49a2e873fea1c6ca5e17470a60"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/initial-development-metrics.json",
+      "bytes": 220,
+      "sha256": "aae24af5bfef7fde35f3c4cc37be2e07a5ce4da56f18acdbfbe4f58a25796f79"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/model-graph.npz",
+      "bytes": 6282,
+      "sha256": "3ffac92cf6f6d0dc9fe4887254bf3a80960ba2432110f742b7322e228e8ca398"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/monitor-summary.json",
+      "bytes": 297,
+      "sha256": "5108113441ca521c7d34539691ab704a8217df244e5f25f1c38702a14bf919d2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/original-development-by-regime.csv",
+      "bytes": 376,
+      "sha256": "bd306d366c256338d577672245afc0993140afc4fcc7a0f7afe70e10a8230586"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/original-development-metrics.json",
+      "bytes": 223,
+      "sha256": "9e0909ecd47088dce1f4a7f8ea661d20744a7697c2601e59308545e9ab684ad3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/path-development-by-regime.csv",
+      "bytes": 381,
+      "sha256": "27f2001e406635de65666bc55491eadc48f85dc754eb8a016a35d8838dbe1000"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/path-development-metrics.json",
+      "bytes": 217,
+      "sha256": "549176a2ef26b591988ab96a7ea5a2773f7ed07d2aa67934b282d513624a9d03"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/progress.json",
+      "bytes": 1042,
+      "sha256": "134208c0cdc8ffcf706829453819119c5c31c25ccae1178e850443d39f6c9a25"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/proximity-development-by-regime.csv",
+      "bytes": 383,
+      "sha256": "f49255d5018bd1612a19c13e4c1ab9be07cbc9ddbf1c3d4118f85d5aeff9e6da"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/proximity-development-metrics.json",
+      "bytes": 222,
+      "sha256": "61e7528dd6062e7dd39834b0729088b1093bdcd8bbd0fc717f2cc989957f1d6f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/residual-calibration.json",
+      "bytes": 431,
+      "sha256": "81b5279862ccb1aeb8a7804bb1199b71e2057c17a53095354ec92ed667326182"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/source-hashes.json",
+      "bytes": 2457,
+      "sha256": "f8f4d13e63f88b8cbd0979158485d1becadbd1e5deac9b5aa6fcefa9d3063a4e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/telemetry.csv",
+      "bytes": 28521,
+      "sha256": "36493259f5f465f762fcd8c4b0f7b02c5c5203c0c445abd780f5c6191b4e3b8b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/training-history.json",
+      "bytes": 547,
+      "sha256": "646994a3a8348dd478d149e74443dcb14635cd4f111947f8635c9f0c0228237f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/training-result.json",
+      "bytes": 1018,
+      "sha256": "4062c3ab35f1aec99bcc397d10bfa09756a549b9fa905b21ac86e1b3b182317c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_E/training.log",
+      "bytes": 4193,
+      "sha256": "34c356ad20fa9d55a0e44bf8b4ec3af96813cbb8145eaeda58f8eb6d59bea01a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/batch-calibration.json",
+      "bytes": 622,
+      "sha256": "fc9a127fd17da95059f5125657f50446a813d1e09b83cfa73b08c55f6efd7c72"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "b68716cad8518f91ae8b2fac246fd0951f313f3b6a083f884df173cdff87c445"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/calibrated-comparison-with-transformer.csv",
+      "bytes": 503,
+      "sha256": "0490a6889eb1619f8242e538f54e0bee4d711343b3abbce52a90a847385faf82"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/calibrated-development-by-regime.csv",
+      "bytes": 314,
+      "sha256": "55f3bad887de6f21109bfe6156a4a87014426aa057fb84d3c1449776563724ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/calibrated-holdout-by-regime.csv",
+      "bytes": 314,
+      "sha256": "6337449daa2cdb6a0275028c83e31b1a1ff972b1f5b22042f64e910c4593c29f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/calibrated-result.json",
+      "bytes": 947,
+      "sha256": "f60ddcb4432f33c8453e08d7c25876cb6f12adf9f38d71383784a423fa586b3f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/calibration.log",
+      "bytes": 1008,
+      "sha256": "10525912a6cbbb901599cf73219358742d893c58c05d9329379bb8184cc6be64"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/comparison-with-team-transformer.csv",
+      "bytes": 576,
+      "sha256": "c80e6adb09787533bc65e0e63ccf1a4cae6cb597811475147ff25879b96f0a5f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/config.json",
+      "bytes": 2469,
+      "sha256": "86d22b4ee37655450e097d79f414a754c5d8a6e270d3e5ef8aba32dbf3425299"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/development-by-regime.csv",
+      "bytes": 385,
+      "sha256": "bf03bc3149cad618eed2677b2d91ecf9b2f807f8e3192e601f0c6736bf159c74"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/development-metrics.json",
+      "bytes": 211,
+      "sha256": "ee2f14f249dce24dc8ccfad7066b7e6dd94fad90f44ee515d2dee406fb9981db"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/graph-selection.json",
+      "bytes": 336,
+      "sha256": "3b1236450569f78776a24b83e8a9fab9e2a8297aed99c9b6166190ec3dce649c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/holdout-by-regime.csv",
+      "bytes": 386,
+      "sha256": "09a15668ca59c813adcd7c9d1bafb4ddf3a8eb30e896e153f0a4cd2e1f29c572"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "c73bc52d6529083dff0ec274748902d416b41636ad2a4acb2dc8afcba0c416dc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/initial-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "efa801cc56ef1915f122a1f574feaf107f7c3aad253a333fce657d57debbfdb6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/initial-development-metrics.json",
+      "bytes": 220,
+      "sha256": "f2308ce7087f511be08b8769191eeaa17bcbf41cafce81d14925bec58e360c9a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/model-graph.npz",
+      "bytes": 3594,
+      "sha256": "09e2649ede17d40062ad37fe482fea267566ee9e862fcfc6cfb86c7d14d81b1b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/monitor-summary.json",
+      "bytes": 296,
+      "sha256": "fcb67fd8bbaffd06fad105c054cbffd784739c7013e5d9517878fce497dfac0f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/original-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "790586b686a9300848fc49944e39bc0d08072a748b4cb44aa8e065364fc03ab0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/original-development-metrics.json",
+      "bytes": 222,
+      "sha256": "17ae04c8036edd74c61614c15fdd0f404027c0d76b3275e20b46ad098c293ac6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/path-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "1cc7b4a876c547578f74ac54b3e64022ec83241e660d91a4e38ca11fc1249e07"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/path-development-metrics.json",
+      "bytes": 217,
+      "sha256": "2fff9ac7a4a48ce6ee558dc780bc6962711b9bfbe11df7492256626c55c50494"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/progress.json",
+      "bytes": 1041,
+      "sha256": "6f9011879948a2b7b5119ac2851f9152dee4013d579c7b050e8ea3ec4ad651c0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/proximity-development-by-regime.csv",
+      "bytes": 386,
+      "sha256": "f8d4dbc5f06f68aca657e39cab9363fb3bd64e2e7e7f9485bb3d5309f9c2930e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/proximity-development-metrics.json",
+      "bytes": 222,
+      "sha256": "6e20beb3757ee6cf19add5d7f37542723b40334c70ac5f11b990b505dce67dd7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/residual-calibration.json",
+      "bytes": 461,
+      "sha256": "fcb58a1edc3367c4ef3526248f5760fee36cbba56cc3bb76b5577aac2ebb7df7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/source-hashes.json",
+      "bytes": 2457,
+      "sha256": "f8f4d13e63f88b8cbd0979158485d1becadbd1e5deac9b5aa6fcefa9d3063a4e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/telemetry.csv",
+      "bytes": 37832,
+      "sha256": "7a10700d0b110090d966c77f4c67a030a5823d67dcd3fd9818715d37f3ec3e11"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/training-history.json",
+      "bytes": 565,
+      "sha256": "ca0fc82af9d10b5fd05c2007a7f43e1829efcfd3b5259e5fb85b4ef633f0e730"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/training-result.json",
+      "bytes": 1017,
+      "sha256": "82cb552699a1f45b2a33de9ed5f093792d33bde575d352ab17205bd8ce1a47bd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I10_W/training.log",
+      "bytes": 4255,
+      "sha256": "3700871af51d447e150cfc3c4480b6ee47dd2a53c5ab62a425beaa6dc5ef507b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/batch-calibration.json",
+      "bytes": 413,
+      "sha256": "8003d5ac4e79fc1b57737a0e98849214e843e5bd2238621333434e4b84f7b828"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "4c54e041bd35b74cd6bc2e8556db720133bdbec67adee4fb09835a7b5f797cc5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/calibrated-comparison-with-transformer.csv",
+      "bytes": 515,
+      "sha256": "f40245242e71c6370fb7095ec215f6b841eb0505aa5b938ce94c26db3a6653db"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/calibrated-development-by-regime.csv",
+      "bytes": 318,
+      "sha256": "da5ed549458386a73a7c0f72fd5b86657cf947edfa29879ca379303e25650104"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/calibrated-holdout-by-regime.csv",
+      "bytes": 320,
+      "sha256": "b85f1ab27fe462bbd147033e664f891b0620b3536d369877d2759e416b53ef48"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/calibrated-result.json",
+      "bytes": 948,
+      "sha256": "f0292e0c44d49d49e55f26faf123f884ff1e28648c17005d8b5606e5c0f4ec3a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/calibration.log",
+      "bytes": 1010,
+      "sha256": "b2814e1e504a040ce5fc585a4a9768ba5857470c32c195b52371126cf394d89a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/comparison-with-team-transformer.csv",
+      "bytes": 586,
+      "sha256": "d5d79ab8cebbfe6ad226fb6b0ae7143206aaa3784cb6235e5488df6132acfc2c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/config.json",
+      "bytes": 2456,
+      "sha256": "442fc453cf6b726d03c4b77e1e0bce8ebeafc338604b42a87f0ea4e48fe356ca"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/development-by-regime.csv",
+      "bytes": 393,
+      "sha256": "6199ca568792a830a68af7260ba3eb6be01b4a59542b6a1465a25d7d7e36ea05"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/development-metrics.json",
+      "bytes": 213,
+      "sha256": "ed49588b1c27b554b85e4e118ca926629a97a09e307c40cc86369c6259cfaf4a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/graph-selection.json",
+      "bytes": 323,
+      "sha256": "dd587591510f0cbe5faa87cad126f053464fdeb907334898749f27a3e56e82e4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/holdout-by-regime.csv",
+      "bytes": 391,
+      "sha256": "4ba9681ab616051720673f19c16e0fc55993280bb78a6c6d4442bd5646f31008"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/holdout-metrics.json",
+      "bytes": 209,
+      "sha256": "4efa72d21dc32eb6774bbbac0d939ccebf7ee0b81eecef62e0041e1857ec58f1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/initial-development-by-regime.csv",
+      "bytes": 392,
+      "sha256": "9826dd70c527eb93f40be11d98723f0f8a9c788ef80c837ddc2b44dc1948a25f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/initial-development-metrics.json",
+      "bytes": 220,
+      "sha256": "0aa5ecda283c17e2c2e6b88789f4f4d301ff659e9406d4c9b73ce0c9eb3c7b68"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/model-graph.npz",
+      "bytes": 11718,
+      "sha256": "403dde63433d39784c62443ec71ca46569d47a1b0cfa599bca82bb146b1700ad"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/monitor-summary.json",
+      "bytes": 284,
+      "sha256": "51ff29cdc98850b1fbab9e87d94e76d45cf0c2f22c1797250eac7aa0eecd5d3f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/original-development-by-regime.csv",
+      "bytes": 392,
+      "sha256": "aa0eb76b07d194ac1e84674b5557865c29da68eafb7412b6a6bc330d9d8397e1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/original-development-metrics.json",
+      "bytes": 221,
+      "sha256": "7bbf7048f408b7748292983ca68d6a13cf900db492d3e36f6f2db8475367cd52"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/path-development-by-regime.csv",
+      "bytes": 391,
+      "sha256": "5b582d2d689ceb20b6448546dc1a98ef779a60a64bd49d8216cc4eee9557ea7f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/path-development-metrics.json",
+      "bytes": 217,
+      "sha256": "519fe95135efa9b388b04108a29ecded0b4dc6d9ebc0ec367e6db53034b6126c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/progress.json",
+      "bytes": 1043,
+      "sha256": "e0d09e1da804126aac7efd1a515f99b0f7cee704f0b7468d58c67d03c7facd5a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/proximity-development-by-regime.csv",
+      "bytes": 395,
+      "sha256": "d674e74b7673ba74e2a739cb0de2c4c3b2c4ce14698c09d96e1ecf1c9af410d5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/proximity-development-metrics.json",
+      "bytes": 222,
+      "sha256": "d8f6354f5b093f800413db7ed254dfbc743d833467a489bc3ff4881f5e61cba2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/residual-calibration.json",
+      "bytes": 459,
+      "sha256": "c24e717e685a413568b59c2b16940383d22ee4e88671c30f4ee49a15cb1bfa0c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "59c9cbb4b48794c90b2fc7fbd2fb77d12cafd38d6c70ee1e8a6f7d3b5101c7ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/telemetry.csv",
+      "bytes": 31955,
+      "sha256": "db4072326b23a168dee30f30aad3dda24c28aa022b00e68a3064a88ddd8a7381"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/training-history.json",
+      "bytes": 568,
+      "sha256": "3229b706f3f52283278af4fde9a97e4d79535d1bf782ee599d64b8a208aa90ca"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/training-result.json",
+      "bytes": 1019,
+      "sha256": "fe01e79ada257ade0fe5bea2539b7ae0bf0b278f4a9e7a5091e8ee9da38f58b7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_E/training.log",
+      "bytes": 4177,
+      "sha256": "ac4b304d566620d54dde1647b2c30311fe082ce38a57f352edbf0c5ded2ee800"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/batch-calibration.json",
+      "bytes": 685,
+      "sha256": "b464df660bc7e8700a962e07853e78d217f0e7805b1ed27e2c48e31294254e96"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "a9bef15da66853f54de5fc92ded4d1804e28c2d8f9e0c0568324f05576c24094"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/calibrated-comparison-with-transformer.csv",
+      "bytes": 504,
+      "sha256": "5eb615a4c56a9c0e9a7573b3b590665eac75df099f7255a601ef72586feb5d86"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/calibrated-development-by-regime.csv",
+      "bytes": 316,
+      "sha256": "dbaf79734ccd0a0d5002b84dbe9b6ae2f4711944be1337b4ddea725e2b2dfc36"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/calibrated-holdout-by-regime.csv",
+      "bytes": 319,
+      "sha256": "c6fa0ab79af8afbaf2b48800b1f1d14b84ba2bf3f81c4eaed7bafd86286dd8e4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/calibrated-result.json",
+      "bytes": 945,
+      "sha256": "834b712b02ccb7a2cb38a7e8dcb4dde9d2b405977d0cf1c8605fd7d8e8026ee1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/calibration.log",
+      "bytes": 1007,
+      "sha256": "ebb5520437f0b41c26abbaf6f112629d705435289d718b41f366281888f61a15"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/comparison-with-team-transformer.csv",
+      "bytes": 573,
+      "sha256": "41ddcc752024a374fda766100ad713de8e2b3270ec4219fa6c6b8c84e1544e1a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/config.json",
+      "bytes": 2465,
+      "sha256": "b89e28799ed8bf81f50c5686c3ba680aa487a9007d743338900f2809f8720339"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/development-by-regime.csv",
+      "bytes": 388,
+      "sha256": "4844ab4d865d326775373d2648059af0b03e1ab1207b36e734f583de6edb3504"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/development-metrics.json",
+      "bytes": 212,
+      "sha256": "34cc5b1aa5d165fe85c6c4e07f7887220af7e2714cb2b47d9f7b2e2a57938b31"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/graph-selection.json",
+      "bytes": 328,
+      "sha256": "ed061130880404de32ea06e0c8ed33eafdf9d228c0d86828d9459abcf491831d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/holdout-by-regime.csv",
+      "bytes": 388,
+      "sha256": "b48cc81c5d29eacc524263fa9961a1d1d944344b408e863706c5d13e08abeb99"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/holdout-metrics.json",
+      "bytes": 209,
+      "sha256": "91105cb2c468466dc99c066dbfae18c06acabe828156b87bec058c10bdf62670"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/initial-development-by-regime.csv",
+      "bytes": 385,
+      "sha256": "a75971764533640500217267bea3666a3901fbb5e252ec6855ce670145c91d45"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/initial-development-metrics.json",
+      "bytes": 221,
+      "sha256": "2141cfbe8a481063acdafaa4ec33d2163dd7d57b89ef0ee0b54d0b16f80ef173"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/model-graph.npz",
+      "bytes": 2970,
+      "sha256": "9bd672665c3cfa88233e16d16e1d6cb7ca64f0cdaa825f7f3166196061dc6323"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/monitor-summary.json",
+      "bytes": 295,
+      "sha256": "9f7f964d62218bb13c7df4497f935690dbbd35459e93e4a1d538b85eafac67b3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/original-development-by-regime.csv",
+      "bytes": 388,
+      "sha256": "79ae0f5f05f3ccb9c361b3aabb8900f14d29233e3aab772193cfd7c2c5ff1bb3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/original-development-metrics.json",
+      "bytes": 220,
+      "sha256": "06888dc13864e758c4b3dcbe11997b618e3ed2a8753e557003c0ef276f248f8c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/path-development-by-regime.csv",
+      "bytes": 388,
+      "sha256": "e055fb987aa1a714acdd524721f47a68dc367300d0b3771674e8a28539012c64"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/path-development-metrics.json",
+      "bytes": 218,
+      "sha256": "8b72ee1a9d2aee1f701af2226ae58197539e8da4bbf65b0c12a34b9520e14850"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/progress.json",
+      "bytes": 1040,
+      "sha256": "52ca9a54b1c7930fe19169c3301c832eee081dcf4799db8a745b4edf35ee03f9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/proximity-development-by-regime.csv",
+      "bytes": 390,
+      "sha256": "993a09c4f689c750666f4f52bfdbd6d236b72c61bbe795bebc27ead86ac9c1e6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/proximity-development-metrics.json",
+      "bytes": 222,
+      "sha256": "473e9b2e671fbce0c374b1c1ccd8e84406a4a4a97b384b498cc0017d4f2ea9cd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/residual-calibration.json",
+      "bytes": 460,
+      "sha256": "06f520331916af444b3a0e3c3a286f8f62323d3422a3225bf0c2f8abb9c52879"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "59c9cbb4b48794c90b2fc7fbd2fb77d12cafd38d6c70ee1e8a6f7d3b5101c7ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/telemetry.csv",
+      "bytes": 27959,
+      "sha256": "bb6e3fd54d03d33d9629577fcdf4ea0c6b3a82ea81aa6974e617ed00c8cf5c5e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/training-history.json",
+      "bytes": 569,
+      "sha256": "a058e2ad5631e4e95454f495f2d9e4bc972141b3886b429c7d333f8901f018b9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/training-result.json",
+      "bytes": 1016,
+      "sha256": "4bf31031bbe8fedd63542636dd665aaf988abaf2d271b745976017b93cb24e9f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I210_W/training.log",
+      "bytes": 4367,
+      "sha256": "34f0bb616e1bfd172fe2e19b286654c77ae201d11bc27aa9180d1f52551c019c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/batch-calibration.json",
+      "bytes": 417,
+      "sha256": "9e5d1e29eaa8ebb0397f8d3cfe6c7166ab0cbb3924a572aaf967da09cfe04074"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "533b216e83a76d3a0d8566f2721c39a69d2d2524fdfe23d0fcdc0a22fe2943a1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/calibrated-comparison-with-transformer.csv",
+      "bytes": 512,
+      "sha256": "3f55512d5eb26cfde35d39f0fb67d38ced5bd16d1021ba450abc332376896aa2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/calibrated-development-by-regime.csv",
+      "bytes": 318,
+      "sha256": "6901c38cffcb16042eca1519cdd35168d142af1d83a24c71236d50d9e5fec619"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/calibrated-holdout-by-regime.csv",
+      "bytes": 321,
+      "sha256": "d692bd7173a400d913268b78c143cbf8350267996931d548ccc63e49325a5682"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/calibrated-result.json",
+      "bytes": 947,
+      "sha256": "471d4e93e82709b73abc64920fe3ba9811cdb14f077f0d0fc5c94a0dc472dd55"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/calibration.log",
+      "bytes": 1009,
+      "sha256": "7063aac51ef3d248225e6f9e07029a6d6ea9b0a0a8272ca8e61325bbda653e3a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/comparison-with-team-transformer.csv",
+      "bytes": 584,
+      "sha256": "3181f576fcc4139e8401fcd0cbc7ea1ba239f487979f1a8c7d9d733b6d77d970"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/config.json",
+      "bytes": 2465,
+      "sha256": "b7a765c286e3fb0bbcceff9cfaab6b73dc8d88df5f387b2a56218fa14c74cf35"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/development-by-regime.csv",
+      "bytes": 392,
+      "sha256": "f17dbfbd81d31b4569d7db094bb234dea26776284b414f73d7e2acd17f38963b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/development-metrics.json",
+      "bytes": 212,
+      "sha256": "f6356d278aa40c7c2b33be05469d4f2adb1329b03c4f3e7cdd9c4171fad4ef25"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/graph-selection.json",
+      "bytes": 331,
+      "sha256": "198f9d65a115ed774bd4ba2b6ace2f78eee67584e29058a796884bd959b8f4c9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/holdout-by-regime.csv",
+      "bytes": 393,
+      "sha256": "214f198657b9d9129346cd4b15c42e017a85bd7cf188310c5aa88ad2d6f6fc4e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "1897c49bee67c085fb9b525208bf4ac3f1d3ecdb1942b8ad2a36d62d799d3514"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/initial-development-by-regime.csv",
+      "bytes": 392,
+      "sha256": "2d32994e28e52b11ae94c54efcdb46e7973b8c438150954c61278f0bf12048de"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/initial-development-metrics.json",
+      "bytes": 221,
+      "sha256": "1f8f9ea2c922197af4ed0895328e83fb3eadb6bd9f947a4414e9280e156ed578"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/model-graph.npz",
+      "bytes": 9474,
+      "sha256": "6e2193e8ed4c5c5e716d0d9d139f0dd2b66469be0f7a89b5f1f4ca520b0e295f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/monitor-summary.json",
+      "bytes": 296,
+      "sha256": "8eb02be1d9120048ee84efd0bb23bbbed4a310a9f6c211b674f7d2c6abef4892"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/original-development-by-regime.csv",
+      "bytes": 388,
+      "sha256": "9a0a759fb1a0fc7cf32f2b9aa811d631028cd8d7dc772791656dfbba4bb6536d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/original-development-metrics.json",
+      "bytes": 221,
+      "sha256": "c28f7fead90381a8186686dd672712a0b3880580207111e36143e62303573a2a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/path-development-by-regime.csv",
+      "bytes": 393,
+      "sha256": "feb70879544234ac5305c96749cd9a42bcaecb9c3ea6d6e4e5e7017948b99e27"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/path-development-metrics.json",
+      "bytes": 218,
+      "sha256": "9637572c5196a980715481afe1962be187e69997afe4a3ef69640223c806fe52"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/progress.json",
+      "bytes": 1044,
+      "sha256": "d7fc37c45307d915c902bcafac57918054e89dd3ab815ecbbcaf2c2a160ae301"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/proximity-development-by-regime.csv",
+      "bytes": 395,
+      "sha256": "6fea9a371a8264ff648b3d357f0af49999653b5ec8d31d9060f0dfb9ccf79f2e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/proximity-development-metrics.json",
+      "bytes": 223,
+      "sha256": "12251d4f969de9f9f65810f154ff02894d8ad4d98c42ac8c74062fc0bb5e178c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/residual-calibration.json",
+      "bytes": 461,
+      "sha256": "378d7082fb24437be108c9139ada3cc085a308a58a9d9e230564e018c505449e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "59c9cbb4b48794c90b2fc7fbd2fb77d12cafd38d6c70ee1e8a6f7d3b5101c7ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/telemetry.csv",
+      "bytes": 36575,
+      "sha256": "879520e0b5f3c8378a4f398db3ab6386233f941144ef3292b736df19aaf3676a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/training-history.json",
+      "bytes": 557,
+      "sha256": "4cdfa23b9773c1b7882c8c5277e0eb4e0467a05b962f034089f0bf3043320009"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/training-result.json",
+      "bytes": 1020,
+      "sha256": "686b87b2baff5c5f6482200a282d9c9f051c78d66dc7690b0fd4b0406d5d1beb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_N/training.log",
+      "bytes": 4152,
+      "sha256": "c4bcc311f9da8c7e1e28424f6597b5eb68337c1b17a66c944624e5f308ad7cb6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/batch-calibration.json",
+      "bytes": 662,
+      "sha256": "a36157b37edd465a21c1c5ae80243d68cb52207c8c9af40e634b6eb8f948d4ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/best-model.pt",
+      "bytes": 45660281,
+      "sha256": "362a5cb016e17f54b0cb09709fce044113f63551caab727aadc035b6df4b99f5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/calibrated-comparison-with-transformer.csv",
+      "bytes": 507,
+      "sha256": "68fc1d10d4b96178de005fa6e7f1574ec1fd46df475b26bd1de4ba4d5778ba81"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/calibrated-development-by-regime.csv",
+      "bytes": 319,
+      "sha256": "e4e1050cc8d2e3503eea1cec9e7c97fb8d7e6d242ba0a04002f1317e9a6df13a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/calibrated-holdout-by-regime.csv",
+      "bytes": 319,
+      "sha256": "39c1179354742bb3691e9593137e3e32c4927efb7c75c85d9864672f3b300d9b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/calibrated-result.json",
+      "bytes": 946,
+      "sha256": "8ff0bd2577a27a6b2d3c1eb38e8f4f28df1d4e2389696df53ee5490e4d0442ca"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/calibration.log",
+      "bytes": 1008,
+      "sha256": "7145066fa988cb087c024af84abc630747c9532224e164719eac902f77a1f327"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/comparison-with-team-transformer.csv",
+      "bytes": 577,
+      "sha256": "791a58f434b46d7667cbe1b1fd151df03e3b39a66673f66e4ad655b9da99c978"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/config.json",
+      "bytes": 2470,
+      "sha256": "c1cfbf97d6cb3d418fc5b645486a2b7ff34ad1ff5554c6c938c9d3809c598c26"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/development-by-regime.csv",
+      "bytes": 390,
+      "sha256": "1bdf8b518095680e5440643c3a9a4e2a2b73ed246d00dfaeeb1c0b8041f8f814"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/development-metrics.json",
+      "bytes": 213,
+      "sha256": "f0736093d14015774cdab7f58ad137922e19b92508334f91658fc8d42e222f05"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/graph-selection.json",
+      "bytes": 336,
+      "sha256": "3481322fbe19683026eb329908fcd98c49f9e5e71b849245666c4d1903db792b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/holdout-by-regime.csv",
+      "bytes": 389,
+      "sha256": "89e24807f9e253344e3082608d42f06c607be28b5f6b82c801d19de5740ebe98"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "1ca3c6e8856ad474b8acae5ab1f11f18e48fd5405b0cd65fa61ce282ad1ebaed"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/initial-development-by-regime.csv",
+      "bytes": 387,
+      "sha256": "bdd2b43dd46017875e9f8dd56f938d525f04945678495a619874ec8134d25b47"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/initial-development-metrics.json",
+      "bytes": 221,
+      "sha256": "d451410a8ac95dc64a797ddb2f708552316358ced1bd945762a33239d00f7101"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/model-graph.npz",
+      "bytes": 3642,
+      "sha256": "6cb2fd1940f48fc383cfec14a4fda2929aa1db6ac7afc271147dff18a2268c47"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/monitor-summary.json",
+      "bytes": 296,
+      "sha256": "014ec1cd7372e2d48e257868f17680c96bff0c5c8509f9583bf8a69103b19035"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/original-development-by-regime.csv",
+      "bytes": 389,
+      "sha256": "3cf5e64321ca633550c45de6aa1b95fc20810d0decf93c1570305aaf7db75d54"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/original-development-metrics.json",
+      "bytes": 221,
+      "sha256": "5106840521fced6d58dbcdd07d72a11a5992788f668d6299c682fd00789774c6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/path-development-by-regime.csv",
+      "bytes": 389,
+      "sha256": "e074f936505d9ac3d4e223273bb2093570b261828b0ff5ae4d9e0b1dfd6ccfe8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/path-development-metrics.json",
+      "bytes": 217,
+      "sha256": "0082e0c512bacbfd0732fdef4f12d5fc9ae0c8dab543a76066e752310e4ff431"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/progress.json",
+      "bytes": 1031,
+      "sha256": "0b4e842f0b97b99197a8317c302909df43431340edca775ae05f938ded7541ed"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/proximity-development-by-regime.csv",
+      "bytes": 387,
+      "sha256": "347d714acac077edcf704c8d157babd56e88ea7ea98ff1ddcb526f9d9205a6f2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/proximity-development-metrics.json",
+      "bytes": 223,
+      "sha256": "b5689a8594a558dd5225bcdb32a82d7a7d1a45715edab43c2d3929abc543fb0d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/residual-calibration.json",
+      "bytes": 460,
+      "sha256": "ef8cec4832f4c78766f2eef0491cfbc223bc4bd24e03cfc2cd4459f99af6f918"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "c17705ad9e46f777a26f4d84bdee6b4a2177ffe16a40ee16a512b67fadab1b85"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/telemetry.csv",
+      "bytes": 38014,
+      "sha256": "f0a14df739fb20ed5982212e09b817aa5b7af45116b79cccae8b9d19bd27a0b9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/training-history.json",
+      "bytes": 557,
+      "sha256": "2a4293010e63793f4533023899d657b8f7dbbb0274929f94ebf3b7fea28deca1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/training-result.json",
+      "bytes": 1007,
+      "sha256": "82850bb714a9fcad06285f492de4d802dbcbf87d37ff5994cfa6db898322d0f9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/D7_I405_S/training.log",
+      "bytes": 4221,
+      "sha256": "dc2ec9f2576662ef39faff34847603642020d9e697db188f763c3c2d4bb3977e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/calibrated-holdout-by-regime.csv",
+      "bytes": 2582,
+      "sha256": "ebcce73cfdee8e68cde260ca535640bb08fda45d9567aebc1f0adfe53f42a43c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/comparison-by-panel.csv",
+      "bytes": 729,
+      "sha256": "0e890f5e54f95fac605da3fee64516ccaa056c835cdd5b348fd340ad55a7fd50"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/comparison-with-transformer.csv",
+      "bytes": 4046,
+      "sha256": "14195f1a7b383462f19b1608eb47bfdd7e0dc98eac309b467402f355b58dc715"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/expert-selection-details.csv",
+      "bytes": 1063,
+      "sha256": "89600d0ef4586c28f37392b95c3b51d1bf7a698894d1ea3ddc22ea1e3a97dbec"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/batch-calibration.json",
+      "bytes": 621,
+      "sha256": "9e006dbc5e1df6911d7a8a947ab3f7e187d8b6892903bdb2fcc8770dc1f0c06a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/config.json",
+      "bytes": 2470,
+      "sha256": "c1cfbf97d6cb3d418fc5b645486a2b7ff34ad1ff5554c6c938c9d3809c598c26"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/graph-selection.json",
+      "bytes": 336,
+      "sha256": "3481322fbe19683026eb329908fcd98c49f9e5e71b849245666c4d1903db792b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/initial-development-by-regime.csv",
+      "bytes": 387,
+      "sha256": "bdd2b43dd46017875e9f8dd56f938d525f04945678495a619874ec8134d25b47"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/initial-development-metrics.json",
+      "bytes": 221,
+      "sha256": "d451410a8ac95dc64a797ddb2f708552316358ced1bd945762a33239d00f7101"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/launch.log",
+      "bytes": 602,
+      "sha256": "946a3efe9a81580d6b82d0b464ab9bc9c9f72f0428dafe9192d552a0eb6db46d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/monitor-summary.json",
+      "bytes": 294,
+      "sha256": "2681a947f150f960fec4404e0a8af979ab1c3dd5c8d51908e48f9dff876a2c21"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/original-development-by-regime.csv",
+      "bytes": 389,
+      "sha256": "3cf5e64321ca633550c45de6aa1b95fc20810d0decf93c1570305aaf7db75d54"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/original-development-metrics.json",
+      "bytes": 221,
+      "sha256": "5106840521fced6d58dbcdd07d72a11a5992788f668d6299c682fd00789774c6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/path-development-by-regime.csv",
+      "bytes": 389,
+      "sha256": "e074f936505d9ac3d4e223273bb2093570b261828b0ff5ae4d9e0b1dfd6ccfe8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/path-development-metrics.json",
+      "bytes": 217,
+      "sha256": "0082e0c512bacbfd0732fdef4f12d5fc9ae0c8dab543a76066e752310e4ff431"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/progress.json",
+      "bytes": 119,
+      "sha256": "a234e95290f6983d99b27d0d93a56bf152224bcd902f65b517bb088371f84a5c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/proximity-development-by-regime.csv",
+      "bytes": 387,
+      "sha256": "347d714acac077edcf704c8d157babd56e88ea7ea98ff1ddcb526f9d9205a6f2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/proximity-development-metrics.json",
+      "bytes": 223,
+      "sha256": "b5689a8594a558dd5225bcdb32a82d7a7d1a45715edab43c2d3929abc543fb0d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/source-hashes.json",
+      "bytes": 2557,
+      "sha256": "59c9cbb4b48794c90b2fc7fbd2fb77d12cafd38d6c70ee1e8a6f7d3b5101c7ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/telemetry.csv",
+      "bytes": 2656,
+      "sha256": "54b8eab3e951ba98ee88ad8235b3358f1008007baec2f91029932a7ef0633ae8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/failed-attempts/D7_I405_S-capacity-20261020-0625/training.log",
+      "bytes": 4749,
+      "sha256": "d1979f9a0a3ea894128a577bb1bda0fd1a8b96d324a857c8ea4b726fa61f9757"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/final-chart.png",
+      "bytes": 124549,
+      "sha256": "2d06d5cfaa0e20ea843d25b5e6e4271316662e48dd2a55f878863c92b6573010"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/raw-holdout-by-regime.csv",
+      "bytes": 3170,
+      "sha256": "e269ea12f9adaea12a45b69749bfff8c807e9e7ae4bc7bd927eacfd57887623f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/specialists/summary.json",
+      "bytes": 1328,
+      "sha256": "a900f783adb50c2e64c4fbb5d58e9fff59600d148e8d3bd18c183861f95a42bb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/submission-inference.log",
+      "bytes": 6677,
+      "sha256": "de9cbc6200fc0787e3c3968f11b7addeac844b05784fbccdd4e1be763c2db895"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/train.py",
+      "bytes": 15872,
+      "sha256": "1b5852d5f6c7e714a0da2be000c4e05abfde78f176081544f05951b68025dd09"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/train_hybrid.py",
+      "bytes": 17174,
+      "sha256": "5c2ba5665cde665966934fe4e054b81a00f51675022e69ed588b51ebce53144a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/train_refinement.py",
+      "bytes": 16778,
+      "sha256": "3f87274867e16d035176834077842bdbd29e6001a8b185a3b9cf719d718c0fcd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/train_specialist.py",
+      "bytes": 19779,
+      "sha256": "d4aec96b3bf75b7976c72af0129d90fbe3e6022f8d4f75b6e93c0ac7832ba31d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/accuracy-chart.png",
+      "bytes": 115172,
+      "sha256": "60172182fbb84b7688cf35ca406ab6f8a9e3bf9724ad6500ccf158fee67b97ca"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/batch-calibration.json",
+      "bytes": 415,
+      "sha256": "8312e7bd57936f1fa3ea02a2e423d0a8d0769368b8b3923b160ce5b0a5400678"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/calibrated-comparison-with-transformer.csv",
+      "bytes": 4068,
+      "sha256": "be038b1ecc05b118a7329ea169a563e048db8b2e0ec580f5ab7631c5665f8074"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/calibrated-development-by-regime.csv",
+      "bytes": 2580,
+      "sha256": "c755335e66bd54d64abcdfc041597f1ff8b2c29bbacc34d3b7377fcd2f6856f6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/calibrated-holdout-by-regime.csv",
+      "bytes": 2587,
+      "sha256": "7108f01791a46962bf3ff9f66add6f8152bd71ef35f29df5be4b7aa52c222a3b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/calibrated-result.json",
+      "bytes": 938,
+      "sha256": "8640a0ee237dcb9b8e6d70e2ee890a1dc4133e750f6173c3181ff48f05e7acc5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/calibration.log",
+      "bytes": 1538,
+      "sha256": "511762cc13c79992652bfe2d24f18d2760bc096d0320e9e8589745ff3ed239d5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/comparison-by-panel.csv",
+      "bytes": 738,
+      "sha256": "3d8c0299774dedf7ea0306ff8b2cc1fe8d1d6a7e635816195fefa8257f5913d9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/comparison-with-team-transformer.csv",
+      "bytes": 4642,
+      "sha256": "d916523d5025b041f480ff32fd964a21ff8ccd30ed6d80d21e2c1645387f8a98"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/config.json",
+      "bytes": 1693,
+      "sha256": "dec2b709259dad6b5acfb66d7577b7fde3169a243fa5d05ab75a48e4a0de6dc1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/development-by-regime.csv",
+      "bytes": 3158,
+      "sha256": "4532ab1743f47c7593df9c38d7cec0cb969e006d416f1cac622d565108452ce0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/development-metrics.json",
+      "bytes": 214,
+      "sha256": "3737854d1a00f1234080246e53c382c37da97d3075ae6fe277489674f11bb2af"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/holdout-by-regime.csv",
+      "bytes": 3179,
+      "sha256": "4c0df4382fbcf25590d8eaca4ad3eb799e37062fbbde11b5c338193135e73cb7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/holdout-metrics.json",
+      "bytes": 210,
+      "sha256": "2a76d9906595472332b5d208f253c9c554b4943cacdf5800b0a2226056d8baf1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/live-learning-curve.png",
+      "bytes": 87397,
+      "sha256": "a7fef823d6b616bf96c39517b7aca6d991c2f815f7e86e3adce6c3f33663d1b0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/monitor-summary.json",
+      "bytes": 297,
+      "sha256": "43651be29138a5df547363889492ff4deabe346d38b1adee89e9de0fe76e7194"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/progress.json",
+      "bytes": 1026,
+      "sha256": "ba47b1ef805def7226d1f1842f630e95aab9205b15dd6fda38b085e462fef3e7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/residual-calibration.json",
+      "bytes": 461,
+      "sha256": "1e0887234961e943f2a647491f59db60654207c1fe894cc3dff16dce5e53879f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/source-hashes.json",
+      "bytes": 263,
+      "sha256": "bd28b900c5448371c84c35cd89c0cae07d2bdd96d6ad9221fe9415b3bbe54d7d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/telemetry.csv",
+      "bytes": 228974,
+      "sha256": "1edd042de9665ea81e7423c0fe71b05bc4435115daad31a29d8789d76f594ee1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/training-history.json",
+      "bytes": 2362,
+      "sha256": "e7d327434db75716d93540a20588aafb25b37110ae2ce89677bdfc998014735f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/training-result.json",
+      "bytes": 1002,
+      "sha256": "a0ea788d6f31707f224f49598f3c1e5d8dd336a732bbf537b717754c75dd5ee3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/training.log",
+      "bytes": 37739,
+      "sha256": "5b4efac64a54a07f60238cad84820b91b322db7d94fe7ce535d4c7651407d3a9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/training/重训结果.txt",
+      "bytes": 4281,
+      "sha256": "66d20f609a5dc9f78b6623e6715dca04bc147c448a0c637607f3d047ca25d464"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/verify_components.py",
+      "bytes": 1922,
+      "sha256": "cfbd8719d7754178ba513175da02c750235d43ca980f0864814c5f39c4100a84"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/verify_hybrid.py",
+      "bytes": 2030,
+      "sha256": "c2f1613316b0370a473cb6effa6c94a3845908534865f54d5820d6ed7c8c4b45"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/verify_quality_parity.py",
+      "bytes": 1874,
+      "sha256": "41bc024aef38f4a19a988d2275505b0a5425b541b1751f3c6178f85cae0a4beb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/verify_specialist_inference.py",
+      "bytes": 3023,
+      "sha256": "9c4faf4f39e4d967ecbdc98289db8626c2f098f8d5c77f9aeb5ada39908cc884"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/write_result.py",
+      "bytes": 9419,
+      "sha256": "22e872656815fb7c60b59656239bd01b1ea6146ff2d59f8a4ca7eb6936245ae6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/write_specialist_result.py",
+      "bytes": 11738,
+      "sha256": "bc6eadcd92025b1cc40e224667f9530ad60e1be2cc56bd891e5aba67a6fddb16"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/复现与推理说明.txt",
+      "bytes": 10156,
+      "sha256": "b29b9d1980ca7dc1e6a27dcb6c9ec5c21f0a4d021b3fc40796d69523d67f81e9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/最终模型结果.txt",
+      "bytes": 6398,
+      "sha256": "f3b508c23f1b51609d73aedd186c7615cc8b7c84a9d0ccecd2466be8b19b2b3c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/模型检索与选择.txt",
+      "bytes": 5347,
+      "sha256": "df4a70c265da7e8ba4ae921d4c318c497f30739f0e535e9fe9d4d40dfd6ca78e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/设计与实验协议.txt",
+      "bytes": 7847,
+      "sha256": "8ee79e27d615bb87ba0b5efeb0dced4634c3449c88cf9085860e22a1eed1c85e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v1/重训结果.txt",
+      "bytes": 5016,
+      "sha256": "734a286a6db7867091fa0142406ef61f82986ace9f42f819794ff1321aaebab0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "f34899d9e9e0c125044dfcf5486d2b24203506bb0b1e6fcb078a60f761f83d7a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/capacity-plan.json",
+      "bytes": 183,
+      "sha256": "147161c02b744235af8d04862980fce82a761eb75f3c9a9d015aa54449c0a5bc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/previous-development-metrics.json",
+      "bytes": 174,
+      "sha256": "e847d9869dd0e870b61e9d589e3fed41de41055df6da6b249a2504bb4d5a145e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/progress.json",
+      "bytes": 1053,
+      "sha256": "c62c3def445c9b8e28bd8c250002abf59a90289e677b16fe245a4af6f97056e4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/selection.json",
+      "bytes": 884,
+      "sha256": "307fb10875d35e6f331ddc29a6f2478aca6a01d3f522095ec69ef0e2a2dd4f69"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/training-history.json",
+      "bytes": 1306,
+      "sha256": "9ad32665fe26253d98c4826cf239008b3a8b7cf9b133f24a647f03b0fd7a4c7f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_N/training.log",
+      "bytes": 4688,
+      "sha256": "bf4408b46eac853ede44e2fcd79be3ec5a36e6de0546c14ad96d6bd054500d40"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "db790ee6ab53da4b50ab394571a95eeb82f15460a7c2edb561e8f2c2eaf79b90"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/capacity-plan.json",
+      "bytes": 185,
+      "sha256": "281fc1ecb2760aa94df00a7fb187a09338ebba17f047d6f83e57b9a3b70e5f79"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/previous-development-metrics.json",
+      "bytes": 174,
+      "sha256": "7a4aafe14dd87fba1e00d44e076d840ea3b1a8a585563662a70ba1381ec16c1d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/progress.json",
+      "bytes": 1063,
+      "sha256": "0b76d6a10f543583eee9542660f60a4cb12fb89bf3074b9dbe304e8c9efcf2d0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/selection.json",
+      "bytes": 894,
+      "sha256": "4a38c938f13727cd8c4d58b15fd1d776274b1e7e051e3cc6f8ee531b8b6ffba2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/training-history.json",
+      "bytes": 1302,
+      "sha256": "c6a8d83d713e320655649edd5e4758c9a18c3030b901f0fff41d7bf0c69ddede"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I405_S/training.log",
+      "bytes": 4718,
+      "sha256": "3857dc583fa94d67be6caa0d512f16625e5fd67be5401b6ec5c32056b53b2b45"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_N/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "727185eb635fcea6610c43e85d132208cd5ff6760f1ba2f22bf427c9748f1d3e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_N/previous-development-metrics.json",
+      "bytes": 173,
+      "sha256": "2fd54cee1a6e666ef59e67cfb34c18c927a86780e4af9133d7f92738441aacae"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_N/progress.json",
+      "bytes": 1042,
+      "sha256": "4ee889c7cfd0c300899c4218fecc554ceb86f82bf42fa88ad13412f75f31af78"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_N/selection.json",
+      "bytes": 875,
+      "sha256": "c170445dc950bad45e3e5d8b2d5be2d4de00b22a8d3c2040321fdace462d94b8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_N/training-history.json",
+      "bytes": 1303,
+      "sha256": "1d2ba485e07f719e14e125e2bd10a376c1804607e8cb8be287000577f943b14c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_N/training.log",
+      "bytes": 4673,
+      "sha256": "1e3a2ad549f3a5f9c47be74620111a3675779cc5b13b61d3a5cc923d23eb5040"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "0d790ecb8bde382ac72683ffb3fca6b218bc75c34c5d6a87fb56b6c37d7b4340"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/capacity-plan.json",
+      "bytes": 184,
+      "sha256": "e4f006891fe093e86cca5ede0ca62ef9a26653e7341da5124cde5d5f83a690d6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/previous-development-metrics.json",
+      "bytes": 171,
+      "sha256": "a74529599ed2c2875b0f43da7a436c32d3076d7841da3418bc5136a0ca954dcd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/progress.json",
+      "bytes": 1047,
+      "sha256": "e0f79a69dafea3512fa18a80e0ed7d72f6c523733bd570ff035ae77135c3eb01"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/selection.json",
+      "bytes": 880,
+      "sha256": "4bc083f967ffe429efa759255edded9ec1a8c0abe7ec6778ba4902d178b9a0e8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/training-history.json",
+      "bytes": 1299,
+      "sha256": "f7bf57f7f9b15b701ffa20f3658f1ee4cf996e39501bce3e4315f43562497e12"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D12_I5_S/training.log",
+      "bytes": 4634,
+      "sha256": "ba4685deb2dde7226fe95a4b6eaab25e4c33c68c9535ed681ca226ce13d79607"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_E/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "1470bae4995ddc144a52c8dec8db6ea2fb3f50cc36a486c6bbbd1758fceda199"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_E/previous-development-metrics.json",
+      "bytes": 172,
+      "sha256": "0e5c10a4282e1c911e423a19be8df902aecd55bbc9a852928efc460bfc100bb0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_E/progress.json",
+      "bytes": 1049,
+      "sha256": "2d1a660cfa81ceaad5e2ed8dff96c8da396cf12c0ba05c1fc5c489b6929abbcb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_E/selection.json",
+      "bytes": 882,
+      "sha256": "dab333823a8209c526e3270390fc1c07ca5e2907615bf009545af09e29056e09"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_E/training-history.json",
+      "bytes": 1296,
+      "sha256": "15676b79de8515e55f32e4fe774aa11999a9814dc0993b419ce803c431fc94e0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_E/training.log",
+      "bytes": 4646,
+      "sha256": "33eca96f1ecac02cfe9e26dda272133c964f1340874ed26043019a42ce9e826a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "adb34b68f8aa44f4190c994a53cf3d62e82b5e4a48308d6edb5fd91ec863f1b6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/capacity-plan.json",
+      "bytes": 184,
+      "sha256": "b0bb0e88fb010ef104580c4a4fa1dbf9047fb694c1e4a8ffc3aa04c95894ee28"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/previous-development-metrics.json",
+      "bytes": 173,
+      "sha256": "1c1f4c8aa5906171acfbce05b0568380689009d12b43fba8861fc077aec7c43b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/progress.json",
+      "bytes": 1054,
+      "sha256": "308c58aac3e1cf5dc88427df0cc080a8111a96b2de35e2929188362cc63bc4ec"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/selection.json",
+      "bytes": 887,
+      "sha256": "49a0ade55cdf019732be778264e10033fcda2a7c81b010a27387d19dfaad6a6c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/training-history.json",
+      "bytes": 1302,
+      "sha256": "5d382b989964380b190af5523fe3eb15a7bd82484a00b6dc0aba455fe8c84747"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I10_W/training.log",
+      "bytes": 4653,
+      "sha256": "3f716527ad7f21fa363db4708fcce6c4ed6327573f39c4a81067b8a2d533aa8d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_E/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "88ce3fc7e4539b650026874eeae611f05e80ad5d35f21dc911910d808617c1d5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_E/previous-development-metrics.json",
+      "bytes": 173,
+      "sha256": "31dc9d21e342ffa122804cd791e07bc50bdc5c21072dfaa5ddbdcb4cd99815e6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_E/progress.json",
+      "bytes": 1042,
+      "sha256": "8b0acf077be4b49e9f124a7597a7c245920378f4c1038501da780b48f6c4f24a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_E/selection.json",
+      "bytes": 876,
+      "sha256": "6b151fe5e67ceb217c7668ea8052b35f79d55d8250c99d009ea705781ebe772a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_E/training-history.json",
+      "bytes": 1303,
+      "sha256": "4e072cfdf0425ed5384a762b3a7e9010a555f1f8767dcdf7a16f62cc7b63c1e2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_E/training.log",
+      "bytes": 4671,
+      "sha256": "c3a9eb406bb704a99a92af12ca65c230d6ec00c11d9ff0ecb4de650bce22a013"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "709ead145a598800775501773d213c131c6eb7ea5768fb4e1f0143d6d534ffcd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/capacity-plan.json",
+      "bytes": 183,
+      "sha256": "0394b8701521db85505c4f1ba895f7c466a1c3969726a4ad9425f3e81db0a191"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/previous-development-metrics.json",
+      "bytes": 173,
+      "sha256": "2360b9948bb88bf379bb4b58b3ba6dfcac868a21d446f9184ec4527b52a279d4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/progress.json",
+      "bytes": 1053,
+      "sha256": "99d73d514c1fb60935dbd30cc1e9144a9a371f1c1089ff05ff4fc7915cbc68b5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/selection.json",
+      "bytes": 885,
+      "sha256": "1630575102e1659ebff288f8c3b77c143f78bd02c04e5a703bedef7a5bee1b8f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/training-history.json",
+      "bytes": 1296,
+      "sha256": "26e06c612162bb06d2e5b1f000125450141ceea966606269648d58c4c47695bb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I210_W/training.log",
+      "bytes": 4674,
+      "sha256": "70519530872cc4ded308c5b3562616676740e9c80ffaa92a03ce7ee626e4e310"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_N/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "e8bb894cba5272ae2a84247e408d2a958c05183b7f5579c50a345cf69715b05a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_N/previous-development-metrics.json",
+      "bytes": 172,
+      "sha256": "636c3ac8b3962bc41556f14088e755b03fdfa9c560bd5bf0fe5f27d17f4af335"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_N/progress.json",
+      "bytes": 1051,
+      "sha256": "8bec95ba9c0d37de7f0102f9bdcf725f9ebc0210bd9be2d5e1781a2d2e716909"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_N/selection.json",
+      "bytes": 884,
+      "sha256": "a79d9129257938fcb82969da3e50fd5ba79831fc9153930393b28530b58b3d1b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_N/training-history.json",
+      "bytes": 1298,
+      "sha256": "e3b95d19c3ace8bcc7b0361c7f71663506eb41c0b8e6b79b95ef0ca2a6a5a69b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_N/training.log",
+      "bytes": 4685,
+      "sha256": "2697bbfad2f6db56bd25d79d70b54f103e411217daf639920e239023eada3e9e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/best-model.pt",
+      "bytes": 45660217,
+      "sha256": "72551ac6a78a2070d4208bf0d02f1caad975dd3fe86e8b7604abcd31a1c0c5ee"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/capacity-plan.json",
+      "bytes": 184,
+      "sha256": "ec0508729d984bf95cdee609fa6f5494645f4be4f708eab6f484af647ec710f0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/previous-development-metrics.json",
+      "bytes": 170,
+      "sha256": "ef364ce40d69b26ce71c524edfba56d0e3d6029d094306b3d54b35d6844f5abc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/progress.json",
+      "bytes": 1060,
+      "sha256": "5c444ecfd2013876ea9cf442858cef26c8abc9e3b2346c675a425fbba40e2213"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/selection.json",
+      "bytes": 892,
+      "sha256": "e41fc4603ea4bc306611c4254fcc38d49151162049cdb1b834daff089d259dfc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/training-history.json",
+      "bytes": 1297,
+      "sha256": "465e47e88a703e6787f52ef7a6fdcb2c2d5016df1d136ddc766d2b3d8363b215"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/D7_I405_S/training.log",
+      "bytes": 4668,
+      "sha256": "0c37f2b5cc0baabddc96d825916fefc2dd076880db998b3f1bab1e578a3a52e0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/build_candidate.log",
+      "bytes": 6677,
+      "sha256": "583ab74d71b19776113b76b2097d0e16a5aa49abd4141cb7a552195fbf6fef68"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/build_candidate.py",
+      "bytes": 7791,
+      "sha256": "329a2e4a298c1b5de1faeecb5713952bac8eeaf8b34527f8026163cbd4f91135"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/capacity-recovery-addendum.json",
+      "bytes": 588,
+      "sha256": "798d75a63ab6bc034264529c29ba5af7062f47c164f4f9ca3530da2675293156"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/checkpoint-inference-parity.json",
+      "bytes": 305,
+      "sha256": "819500ea60a44dfde9b1e2808e83a2e8d5d25d1af437dce74ba45bafa99a848e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/comparison-by-panel.csv",
+      "bytes": 2577,
+      "sha256": "4886e06f8101ee95f556d710dceb8c9720219ad341a6dcf99ab795e474e97777"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/comparison-by-regime.csv",
+      "bytes": 7437,
+      "sha256": "e7c5bd9a8df517c07531eee1e99f98d609acb751755ec1fecc2f61e6e0a18888"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/comparison.png",
+      "bytes": 115302,
+      "sha256": "b1d95915f563f049743237352c53f97f17fcfa128ee46d11f867deefeff86fbc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/day-profile-development-probe.json",
+      "bytes": 445,
+      "sha256": "6050250d5c9f7003a96e9bb1cb3059f4c3131db1b72a2a47b3d20776882a2aa7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/deliver.py",
+      "bytes": 621,
+      "sha256": "0dbd4c92a4dd1f3c9e330d420128474aaba9703657d831507e3fd72082d806e3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/delivery-controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/delivery-integrity.json",
+      "bytes": 2482,
+      "sha256": "1d046ba60329200ddeaad65a9323600d40459fd347aef59f3e298fc504fc3c25"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/delivery.json",
+      "bytes": 425,
+      "sha256": "6f4a4c2cb6e36927b49af9d7ead6b4850167d8f53eb730a6afc7cfcf79899f1e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/diagnose_internal.py",
+      "bytes": 1782,
+      "sha256": "50c811ba1a56cb46e370d40aa1fce7d3c82e95053f357c8ca627a4f7933e354e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/direction-summary.csv",
+      "bytes": 1532,
+      "sha256": "b5c2cce7bff2770d81a40ac56e62328588fc6eead36f98bdb0d633537a32d154"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/evaluate.log",
+      "bytes": 1980,
+      "sha256": "91c4c62a0dcdd6cf31f341e622b544c2a3cdbd07092fa1c1c2e74bad05a3f265"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/evaluate.py",
+      "bytes": 10405,
+      "sha256": "f8e49646130fbb8fadbfc6af1cf228aa6de76ae3d6be33e18c5e278319fe0972"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/evaluation-summary.json",
+      "bytes": 785,
+      "sha256": "bcf02bcc8f8b1c252b0cf3495fc4805036f2a042d23eebc60f9cedaef7812780"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/failed-attempts/D7_I10_W-initial-capacity/previous-development-metrics.json",
+      "bytes": 173,
+      "sha256": "1c1f4c8aa5906171acfbce05b0568380689009d12b43fba8861fc077aec7c43b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/failed-attempts/D7_I10_W-initial-capacity/progress.json",
+      "bytes": 203,
+      "sha256": "770390cbcdeecc67de091f3dafa8933d994a3fd5677b70193323883b244770e8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/failed-attempts/D7_I10_W-initial-capacity/training.log",
+      "bytes": 4461,
+      "sha256": "c20826d00ee3211d99fc36e784f81d6d390856d485dd9f2e7e79de1ae3947a13"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/failed-attempts/first-controller.log",
+      "bytes": 555,
+      "sha256": "9127723684edd8f18d44c4eed621c41de53caa9e9eb37424b29b6038616988c3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/failed-attempts/first-finish-controller.log",
+      "bytes": 476,
+      "sha256": "a5bfbe733bdf8128823b5f6cdcafeb054009584263c9cea4aef4facade7648e9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/final-model.json",
+      "bytes": 11998,
+      "sha256": "eefdbc9619173a431b3fb188bb93aa1346e6d891b379b31250dd995804e0914c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/finalize_saved.log",
+      "bytes": 787,
+      "sha256": "09ff51f8aac6294c304d4358ce08a26b8086a72b9cdd48d67cf06fdcc6f55809"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/finalize_saved.py",
+      "bytes": 4920,
+      "sha256": "4f57ca70f92285ce9cd61646b7510429caf26639640d35fd98f0d78db63ed650"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/finish-controller.log",
+      "bytes": 864,
+      "sha256": "59d94c8f26281ec5f5ec0692e8f8f77053b982d46270f02c86c84b8825a4d967"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/finish.py",
+      "bytes": 3591,
+      "sha256": "3a6877dbb4b4e8524ead5c6fc6a467c09fb92d87376ee026ad0f46eb4ebb2e66"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/frozen-routes.json",
+      "bytes": 10290,
+      "sha256": "92ff888c4ffa43fc0e537e4b982b75255a512841a451bbb5d20bab79986d09b0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/holdout-by-regime.csv",
+      "bytes": 2605,
+      "sha256": "0cf771fde27b6f64fcceee7b21e3c99ba7138f0ee59a76f615fa5624025064e4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/internal-flow-error-slices.csv",
+      "bytes": 1500,
+      "sha256": "ba42ada5122291a1ef67a19d3eda4e5935e6a5363c9c8caeed3b4691ddca37f4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/internal-selection.csv",
+      "bytes": 1093,
+      "sha256": "8891ef289efee8f9d0a7b007f4a8b45355ce8e499591aa64ce17605b27197f57"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-feature-verification.json",
+      "bytes": 702,
+      "sha256": "98b33042036e5bebc846ae88454cebf4b141267571c170ab7017b36f7633b7b0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow-preparation-v2.log",
+      "bytes": 59,
+      "sha256": "a4fded1f7bc5bdac293d987df3255e6319f1ca91eef68bbf97935d12605d415f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow-preparation-v3.log",
+      "bytes": 59,
+      "sha256": "a4fded1f7bc5bdac293d987df3255e6319f1ca91eef68bbf97935d12605d415f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow-preparation.log",
+      "bytes": 59,
+      "sha256": "a4fded1f7bc5bdac293d987df3255e6319f1ca91eef68bbf97935d12605d415f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow-probe-development.json",
+      "bytes": 2554,
+      "sha256": "b770cb22ba4021d8dfa9f9c025c6e780b63ee3e3da4cf966423424362150430b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow-probe.log",
+      "bytes": 1353,
+      "sha256": "a7fb3c7b2b6e5eed3169b190168a4aceb6197fb46045078709eb0c91eb09d2e4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/fit-profiles.npz",
+      "bytes": 1861823,
+      "sha256": "2e6ed0382b8492e7d75be4de79e4770faa6a51346884d2f3887d7f45bcc9b04d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/history.json",
+      "bytes": 807,
+      "sha256": "aeb1072fe2f653484ebf337072e07b428d4200accaf92df1d9f4a6ed73de681d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/prepared-131.json",
+      "bytes": 137,
+      "sha256": "3c28eaf851e6dbc572e8e6380dd2dc8718a55ed66082de11dfdcf1c80364864b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/prepared-v1.json",
+      "bytes": 64,
+      "sha256": "3d1672695dbffbb3538e9e20f6b44e490ff643cd0fb1b93b36a11cfd625ac4af"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/prepared.json",
+      "bytes": 137,
+      "sha256": "721c32e7ef893c1d68bdfde731a049e70292ab1dbd0b706147c93e6f588cc6f8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/progress.json",
+      "bytes": 130,
+      "sha256": "20b801ec470a4d8b8a39db0ceda32999488edd18c35f4ad309a52f3b5953bb75"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/selection.json",
+      "bytes": 237,
+      "sha256": "7b350cc2eaebd86181d0f42f8bb727dd254ceef2bee21626e9d29cd9baff7eb5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D12_I5_N/training.log",
+      "bytes": 1565,
+      "sha256": "8cabb8af27d21a97045a011b12f300f72b56c3033218155e728e0e175f364cc9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/fit-profiles.npz",
+      "bytes": 2093648,
+      "sha256": "cbce08e6d6e8b1080ebeaeaaeed1de13995d0e4c61281babaa785ac494003a80"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/history.json",
+      "bytes": 801,
+      "sha256": "2de8da9349a8e194626e746b3b55431df5a17ddc8a4fef4ff20ae2c62f4b9806"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/prepared-131.json",
+      "bytes": 138,
+      "sha256": "99035e3c48952f833bcd75750d34e2a806d4d3c11a31da230224d77dc239d01d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/prepared-v1.json",
+      "bytes": 65,
+      "sha256": "118986c0ea44691c1b16f095b0ad3a9cc722add549356f397f0cf6925babf002"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/prepared.json",
+      "bytes": 138,
+      "sha256": "80f88e538b917bd2bdfc46e88558f00132b61b6a9e002407bd937c3cbd59a88a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/progress.json",
+      "bytes": 130,
+      "sha256": "49cf99a44fc36fc3a9657aa21653f62e2f2bf8d14bcd59e0ecf7d8d145e0d56b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/selection.json",
+      "bytes": 236,
+      "sha256": "99727638edc233d95fe0279ad7740ab84ff327b30720fc297a6f4a6064d39386"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I210_E/training.log",
+      "bytes": 1564,
+      "sha256": "206fc636ab78afc23cb7776481e52984cc8fe435112789033c77a0484511e310"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/best-model.pt",
+      "bytes": 17232309,
+      "sha256": "a0c001baf037daed129bc80e748e04cf19ef28c794edf65a61c3d06390c0a94d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/fit-profiles.npz",
+      "bytes": 2478288,
+      "sha256": "edca2c5b8a8515c12d6f2674f286f1e8a901ba5f827ab62a4d836398e0390ab0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/history.json",
+      "bytes": 807,
+      "sha256": "e4633689b3fc073752fa53c6c314ea72aa7e993c7a517e4bfd6979d6ed89097c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/prepared-131.json",
+      "bytes": 138,
+      "sha256": "8b19da8d9eb4c23314894b38f726d256dd233455c22d14ad5573d5aa755aef29"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/prepared-v1.json",
+      "bytes": 65,
+      "sha256": "9258838c615d5f8fe2e5fe778cbddec0825abdfe3e1bf257819302668376799c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/prepared.json",
+      "bytes": 138,
+      "sha256": "98b19f73325d9dc3ed2b1ebb28783eabebb3c66f9e71561f56db42b971c3f449"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/progress.json",
+      "bytes": 130,
+      "sha256": "ce2c38d9716b3c6d3fc14f348b54e34f1f505813f16ad8f21d750c1e22372193"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/selection.json",
+      "bytes": 239,
+      "sha256": "d83d13cc3dff1774681c06bf21e418995ecbe0be90d893de8c8bd75c88cc580c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/D7_I405_N/training.log",
+      "bytes": 1554,
+      "sha256": "a4795b9f215edc3b98cbf46f1c5942ee13b5d2545f3c62bd62d7949a5347f22f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/implementation-at-training.json",
+      "bytes": 273,
+      "sha256": "c1ffed9d8bae10b9baa194a1526d4354082a46797475e2ba5458dafe33734869"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/mixing-policy-addendum.json",
+      "bytes": 470,
+      "sha256": "d8cd85e9a91fe71b3a806e4262ee8844a053f72b358ddfac877b1d08efad3d0e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/monitor-summary.json",
+      "bytes": 121,
+      "sha256": "e724a514d8d2cbba2968c35c0e1a10df095d9511fcedc2ddd0ff53aa7a58cc72"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/policy-v1.json",
+      "bytes": 1136,
+      "sha256": "f97a35291720d3b9c9cf0a7310eb3f71bbef7ebde34e45e410e0f4b72d603fc1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/policy-v2.json",
+      "bytes": 1410,
+      "sha256": "c7a0d424890613e30a4673ea24765cbc2d7008a11195846e6f0d8617811db175"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/policy.json",
+      "bytes": 1635,
+      "sha256": "1f4fea0748906d5bef2bfa743d5b86b53f19b75abd3b76236c467903fbb483b2"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-flow/telemetry.csv",
+      "bytes": 11365,
+      "sha256": "8cf62d05a327575b0d59dbce5884dcdbb8f3c60033396d22f4a9f2361430029b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local-profile-development-probe.json",
+      "bytes": 385,
+      "sha256": "d345dbfbb25ca53498453d2dee1b55747c67d753401382a1018c4bfa59961c6a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/local_flow_expert.py",
+      "bytes": 13482,
+      "sha256": "5df48fc994e502fd0d28c27c1b976d414120fbc1a3cb3398b39495ee6a9cadf7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/model-summary.csv",
+      "bytes": 261,
+      "sha256": "5e2a50441519664be676b13a4af164fb5f78678dd20d689ca73225f2597bc2cd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/monitor-summary.json",
+      "bytes": 217,
+      "sha256": "df3f9968c07878f6cc27bf0855d41dce78d6a26ae5752355469855a8e30a3029"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/optimize.py",
+      "bytes": 13887,
+      "sha256": "441c8f9cb5d7e36aad440dd2c1565b81f9365e2e76db9fd54f8158f13dc84808"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/paired-bootstrap.json",
+      "bytes": 354,
+      "sha256": "5151804c0fe2dc85b7070ffe04a5fb9e2121ad86629e734ec2a4fb91c7ab4f0c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/paired-daily-errors.csv",
+      "bytes": 57663,
+      "sha256": "a7b8f6b49a98b01c8d25b1aa4abb5965566c5a76f4069b3e0e702a4abfbfe44c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/policy.json",
+      "bytes": 1480,
+      "sha256": "1cf8d1daa6fff2b4b2720291787b37a124ea6e529d219446fba84e291a2b5637"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/preservation-check.json",
+      "bytes": 38,
+      "sha256": "ff73448ed2ec7c5bc8e5e59f03e3b4c066b1ac68a3309b4b03c38239d89a2e3b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/preserved-v1-sha256.json",
+      "bytes": 6011,
+      "sha256": "c104d5cf56cf2ae37bbf78daaefe9bb28db4dfba2c95067e71c84026d81a1d8b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/previous-holdout-by-regime.csv",
+      "bytes": 2592,
+      "sha256": "e9968ca117d260bcc681c35e0e4b5106531aeb276a82a99f53cdb711e6b237c9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/priority-directions.csv",
+      "bytes": 735,
+      "sha256": "100ee4a0ec607d8ba98273e207097e3f935c9ab35993b2707fbf6294e969d779"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/probe_local_flow.py",
+      "bytes": 2245,
+      "sha256": "9fb4398cbf6ccfc4f19011b83052b3ace65296916a24f1693d7ba31a78b780ef"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/profile-only-development-comparison.json",
+      "bytes": 485,
+      "sha256": "c88773d2d994af1a7f700552a9a18eb9cfc5d3956d2e63cc79aeaa4f65d76871"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/progress.json",
+      "bytes": 83,
+      "sha256": "963ca18b5a6b727c332054df4d8a81fc51bc0d9b9f409f971b7f611a5c80b7b1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/raw-input-inference-parity.json",
+      "bytes": 1358,
+      "sha256": "7f3e0a8ae0723b2edb899f136af78a7e011443f04b8e001bfabff5960716c4ab"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/reporting-repair.json",
+      "bytes": 686,
+      "sha256": "f315c36897c3af961e27cff2f43e672447af144dc60b6da8f732a92103062ee9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/telemetry.csv",
+      "bytes": 123808,
+      "sha256": "05226b6525bb2888338ae76216935cb190bc31c8f75616f79d7fdbe708b5aa7f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/write_report.log",
+      "bytes": 7520,
+      "sha256": "f048382d2864a2ca2770fcf2df390844e6128ac33899bef6094ad9b088f01ffa"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/write_report.py",
+      "bytes": 9532,
+      "sha256": "0522f1e2f57caf6e7943aeca05fd72376e8009a78342a1970066e1b612aa5171"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v2/优化结果与说明.txt",
+      "bytes": 7518,
+      "sha256": "ef63135290197bd88bbf01f98f7534bff4a22b7cc774866c3d76e1b7b728fdf0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/batch-plan.json",
+      "bytes": 595,
+      "sha256": "c4a286827789d2d76c0ec4ba6b9f2115220ba5438a83a337721995b331bd5319"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/best-model.pt",
+      "bytes": 17224373,
+      "sha256": "c4ee6f871fa19a0b468eca20b9b6cddd886c2a492431ecf9a2a992b17a7ff38d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/history.json",
+      "bytes": 1034,
+      "sha256": "c54ce6a0a24e0794268de35a6d5672d5874030b1a53160886551fbcc6521466c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/prepare.log",
+      "bytes": 456,
+      "sha256": "79d74d8e6f2cc6a3fe727e6500153f758166e8bd99b05a7ed1a60a2cbdb8e5ba"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/prepared.json",
+      "bytes": 482,
+      "sha256": "f66be5175b0f216cfc99a67963787920799372d4e8c418e6a9ee503415b08e11"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/progress.json",
+      "bytes": 172,
+      "sha256": "a11796637c1b70b2319596746a3a42c0bab19defa5488137db84f3d5b9ab7022"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/selection.json",
+      "bytes": 277,
+      "sha256": "ef144471d4e96748899ee85320930f0e856b5da665aacfcd5af141594022c612"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D12_I5_N/worker.log",
+      "bytes": 3196,
+      "sha256": "2ebe4e156a066b4847e2fad9f9385b50e68bd5b1f486ccb52143a33d6d5f5275"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/batch-plan.json",
+      "bytes": 596,
+      "sha256": "6d7de18b916f1d10280dd968b218bb7073b02daa40455c057329e1e64606d642"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/best-model.pt",
+      "bytes": 17229365,
+      "sha256": "f4f14714fc00162e22f560adb397792d7c11b6ead73c10c6b231ea25b0c84c54"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/history.json",
+      "bytes": 1037,
+      "sha256": "c7ce19264fbc943195acbac7d125c3521360096f095fb5eff8e00f57fb328789"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/prepare.log",
+      "bytes": 465,
+      "sha256": "1c2500015b9df3de2db1427150e3e75f7facdadd928fc9fdc42dac073aeff095"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/prepared.json",
+      "bytes": 483,
+      "sha256": "0cc5c8c10a88f73fca80ef338299e39fbb18a5ec47777ff9782f1c70135e2138"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/progress.json",
+      "bytes": 171,
+      "sha256": "618cede77a238b4f96efe79c341bfed20167e51c74c3000f263c0bbc355eebb4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/selection.json",
+      "bytes": 267,
+      "sha256": "65995397b542b85cc46042fdedd13abdf2ec71a0aa2628406706309cd8ddff8d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I210_E/worker.log",
+      "bytes": 3226,
+      "sha256": "d9c930b93a39b693ec2dae082ebdf7661c940320c02b41e50588d29a03c8a8f6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/batch-plan.json",
+      "bytes": 596,
+      "sha256": "88ae64820b0b89e2c823aca1718f587c7cbba863e28765bef28f0cdfc32196cc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/best-model.pt",
+      "bytes": 17236405,
+      "sha256": "e40cd768d6529d3003fb822dfde363fd97e8588d08b128be4f8b5976db5d7406"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/history.json",
+      "bytes": 1036,
+      "sha256": "f52606de6992209940fe173d48a5ea53c42db8ba6c47e6b832a168facb830e63"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/prepare.log",
+      "bytes": 465,
+      "sha256": "b3f7b76a1fcffd43e08c092ebeea986fff00379756f81d95291379123e03c7f7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/prepared.json",
+      "bytes": 483,
+      "sha256": "71b9ca798d198739a9f8b2e57d036da22d5e530e45479fcaafa6fa29062e64fd"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/progress.json",
+      "bytes": 172,
+      "sha256": "355ba607a34f1825994f920259beb7fead29ef4a7a35e3372a3fc8cabe8fc2e7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/selection.json",
+      "bytes": 266,
+      "sha256": "f209d47bd43e91f4563207876d397bdff41476b85358dfe0cfc2b4c70995eb9f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/D7_I405_N/worker.log",
+      "bytes": 3228,
+      "sha256": "fa2afb6cb680a8c1e994957d2c652a33cac389a49744a61354529ea2e67394fe"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/build_candidate.log",
+      "bytes": 5969,
+      "sha256": "889ba96af30727eb5dc30430fc8a03aeae15bf7627e00bed983427e58bc20847"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/build_candidate.py",
+      "bytes": 6894,
+      "sha256": "ba42455a937ca9b8fd46cfce6d720c98c878eb54bddce49a7ddd0c3951df7d1e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/checkpoint-parity.json",
+      "bytes": 341,
+      "sha256": "5e12b8aa11de9fa714ddbf7ab234b55cb3d96b2deff5634feeaed1d7436c9e35"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/comparison-by-panel.csv",
+      "bytes": 1607,
+      "sha256": "e668b238dd0c5627ff4b887bd69a1dccadbcee6250f60717ea9d0f9b503636fc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/comparison-by-regime.csv",
+      "bytes": 4648,
+      "sha256": "9d0f79894cb5e6062cabed20016e5856c58a9673a6ce281f9c8c996a83164fc8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/comparison.png",
+      "bytes": 52880,
+      "sha256": "7459b26f1debbbeb98b80807061fbe768a2daf161768dcb7236b4626e2584572"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/delivery-check.json",
+      "bytes": 887,
+      "sha256": "9a7ea4ef7cc968e0d9675625f5440192e12ba71ee36a78eba2479989bfdff1e5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/delivery.json",
+      "bytes": 439,
+      "sha256": "ad0d6fde1808e151a66dbc1fb39054486c43b4bb6531bb2d869557245df1e35f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/development-error-slices.csv",
+      "bytes": 773,
+      "sha256": "e5131d4d260ca72b32443946a7d5549def493c0bc4e4f17abb7052f6f94f398e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/evaluate_residual.log",
+      "bytes": 846,
+      "sha256": "d5e43abed1646bd89240b85ed351c0d5824112473e49ed402c30e86fed108142"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/evaluate_residual.py",
+      "bytes": 5440,
+      "sha256": "8bd722101d94a8ccef03158dccb128c02bcf2dda65b77c522461568770b1e509"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/evaluation-summary.json",
+      "bytes": 707,
+      "sha256": "6ff5079ae1a257260e8120b1d738b8f52f767cd3cf7c761ce686f66adaedeb51"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/final-qa.json",
+      "bytes": 205,
+      "sha256": "4b24a96f96ef2978778bd9b6779007bfb35dbb2e0b0143ec444484adacf020cc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/finish-controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/finish.py",
+      "bytes": 1028,
+      "sha256": "080521cbd7673c92c40fdecb9d1095238aeaa77ba2002ba325d978f88d0ba88d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/frozen-routes.json",
+      "bytes": 1850,
+      "sha256": "9ac645d32eecb762dab41bbde8f0403d4ab5b417f024f4b8717d1fdd8b388f27"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/holdout-by-regime.csv",
+      "bytes": 2592,
+      "sha256": "102e2a403c0a82311e6a168e598c64dc6159c9efb15a84ffac6b8bb4da5e8b97"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/identity-verification.json",
+      "bytes": 114,
+      "sha256": "704c5458aa8db5b5f5e11f4fc6134882f943998d219ef49d2e52c4a03311b454"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/monitor-summary.json",
+      "bytes": 123,
+      "sha256": "b986f666068da5a956b9bf53fffd30f9a5b67571c9c23c9a5a06f84953ee19fc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/paired-daily-flow-errors.csv",
+      "bytes": 9979,
+      "sha256": "1f733eb7a8b3f96fe87f1b4b36a3a2253716231081c226911df7a803009b553c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/policy.json",
+      "bytes": 1378,
+      "sha256": "b34bca7384bd66138c6e752cb0802c124d1a04ac3f106b1ec01b4a71f7beb4c1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/preservation-check.json",
+      "bytes": 38,
+      "sha256": "6d8758c8dd9c993fdd48d960b20a3a491944e5d8a354f460f759fbe89dd726e3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/preserved-v2-sha256.json",
+      "bytes": 2426,
+      "sha256": "63558e9cbd671ceae693cfe81bb732a8042e354f40658770f8fdc8bca48d86df"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/priority-directions.csv",
+      "bytes": 390,
+      "sha256": "935580375da1cbc4e4a0729390a5b71922d3758389d073bf0f1a1c492b570873"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/progress.json",
+      "bytes": 83,
+      "sha256": "4d36f8429aebb6c6ab0df9925e943d399a74602602bc4e03909028451f9dcea7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/raw-inference-parity.json",
+      "bytes": 542,
+      "sha256": "3ca6475dcb75be779e6c4b42ed09cf8d169ad70337929bb8c4cac4ed7e53aa08"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/residual_core.py",
+      "bytes": 5787,
+      "sha256": "bbcd34eb7501ef12926c5c2ec80b2059721faf0bf2597875c00f69face018ad1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/telemetry.csv",
+      "bytes": 48517,
+      "sha256": "d42d8f1dd34c895a848ed3e00b2d9fd069fc083bef10aec080cebf4ae959b428"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/train_residual.py",
+      "bytes": 10369,
+      "sha256": "3d9089fe1041ab84bcc8d7eda5aa8121f05296729e7a96497ea64c28cbe9453d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/verify_delivery.py",
+      "bytes": 2393,
+      "sha256": "373a0f6a44eae71dfc08a03209829301cef5adac9d668c2f3f7d3b7d848179b9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/write_report.log",
+      "bytes": 3936,
+      "sha256": "09d4e5ad6ee95c03d3c92e2097eaf135f5fe09d27521e418c46cac26cf39ec52"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/write_report.py",
+      "bytes": 6300,
+      "sha256": "1dc045164a252f32980e025cff73fc1f037f8c7136669b1e6d46e977dcb1f94f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v3/优化结果与说明.txt",
+      "bytes": 3934,
+      "sha256": "1858442973848447419656e756f6032548d2df16b21fb7a436590b87fb92938a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/best-model.pt",
+      "bytes": 175524473,
+      "sha256": "c8ac487a5194c73ea1910604f29d18278ca7520dd3aee78217372b59100fd4c9"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/capacity-learning-check.json",
+      "bytes": 264,
+      "sha256": "5185cbafe88681fa56cf63a9b05f4bdcde7048c3057fec7fbf92162d78023b1d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/capacity-plan.json",
+      "bytes": 296,
+      "sha256": "c63931f9ea9732c6bf5d878857f3e91610312efab675fc6f5866a5c76032fdbb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/expansion-parity.json",
+      "bytes": 239,
+      "sha256": "c8737cc152330ca52fd001d04e25666b925ea6de1af83131a460c1dff35259c0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/history.json",
+      "bytes": 447,
+      "sha256": "1d80f6f9948c17632262cfda69f6e880d68f1b55f191b3de0ccb1a9558f57abc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/progress.json",
+      "bytes": 423,
+      "sha256": "d91b89d2da257f4ab5da9422afe6c416377e0ab2374bd3defa5a6d9dd976152d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/selection.json",
+      "bytes": 297,
+      "sha256": "1abfdc805285d05dd5db44bdcd26ecb7d8a5f9db344cbefcc3ce0bca450104f0"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D12_I5_N/worker.log",
+      "bytes": 3239,
+      "sha256": "9d8afe2cde825ab05c9de142cc4a1eb904f526d45af6956fcae15ab25c55e389"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/best-model.pt",
+      "bytes": 175524473,
+      "sha256": "5a571073911d7cc136330fae5c25277f137f3ca937308ecc33e1ca31bd150955"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/capacity-learning-check.json",
+      "bytes": 266,
+      "sha256": "1f9d3da577de4b415c4456d05910d49ea10673c355cf06ffadf91976874a7e73"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/capacity-plan.json",
+      "bytes": 292,
+      "sha256": "aef64e22c8cfbcc5d548cac5b583a4e8f7d92ae7f43f172b6cf594cb1b5c3b43"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/expansion-parity.json",
+      "bytes": 241,
+      "sha256": "44eccdfa2a00f118b3268d4f2c40d94a68e1d8012c6537a9341f4d493bef8f9a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/history.json",
+      "bytes": 443,
+      "sha256": "776a45e329bacfe5921959c9bd0d151a541cf4d53b7110d1cb1c2a9d477654a7"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/progress.json",
+      "bytes": 424,
+      "sha256": "30180edc666b39cbc91321b7e72ca8fdac22f9fd8e274f3160bfd4d70deba2ad"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/selection.json",
+      "bytes": 297,
+      "sha256": "81388936335b0b48a1af05132a86fbc59f6500b531550c42ab2aeece59de4d0d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I210_E/worker.log",
+      "bytes": 3258,
+      "sha256": "1b2ecc51ab01e1674750b00efd79b5f674a5361dcc22658027100abedd14fceb"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/best-model.pt",
+      "bytes": 175524473,
+      "sha256": "046999f11b94825cc1e0a6aec2e7891726adc606490257a3fb129a040588cd70"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/capacity-learning-check.json",
+      "bytes": 264,
+      "sha256": "163dc891f4e7a19a5a44740573011c23744e060ad54d8f2a2a798d18c233722a"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/capacity-plan.json",
+      "bytes": 298,
+      "sha256": "5fb3f414dbe8d3a8ee8d73273615b85221522ddae7b934317804db2e8bc89365"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/expansion-parity.json",
+      "bytes": 237,
+      "sha256": "f5570efeac4aca675d00f71f6f93b3c0f40756a2a37bf857190d753b7e3b1302"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/history.json",
+      "bytes": 442,
+      "sha256": "84266107fab5d5ba8b6f4664797fa0847c645b5ae401ecbc1e6cafc6770a30c6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/progress.json",
+      "bytes": 423,
+      "sha256": "90f9cf87488ed346a26bee5418f6de6189d20cd9b6935e0ceca94c222ebd43fe"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/selection.json",
+      "bytes": 296,
+      "sha256": "3063b2ca04b3184717a728574b5b38987926f92573db44b2e6ebd5df4206a6f5"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/D7_I405_N/worker.log",
+      "bytes": 3229,
+      "sha256": "bd44ac86d968dcebce25830aefada043d1a45ad372aaa5fff297be5d80c86c5f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/build_candidate.log",
+      "bytes": 5819,
+      "sha256": "fdaa4c7912a2b23eb730bdde6dafd8ffee18f5bcfddb877d20af88a0a2482da6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/build_candidate.py",
+      "bytes": 5374,
+      "sha256": "fece2964b6db13a708cc9db43c9fc55ae385271a88312ea7e4ff0c4799a31145"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/capacity-learning-check.json",
+      "bytes": 941,
+      "sha256": "5ab0385cbd7a6767cd72a68925149fb69646d4edb9dd3fcc2ecc5e688783d0f6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/checkpoint-parity.json",
+      "bytes": 341,
+      "sha256": "1f7e6ed933375430151dadb10f51f711ce0f6688b23bcd713c2f835875b5c16d"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/common.py",
+      "bytes": 1809,
+      "sha256": "a7260d299ca602c363526a1a963d62498bbddf234baffecd1c57867cbc0511e4"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/comparison-by-panel.csv",
+      "bytes": 1609,
+      "sha256": "c802017f540731ec8e2feea98cf89060a642827d64c2f85d813fdb9bd308a9fc"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/comparison-by-regime.csv",
+      "bytes": 4646,
+      "sha256": "51d26873dac71e1d1d2ebaab8de1802f1c63b9bd68a9fc13e2f2e00a1fd52324"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/comparison.png",
+      "bytes": 66201,
+      "sha256": "4e482fb6cd139f38aa34095be8147384a7140cd76e80b817c45d171902cc6c18"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/cpu-expansion-check.json",
+      "bytes": 143,
+      "sha256": "9752b1a866e346241dc9b461871c6fe15f8d55556eab3318bc35bac6ff270827"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/delivery-check.json",
+      "bytes": 575,
+      "sha256": "5b02acc684437732d7216f8ac1040600860e79d8eb17f73545c9b895c1dea68e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/delivery.json",
+      "bytes": 410,
+      "sha256": "67559c8f01e77b1466c215f3613ab3ea212e3ce20735328be8745150f67fa37b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/evaluate.log",
+      "bytes": 654,
+      "sha256": "024db66375d267d8bfa63746f27ff1a8ac28a7b3bd6f85c527f5c409774c306f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/evaluate.py",
+      "bytes": 4385,
+      "sha256": "28da00ecd361dd8c863f53888742294d92dc621173aa70e1d8eb5ceceec0ae31"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/evaluation-summary.json",
+      "bytes": 515,
+      "sha256": "32a2c153e93eca4f1a620afe5e3b96a721a2559a476f775687d90ccf11415405"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/final-qa.json",
+      "bytes": 343,
+      "sha256": "f5142350b7f9c6844cef8c7413c778c2cc4a994eca5dc0539d2dfb65100c47d3"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/finish-controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/finish.py",
+      "bytes": 914,
+      "sha256": "3896cca9ed1898a08d60b426dd41eda4b0e96bf97a43ff0779057522bf7bb19c"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/frozen-routes.json",
+      "bytes": 1804,
+      "sha256": "c9bf2a2adbe7306155078e7b0d947dc17e6ae6bd46367c34b7294ac99124705b"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/holdout-by-regime.csv",
+      "bytes": 2593,
+      "sha256": "56b91b9c798d8efb9c3eb1e3c914d81ef032a4d662f692e1d82179930daad739"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/monitor-summary.json",
+      "bytes": 122,
+      "sha256": "c02c150ffd3165926af0d02b09bee8fb4d3d6bc55121e8129d9d4e9cf74a161e"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/paired-daily-flow-errors.csv",
+      "bytes": 9969,
+      "sha256": "05a98ac34000279ad00e14b7e57da9b67579bae66c9f3e4fb426830110eea4a8"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/paired-diagnostics.json",
+      "bytes": 512,
+      "sha256": "fbe875ed001e5ca5e9b6d58a5d1271893909ba477cfca67e8b7077cf20fd7e99"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/policy.json",
+      "bytes": 1327,
+      "sha256": "6e67ad1a1fc170499a4ad95d2dbe0077b20b67e51cecb962ea0595bdae555e5f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/preserved-best-sha256.json",
+      "bytes": 3286,
+      "sha256": "7aad1d2985841a4e0520ea33c544be6383034c5f1a02a79603dfc1ad1f6b216f"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/priority-directions.csv",
+      "bytes": 602,
+      "sha256": "49cb744c9f7029aa21ed4860d08396d88bed21bf8a339f315d97e69c27dc50f6"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/progress.json",
+      "bytes": 83,
+      "sha256": "e41833d4999e77f23c51ca28da73c30389704672495b77dbe04d1ade3e991005"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/raw-inference-parity.json",
+      "bytes": 590,
+      "sha256": "cffc4a697176f1bd21e07f5746a773626cb614cd9607e0d6c69dd623f573e683"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/report.log",
+      "bytes": 3953,
+      "sha256": "56b076b79b411c75c2c98302f029200ba19ce61a12b4bbf6d7bf6d0764f59aa1"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/report.py",
+      "bytes": 7138,
+      "sha256": "ee5cd7bede0bf14edb3d0c68d91f0bb0d06c91a7e05447bc85992e0b05aaa973"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/telemetry.csv",
+      "bytes": 79718,
+      "sha256": "eab88f3a6bafa19007b8ff69701044c8813e0d5fd2644d3835afa2e6da258405"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/train_wide.py",
+      "bytes": 12316,
+      "sha256": "3c8d77f629777971ec28faf6d130c7ab795662ffc0f308ae52acd79087ef4f74"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/wide_model.py",
+      "bytes": 4429,
+      "sha256": "062427a405357513e1a3f1591407cafbf20deda1d3dfbaec578d52d9b398cb64"
+    },
+    {
+      "path": "outputs/IEEE-Strong-v4/更大模型实测报告.txt",
+      "bytes": 3951,
+      "sha256": "aabdad89864deba60b2821ff13256fb41fce7345afa1ab23de0de48aa117a161"
+    },
+    {
+      "path": "outputs/gpu_stress_test.py",
+      "bytes": 12599,
+      "sha256": "9f8a8ba295bb33ef6325b403c87a8ab854d1f219cc6fd003fcbfd33644c5069d"
+    },
+    {
+      "path": "outputs/prepare_trafficflow_data.py",
+      "bytes": 7506,
+      "sha256": "b5d95cd7583c8d1b848479569a53137b8c32f2747e17c636629b819b40708d95"
+    },
+    {
+      "path": "portable-smoke.log",
+      "bytes": 612,
+      "sha256": "f733ef6ae76d918efd3afc9dd3efa764aab4b2779a74ed28b16b7724abcc6140"
+    },
+    {
+      "path": "portable-smoke/portable-inference-check.json",
+      "bytes": 1759,
+      "sha256": "bf55fb6dfc5bd86db1cc854561e4e00852e0ae4eb6766672ce9b61b892997801"
+    },
+    {
+      "path": "predict_best.py",
+      "bytes": 9706,
+      "sha256": "5692b004af120bfdbf3ea51aa6b5d134db29be87496c6e5ddb5de26d3a07f798"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I405_N-private.csv",
+      "bytes": 48029,
+      "sha256": "a759bab38fcc91392d3d552a1c7b2780d5ba208392beaf861e38ecbc48f17e0a"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I405_N-validation.csv",
+      "bytes": 50738,
+      "sha256": "34d1a9356440ff457a7d49628e08b0e81995468a0cd3ef7bb899481c5d37dff5"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I405_S-private.csv",
+      "bytes": 33556,
+      "sha256": "d65d0877eb266703b644eb9a3f26749c1f6b29d7ad3df8971f62d5935b8fe651"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I405_S-validation.csv",
+      "bytes": 35432,
+      "sha256": "ed9ce0a00f9c1ec833da08cba104b360c9e5210c87f73ea34e75ebf7b9736af0"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I5_N-private.csv",
+      "bytes": 218840,
+      "sha256": "81568fbeec9899d8e82de9af29b8a6a989785f8bbee2107c9236f5513cd206ed"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I5_N-validation.csv",
+      "bytes": 231656,
+      "sha256": "5cf11bb88b1ffaf2c2ae3cb817497c7ec61fecf155265592dc6cafada0fd28b2"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I5_S-private.csv",
+      "bytes": 258392,
+      "sha256": "77a3dbc72b36efb3ccbcea2c3d4072d7973229522d03b35931772ffa39b72698"
+    },
+    {
+      "path": "reference-predictions/odme-D12_I5_S-validation.csv",
+      "bytes": 273589,
+      "sha256": "8fe50497de39aceba9995359486f9ca2ce87b7bc2980f1273857e61d1f94165e"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I10_E-private.csv",
+      "bytes": 218763,
+      "sha256": "010c0c193b314d338ce546018860cd4ecf8557a6a69dae62985b0a4e7b1dc99c"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I10_E-validation.csv",
+      "bytes": 231601,
+      "sha256": "2fba8b953cca01b6c6ff5e8672e1ca0d4510ce14c6e134b52c1cbb5c86e87c21"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I10_W-private.csv",
+      "bytes": 258244,
+      "sha256": "de58b69f485da23cc1f664bd2f89e9bc7e6861e2079f21665c411c913d462bac"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I10_W-validation.csv",
+      "bytes": 273395,
+      "sha256": "501b0171e2712e288bdfb4a4f2c463b80d9ccf26cd405d01231d02776c95ce6a"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I210_E-private.csv",
+      "bytes": 136961,
+      "sha256": "1f03c14bc79b4c47561d403c398bee96dbec65b137a27b410ba3791867e1909f"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I210_E-validation.csv",
+      "bytes": 144855,
+      "sha256": "428ee4a17f4aea9317f2c7e0176458888121c6e8ea9bd8fc821fb8d02ecc744b"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I210_W-private.csv",
+      "bytes": 173053,
+      "sha256": "f5bc579db6d6dd9134a55f7fd6aa102d2449dac22cca90b2f57987f28b00704b"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I210_W-validation.csv",
+      "bytes": 183054,
+      "sha256": "577abd386051d9628fc56eef79089cc2cbd94eb5d0d1f0b76440bf08deba13d3"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I405_N-private.csv",
+      "bytes": 237634,
+      "sha256": "1bae1aec44448c48b8539949e4082041df9e70f04b9d6529f7d1918bc883f1a8"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I405_N-validation.csv",
+      "bytes": 251298,
+      "sha256": "ac897ba3a6ca8585dbabac5442fa1b45c52ad62f74ea2018c2bdf8fc053c2cc3"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I405_S-private.csv",
+      "bytes": 242591,
+      "sha256": "dcf75e47dba873ba68a2b2ae2bd91c3afd2ea4cd6f698da8144211d3965b002a"
+    },
+    {
+      "path": "reference-predictions/odme-D7_I405_S-validation.csv",
+      "bytes": 256555,
+      "sha256": "f96ada2e44639f9265fdbf2e0895dfb1f79d0555f034059794cb26a13e720505"
+    },
+    {
+      "path": "reference-predictions/queue-private.csv",
+      "bytes": 5038240,
+      "sha256": "dc68f6f444a35ed05b194bc843d3aecc4280949442fcf545676c2c6b3c1e8777"
+    },
+    {
+      "path": "reference-predictions/queue-validation.csv",
+      "bytes": 5299240,
+      "sha256": "5e6f0702718e9d09f19bd37cdc8e6d61c8bd17867d6c3513576a450e207094ef"
+    },
+    {
+      "path": "reference-predictions/state-D12_I405_N-private.csv",
+      "bytes": 17070886,
+      "sha256": "ce9457252bbd8cdda41199a3119e4f6cd1928f39fb3b87d20624d760419cc0bb"
+    },
+    {
+      "path": "reference-predictions/state-D12_I405_N-validation.csv",
+      "bytes": 18064992,
+      "sha256": "151d187efb4a4685c3cd6237f8025e987ee42af95e86181aa502872ee7f98334"
+    },
+    {
+      "path": "reference-predictions/state-D12_I405_S-private.csv",
+      "bytes": 9544830,
+      "sha256": "518deea4cc6111efed07fee3f7e170bfccff51da4901348dd3d6ac670e69f2d8"
+    },
+    {
+      "path": "reference-predictions/state-D12_I405_S-validation.csv",
+      "bytes": 8329331,
+      "sha256": "513152c305cb20105caa1b82a2a5cb65fd00af3b7ebddfa15f839a438862a4bb"
+    },
+    {
+      "path": "reference-predictions/state-D12_I5_N-private.csv",
+      "bytes": 44991171,
+      "sha256": "a57bbccab259d322e9b4e95c1335cd75ef87cbe871dc2619a2ec0de5e999cafa"
+    },
+    {
+      "path": "reference-predictions/state-D12_I5_N-validation.csv",
+      "bytes": 48753828,
+      "sha256": "b3a443b24c9c65754fc1cb04a26bfaff191dcec835cef9e30ee4627ef91fbb7d"
+    },
+    {
+      "path": "reference-predictions/state-D12_I5_S-private.csv",
+      "bytes": 16981097,
+      "sha256": "242b56575f0c816aeb171d3444d008d7a1c2266f9f3fbef501f2ae70c9922f99"
+    },
+    {
+      "path": "reference-predictions/state-D12_I5_S-validation.csv",
+      "bytes": 18165514,
+      "sha256": "c8cc654272b60ae3181643f049ef8d79de2e2f661d44f88603e744c8e4154a82"
+    },
+    {
+      "path": "reference-predictions/state-D7_I10_E-private.csv",
+      "bytes": 25453837,
+      "sha256": "8eac4a7efe4a990794d45e8bd84f15e1bf03c6a20a1938cbf4b8c62e2150eb66"
+    },
+    {
+      "path": "reference-predictions/state-D7_I10_E-validation.csv",
+      "bytes": 28326687,
+      "sha256": "51a02647028a088a25377b86eb9a1faaec5a4e17f31f27873bbe53c7738693a6"
+    },
+    {
+      "path": "reference-predictions/state-D7_I10_W-private.csv",
+      "bytes": 17095770,
+      "sha256": "a39f74ebc4e1418190c7fcc4105520101a06927179d2314d0240d82971aa8220"
+    },
+    {
+      "path": "reference-predictions/state-D7_I10_W-validation.csv",
+      "bytes": 19558173,
+      "sha256": "453b21526d79a718f3afbd04e000bf01e55f5a79562c3270818be948c32aaa85"
+    },
+    {
+      "path": "reference-predictions/state-D7_I210_E-private.csv",
+      "bytes": 50476912,
+      "sha256": "b9de6ced1636839d8596f1187322a0cf0de779872a66363e4fe4d612607a3a72"
+    },
+    {
+      "path": "reference-predictions/state-D7_I210_E-validation.csv",
+      "bytes": 54280363,
+      "sha256": "fc9d84e653ed1cb45a9e795f2d27cc8ec613f738f404f45ff50dc433a90c5460"
+    },
+    {
+      "path": "reference-predictions/state-D7_I210_W-private.csv",
+      "bytes": 13797043,
+      "sha256": "2bf2fae81415a546326bf68e68ef42598a29eea9882c03d6d65f983a1823b06c"
+    },
+    {
+      "path": "reference-predictions/state-D7_I210_W-validation.csv",
+      "bytes": 17883742,
+      "sha256": "ffa3643ee230a8e697c88683f3f77012bee8fb29f7c14aecb1b9778728ba739b"
+    },
+    {
+      "path": "reference-predictions/state-D7_I405_N-private.csv",
+      "bytes": 64790818,
+      "sha256": "2526e145e14e4e84651e24b77a40b774cc3272dd6c61c1c57f77a704e4754986"
+    },
+    {
+      "path": "reference-predictions/state-D7_I405_N-validation.csv",
+      "bytes": 58462781,
+      "sha256": "cf521d5af01d20dbe6449dd62d4a01e4ba95b291ee8c0793a8971559aedaffb0"
+    },
+    {
+      "path": "reference-predictions/state-D7_I405_S-private.csv",
+      "bytes": 21158235,
+      "sha256": "674fcda4e052f480ea5be5cf35df14ed036e39160ba8ba8126740c40b040f298"
+    },
+    {
+      "path": "reference-predictions/state-D7_I405_S-validation.csv",
+      "bytes": 23620518,
+      "sha256": "65943d4c1f6f01cc741f322021bed133a2d73aae21d51ed4d4d470ea2dfc75e7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 150,
+      "sha256": "0948517ca80dc1d0495f003ecd979bea3ae1b9a306eeef315c99352c0680d7b8"
+    },
+    {
+      "path": "submission-validation.json",
+      "bytes": 642,
+      "sha256": "1f9ce200f57f088354f4568d3e349237b2bfaa8be2e11d0ede9f50625ab5e963"
+    },
+    {
+      "path": "submission.csv",
+      "bytes": 387580204,
+      "sha256": "47a77bfa944c7d91fe04fc0741bedcd57635fa21d01a5e8471e16c3d0291763c"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 999,
+      "sha256": "a20dc4d0afe60343461d9d5dcd90b093b954ce605fb9ea2a2b9aadd3d1361d26"
+    }
+  ],
+  "selected_weights": 27,
+  "original_copy_verified": true,
+  "portable_inference_passed": true,
+  "exclude": "Manifest itself, release archive sidecar, bytecode and partial smoke prediction CSVs."
+}

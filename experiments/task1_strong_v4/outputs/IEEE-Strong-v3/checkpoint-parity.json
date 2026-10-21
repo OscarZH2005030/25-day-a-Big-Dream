@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I210_E",
+      "maximum_development_prediction_difference": 0.0
+    },
+    {
+      "panel": "D7_I405_N",
+      "maximum_development_prediction_difference": 0.0
+    },
+    {
+      "panel": "D12_I5_N",
+      "maximum_development_prediction_difference": 0.0
+    }
+  ]
+}

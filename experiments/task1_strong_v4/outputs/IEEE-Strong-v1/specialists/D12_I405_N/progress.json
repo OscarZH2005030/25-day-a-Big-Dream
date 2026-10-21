@@ -1,0 +1,25 @@
+{
+  "phase": "complete",
+  "seconds": 477.6409999999996,
+  "status": "completed",
+  "architecture": "gap-aware graph + bidirectional real diagonal SSM + full-day temporal attention",
+  "parameters": 11388974,
+  "trained_epochs": 2,
+  "micro_batch": 8,
+  "gradient_accumulation": 2,
+  "best_epoch": 2,
+  "best_development_score": 0.9592183055459887,
+  "holdout": {
+    "split": "holdout",
+    "score": 0.9603563961329598,
+    "initial_score": 0.9263394114962193,
+    "n": 363106,
+    "pooled_speed_rmse": 0.9793891502295532,
+    "pooled_flow_rmse_per_lane": 25.281930539066067
+  },
+  "team_transformer_same_holdout_score": 0.9599199736706013,
+  "delta_holdout": 0.0004364224623584212,
+  "targets_seen_including_repeats": 6071981,
+  "protocol": "Exact date split and complete holdout target counts matched; shared cross-corridor model versus team per-corridor models.",
+  "limitation": "Archived Transformer predictions/weights are not provided; no paired daily uncertainty estimate or retrained reference in this run."
+}

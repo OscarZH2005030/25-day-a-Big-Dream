@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "previous_internal_score": 0.9311065434129802,
+  "expanded_initial_internal_score": 0.9311065582819665,
+  "score_difference": 1.4868986375482507e-08,
+  "note": "CPU output equality is exact; GPU FP16 expansion can introduce tiny floating-point differences."
+}

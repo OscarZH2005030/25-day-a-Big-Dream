@@ -1,0 +1,33 @@
+{
+  "verified_at": "2026-10-20T14:51:49.982273-07:00",
+  "previous_best_unchanged": true,
+  "previous_files_verified": 32,
+  "selected_model_sha256": {
+    "final-model.json": "eefdbc9619173a431b3fb188bb93aa1346e6d891b379b31250dd995804e0914c",
+    "D12_I5_N\\best-model.pt": "727185eb635fcea6610c43e85d132208cd5ff6760f1ba2f22bf427c9748f1d3e",
+    "D7_I405_N\\best-model.pt": "e8bb894cba5272ae2a84247e408d2a958c05183b7f5579c50a345cf69715b05a",
+    "D7_I210_E\\best-model.pt": "88ce3fc7e4539b650026874eeae611f05e80ad5d35f21dc911910d808617c1d5",
+    "D7_I10_E\\best-model.pt": "1470bae4995ddc144a52c8dec8db6ea2fb3f50cc36a486c6bbbd1758fceda199",
+    "D7_I10_W\\best-model.pt": "adb34b68f8aa44f4190c994a53cf3d62e82b5e4a48308d6edb5fd91ec863f1b6",
+    "D7_I210_W\\best-model.pt": "709ead145a598800775501773d213c131c6eb7ea5768fb4e1f0143d6d534ffcd",
+    "D7_I405_S\\best-model.pt": "72551ac6a78a2070d4208bf0d02f1caad975dd3fe86e8b7604abcd31a1c0c5ee",
+    "D12_I5_S\\best-model.pt": "0d790ecb8bde382ac72683ffb3fca6b218bc75c34c5d6a87fb56b6c37d7b4340",
+    "D12_I405_N\\best-model.pt": "f34899d9e9e0c125044dfcf5486d2b24203506bb0b1e6fcb078a60f761f83d7a",
+    "D12_I405_S\\best-model.pt": "db790ee6ab53da4b50ab394571a95eeb82f15460a7c2edb561e8f2c2eaf79b90",
+    "local-flow\\D7_I405_N\\best-model.pt": "a0c001baf037daed129bc80e748e04cf19ef28c794edf65a61c3d06390c0a94d",
+    "local-flow\\D7_I405_N\\fit-profiles.npz": "edca2c5b8a8515c12d6f2674f286f1e8a901ba5f827ab62a4d836398e0390ab0"
+  },
+  "current_source_sha256": {
+    "build_candidate.py": "329a2e4a298c1b5de1faeecb5713952bac8eeaf8b34527f8026163cbd4f91135",
+    "deliver.py": "0dbd4c92a4dd1f3c9e330d420128474aaba9703657d831507e3fd72082d806e3",
+    "diagnose_internal.py": "50c811ba1a56cb46e370d40aa1fce7d3c82e95053f357c8ca627a4f7933e354e",
+    "evaluate.py": "f8e49646130fbb8fadbfc6af1cf228aa6de76ae3d6be33e18c5e278319fe0972",
+    "finalize_saved.py": "4f57ca70f92285ce9cd61646b7510429caf26639640d35fd98f0d78db63ed650",
+    "finish.py": "3a6877dbb4b4e8524ead5c6fc6a467c09fb92d87376ee026ad0f46eb4ebb2e66",
+    "local_flow_expert.py": "5df48fc994e502fd0d28c27c1b976d414120fbc1a3cb3398b39495ee6a9cadf7",
+    "optimize.py": "441c8f9cb5d7e36aad440dd2c1565b81f9365e2e76db9fd54f8158f13dc84808",
+    "probe_local_flow.py": "9fb4398cbf6ccfc4f19011b83052b3ace65296916a24f1693d7ba31a78b780ef",
+    "write_report.py": "0522f1e2f57caf6e7943aeca05fd72376e8009a78342a1970066e1b612aa5171"
+  },
+  "chart_visual_qa_passed": true
+}

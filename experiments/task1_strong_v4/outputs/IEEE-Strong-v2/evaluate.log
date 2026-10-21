@@ -1,0 +1,29 @@
+{"panel": "D7_I10_E", "phase": "holdout_evaluated"}
+{"panel": "D7_I10_W", "phase": "holdout_evaluated"}
+{"panel": "D7_I210_E", "phase": "holdout_evaluated"}
+{"panel": "D7_I210_W", "phase": "holdout_evaluated"}
+{"panel": "D7_I405_N", "phase": "holdout_evaluated"}
+{"panel": "D7_I405_S", "phase": "holdout_evaluated"}
+{"panel": "D12_I5_N", "phase": "holdout_evaluated"}
+{"panel": "D12_I5_S", "phase": "holdout_evaluated"}
+{"panel": "D12_I405_N", "phase": "holdout_evaluated"}
+{"panel": "D12_I405_S", "phase": "holdout_evaluated"}
+Traceback (most recent call last):
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\evaluate.py", line 146, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\evaluate.py", line 114, in main
+    result=dict(status='evaluated',previous=summarize(previous),new=summarize(current),transformer=summarize(reference),
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\outputs\IEEE-Strong-v2\evaluate.py", line 111, in summarize
+    return dict(score=float(frame.groupby(['family','panel']).S_state.mean().groupby('family').mean().mean()),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\pandas\core\frame.py", line 9210, in groupby
+    return DataFrameGroupBy(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\pandas\core\groupby\groupby.py", line 1331, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ^^^^^^^^^^^^
+  File "C:\Users\u\Documents\Codex\2026-10-20\i\work\gpu-env\Lib\site-packages\pandas\core\groupby\grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'family'

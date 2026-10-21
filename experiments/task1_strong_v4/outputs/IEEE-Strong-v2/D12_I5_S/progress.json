@@ -1,0 +1,38 @@
+{
+  "panel": "D12_I5_S",
+  "phase": "complete",
+  "seconds": 137.38999999999942,
+  "selection": {
+    "epoch": 3,
+    "blend": [
+      0.5,
+      1.0
+    ],
+    "metrics": {
+      "score": 0.9327422772271141,
+      "macro": [
+        1.9098826939096913,
+        33.91859554491723
+      ],
+      "pooled": [
+        2.04071197678961,
+        34.74002981587273
+      ]
+    },
+    "checkpoint": "best-model.pt",
+    "panel": "D12_I5_S",
+    "previous_route": {
+      "panel": "D12_I5_S",
+      "checkpoint": "specialists\\D12_I5_S\\best-model.pt",
+      "calibration": "specialists\\D12_I5_S\\residual-calibration.json",
+      "model_graph": "specialists\\D12_I5_S\\model-graph.npz",
+      "graph_variant": "path_for_isolated",
+      "best_epoch": 2,
+      "development_score": 0.9322538146186905
+    },
+    "micro_batch": 4,
+    "accumulation": 1,
+    "selection": "Internal dates 196:218 only; no holdout opened; both channels require nonworsening pooled and macro RMSE",
+    "seconds": 137.38999999999942
+  }
+}

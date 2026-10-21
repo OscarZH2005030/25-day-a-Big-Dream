@@ -1,0 +1,21 @@
+{
+  "team_repository": "https://github.com/OscarZH2005030/25-day-a-Big-Dream",
+  "reference_branch": "oscar/task1-training-stack",
+  "reference_commit": "a27a66d192f0caf390e945733bb8bd37ab570895",
+  "packages": {
+    "torch": "2.9.1+cu126",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.0",
+    "scipy": "1.18.1"
+  },
+  "calibration_protocol_sha256": "c32b6502c84b730a0a3d618f00908f5ad999f32e22a3be7c649279ea42e9ac94",
+  "calibration_protocol_recorded_at": "2026-10-20T03:28:51.097962-07:00",
+  "holdout_result_existed_at_protocol_recording": false,
+  "references": {
+    "team-method-summary.csv": "9e562370cb6533d25ec8bdf38990092e5afa804d837f2f6b8284bd150f9812e2",
+    "transformer-all-metrics.csv": "e63039abb633a506ba2f1a9d5810504387a0f21c4aa85dcdd7a16d16b47a0be4",
+    "transformer-split.json": "8055ccf558b54ed067368edb7c0f30054b3726d757f885bc7b0f9448c60d68aa",
+    "transformer-summary.json": "4a6dcf411982d9b4fdb811a1d408c594922fe7134459345b00b87719007cf87d"
+  }
+}

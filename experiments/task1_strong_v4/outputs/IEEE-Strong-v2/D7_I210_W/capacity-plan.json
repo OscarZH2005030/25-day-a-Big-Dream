@@ -1,0 +1,9 @@
+{
+  "original_batch": 8,
+  "original_accumulation": 1,
+  "micro_batch": 8,
+  "accumulation": 1,
+  "nodes": 81,
+  "node_batch_limit": 704,
+  "effective_batch_unchanged": true
+}

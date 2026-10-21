@@ -1,0 +1,131 @@
+IEEE 图状态空间模型：复现与推理
+
+工作目录：C:\Users\u\Documents\Codex\2026-10-20\i
+以下命令都从此工作目录在 PowerShell 执行。
+Python：.\work\gpu-env\Scripts\python.exe
+环境：Torch 2.9.1+cu126；其余已用版本见 requirements.txt。
+
+产物入口
+
+重训结果.txt：最终结果、原始与校准分数、比较范围和限制。
+selected-model.json：由内部验证决定使用 training 还是 refinement。
+all-stages-complete.json：全局模型搜索完成后才会存在，分道路适应仍可能在进行。
+specialists-complete.json：最终分道路适应及汇总完成后才会存在。
+final-model.json：最终十方向模型及系数路由。
+experiment-complete.json：只表示第一阶段及八轮细调控制器完成。
+selected-model.json 被选目录中的 best-model.pt 与 residual-calibration.json 是全局模型。
+最终分道路版本按 final-model.json 路由读取 specialists/方向名/ 下的权重与系数。
+inference-assets/：前 28 天历史轮廓、图、节点次序；推理不再读取标签缓存。
+训练没有重新训练或打包原 Transformer；原始对照来自 references 中的仓库记录。
+
+现有数据与缓存
+
+原始公开数据：work/trafficflowbench-data/kaggle_public
+原始标签/目标缓存：work/trafficflowbench-cache
+本轮 48 特征缓存：work/ieee-strong-cache-time8020
+混合版 64 特征缓存：work/ieee-strong-cache-64
+缓存 metadata.json 的 old_cache 为绝对路径，迁移电脑后需要重新准备或修正路径。
+训练和细调脚本还使用 outputs/gpu_stress_test.py 中的监测函数；不启动压力运算。
+特征准备使用 outputs/prepare_trafficflow_data.py 中的原始数据辅助函数。
+
+需要重建 48 特征缓存时，使用新目录，保留现有结果：
+& '.\work\gpu-env\Scripts\python.exe' -X utf8 '.\outputs\IEEE-Strong-v1\prepare_features.py' --old-cache '.\work\trafficflowbench-cache' --cache '.\work\ieee-strong-cache-time8020-new' --release '.\work\trafficflowbench-data\kaggle_public' --reference '.\outputs\IEEE-Strong-v1\references\transformer-all-metrics.csv'
+
+重新运行第一阶段
+
+& '.\outputs\IEEE-Strong-v1\run_training.ps1'
+
+此入口创建时间戳目录，训练 16 轮、每轮 60 次更新、梯度累积 2 次，完成校准和报告。
+该入口只重现从头训练阶段；不会自动重现本轮条件式细调，也不会修改 selected-model.json。
+报告脚本会更新根目录的重训结果.txt；原实验分阶段结果保留在各自目录。
+本模型的“轮”是固定更新预算，不是遍历每一个训练样本。
+
+本轮条件式细调
+
+refinement-policy.json 在第一阶段留出结果出现之前记录规则：
+最佳内部验证轮至少为 14，且最近三个内部验证点总改善至少为 0.0008，才细调。
+规则只读内部验证，见 refinement-decision.json；不根据留出分数调整。
+若执行，则从 training/best-model.pt 开始，重建优化器，学习率 5e-5、种子 20261021，
+额外 8 轮、每轮 60 次更新、梯度累积 2 次。第 0 轮保留原模型作为候选。
+手工重现时使用全新输出目录：
+& '.\work\gpu-env\Scripts\python.exe' -X utf8 '.\outputs\IEEE-Strong-v1\train_refinement.py' --cache '.\work\ieee-strong-cache-time8020' --out '.\outputs\IEEE-Strong-v1\refinement-reproduction' --reference '.\outputs\IEEE-Strong-v1\references\transformer-all-metrics.csv' --init-checkpoint '.\outputs\IEEE-Strong-v1\training\best-model.pt' --epochs 8 --steps 60 --accumulate 2 --lr .00005 --seed 20261021
+随后对该新目录执行 calibrate_and_compare.py 与 write_result.py，二者都接受 --out。
+continue_if_needed.py 是本轮已经启动的控制器，路径固定；不要在现有目录重跑以免覆盖产物。
+细调训练和第一阶段训练使用相同监督日期；不是用留出标签再训练。
+
+混合候选（替代最初拟定的同架构延长训练）
+
+查看第一阶段公开留出结果后，曾拟定再运行同架构，见 extended-development-policy-v1.json。
+该旧控制器在启动任何额外训练前已停止。当前以 extended-development-policy.json 的修订版为准。
+修订时只看到细调前两轮内部验证改善 0.000315，尚未出现细调的留出结果。
+新候选在图状态空间骨干第 5、10 块后加入完整日时间注意力，共 11,388,974 参数。
+审查原模型特征后，另外补回占有率、有效性和插补信息，共 64 个输入特征。
+相应数据准备由 prepare_quality_cache.py 完成；训练使用 work/ieee-strong-cache-64。
+前 48 个通道逐位保留，新输入的编码权重补零，仍保持初始化函数相同。
+新输出投影初始化为零，因此扩展时精确保留旧网络函数；随后联合学习新旧参数。
+最多额外 16 轮，核心学习率 1e-4，新注意力学习率 5e-4，种子 20261022。
+这部分不是最初预注册的预算；报告明确披露已查看第一阶段公开留出结果。
+模型之间和阶段内的权重选择只用内部验证，不按留出分数择优。
+控制器为 hybrid_search.py；同样针对本轮目录，不要原位重复运行。
+若需重现，使用 train_hybrid.py，--init-checkpoint 指向前阶段最佳权重，
+将 --epochs 改为 16、--lr 改为 .0001、--seed 改为 20261022，指定全新 --out。
+将 --cache 改为 work/ieee-strong-cache-64，其余 reference、校准和报告命令与前述步骤相同。
+混合版推理资源位于 inference-assets-64；inference.py 根据所选权重的特征数自动选择。
+
+分道路适应
+
+specialist-policy.json 在混合版尚无留出结果时记录了设置。
+从内部验证选出的全局权重初始化十个方向，每方向单独最多两轮、每轮 30 次更新。
+每轮验证，并保留第零轮全局起点；骨干学习率 5e-5、注意力 2.5e-4、EMA 衰减 .9。
+梯度累积 2 次；微批量从 [1,2,4,8,16] 实测，适配不同方向的节点数量。
+运行到第六方向时，单次探测能运行的批量 8 在实际梯度累积中发生 CUDA OOM，尚未完成首次优化器更新。
+失败日志保存在 specialists/failed-attempts；恢复修改见 capacity-recovery.json。
+后续探测为训练额外预留空间：分配峰值超过 10.5 GiB 的批量不采用，回退到此前安全批量，
+按比例增加梯度累积次数保留有效批量。每方向实际设置以 batch-calibration.json 为准。
+模型、日期、图候选与学习率没有因此改变；前五个已完成方向不重训，原始策略记录保留。
+种子为 20261023 + metadata.json 中的方向序号，不是按目录名称排序。
+训练入口 train_specialist.py；参数与 train_hybrid.py 相同，但增加 --panel 方向名，
+使用全新的 --out，设置 --epochs 2 --steps 30 --eval-every 1 --lr .00005。
+单方向校准使用 calibrate_specialist.py，--cache 为 64 特征缓存，--reference 仍为原完整表。
+specialist_search.py 是本轮控制器，不要在同一输出目录原位重复启动。
+十个方向的本地留出结果全部报告，不按这些分数选择路由或权重。
+specialist-policy.json 修订版还记录了孤立节点的邻近关系候选。
+先在内部验证比较原图与补充图，至少改善 0.0001 才采用；输入特征始终使用原图。
+补充权重为 0.5*exp(-间距/正间距中位数)，只连接间距不超过三倍中位数的相邻站点，
+且只补充原图中无任何邻居的接收节点。方向优先按已有边的里程标关系确定。
+这是统计关联图，不作为 LWR 物理边；不会修改官方网络文件。
+最终 specialist-policy.json 修订版还包含路径关系候选，见 path-assets/manifest.json。
+从公开 path_set.csv 的 link_seq 中找到前后可观测站点，最多跨 8 个路径链接；
+优先最短路径间隔，同间隔优先最多路径支持，权重 0.5*exp(-(间隔-1)/4)。
+同样只补充原观测子图孤立的接收站点，仍只由内部验证在三种图中选择。
+其来源只有静态公开路径，不读取任何交通标签；也不当作新增直接 LWR 物理边。
+模型图保存在每方向的 model-graph.npz，并写入 final-model.json，推理时与特征图分别加载。
+verify_specialist_inference.py 在训练全部完成后核对原始输入推理与留出预测存档。
+
+生成最终分道路候选提交
+
+出现 specialists-complete.json 后：
+& '.\work\gpu-env\Scripts\python.exe' -X utf8 '.\outputs\IEEE-Strong-v1\specialist_inference.py' --release '.\work\trafficflowbench-data\kaggle_public'
+
+默认输出 IEEE-Strong-v1/candidate-submission-experts，使用 final-model.json。
+推理逐方向加载对应权重，保留完整一天及整条方向走廊，不需要同时把十套网络放入显存。
+最终结果见 最终模型结果.txt，而 重训结果.txt 保留全局模型阶段的报告。
+
+生成独立全局模型候选提交
+
+所有 GPU 训练完成后（避免与分道路训练并发）：
+& '.\work\gpu-env\Scripts\python.exe' -X utf8 '.\outputs\IEEE-Strong-v1\inference.py' --release '.\work\trafficflowbench-data\kaggle_public'
+
+默认读取 selected-model.json，输出到 IEEE-Strong-v1/candidate-submission。
+可通过 --out 指定其他新目录；--checkpoint 与 --calibration 可指定其他成对产物。
+Task 1 使用本轮模型；Task 2 与 Task 4 复用 IEEE-Competition-Ready/parts 的基线预测。
+合并及校验还依赖 IEEE-Competition-Ready/build_submission.py，不能只复制此目录就宣称独立可移植。
+不会覆盖旧 IEEE-Competition-Ready/submission.csv，也不会自动向 Kaggle 上传。
+
+评估注意
+
+优劣比较使用相同日期、相同 30 个方向×遮挡 regime、共 6,636,705 个目标。
+完整上下文是离线缺失重建所允许的双向观测，不适用于要求严格因果的未来预测。
+共享十方向学习、优化预算与原 Transformer 不同；不是等算力消融。
+本地留出在团队历史实验中已被查看，不能当作全团队从未查看的测试集。
+只有单种子；分数不是准确率，也不代表官方隐藏测试总分或名次。

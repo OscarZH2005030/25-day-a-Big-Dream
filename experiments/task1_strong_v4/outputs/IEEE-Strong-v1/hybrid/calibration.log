@@ -1,0 +1,41 @@
+{"stage": "calibration_development", "panel": "D7_I10_E"}
+{"stage": "calibration_development", "panel": "D7_I10_W"}
+{"stage": "calibration_development", "panel": "D7_I210_E"}
+{"stage": "calibration_development", "panel": "D7_I210_W"}
+{"stage": "calibration_development", "panel": "D7_I405_N"}
+{"stage": "calibration_development", "panel": "D7_I405_S"}
+{"stage": "calibration_development", "panel": "D12_I5_N"}
+{"stage": "calibration_development", "panel": "D12_I5_S"}
+{"stage": "calibration_development", "panel": "D12_I405_N"}
+{"stage": "calibration_development", "panel": "D12_I405_S"}
+{
+  "status": "completed",
+  "raw_holdout_score": 0.9358602320408181,
+  "calibrated_holdout_score": 0.935867312433252,
+  "original_transformer_score": 0.9358124847434317,
+  "existing_isolated_fallback_score": 0.9369103120317692,
+  "calibration": {
+    "coefficients": [
+      0.9845617545349918,
+      1.033642549321786
+    ],
+    "bounds": [
+      0,
+      2
+    ],
+    "channels": [
+      "speed",
+      "flow_per_lane"
+    ],
+    "selection_dates": [
+      "2030-12-14",
+      "2031-01-04"
+    ],
+    "raw_development_score": 0.9344191480907943,
+    "calibrated_development_score": 0.9344375181104863,
+    "holdout_used": false,
+    "note": "Only two coefficients. Chosen before reading holdout prediction/metric files."
+  },
+  "note": "Calibration selected only on internal development; no holdout-driven choice between raw and calibrated candidates.",
+  "delta_vs_transformer": 5.4827689820347025e-05
+}

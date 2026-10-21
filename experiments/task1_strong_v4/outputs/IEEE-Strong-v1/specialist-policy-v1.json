@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-20T04:51:31.375197-07:00",
+  "hybrid_holdout_exists": false,
+  "earlier_public_holdouts_seen": true,
+  "reason": "Test whether corridor-specific adaptation improves over global sharing",
+  "global_source": "Internal development winner, selected without the global hybrid holdout score",
+  "rounds": 2,
+  "steps_per_round": 30,
+  "evaluate_every": 1,
+  "base_learning_rate": 5e-05,
+  "attention_learning_rate": 0.00025,
+  "ema_decay": 0.9,
+  "gradient_accumulation": 2,
+  "batch_probe": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "seeds": "20261023 + panel index",
+  "checkpoint_selection": "Per-corridor internal development, with unmodified global initialization as epoch 0",
+  "calibration": "Two scalars per corridor, internal dates only, bounds [0,2]",
+  "heldout_selection": false,
+  "source_sha256": {
+    "train_specialist.py": "5d57a94631945041fa456c3f9706acfa935764e8b208619855ed468fe2070290",
+    "calibrate_specialist.py": "09c2e7e753d2b929acfba9755def5266019aabad376ee5de7a172644a0d41f85",
+    "hybrid_model.py": "0f4a493d8c7097c5e55dc59b2d3e42e0115b278087139e5cd11081536b7058fb",
+    "quality_features.py": "5608f7e62003257372b2faa537f9f99b442b8d1731c457759fbff8792ce24e7f"
+  }
+}

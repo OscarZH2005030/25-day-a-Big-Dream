@@ -1,0 +1,19 @@
+{
+  "diagnostic_only": true,
+  "size": 25,
+  "prior_weight": 4,
+  "rows": [
+    {
+      "panel": "D7_I210_E",
+      "local_adjusted_profile_rmse": 42.30540721330444
+    },
+    {
+      "panel": "D7_I405_N",
+      "local_adjusted_profile_rmse": 57.13499281097776
+    },
+    {
+      "panel": "D12_I5_N",
+      "local_adjusted_profile_rmse": 54.12304279676262
+    }
+  ]
+}

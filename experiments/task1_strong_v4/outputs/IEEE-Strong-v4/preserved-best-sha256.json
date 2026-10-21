@@ -1,0 +1,21 @@
+{
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\final-model.json": "eefdbc9619173a431b3fb188bb93aa1346e6d891b379b31250dd995804e0914c",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\candidate-submission\\submission.csv": "e0f14e069da23239ea210a7f7d4e8d996de531bda6671797a533fb28d2c6326e",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D12_I5_N\\best-model.pt": "727185eb635fcea6610c43e85d132208cd5ff6760f1ba2f22bf427c9748f1d3e",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D7_I405_N\\best-model.pt": "e8bb894cba5272ae2a84247e408d2a958c05183b7f5579c50a345cf69715b05a",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D7_I210_E\\best-model.pt": "88ce3fc7e4539b650026874eeae611f05e80ad5d35f21dc911910d808617c1d5",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D7_I10_E\\best-model.pt": "1470bae4995ddc144a52c8dec8db6ea2fb3f50cc36a486c6bbbd1758fceda199",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D7_I10_W\\best-model.pt": "adb34b68f8aa44f4190c994a53cf3d62e82b5e4a48308d6edb5fd91ec863f1b6",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D7_I210_W\\best-model.pt": "709ead145a598800775501773d213c131c6eb7ea5768fb4e1f0143d6d534ffcd",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D7_I405_S\\best-model.pt": "72551ac6a78a2070d4208bf0d02f1caad975dd3fe86e8b7604abcd31a1c0c5ee",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D12_I5_S\\best-model.pt": "0d790ecb8bde382ac72683ffb3fca6b218bc75c34c5d6a87fb56b6c37d7b4340",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D12_I405_N\\best-model.pt": "f34899d9e9e0c125044dfcf5486d2b24203506bb0b1e6fcb078a60f761f83d7a",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\D12_I405_S\\best-model.pt": "db790ee6ab53da4b50ab394571a95eeb82f15460a7c2edb561e8f2c2eaf79b90",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\local-flow\\D7_I405_N\\best-model.pt": "a0c001baf037daed129bc80e748e04cf19ef28c794edf65a61c3d06390c0a94d",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v2\\local-flow\\D7_I405_N\\fit-profiles.npz": "edca2c5b8a8515c12d6f2674f286f1e8a901ba5f827ab62a4d836398e0390ab0",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\frozen-routes.json": "9ac645d32eecb762dab41bbde8f0403d4ab5b417f024f4b8717d1fdd8b388f27",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\candidate-submission\\submission.csv": "1facde0507c8af48dcd45ad856d202bb9a05b73ac344b6f980153701d1c3f448",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\D7_I405_N\\best-model.pt": "e40cd768d6529d3003fb822dfde363fd97e8588d08b128be4f8b5976db5d7406",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\D12_I5_N\\best-model.pt": "c4ee6f871fa19a0b468eca20b9b6cddd886c2a492431ecf9a2a992b17a7ff38d",
+  "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\D7_I210_E\\best-model.pt": "f4f14714fc00162e22f560adb397792d7c11b6ead73c10c6b231ea25b0c84c54"
+}

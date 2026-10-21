@@ -1,0 +1,28 @@
+{
+  "selected": 4,
+  "trials": [
+    {
+      "batch": 1,
+      "allocated_gib": 2.1585187911987305,
+      "reserved_gib": 2.587890625,
+      "status": "fits"
+    },
+    {
+      "batch": 2,
+      "allocated_gib": 4.226280689239502,
+      "reserved_gib": 5.064453125,
+      "status": "fits"
+    },
+    {
+      "batch": 4,
+      "allocated_gib": 8.377006530761719,
+      "reserved_gib": 9.91796875,
+      "status": "fits"
+    },
+    {
+      "batch": 8,
+      "status": "allocator_limit"
+    }
+  ],
+  "gradient_accumulation": 2
+}

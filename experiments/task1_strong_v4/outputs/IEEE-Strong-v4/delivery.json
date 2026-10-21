@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "baseline": "IEEE-Strong-v3",
+  "report": "更大模型实测报告.txt",
+  "submission": "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v4\\candidate-submission\\submission.csv",
+  "validation": "passed",
+  "previous_best_preserved": true,
+  "parameters": 43855662,
+  "adopted": 3,
+  "score": 0.9398981009229322,
+  "flow_rmse": 34.32018765327158
+}

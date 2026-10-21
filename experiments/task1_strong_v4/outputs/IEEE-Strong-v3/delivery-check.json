@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "baseline_files_unchanged": 14,
+  "rows": 6980503,
+  "speed_values_identical": true,
+  "queue_values_identical": true,
+  "odme_values_identical": true,
+  "flow_changes_restricted_to_selected_roads": true,
+  "changed_flow_rows": 3756934,
+  "maximum_absolute_flow_change_vph": 651.8554690000001,
+  "selected_model_sha256": {
+    "frozen-routes.json": "9ac645d32eecb762dab41bbde8f0403d4ab5b417f024f4b8717d1fdd8b388f27",
+    "D12_I5_N\\best-model.pt": "c4ee6f871fa19a0b468eca20b9b6cddd886c2a492431ecf9a2a992b17a7ff38d",
+    "D7_I405_N\\best-model.pt": "e40cd768d6529d3003fb822dfde363fd97e8588d08b128be4f8b5976db5d7406",
+    "D7_I210_E\\best-model.pt": "f4f14714fc00162e22f560adb397792d7c11b6ead73c10c6b231ea25b0c84c54"
+  },
+  "submission": "C:\\Users\\u\\Documents\\Codex\\2026-10-20\\i\\outputs\\IEEE-Strong-v3\\candidate-submission\\submission.csv"
+}

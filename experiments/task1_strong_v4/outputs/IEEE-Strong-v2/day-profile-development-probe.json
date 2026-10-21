@@ -1,0 +1,20 @@
+{
+  "diagnostic_only": true,
+  "rows": [
+    {
+      "panel": "D7_I210_E",
+      "profile_rmse": 65.47981706661761,
+      "day_adjusted_rmse": 53.75316127357257
+    },
+    {
+      "panel": "D7_I405_N",
+      "profile_rmse": 110.56393268976734,
+      "day_adjusted_rmse": 71.34991340492252
+    },
+    {
+      "panel": "D12_I5_N",
+      "profile_rmse": 119.8674606587225,
+      "day_adjusted_rmse": 74.83663004504278
+    }
+  ]
+}

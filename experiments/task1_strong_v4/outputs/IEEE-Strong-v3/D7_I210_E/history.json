@@ -1,0 +1,44 @@
+[
+  {
+    "step": 100,
+    "raw_pooled_flow": 33.19328867778553,
+    "selected": {
+      "panel": "D7_I210_E",
+      "alpha": 1.0,
+      "step": 100,
+      "pooled_flow": 33.19328867778553,
+      "macro_flow": 32.97215664946872,
+      "batch": 262144,
+      "parameters": 4304161,
+      "initial_identity_verified": true
+    }
+  },
+  {
+    "step": 300,
+    "raw_pooled_flow": 33.15002205381548,
+    "selected": {
+      "panel": "D7_I210_E",
+      "alpha": 1.0,
+      "step": 300,
+      "pooled_flow": 33.15002205381548,
+      "macro_flow": 32.93133003351074,
+      "batch": 262144,
+      "parameters": 4304161,
+      "initial_identity_verified": true
+    }
+  },
+  {
+    "step": 500,
+    "raw_pooled_flow": 33.102398807689205,
+    "selected": {
+      "panel": "D7_I210_E",
+      "alpha": 1.0,
+      "step": 500,
+      "pooled_flow": 33.102398807689205,
+      "macro_flow": 32.88705589874807,
+      "batch": 262144,
+      "parameters": 4304161,
+      "initial_identity_verified": true
+    }
+  }
+]

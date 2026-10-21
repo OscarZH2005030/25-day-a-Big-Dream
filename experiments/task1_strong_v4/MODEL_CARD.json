@@ -1,0 +1,107 @@
+{
+  "name": "IEEE Strong v4 — current best local candidate",
+  "created": "2026-10-20",
+  "repository": "https://github.com/OscarZH2005030/25-day-a-Big-Dream",
+  "metrics": {
+    "baseline": {
+      "score": 0.9398510478146548,
+      "flow_rmse": 34.43954985052447,
+      "speed_rmse": 1.6693995198429752
+    },
+    "new": {
+      "score": 0.9398981009229322,
+      "flow_rmse": 34.32018765327158,
+      "speed_rmse": 1.6693995198429752
+    },
+    "score_delta": 4.7053108277461675e-05,
+    "flow_rmse_delta": -0.11936219725289021,
+    "targets": 6636705,
+    "adopted": 3,
+    "improved_directions": 3,
+    "unchanged_speed": true,
+    "holdout_previously_seen": true,
+    "hidden_test_evidence": false
+  },
+  "architecture": "Graph/SSM/full-day attention; main width512,depth10,16heads,43,855,662 parameters on three priority roads; v3 on other roads.",
+  "priority_roads": [
+    "D7_I405_N",
+    "D12_I5_N",
+    "D7_I210_E"
+  ],
+  "selected_weight_files": 27,
+  "dependencies": "All selected v1/v2/v3/v4 weights, graph assets, calibration and fitting-period profiles are included. No external C-drive paths are needed for portable inference.",
+  "data": "Original Kaggle raw data, labels, feature caches, virtual environment and credentials are not included.",
+  "limitation": "Previously viewed 55-day local holdout, single seed and no equal-extra-training small-model control; no hidden-test score.",
+  "submission_sha256": "47a77bfa944c7d91fe04fc0741bedcd57635fa21d01a5e8471e16c3d0291763c",
+  "source_files": 849,
+  "source_bytes": 2573826932,
+  "portable_inference_verification": {
+    "passed": true,
+    "day": "2031-03-01",
+    "checks": [
+      {
+        "panel": "D7_I10_E",
+        "rows": 14741,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 0.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "rows": 6760,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 0.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "rows": 30223,
+        "maximum_speed_difference_kmh": 9.999999974752427e-07,
+        "maximum_flow_difference_vph": 1.0000003385357559e-06
+      },
+      {
+        "panel": "D7_I210_W",
+        "rows": 7700,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 0.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "rows": 21559,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 1.0000003385357559e-06
+      },
+      {
+        "panel": "D7_I405_S",
+        "rows": 4445,
+        "maximum_speed_difference_kmh": 9.999999974752427e-07,
+        "maximum_flow_difference_vph": 0.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "rows": 10402,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 1.0000003385357559e-06
+      },
+      {
+        "panel": "D12_I5_S",
+        "rows": 5960,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 0.0
+      },
+      {
+        "panel": "D12_I405_N",
+        "rows": 5884,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 0.0
+      },
+      {
+        "panel": "D12_I405_S",
+        "rows": 1918,
+        "maximum_speed_difference_kmh": 0.0,
+        "maximum_flow_difference_vph": 0.0
+      }
+    ],
+    "model_root": "D:\\IEEE-Best-v4-20261020",
+    "external_training_cache_used": false
+  },
+  "backup_destination": "D:\\IEEE-Best-v4-20261020"
+}

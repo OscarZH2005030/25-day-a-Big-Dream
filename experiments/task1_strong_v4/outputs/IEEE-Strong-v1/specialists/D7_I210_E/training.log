@@ -1,0 +1,21 @@
+{"phase": "batch_probe", "seconds": 0.9219999999986612, "candidate": 1, "panel": "D7_I210_E"}
+{"phase": "batch_probe", "seconds": 4.796999999998661, "candidate": 2, "panel": "D7_I210_E"}
+{"phase": "batch_probe", "seconds": 9.34400000000096, "candidate": 4, "panel": "D7_I210_E"}
+{"phase": "calibrated", "seconds": 11.156999999999243, "micro_batch": 2, "effective_batch": 4, "parameters": 11388974}
+{"phase": "evaluation", "seconds": 20.96900000000096, "split": "original-development", "panel": "D7_I210_E"}
+{"phase": "evaluation", "seconds": 30.687999999998283, "split": "proximity-development", "panel": "D7_I210_E"}
+{"phase": "evaluation", "seconds": 40.40699999999924, "split": "path-development", "panel": "D7_I210_E"}
+{"phase": "training", "seconds": 47.26599999999962, "epoch": 1, "epochs": 2, "step": 1, "steps": 30, "mean_loss": 0.05828447826206684, "gradient_norm": 0.1327056884765625, "learning_rate": 8.916666666666665e-06}
+{"phase": "training", "seconds": 106.26599999999962, "epoch": 1, "epochs": 2, "step": 10, "steps": 30, "mean_loss": 0.05832941904664039, "gradient_norm": 0.33721327781677246, "learning_rate": 2.1666666666666667e-05}
+{"phase": "training", "seconds": 171.79699999999866, "epoch": 1, "epochs": 2, "step": 20, "steps": 30, "mean_loss": 0.05806682324036956, "gradient_norm": 0.1908758133649826, "learning_rate": 3.5833333333333335e-05}
+{"phase": "training", "seconds": 237.39099999999962, "epoch": 1, "epochs": 2, "step": 30, "steps": 30, "mean_loss": 0.058353034468988575, "gradient_norm": 0.667026937007904, "learning_rate": 5e-05}
+{"phase": "evaluation", "seconds": 247.68799999999828, "split": "development", "panel": "D7_I210_E"}
+{"phase": "epoch_completed", "seconds": 237.39099999999962, "epoch": 1, "training_loss": 0.058353034468988575, "development_score": 0.9421985570513093, "initial_score": 0.9171347451465689, "best_epoch": 1, "best_development_score": 0.9421985570513093}
+{"phase": "training", "seconds": 254.4529999999977, "epoch": 2, "epochs": 2, "step": 1, "steps": 30, "mean_loss": 0.0570825207978487, "gradient_norm": 0.6438385844230652, "learning_rate": 4.9874003593470286e-05}
+{"phase": "training", "seconds": 313.59400000000096, "epoch": 2, "epochs": 2, "step": 10, "steps": 30, "mean_loss": 0.058528023585677144, "gradient_norm": 0.30696114897727966, "learning_rate": 3.85e-05}
+{"phase": "training", "seconds": 379.375, "epoch": 2, "epochs": 2, "step": 20, "steps": 30, "mean_loss": 0.05813580760732293, "gradient_norm": 0.20864719152450562, "learning_rate": 1.5500000000000007e-05}
+{"phase": "training", "seconds": 445.1409999999996, "epoch": 2, "epochs": 2, "step": 30, "steps": 30, "mean_loss": 0.05823968611657619, "gradient_norm": 0.07325806468725204, "learning_rate": 4.000000000000001e-06}
+{"phase": "evaluation", "seconds": 455.2659999999996, "split": "development", "panel": "D7_I210_E"}
+{"phase": "epoch_completed", "seconds": 445.1409999999996, "epoch": 2, "training_loss": 0.05823968611657619, "development_score": 0.9424541300772455, "initial_score": 0.9171347451465689, "best_epoch": 2, "best_development_score": 0.9424541300772455}
+{"phase": "evaluation", "seconds": 483.29699999999866, "split": "holdout", "panel": "D7_I210_E"}
+{"phase": "complete", "seconds": 483.29699999999866, "status": "completed", "architecture": "gap-aware graph + bidirectional real diagonal SSM + full-day temporal attention", "parameters": 11388974, "trained_epochs": 2, "micro_batch": 2, "gradient_accumulation": 2, "best_epoch": 2, "best_development_score": 0.9424541300772455, "holdout": {"split": "holdout", "score": 0.9431046724447617, "initial_score": 0.9184480105325482, "n": 1367094, "pooled_speed_rmse": 1.495590422673813, "pooled_flow_rmse_per_lane": 33.51385134781845}, "team_transformer_same_holdout_score": 0.9440066516882064, "delta_holdout": -0.000901979243444706, "targets_seen_including_repeats": 5382686, "protocol": "Exact date split and complete holdout target counts matched; shared cross-corridor model versus team per-corridor models.", "limitation": "Archived Transformer predictions/weights are not provided; no paired daily uncertainty estimate or retrained reference in this run."}

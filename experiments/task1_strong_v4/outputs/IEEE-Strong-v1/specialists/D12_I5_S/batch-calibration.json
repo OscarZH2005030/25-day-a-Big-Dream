@@ -1,0 +1,30 @@
+{
+  "selected": 4,
+  "trials": [
+    {
+      "batch": 1,
+      "allocated_gib": 1.496382713317871,
+      "reserved_gib": 1.88671875,
+      "status": "fits"
+    },
+    {
+      "batch": 2,
+      "allocated_gib": 2.916950225830078,
+      "reserved_gib": 3.623046875,
+      "status": "fits"
+    },
+    {
+      "batch": 4,
+      "allocated_gib": 5.759808540344238,
+      "reserved_gib": 7.107421875,
+      "status": "fits"
+    },
+    {
+      "batch": 8,
+      "allocated_gib": 11.458622932434082,
+      "reserved_gib": 14.0390625,
+      "status": "fits_probe_but_insufficient_training_headroom"
+    }
+  ],
+  "gradient_accumulation": 4
+}
