@@ -1,0 +1,816 @@
+{
+  "schema": "frozen_four_direction_metric_archive_v1",
+  "sources": [
+    {
+      "kind": "d7",
+      "folder": "d7_i405",
+      "panels": [
+        "D7_I405_N",
+        "D7_I405_S"
+      ],
+      "original_run": "transformer_training_dev_20261019_183939_881805",
+      "original_output": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805",
+      "completion_sha256": "eb4838adbc7418e9ef792987b6be46eb816d07de0d262849f642c7a65ce54c7d",
+      "artifact_manifest_sha256": "dc1eace9b1e43f2aa497724ea8c9d8b34ea2638d2be4b24db18faf034cf733f1"
+    },
+    {
+      "kind": "i5",
+      "folder": "d12_i5",
+      "panels": [
+        "D12_I5_N",
+        "D12_I5_S"
+      ],
+      "original_run": "d12_i5_dynamic_dev_20261020_124730_964790",
+      "original_output": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790",
+      "completion_sha256": "3e056914cebe15eb0a74c82dd3219998f8aba6a246e6bc4798821300012d70a5",
+      "artifact_manifest_sha256": "b0c5423f0ef8d781cfef09ffba4380f3a19256390699ac854f053c872247d641"
+    }
+  ],
+  "files": [
+    {
+      "path": "d7_i405/run_config.json",
+      "sha256": "8319db68768296027b15571d4b55f2e535cba9ed74d64abf9b260a8ff9b8e54b",
+      "bytes": 10486,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\run_config.json",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout_metrics_by_panel_regime.csv",
+      "sha256": "56fac2266393178ea55679091a0fac47a62852ed94d86ef1be44342a9ef1fd0c",
+      "bytes": 4644,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout_metrics_by_panel_regime.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout_daily_errors.csv",
+      "sha256": "9661a48657ef94b23e95bac9391134ab241f0c36110a1439ff2b61e431ac7a1c",
+      "bytes": 76020,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout_daily_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout_preservation_checks.json",
+      "sha256": "ca4609422ece46494a93aecf7499c4ad38cb38fc9e8947a24f272fbeaff8acec",
+      "bytes": 1821,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout_preservation_checks.json",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/source_COMPLETE.json",
+      "sha256": "eb4838adbc7418e9ef792987b6be46eb816d07de0d262849f642c7a65ce54c7d",
+      "bytes": 229,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\COMPLETE.json",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/source_artifact_manifest.json",
+      "sha256": "dc1eace9b1e43f2aa497724ea8c9d8b34ea2638d2be4b24db18faf034cf733f1",
+      "bytes": 73141,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\artifact_manifest.json",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T0_gap_errors.csv",
+      "sha256": "0714c64ee78a3dc5d258ff14e63e0adf5543670ead2781615c3fc757d5bb2c22",
+      "bytes": 428,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T0_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T0_flow_gap_errors.csv",
+      "sha256": "d5574522818255d9498b6a86565f559d61903a215f7e04a7d6d17cb6bec579cd",
+      "bytes": 433,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T0_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T0_regime_gap_errors.csv",
+      "sha256": "00c646885fdc5107ce24951912f95500771162f1154eaaaf0e7034467f7c5dab",
+      "bytes": 1232,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T0_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T0_congestion_errors.csv",
+      "sha256": "e3d3d5f5e9df0b02964fd722aa62bd78207529b7b0bc16f61fbd98a742f33097",
+      "bytes": 198,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T0_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T0_isolation_errors.csv",
+      "sha256": "df26ee24e9e8d5ca02e5230e4bd7dd4ce4562529207d9c0bcaa3a1380782802a",
+      "bytes": 200,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T0_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T1_gap_errors.csv",
+      "sha256": "2fe599a44297c95a198b85ea610f91c9169151858838aa69077c07d58503ab55",
+      "bytes": 429,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T1_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T1_flow_gap_errors.csv",
+      "sha256": "0f58936d2adc2cf7e6dd07a1f9dd8a7bbdefd34b2651abb5d3d9840090709c1b",
+      "bytes": 434,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T1_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T1_regime_gap_errors.csv",
+      "sha256": "77db486ef93156d7a6bee9d79c969f82ad8395145998db2b6860ad5860ec7dde",
+      "bytes": 1230,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T1_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T1_congestion_errors.csv",
+      "sha256": "886bf4be8d95c23d702af17bf6fb6c408254b0e014855f8ba8398e455be84209",
+      "bytes": 202,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T1_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/T1_isolation_errors.csv",
+      "sha256": "0aee626a824802bcaff77c9cbed837ca2275f1e35b0b483afec4f1df66afa72e",
+      "bytes": 199,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\T1_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/Current_fusion_gap_errors.csv",
+      "sha256": "bd3a19ef6c476e74b79ed1b00fbdcfc69b6308cf877dcd3977d5bb012d64c503",
+      "bytes": 490,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\Current_fusion_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/Current_fusion_flow_gap_errors.csv",
+      "sha256": "7f1bdd363505c340358f0649ad79c9323e0969c44d558c15ae05aa7ac83582e3",
+      "bytes": 495,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\Current_fusion_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/Current_fusion_regime_gap_errors.csv",
+      "sha256": "b0f14a159491e4af0ef860da70dc48c65ceeb6a8a65d6ac9fc56f8859a5386ca",
+      "bytes": 1412,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\Current_fusion_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/Current_fusion_congestion_errors.csv",
+      "sha256": "ad93c92ed7c7ac712e94a05440622e12462602220cbdddf45fadbb4218d63735",
+      "bytes": 224,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\Current_fusion_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/Current_fusion_isolation_errors.csv",
+      "sha256": "78ab157a0d9364aa80be5180e2654433aa683b72fa69e8e4812e1012e3b2d664",
+      "bytes": 223,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\Current_fusion_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_gap_errors.csv",
+      "sha256": "d460993fcab5dae2cc0362ea5a06270f7a230077a46ef3b359bf8ee79ad39845",
+      "bytes": 465,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_flow_gap_errors.csv",
+      "sha256": "f4c2b3f37645e4d91e75322cf2a7e8e98902ee6ea5f158f03631f151f43d0a28",
+      "bytes": 470,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_regime_gap_errors.csv",
+      "sha256": "b5ffb8381e1d764047ec52dba0d973f85605f1c83b26af4d52a42e03b0113772",
+      "bytes": 1343,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_congestion_errors.csv",
+      "sha256": "7d4f7e8a0030879670ec441c643848f6174c3acd8268bd882b84b2c72f6439bb",
+      "bytes": 212,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_isolation_errors.csv",
+      "sha256": "bae9412aaf04a74ee908434d2c2b4d0bc3f11bed12d9371f0593985813851dee",
+      "bytes": 214,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_fixed_gap_errors.csv",
+      "sha256": "ffaf3647605b35bf2fd7ae9e44c76b8a031bdc498597adf81e033ec5ef72402e",
+      "bytes": 493,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_fixed_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_fixed_flow_gap_errors.csv",
+      "sha256": "5adecf73387efb374e488077c23df58c3e7e44251dc1f53f04b95f4f053715ba",
+      "bytes": 498,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_fixed_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_fixed_regime_gap_errors.csv",
+      "sha256": "9b160d8b00f3af974eb14302a9f558516a0527193efa2b43cf925a695d18f6d3",
+      "bytes": 1428,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_fixed_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_fixed_congestion_errors.csv",
+      "sha256": "e995f13081edba4c29b377a3e5423cdce4d6ba6ffa49058df1f4fbd2319268cd",
+      "bytes": 227,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_fixed_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_N/A_dynamic_fixed_isolation_errors.csv",
+      "sha256": "daeb10bbd3ee8e6cd1993cf4b4b733d3407db984f3f05c34424ac1a7866d3dff",
+      "bytes": 225,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_N\\A_dynamic_fixed_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T0_gap_errors.csv",
+      "sha256": "81c9e97f8628d0320ddbcd588ac30e3ea3c5a8b3a283a401258cf72b1cd665b7",
+      "bytes": 429,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T0_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T0_flow_gap_errors.csv",
+      "sha256": "42ae0f5791528610dda021fea570fd0f28d4b754bec5646b0b0fc0bda6784d95",
+      "bytes": 434,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T0_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T0_regime_gap_errors.csv",
+      "sha256": "1d31231958af0c892c0165904811e8f06cc605af347496ce2f3d54ab8f94bf47",
+      "bytes": 1224,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T0_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T0_congestion_errors.csv",
+      "sha256": "6464ef76b5b34cf2a51b095adb9293c386aa78c08b85ec1d7e7c44a73046d9a9",
+      "bytes": 199,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T0_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T0_isolation_errors.csv",
+      "sha256": "0857180d5302bcc88ee391c6248a723c15cd7cd0d3914fe5c900ba64451331fc",
+      "bytes": 197,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T0_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T1_gap_errors.csv",
+      "sha256": "a621860aeea560fd09077a9dc7a2e30d3ff4e814a6e4e07f36f6ad97339c932a",
+      "bytes": 428,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T1_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T1_flow_gap_errors.csv",
+      "sha256": "d52d77dd1ec3a202c5b087b9aefff09e299dfbf67fea58be2d373673e7fd1a1b",
+      "bytes": 433,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T1_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T1_regime_gap_errors.csv",
+      "sha256": "ba960156a500069ddd2a50dac4f5eb6710edf1c0e09dc82fc86bb6a090284092",
+      "bytes": 1224,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T1_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T1_congestion_errors.csv",
+      "sha256": "69d718c790bbdf0044d813e44878b388168e9d32c02e95580c1975c997efbf2a",
+      "bytes": 197,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T1_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/T1_isolation_errors.csv",
+      "sha256": "b5be908ea781b9786e9494ea1ccdfe3e76880cda4013a3747b2d2311756d57bb",
+      "bytes": 198,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\T1_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/Current_fusion_gap_errors.csv",
+      "sha256": "2cef61fa4483115eab4b7ef227e9ee8970b040b46a7c847cc40fc1cfa92f4b78",
+      "bytes": 486,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\Current_fusion_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/Current_fusion_flow_gap_errors.csv",
+      "sha256": "83d0cf23dbd67eea0f38f807494f1e7ce6242d032faf378d2d68317e8589c22e",
+      "bytes": 491,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\Current_fusion_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/Current_fusion_regime_gap_errors.csv",
+      "sha256": "d650905629d3a49cd49ec147c3d54039518c8e99ac21d8fbdd45b83362df52b7",
+      "bytes": 1403,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\Current_fusion_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/Current_fusion_congestion_errors.csv",
+      "sha256": "a41d0d2424496340034a97f0e1f8a82165f752ca6b64aeee4474c386ef59d44d",
+      "bytes": 223,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\Current_fusion_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/Current_fusion_isolation_errors.csv",
+      "sha256": "88ac5a07be9321359b94dd5ee2de831d5ca93eab6f017578a48f55945db6944e",
+      "bytes": 222,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\Current_fusion_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_gap_errors.csv",
+      "sha256": "5ea68c57fefb8027cf58e77ac9d0b8fdbb7c0f5e732c3b1c3eb2fe9d4f2cb5d0",
+      "bytes": 462,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_flow_gap_errors.csv",
+      "sha256": "a63b234ca43f635d70f3b717806245a75a6ea742a6b008c5783a3c961377b242",
+      "bytes": 467,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_regime_gap_errors.csv",
+      "sha256": "feeb8fba81affc473ce67033a2a9bb72e827f95a6df4689b2c9916567aae0b15",
+      "bytes": 1325,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_congestion_errors.csv",
+      "sha256": "224f97e7ee6eec556ea79dce54a61b6bbe1623afd4b746ae34aa5ca9221a75fc",
+      "bytes": 213,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_isolation_errors.csv",
+      "sha256": "6e62873843b7ab85777a98c94e87d92b44056234849151c4a46b5384fdae47f3",
+      "bytes": 211,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_fixed_gap_errors.csv",
+      "sha256": "7f74e2df752a594d741ed2158b163501a70449cec0c5701a22be6d0c2f7bf977",
+      "bytes": 489,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_fixed_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_fixed_flow_gap_errors.csv",
+      "sha256": "b3c603cce3df6471ec2b3d6cdaa80552e1e9aa929a12326f480b615f85d2eb7f",
+      "bytes": 494,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_fixed_flow_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_fixed_regime_gap_errors.csv",
+      "sha256": "996aec5bd48f80b9eb6b5f6bb759de8bfc14cd4bd619b4f3de1cad46dd45854e",
+      "bytes": 1421,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_fixed_regime_gap_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_fixed_congestion_errors.csv",
+      "sha256": "19936550dd206f27d11cbff321da7d8852d3669ea5133553bc860551b7112e9e",
+      "bytes": 224,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_fixed_congestion_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d7_i405/holdout/D7_I405_S/A_dynamic_fixed_isolation_errors.csv",
+      "sha256": "dc7d9cca1e7fdd0324b74c3c57fe3d40fbfc8ccb175fce8602b20c9d1d5376f0",
+      "bytes": 225,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\transformer_training_dev_20261019_183939_881805\\holdout\\D7_I405_S\\A_dynamic_fixed_isolation_errors.csv",
+      "source_kind": "d7"
+    },
+    {
+      "path": "d12_i5/run_config.json",
+      "sha256": "a1650d0afa039a19147e13772996106cecd9b6410e9ea01c612d4ad35f27e908",
+      "bytes": 14891,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\run_config.json",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout_metrics_by_panel_regime.csv",
+      "sha256": "b2e01781d59ea2b0bde0d783d5f006588d23406b5c860c0829b9d97d8623ba05",
+      "bytes": 3389,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout_metrics_by_panel_regime.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout_daily_errors.csv",
+      "sha256": "d91e509578e8f72fc110322ac9d826acaf0e8d914b421aede00ae01e3c62565b",
+      "bytes": 54639,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout_daily_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout_preservation_checks.json",
+      "sha256": "179ffb16e203374b235cf85c7780eeacc4647b8ce4e5016dcf7792561d8e6620",
+      "bytes": 1315,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout_preservation_checks.json",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/source_COMPLETE.json",
+      "sha256": "3e056914cebe15eb0a74c82dd3219998f8aba6a246e6bc4798821300012d70a5",
+      "bytes": 236,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\COMPLETE.json",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/source_artifact_manifest.json",
+      "sha256": "b0c5423f0ef8d781cfef09ffba4380f3a19256390699ac854f053c872247d641",
+      "bytes": 58596,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\artifact_manifest.json",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T0_gap_errors.csv",
+      "sha256": "45516765df1fb95b27c5ee827053d6447a4ec046a2b016137d4f172d1bcbb609",
+      "bytes": 417,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T0_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T0_flow_gap_errors.csv",
+      "sha256": "4fd50df23582b43ba416a260dbbe080281672260dd7a50acd1f43168668ccc20",
+      "bytes": 422,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T0_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T0_regime_gap_errors.csv",
+      "sha256": "d670dcfb58c1d064923cd8debee98ca7d3bbdbe7e053647ead09df6174944324",
+      "bytes": 1193,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T0_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T0_congestion_errors.csv",
+      "sha256": "b42660fc4abe78ab63444304ade149ae354c1012fc882bafc025cfafba605fdc",
+      "bytes": 195,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T0_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T0_isolation_errors.csv",
+      "sha256": "354de6f41e5f89b0982cc29338b830cd3a4eb54ff07e42a5dec4e30c2e885cd1",
+      "bytes": 126,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T0_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T1_gap_errors.csv",
+      "sha256": "4b38513f26001b8320fc1f26144308f7c48af598539de78af0d5b120b428e91a",
+      "bytes": 415,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T1_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T1_flow_gap_errors.csv",
+      "sha256": "04f52a8a2e9868439c75be48fd86ff20f9b380370987784872c2dd360063c34a",
+      "bytes": 420,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T1_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T1_regime_gap_errors.csv",
+      "sha256": "cb1f56e6b56ed4a1626510ca4d8b4436de5fc9385f8a9f5fb0ff3eed5f17c79e",
+      "bytes": 1190,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T1_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T1_congestion_errors.csv",
+      "sha256": "ae823885391265b0a13f06da796282fafdb943a71fdea85e0692d6fd832f1dee",
+      "bytes": 194,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T1_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/T1_isolation_errors.csv",
+      "sha256": "578d5ef052949ab89d430ccafeda55493e73c326feec9a0355d9faa471c59067",
+      "bytes": 126,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\T1_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/Current_fusion_gap_errors.csv",
+      "sha256": "f8bc691c8414b42b1bba8ff32b3209c50b7e030bf273fa53cdf6193a64d65ddc",
+      "bytes": 477,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\Current_fusion_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/Current_fusion_flow_gap_errors.csv",
+      "sha256": "383e87033e0506716cbad3f245037c92e2fb747aa694a34880ead3b2cdd9d5d5",
+      "bytes": 482,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\Current_fusion_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/Current_fusion_regime_gap_errors.csv",
+      "sha256": "9dee7e76a1de159f6034061aed9fd2f0e1733ca12dc0b78c73fc22b62afebdf2",
+      "bytes": 1380,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\Current_fusion_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/Current_fusion_congestion_errors.csv",
+      "sha256": "412d74da0f2367d3f167178702aa00e205a4255a57577a9154fe6f0e309539fc",
+      "bytes": 217,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\Current_fusion_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/Current_fusion_isolation_errors.csv",
+      "sha256": "945763c4f26f9e789b7d264d0a38d52a6a546488c807ee8eaaad810f7accfd47",
+      "bytes": 138,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\Current_fusion_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_gap_errors.csv",
+      "sha256": "2214cf07f2cb0f7b3c4b36681a67af9e968f8ab1c64e8a402e700444232365c8",
+      "bytes": 450,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_flow_gap_errors.csv",
+      "sha256": "2bdc97dd28c3bc82a6d993b95b11f8e5e8e8b839469f0f2f4d457b98029a464c",
+      "bytes": 455,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_regime_gap_errors.csv",
+      "sha256": "086741c74b30d6894d85da4a605b3694605d9511f6ebe53fd22c6e13639de3f1",
+      "bytes": 1302,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_congestion_errors.csv",
+      "sha256": "5f3c59e2d0d6c4974c7293dac9c4060e36e5a2ad73c6b6aaad344fff46644ae4",
+      "bytes": 208,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_isolation_errors.csv",
+      "sha256": "7abcce3fc403c0748e207adc403bccddc7977c49444c5b9834d0a2de99c9adad",
+      "bytes": 134,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_fixed_gap_errors.csv",
+      "sha256": "9bd7c7f685d7ea13e64a78e216941e461f1ca6dc2e639483bda4728ae1fb098f",
+      "bytes": 482,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_fixed_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_fixed_flow_gap_errors.csv",
+      "sha256": "16aae0d8afbc5a79bca7b0002d76f7f26bc92c70429d10c32be31f14903fdb13",
+      "bytes": 487,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_fixed_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_fixed_regime_gap_errors.csv",
+      "sha256": "f2c4d34ce2e9f22cf4651216d91b2ab6fd1b78a49b6c3cc850014bd4a0a78b71",
+      "bytes": 1391,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_fixed_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_fixed_congestion_errors.csv",
+      "sha256": "048c37627bee0086ab9ec430007e0984bd5ad2aafc83449650349a298d80afb9",
+      "bytes": 219,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_fixed_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_N/A_dynamic_fixed_isolation_errors.csv",
+      "sha256": "47fa507cf3358cda09c7a56f0856fdb81b9c21d4d2ab61b6fa1ad9a6027b58b4",
+      "bytes": 137,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_N\\A_dynamic_fixed_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T0_gap_errors.csv",
+      "sha256": "1d8ffa55408f6f1131b2a7b92f29add83371bf71ee3ab381c448ef2944e5176a",
+      "bytes": 416,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T0_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T0_flow_gap_errors.csv",
+      "sha256": "5bdfe642c71ea8d6d5d1fb675a9d10df7993b5a81578e4ede85e0a3ea75fc9ff",
+      "bytes": 421,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T0_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T0_regime_gap_errors.csv",
+      "sha256": "f29312136685d8aceabc9c9d7065ff1596a5c47ef7f7fa27d3ff495e393a0ddd",
+      "bytes": 1192,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T0_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T0_congestion_errors.csv",
+      "sha256": "df3499627b2a1143d2119f01fbf9c422e3276bfe1f3d29d60fab9e03a3541d4b",
+      "bytes": 197,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T0_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T0_isolation_errors.csv",
+      "sha256": "8658dcdaf4af4e310ed7e9aa71cca44473daa40e07f67fcff73fb8d0ae685b63",
+      "bytes": 194,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T0_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T1_gap_errors.csv",
+      "sha256": "b2a5c4c82498538abfd09a20d86f4397c5f18e5f2da0f6aab8df70fc99a4eb2d",
+      "bytes": 412,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T1_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T1_flow_gap_errors.csv",
+      "sha256": "c8138828949b67b2d32ccb6e7243ad291fe1825806b250dd3852b8ddd46f1118",
+      "bytes": 417,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T1_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T1_regime_gap_errors.csv",
+      "sha256": "f756cf025c7615ab4c8166429cefab8d7cd968825f1583d90fae33ef259d5dc8",
+      "bytes": 1188,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T1_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T1_congestion_errors.csv",
+      "sha256": "ffbf061862625f38fad5e86e712b2fc8be3c1bc87ff5816335237976ae7b83c0",
+      "bytes": 197,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T1_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/T1_isolation_errors.csv",
+      "sha256": "e905ba7afb9fcb0fcc54f727f73afd5a40c27c059f5858027f82e0552fb56f98",
+      "bytes": 195,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\T1_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/Current_fusion_gap_errors.csv",
+      "sha256": "fe706903aba3b4e386a064d4395e8fd484ca9a80d155e59404f446d234586b8c",
+      "bytes": 475,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\Current_fusion_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/Current_fusion_flow_gap_errors.csv",
+      "sha256": "6dbc86dd8c7727b5baa6b560c532d0e07a51a1c179b3725f5dfa6c045628ea16",
+      "bytes": 480,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\Current_fusion_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/Current_fusion_regime_gap_errors.csv",
+      "sha256": "19b4c1522761559cc0446e4eaf1748fd0b5a00f70a8e3ca0f17d52faba6f6ace",
+      "bytes": 1371,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\Current_fusion_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/Current_fusion_congestion_errors.csv",
+      "sha256": "dac9dffea8d332bfa4e00bf4b94276bcfefcd5861ecb678e70090ae77e4f27ee",
+      "bytes": 220,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\Current_fusion_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/Current_fusion_isolation_errors.csv",
+      "sha256": "a91f6bb5a39cebeb27e63802bf5ecbbf7842999fdf410df13707423e5a23b137",
+      "bytes": 219,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\Current_fusion_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_gap_errors.csv",
+      "sha256": "f83e7c6464cff6524685daad9e4bf504c3066404cce0951d9443e2fe63917da9",
+      "bytes": 448,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_flow_gap_errors.csv",
+      "sha256": "dde376a36a10e111f1aafe8cfe5b53f2f4be8c6cadc3bf6f831f78208b8a5c2a",
+      "bytes": 453,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_regime_gap_errors.csv",
+      "sha256": "7a2a17372e4c0de9ee0a39af805c5558ff31f021ac5a36c6b18275d33e9fcf6a",
+      "bytes": 1293,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_congestion_errors.csv",
+      "sha256": "30d6b20fcce5bc6e606708f0ca01d0aec92ca347b011e0405e4a70f3120f5ccc",
+      "bytes": 208,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_isolation_errors.csv",
+      "sha256": "957323d9784af7dc28e866a97ad6402263864367eabbb6753df502582e01c556",
+      "bytes": 208,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_isolation_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_fixed_gap_errors.csv",
+      "sha256": "59df52713e612015d4d3499fc216ebd6a1ba12e18e8416553bdb06a96c4cd24e",
+      "bytes": 481,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_fixed_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_fixed_flow_gap_errors.csv",
+      "sha256": "80ecdecbdf87154eb821dc40dcca51eb3041e3695805f7ccee6fd851a779aaa7",
+      "bytes": 486,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_fixed_flow_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_fixed_regime_gap_errors.csv",
+      "sha256": "8184ba51ca0eda9c4ff88edf02f5befeb2f6d62fa6ebd1c07d32628e82e43de0",
+      "bytes": 1381,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_fixed_regime_gap_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_fixed_congestion_errors.csv",
+      "sha256": "3f7592079e4555ecec281f55641e980f7de4e97aa643631a6c5c39742752a43c",
+      "bytes": 220,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_fixed_congestion_errors.csv",
+      "source_kind": "i5"
+    },
+    {
+      "path": "d12_i5/holdout/D12_I5_S/A_dynamic_fixed_isolation_errors.csv",
+      "sha256": "4f94be7374aa5f5eaa23d248fa60b892f3124d2aa41c6c52eabf8444667e3426",
+      "bytes": 221,
+      "original_path": "C:\\Users\\DELL\\Desktop\\UW\\IEEE比赛\\runs\\d12_i5_dynamic_dev_20261020_124730_964790\\holdout\\D12_I5_S\\A_dynamic_fixed_isolation_errors.csv",
+      "source_kind": "i5"
+    }
+  ],
+  "provenance": "Exact historical metric tables verified against original completion and artifact hashes; models and predictions are not included; these four directions are reused, not retrained on the receiving computer."
+}

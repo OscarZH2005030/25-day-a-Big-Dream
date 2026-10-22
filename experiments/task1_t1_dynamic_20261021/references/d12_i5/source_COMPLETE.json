@@ -1,0 +1,7 @@
+{
+  "experiment": "d12_i5_t1_dynamic_replication_v1",
+  "smoke": false,
+  "integrity_passed": true,
+  "artifact_manifest_sha256": "b0c5423f0ef8d781cfef09ffba4380f3a19256390699ac854f053c872247d641",
+  "seconds": 51802.58125340007
+}

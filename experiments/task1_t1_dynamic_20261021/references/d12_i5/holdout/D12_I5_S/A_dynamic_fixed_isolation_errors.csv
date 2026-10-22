@@ -1,0 +1,3 @@
+isolated,n,speed_mse,flow_lane_mse,method,panel,family
+False,223959,4.520996583753763,1002.5170189152301,A_dynamic_fixed,D12_I5_S,D12_I5
+True,191299,6.197800396047653,1149.1663384551673,A_dynamic_fixed,D12_I5_S,D12_I5

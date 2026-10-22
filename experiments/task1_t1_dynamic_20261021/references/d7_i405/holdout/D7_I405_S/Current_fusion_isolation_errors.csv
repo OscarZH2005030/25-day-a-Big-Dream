@@ -1,0 +1,3 @@
+isolated,n,speed_mse,flow_lane_mse,method,panel,family
+False,116324,7.6858718920572295,1143.663358693287,Current_fusion,D7_I405_S,D7_I405
+True,320228,6.386491444140007,1440.554828219798,Current_fusion,D7_I405_S,D7_I405

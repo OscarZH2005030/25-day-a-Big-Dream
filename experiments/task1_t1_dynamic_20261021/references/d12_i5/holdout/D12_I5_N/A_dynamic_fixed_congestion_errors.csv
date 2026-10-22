@@ -1,0 +1,3 @@
+congested,n,speed_mse,flow_lane_mse,method,panel,family
+False,954409,0.878114444571226,646.1692550809162,A_dynamic_fixed,D12_I5_N,D12_I5
+True,49736,4.11544391621724,1666.6654619690858,A_dynamic_fixed,D12_I5_N,D12_I5
