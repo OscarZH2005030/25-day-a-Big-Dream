@@ -1,0 +1,12 @@
+.venv*/
+__pycache__/
+.pytest_cache/
+cache/
+runs/
+*.pt
+*.pth
+*.npz
+*.parquet
+*.pkl
+.env*
+kaggle.json

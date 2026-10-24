@@ -2,6 +2,10 @@
 我们要拿到钱
 给我第一名
 
+## Task 2：数据审计、代理窗口与图时空模型小检查（2026-10-24）
+
+[RTX 4070／Windows 独立环境、代码与运行说明](experiments/task2_queue_20261024/README.md)。支持八方向审计、冻结月份、按日复用缓存、代理标签、persistence／LightGBM 基准与传播延迟图时空 Transformer 的有限小检查。当前没有正式训练入口；不修改 Task 1，代理指标不代表官方隐藏队列成绩。
+
 ## 当前最佳模型：Strong v4（2026-10-20）
 
 [完整模型说明、推理入口、实验记录与恢复指南](experiments/task1_strong_v4/README.md)。

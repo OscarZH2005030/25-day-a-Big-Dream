@@ -1,0 +1,117 @@
+{
+  "schema": "task2q_source_release_v1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e360d997ce9724973d5d03936b9229291ef2281433277fdcb5ed5d89a566d326"
+    },
+    {
+      "path": "FROZEN_SPLIT.json",
+      "sha256": "56124ddf7d6637790bbe81087c06bdba83da0202f008454785d3651361a9cfaf"
+    },
+    {
+      "path": "PLAN_TASK2_QUEUE.txt",
+      "sha256": "f9184e6d8172d510140328355dc2d56afdf156a69fe4cfc6e11679e6f8bd814b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "da9a660fc1c23f50945619eb3332fc31ffe4c27ab2eb9517b5052fe21161753e"
+    },
+    {
+      "path": "check_environment.py",
+      "sha256": "c3fb67184c047428f5f36fd08eb1a2b6eb7e007d64f8be46580393871acf6679"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "a29e1cf36d805e32da783a0776b47683d1b540445a249836f6e7c4c48fa7e904"
+    },
+    {
+      "path": "requirements-torch-deps.txt",
+      "sha256": "980fb7741fa926ae445fd678e9f8a7a724db6f78518ddaeb0028d6194f0027fc"
+    },
+    {
+      "path": "run_task2.ps1",
+      "sha256": "3167a312e3e9f8acdf54c6a872ff57c7a3bad039d33244dc6551e190377bbd25"
+    },
+    {
+      "path": "setup_task2.ps1",
+      "sha256": "35b5263ccd1c7ae6af1c6d8fbf75c6b64ccc2bf85bc2280e52a1699cc615dc15"
+    },
+    {
+      "path": "task2q/__init__.py",
+      "sha256": "7afceeac43e18767d388b341d2205aecde61de650f462582508b8427115da6a3"
+    },
+    {
+      "path": "task2q/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "task2q/audit.py",
+      "sha256": "330e2a67b42e6705c1fc17760980a310de7ed598eafce35db6c73d60feb2a00e"
+    },
+    {
+      "path": "task2q/baselines.py",
+      "sha256": "9a4d941ce996d291f3a92d3facb7040f338b9008358430ade5f55eea1f93678e"
+    },
+    {
+      "path": "task2q/cache.py",
+      "sha256": "1253a258d838b5c5fd0ebd00286bf43e19e751d00eb15ee2185c0f4956698b8d"
+    },
+    {
+      "path": "task2q/cli.py",
+      "sha256": "7bc2e2e8ad0ea207e6e7f71236ac14cb12a9fed88412ecb2bdf0178dc0c6fd63"
+    },
+    {
+      "path": "task2q/data.py",
+      "sha256": "989b62f52a8846481f821873f4b91f993c98d2053cb1180508ac8d21e716d234"
+    },
+    {
+      "path": "task2q/metrics.py",
+      "sha256": "332d2ceeaefa7ee64600fdcf79afc31d98ade1384fbf5fbf93d35643f1631433"
+    },
+    {
+      "path": "task2q/model.py",
+      "sha256": "f9c649441dd742fa00318f8b9b139349d878f6629b1fa3d89bf0cf01a43fd2c2"
+    },
+    {
+      "path": "task2q/protocol.py",
+      "sha256": "d95ed08fdd610531f14c17631ccf463e4e4d8b5fd42e80957aaa9aec5689030f"
+    },
+    {
+      "path": "task2q/smoke.py",
+      "sha256": "fa17e8e8fa4bcc89d0904ace380d229d855f9d070a156de6524ef8bda8ea013c"
+    },
+    {
+      "path": "task2q/submission.py",
+      "sha256": "0dc56fd48e12fdc03ad7d370cf5d4a2eee97c6b51fa9882b4dd2fdc53ce2d4cc"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "sha256": "3d31f9bb5d4e4c7863e92d8457e6dd360005c4c18a65bc51b1e2f7d2b48908a6"
+    },
+    {
+      "path": "tests/test_baselines.py",
+      "sha256": "d823f21d81a4483ac5089c016b2f52d2269f1d4de0a1c0d171788f336c5a2edf"
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "48f3a810c49dfd45fffdb409d911b47ae1b205fabad33c389b197a8d39afeb38"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "sha256": "30bb896653328ac145f1eb923b960a7010a6b6f088da99cc9101ea691b41c112"
+    },
+    {
+      "path": "tests/test_model.py",
+      "sha256": "1aa2b46588049afe52dada3d32fdb40d515a87caa848cddd242c42df3e4d7be1"
+    },
+    {
+      "path": "tests/test_protocol_submission.py",
+      "sha256": "c1f7118e6e366a1bb801e9dba51a9d329b87c8834f584fbf6281969db83b4081"
+    }
+  ]
+}

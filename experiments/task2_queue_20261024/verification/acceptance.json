@@ -1,0 +1,80 @@
+{
+  "schema": "task2_engineering_acceptance_v1",
+  "client_date": "2026-10-24",
+  "formal_training_started": false,
+  "cpu_tests": {
+    "passed": 38,
+    "failed": 0,
+    "seconds": 14.25
+  },
+  "audit": {
+    "panels": 8,
+    "links": 1450,
+    "isolated_links": 315,
+    "windows": 240,
+    "template_rows": 261000,
+    "source_files_hashed": 98
+  },
+  "prepared_engineering_windows": 128,
+  "prepared_future_positive_windows": 58,
+  "gpu_smoke": {
+    "passed": true,
+    "scope": "engineering_smoke_only",
+    "formal_training_started": false,
+    "official_queue_score": null,
+    "calibrate_or_audit_labels_opened": false,
+    "protocol_sha256": "a424d6c642b908dcc702b608a5f2082a1928be80a4c65706a0f626edde35ad4a",
+    "panels": [
+      "D7_I210_E",
+      "D7_I405_S"
+    ],
+    "fit_windows": 16,
+    "tune_windows": 16,
+    "primary_future_positive_windows": 16,
+    "optimizer_updates": 4,
+    "lightgbm_rounds": 12,
+    "model_config": {
+      "width": 128,
+      "layers": 4,
+      "heads": 4,
+      "dropout": 0.1
+    },
+    "parameters": 1407243,
+    "largest_graph_links": 352,
+    "cache_payload_reused": true,
+    "future_perturbation_invariant": true,
+    "prediction_comparison_tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "checkpoint_replay_passed": true,
+    "losses": [
+      0.7907724380493164,
+      0.8056274056434631,
+      0.370828777551651,
+      0.5590775012969971
+    ],
+    "official_sample_windows_checked": 12,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "peak_gpu_mib": 329.15966796875,
+    "seconds": 14.255041600001277,
+    "created_utc": "2026-10-24T21:57:15.973441+00:00",
+    "warnings": []
+  },
+  "windows_powershell_5_wrapper_passed": true,
+  "task1_guard": {
+    "files_hashed": 54,
+    "unchanged": true,
+    "queue_state_before": "completed",
+    "queue_state_after": "completed"
+  },
+  "rtx4070_tested": false,
+  "official_queue_score": null,
+  "notes": [
+    "No official queue truth exists locally.",
+    "No calibration or final proxy audit labels were opened.",
+    "GPU run is bounded engineering only.",
+    "4070 hardware must repeat the smoke on receiving computer."
+  ]
+}

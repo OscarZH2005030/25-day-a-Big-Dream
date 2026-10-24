@@ -1,0 +1,177 @@
+TrafficFlowBench Task 2 冲奖研发计划
+日期：2026-10-24（America/Los_Angeles）
+状态：用户已确认；首阶段仅实现工程小检查，正式训练尚未授权。
+算力：另一台电脑 RTX 4070、i9-13900HX、32GB RAM；实际显存由环境检查报告。
+
+一、结论与优先级
+
+主攻路线：传播延迟感知的图时空 Transformer，直接预测未来六步队列概率；保留高质量 LightGBM 专家，通过独立时间块上的预测决定是否融合。物理传播模型作为可检验的辅助专家，不先把复杂模拟器设成必须依赖。
+
+冲奖的优势应来自四件事：正确且足量的弱监督样本、严格时间外验证、对队列出现/传播/消退的建模，以及与逐窗 IoU 一致的训练与决策。不能在实验前宣称某个架构就是最强，也不能保证获奖。
+
+本计划仅规划 Task 2，不修改或停止当前 Task 1 队列，不覆盖 Strong v4、T1/动态缺失实验、正式日志、权重或缓存。Task 2 建立独立代码、环境、缓存和日志目录。Strong v4 的 Task 1 本地成绩不作为 Task 2 成绩。
+
+二、第 0 步：先保住获奖资格
+
+用户回答报名“还没有／需要确认”。今天先核实并完成注册：
+- 主办方登记邮箱 trafficflowbench@gmail.com。
+- 邮件主题 Traffic Flow Bench Registration。
+- 提供 Kaggle 队名、全部成员 Kaggle 用户名、姓名、单位、邮箱及主要联系人。
+- 官方截止 2026-10-25 23:59 AoE，即洛杉矶 2026-10-26 04:59 PDT；建议今天完成，不拖到截止。
+- 这里只记录要求，没有替用户发邮件。
+
+Kaggle 最终预测截止日期为 11 月 6 日，精确时刻启动前再核对官方页面；代码与 PDF 最终材料截止 11 月 10 日 23:59 AoE。获奖不仅看单项：符合资格的私榜前十团队进入复核，需通过复现，最终按候选池归一化榜分分量 85% 与报告分量 15% 综合评审。
+
+权威来源：https://www.kaggle.com/competitions/2026-ieee-big-data-traffic-flow-bench/overview/evaluation
+
+三、已核实的任务与本地数据
+
+1. 任务覆盖八方向、四个家族：D7_I10_E/W、D7_I210_E/W、D7_I405_N/S、D12_I5_N/S。D12_I405_N/S 不参与 Task 2。
+2. 每方向、每 split 有 onset/ongoing 各五窗，共十窗；每 split 合计 80 窗。
+3. 实际 window_history.parquet 每窗为十二帧 T-60…T-5。索引中的 history_end=T 不意味着 history 文件有 T 行。官方允许读取 mainline_states_masked 中时间戳恰为 T 的已公开观测；作为可选第十三帧，并保留缺失 mask。
+4. 输出所有模板要求的 link 在 T+5、+10、+15、+20、+25、+30 的二值 queue_pred。每 split 87,000 行，validation＋private 共 174,000 行；两者都要预测。
+5. 真值由隐藏潜在状态的速度阈值定义，而非直接对含噪观测阈值化。所有 split，包括 train，都没有公开官方 queue_true。模板 queue_pred 的全零是占位，不能拿来训练。
+6. 阈值实现对齐官方 queue_utils.thresholds：有 released fd_parameters.v_cut 时优先，否则用 links.free_speed_kmh×0.60 的回退。不能用 topology 中可能不同的速度常量静默替换。
+7. 官方评分在 eligible cell 上计算每窗 space-time IoU，再按 panel-condition、方向、家族逐级等权。不能用全局 cell accuracy、micro IoU 或大路段的样本数主导选择。
+8. onset/ongoing 均保证 horizon 内有队列。推理使用已公开的 condition；自造窗口按本地 contract 的历史判定规则标类：历史至少两个 queued observations，且同一 link 至少两个，才归 ongoing，其余归 onset。不要把未来是否有事故当作输入。
+9. 官方窗口间隔、history coverage、未来有队列与 persistence 难度限制，在代理数据生成时作为抽样分布参考；不同版本文字可能有简写，以冻结的 release contract 和实际文件为依据。
+10. S_total 中 Task 2 权重 0.30；S_queue 真正提高 0.01，在其他输出不变时总分提高 0.003。0.936910 是历史 Task 1 指标，不能作为 Task 2 目标线。
+
+实测规模（孤立节点仅指没有其他已发布主线邻居，外部 CONN-* 不作有观测邻居）：
+方向          links  孤立links  每split输出行
+D7_I10_E       146      52          8,760
+D7_I10_W       107      61          6,420
+D7_I210_E      297       5         17,820
+D7_I210_W       81      53          4,860
+D7_I405_N      352      18         21,120
+D7_I405_S      109      80          6,540
+D12_I5_N       258       0         15,480
+D12_I5_S       100      46          6,000
+合计          1450     315         87,000
+
+公开 history 含 speed、flow、occupancy、pct_observed、is_score_eligible，没有真实 queue、匝道或未来密度。匝道只能按真实映射从公开历史读取，缺失不是零。
+
+本地数据根：C:\Users\DELL\Desktop\UW\IEEE比赛\2026-ieee-big-data-traffic-flow-bench\kaggle_public
+事实依据：README.md、config/competition_contract.json、config/synthetic_release_v1.json；task2/<panel>/<split> 的 index/history/template，以及各 network 表。
+
+四、先解决训练样本与验证，再扩模型
+
+A. 训练样本
+- 不能只用八十个官方 train 窗训练强网络。从公开 train 的 273 天 mainline_states 构造滚动的 60→30 分钟窗口。
+- 抽检确认 train 原始表里有合法未来观测，包含部分官方 train 窗 horizon，但存在缺失、低质量和测量噪声；这些可作训练监督，不是官方潜在真值。未来只进入训练标签，不能进入特征。
+- 先生成可追溯的候选窗口索引，再惰性读取/缓存张量。无跨日时最多约 589,680 个方向候选窗，重叠很强，不能称几十万个独立样本。
+- 训练主采样按家族/方向、onset/ongoing、日期组均衡；主评测集匹配官方“未来有队列”的条件分布。自然流量的无队列窗保留为辅助训练/负例诊断，不能靠大量简单空窗抬高主指标。
+- 使用未来可见且合格的速度按官方阈值构造硬代理标签，命名 proxy_queue；缺失/低质未来不标成 0。另训练置信软目标版本：阈值附近降低监督置信度，去噪参数只在训练段估计。
+- 对照始终报告原始硬 proxy 指标和软目标敏感性，不能用更平滑的代理标签人为证明模型更强。去噪潜在状态估计也只能叫估计，不是 queue_true。
+- 官方每六小时的稀疏采样用于评估/去相关；训练可更密集，但统计置信区间按日期/事件块重采样，不按每 cell 当独立样本。
+
+B. 划分与选择
+- Task 2 单独建立冻结划分，不继承 Task 1 已反复开发的“干净留出”称谓。
+- 初始建议：2030-06-01…11-30 拟合；12 月为内部选择；2031 年 1 月为融合/阈值校准；2031 年 2 月为一次性最终 proxy 审计。边界样本要求整段历史及 horizon 落入对应分区，或至少剔除跨界 90 分钟窗口。
+- 相邻/重叠窗口、同日/同一连续拥堵事件不随机拆到不同集合。标准化、历史时段画像、去噪器、图中学习相似边、树模型统计都只能在拟合段学习。
+- 12 月内预设两个不重叠时间块看稳定性；1 月只作低维校准，不再更换网络结构；2 月最后一次打开。若查看 2 月后继续开发，要承认其变成开发集，不能保留“未使用留出”说法。
+- 主指标命名 proxy_IoU，严格复用官方逐窗及层级聚合；另报各方向、onset/ongoing、六 horizon、低质量、连通/孤立节点、队列边界与概率校准。MAE/RMSE、PR-AUC 仅辅助。
+- 对小窗口/小队列不按正类面积降低权重。未来 eligibility 只作训练标签/代理评分 mask，不作预测输入，也不凭未知未来质量删模板行。
+
+C. 因果边界
+- 预测特征只读当前窗口 T 及之前的合法历史、静态公开网络和训练期冻结统计。首版只使用指定 60 分钟窗口及可选 T，不任意扩为全天上下文。
+- index 中 future_coverage、horizon 统计、未来 ramp、未来边界流量、窗口编号的日期排序模式、全月 Task4 聚合和 T 后缺失模式均不作预测特征。
+- history 内部的双向运算并不自动泄漏，只要全部时刻≤T；关键是输入截止时间与缓存来源。缓存需包含窗口截止时间和输入指纹。
+- 不直接复用 Task 1 的全天双向插值特征、SSM/全天注意力输出或其预测缓存。可以复用工程方法和静态图，权重迁移仅在另行验证后实验。
+- 必须有检查：固定所有≤T输入，修改/删除所有>T观测，预测保持不变；用 schema allowlist 验证 future_coverage 等列没有进入模型。
+
+五、主模型具体设计
+
+输入历史与质量 → 局部时间编码 → 有向/延迟感知空间交互 → 六步条件解码 → 每link每horizon队列概率 → 校准/阈值 → 二值输出。
+
+1. 质量感知输入
+   v/free_speed、q/capacity、occupancy、历史拥堵裕度、5/15/30分钟趋势、变化加速度、历史队列持续时间、可见缺失mask、距最近有效观测时长、pct_observed；静态长度/车道/容量/FD参数与训练冻结的时段画像。
+   匝道附加特征只使用≤T的真实计数与缺失标志。FD/流量的总量和每车道单位单独审计。
+
+2. 共享主干，不先训练八套大网络
+   八方向共享时间/传播模块；用静态路段特征、道路/方向 embedding 区分结构，变长图按方向打包。保留本路段时间分支，孤立节点无需虚构邻居也可预测。
+   首版宽128、4层、4头、dropout约0.1；具体参数量在实现后统计。只有验证有效再试宽256/6层。不要把扩大参数当既定收益。
+
+3. 显式建模传播
+   上游→下游车辆传播与下游→上游拥堵回传分开建模；边包含长度、方向与可能传播延迟。时间注意力仅跨合法历史，空间交互采用稀疏图/局部邻域加少量道路全局摘要，避免把全部时空cell做昂贵全连接。
+   非邻接历史相似性若使用，只从拟合段估计，作为独立边类型并消融。拓扑断点不靠随意连接填满。
+
+4. onset/ongoing 条件化解码
+   主干共享，公开 condition 用于两种轻量输出头/门控：onset侧重阈值逼近、流量压力、相邻减速与瓶颈风险；ongoing侧重队尾位置、传播速度和消退趋势。
+   六个未来query一次输出未来六步，避免必须递归拿自己的硬二值结果当后续输入。输出为概率，提交前才二值化。
+
+5. 损失对齐
+   首版加权BCE，随后在同预算下对比 BCE＋逐窗 soft-Jaccard 或 Lovasz 类 IoU surrogate。按窗口/方向/condition等权，不能把大图、大队列的loss直接堆成micro指标。
+   可加低权重标准化未来速度Huber辅助头，增强阈值附近表示；只在可见监督上算，是否保留由消融决定。IoU surrogate 在代理标签上有效不等于正式榜分一定提高。
+
+6. LightGBM 互补专家
+   与网络同一窗口输入边界/划分，增加horizon标识，预测各link六步队列概率。特征显式包含历史趋势、邻居减速、传播到达时间等。树专家是有竞争力的候选，不只作为很弱的占位。
+   单独报告图网络、树专家和融合；融合只在1月留出的校准预测上拟合。先全局权重/阈值，确有稳定收益再按condition拆分；不对80个公开验证窗逐路逐horizon手调。
+
+7. 物理专家作为第二阶段候选
+   先做轻量队尾传播/消退外推；若存在可重复残差，再试基于FD的CTM rollout与概率残差。
+   边界需求、未来ramp必须由历史预测，不读取真未来；检查CFL与子时间步，不能直接在很短路段上用5分钟显式更新。只在真实可连接子图传播，对315个孤立节点不硬套守恒。
+   有益才进入最终融合；若不稳定则保留诊断、不拖延主线。
+
+8. 无法观测的未来事故
+   T之后才发生且历史完全没有信号的事故存在不可约不确定性。用条件概率与校准处理，不能声称靠更大网络知道未来事故位置，也不把“每窗未来有队列”误用成全图标1。
+
+六、分阶段实验与预算
+
+全部正式实验在另一台NVIDIA电脑进行，先核对GPU型号/显存和环境。以下是更新次数/候选数量上限，不是测得的运行时间。安装与小检查后记录每千步耗时和峰值显存，才给小时估计。8GB起用宽128、microbatch 1-2和梯度累积；更大显存优先增有效batch与吞吐，保持比较预算。
+
+P0 数据与工程：先做完整8方向索引、阈值/拓扑单位、因果边界和proxy分布审计。抽样数据验证后再构建全量缓存，按日/窗口指纹复用。尚未确认环境就不锁死旧Task1的Python环境。
+P1 强基准：官方T-5 persistence；合法T增强persistence；轻量传播/消退外推；LightGBM。它们全部走相同代理评分，建立真实下限。官方README与BASELINES公布基准分不一致，不把任一数字当我们实测。
+P2 主干筛选：纯时间TCN/Transformer对照、共享图时空Transformer、加入传播延迟的版本。优先试D7_I210_E（连通多）与D7_I405_S（孤立多）工程pilot，再推广8方向。单候选最多20轮×256更新，patience=5；有效batch、抽样和随机种子固定。
+P3 定向消融：候选上限4组，分别只改变IoU损失、condition头、历史T/ramp输入、物理专家中的一项；不做全组合网格。每组与其父配置同预算比较。
+P4 冠军复核：只留最佳1-2套配置，每套3种子，正式预算上限60轮×512更新，patience=8。只有拟合段数据参与训练；1月校准，2月最终proxy审计。三种子结果不稳定时不为单个高分继续扩模型。
+P5 部署：最终冻结后可在全部公开train上重训，保留之前冻结的训练预算/早停步数规则、校准策略；重新生成validation/private全部queue输出，保留复现所需统计、权重、环境与来源指纹。检查重训后概率分布和冻结校准的适用性，不再利用2月审计结果重调阈值；若出现明显分布漂移，保留已验收的开发期模型作为可复现备选。报告区分开发期审计模型与最终全量训练模型。
+
+保留/淘汰规则（预设工程门槛，不是获奖承诺）：
+- 因果或模板完整性检查失败，先修工程，任何分数不进入排名。
+- 大主干若在两个12月时间块不能稳定超过树模型/轻量时间模型，停止扩容，检查proxy标签/采样分布。
+- 新复杂模块默认要求macro proxy IoU至少+0.005，并在两个时间块同向；onset/ongoing任一类明显退化要解释。边际收益更小时仅在几乎零成本且稳定时考虑。
+- 冠军三种子报告均值/方差、逐路变化和按日期组配对bootstrap；置信区间仅描述proxy，不能包装成私榜保证。
+- 对公开榜只保留2-3次预先定义的Task2对比候选，不靠排行榜反复搜索阈值。实际每日提交限额以比赛页面为准。
+- 做榜上A/B时其他Task1/Task3/Task4输出逐文件冻结，只替换queue；总分差除0.30仅在其他输出确实相同且考虑榜单舍入后解释为queue差值。
+
+七、到截止日的工作安排
+
+10/24：确认并完成报名；确定GPU/运行环境；冻结数据与验证计划。
+10/25-26：代理样本、8方向审计、四类基准与完整提交校验。
+10/27-29：主网络与传播/IoU关键消融，形成首个正式候选。
+10/30-31：只对最有价值误差加条件头/物理专家，完成有限榜上A/B。
+11/01-02：最佳配置三种子复核、冻结校准与最终proxy审计。
+11/03-04：全train最终训练/推理，跨目录重建与复现检查。
+11/05-06：提前完成最终选择、完整CSV与提交；不把第一次完整推理留到截止当天。
+11/07-10：整理代码和PDF报告，补齐图表、方法依据、误差分析与复现说明。
+
+这是目标排程，依GPU实测与数据审计可压缩候选数量。若时间紧，先保住经验证的LightGBM/主干及完整提交，物理专家、扩容与额外预训练首先让位。
+
+八、实现阶段交付清单（待本计划确认后开始）
+
+- 独立task2工程、可迁移Windows NVIDIA入口、环境说明和未来可选Slurm入口。
+- 冻结数据/时间划分、候选窗口索引、proxy标签定义与质量mask、缓存schema/数据哈希。
+- baseline、主模型、消融的配置/种子/有效更新数/耗时/显存/预测与逐层指标。
+- 独立实验日志：每次正式结果写入；工程小检查不混作正式成绩。
+- 8方向、两condition、六horizon的表格；典型onset/ongoing队列时空图；失败case与拓扑孤立分析。
+- validation与private的完整queue输出共174,000行；严格模板join、ID/UTC时间/重复/缺失/二值检查；合并其他任务后检查全CSV。
+- 训练/推理/评估/恢复入口、模型权重和归一化/校准资产；跨新目录重建一致性；有明确来源的官方提交与报告。
+
+九、资料与设计依据
+
+官方任务与输入边界：https://github.com/jacky850/trafficflowbench-public
+精确评分：https://github.com/jacky850/trafficflowbench-public/blob/main/docs/SCORING_SPEC.md
+标签可用性：https://github.com/jacky850/trafficflowbench-public/blob/main/docs/DATA.md
+评分实现：https://github.com/jacky850/trafficflowbench-public/blob/main/src/task2/score_task2.py
+T时刻合法性：https://github.com/jacky850/trafficflowbench-public/blob/main/src/task2/build_task2_persistence_submission.py
+阈值回退：https://github.com/jacky850/trafficflowbench-public/blob/main/src/task2/queue_utils.py
+提交格式（与Kaggle现行完整性要求共同核对）：https://github.com/jacky850/trafficflowbench-public/blob/main/docs/SUBMISSION_SCHEMAS.md
+报名、截止与奖项：https://www.kaggle.com/competitions/2026-ieee-big-data-traffic-flow-bench/overview/evaluation
+
+PDFormer提供传播延迟与方向/长短程空间交互的设计启发，不代表原论文模型已在本比赛占优：https://arxiv.org/abs/2301.07945
+STAEformer支持先验证合理时空embedding与简洁Transformer，而非直接堆叠复杂模块：https://arxiv.org/abs/2308.10425
+Lovasz IoU surrogate的原始研究，本文仅建议按Task2逐窗二值场景改造并消融：https://openaccess.thecvf.com/content_cvpr_2018/html/Berman_The_LovaSz-Softmax_Loss_CVPR_2018_paper.html
+
+已有本地资产：C:\Users\DELL\Documents\ChatGPT\IEEE\github-publish\experiments\task1_strong_v4
+其中Task2为官方persistence辅助预测；结构校验通过不等于隐藏Task2成绩。第三方公开仓库自称Rank-1或公布分数不作为本计划已证实证据。
