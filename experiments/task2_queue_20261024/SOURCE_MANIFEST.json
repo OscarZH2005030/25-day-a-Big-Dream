@@ -14,12 +14,16 @@
       "sha256": "56124ddf7d6637790bbe81087c06bdba83da0202f008454785d3651361a9cfaf"
     },
     {
+      "path": "HANDOFF_CODEX.md",
+      "sha256": "248ce73c4eefd02d4ea1db73ce704b62605541bdb1999a959b41e3fafa5eb92b"
+    },
+    {
       "path": "PLAN_TASK2_QUEUE.txt",
       "sha256": "f9184e6d8172d510140328355dc2d56afdf156a69fe4cfc6e11679e6f8bd814b"
     },
     {
       "path": "README.md",
-      "sha256": "da9a660fc1c23f50945619eb3332fc31ffe4c27ab2eb9517b5052fe21161753e"
+      "sha256": "083d35048f6dfe1a0104437f2365b50e234d2aa5e0645bdad18be5125b6a5b30"
     },
     {
       "path": "check_environment.py",
