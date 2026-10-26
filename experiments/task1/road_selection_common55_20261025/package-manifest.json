@@ -1,0 +1,261 @@
+{
+  "format": "TrafficFlowBench portable road-selection inference package",
+  "version": "20261025",
+  "roads": 10,
+  "mean_common55_S_state": 0.9405193875291588,
+  "data_and_python_included": false,
+  "files": {
+    ".gitignore": {
+      "bytes": 58,
+      "sha256": "38a1296996e159e36e4552753398467b09de7153eaff5c7a8da9c44ebdcddc10"
+    },
+    "audit/comparison-audit.json": {
+      "bytes": 9092,
+      "sha256": "81528507cedd70320ecffef8f0a117ea166c789144261b3adbb922166db4d75d"
+    },
+    "audit/comparison.json": {
+      "bytes": 79026,
+      "sha256": "683cd092e57e5d57c5935d8d67dd3835cc047bbc948e1bd2b74467a41635f8e1"
+    },
+    "audit/github-weight-recovery-audit.json": {
+      "bytes": 38394,
+      "sha256": "43a430d9e71648d6c62cdfc731b96971f6e07e08321faf38cfaf9c2c5c285cb3"
+    },
+    "audit/inference-verification.json": {
+      "bytes": 2395,
+      "sha256": "79e1c930b3b578ae77bc79b85b0dedd715a91f27d1564062d0536170bd3cffaf"
+    },
+    "audit/portable-export.json": {
+      "bytes": 1255,
+      "sha256": "67e4998e498b8ff0ad3cf5521a28649e9b9a9655eddc773fb30851c12d904e7d"
+    },
+    "audit/portable-package-verification.json": {
+      "bytes": 1520,
+      "sha256": "7df8c1014fb4b615794738ed180380e3ea923392237c9bd38341538583e3901f"
+    },
+    "audit/逐路对比与选择.txt": {
+      "bytes": 1668,
+      "sha256": "f30b34674976d4bd4129ed9e968d48e35c0a3e2e31dfbeb0c39b70f44a5b3e65"
+    },
+    "environment-reference.json": {
+      "bytes": 143,
+      "sha256": "5fcb912533d1bb24dbb7639ef6ea0c17f24ad52a89a6612d32f67cdd473562df"
+    },
+    "feature-source/base_feature_schema.json": {
+      "bytes": 25508,
+      "sha256": "3b3f60abbdc05f3191490876100218e735187adcaf4acc29e376fe28e1e79307"
+    },
+    "feature-source/code/features/augment_features.py": {
+      "bytes": 2077,
+      "sha256": "cd0dc3ba7091fe6c9ccb3202db61f59b974604c7812276bbed2f97a51264ae7b"
+    },
+    "feature-source/code/features/feature_bank.py": {
+      "bytes": 10233,
+      "sha256": "59944e6bebb0163ed6230c0030bea24f5866545799e0fb45b44bee65c9e6204f"
+    },
+    "feature-source/code/features/frozen_v2_features.py": {
+      "bytes": 8763,
+      "sha256": "b7e8c45e5c8ad979ee4ca15fddcc57bff3a21ec6ce407dc6456b7d861f4292ac"
+    },
+    "feature-source/code/features/spatial_experiments.py": {
+      "bytes": 15410,
+      "sha256": "57c028b791e4f3c473dd21015cd3be6981981333d47a2f01ac8abcd198586de4"
+    },
+    "feature-source/code/features/temporal_features.py": {
+      "bytes": 1587,
+      "sha256": "a48e261379475bf09d3dcfa8b74cd85694136dc9e910d33b6a7a525717617e10"
+    },
+    "feature-source/code/features/vendor/src/task1/baseline_task1_historical_mean.py": {
+      "bytes": 18290,
+      "sha256": "f336b26cf4ac13791fe5c75c6d4f9dc3a506214a3eb42d153a6285dd3c600226"
+    },
+    "feature-source/code/original/task1_baseline.py": {
+      "bytes": 16423,
+      "sha256": "87e00183397638e3ec175ea1b3d61b7e5c8a5cbc8938de259f1af075ac26cca0"
+    },
+    "feature-source/feature_columns.csv": {
+      "bytes": 21290,
+      "sha256": "2163858b8b759ae06d0434b344ed749130875fd7a5df44221bc3ff02c8779b25"
+    },
+    "feature-source/feature_schema.json": {
+      "bytes": 29327,
+      "sha256": "1381eb6f54c0e7bfc2967969bde69dbd69a4f9235c9475cbf76b948db69ac771"
+    },
+    "feature-source/split.json": {
+      "bytes": 5216,
+      "sha256": "8055ccf558b54ed067368edb7c0f30054b3726d757f885bc7b0f9448c60d68aa"
+    },
+    "feature_runtime.py": {
+      "bytes": 2958,
+      "sha256": "85764631add009946786884356f14622b9b7d7bfff08749623f27aa337db00ae"
+    },
+    "github_graph.py": {
+      "bytes": 2807,
+      "sha256": "1e69b6d86e0302e7c39c004d36e473e4ed4d8cfff108abe188d58caf9bc833e6"
+    },
+    "local-settings.example.json": {
+      "bytes": 113,
+      "sha256": "445cc692c7688e92cad79144b447d69df0a4330e0fbd90606a842d23992259a4"
+    },
+    "models/D12_I405_N/best.pt": {
+      "bytes": 864928,
+      "sha256": "00b5dbfce2dc4cf37eaca416c3b5116a92c26a5ec93856163d47549847b89802"
+    },
+    "models/D12_I405_N/flow_per_lane.txt": {
+      "bytes": 5911052,
+      "sha256": "9eaf690012ffe6c27d4cb520e9667ab2e3e7d29e9cb0702af55890e6c5eccae6"
+    },
+    "models/D12_I405_N/history.npz": {
+      "bytes": 2600282,
+      "sha256": "5361663b79deab3419ec47134b8520fd767c0c7402dd5d4caf844056fbacddd3"
+    },
+    "models/D12_I405_N/speed_kmh.txt": {
+      "bytes": 4102974,
+      "sha256": "5357355a68584325e693b5f99707550b4f343ec4cec54e3bf48008441c65db24"
+    },
+    "models/D12_I405_S/flow.txt": {
+      "bytes": 5744727,
+      "sha256": "5217a86801120b1d55d24445df3a68e638bf9676b0348e246d8b13ef440a7bad"
+    },
+    "models/D12_I405_S/history.npy": {
+      "bytes": 1419392,
+      "sha256": "44bce99dc85f8a3a80edc5eb5737971947e7416603e94f69933479a1c829d502"
+    },
+    "models/D12_I405_S/speed.txt": {
+      "bytes": 5624460,
+      "sha256": "31f247e31b37d1e71c9db4d06a8b638d31e089a6a6d46bb53a3d2533f36ffc21"
+    },
+    "models/D12_I5_N/best.pt": {
+      "bytes": 872032,
+      "sha256": "1cfe3d046cf78948f313a42abeeaa1cdc0de87ab734f26e0bc83948a73120006"
+    },
+    "models/D12_I5_N/flow_per_lane.txt": {
+      "bytes": 6009639,
+      "sha256": "58b8b6186a0cada689518c69ba2f846ad1b267475abbbeb451617c625ffdc5a1"
+    },
+    "models/D12_I5_N/history.npz": {
+      "bytes": 7542520,
+      "sha256": "b252b5c7c76f09c06afbe2962ecd7e78e3c2dde477bc498236860f5031f8e1c1"
+    },
+    "models/D12_I5_N/speed_kmh.txt": {
+      "bytes": 5994371,
+      "sha256": "40babb2a8a8be4619a31647122a63008b1072d2eadf0fa06032e298669af64b5"
+    },
+    "models/D12_I5_S/flow.txt": {
+      "bytes": 5732942,
+      "sha256": "4536472f47cf47fd53ee6e0150b37049ce61713a6c1b2c81ec929ccb2250480d"
+    },
+    "models/D12_I5_S/history.npy": {
+      "bytes": 3225728,
+      "sha256": "ee9485e6c80678a43ce23635e427858760babd1a585eae476bd3c0ebed90df47"
+    },
+    "models/D12_I5_S/speed.txt": {
+      "bytes": 5596194,
+      "sha256": "9101791332df4a91a5ae74c475c4e3a906058df103f9ecaf880db6d4cb339083"
+    },
+    "models/D7_I10_E/best.pt": {
+      "bytes": 867232,
+      "sha256": "cec75691ba6ac4fc27a18f564758729a88b406f96366e9054300e7f92371e702"
+    },
+    "models/D7_I10_E/flow_per_lane.txt": {
+      "bytes": 5924894,
+      "sha256": "278c4f829eed0dbd9be1807f6ace706c17406690e116c9ab27e1cc829439e76c"
+    },
+    "models/D7_I10_E/history.npz": {
+      "bytes": 4207870,
+      "sha256": "f3a4c502b97a9042ad1f1b4ac72d2e09884d2d9a74df124384e65b93bd47a9dd"
+    },
+    "models/D7_I10_E/speed_kmh.txt": {
+      "bytes": 4547384,
+      "sha256": "8b07d9212bbfcb05ffd074417ad39ea77447d0051c8e8ed3c34094fc8443b6fb"
+    },
+    "models/D7_I10_W/flow.txt": {
+      "bytes": 5744431,
+      "sha256": "f84fc494812bd888e222cea00e7eecaa31806b579cc4e07561800e58f90fdac7"
+    },
+    "models/D7_I10_W/history.npy": {
+      "bytes": 3451520,
+      "sha256": "afd11a5fd557d54698845688afbe6bc9eaf81aae0788d041dfbbf9989d84aad5"
+    },
+    "models/D7_I10_W/speed.txt": {
+      "bytes": 5630436,
+      "sha256": "8e1f48567d7b9b9e96f748f9beff16dd08bba9357fbb754c3b384068b52486da"
+    },
+    "models/D7_I210_E/best.pt": {
+      "bytes": 874656,
+      "sha256": "295fb6500d2b5e90547972c2ec1fb970acc08ada86837066c170e50a810f9baf"
+    },
+    "models/D7_I210_E/flow_per_lane.txt": {
+      "bytes": 5994444,
+      "sha256": "448c508fca43d8f5a05045f4ccd3fdfb29d8b76f3f5ff0dc33486d68d7baf1c7"
+    },
+    "models/D7_I210_E/history.npz": {
+      "bytes": 8703251,
+      "sha256": "a95ba243d70adec7b1df0f0ff47cce8c3ec23f732af043ae4847b6d9ab12f2a9"
+    },
+    "models/D7_I210_E/speed_kmh.txt": {
+      "bytes": 6173630,
+      "sha256": "6f329ee76de8bab902ec8a134fea3824938adc897ec049b22cf99868a6ac317b"
+    },
+    "models/D7_I210_W/flow.txt": {
+      "bytes": 5745296,
+      "sha256": "4bec8930aa4b7ddc71110ae1649582f0a4a7d8be8e4a78860217206b7dc7ad3c"
+    },
+    "models/D7_I210_W/history.npy": {
+      "bytes": 2612864,
+      "sha256": "b1f2d3845255ac31f069ffcd20b323836bdf384930f992f3775f344e1e69d0c1"
+    },
+    "models/D7_I210_W/speed.txt": {
+      "bytes": 5603387,
+      "sha256": "ce57279d1684b1b88e8e28c07d24eebbb9f0c98bd8852b72db1769ce4408e2bd"
+    },
+    "models/D7_I405_N/best.pt": {
+      "bytes": 877280,
+      "sha256": "4705fc6f8d90d6d96e25a8d773e6c3455beb4736301ed46c23c145bab4d497a4"
+    },
+    "models/D7_I405_N/flow_per_lane.txt": {
+      "bytes": 6051788,
+      "sha256": "3538cee28465707328a9c5acd8f70acf73e660810628c2459d0ab6b147426fa3"
+    },
+    "models/D7_I405_N/history.npz": {
+      "bytes": 10412022,
+      "sha256": "d982c6297efedbc339c06a248856fc93e322aee2e3ea18d746d672b73e3d0984"
+    },
+    "models/D7_I405_N/speed_kmh.txt": {
+      "bytes": 5991169,
+      "sha256": "6de6f74685216e6f9b148478fbf5a4ab649d00be392adc4fe3e61f8b6b08c05a"
+    },
+    "models/D7_I405_S/flow.txt": {
+      "bytes": 5739307,
+      "sha256": "5301978b15e1c24f1221c393dea9ac66e82bab9bebc280718c1c4703c0c698e1"
+    },
+    "models/D7_I405_S/history.npy": {
+      "bytes": 3516032,
+      "sha256": "223db2f5bef92493b18568ef0bd7ae480c37c28acfff64d45d53838c5ad951f1"
+    },
+    "models/D7_I405_S/speed.txt": {
+      "bytes": 5603322,
+      "sha256": "d04950680e9746d555a5fe78989168f1953f1f9baf6336ee0aa08d858cc678b8"
+    },
+    "predict_selected.py": {
+      "bytes": 6868,
+      "sha256": "4efb32baee73debca2be299f5ad0fe7b08b8371f1a6d06582e0205b0675adcbe"
+    },
+    "selected-road-models.json": {
+      "bytes": 10196,
+      "sha256": "b46f6628c1bc410626e93fb6ac2d44527770eb2c0d8fd6da1ac0ad2dfb3f6d12"
+    },
+    "verify_package.py": {
+      "bytes": 1279,
+      "sha256": "cf14277027e5fa0ea6adaa03b5e53ac75f8ff24ba4308b3ef379933fe91243f2"
+    },
+    "中文说明.txt": {
+      "bytes": 4619,
+      "sha256": "4fbac61fe241976521e9a99611cac2beb2cae785134fd53ae23773dce403225d"
+    },
+    "运行预测.ps1": {
+      "bytes": 2226,
+      "sha256": "48ef88f2d2f16ddffde7da702fe0859cbc638acc14feef7e04084e1e50012ce0"
+    }
+  }
+}

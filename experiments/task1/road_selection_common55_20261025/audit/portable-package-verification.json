@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "test": "copied package into independent directory; WindowsPowerShell5.1 launcher; actualCPU inference; no old training-code/model paths",
+  "date": "2031-01-05",
+  "roads": [
+    {
+      "file": "D12_I405_N_2031-01-05.parquet",
+      "rows": 3970,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D12_I405_S_2031-01-05.parquet",
+      "rows": 2964,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D12_I5_N_2031-01-05.parquet",
+      "rows": 11280,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D12_I5_S_2031-01-05.parquet",
+      "rows": 4377,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D7_I10_E_2031-01-05.parquet",
+      "rows": 16140,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D7_I10_W_2031-01-05.parquet",
+      "rows": 4672,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D7_I210_E_2031-01-05.parquet",
+      "rows": 19551,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D7_I210_W_2031-01-05.parquet",
+      "rows": 8868,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D7_I405_N_2031-01-05.parquet",
+      "rows": 38875,
+      "exact_dataframe_equal": true
+    },
+    {
+      "file": "D7_I405_S_2031-01-05.parquet",
+      "rows": 7170,
+      "exact_dataframe_equal": true
+    }
+  ],
+  "bitwise_dataframe_equal_to_previous_verified_predictions": true,
+  "raw_data_and_python_external": true
+}

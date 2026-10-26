@@ -64,3 +64,7 @@ and the in-progress cross-fitted gated residual. [Reproduction commands](experim
 use isolated output directories. These use a different local split from Oscar's
 historical-mean baseline; the scores are not directly comparable. No new Kaggle
 submission or Task 3 physics improvement is claimed.
+
+## 2026-10-25：十道路逐路选优
+
+[模型下载、中文说明与PowerShell运行指令](experiments/task1/road_selection_common55_20261025/README.md)。共同55天选模分数0.940519388；五路采用原GitHub组合，五路采用186特征适配LightGBM。

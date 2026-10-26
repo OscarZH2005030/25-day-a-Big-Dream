@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "date": "2031-01-05",
+  "roads": [
+    {
+      "panel": "D12_I405_N",
+      "model": "github_original_hybrid",
+      "rows": 3970,
+      "max_difference_speed_kmh": 1.1920928955078125e-05,
+      "max_difference_total_flow_vph": 0.0007152557373046875,
+      "passed": true
+    },
+    {
+      "panel": "D12_I405_S",
+      "model": "adapted_lightgbm",
+      "rows": 2964,
+      "normalized_sse_max_difference": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "model": "github_original_hybrid",
+      "rows": 11280,
+      "max_difference_speed_kmh": 2.384185791015625e-05,
+      "max_difference_total_flow_vph": 0.0007152557373046875,
+      "passed": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "model": "adapted_lightgbm",
+      "rows": 4377,
+      "normalized_sse_max_difference": 4.440892098500626e-15,
+      "passed": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "model": "github_original_hybrid",
+      "rows": 16140,
+      "max_difference_speed_kmh": 1.9371509552001953e-05,
+      "max_difference_total_flow_vph": 0.00057220458984375,
+      "passed": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "model": "adapted_lightgbm",
+      "rows": 4672,
+      "normalized_sse_max_difference": 4.085620730620576e-14,
+      "passed": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "model": "github_original_hybrid",
+      "rows": 19551,
+      "max_difference_speed_kmh": 1.1920928955078125e-05,
+      "max_difference_total_flow_vph": 0.00057220458984375,
+      "passed": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "model": "adapted_lightgbm",
+      "rows": 8868,
+      "normalized_sse_max_difference": 7.815970093361102e-14,
+      "passed": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "model": "github_original_hybrid",
+      "rows": 38875,
+      "max_difference_speed_kmh": 2.9802322387695312e-05,
+      "max_difference_total_flow_vph": 0.001430511474609375,
+      "passed": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "model": "adapted_lightgbm",
+      "rows": 7170,
+      "normalized_sse_max_difference": 6.394884621840902e-14,
+      "passed": true
+    }
+  ],
+  "seconds": 24.7754967212677,
+  "scope": "one real complete day per all ten roads; published55day prediction hashes also verified; no training"
+}
