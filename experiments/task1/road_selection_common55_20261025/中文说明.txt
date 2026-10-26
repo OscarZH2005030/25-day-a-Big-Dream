@@ -1,0 +1,71 @@
+TrafficFlowBench 逐道路选优模型包 2026-10-25
+=========================================
+
+本包用途
+固定每条道路使用已验证分数更好的模型。包含所有十路选中权重、历史特征、推理源码、
+特征schema、哈希清单和中文PowerShell入口。推理不依赖旧训练目录或旧特征缓存。
+原始Kaggle数据、Python运行环境不打入包内，请通过参数指定。
+不训练、不重选路由、不读取目标真值、不提交Kaggle。
+
+最终十路模型
+GitHub原Transformer为主、整图孤立节点两通道回退原LightGBM：
+D12_I405_N、D12_I5_N、D7_I10_E、D7_I210_E、D7_I405_N。
+186特征适配LightGBM，整路速度/流量都使用它：
+D12_I405_S、D12_I5_S、D7_I10_W、D7_I210_W、D7_I405_S。
+
+成绩与适用范围
+同一55天2031-01-05至2031-02-28、6,636,705条官方目标、R1/R2/R3宏平均，十路等权。
+GitHub原组合平均S_state 0.936910312；逐路选优0.940519388；提升0.003609075。
+速度权重0.54、每车道流量0.46；尺度分别25km/h和600vph/车道。
+两套模型训练预算不同；旧、新验证期都经过查看，逐路选优也是模型选择。
+因此本成绩不是独立盲测或Kaggle官方总分，不能理解为94.05%准确率。
+audit/逐路对比与选择.txt列出每路成绩；comparison.json保留全部候选。
+
+孤立点的定义
+在原始整条道路发布节点图中，除自身外没有任何一跳邻居的节点。
+图由incoming/outgoing边对称化构造；其一/二跳孤立判定相同。
+不是“当前邻居缺测”，也不是“某个训练子块里没有邻居”。
+
+首次使用
+1. 将ZIP完整解压到可写目录，保留内部结构；不要在ZIP预览窗口里直接运行。
+2. 准备Python3.12及依赖：numpy、pandas、scipy、pyarrow、torch、lightgbm。
+   environment-reference.json记录已实测版本。现有本机环境可直接使用，不需重装。
+   CPU为默认设备；CUDA需安装与本机GPU/驱动匹配的Torch，本包不自动调整驱动。
+3. 原始数据根目录需要包含corridors/和task1/，并保持发布数据结构。
+4. 在Windows PowerShell粘贴下例。修改前3个路径；无需安装PowerShell7。
+
+PowerShell运行示例
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\模型目录\运行预测.ps1" -Date 2031-03-01 -PythonPath "C:\Python环境\Scripts\python.exe" -DataRoot "D:\数据目录\kaggle_public"
+
+只验包、不预测
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\模型目录\运行预测.ps1" -PythonPath "C:\Python环境\Scripts\python.exe" -VerifyOnly
+
+只预测单路：在预测命令末尾加 -Panel D7_I10_E。
+多路：直接在PowerShell调用脚本并传 -Panel D7_I10_E,D7_I10_W。
+GPU：加 -Device cuda；指定输出：加 -OutputDirectory "D:\预测结果"。
+也可直接调用python predict_selected.py --date 2031-03-01 --data-root "D:\数据目录\kaggle_public"。
+为简化本机命令，可复制local-settings.example.json为local-settings.json，填入PythonPath/DataRoot。
+本机路径配置和预测结果不要上传到GitHub。
+
+输出说明
+默认写到包内predictions/，每道路每天一个parquet。
+包含官方目标键、speed_kmh、flow_vph、selected_model。
+flow_vph已乘回车道数，单位为道路总流量vph；speed_kmh单位为km/h。
+这是本地Task1分道路预测，不是可直接提交的完整四任务上传文件。
+输入日期截至2031-02-28使用train模板，3月使用validation，4月使用private。
+数据中不存在的日期会报错。保留train掩码首日以读取发布节点与道路元数据。
+
+模型与可移植性
+所有模型/历史均值路径均相对本包目录；不存在训练目录依赖。
+GitHub checkpoint仅导出推理所需权重、架构、归一化和节点顺序；去掉优化器/RNG及本机路径。
+package-manifest.json列出每个文件的SHA256和字节数，verify_package.py先校验再推理。
+selected-road-models.json包含每路选择及权重hash。不要手动修改权重/特征顺序后沿用旧成绩。
+
+来源
+GitHub仓库：https://github.com/OscarZH2005030/25-day-a-Big-Dream
+参考分支：oscar/task1-training-stack
+参考提交：7a2a5accc38cc1be4c2806c9577c5bd2b53ec550
+原图Transformer和孤立回退规则见docs/TASK1_GATED_RESIDUAL.md及experiments/task1/。
+186项特征指186数值+186finite标记；新LightGBM另加10道路身份及1位置，共383列。
+新模型监督日期截至2030-12-21；历史均值只使用训练日可观测掩码数据。
+旧GitHub训练/历史/内部验证划分记录见audit/comparison-audit.json。

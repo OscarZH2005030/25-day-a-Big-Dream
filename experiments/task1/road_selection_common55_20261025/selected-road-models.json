@@ -1,0 +1,226 @@
+{
+  "primary_rule": "one frozen model route per whole road; no per-target error routing",
+  "selection": "max common55day macro-regime S_state among audited candidates",
+  "routes": {
+    "D12_I405_N": {
+      "model": "github_original_hybrid",
+      "score_common55": 0.9599817732498342,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "transformer": "models/D12_I405_N/best.pt",
+        "history": "models/D12_I405_N/history.npz",
+        "speed": "models/D12_I405_N/speed_kmh.txt",
+        "flow": "models/D12_I405_N/flow_per_lane.txt"
+      },
+      "sha256": {
+        "transformer": "00b5dbfce2dc4cf37eaca416c3b5116a92c26a5ec93856163d47549847b89802",
+        "history": "5361663b79deab3419ec47134b8520fd767c0c7402dd5d4caf844056fbacddd3",
+        "speed": "5357355a68584325e693b5f99707550b4f343ec4cec54e3bf48008441c65db24",
+        "flow": "9eaf690012ffe6c27d4cb520e9667ab2e3e7d29e9cb0702af55890e6c5eccae6"
+      },
+      "routing": "original full graph zero non-self degree => LightGBM both channels else original GitHub Transformer",
+      "source_checkpoint_sha256": "268683992d8d8fec5719c5bb527ad1dc37ba3f5c641a662b3789b6b5f3cc6c4f",
+      "checkpoint_export": "inference-only; parameters unchanged; no optimizer/RNG/local paths"
+    },
+    "D12_I405_S": {
+      "model": "adapted_lightgbm",
+      "score_common55": 0.9345913880574989,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "speed": "models/D12_I405_S/speed.txt",
+        "flow": "models/D12_I405_S/flow.txt"
+      },
+      "sha256": {
+        "speed": "31f247e31b37d1e71c9db4d06a8b638d31e089a6a6d46bb53a3d2533f36ffc21",
+        "flow": "5217a86801120b1d55d24445df3a68e638bf9676b0348e246d8b13ef440a7bad"
+      },
+      "history": "models/D12_I405_S/history.npy",
+      "routing": "LightGBM both channels for whole road",
+      "history_sha256": "44bce99dc85f8a3a80edc5eb5737971947e7416603e94f69933479a1c829d502"
+    },
+    "D12_I5_N": {
+      "model": "github_original_hybrid",
+      "score_common55": 0.9576885062013032,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "transformer": "models/D12_I5_N/best.pt",
+        "history": "models/D12_I5_N/history.npz",
+        "speed": "models/D12_I5_N/speed_kmh.txt",
+        "flow": "models/D12_I5_N/flow_per_lane.txt"
+      },
+      "sha256": {
+        "transformer": "1cfe3d046cf78948f313a42abeeaa1cdc0de87ab734f26e0bc83948a73120006",
+        "history": "b252b5c7c76f09c06afbe2962ecd7e78e3c2dde477bc498236860f5031f8e1c1",
+        "speed": "40babb2a8a8be4619a31647122a63008b1072d2eadf0fa06032e298669af64b5",
+        "flow": "58b8b6186a0cada689518c69ba2f846ad1b267475abbbeb451617c625ffdc5a1"
+      },
+      "routing": "original full graph zero non-self degree => LightGBM both channels else original GitHub Transformer",
+      "source_checkpoint_sha256": "e01028a2fc087e3537f52ca9969a82503bf0caf72fe4953b354ea75543d7748b",
+      "checkpoint_export": "inference-only; parameters unchanged; no optimizer/RNG/local paths"
+    },
+    "D12_I5_S": {
+      "model": "adapted_lightgbm",
+      "score_common55": 0.9346354407172521,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "speed": "models/D12_I5_S/speed.txt",
+        "flow": "models/D12_I5_S/flow.txt"
+      },
+      "sha256": {
+        "speed": "9101791332df4a91a5ae74c475c4e3a906058df103f9ecaf880db6d4cb339083",
+        "flow": "4536472f47cf47fd53ee6e0150b37049ce61713a6c1b2c81ec929ccb2250480d"
+      },
+      "history": "models/D12_I5_S/history.npy",
+      "routing": "LightGBM both channels for whole road",
+      "history_sha256": "ee9485e6c80678a43ce23635e427858760babd1a585eae476bd3c0ebed90df47"
+    },
+    "D7_I10_E": {
+      "model": "github_original_hybrid",
+      "score_common55": 0.944081477725208,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "transformer": "models/D7_I10_E/best.pt",
+        "history": "models/D7_I10_E/history.npz",
+        "speed": "models/D7_I10_E/speed_kmh.txt",
+        "flow": "models/D7_I10_E/flow_per_lane.txt"
+      },
+      "sha256": {
+        "transformer": "cec75691ba6ac4fc27a18f564758729a88b406f96366e9054300e7f92371e702",
+        "history": "f3a4c502b97a9042ad1f1b4ac72d2e09884d2d9a74df124384e65b93bd47a9dd",
+        "speed": "8b07d9212bbfcb05ffd074417ad39ea77447d0051c8e8ed3c34094fc8443b6fb",
+        "flow": "278c4f829eed0dbd9be1807f6ace706c17406690e116c9ab27e1cc829439e76c"
+      },
+      "routing": "original full graph zero non-self degree => LightGBM both channels else original GitHub Transformer",
+      "source_checkpoint_sha256": "350300bed7fa0fcfcc7935632b9b05eb7b72d9ac3f2fc882dbcd3fda70fbb92b",
+      "checkpoint_export": "inference-only; parameters unchanged; no optimizer/RNG/local paths"
+    },
+    "D7_I10_W": {
+      "model": "adapted_lightgbm",
+      "score_common55": 0.9474486124732479,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "speed": "models/D7_I10_W/speed.txt",
+        "flow": "models/D7_I10_W/flow.txt"
+      },
+      "sha256": {
+        "speed": "8e1f48567d7b9b9e96f748f9beff16dd08bba9357fbb754c3b384068b52486da",
+        "flow": "f84fc494812bd888e222cea00e7eecaa31806b579cc4e07561800e58f90fdac7"
+      },
+      "history": "models/D7_I10_W/history.npy",
+      "routing": "LightGBM both channels for whole road",
+      "history_sha256": "afd11a5fd557d54698845688afbe6bc9eaf81aae0788d041dfbbf9989d84aad5"
+    },
+    "D7_I210_E": {
+      "model": "github_original_hybrid",
+      "score_common55": 0.944040335588856,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "transformer": "models/D7_I210_E/best.pt",
+        "history": "models/D7_I210_E/history.npz",
+        "speed": "models/D7_I210_E/speed_kmh.txt",
+        "flow": "models/D7_I210_E/flow_per_lane.txt"
+      },
+      "sha256": {
+        "transformer": "295fb6500d2b5e90547972c2ec1fb970acc08ada86837066c170e50a810f9baf",
+        "history": "a95ba243d70adec7b1df0f0ff47cce8c3ec23f732af043ae4847b6d9ab12f2a9",
+        "speed": "6f329ee76de8bab902ec8a134fea3824938adc897ec049b22cf99868a6ac317b",
+        "flow": "448c508fca43d8f5a05045f4ccd3fdfb29d8b76f3f5ff0dc33486d68d7baf1c7"
+      },
+      "routing": "original full graph zero non-self degree => LightGBM both channels else original GitHub Transformer",
+      "source_checkpoint_sha256": "61132899cc29e108070b0d45ba9fad92ccc6c9c6009cc3fc45778d056341575b",
+      "checkpoint_export": "inference-only; parameters unchanged; no optimizer/RNG/local paths"
+    },
+    "D7_I210_W": {
+      "model": "adapted_lightgbm",
+      "score_common55": 0.9240697530141947,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "speed": "models/D7_I210_W/speed.txt",
+        "flow": "models/D7_I210_W/flow.txt"
+      },
+      "sha256": {
+        "speed": "ce57279d1684b1b88e8e28c07d24eebbb9f0c98bd8852b72db1769ce4408e2bd",
+        "flow": "4bec8930aa4b7ddc71110ae1649582f0a4a7d8be8e4a78860217206b7dc7ad3c"
+      },
+      "history": "models/D7_I210_W/history.npy",
+      "routing": "LightGBM both channels for whole road",
+      "history_sha256": "b1f2d3845255ac31f069ffcd20b323836bdf384930f992f3775f344e1e69d0c1"
+    },
+    "D7_I405_N": {
+      "model": "github_original_hybrid",
+      "score_common55": 0.933082696544326,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "transformer": "models/D7_I405_N/best.pt",
+        "history": "models/D7_I405_N/history.npz",
+        "speed": "models/D7_I405_N/speed_kmh.txt",
+        "flow": "models/D7_I405_N/flow_per_lane.txt"
+      },
+      "sha256": {
+        "transformer": "4705fc6f8d90d6d96e25a8d773e6c3455beb4736301ed46c23c145bab4d497a4",
+        "history": "d982c6297efedbc339c06a248856fc93e322aee2e3ea18d746d672b73e3d0984",
+        "speed": "6de6f74685216e6f9b148478fbf5a4ab649d00be392adc4fe3e61f8b6b08c05a",
+        "flow": "3538cee28465707328a9c5acd8f70acf73e660810628c2459d0ab6b147426fa3"
+      },
+      "routing": "original full graph zero non-self degree => LightGBM both channels else original GitHub Transformer",
+      "source_checkpoint_sha256": "2299d4f0dca34bb817954073b483c5056ff7d746fe23f65e579a9f629aa6e54e",
+      "checkpoint_export": "inference-only; parameters unchanged; no optimizer/RNG/local paths"
+    },
+    "D7_I405_S": {
+      "model": "adapted_lightgbm",
+      "score_common55": 0.9255738917198686,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "speed": "models/D7_I405_S/speed.txt",
+        "flow": "models/D7_I405_S/flow.txt"
+      },
+      "sha256": {
+        "speed": "d04950680e9746d555a5fe78989168f1953f1f9baf6336ee0aa08d858cc678b8",
+        "flow": "5301978b15e1c24f1221c393dea9ac66e82bab9bebc280718c1c4703c0c698e1"
+      },
+      "history": "models/D7_I405_S/history.npy",
+      "routing": "LightGBM both channels for whole road",
+      "history_sha256": "223db2f5bef92493b18568ef0bd7ae480c37c28acfff64d45d53838c5ad951f1"
+    }
+  }
+}

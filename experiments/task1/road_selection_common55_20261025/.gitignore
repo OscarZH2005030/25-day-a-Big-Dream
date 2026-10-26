@@ -1,0 +1,5 @@
+local-settings.json
+predictions/
+__pycache__/
+*.pyc
+*.log
