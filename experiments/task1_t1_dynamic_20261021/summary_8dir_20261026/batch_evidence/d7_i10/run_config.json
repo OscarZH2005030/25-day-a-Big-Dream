@@ -1,0 +1,590 @@
+{
+  "experiment": "remaining_t1_dynamic_batch_v1",
+  "project": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021",
+  "release_root": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream\\data\\kaggle_public",
+  "cache_dir": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor",
+  "device": "cuda",
+  "smoke": false,
+  "action": "run",
+  "panels": [
+    "D7_I10_E",
+    "D7_I10_W"
+  ],
+  "variants": [
+    "T1",
+    "A_dynamic"
+  ],
+  "training": {
+    "window": 24,
+    "patch_nodes": 64,
+    "width": 64,
+    "heads": 4,
+    "layers": 3,
+    "dropout": 0.1,
+    "batch_size": 2,
+    "seed": 2026,
+    "threads": 4,
+    "epochs": 60,
+    "steps_per_epoch": 1024,
+    "patience": 8,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "clip": 1.0,
+    "eval_batch": 2
+  },
+  "augmentation": {
+    "hidden_fraction": 0.1,
+    "extra_supervision_fraction": 0.2,
+    "patterns": [
+      "point",
+      "temporal",
+      "spatial"
+    ],
+    "temporal_lengths": [
+      6,
+      12
+    ],
+    "spatial_links": 4,
+    "spatial_ticks": 6
+  },
+  "split": {
+    "history_dates": [
+      "2030-06-01",
+      "2030-06-02",
+      "2030-06-03",
+      "2030-06-04",
+      "2030-06-05",
+      "2030-06-06",
+      "2030-06-07",
+      "2030-06-08",
+      "2030-06-09",
+      "2030-06-10",
+      "2030-06-11",
+      "2030-06-12",
+      "2030-06-13",
+      "2030-06-14",
+      "2030-06-15",
+      "2030-06-16",
+      "2030-06-17",
+      "2030-06-18",
+      "2030-06-19",
+      "2030-06-20",
+      "2030-06-21",
+      "2030-06-22",
+      "2030-06-23",
+      "2030-06-24",
+      "2030-06-25",
+      "2030-06-26",
+      "2030-06-27",
+      "2030-06-28"
+    ],
+    "training_dates": [
+      "2030-06-29",
+      "2030-06-30",
+      "2030-07-01",
+      "2030-07-02",
+      "2030-07-03",
+      "2030-07-04",
+      "2030-07-05",
+      "2030-07-06",
+      "2030-07-07",
+      "2030-07-08",
+      "2030-07-09",
+      "2030-07-10",
+      "2030-07-11",
+      "2030-07-12",
+      "2030-07-13",
+      "2030-07-14",
+      "2030-07-15",
+      "2030-07-16",
+      "2030-07-17",
+      "2030-07-18",
+      "2030-07-19",
+      "2030-07-20",
+      "2030-07-21",
+      "2030-07-22",
+      "2030-07-23",
+      "2030-07-24",
+      "2030-07-25",
+      "2030-07-26",
+      "2030-07-27",
+      "2030-07-28",
+      "2030-07-29",
+      "2030-07-30",
+      "2030-07-31",
+      "2030-08-01",
+      "2030-08-02",
+      "2030-08-03",
+      "2030-08-04",
+      "2030-08-05",
+      "2030-08-06",
+      "2030-08-07",
+      "2030-08-08",
+      "2030-08-09",
+      "2030-08-10",
+      "2030-08-11",
+      "2030-08-12",
+      "2030-08-13",
+      "2030-08-14",
+      "2030-08-15",
+      "2030-08-16",
+      "2030-08-17",
+      "2030-08-18",
+      "2030-08-19",
+      "2030-08-20",
+      "2030-08-21",
+      "2030-08-22",
+      "2030-08-23",
+      "2030-08-24",
+      "2030-08-25",
+      "2030-08-26",
+      "2030-08-27",
+      "2030-08-28",
+      "2030-08-29",
+      "2030-08-30",
+      "2030-08-31",
+      "2030-09-01",
+      "2030-09-02",
+      "2030-09-03",
+      "2030-09-04",
+      "2030-09-05",
+      "2030-09-06",
+      "2030-09-07",
+      "2030-09-08",
+      "2030-09-09",
+      "2030-09-10",
+      "2030-09-11",
+      "2030-09-12",
+      "2030-09-13",
+      "2030-09-14",
+      "2030-09-15",
+      "2030-09-16",
+      "2030-09-17",
+      "2030-09-18",
+      "2030-09-19",
+      "2030-09-20",
+      "2030-09-21",
+      "2030-09-22",
+      "2030-09-23",
+      "2030-09-24",
+      "2030-09-25",
+      "2030-09-26",
+      "2030-09-27",
+      "2030-09-28",
+      "2030-09-29",
+      "2030-09-30",
+      "2030-10-01",
+      "2030-10-02",
+      "2030-10-03",
+      "2030-10-04",
+      "2030-10-05",
+      "2030-10-06",
+      "2030-10-07",
+      "2030-10-08",
+      "2030-10-09",
+      "2030-10-10",
+      "2030-10-11",
+      "2030-10-12",
+      "2030-10-13",
+      "2030-10-14",
+      "2030-10-15",
+      "2030-10-16",
+      "2030-10-17",
+      "2030-10-18",
+      "2030-10-19",
+      "2030-10-20",
+      "2030-10-21",
+      "2030-10-22",
+      "2030-10-23",
+      "2030-10-24",
+      "2030-10-25",
+      "2030-10-26",
+      "2030-10-27",
+      "2030-10-28",
+      "2030-10-29",
+      "2030-10-30",
+      "2030-10-31",
+      "2030-11-01",
+      "2030-11-02",
+      "2030-11-03",
+      "2030-11-04",
+      "2030-11-05",
+      "2030-11-06",
+      "2030-11-07",
+      "2030-11-08",
+      "2030-11-09",
+      "2030-11-10",
+      "2030-11-11",
+      "2030-11-12",
+      "2030-11-13",
+      "2030-11-14",
+      "2030-11-15",
+      "2030-11-16",
+      "2030-11-17",
+      "2030-11-18",
+      "2030-11-19",
+      "2030-11-20",
+      "2030-11-21",
+      "2030-11-22",
+      "2030-11-23",
+      "2030-11-24",
+      "2030-11-25",
+      "2030-11-26",
+      "2030-11-27",
+      "2030-11-28",
+      "2030-11-29",
+      "2030-11-30",
+      "2030-12-01",
+      "2030-12-02",
+      "2030-12-03",
+      "2030-12-04",
+      "2030-12-05",
+      "2030-12-06",
+      "2030-12-07",
+      "2030-12-08",
+      "2030-12-09",
+      "2030-12-10",
+      "2030-12-11",
+      "2030-12-12",
+      "2030-12-13"
+    ],
+    "internal_validation_dates": [
+      "2030-12-14",
+      "2030-12-15",
+      "2030-12-16",
+      "2030-12-17",
+      "2030-12-18",
+      "2030-12-19",
+      "2030-12-20",
+      "2030-12-21",
+      "2030-12-22",
+      "2030-12-23",
+      "2030-12-24",
+      "2030-12-25",
+      "2030-12-26",
+      "2030-12-27",
+      "2030-12-28",
+      "2030-12-29",
+      "2030-12-30",
+      "2030-12-31",
+      "2031-01-01",
+      "2031-01-02",
+      "2031-01-03",
+      "2031-01-04"
+    ],
+    "holdout_dates": [
+      "2031-01-05",
+      "2031-01-06",
+      "2031-01-07",
+      "2031-01-08",
+      "2031-01-09",
+      "2031-01-10",
+      "2031-01-11",
+      "2031-01-12",
+      "2031-01-13",
+      "2031-01-14",
+      "2031-01-15",
+      "2031-01-16",
+      "2031-01-17",
+      "2031-01-18",
+      "2031-01-19",
+      "2031-01-20",
+      "2031-01-21",
+      "2031-01-22",
+      "2031-01-23",
+      "2031-01-24",
+      "2031-01-25",
+      "2031-01-26",
+      "2031-01-27",
+      "2031-01-28",
+      "2031-01-29",
+      "2031-01-30",
+      "2031-01-31",
+      "2031-02-01",
+      "2031-02-02",
+      "2031-02-03",
+      "2031-02-04",
+      "2031-02-05",
+      "2031-02-06",
+      "2031-02-07",
+      "2031-02-08",
+      "2031-02-09",
+      "2031-02-10",
+      "2031-02-11",
+      "2031-02-12",
+      "2031-02-13",
+      "2031-02-14",
+      "2031-02-15",
+      "2031-02-16",
+      "2031-02-17",
+      "2031-02-18",
+      "2031-02-19",
+      "2031-02-20",
+      "2031-02-21",
+      "2031-02-22",
+      "2031-02-23",
+      "2031-02-24",
+      "2031-02-25",
+      "2031-02-26",
+      "2031-02-27",
+      "2031-02-28"
+    ],
+    "panels": [
+      "D7_I10_E",
+      "D7_I10_W"
+    ]
+  },
+  "fusion_mode": "rebuild_t0",
+  "methods": [
+    "T0",
+    "LightGBM",
+    "T1",
+    "Current_fusion",
+    "A_dynamic",
+    "A_dynamic_fixed"
+  ],
+  "fixed_fusion": {
+    "beta": 0.5,
+    "speed": 0.1,
+    "flow": 0.1
+  },
+  "implementation": [
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\cache.py",
+      "bytes": 3271,
+      "sha256": "05a6e413272a05101612e7ffb870af6f4f3274e329cae4dd2190f434c99a23d8"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\data.py",
+      "bytes": 6153,
+      "sha256": "093cf69989f7be2ab2274fae57e571b57fc3be94323f2261786bd389b752bf75"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\metrics.py",
+      "bytes": 2870,
+      "sha256": "f38df04db4e3091bf787155a4236225185ad96d4d09c71fe7049c3f00b9dfa35"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\__init__.py",
+      "bytes": 85,
+      "sha256": "b4013c1c60c51e1664a844715e46cc2b6a91828e2b2c4df0b976da089a2cd9c3"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\__main__.py",
+      "bytes": 1225,
+      "sha256": "ba3eb78ce892aa3a1b624d79523270b9f1ba3d4cf0de507f055bbb4e068214aa"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\common.py",
+      "bytes": 5474,
+      "sha256": "099f8cca3c6cac3123c60fe198655a950e541555f36cb14e6724f90cb680ef74"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\data.py",
+      "bytes": 14932,
+      "sha256": "bc1ae1c945cd20733d4b52e45dbfeb2ea24fbc038923a653fb9ee972d9eade8d"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\lightgbm.py",
+      "bytes": 5220,
+      "sha256": "511eb8f7c9a7f5fb9be2e9e49070d9aefac35883ac9a6f0991df04156099e14b"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\model.py",
+      "bytes": 6830,
+      "sha256": "94b6a3330e5f6a1fdd1843444d012137f7292e2a1665a7308230501f2a91a85e"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\reference_feature_names.json",
+      "bytes": 1222,
+      "sha256": "c6f9ecf4e7db21dcc2d7a1e40db41b956ab128364923d32eacbbb1436bd00c02"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\reference_routing_counts.csv",
+      "bytes": 547,
+      "sha256": "4c0b45bf673982a33175a0c2fd3a5181c500e6e596f0d1e5b3d442dd98598c89"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\reference_split.json",
+      "bytes": 5216,
+      "sha256": "8055ccf558b54ed067368edb7c0f30054b3726d757f885bc7b0f9448c60d68aa"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\runner.py",
+      "bytes": 24706,
+      "sha256": "b394634621d8a3f6878ad4658e8a55563b2533c3cc3d1ad6f2f48624ee90b7d3"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\train.py",
+      "bytes": 13947,
+      "sha256": "a989d95685f57e42886215f9ad6aeffa2ec27b5567b54718817ce3a713b52936"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\upstream\\full_train_worker.py",
+      "bytes": 34092,
+      "sha256": "8a33c4534f5b43807c316fc6b852985e51ff8ff5605de349a1254cb633a9832c"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\upstream\\task1_baseline.py",
+      "bytes": 16423,
+      "sha256": "87e00183397638e3ec175ea1b3d61b7e5c8a5cbc8938de259f1af075ac26cca0"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\upstream\\train_all_corridors.py",
+      "bytes": 6685,
+      "sha256": "ec43c9531db0cca5b558e895d84b65a7e0e9e239cb7f92248b6046ecf7b3f247"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\upstream\\training_io.py",
+      "bytes": 1462,
+      "sha256": "38c1365709a03cb1dfdc929fa4897e47a7437a90a85281aad8378fc274e19525"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\transformer_priority\\upstream_sha256.json",
+      "bytes": 378,
+      "sha256": "8eb995b083a3a0b91d8df97b7f3cc869b118ea85d31464c4ad8ce2727cb60312"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\task1\\wave_neural\\cache.py",
+      "bytes": 2420,
+      "sha256": "4c94d2501cc67410f4158bf8076ffc54d89e540faaf373e0935b0d8db32047d6"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_cross_corridor\\__init__.py",
+      "bytes": 77,
+      "sha256": "df73f855e3f9f418d68768ce960403fa7c79cb97cb84df9c6270af005e8d5978"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_cross_corridor\\__main__.py",
+      "bytes": 1625,
+      "sha256": "212bf26bedb80340720cf6ca7c30ea8f771f66de62ba030203c1057930ea5347"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_cross_corridor\\common.py",
+      "bytes": 2098,
+      "sha256": "59bdc17e1b340eee19b45e059a43a042dd2042ad3d3202016ece3f61c4643aee"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_cross_corridor\\runner.py",
+      "bytes": 20306,
+      "sha256": "c3caace86f94ea4f30716a2d9d877566cd602e4b57168ea8fcd3b7a30e8fc628"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_cross_corridor\\source.py",
+      "bytes": 4874,
+      "sha256": "2c3978a1ab135fe3910c88f7205c13f7a145fe45940402860ec2c33def48aac4"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_fusion\\__init__.py",
+      "bytes": 75,
+      "sha256": "8ab2bcb7b17a2e4395e82084053a1950c700eb03f60a24c4ce4cf8764461064c"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_fusion\\__main__.py",
+      "bytes": 1566,
+      "sha256": "89fd79201e95a5328df450a2a72062d3ea91b387055f1141fe5ee201fd194efa"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_fusion\\core.py",
+      "bytes": 6075,
+      "sha256": "7d641e05fb11a65f42cd3fbe434cc4faea6f444d45a9abff7b6667e1b1232399"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_fusion\\runner.py",
+      "bytes": 18811,
+      "sha256": "b203f92e30f445a93d0ec163c2cefd57721ee20e044437424d4c5e9e805b830f"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_fusion\\source.py",
+      "bytes": 15651,
+      "sha256": "e8f985897bdfb8aac856973e6ac27b42b95d846c8e25118aef1f1cadd6a7fa18"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\__init__.py",
+      "bytes": 82,
+      "sha256": "231a99a468ed4d36dd3ecb7955522a4b275e0f8fe092a2cc0cb94f3e275c78b5"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\__main__.py",
+      "bytes": 2509,
+      "sha256": "b81913487403db716100a2378b2275e0e96ad39e9f4b8bbbd5f617e4441e91df"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\common.py",
+      "bytes": 2810,
+      "sha256": "cc154ac1d56e0f2eb3269c585085b7a3b4a42257dd68e7a5b71249e8abba95da"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\engine.py",
+      "bytes": 1026,
+      "sha256": "1f2951f0da613688574b3e4090e4cc003fdbfbf2ae2acdbc9d64e6046ff538bf"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\logging.py",
+      "bytes": 3334,
+      "sha256": "d53bace4b78a926587bab684b8577365bcbb500b097d91dc97cdde891bfc69a7"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\queue.py",
+      "bytes": 12636,
+      "sha256": "1a18e84bef5c62fce0bb6ccde59c56e5b5a0d30ec1a33cf0a8f9eedfe3edf11b"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\source.py",
+      "bytes": 134,
+      "sha256": "1995eed1340eb90304eeb5a285691ec986500c8275a80815188564345fd8564c"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_remaining\\summary.py",
+      "bytes": 13024,
+      "sha256": "381ab6ad59d80ab2418308796801baad715dc795ccaaa432d4d4cdf2a37cfd7e"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\__init__.py",
+      "bytes": 74,
+      "sha256": "aa0c7dea33b1dad66728ddb739eebe21fa54a4e3f688866377f323ee0c505364"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\__main__.py",
+      "bytes": 1553,
+      "sha256": "fc0ab6dc89c81935f3b44850f50878d1abfa66c54b4c0d5bbcf46f4d675ad6c2"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\augment.py",
+      "bytes": 7155,
+      "sha256": "77daa7afc566b188623ea27af136f34c3f749cedd970c1656684c64cca78d5f8"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\common.py",
+      "bytes": 770,
+      "sha256": "ad1a47d736208369ee318710429f5b74c1e9aabfbcff111921c10eaf6f4a9f83"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\runner.py",
+      "bytes": 22476,
+      "sha256": "edf52ddbf070c5a5de484732f16c3afa75c0a8672f0661d4f6411906de16158e"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\sampling.py",
+      "bytes": 6481,
+      "sha256": "f98dbac8284880ebf8a731a69d37b9e5827ddea04bd315c01587fafb0c7f65cd"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\source.py",
+      "bytes": 3650,
+      "sha256": "9d831b0108352f1198f280d68f9e53d19b5483dad600a00a14c344e71883d650"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\transformer_training\\train.py",
+      "bytes": 12260,
+      "sha256": "5619ba40156978b35ce0f52c01556f3351fb907a6f55f2e799bf9b51a4f3d3f8"
+    }
+  ],
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0",
+    "lightgbm": "4.7.0"
+  }
+}

@@ -1,0 +1,3 @@
+reference,candidate,replicates,ci95_low,ci95_high,sampling,limitation
+T1,A_dynamic,2000,-3.898047353098621e-06,0.0005244719872886103,"Calendar dates paired across panels, stratified by joint panel/regime signatures",Descriptive fixed-model local holdout uncertainty; no retraining/selection correction; not independent-test evidence
+Current_fusion,A_dynamic_fixed,2000,3.536589542790514e-05,0.00024948537029293165,"Calendar dates paired across panels, stratified by joint panel/regime signatures",Descriptive fixed-model local holdout uncertainty; no retraining/selection correction; not independent-test evidence

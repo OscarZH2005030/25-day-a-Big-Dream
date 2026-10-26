@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "all_models_frozen_before_holdout": true,
+  "isolated_exact": true,
+  "fixed_formula_exact": true,
+  "internal_checkpoint_replayed": true,
+  "full_dates": true,
+  "main_neural_models": 4,
+  "auxiliary_t0_models": 2,
+  "limitation": "One new two-direction family; local exploratory evidence, not a ten-direction score"
+}

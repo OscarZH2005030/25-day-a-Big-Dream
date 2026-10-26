@@ -1,0 +1,910 @@
+{
+  "D7_I10_E": {
+    "LightGBM": {
+      "model": {
+        "key": "dcba4708cdf097d347edc978ea246a7e15b90c52b6bef299314bd4557d1f6a92",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\dcba4708cdf097d347edc978ea246a7e15b90c52b6bef299314bd4557d1f6a92",
+        "hit": true,
+        "metadata": {
+          "choices": [
+            {
+              "channel": "speed_kmh",
+              "best_iteration": 1517,
+              "internal_RMSE": 1.8700269713621427
+            },
+            {
+              "channel": "flow_per_lane",
+              "best_iteration": 2000,
+              "internal_RMSE": 37.48403714248981
+            }
+          ],
+          "training_rows": 1762270
+        }
+      },
+      "internal_predictions": {
+        "key": "3c8999b463affeba5c18be9c3e6d77da1e1599bd0328964cfb51f6c50de4df2b",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\3c8999b463affeba5c18be9c3e6d77da1e1599bd0328964cfb51f6c50de4df2b",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "54548b1c82eafbe320a502efc909e63fe03d1bfe963a90308588124dfa4151b3",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\54548b1c82eafbe320a502efc909e63fe03d1bfe963a90308588124dfa4151b3",
+        "hit": true
+      }
+    },
+    "T1": {
+      "model": {
+        "key": "2728fbb03a68b7254692370512b6475676cd8c4e6e43848e5a77102ecd08eca1",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\models\\2728fbb03a68b7254692370512b6475676cd8c4e6e43848e5a77102ecd08eca1",
+        "hit": true,
+        "best": {
+          "name": "epoch_028.pt",
+          "sha256": "2c40128d3350d98ae909a8b6932cfd0c30799c1e4d0c1881086bb875d9a1ed86",
+          "identity": "2728fbb03a68b7254692370512b6475676cd8c4e6e43848e5a77102ecd08eca1"
+        },
+        "selection": {
+          "variant": "T1",
+          "best_epoch": 28,
+          "best_internal_S_state": 0.9396065676489339,
+          "epochs_run": 36,
+          "optimizer_updates": 36864,
+          "common_initial_sha256": "77692f0e131777d33047c4ac10373e4ae6697064e9664cc1acf160f0fb022400",
+          "parameters": 208678,
+          "best_checkpoint_coverage": {
+            "available_targets": 1762270,
+            "unique_targets_seen": 1762260,
+            "target_visits": 20304239,
+            "steps": 28672,
+            "empty_steps": 0,
+            "sampling_sha256": "9113d32d3ade6c37db04bcf102dd4bb761d70e3c27e81894ee1bf112aaf0225b",
+            "groups": {
+              "all": {
+                "available": 1762270,
+                "unique": 1762260,
+                "visits": 20304239,
+                "unique_fraction": 0.9999943255006327,
+                "mean_visits": 11.521639135887236
+              },
+              "time_edge": {
+                "available": 146757,
+                "unique": 146757,
+                "visits": 1719598,
+                "unique_fraction": 1.0,
+                "mean_visits": 11.717315017341592
+              },
+              "road_edge": {
+                "available": 193172,
+                "unique": 193172,
+                "visits": 2219862,
+                "unique_fraction": 1.0,
+                "mean_visits": 11.491634398360011
+              },
+              "joint_edge": {
+                "available": 16294,
+                "unique": 16294,
+                "visits": 191609,
+                "unique_fraction": 1.0,
+                "mean_visits": 11.759482017920707
+              },
+              "interior": {
+                "available": 1438635,
+                "unique": 1438625,
+                "visits": 16556388,
+                "unique_fraction": 0.999993048966555,
+                "mean_visits": 11.50840067146983
+              }
+            }
+          },
+          "final_coverage": {
+            "available_targets": 1762270,
+            "unique_targets_seen": 1762270,
+            "target_visits": 26125604,
+            "steps": 36864,
+            "empty_steps": 0,
+            "sampling_sha256": "baf581180a29ed87c87f31706d0d000f28b564c69b0e33fc325c6ea87f4c0a24",
+            "groups": {
+              "all": {
+                "available": 1762270,
+                "unique": 1762270,
+                "visits": 26125604,
+                "unique_fraction": 1.0,
+                "mean_visits": 14.824972336815584
+              },
+              "time_edge": {
+                "available": 146757,
+                "unique": 146757,
+                "visits": 2200004,
+                "unique_fraction": 1.0,
+                "mean_visits": 14.990794306234115
+              },
+              "road_edge": {
+                "available": 193172,
+                "unique": 193172,
+                "visits": 2861869,
+                "unique_fraction": 1.0,
+                "mean_visits": 14.815133663263827
+              },
+              "joint_edge": {
+                "available": 16294,
+                "unique": 16294,
+                "visits": 245022,
+                "unique_fraction": 1.0,
+                "mean_visits": 15.03755983797717
+              },
+              "interior": {
+                "available": 1438635,
+                "unique": 1438635,
+                "visits": 21308753,
+                "unique_fraction": 1.0,
+                "mean_visits": 14.811785477205824
+              }
+            }
+          },
+          "selection": "Same original raw-network internal regime macro S as T1; no holdout labels",
+          "config": {
+            "window": 24,
+            "patch_nodes": 64,
+            "width": 64,
+            "heads": 4,
+            "layers": 3,
+            "dropout": 0.1,
+            "batch_size": 2,
+            "seed": 2026,
+            "threads": 4,
+            "epochs": 60,
+            "steps_per_epoch": 1024,
+            "patience": 8,
+            "learning_rate": 0.0003,
+            "weight_decay": 0.01,
+            "clip": 1.0,
+            "eval_batch": 2
+          }
+        }
+      },
+      "internal_predictions": {
+        "key": "9f48a0450d15537b6f70f4a85918d9c705c1d973f3d054cc4c9b644ea0757116",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\9f48a0450d15537b6f70f4a85918d9c705c1d973f3d054cc4c9b644ea0757116",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "1f1a3d68650d1735284e4b5e43401df2603a9c102ae0c1b97477bacd10af2aba",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\1f1a3d68650d1735284e4b5e43401df2603a9c102ae0c1b97477bacd10af2aba",
+        "hit": true
+      }
+    },
+    "A_dynamic": {
+      "model": {
+        "key": "82220bbd09e885f6563fafd1b3dd6314bba0ce7cb063f852e4215382b7f21223",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\models\\82220bbd09e885f6563fafd1b3dd6314bba0ce7cb063f852e4215382b7f21223",
+        "hit": true,
+        "best": {
+          "name": "epoch_038.pt",
+          "sha256": "a9f844e265477fb0e80a67a538d5c717f2161b2f80e92e03957e0dcd18d7c13e",
+          "identity": "82220bbd09e885f6563fafd1b3dd6314bba0ce7cb063f852e4215382b7f21223"
+        },
+        "selection": {
+          "variant": "A_dynamic",
+          "best_epoch": 38,
+          "best_internal_S_state": 0.9399532966320946,
+          "epochs_run": 46,
+          "optimizer_updates": 47104,
+          "common_initial_sha256": "77692f0e131777d33047c4ac10373e4ae6697064e9664cc1acf160f0fb022400",
+          "parameters": 208678,
+          "best_checkpoint_coverage": {
+            "available_targets": 1762270,
+            "unique_targets_seen": 1762267,
+            "target_visits": 23592941,
+            "steps": 38912,
+            "empty_steps": 0,
+            "sampling_sha256": "b32f2253527552b7507a2f208ae6ed06081f331b569b04457a312ac2445156db",
+            "groups": {
+              "all": {
+                "available": 1762270,
+                "unique": 1762267,
+                "visits": 23592941,
+                "unique_fraction": 0.9999982976501898,
+                "mean_visits": 13.387812877708864
+              },
+              "time_edge": {
+                "available": 146757,
+                "unique": 146757,
+                "visits": 2008275,
+                "unique_fraction": 1.0,
+                "mean_visits": 13.684355771786013
+              },
+              "road_edge": {
+                "available": 193172,
+                "unique": 193172,
+                "visits": 2578453,
+                "unique_fraction": 1.0,
+                "mean_visits": 13.347964508313835
+              },
+              "joint_edge": {
+                "available": 16294,
+                "unique": 16294,
+                "visits": 222793,
+                "unique_fraction": 1.0,
+                "mean_visits": 13.673315330796612
+              },
+              "interior": {
+                "available": 1438635,
+                "unique": 1438632,
+                "visits": 19229006,
+                "unique_fraction": 0.9999979146899666,
+                "mean_visits": 13.366146381813316
+              }
+            }
+          },
+          "final_coverage": {
+            "available_targets": 1762270,
+            "unique_targets_seen": 1762270,
+            "target_visits": 28575210,
+            "steps": 47104,
+            "empty_steps": 0,
+            "sampling_sha256": "97a1af8769e137de7e385e648d419fb5d7c621d334d9f49673e15d3a5a37129b",
+            "groups": {
+              "all": {
+                "available": 1762270,
+                "unique": 1762270,
+                "visits": 28575210,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.215001106527378
+              },
+              "time_edge": {
+                "available": 146757,
+                "unique": 146757,
+                "visits": 2440389,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.628774095954537
+              },
+              "road_edge": {
+                "available": 193172,
+                "unique": 193172,
+                "visits": 3119057,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.146527447042015
+              },
+              "joint_edge": {
+                "available": 16294,
+                "unique": 16294,
+                "visits": 270117,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.57769731189395
+              },
+              "interior": {
+                "available": 1438635,
+                "unique": 1438635,
+                "visits": 23285881,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.186093762490138
+              }
+            }
+          },
+          "selection": "Same original raw-network internal regime macro S as T1; no holdout labels",
+          "config": {
+            "window": 24,
+            "patch_nodes": 64,
+            "width": 64,
+            "heads": 4,
+            "layers": 3,
+            "dropout": 0.1,
+            "batch_size": 2,
+            "seed": 2026,
+            "threads": 4,
+            "epochs": 60,
+            "steps_per_epoch": 1024,
+            "patience": 8,
+            "learning_rate": 0.0003,
+            "weight_decay": 0.01,
+            "clip": 1.0,
+            "eval_batch": 2
+          }
+        }
+      },
+      "internal_predictions": {
+        "key": "6d961dc691ecd4539dc0cd44d04fd9c0e73e103cb37851e03c122b0c2aed9997",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\6d961dc691ecd4539dc0cd44d04fd9c0e73e103cb37851e03c122b0c2aed9997",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "af8cadc186302c0878c1cf5675422dcf4e38bcd95d5e530723e1e90d344d9635",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\af8cadc186302c0878c1cf5675422dcf4e38bcd95d5e530723e1e90d344d9635",
+        "hit": true
+      }
+    },
+    "T0": {
+      "model": {
+        "key": "7e8995593b4a31445eb22335de2a23851ba9b52909870393933f7dae804cb9bd",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\models\\7e8995593b4a31445eb22335de2a23851ba9b52909870393933f7dae804cb9bd",
+        "hit": true,
+        "best": {
+          "name": "epoch_044.pt",
+          "sha256": "8ac6489ffab7ce1af2d7e742550e1d7876aead5074ca5aa6abb463c54322bc16",
+          "identity": "7e8995593b4a31445eb22335de2a23851ba9b52909870393933f7dae804cb9bd"
+        },
+        "selection": {
+          "variant": "T0",
+          "best_epoch": 44,
+          "best_internal_S_state": 0.9394620561707719,
+          "epochs_run": 52,
+          "optimizer_updates": 53248,
+          "common_initial_sha256": "77692f0e131777d33047c4ac10373e4ae6697064e9664cc1acf160f0fb022400",
+          "parameters": 208678,
+          "best_checkpoint_coverage": {
+            "available_targets": 1762270,
+            "unique_targets_seen": 1713916,
+            "target_visits": 34574965,
+            "steps": 45056,
+            "empty_steps": 0,
+            "sampling_sha256": "fc6d87e5f86cc6204b2e1aa3aa7bc5d62504439a3e2610263d8912a6a9b5eae9",
+            "groups": {
+              "all": {
+                "available": 1762270,
+                "unique": 1713916,
+                "visits": 34574965,
+                "unique_fraction": 0.9725615257593899,
+                "mean_visits": 19.61956170166887
+              },
+              "time_edge": {
+                "available": 146757,
+                "unique": 128158,
+                "visits": 862948,
+                "unique_fraction": 0.8732666925598097,
+                "mean_visits": 5.880114747507785
+              },
+              "road_edge": {
+                "available": 193172,
+                "unique": 154826,
+                "visits": 462607,
+                "unique_fraction": 0.8014929699956516,
+                "mean_visits": 2.394793241256497
+              },
+              "joint_edge": {
+                "available": 16294,
+                "unique": 7370,
+                "visits": 11987,
+                "unique_fraction": 0.45231373511722106,
+                "mean_visits": 0.7356695716214557
+              },
+              "interior": {
+                "available": 1438635,
+                "unique": 1438302,
+                "visits": 33261397,
+                "unique_fraction": 0.9997685305862849,
+                "mean_visits": 23.120108297101073
+              }
+            }
+          },
+          "final_coverage": {
+            "available_targets": 1762270,
+            "unique_targets_seen": 1722787,
+            "target_visits": 40847752,
+            "steps": 53248,
+            "empty_steps": 0,
+            "sampling_sha256": "6536c290b0dff78d7d0d1c81c8d73d9f881c0974944cb148703fc06a32ddae46",
+            "groups": {
+              "all": {
+                "available": 1762270,
+                "unique": 1722787,
+                "visits": 40847752,
+                "unique_fraction": 0.9775953741481158,
+                "mean_visits": 23.179054287935447
+              },
+              "time_edge": {
+                "available": 146757,
+                "unique": 131081,
+                "visits": 1012263,
+                "unique_fraction": 0.8931839707816323,
+                "mean_visits": 6.897544921196263
+              },
+              "road_edge": {
+                "available": 193172,
+                "unique": 161318,
+                "visits": 548145,
+                "unique_fraction": 0.8351003250988757,
+                "mean_visits": 2.8376006874702338
+              },
+              "joint_edge": {
+                "available": 16294,
+                "unique": 8129,
+                "visits": 14158,
+                "unique_fraction": 0.4988952988830244,
+                "mean_visits": 0.8689088007855652
+              },
+              "interior": {
+                "available": 1438635,
+                "unique": 1438517,
+                "visits": 39301502,
+                "unique_fraction": 0.9999179778053502,
+                "mean_visits": 27.318605483670286
+              }
+            }
+          },
+          "selection": "Same original raw-network internal regime macro S as T1; no holdout labels",
+          "config": {
+            "window": 24,
+            "patch_nodes": 64,
+            "width": 64,
+            "heads": 4,
+            "layers": 3,
+            "dropout": 0.1,
+            "batch_size": 2,
+            "seed": 2026,
+            "threads": 4,
+            "epochs": 60,
+            "steps_per_epoch": 1024,
+            "patience": 8,
+            "learning_rate": 0.0003,
+            "weight_decay": 0.01,
+            "clip": 1.0,
+            "eval_batch": 2
+          }
+        }
+      },
+      "internal_predictions": {
+        "key": "2f6bf26b5cc8a0245ddfa4dab549f0c7e77961eb8e6d3c576ff5386592e3f1cf",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\2f6bf26b5cc8a0245ddfa4dab549f0c7e77961eb8e6d3c576ff5386592e3f1cf",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "e8248287a533c69ef29582855371e07b8a91f81f0facb7ee269c84fc130fbfb3",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\e8248287a533c69ef29582855371e07b8a91f81f0facb7ee269c84fc130fbfb3",
+        "hit": true
+      }
+    }
+  },
+  "D7_I10_W": {
+    "LightGBM": {
+      "model": {
+        "key": "27aa162c6aa9429c0090b251e0fe76b44af5823d5ea793ce1f2c772a8497a2c8",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\27aa162c6aa9429c0090b251e0fe76b44af5823d5ea793ce1f2c772a8497a2c8",
+        "hit": true,
+        "metadata": {
+          "choices": [
+            {
+              "channel": "speed_kmh",
+              "best_iteration": 592,
+              "internal_RMSE": 1.2889243510502586
+            },
+            {
+              "channel": "flow_per_lane",
+              "best_iteration": 2000,
+              "internal_RMSE": 31.332576754365057
+            }
+          ],
+          "training_rows": 1300117
+        }
+      },
+      "internal_predictions": {
+        "key": "2d4368c7a1dadd1067a83bb8cecb40d0aca55c3c0e0144a9afc8bc3772111ce8",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\2d4368c7a1dadd1067a83bb8cecb40d0aca55c3c0e0144a9afc8bc3772111ce8",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "ebe4891e5a0b180f49ba1a2aa3900d8703818972549383d00a82722139920e20",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\ebe4891e5a0b180f49ba1a2aa3900d8703818972549383d00a82722139920e20",
+        "hit": true
+      }
+    },
+    "T1": {
+      "model": {
+        "key": "8273dbfe541f2c69a033ae144c6be7d88e60656b3a0ebd658bd2cb5ae1832d67",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\models\\8273dbfe541f2c69a033ae144c6be7d88e60656b3a0ebd658bd2cb5ae1832d67",
+        "hit": true,
+        "best": {
+          "name": "epoch_027.pt",
+          "sha256": "8ede21a95d83ca6b155dcb8d2029c6f4b2b465006d53495da92f247d436e33dc",
+          "identity": "8273dbfe541f2c69a033ae144c6be7d88e60656b3a0ebd658bd2cb5ae1832d67"
+        },
+        "selection": {
+          "variant": "T1",
+          "best_epoch": 27,
+          "best_internal_S_state": 0.9487677511245002,
+          "epochs_run": 35,
+          "optimizer_updates": 35840,
+          "common_initial_sha256": "77692f0e131777d33047c4ac10373e4ae6697064e9664cc1acf160f0fb022400",
+          "parameters": 208678,
+          "best_checkpoint_coverage": {
+            "available_targets": 1300117,
+            "unique_targets_seen": 1300117,
+            "target_visits": 19687337,
+            "steps": 27648,
+            "empty_steps": 0,
+            "sampling_sha256": "7dc7894bdfe73d7a95c3c00df3e2031c71b15814477afd04f469de934be75f90",
+            "groups": {
+              "all": {
+                "available": 1300117,
+                "unique": 1300117,
+                "visits": 19687337,
+                "unique_fraction": 1.0,
+                "mean_visits": 15.142742537786983
+              },
+              "time_edge": {
+                "available": 108117,
+                "unique": 108117,
+                "visits": 1663514,
+                "unique_fraction": 1.0,
+                "mean_visits": 15.386238981843743
+              },
+              "road_edge": {
+                "available": 194054,
+                "unique": 194054,
+                "visits": 2930278,
+                "unique_fraction": 1.0,
+                "mean_visits": 15.100322590619106
+              },
+              "joint_edge": {
+                "available": 16030,
+                "unique": 16030,
+                "visits": 247501,
+                "unique_fraction": 1.0,
+                "mean_visits": 15.439862757330006
+              },
+              "interior": {
+                "available": 1013976,
+                "unique": 1013976,
+                "visits": 15341046,
+                "unique_fraction": 1.0,
+                "mean_visits": 15.12959478330848
+              }
+            }
+          },
+          "final_coverage": {
+            "available_targets": 1300117,
+            "unique_targets_seen": 1300117,
+            "target_visits": 25537800,
+            "steps": 35840,
+            "empty_steps": 0,
+            "sampling_sha256": "efc0531bd50437de1259f9c7cbedafa35d1f62a00940720f99fc6aaa691252f6",
+            "groups": {
+              "all": {
+                "available": 1300117,
+                "unique": 1300117,
+                "visits": 25537800,
+                "unique_fraction": 1.0,
+                "mean_visits": 19.642693696028896
+              },
+              "time_edge": {
+                "available": 108117,
+                "unique": 108117,
+                "visits": 2141922,
+                "unique_fraction": 1.0,
+                "mean_visits": 19.811149032992038
+              },
+              "road_edge": {
+                "available": 194054,
+                "unique": 194054,
+                "visits": 3798890,
+                "unique_fraction": 1.0,
+                "mean_visits": 19.57645809929195
+              },
+              "joint_edge": {
+                "available": 16030,
+                "unique": 16030,
+                "visits": 317606,
+                "unique_fraction": 1.0,
+                "mean_visits": 19.813225202744853
+              },
+              "interior": {
+                "available": 1013976,
+                "unique": 1013976,
+                "visits": 19914594,
+                "unique_fraction": 1.0,
+                "mean_visits": 19.6401039077848
+              }
+            }
+          },
+          "selection": "Same original raw-network internal regime macro S as T1; no holdout labels",
+          "config": {
+            "window": 24,
+            "patch_nodes": 64,
+            "width": 64,
+            "heads": 4,
+            "layers": 3,
+            "dropout": 0.1,
+            "batch_size": 2,
+            "seed": 2026,
+            "threads": 4,
+            "epochs": 60,
+            "steps_per_epoch": 1024,
+            "patience": 8,
+            "learning_rate": 0.0003,
+            "weight_decay": 0.01,
+            "clip": 1.0,
+            "eval_batch": 2
+          }
+        }
+      },
+      "internal_predictions": {
+        "key": "513ff821dda6069890dcfe2931b632f5b2c337e1a9646d9ce6ddc9a9de2ba282",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\513ff821dda6069890dcfe2931b632f5b2c337e1a9646d9ce6ddc9a9de2ba282",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "117cdad656a3fdeb18babb139e19e0a44b6d188d07382a0a0318172536ab7473",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\117cdad656a3fdeb18babb139e19e0a44b6d188d07382a0a0318172536ab7473",
+        "hit": true
+      }
+    },
+    "A_dynamic": {
+      "model": {
+        "key": "cdb2619377ab79100cf3db664de5c2e977344e62c5409bb50d37ef81a9aa6f5d",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\models\\cdb2619377ab79100cf3db664de5c2e977344e62c5409bb50d37ef81a9aa6f5d",
+        "hit": true,
+        "best": {
+          "name": "epoch_027.pt",
+          "sha256": "718df875baf4ca9fa9acfb0ad62667ea7ff14d97b613dd612079aa5db2b6cfca",
+          "identity": "cdb2619377ab79100cf3db664de5c2e977344e62c5409bb50d37ef81a9aa6f5d"
+        },
+        "selection": {
+          "variant": "A_dynamic",
+          "best_epoch": 27,
+          "best_internal_S_state": 0.9485146676646906,
+          "epochs_run": 35,
+          "optimizer_updates": 35840,
+          "common_initial_sha256": "77692f0e131777d33047c4ac10373e4ae6697064e9664cc1acf160f0fb022400",
+          "parameters": 208678,
+          "best_checkpoint_coverage": {
+            "available_targets": 1300117,
+            "unique_targets_seen": 1300116,
+            "target_visits": 16840568,
+            "steps": 27648,
+            "empty_steps": 0,
+            "sampling_sha256": "7dc7894bdfe73d7a95c3c00df3e2031c71b15814477afd04f469de934be75f90",
+            "groups": {
+              "all": {
+                "available": 1300117,
+                "unique": 1300116,
+                "visits": 16840568,
+                "unique_fraction": 0.9999992308384553,
+                "mean_visits": 12.953117296366404
+              },
+              "time_edge": {
+                "available": 108117,
+                "unique": 108117,
+                "visits": 1435283,
+                "unique_fraction": 1.0,
+                "mean_visits": 13.275275858560633
+              },
+              "road_edge": {
+                "available": 194054,
+                "unique": 194054,
+                "visits": 2509610,
+                "unique_fraction": 1.0,
+                "mean_visits": 12.93253424304575
+              },
+              "joint_edge": {
+                "available": 16030,
+                "unique": 16030,
+                "visits": 214054,
+                "unique_fraction": 1.0,
+                "mean_visits": 13.35333749220212
+              },
+              "interior": {
+                "available": 1013976,
+                "unique": 1013975,
+                "visits": 13109729,
+                "unique_fraction": 0.9999990137833638,
+                "mean_visits": 12.929032837069123
+              }
+            }
+          },
+          "final_coverage": {
+            "available_targets": 1300117,
+            "unique_targets_seen": 1300117,
+            "target_visits": 21845646,
+            "steps": 35840,
+            "empty_steps": 0,
+            "sampling_sha256": "efc0531bd50437de1259f9c7cbedafa35d1f62a00940720f99fc6aaa691252f6",
+            "groups": {
+              "all": {
+                "available": 1300117,
+                "unique": 1300117,
+                "visits": 21845646,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.802830822149083
+              },
+              "time_edge": {
+                "available": 108117,
+                "unique": 108117,
+                "visits": 1848734,
+                "unique_fraction": 1.0,
+                "mean_visits": 17.099383075742022
+              },
+              "road_edge": {
+                "available": 194054,
+                "unique": 194054,
+                "visits": 3254098,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.769033361847733
+              },
+              "joint_edge": {
+                "available": 16030,
+                "unique": 16030,
+                "visits": 274773,
+                "unique_fraction": 1.0,
+                "mean_visits": 17.141172800998127
+              },
+              "interior": {
+                "available": 1013976,
+                "unique": 1013976,
+                "visits": 17017587,
+                "unique_fraction": 1.0,
+                "mean_visits": 16.783027408932757
+              }
+            }
+          },
+          "selection": "Same original raw-network internal regime macro S as T1; no holdout labels",
+          "config": {
+            "window": 24,
+            "patch_nodes": 64,
+            "width": 64,
+            "heads": 4,
+            "layers": 3,
+            "dropout": 0.1,
+            "batch_size": 2,
+            "seed": 2026,
+            "threads": 4,
+            "epochs": 60,
+            "steps_per_epoch": 1024,
+            "patience": 8,
+            "learning_rate": 0.0003,
+            "weight_decay": 0.01,
+            "clip": 1.0,
+            "eval_batch": 2
+          }
+        }
+      },
+      "internal_predictions": {
+        "key": "1dbed8dd508686bc279524e64cceac392b035cbb0a15ba580794ef0f25f5149d",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\1dbed8dd508686bc279524e64cceac392b035cbb0a15ba580794ef0f25f5149d",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "11009e4498ad49696488a9a6d4a071c57389106e7552a986938798b4e33926b0",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\11009e4498ad49696488a9a6d4a071c57389106e7552a986938798b4e33926b0",
+        "hit": true
+      }
+    },
+    "T0": {
+      "model": {
+        "key": "b5d01a942f93463199acba40fdb6fdd084ec210101c8cbc4bb3d3019dfd8b027",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\models\\b5d01a942f93463199acba40fdb6fdd084ec210101c8cbc4bb3d3019dfd8b027",
+        "hit": true,
+        "best": {
+          "name": "epoch_029.pt",
+          "sha256": "5616d644e0722cc119087eabdfd6ae8c937a53b1db540607ce61f7feeb4f8ae4",
+          "identity": "b5d01a942f93463199acba40fdb6fdd084ec210101c8cbc4bb3d3019dfd8b027"
+        },
+        "selection": {
+          "variant": "T0",
+          "best_epoch": 29,
+          "best_internal_S_state": 0.9480658728264449,
+          "epochs_run": 37,
+          "optimizer_updates": 37888,
+          "common_initial_sha256": "77692f0e131777d33047c4ac10373e4ae6697064e9664cc1acf160f0fb022400",
+          "parameters": 208678,
+          "best_checkpoint_coverage": {
+            "available_targets": 1300117,
+            "unique_targets_seen": 1263412,
+            "target_visits": 22910421,
+            "steps": 29696,
+            "empty_steps": 0,
+            "sampling_sha256": "92e78d773b0e5852821d48afb347657dff33321dceb5824b19dfd7f678d65ae2",
+            "groups": {
+              "all": {
+                "available": 1300117,
+                "unique": 1263412,
+                "visits": 22910421,
+                "unique_fraction": 0.9717679255020895,
+                "mean_visits": 17.62181480589824
+              },
+              "time_edge": {
+                "available": 108117,
+                "unique": 93775,
+                "visits": 582636,
+                "unique_fraction": 0.8673474106754719,
+                "mean_visits": 5.388939759704765
+              },
+              "road_edge": {
+                "available": 194054,
+                "unique": 164246,
+                "visits": 590738,
+                "unique_fraction": 0.8463932719758418,
+                "mean_visits": 3.044193884176569
+              },
+              "joint_edge": {
+                "available": 16030,
+                "unique": 8479,
+                "visits": 15648,
+                "unique_fraction": 0.5289457267623207,
+                "mean_visits": 0.9761696818465377
+              },
+              "interior": {
+                "available": 1013976,
+                "unique": 1013870,
+                "visits": 21752695,
+                "unique_fraction": 0.9998954610365531,
+                "mean_visits": 21.45286969316828
+              }
+            }
+          },
+          "final_coverage": {
+            "available_targets": 1300117,
+            "unique_targets_seen": 1273248,
+            "target_visits": 29230034,
+            "steps": 37888,
+            "empty_steps": 0,
+            "sampling_sha256": "738dc476c522a77c47bdd989ba9a2c015853976c6932136933d1add4e87f4f8b",
+            "groups": {
+              "all": {
+                "available": 1300117,
+                "unique": 1273248,
+                "visits": 29230034,
+                "unique_fraction": 0.9793333984556775,
+                "mean_visits": 22.482618102832284
+              },
+              "time_edge": {
+                "available": 108117,
+                "unique": 96792,
+                "visits": 744363,
+                "unique_fraction": 0.8952523654929382,
+                "mean_visits": 6.884791475901107
+              },
+              "road_edge": {
+                "available": 194054,
+                "unique": 171995,
+                "visits": 753649,
+                "unique_fraction": 0.8863254558009627,
+                "mean_visits": 3.8837076277737124
+              },
+              "joint_edge": {
+                "available": 16030,
+                "unique": 9505,
+                "visits": 19762,
+                "unique_fraction": 0.5929507174048658,
+                "mean_visits": 1.232813474734872
+              },
+              "interior": {
+                "available": 1013976,
+                "unique": 1013966,
+                "visits": 27751784,
+                "unique_fraction": 0.9999901378336371,
+                "mean_visits": 27.369271067559783
+              }
+            }
+          },
+          "selection": "Same original raw-network internal regime macro S as T1; no holdout labels",
+          "config": {
+            "window": 24,
+            "patch_nodes": 64,
+            "width": 64,
+            "heads": 4,
+            "layers": 3,
+            "dropout": 0.1,
+            "batch_size": 2,
+            "seed": 2026,
+            "threads": 4,
+            "epochs": 60,
+            "steps_per_epoch": 1024,
+            "patience": 8,
+            "learning_rate": 0.0003,
+            "weight_decay": 0.01,
+            "clip": 1.0,
+            "eval_batch": 2
+          }
+        }
+      },
+      "internal_predictions": {
+        "key": "8958c4266ad2de29f14814f5f53c94551ec4c582c4ef3057bb3673e6461434c7",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\8958c4266ad2de29f14814f5f53c94551ec4c582c4ef3057bb3673e6461434c7",
+        "hit": true
+      },
+      "holdout_predictions": {
+        "key": "3caf7f1b8bb15b5e351e1647ffb81719aa5b359803eab3ab2aae3772ccf99c57",
+        "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\3caf7f1b8bb15b5e351e1647ffb81719aa5b359803eab3ab2aae3772ccf99c57",
+        "hit": true
+      }
+    }
+  }
+}

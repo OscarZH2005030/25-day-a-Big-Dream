@@ -1,0 +1,119 @@
+{
+  "selection_dates": [
+    "2030-12-14",
+    "2030-12-15",
+    "2030-12-16",
+    "2030-12-17",
+    "2030-12-18",
+    "2030-12-19",
+    "2030-12-20",
+    "2030-12-21",
+    "2030-12-22",
+    "2030-12-23",
+    "2030-12-24",
+    "2030-12-25",
+    "2030-12-26",
+    "2030-12-27",
+    "2030-12-28",
+    "2030-12-29",
+    "2030-12-30",
+    "2030-12-31",
+    "2031-01-01",
+    "2031-01-02",
+    "2031-01-03",
+    "2031-01-04"
+  ],
+  "models": {
+    "D7_I10_E": {
+      "T1": {
+        "name": "epoch_028.pt",
+        "sha256": "2c40128d3350d98ae909a8b6932cfd0c30799c1e4d0c1881086bb875d9a1ed86",
+        "identity": "2728fbb03a68b7254692370512b6475676cd8c4e6e43848e5a77102ecd08eca1"
+      },
+      "A_dynamic": {
+        "name": "epoch_038.pt",
+        "sha256": "a9f844e265477fb0e80a67a538d5c717f2161b2f80e92e03957e0dcd18d7c13e",
+        "identity": "82220bbd09e885f6563fafd1b3dd6314bba0ce7cb063f852e4215382b7f21223"
+      },
+      "T0": {
+        "name": "epoch_044.pt",
+        "sha256": "8ac6489ffab7ce1af2d7e742550e1d7876aead5074ca5aa6abb463c54322bc16",
+        "identity": "7e8995593b4a31445eb22335de2a23851ba9b52909870393933f7dae804cb9bd"
+      }
+    },
+    "D7_I10_W": {
+      "T1": {
+        "name": "epoch_027.pt",
+        "sha256": "8ede21a95d83ca6b155dcb8d2029c6f4b2b465006d53495da92f247d436e33dc",
+        "identity": "8273dbfe541f2c69a033ae144c6be7d88e60656b3a0ebd658bd2cb5ae1832d67"
+      },
+      "A_dynamic": {
+        "name": "epoch_027.pt",
+        "sha256": "718df875baf4ca9fa9acfb0ad62667ea7ff14d97b613dd612079aa5db2b6cfca",
+        "identity": "cdb2619377ab79100cf3db664de5c2e977344e62c5409bb50d37ef81a9aa6f5d"
+      },
+      "T0": {
+        "name": "epoch_029.pt",
+        "sha256": "5616d644e0722cc119087eabdfd6ae8c937a53b1db540607ce61f7feeb4f8ae4",
+        "identity": "b5d01a942f93463199acba40fdb6fdd084ec210101c8cbc4bb3d3019dfd8b027"
+      }
+    }
+  },
+  "trees": {
+    "D7_I10_E": "dcba4708cdf097d347edc978ea246a7e15b90c52b6bef299314bd4557d1f6a92",
+    "D7_I10_W": "27aa162c6aa9429c0090b251e0fe76b44af5823d5ea793ce1f2c772a8497a2c8"
+  },
+  "fixed_fusion": {
+    "beta": 0.5,
+    "speed": 0.1,
+    "flow": 0.1
+  },
+  "frozen_utc": "2026-10-24T21:48:32.469505+00:00",
+  "internal_artifacts": [
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_checkpoint_replay.csv",
+      "bytes": 396,
+      "sha256": "0c8b871f0eeec88f148ea79910425eb7de350b40b2050fda571754beed1f494a"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_comparison_methods.csv",
+      "bytes": 818,
+      "sha256": "538891d600925f8bb75f744151eadd7ebbd58fab45873feb1b4030a5f6aa0ed4"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_metrics_by_panel_regime.csv",
+      "bytes": 3373,
+      "sha256": "91fe7807b7c77ce1a5a270902f8859498d9e73db6ea11406fc4022ee24d20874"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\A_dynamic\\selection.json",
+      "bytes": 3276,
+      "sha256": "ad186cad4de49efeb9f8836a3cea56d2d8f99fc57997445eaa98c1689092c42c"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T0\\selection.json",
+      "bytes": 3380,
+      "sha256": "f61301ccb147da4c01bda5b5a0a32ad581c1567bb55070d1d0ed3773d7dacc33"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T1\\selection.json",
+      "bytes": 3267,
+      "sha256": "b8f9103c36fb2b88a15e9bf4557f7e0409df5eb5cf1e7cd328b1191a1c655625"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\A_dynamic\\selection.json",
+      "bytes": 3275,
+      "sha256": "99c92bab67b29f1aa41bf2cb8b167bce44500f31c81b9290d244898240cdb82c"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T0\\selection.json",
+      "bytes": 3374,
+      "sha256": "f436bd4308c52c96aea99fae140ba8baa9a33ea90b5a2009bfb5e04588c7fb4a"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T1\\selection.json",
+      "bytes": 3236,
+      "sha256": "ad5fddff556a43d1bc98431ec7dcd7454e070e4c3c6691e27bfaddaf13dddec5"
+    }
+  ]
+}

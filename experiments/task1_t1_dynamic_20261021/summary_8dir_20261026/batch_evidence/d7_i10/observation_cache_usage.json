@@ -1,0 +1,32 @@
+{
+  "D7_I10_E": {
+    "2030-06-29": {
+      "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\ed254452c9c67d23791ca3efa8ec28239dfc7d8a0f59552f2bc1df75fc1ae02a",
+      "key": "ed254452c9c67d23791ca3efa8ec28239dfc7d8a0f59552f2bc1df75fc1ae02a",
+      "hit": true,
+      "source": [
+        {
+          "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream\\data\\kaggle_public\\corridors\\D7_I10_E\\train\\mainline_states_masked\\mask_regime=R2\\synthetic_mainline_2030_06_29.parquet",
+          "bytes": 1080909,
+          "sha256": "c9347adbcaa17e4734bd342b3b31a167f66ff6cc396a4e19c5aec3baece5b8dd"
+        }
+      ],
+      "manifest_sha256": "e6b4e63f11265506f8f49c5098f97bb0f6b19eab6911faed7bc28cf2da4eb6bd"
+    }
+  },
+  "D7_I10_W": {
+    "2030-06-29": {
+      "folder": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\cache\\transformer_cross_corridor\\f3d317a7060dfb223e84bdae32c482541e1e7d19913343e2365f9abb7eb847e9",
+      "key": "f3d317a7060dfb223e84bdae32c482541e1e7d19913343e2365f9abb7eb847e9",
+      "hit": true,
+      "source": [
+        {
+          "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream\\data\\kaggle_public\\corridors\\D7_I10_W\\train\\mainline_states_masked\\mask_regime=R3\\synthetic_mainline_2030_06_29.parquet",
+          "bytes": 602214,
+          "sha256": "4fb34c4c2c3e7dcb7f53e3397b861fb92f98899f049927360fad9ff422f5bb7d"
+        }
+      ],
+      "manifest_sha256": "3b85447aa6bb492a7d38a09dcd1b3d48a1a307b6f8fdbaca69b703bdbf85d8c9"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "D12_I405_N/LightGBM": {
+    "rows": 144942,
+    "isolated_rows": 19449,
+    "isolated_exact": true
+  },
+  "D12_I405_N/T1": {
+    "rows": 144942,
+    "isolated_rows": 19449,
+    "isolated_exact": true
+  },
+  "D12_I405_N/Current_fusion": {
+    "rows": 144942,
+    "isolated_rows": 19449,
+    "isolated_exact": true
+  },
+  "D12_I405_N/T0": {
+    "rows": 144942,
+    "isolated_rows": 19449,
+    "isolated_exact": true
+  },
+  "D12_I405_N/A_dynamic": {
+    "rows": 144942,
+    "isolated_rows": 19449,
+    "isolated_exact": true
+  },
+  "D12_I405_N/A_dynamic_fixed": {
+    "rows": 144942,
+    "isolated_rows": 19449,
+    "isolated_exact": true
+  },
+  "D12_I405_S/LightGBM": {
+    "rows": 77162,
+    "isolated_rows": 47460,
+    "isolated_exact": true
+  },
+  "D12_I405_S/T1": {
+    "rows": 77162,
+    "isolated_rows": 47460,
+    "isolated_exact": true
+  },
+  "D12_I405_S/Current_fusion": {
+    "rows": 77162,
+    "isolated_rows": 47460,
+    "isolated_exact": true
+  },
+  "D12_I405_S/T0": {
+    "rows": 77162,
+    "isolated_rows": 47460,
+    "isolated_exact": true
+  },
+  "D12_I405_S/A_dynamic": {
+    "rows": 77162,
+    "isolated_rows": 47460,
+    "isolated_exact": true
+  },
+  "D12_I405_S/A_dynamic_fixed": {
+    "rows": 77162,
+    "isolated_rows": 47460,
+    "isolated_exact": true
+  }
+}

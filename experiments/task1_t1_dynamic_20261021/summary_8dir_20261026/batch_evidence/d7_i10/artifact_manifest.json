@@ -1,0 +1,1102 @@
+[
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\feature_cache_usage.json",
+    "bytes": 400029,
+    "sha256": "307339e4123012458f96f579700d93f54ac889e8d4ce8ecab9057bc59446f65e"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\feature_parity.json",
+    "bytes": 173,
+    "sha256": "2a4b8dfc84203c6a34bb9cbfe7925363a008b34d5eebd08486723e541f76a7d0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\frozen_models.json",
+    "bytes": 5413,
+    "sha256": "e5171bcc8211530aadac2c858646137c55ea5cc11d0c9853311bb6272231b07a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_congestion_errors.csv",
+    "bytes": 209,
+    "sha256": "c20caa79b1c98303c2bcfe7c3338c6512fe476d03a79f14226e78057169ebbd3"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_daily_errors.csv",
+    "bytes": 4653,
+    "sha256": "a4f2be71bdab495ea902f3d4c19c0cedb534bb5502b8c22b17aef772cea803ae"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_congestion_errors.csv",
+    "bytes": 223,
+    "sha256": "6a6e8f2996e583b47112f876b73b2341fe4b6dbf91b99f34b7e1b0a559b274e4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_daily_errors.csv",
+    "bytes": 4984,
+    "sha256": "be34e52cd33077d5b25e01bf6a9c90cec172c7863ce4d4d2ff753f7845c9740d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_flow_gap_errors.csv",
+    "bytes": 490,
+    "sha256": "ac6b3273eb9abcbc3bc6286deeab0f235c76ccd132dda7420a10cbc83059b0ed"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_gap_errors.csv",
+    "bytes": 485,
+    "sha256": "90c49f44406e66096aefec708fd9d11f8ecdf2db4512f2e12b2830d0772a526b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_isolation_errors.csv",
+    "bytes": 221,
+    "sha256": "1480f970d5359ef01f4e63751b7f9dc4dfe5fa342b61865917617d499295fc85"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_predictions.parquet",
+    "bytes": 11334154,
+    "sha256": "df6812e231ec7dcd10bd0213c6d6cd3c5945f71eae962e23a940fadc54dc7512"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_fixed_regime_gap_errors.csv",
+    "bytes": 1396,
+    "sha256": "83143a436156da37706ab6d7829db7a28f677e154a2e9a1c13aecc10dd971a63"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_flow_gap_errors.csv",
+    "bytes": 457,
+    "sha256": "349b97a0deda8039c31720bdb21daf7dee78447db1608e2929e7f37e2a44819f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_gap_errors.csv",
+    "bytes": 452,
+    "sha256": "a9b3a58346e3d491e21d06857b8b0fffeb5d1e38acfec62587e4b02bcf2a0c14"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_isolation_errors.csv",
+    "bytes": 209,
+    "sha256": "188b1aaa4f5c51744c51448e35bb2bf0b48a769b895f1b2132452442576386a4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_predictions.parquet",
+    "bytes": 9992153,
+    "sha256": "073924e37239149235c735a3c7d10062278d9003fca43c4b27bcae6fe78bebf3"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\A_dynamic_regime_gap_errors.csv",
+    "bytes": 1311,
+    "sha256": "97dc96b339e6777fcdcbbf12a93d2f5418f050ebdf9446419f34272434988daf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_congestion_errors.csv",
+    "bytes": 219,
+    "sha256": "d58e8be3337c83bcdabec518018af5064ba70725143c82639d328f95435c5c45"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_daily_errors.csv",
+    "bytes": 4919,
+    "sha256": "011468b6890413b523aead2e070776cc5d59861fbf8fef4110734fd38b4df89e"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_flow_gap_errors.csv",
+    "bytes": 484,
+    "sha256": "256ffd39e287d15a7550ea9bd1ece50efeabbae67e064172ca3add2ca92f0a58"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_gap_errors.csv",
+    "bytes": 479,
+    "sha256": "3134264c7dd32cd3748b2773a1b86d5fdc5f14257f86d608cf05ffa93746ba8c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_isolation_errors.csv",
+    "bytes": 218,
+    "sha256": "8b7161db4dbfcb527c1ab4260e122f09dbce2377213cbfc832ab803e8cd27860"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_predictions.parquet",
+    "bytes": 11334152,
+    "sha256": "efc4dceeb8a313ecb8b26432847151da2e4048cdc10a31064ebd564d4c8f13f4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\Current_fusion_regime_gap_errors.csv",
+    "bytes": 1379,
+    "sha256": "57dc4e604fb26b582e87236e4123ebdb208dc7ecf9bd4bea2a4882b7a84c12ec"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_congestion_errors.csv",
+    "bytes": 208,
+    "sha256": "b998e10e594699914fd2206ad9bc1453c1bf96049ec25eef2ff2f303e6a704a9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_daily_errors.csv",
+    "bytes": 4588,
+    "sha256": "b8c74e56d260b721f342e9a89ad7ca9355ed140e9afbbb0a0c2f23a70a9af224"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_flow_gap_errors.csv",
+    "bytes": 451,
+    "sha256": "d00d4a33095f529cd442241228a9ed0a1d19a51cff9c1d834e7b3dd9131bd8ab"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_gap_errors.csv",
+    "bytes": 446,
+    "sha256": "a27cb7b5ac5bf11b5348bcf5022614a58dc7923f6f4774deba7f27b1b322fbdf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_isolation_errors.csv",
+    "bytes": 207,
+    "sha256": "9e53b0a4263818473cdb9683348687a1c2f6f22716b92bdffeff6f739cc8c148"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_predictions.parquet",
+    "bytes": 11333787,
+    "sha256": "867b3194d86886d6f587b3854d727fd89eadbc3b321f821420eda7eb14fa8921"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\LightGBM_regime_gap_errors.csv",
+    "bytes": 1291,
+    "sha256": "7f74f4a1c9205b93e67ada60d7164378bb5dff909de4d369601d13f85e592d49"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_congestion_errors.csv",
+    "bytes": 193,
+    "sha256": "e1b498dbb936eb57d5c0e76227277f839221aa80b30bee9adc724d4423a44ae2"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_daily_errors.csv",
+    "bytes": 4270,
+    "sha256": "a34f5da936ba1d9025b553132ab26cc777c48696a78e042e6c46f6c1b9ca16bd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_flow_gap_errors.csv",
+    "bytes": 423,
+    "sha256": "0165442df37a5ca30f2f3be227bbd36c4ee7155ea7b9b33e93829c526ec29271"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_gap_errors.csv",
+    "bytes": 418,
+    "sha256": "14918eec26d4060583ba1c4b03b59435c14a48c0a710ba48a2d2c21b0b44ee8d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_isolation_errors.csv",
+    "bytes": 195,
+    "sha256": "35b6798b830c3c6f179d961a5b7b84525edc2ebdaec1308aeb3b658cd5624e36"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_predictions.parquet",
+    "bytes": 9992567,
+    "sha256": "0a29aaa84d9cd93cd30af269bb9a596d598fc685ff53c2fdef82a21a9a746ba9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T0_regime_gap_errors.csv",
+    "bytes": 1205,
+    "sha256": "06534863cfe74695d943f0f31c73cb921513a07d80b6ea9b1e71dde79a941ab8"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_congestion_errors.csv",
+    "bytes": 194,
+    "sha256": "7c085f1f771cd4e318344751eb9c79ec3e0c9cf3b331508cf0cd4e4b9a56eed6"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_daily_errors.csv",
+    "bytes": 4265,
+    "sha256": "ca1a3a6317aa72fd3e646d81a5dc63904e8c244fcc24e7689b7bb5f3d3fdd36d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_flow_gap_errors.csv",
+    "bytes": 424,
+    "sha256": "00c61ff2f466347ea438aa1e201e85cae72d114075f1d500c1fc8f9da2fb4c7f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_gap_errors.csv",
+    "bytes": 419,
+    "sha256": "369ffdd95bcec247f5108e1526c09c62b8e985b1da59cc4467129bba373e6b16"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_isolation_errors.csv",
+    "bytes": 194,
+    "sha256": "3706698cfa3658fb4ca7acf7f4ea1a657f2a60a9641d7a98014564c7c7382d7a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_predictions.parquet",
+    "bytes": 9993317,
+    "sha256": "79e6098004387852e6475314f295dab7bca4bb2aad6d9a631e7626bcf17e24bf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_E\\T1_regime_gap_errors.csv",
+    "bytes": 1204,
+    "sha256": "95d5d051740bb815ea2810636222ba42b3f2aee8717f0a8a201858e343735dcd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_congestion_errors.csv",
+    "bytes": 208,
+    "sha256": "920f69a821b681d7dc6345c57100699be5a3fb8f4adfa10f63d516f7c16ed6fa"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_daily_errors.csv",
+    "bytes": 4641,
+    "sha256": "c1bb16ab519563e06d4e8ca225a18c7b27f0974a8ea316c031fcb78029cad288"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_congestion_errors.csv",
+    "bytes": 219,
+    "sha256": "8341af4a06f454e8b104e0dd7ec4a0850df9ee887b2c340fb188a07332db21f0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_daily_errors.csv",
+    "bytes": 4965,
+    "sha256": "0fd0a2b72550afaf591a824d99ecea111f10c6f1d164b6959cc7b3b584820546"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_flow_gap_errors.csv",
+    "bytes": 486,
+    "sha256": "4d71b433635a1b9725b20a37fabe93fd7bdfcb13db981bada68b441dafcbf329"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_gap_errors.csv",
+    "bytes": 481,
+    "sha256": "76d0ad21c48d37dfe82f43429b85613f466795d1d3d940a251f38c11d95fafbd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_isolation_errors.csv",
+    "bytes": 221,
+    "sha256": "b8eb53823d6ececd2fca135f2cfcf6e401c61bdfcdeeea02212e38b6004250aa"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_predictions.parquet",
+    "bytes": 8587900,
+    "sha256": "025a9ff288bd69375d672f2c2b6516ef20b32fc77084954c8228216f9a091665"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_fixed_regime_gap_errors.csv",
+    "bytes": 1388,
+    "sha256": "8da137680977d30027e92777fced4978ea65881824ea10c5fde308d63a4e6f19"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_flow_gap_errors.csv",
+    "bytes": 456,
+    "sha256": "f45a82d9f7ddb2af9b2b64be95cf32e2dab451d0d4f82eae4bf0f0029da7027b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_gap_errors.csv",
+    "bytes": 451,
+    "sha256": "081ebe4e377dcc870ecd7a9d33c3840005be22583304b8c3d9af97bd122f9d61"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_isolation_errors.csv",
+    "bytes": 209,
+    "sha256": "465661252e2ee0da9a99b9f02616786d0c50f3ee6f85e9efaccc262130f44ad5"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_predictions.parquet",
+    "bytes": 7966642,
+    "sha256": "dd06218350ec35225c6f3aa12dfa78362f4b84f507a7582e6a7dd029d43fc1ed"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\A_dynamic_regime_gap_errors.csv",
+    "bytes": 1297,
+    "sha256": "61ddbd7ae383e8605958a56206b793ebff42589bc19be3227fc5b36a027d2e3d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_congestion_errors.csv",
+    "bytes": 217,
+    "sha256": "1e6bc0927c090f21b2e9bcc33e56873bc6c015ff6bb6dac33fb0f644481ce67d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_daily_errors.csv",
+    "bytes": 4919,
+    "sha256": "bef2fac38d0611e0bf12bcb171a9b72900c7c0fa27e88d72f19a1e8bfef56a66"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_flow_gap_errors.csv",
+    "bytes": 484,
+    "sha256": "fff8a397619e94711b0a649c1ae33c54778f37be3964de67dd8dbde391024fb4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_gap_errors.csv",
+    "bytes": 479,
+    "sha256": "1991b2b3622f258aba173a5ffd6540c6c1c7d2fa666def19a2a4657b7d93f8ea"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_isolation_errors.csv",
+    "bytes": 216,
+    "sha256": "5a1b12a4fcab8d9fd295e75438f0a22fd306f81f8149ee4dcdcfdefd1fec5174"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_predictions.parquet",
+    "bytes": 8587897,
+    "sha256": "a6c80bbb06b0db0a46fe1735d655c9ee166fec5f9d87917d652009541fe8341e"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\Current_fusion_regime_gap_errors.csv",
+    "bytes": 1376,
+    "sha256": "eeb3818deb758ad9af5758b1062c07c79a07944a69c4b0fdfb42b08991824634"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_congestion_errors.csv",
+    "bytes": 202,
+    "sha256": "aca98b3070e76c9cba688d1c617fe04c4a231b0ce52f5f1a077e00ea6f7402b4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_daily_errors.csv",
+    "bytes": 4580,
+    "sha256": "5e39636d449bff3fe679e6acbb31627052df25ca57674aecbe343709112cfeda"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_flow_gap_errors.csv",
+    "bytes": 449,
+    "sha256": "82a0e88c8a5ceb9c292802d61dd11d609d3ecc4308e73565ab21e7be8bc41e03"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_gap_errors.csv",
+    "bytes": 444,
+    "sha256": "7c0ada34eaca50c9421d11ab78930a0946ca0b4fe92e10f287ddfbf62b712e32"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_isolation_errors.csv",
+    "bytes": 208,
+    "sha256": "0f60780acc9119699e34a5594fd31b53454839e77ba5ce9ee3b71511dd9c66cb"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_predictions.parquet",
+    "bytes": 8586047,
+    "sha256": "fdc8b356c5c44e03384218639b47f95fba67409ee65e191f1e1b32823f6bf9c9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\LightGBM_regime_gap_errors.csv",
+    "bytes": 1284,
+    "sha256": "4f1fa5988a059daf597d46eedd2a03e878bd1c243706009460927acd67611033"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_congestion_errors.csv",
+    "bytes": 193,
+    "sha256": "83044f3e7c34392a51865580befe7d07d0f0306729725bc4931ac89bec829c4f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_daily_errors.csv",
+    "bytes": 4251,
+    "sha256": "8ca72e8a489b8ca9718c5a536a6e928e26a48a52babbf445a29a855440a24cc9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_flow_gap_errors.csv",
+    "bytes": 422,
+    "sha256": "d82b656111e0454693a74e188c375cba67adf47f62ef6ddffc08056591610b19"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_gap_errors.csv",
+    "bytes": 417,
+    "sha256": "1d6c2be4690c864bb4f374e63911b859a282e67a26c2585ab30f2a8180bd43c7"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_isolation_errors.csv",
+    "bytes": 194,
+    "sha256": "ed8f0539440cbd30fca37fdbc12a570bf15c29d8790495bf15575d4713e44ebd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_predictions.parquet",
+    "bytes": 7967196,
+    "sha256": "3f606b87cc72d012c8b9e5c0ab9ed4b7888ed00af2a21c6bcd1f8e306ebcc51c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T0_regime_gap_errors.csv",
+    "bytes": 1196,
+    "sha256": "6ac856cffcb684f37c36f81ad34eb9b7e494ecabb7f070c5d0e5707dd43b968f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_congestion_errors.csv",
+    "bytes": 191,
+    "sha256": "8dc3860ab070d84132ff7bbfc0e52b7505372f3a690353231d88edc155f479cb"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_daily_errors.csv",
+    "bytes": 4249,
+    "sha256": "c8a706de9339fb0e2538fdff9635f4938c81565dd5eba85475822e68771625b4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_flow_gap_errors.csv",
+    "bytes": 421,
+    "sha256": "4418705198406c26deeed3ee9c7d25021ff2ca6984c367520018e2f557684e94"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_gap_errors.csv",
+    "bytes": 416,
+    "sha256": "2226e7c836432898eab85a03ee62a24f5e05c40aaa842d5de590a9ecd604c47f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_isolation_errors.csv",
+    "bytes": 194,
+    "sha256": "04210a87a68f4b7623baebb2bc1b40144120f04681049e8fd486ec81779bbb85"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_predictions.parquet",
+    "bytes": 7967265,
+    "sha256": "dc8b71418d871b17192756bf0ed78c84166e6f8aa96cd9c60cf87a0bf909e107"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout\\D7_I10_W\\T1_regime_gap_errors.csv",
+    "bytes": 1196,
+    "sha256": "9bda94a67f58c131301e74b6f6c31fc3d28d99fe58a7b5c3d195f288f66cbc77"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout_comparison_methods.csv",
+    "bytes": 818,
+    "sha256": "76070351fa208564cef7e63f491662d1a52951f4ee391a0320a514f5f98525a5"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout_daily_errors.csv",
+    "bytes": 54580,
+    "sha256": "93392551df0f5cac3071dc17d8858cdf7d920d480449fb1d025ee358fb348abd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout_metrics_by_panel_regime.csv",
+    "bytes": 3385,
+    "sha256": "29e6f80a4ebdf45449678cb49601b4559adb7c27f7ca6852830de7386fbc5184"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\holdout_preservation_checks.json",
+    "bytes": 1339,
+    "sha256": "e1bd6349608d2afe1d271bd14cc555a459b0d53c95b06e40f04a965e866c4ca0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\integrity_check.json",
+    "bytes": 351,
+    "sha256": "416dc9a82fb519f9a4082918ccbdd0074de38897badbcc797a71cb2f6530c1f3"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_congestion_errors.csv",
+    "bytes": 208,
+    "sha256": "33aedd2f343aac2e59535c69f8daa584dd500cefb5664141cde8c5641dfac66c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_daily_errors.csv",
+    "bytes": 1902,
+    "sha256": "9e2d3c1b9c954ef057d1aa703d3f48fa61071228569d20b67c0ce312ea63367b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_congestion_errors.csv",
+    "bytes": 219,
+    "sha256": "b28180981e171a3ad012e10fc279fac04a63ac24000a25cac14d723337bdd31a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_daily_errors.csv",
+    "bytes": 2028,
+    "sha256": "72835c6582be79ac67d2b67ab22ba6327a6f2e822ea63725b49ab97b55e50e80"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_flow_gap_errors.csv",
+    "bytes": 487,
+    "sha256": "17b7488b66a183a1008e0f54ab81a438aebec16444b2c9fc98539ef91d8ae557"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_gap_errors.csv",
+    "bytes": 482,
+    "sha256": "6494d6f7ff64b7a99ae9b7b05a07477d11eaafbf5c3f67b1688f86cb7104f1fe"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_isolation_errors.csv",
+    "bytes": 220,
+    "sha256": "0568a6b8bb94945040e9878903589ed76a1316aae361ae739057ff2c79f97783"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_predictions.parquet",
+    "bytes": 4350041,
+    "sha256": "321878246af1480ca72bfb385d4b7c0e973d85b03fb433650b720e4130234444"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_fixed_regime_gap_errors.csv",
+    "bytes": 1388,
+    "sha256": "d18507c119c57383537b9193742b2944f6274e0a167fcd3f781c18f0ec5efecf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_flow_gap_errors.csv",
+    "bytes": 456,
+    "sha256": "10cad241d93ced8d60511ec3b12ab9489b83e36c0d660f4a3a21afbb61f8c769"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_gap_errors.csv",
+    "bytes": 451,
+    "sha256": "469479c078b536db0127804a5ca55c6a3f794fed54b2e7fcd4b04e51ca7943f9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_isolation_errors.csv",
+    "bytes": 207,
+    "sha256": "62f2bbeaa8caf1efa99cc174f4dc947fed8f9c4b88c0b0c6828d891537cd0993"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_predictions.parquet",
+    "bytes": 3877460,
+    "sha256": "e92706df9b909bdefd728f34bc9f4682d0ef41d240e758b7278fa7904a19c980"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\A_dynamic_regime_gap_errors.csv",
+    "bytes": 1294,
+    "sha256": "1924a77c589faffead529fe4b8a8712e447a3656b2e4c783e08532e751382061"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_congestion_errors.csv",
+    "bytes": 218,
+    "sha256": "46867962eec35e0403628bad243faf098802c02bbb98e76d1f59429d9fbf8d96"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_daily_errors.csv",
+    "bytes": 2012,
+    "sha256": "4a3170e5c7f2a64d0e979a10fadc37253c2146cb558af8d09cd25cd579ad3668"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_flow_gap_errors.csv",
+    "bytes": 482,
+    "sha256": "94c15d51bc28f943b7295ed4619bded89ca8350caaeeab4024ebbbd0e88b0915"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_gap_errors.csv",
+    "bytes": 477,
+    "sha256": "d810c97866993fcbdcf3015b470713c176fb25c3e29ae293893fa1277494cfef"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_isolation_errors.csv",
+    "bytes": 217,
+    "sha256": "3b59a311b0b17f9f5a4892cd7594e0e99fda03ce5a5a8842be3d2d00148abd78"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_predictions.parquet",
+    "bytes": 4350041,
+    "sha256": "01aad40faf51227d73d7e6f1586aa4d10dd45a5f39b1486f32f1b62a1f2d11a0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\Current_fusion_regime_gap_errors.csv",
+    "bytes": 1369,
+    "sha256": "89fa6b985d621b63c6c1ef41c15781690f4a2abcb9f824279ae5d17de483ce92"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_congestion_errors.csv",
+    "bytes": 207,
+    "sha256": "19d3f7acd813b8272f02f4b07fff4f158a1caddcc5075cfb973729c9e63a5bf0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_daily_errors.csv",
+    "bytes": 1869,
+    "sha256": "91837d8eaa9af033b27e451d20d426b71026d43449a880d9e9046be9163d4380"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_flow_gap_errors.csv",
+    "bytes": 449,
+    "sha256": "f1c0f9713d6b5fd12f1c39be81707540628ada45e719c69fae41c5d9932a438c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_gap_errors.csv",
+    "bytes": 444,
+    "sha256": "53e42cd2fed5de8fa76d48aa6091bcfd8e4121659675f8eb2189d4e2ed58f873"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_isolation_errors.csv",
+    "bytes": 205,
+    "sha256": "17842d92dd54c7299316ac6ebef805427a3887e09394391f09c87cf84645ca3a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_predictions.parquet",
+    "bytes": 4349689,
+    "sha256": "18e024915e9348f4b56122de62480e6b415850efbf460463e71f0e0fadea7bc8"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\LightGBM_regime_gap_errors.csv",
+    "bytes": 1278,
+    "sha256": "57361b7274a3021b0d1013e4f166c1a01a4164d460cc38a552b2747eca01350c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_congestion_errors.csv",
+    "bytes": 194,
+    "sha256": "76fbb5d6e51bf005ef7160cde5a442006b644e4a7d1ebccabed5df1bbbf4f95e"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_daily_errors.csv",
+    "bytes": 1740,
+    "sha256": "484e01d74965d144097836c0ed32cffba6c4abfab6cfa3da7b1a98f40c5416e3"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_flow_gap_errors.csv",
+    "bytes": 421,
+    "sha256": "19aa1094dd896be5d7b4e29546a137a4c3d3823c920b40e2637e25e21e62003b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_gap_errors.csv",
+    "bytes": 416,
+    "sha256": "76ce18a49b037b3cc06568ef1c48f75576668d97d30750b19edd5dfd43d67619"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_isolation_errors.csv",
+    "bytes": 194,
+    "sha256": "995e22c3d1f8a41d1d07072b55a54d057ba744920d52d7774dc4fe0acba424bc"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_predictions.parquet",
+    "bytes": 3876896,
+    "sha256": "cb1cbd3be029a5c249d731cff3da9f33b684b61726a2b5b10fa5de5443525a0d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T0_regime_gap_errors.csv",
+    "bytes": 1186,
+    "sha256": "89a63cda1f0eacb3573dc99cfb4f22ff52ea5762eba008a26f536605bfcda838"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_congestion_errors.csv",
+    "bytes": 194,
+    "sha256": "de4d1409303d634afd2743a66498c1fb0536f0cdca8b9a0daafacd4ed3c38d83"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_daily_errors.csv",
+    "bytes": 1739,
+    "sha256": "54e61ce9c4edb87000da62ac95d153a0f8c7414d9b9a82bd472118b58c1bcf1a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_flow_gap_errors.csv",
+    "bytes": 422,
+    "sha256": "e92c26b3679bc3f19494ac531a24d603424a1cb0107f9651955536cf358e3225"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_gap_errors.csv",
+    "bytes": 417,
+    "sha256": "0cf06bf228b1988b255363ce9d39030f166cba5614dd512705a247625ae9775f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_isolation_errors.csv",
+    "bytes": 193,
+    "sha256": "b544ba91d03ca4ccbb6ec54246d250786017abff15db2acb12238a6fd06a03dd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_predictions.parquet",
+    "bytes": 3877242,
+    "sha256": "24bfeebf83ab6c83d42bbfd7f39144e529daf7845a78105f6ca950e6a99f91be"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_E\\T1_regime_gap_errors.csv",
+    "bytes": 1198,
+    "sha256": "535056faa98ff9a8f29440291835af2fd50cd24328a8d4dae7e2731815a648cf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_congestion_errors.csv",
+    "bytes": 207,
+    "sha256": "703fe273d839336566eaab2b3cae7be29faf13b44c148edde04b0be5a047970a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_daily_errors.csv",
+    "bytes": 1895,
+    "sha256": "26cd8c93f430ba3cfc9832173fdafd131ed37d973467a5221db699cb39e3b283"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_congestion_errors.csv",
+    "bytes": 218,
+    "sha256": "e08c1f7af86f3c45ae6265fc61f43449dcf3559ccdacbd42d226fbc69ed1dcd3"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_daily_errors.csv",
+    "bytes": 2024,
+    "sha256": "81e3d9403f2c953fce478232e18f636d7baad35b16d4baf78a65e2951fe2d394"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_flow_gap_errors.csv",
+    "bytes": 485,
+    "sha256": "4ba4f4ea8f9dc0988f49c0ff7a88be7d5a695f9c5843eec25af37eacc82709ae"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_gap_errors.csv",
+    "bytes": 480,
+    "sha256": "2ccd1c5484076bdf990a943284fa891490155bc0b64d27951cd8f836e74f0c46"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_isolation_errors.csv",
+    "bytes": 221,
+    "sha256": "3c08c0b79146d77e735bcd5889ea96ddcbed10a8d2e0b6d7339708b101e2aee1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_predictions.parquet",
+    "bytes": 3859535,
+    "sha256": "cd8394ed53c97efcc7ced6c4e4b6f29e3a0b2158e9982bf61a4b787290bc9c0b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_fixed_regime_gap_errors.csv",
+    "bytes": 1385,
+    "sha256": "cb060594f4f5f8d1d3a125f88a447dbfbe9e1b132cc567e50ee29fe8ba018762"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_flow_gap_errors.csv",
+    "bytes": 454,
+    "sha256": "53988053f58172dcbbea2b1378637fa104a53dd5ff8b4577b4df66b1377069c0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_gap_errors.csv",
+    "bytes": 449,
+    "sha256": "ca120c7b17551aefad3c48cf853cd03a963018f13eb2510daa7faf632d3802c0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_isolation_errors.csv",
+    "bytes": 208,
+    "sha256": "415d0b75c3ae3e942480869092ae7abc1d8cdc16bdb3b0d3e82cd5a240ef97ff"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_predictions.parquet",
+    "bytes": 3602267,
+    "sha256": "ed465420efb4579cbf022cac81ebf506a9981ec953eee58583f5454cb5af3dae"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\A_dynamic_regime_gap_errors.csv",
+    "bytes": 1297,
+    "sha256": "05189064ea4dbadbf281d1ccf13a3e07b873a21df812e31b5f2fe6391b1724cf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_congestion_errors.csv",
+    "bytes": 217,
+    "sha256": "2db90fdce0149098d1a81fca1834c494a85dc1deadf67303879823ab3c977fc9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_daily_errors.csv",
+    "bytes": 2002,
+    "sha256": "ad1cd18a6d554959148bdd742b3d3a14a8a6ed6176ac365929af37e5d3c93641"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_flow_gap_errors.csv",
+    "bytes": 482,
+    "sha256": "8e852f93850a9cdfc36f037be405603e740ca97ddca96ca1fe6e4c24bb58a120"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_gap_errors.csv",
+    "bytes": 477,
+    "sha256": "16340df1c57d2a84566b6e2138061a14df03016adcdc663ffadc90cf775a535d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_isolation_errors.csv",
+    "bytes": 218,
+    "sha256": "638d9e3aa28cf8f8a2ec1500b1e2035f54e2724db2dea4a506e18d9be0bf35ee"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_predictions.parquet",
+    "bytes": 3859535,
+    "sha256": "530b45e0c4e360d1d124f9fbeed3ad9d3485c1c828dd24038c037f86083df03f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\Current_fusion_regime_gap_errors.csv",
+    "bytes": 1368,
+    "sha256": "8b4f0bade777da0e5633244412c879379dc93aa751c58d7d30587ac9db290d2c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_congestion_errors.csv",
+    "bytes": 203,
+    "sha256": "fa034815fbc25bce99e8a78c86f7c009b8b3aae0b6e2d6abad06e1276d06e26e"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_daily_errors.csv",
+    "bytes": 1872,
+    "sha256": "899c38a962810a40169c233f48a5e63c59e8a995bcb888a438fef6a826283f98"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_flow_gap_errors.csv",
+    "bytes": 453,
+    "sha256": "bf2c763de55b73a2a10a78c4b688be6f16f08fe1ca38b92c78768cf92f46bde6"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_gap_errors.csv",
+    "bytes": 448,
+    "sha256": "0616edef5f078b354c3e2d8c9e9c789042da2f382abc0430d4839a85dbfdbdbf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_isolation_errors.csv",
+    "bytes": 207,
+    "sha256": "bd78b3b015f46fcc7bcf5eabee0752a50d9a400cad159ab7afe76dc5eea0d7a6"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_predictions.parquet",
+    "bytes": 3857653,
+    "sha256": "4af7fba4197bcf4221fa2f016cdddae425a94262f75a6e2416a5e9ca61e249cd"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\LightGBM_regime_gap_errors.csv",
+    "bytes": 1282,
+    "sha256": "00ab84e680e00af26ff8ce74bfbe45ac839b9d8a9d6afca28ac6495fa833a463"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_congestion_errors.csv",
+    "bytes": 192,
+    "sha256": "fd05dcdb25bf8268fc36e04f710c86335b6fd4e22f52a18bd9b561594bb7e50f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_daily_errors.csv",
+    "bytes": 1741,
+    "sha256": "63b5ebd44556529ea28e83c4899fcfaf13a037216937c05fc673f865a1bd3d24"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_flow_gap_errors.csv",
+    "bytes": 420,
+    "sha256": "301c5dacfad3a35a15d62b1b67ce0a7c0305577997da6c88de742a5a525dce3b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_gap_errors.csv",
+    "bytes": 415,
+    "sha256": "78c76baf2d0d0ecb6e2189b089a508c7ca50fa86ed2a16fb662f573ff9f61eaa"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_isolation_errors.csv",
+    "bytes": 195,
+    "sha256": "09011239688c7bb7183d122454557ea1b4cc066b4b5f4be1f3d74c1921670a40"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_predictions.parquet",
+    "bytes": 3602380,
+    "sha256": "c165296af36e24170166b93199116219939ef11d8c01ad38c81bced2726d6328"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T0_regime_gap_errors.csv",
+    "bytes": 1189,
+    "sha256": "73e0cdfd11af08257a92ebb268310371e3aab997ffabcec9216d8ffe4397d75f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_congestion_errors.csv",
+    "bytes": 191,
+    "sha256": "96a8fc139165aa413bc694f8f1789ce5eef0624c1dbe160ca3c5b63c67b1e554"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_daily_errors.csv",
+    "bytes": 1740,
+    "sha256": "8a1a3145c287bdb4a451cd82def9da416a9fa250942fa60a60f7b5c68cdb8650"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_flow_gap_errors.csv",
+    "bytes": 422,
+    "sha256": "a00999bbf12ef1f39c2eb068d1d3feb01d146cc8a031140e3515803f8aacd03f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_gap_errors.csv",
+    "bytes": 417,
+    "sha256": "b7141cfe1d7e4c36b8b77f84e17c1985f9e55592726490d4a168610bb2ca84db"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_isolation_errors.csv",
+    "bytes": 195,
+    "sha256": "d8d236a3e29057b6ae0a1a66b75900c264f493d969793dcd5643827a732eddcf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_predictions.parquet",
+    "bytes": 3602171,
+    "sha256": "9346069a3deef223a0eabbf9c0f493e1e02e45405932fc797cd426304cb3fdaf"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal\\D7_I10_W\\T1_regime_gap_errors.csv",
+    "bytes": 1190,
+    "sha256": "89da7b5ea9e1e89140118c2aa2d831df39668453b0b9f3a8a3d59d3373564975"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_checkpoint_replay.csv",
+    "bytes": 396,
+    "sha256": "0c8b871f0eeec88f148ea79910425eb7de350b40b2050fda571754beed1f494a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_comparison_methods.csv",
+    "bytes": 818,
+    "sha256": "538891d600925f8bb75f744151eadd7ebbd58fab45873feb1b4030a5f6aa0ed4"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_daily_errors.csv",
+    "bytes": 21860,
+    "sha256": "07343ffe9062412048f1da13a287bc3599d1addb94948ca069bf704f6e3f0a6d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_metrics_by_panel_regime.csv",
+    "bytes": 3373,
+    "sha256": "91fe7807b7c77ce1a5a270902f8859498d9e73db6ea11406fc4022ee24d20874"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\internal_preservation_checks.json",
+    "bytes": 1333,
+    "sha256": "aee3ee7a086660f53327013b7f61d225fc143eb7413288f1419f73469431cf2f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\label_cache_usage.json",
+    "bytes": 362157,
+    "sha256": "f5db176523f254ecb8b78b4cd31e6478b16162261aebc3b5ae4a9dd5c106457c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\memory.json",
+    "bytes": 109,
+    "sha256": "77f53996b6b0301ccd7b52a1379f97b85ca64269251bde9f52eabad92f86ce5a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\model_cache_usage.json",
+    "bytes": 37173,
+    "sha256": "3024e6a8d86406a829b44f444bca85080facf1b1c8d5d9eeb7a144c4e041f55c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\A_dynamic\\holdout_raw_predictions.parquet",
+    "bytes": 9134171,
+    "sha256": "14e57b4635353b086b2d89067242b6a83fb050ae1d3954e1a07062182d787efb"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\A_dynamic\\internal_raw_predictions.parquet",
+    "bytes": 3573019,
+    "sha256": "a709621c5dd013f8e618c55006f927157d3b1f71abc30af0d25f827547ce449b"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\A_dynamic\\regime_exposure.csv",
+    "bytes": 37942,
+    "sha256": "d4221f4804da1167bb1e5a771dab80015b1875d197122e7e4eddb3e62dc4e4ac"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\A_dynamic\\selection.json",
+    "bytes": 3276,
+    "sha256": "ad186cad4de49efeb9f8836a3cea56d2d8f99fc57997445eaa98c1689092c42c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\A_dynamic\\training_history.csv",
+    "bytes": 7132,
+    "sha256": "9e3611d551407f5a6083ea40164aa30de852d03f12d96ab52454100dbc16a71d"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T0\\holdout_raw_predictions.parquet",
+    "bytes": 9131960,
+    "sha256": "5dfad8069a1714062591dad9398761619d27e2a842839513f77261a1b5d5b661"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T0\\internal_raw_predictions.parquet",
+    "bytes": 3572043,
+    "sha256": "6ece58f2b0138ae18ebb6c8aeb2169417e841b38d84ccb967fa8239bfe06b609"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T0\\regime_exposure.csv",
+    "bytes": 31281,
+    "sha256": "0186fcc9afad1547d11c8e914a134d61387030fa83a2bd1b8f1014c673a357b8"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T0\\selection.json",
+    "bytes": 3380,
+    "sha256": "f61301ccb147da4c01bda5b5a0a32ad581c1567bb55070d1d0ed3773d7dacc33"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T0\\training_history.csv",
+    "bytes": 8079,
+    "sha256": "00ce0afdb51dd7e53f5018a4cfd59e47defbc2e24d9179cdc25b81213965de7a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T1\\holdout_raw_predictions.parquet",
+    "bytes": 9134823,
+    "sha256": "50bbe5fc71248da3689c4e04e801268ec17d5dcddd291519b0ad8fb7b042e010"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T1\\internal_raw_predictions.parquet",
+    "bytes": 3572736,
+    "sha256": "d47b0c06bfc6c26e6de973fca089c16b908fdc698aba4a041c0fdbafa0c7ea2f"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T1\\regime_exposure.csv",
+    "bytes": 21735,
+    "sha256": "ee87d4c07350864363010cf2a96e9855972f609e461e90863b23934b89f0e082"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T1\\selection.json",
+    "bytes": 3267,
+    "sha256": "b8f9103c36fb2b88a15e9bf4557f7e0409df5eb5cf1e7cd328b1191a1c655625"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_E\\T1\\training_history.csv",
+    "bytes": 5597,
+    "sha256": "0a0d3db346e97f832c44587fedf41f1644b20ea34c4827dc7b1b46a889ce9d80"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\A_dynamic\\holdout_raw_predictions.parquet",
+    "bytes": 6946658,
+    "sha256": "cd66236a3385e056810c20c319e9ae526a07c591a3781e52deced4b5f67f661c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\A_dynamic\\internal_raw_predictions.parquet",
+    "bytes": 3174101,
+    "sha256": "3672fb8267ba4749b4ad2012fe3d67d22050e8fbbc41ef9296380c4403ddc2c9"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\A_dynamic\\regime_exposure.csv",
+    "bytes": 29027,
+    "sha256": "4690fc6af38a84ed3f1ad43932c5499643a71870d4b8a1674f47a484812cee75"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\A_dynamic\\selection.json",
+    "bytes": 3275,
+    "sha256": "99c92bab67b29f1aa41bf2cb8b167bce44500f31c81b9290d244898240cdb82c"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\A_dynamic\\training_history.csv",
+    "bytes": 5451,
+    "sha256": "9a45a33a09431bc78d245b7cc7640b6a6e75fc834a48a1c7534a43b5f0f749e8"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T0\\holdout_raw_predictions.parquet",
+    "bytes": 6952309,
+    "sha256": "cac857b54db9c1930dbae4fabadc0b7e11b66f9be998456d93595f4181ca04d0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T0\\internal_raw_predictions.parquet",
+    "bytes": 3176026,
+    "sha256": "71cc3c3e5020af51f799e44875744b86bb30e42702747979706fff4b955bc9b7"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T0\\regime_exposure.csv",
+    "bytes": 22485,
+    "sha256": "838b2ccbe6802ba2f613445e8893faafe2fbfdd1772c1fadd58d8ba80dd4fc68"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T0\\selection.json",
+    "bytes": 3374,
+    "sha256": "f436bd4308c52c96aea99fae140ba8baa9a33ea90b5a2009bfb5e04588c7fb4a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T0\\training_history.csv",
+    "bytes": 5775,
+    "sha256": "9f1ecb7a60c5dbe5733cefb270a5f496c7d1fe4beabb77424c89ee47ca8f97c1"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T1\\holdout_raw_predictions.parquet",
+    "bytes": 6948045,
+    "sha256": "34fd85354a6ba05d5112b7a352f81d8e2f7b959e474bec2161593e3dc2f47e70"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T1\\internal_raw_predictions.parquet",
+    "bytes": 3174713,
+    "sha256": "d71220b3e32555214860522085dcd9c6ca12e86e5aad8c25974ab1e566e572b0"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T1\\regime_exposure.csv",
+    "bytes": 21261,
+    "sha256": "7b575ad122f4450d5d850942591453cf674d00660201a6497df57a0dfaf05567"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T1\\selection.json",
+    "bytes": 3236,
+    "sha256": "ad5fddff556a43d1bc98431ec7dcd7454e070e4c3c6691e27bfaddaf13dddec5"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\models\\D7_I10_W\\T1\\training_history.csv",
+    "bytes": 5471,
+    "sha256": "d16510bcfa03f673f7dc157045846f389540ab1f484c760ad697675ccc137bbb"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\observation_cache_usage.json",
+    "bytes": 1718,
+    "sha256": "b082feea2242a31a997a19142a6cce7497de74609ee147715e743dd9d2de3926"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\paired_calendar_bootstrap.csv",
+    "bytes": 617,
+    "sha256": "262f273930f75630c6940c0e90161e08fefc643406c86cc7097d297bfddba375"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\partial_model_cache_usage.json",
+    "bytes": 34141,
+    "sha256": "a5ded761b423deacaf7b5e4e0942171c75b38b31ffe7f53070925d17eac6120e"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\preflight.json",
+    "bytes": 13260,
+    "sha256": "9dbee55e2180fc2e50982e5fc2cf91a13bb99b6185a6a5b921e83a76c89bd0c3"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\run_config.json",
+    "bytes": 20796,
+    "sha256": "f0f340e5e4c265af996f68593335f1d3b312c5190463f88e5389028459e7415a"
+  },
+  {
+    "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i10_formal_20261022\\batches\\02_D7_I10\\source_manifest.json",
+    "bytes": 2424677,
+    "sha256": "eb9a249f715afcceea4ca095862aa4f0142df091451b2b7f7e7ed1655b53476c"
+  }
+]

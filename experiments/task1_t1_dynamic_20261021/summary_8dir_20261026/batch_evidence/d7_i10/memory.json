@@ -1,0 +1,5 @@
+{
+  "device": "cuda",
+  "peak_allocated_gib": 0.0007882118225097656,
+  "peak_reserved_gib": 0.001953125
+}

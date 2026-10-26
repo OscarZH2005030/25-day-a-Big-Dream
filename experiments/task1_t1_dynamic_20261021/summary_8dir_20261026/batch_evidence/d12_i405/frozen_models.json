@@ -1,0 +1,119 @@
+{
+  "selection_dates": [
+    "2030-12-14",
+    "2030-12-15",
+    "2030-12-16",
+    "2030-12-17",
+    "2030-12-18",
+    "2030-12-19",
+    "2030-12-20",
+    "2030-12-21",
+    "2030-12-22",
+    "2030-12-23",
+    "2030-12-24",
+    "2030-12-25",
+    "2030-12-26",
+    "2030-12-27",
+    "2030-12-28",
+    "2030-12-29",
+    "2030-12-30",
+    "2030-12-31",
+    "2031-01-01",
+    "2031-01-02",
+    "2031-01-03",
+    "2031-01-04"
+  ],
+  "models": {
+    "D12_I405_N": {
+      "T1": {
+        "name": "epoch_021.pt",
+        "sha256": "c5c8c41122397758ddabcf1bcc8b216d85a105927070c976974c026cf069cc1b",
+        "identity": "3c6e8d5d144e62a61187d6f95e434408be76812dc5355d8eaf98ed4067e7607d"
+      },
+      "A_dynamic": {
+        "name": "epoch_021.pt",
+        "sha256": "2d3f2556c7e52b9466ad66c936c2c679323b59a3ab9fade0fcc6d171c0382bd0",
+        "identity": "6eed6e082e0c04f16530f46c01ff3f82de96b34351581bbfd4d3538b6ffe6e56"
+      },
+      "T0": {
+        "name": "epoch_018.pt",
+        "sha256": "6e884d95c858ae862149bcda4931bd40270aede1993e4ad31e28fc035a6ba35b",
+        "identity": "14ccba5a01ca19287445559860cdf81ce44163a483481fe709fb4af1682b58c4"
+      }
+    },
+    "D12_I405_S": {
+      "T1": {
+        "name": "epoch_025.pt",
+        "sha256": "7dafd3b31a1bf759cacfa61750c6fed55b43d1d4a8f7bf0fdca68c2bc4c5ca4e",
+        "identity": "8a4e6c1a757e120b45d79c72d3c49dc8cb45ee1189fcf920de291748342acabd"
+      },
+      "A_dynamic": {
+        "name": "epoch_025.pt",
+        "sha256": "96b59108e28af29b590525add044367c9680af51db2f1f79117810160ae4c524",
+        "identity": "efca223f29f08114c056eb9533a1a3d61b6ee27462f90f8dddc6e7b9a1a7157e"
+      },
+      "T0": {
+        "name": "epoch_018.pt",
+        "sha256": "a0c687ea8d7e05e4e6d9e7e9240dec5180a0530bae5ac6899ad80ab7f0335b32",
+        "identity": "652b65f8672fe8cb6fd873d8a5a3a688f8349dbc8cebe0139adcf882e90957fc"
+      }
+    }
+  },
+  "trees": {
+    "D12_I405_N": "bedee3e981fe7b9199ae305d0390f295409704a49a0afc29ee88e6193b27f7ef",
+    "D12_I405_S": "2e5526e1e2852ff97b2eac7060b40bc87f47f7283d27bdc638558cc8b6e587f5"
+  },
+  "fixed_fusion": {
+    "beta": 0.5,
+    "speed": 0.1,
+    "flow": 0.1
+  },
+  "frozen_utc": "2026-10-25T05:47:55.598424+00:00",
+  "internal_artifacts": [
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\internal_checkpoint_replay.csv",
+      "bytes": 402,
+      "sha256": "c415bd449c2144f199eb97ef06bbb696f3bcd5737d7accea33dde6a254c0e6a3"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\internal_comparison_methods.csv",
+      "bytes": 811,
+      "sha256": "03b756676f92a8b9b6a079b3c64d74f5f5a363f7cbf9a83acefe3ebe9f0cec4f"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\internal_metrics_by_panel_regime.csv",
+      "bytes": 3492,
+      "sha256": "aae175887467f489e4343a0920a2b1bbd44f344c7f94e25ff47158a158ff30c4"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\models\\D12_I405_N\\A_dynamic\\selection.json",
+      "bytes": 3283,
+      "sha256": "5220663a66c515f38fc0900fd7211424cbe0502fc1d9ba536a4ac8abc5fb7e53"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\models\\D12_I405_N\\T0\\selection.json",
+      "bytes": 3367,
+      "sha256": "62cda74f7ee1a0ab4a1e9de2b12f1677d821a8c5e4c8c780cff96f3dd1d8dc49"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\models\\D12_I405_N\\T1\\selection.json",
+      "bytes": 3256,
+      "sha256": "9d71faa050e7212abefa5e35ac9303fc2ca563b38255553ecb37afcd7f2f155a"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\models\\D12_I405_S\\A_dynamic\\selection.json",
+      "bytes": 3223,
+      "sha256": "621b8d3bc6493352bfec52e12b168d6d8460a11bb3dab70f74c9c24bffe4b05c"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\models\\D12_I405_S\\T0\\selection.json",
+      "bytes": 3332,
+      "sha256": "dffd57980d0d3c78c430f2fce8448f8f37319703ad1b937d6f4e4ac0dff7d4f2"
+    },
+    {
+      "path": "C:\\Users\\ROG\\Desktop\\IEEE Big data 2026\\25-day-a-Big-Dream-main\\experiments\\task1_t1_dynamic_20261021\\runs\\oscar_handoff_i405_formal_20261022\\batches\\03_D12_I405\\models\\D12_I405_S\\T1\\selection.json",
+      "bytes": 3219,
+      "sha256": "35bc2fec75d18917efe723e195bf4eb76881ad3180fcd7d9c3a615f174f99364"
+    }
+  ]
+}
