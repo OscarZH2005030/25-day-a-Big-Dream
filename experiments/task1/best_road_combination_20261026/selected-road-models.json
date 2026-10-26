@@ -1,0 +1,370 @@
+{
+  "primary_rule": "one frozen model route per whole road; no per-target error routing",
+  "selection": "max common55day macro-regime S_state among audited candidates",
+  "routes": {
+    "D12_I405_N": {
+      "model": "jayden_186",
+      "score_common55": 0.9615534431014351,
+      "paths": {
+        "transformer": "models/D12_I405_N/jayden186.pt",
+        "history": "models/D12_I405_N/jayden-history.npz",
+        "normalization": "models/D12_I405_N/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "271046a6fec49b62719066cb919cec85f66181ea6ea4ad957023576a78a908be",
+        "history": "5361663b79deab3419ec47134b8520fd767c0c7402dd5d4caf844056fbacddd3",
+        "normalization": "d16e08d4c18f3a6c6bb90901ad9c517a9f3a41735b922295880126ad9aafd23c"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D12_I405_S": {
+      "model": "adapted_lightgbm",
+      "score_common55": 0.9345913880574989,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "speed": "models/D12_I405_S/speed.txt",
+        "flow": "models/D12_I405_S/flow.txt"
+      },
+      "sha256": {
+        "speed": "31f247e31b37d1e71c9db4d06a8b638d31e089a6a6d46bb53a3d2533f36ffc21",
+        "flow": "5217a86801120b1d55d24445df3a68e638bf9676b0348e246d8b13ef440a7bad"
+      },
+      "history": "models/D12_I405_S/history.npy",
+      "routing": "LightGBM both channels for whole road",
+      "history_sha256": "44bce99dc85f8a3a80edc5eb5737971947e7416603e94f69933479a1c829d502"
+    },
+    "D12_I5_N": {
+      "model": "jayden_186",
+      "score_common55": 0.9581526006884994,
+      "paths": {
+        "transformer": "models/D12_I5_N/jayden186.pt",
+        "history": "models/D12_I5_N/jayden-history.npz",
+        "normalization": "models/D12_I5_N/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "c5fd4d6c00d50ba9a7ef7cd2eba251b83c28b4cb23432e4190305642b24cbdb2",
+        "history": "b252b5c7c76f09c06afbe2962ecd7e78e3c2dde477bc498236860f5031f8e1c1",
+        "normalization": "ea51bdbeecb0017278c316209027298097e82648739ed2ba735d110b37aa22e6"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D12_I5_S": {
+      "model": "jayden_186",
+      "score_common55": 0.9415194972896327,
+      "paths": {
+        "transformer": "models/D12_I5_S/jayden186.pt",
+        "history": "models/D12_I5_S/jayden-history.npz",
+        "normalization": "models/D12_I5_S/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "0a7a95ef32ebbfbc8bd244c1758170864823a03e19f076ce91f8b00a79a7e450",
+        "history": "b0a0e78355b81b6ee79dd49e3c133c5848b4b20547bee1cbfcd4ed40fb62bb98",
+        "normalization": "eac200bdf9d0b600bb916681b0c6c890aad3b509a8ca01af4e91900c5ff81120"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D7_I10_E": {
+      "model": "jayden_186",
+      "score_common55": 0.9455036589476217,
+      "paths": {
+        "transformer": "models/D7_I10_E/jayden186.pt",
+        "history": "models/D7_I10_E/jayden-history.npz",
+        "normalization": "models/D7_I10_E/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "5a6b54780f222d8be339915bf4f3272c0d27fccafdd0aeecc4e46e03c2b6fba9",
+        "history": "f3a4c502b97a9042ad1f1b4ac72d2e09884d2d9a74df124384e65b93bd47a9dd",
+        "normalization": "2013ca1e7fc84687a7bb260308fc19197b0ac04a0a4ac7ffac7d48ec56489761"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D7_I10_W": {
+      "model": "jayden_186",
+      "score_common55": 0.950063663873315,
+      "paths": {
+        "transformer": "models/D7_I10_W/jayden186.pt",
+        "history": "models/D7_I10_W/jayden-history.npz",
+        "normalization": "models/D7_I10_W/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "eadb058cf976e01a249643527cac015cc898a54afeef8c4b1b5d46cb3f42df51",
+        "history": "99e76e94dd3d8cd40f91ec86289c6a824084e99b7c48cdd7a5320c8316673474",
+        "normalization": "6cc0fe95c78eb7beb4c0230a4b86a76e69b9d5860fd64c9f8336d3e0104158e7"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D7_I210_E": {
+      "model": "github_original_hybrid",
+      "score_common55": 0.944040335588856,
+      "selection_dates": [
+        "2031-01-05",
+        "2031-02-28"
+      ],
+      "validation": "model-selection evidence, not independent blind test",
+      "paths": {
+        "transformer": "models/D7_I210_E/best.pt",
+        "history": "models/D7_I210_E/history.npz",
+        "speed": "models/D7_I210_E/speed_kmh.txt",
+        "flow": "models/D7_I210_E/flow_per_lane.txt"
+      },
+      "sha256": {
+        "transformer": "295fb6500d2b5e90547972c2ec1fb970acc08ada86837066c170e50a810f9baf",
+        "history": "a95ba243d70adec7b1df0f0ff47cce8c3ec23f732af043ae4847b6d9ab12f2a9",
+        "speed": "6f329ee76de8bab902ec8a134fea3824938adc897ec049b22cf99868a6ac317b",
+        "flow": "448c508fca43d8f5a05045f4ccd3fdfb29d8b76f3f5ff0dc33486d68d7baf1c7"
+      },
+      "routing": "original full graph zero non-self degree => LightGBM both channels else original GitHub Transformer",
+      "source_checkpoint_sha256": "61132899cc29e108070b0d45ba9fad92ccc6c9c6009cc3fc45778d056341575b",
+      "checkpoint_export": "inference-only; parameters unchanged; no optimizer/RNG/local paths"
+    },
+    "D7_I210_W": {
+      "model": "jayden_186",
+      "score_common55": 0.9267006379968471,
+      "paths": {
+        "transformer": "models/D7_I210_W/jayden186.pt",
+        "history": "models/D7_I210_W/jayden-history.npz",
+        "normalization": "models/D7_I210_W/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "0daa08f8b6aef5463d1a15cbc60d8bac6d69ff3b99d43da51458075337a9ea79",
+        "history": "d404fc936b32838cfa71ae09167736bced0ed881eb0b452816989cc40cd88a3a",
+        "normalization": "49821f5fed8bdc0c40ec11695672b0dd695547def692182e76a1ee690852b7e7"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D7_I405_N": {
+      "model": "jayden_186",
+      "score_common55": 0.9345658035065639,
+      "paths": {
+        "transformer": "models/D7_I405_N/jayden186.pt",
+        "history": "models/D7_I405_N/jayden-history.npz",
+        "normalization": "models/D7_I405_N/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "210c849ed15699dbaea16cc0e02d802c1c3c9a3c8c311be47254b9b0abd1cffd",
+        "history": "d982c6297efedbc339c06a248856fc93e322aee2e3ea18d746d672b73e3d0984",
+        "normalization": "579de367bbba5797220af4a04f2d5780a02156cb9c474396e4906f26bae9f84d"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    },
+    "D7_I405_S": {
+      "model": "jayden_186",
+      "score_common55": 0.9315952978725047,
+      "paths": {
+        "transformer": "models/D7_I405_S/jayden186.pt",
+        "history": "models/D7_I405_S/jayden-history.npz",
+        "normalization": "models/D7_I405_S/normalization.npz"
+      },
+      "sha256": {
+        "transformer": "e9e29916d105ead966305b9e34e8d6bdc97b330e78a655c3e37599f58f828e3b",
+        "history": "0ea10a77590ce6bbd96bc14f5f424c4396e14926ecc8be897063622da14d6ce1",
+        "normalization": "7f7e4e9065acf2dace79acdc482ed842c4b7542e4d7dc893da6a02e8e08bdc46"
+      },
+      "config": {
+        "window": 24,
+        "patch_nodes": 64,
+        "width": 64,
+        "heads": 4,
+        "layers": 3,
+        "dropout": 0.1,
+        "batch_size": 2,
+        "seed": 2026,
+        "threads": 4,
+        "epochs": 60,
+        "steps_per_epoch": 1024,
+        "patience": 8,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.01,
+        "clip": 1.0,
+        "eval_batch": 4,
+        "input_numeric": 186,
+        "input_columns": 372,
+        "augmented_view_probability": 0.5,
+        "checkpoint_every_epochs": 5,
+        "training_dtype": "float32",
+        "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+        "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+      },
+      "validation": "used55day model selection, not blind test"
+    }
+  }
+}

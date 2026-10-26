@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "scope": "all10roads true inference one heldout day; old kept models match previously verified package, new models match saved experiment",
+  "roads": [
+    {
+      "panel": "D12_I405_N",
+      "rows": 3970,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D12_I405_S",
+      "rows": 2964,
+      "max_absolute_difference": 0.0,
+      "method": "adapted_lightgbm"
+    },
+    {
+      "panel": "D12_I5_N",
+      "rows": 11280,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D12_I5_S",
+      "rows": 4377,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I10_E",
+      "rows": 16140,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I10_W",
+      "rows": 4672,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I210_E",
+      "rows": 19551,
+      "max_absolute_difference": 0.00057220458984375,
+      "method": "github_original_hybrid"
+    },
+    {
+      "panel": "D7_I210_W",
+      "rows": 8868,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I405_N",
+      "rows": 38875,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I405_S",
+      "rows": 7170,
+      "max_absolute_difference": 0.0,
+      "method": "jayden_186"
+    }
+  ],
+  "device": "cuda",
+  "tolerance_physical_units": 0.01
+}

@@ -1,0 +1,1020 @@
+{
+  "source": "TrafficFlowBench.tar.gz.partial (original external migration archive)",
+  "target_files": 202,
+  "recovered": [
+    {
+      "path": "full_dataset_training_v2/all_metrics.csv",
+      "bytes": 4733,
+      "sha256": "e63039abb633a506ba2f1a9d5810504387a0f21c4aa85dcdd7a16d16b47a0be4"
+    },
+    {
+      "path": "full_dataset_training_v2/environment_pip_freeze.txt",
+      "bytes": 397,
+      "sha256": "5fa7ed58bd5e0d9fc7f30932afae0562eb799faa58edf027951b9bac5a0bbf93"
+    },
+    {
+      "path": "full_dataset_training_v2/plan.json",
+      "bytes": 11352,
+      "sha256": "3c8905622770235c539884107dd2a1fe4a3a78cb8f6c7cd675b93c82835e2514"
+    },
+    {
+      "path": "full_dataset_training_v2/source_sha256.json",
+      "bytes": 376,
+      "sha256": "bd144dbf27ec2f1292f83731bb825d7d88bd73af61320ed7c81da20eca549652"
+    },
+    {
+      "path": "full_dataset_training_v2/status.json",
+      "bytes": 343,
+      "sha256": "cb4c8ffd0e27c9a904a310021e5a6eefef17421d964241df172c49e9d0919fcf"
+    },
+    {
+      "path": "full_dataset_training_v2/summary.json",
+      "bytes": 186,
+      "sha256": "4a6dcf411982d9b4fdb811a1d408c594922fe7134459345b00b87719007cf87d"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/best.pt",
+      "bytes": 2587422,
+      "sha256": "268683992d8d8fec5719c5bb527ad1dc37ba3f5c641a662b3789b6b5f3cc6c4f"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/command.json",
+      "bytes": 1328,
+      "sha256": "7f21c6c0cc082c46d3482eb32a9ec687ab52a3a7f540b857af0891257eb7c18d"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/COMPLETE.json",
+      "bytes": 63,
+      "sha256": "30230fcf2fad86aceb8961499d238f0fcaa40d1f6e0efb294666da2da90b4b6e"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/experiment.json",
+      "bytes": 4862,
+      "sha256": "00c2067b3ecef778fe971035e72dab88fccc8b49512b24831ab3693dc13b7876"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/history.npz",
+      "bytes": 2600282,
+      "sha256": "5361663b79deab3419ec47134b8520fd767c0c7402dd5d4caf844056fbacddd3"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/holdout_predictions.parquet",
+      "bytes": 5742444,
+      "sha256": "9e0d3a715d522b2b76892272184eced86b14258351f013ec7040741b6440dc6f"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/metrics.csv",
+      "bytes": 504,
+      "sha256": "42620fb50eaee0e0977b6f3a59f39a5749686c7f227ddbc7144939610ad7b8ea"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/model.pt",
+      "bytes": 863442,
+      "sha256": "ddd5560a9c47077f50d244f25be12e98d7f8806640bf18168c5ba5df48da1612"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/run_config.json",
+      "bytes": 1072,
+      "sha256": "49a64aed661fd67e0804b438ae04b6bf176278cc5a8d63d2e078c19e838b8371"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_N/training_trace.csv",
+      "bytes": 1916,
+      "sha256": "df400cde21d7e7e52d6bc59c4942fe0d77a22ddc9bdb804aedd70700ea53e135"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/best.pt",
+      "bytes": 2583518,
+      "sha256": "67943e266d563f9606b2820f8b0f72ddd8a4c9902fba73292105f17913ab6db1"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/command.json",
+      "bytes": 1328,
+      "sha256": "e8e46ee1e2f5affef1a25e65e3c4516cffdc067e6a23f052eda82dba7e298aac"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/COMPLETE.json",
+      "bytes": 63,
+      "sha256": "94550a1fbed1db3e802ed351886f611eab714578ac6aed5d4d74fd9f6c6ab57d"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/experiment.json",
+      "bytes": 4862,
+      "sha256": "480d5c0049dc09ad6f3f8d529e974395931e8ee7734c0220f595a112b07215da"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/history.npz",
+      "bytes": 1286058,
+      "sha256": "d5421f6ed83119ec5cd08bf8884a98b9c9ffddc4a40e13f9f8e03c73a32fe026"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/holdout_predictions.parquet",
+      "bytes": 3397814,
+      "sha256": "4fa5cc337e038f4af589ecf3b942b1be2d8cb0a24fe32245f33283ec66e27f25"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/metrics.csv",
+      "bytes": 496,
+      "sha256": "864d7e6f69211c36570cbf61fbb81d31f83bbe9b3b499a09582c092d9675b623"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/model.pt",
+      "bytes": 861266,
+      "sha256": "f31d927e2b062d31dc19982970ebfde7a05f21a9380085e344e9d348760aea7c"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/run_config.json",
+      "bytes": 1072,
+      "sha256": "665431ce6c76a21e8a2d93befe4456c1f26ffa5a639ef2ab10981bedd6417d5d"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I405_S/training_trace.csv",
+      "bytes": 1468,
+      "sha256": "7c1c9b859f53f4d9e564da75901edd73d99758d8376cad027436fb4afbc74e06"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/best.pt",
+      "bytes": 2599518,
+      "sha256": "e01028a2fc087e3537f52ca9969a82503bf0caf72fe4953b354ea75543d7748b"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/command.json",
+      "bytes": 1162,
+      "sha256": "21fd8c2f98b74a749f44ea5b301d0a9d16a1509abe26bdc3add91a9047c66642"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "51002b6dd24daf973eb928debad4794a4aaf1f0bf1a5beb4e6175de9b9f2cfe1"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/experiment.json",
+      "bytes": 4719,
+      "sha256": "b040ebe3b3ce6fce63cb0d76d3cc8601c5ad60e712732e17dd12f74745827351"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/history.npz",
+      "bytes": 7542520,
+      "sha256": "b252b5c7c76f09c06afbe2962ecd7e78e3c2dde477bc498236860f5031f8e1c1"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/holdout_predictions.parquet",
+      "bytes": 15155354,
+      "sha256": "c0771b8b70badcf18c574b76e6f0a184a347745d15c2f98c4c10b366cdd10adb"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/metrics.csv",
+      "bytes": 506,
+      "sha256": "451f44874304ea2cb0f1738f8205d198e2ea26977ea94664df7069b24da5e088"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/model.pt",
+      "bytes": 870418,
+      "sha256": "98b7a2b9afc4c6ff6d6324b9899e21d560bc3eb0c57cd2b1d7b5d3bd74f36c36"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/run_config.json",
+      "bytes": 930,
+      "sha256": "7909fddebf02267973001bfc940a894f34257b07f444ca4951a1de9ac4207d1f"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_N/training_trace.csv",
+      "bytes": 4325,
+      "sha256": "e4e92f11b6b67e3aeb1238fad653ee15d25aa561e3bf4c143452f9a865d6883e"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/best.pt",
+      "bytes": 2589214,
+      "sha256": "355d6a3d77e42af108b7d4876320bc008a1117ee93a579b02f20a95044d5ee96"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/command.json",
+      "bytes": 1162,
+      "sha256": "eb43faf7116ef0d62028fceeea801e0e9afecea19b90ee865ebc86eef08c1604"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "c7f86046ae7796aec21f7d8ea3a9c267d4448cdb1cef64d4d82893d5e526e232"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/experiment.json",
+      "bytes": 4720,
+      "sha256": "78338a36c9bc2ea85d14907f94b15f65fe32a3e1d5d00c086b8c18ad3ff51029"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/history.npz",
+      "bytes": 2817831,
+      "sha256": "b0a0e78355b81b6ee79dd49e3c133c5848b4b20547bee1cbfcd4ed40fb62bb98"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/holdout_predictions.parquet",
+      "bytes": 6531685,
+      "sha256": "9d054ad28c9a7e4faf94e286d0cb693ec37e6b64258c726652fac54c2140af50"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/metrics.csv",
+      "bytes": 502,
+      "sha256": "f5c8f1ab12ddd8b9155d86808e542b6a0efdf75dcfe726502d85aaf7e86bf6f0"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/model.pt",
+      "bytes": 863442,
+      "sha256": "4c2f700f36a944bdfb9e87fb8508e70040ba5c9434a8cbea0b293b81319db469"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/run_config.json",
+      "bytes": 930,
+      "sha256": "637d909d59b5f9c8384aba9e9061f12e1375454e4730abb23bb2929f3f79ee08"
+    },
+    {
+      "path": "full_dataset_training_v2/D12_I5_S/training_trace.csv",
+      "bytes": 3171,
+      "sha256": "c8c148711447460b5cad28134a59cb1553b871d6863da451ac5857d82c57ada0"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/best.pt",
+      "bytes": 2592542,
+      "sha256": "350300bed7fa0fcfcc7935632b9b05eb7b72d9ac3f2fc882dbcd3fda70fbb92b"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/command.json",
+      "bytes": 1162,
+      "sha256": "af88aabac599940e228e85352f14db9822f0e52d3282e1e5d32d46ffe8b7edfe"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "e1b6050f75ff8132e6f715f99247a6c0bc4640f898af594eab41338a1e49b7e4"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/experiment.json",
+      "bytes": 4720,
+      "sha256": "14f3c8bee810417f8309e43e63b57ba3b46e7c9aa6d135503abba4c594268e64"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/history.npz",
+      "bytes": 4207870,
+      "sha256": "f3a4c502b97a9042ad1f1b4ac72d2e09884d2d9a74df124384e65b93bd47a9dd"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/holdout_predictions.parquet",
+      "bytes": 9132166,
+      "sha256": "92a3a19ce5bdacd49dc8ba207da26568d58f6e159e62d9c8c447e7697b946c54"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/metrics.csv",
+      "bytes": 504,
+      "sha256": "1696e6680664c9f382195c92162263e78bf69591bfda045af1210caa187523d2"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/model.pt",
+      "bytes": 865618,
+      "sha256": "048787a29fa5c17d7cfa25eebf66552912f416327b42e1abe7b521899a1f0c2e"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/run_config.json",
+      "bytes": 930,
+      "sha256": "275f01e6a2ffe16cc0cc8105cf5905e5fd4cd54d952d68550e90995a13ac629d"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_E/training_trace.csv",
+      "bytes": 3755,
+      "sha256": "4737272d378950b53a5e86220472dbe15cc8695f8138ef1694e6a30e31fcc8f4"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/best.pt",
+      "bytes": 2587230,
+      "sha256": "2af8d036c7cf91a5c904592b09a4eace26e1ca2e9d0f8d951a0aedfbd3fd1417"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/command.json",
+      "bytes": 1162,
+      "sha256": "463c32b9495a62b45d7930ab23f6485ea26e8a757021fa4288c0548b1853eb80"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/COMPLETE.json",
+      "bytes": 60,
+      "sha256": "7e21f3fb0b657ffbe62fc8ca584fa90e6e606bbe437beb1a736d857e41c48ad2"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/experiment.json",
+      "bytes": 4720,
+      "sha256": "131e239b277b8974fff7d51b2f5f298db6429178935721cf3f090064e0b199ed"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/history.npz",
+      "bytes": 3069603,
+      "sha256": "99e76e94dd3d8cd40f91ec86289c6a824084e99b7c48cdd7a5320c8316673474"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/holdout_predictions.parquet",
+      "bytes": 6954585,
+      "sha256": "9f3f880a4e4fc842b82e0ac41373c76843769d2a55d83a0128a65a6f1739a7ab"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/metrics.csv",
+      "bytes": 503,
+      "sha256": "c8e5e6b7548c632d220beee95cd184f9700421b123e206e60d198401a9d58817"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/model.pt",
+      "bytes": 863826,
+      "sha256": "dcad92fb3a9928a7221bfa5b7d4bdf254f584e5c9ffc527d55cc2c99b378d0c1"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/run_config.json",
+      "bytes": 930,
+      "sha256": "d858237f5f85fedf899ac919239d3931b61a71ee4e516cb28d5a83db880fa21a"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I10_W/training_trace.csv",
+      "bytes": 1989,
+      "sha256": "d565c6ecd695bfc62c32c74701349e917dedd7e4fd4d52e8629ec8a9bd411983"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/best.pt",
+      "bytes": 2602974,
+      "sha256": "61132899cc29e108070b0d45ba9fad92ccc6c9c6009cc3fc45778d056341575b"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/command.json",
+      "bytes": 1324,
+      "sha256": "06228c8a5039fc36928d840feb5dee3a08298c99bf1d5ce412cc41e6a18e1470"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "ea7bac70a9cd7f94cca762b430226d08882e43d828e94c1916c074f80bd6753b"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/experiment.json",
+      "bytes": 4859,
+      "sha256": "8ada47e878a008d45fd2bea40df5de6d004260e41b99433eb03675b4d5a0ac6f"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/history.npz",
+      "bytes": 8703251,
+      "sha256": "a95ba243d70adec7b1df0f0ff47cce8c3ec23f732af043ae4847b6d9ab12f2a9"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/holdout_predictions.parquet",
+      "bytes": 20939185,
+      "sha256": "2aac3d97856985ab514dfb8b4854bb11a3732c5c24ff31f05c51c03650e19d6a"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/metrics.csv",
+      "bytes": 505,
+      "sha256": "33f55a7118fa6ba7af05533fc490955df83aef1387584a1634407bde022459cc"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/model.pt",
+      "bytes": 873106,
+      "sha256": "7e4e1ab025f8c4e6652e40b48c3023ed785995f2e34162f4fcbab98905f89b15"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/run_config.json",
+      "bytes": 1068,
+      "sha256": "1528ec2ac4d399ba916138261c4e4b94f7b5d0fa189a294dfa176215e27a2ef4"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_E/training_trace.csv",
+      "bytes": 4349,
+      "sha256": "8583b21d4409d735aeac4136e4329fb70d842c2ff4995e055881582cde9b0539"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/best.pt",
+      "bytes": 2591646,
+      "sha256": "d13d2c3661c82958cfd395217c97a8b92bfa6ffb441169f69c75d3697dbeb83d"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/command.json",
+      "bytes": 1165,
+      "sha256": "5ba8d1f39c25bc2cbb2fdb41c4c8841a3a0b3582b3f3536f9e8b5b60e5833133"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "5e3744caca062f89a4b257c236af6d3bb1028255b6446214eabb779cad66d0c4"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/experiment.json",
+      "bytes": 4723,
+      "sha256": "060020acf1c195b7cb9259141067553670617a8d278669ea13f84c2455c971a4"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/history.npz",
+      "bytes": 2312489,
+      "sha256": "d404fc936b32838cfa71ae09167736bced0ed881eb0b452816989cc40cd88a3a"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/holdout_predictions.parquet",
+      "bytes": 5578788,
+      "sha256": "17de5d632c9e6f881ffe11f10eab124750bc9f557100b54d63300762f523b43f"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/metrics.csv",
+      "bytes": 496,
+      "sha256": "856a95f49a2f2f436000c193ef346b4b51c73903e146d22879e07bb0fc67afa6"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/model.pt",
+      "bytes": 862802,
+      "sha256": "87ee2141b45f0abf7c866fd6cece5529cb117bed73e50689abbfe3c240db0bfb"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/run_config.json",
+      "bytes": 933,
+      "sha256": "7ecd368c1c442e0e5260d8c8f98d28ee085e17d13b0e02d186214103dc379d77"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I210_W/training_trace.csv",
+      "bytes": 4285,
+      "sha256": "59b1ffac52fa3077ce7ce8c0974340d038a113ee5229dfebef4b169cd68e7a67"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/best.pt",
+      "bytes": 2604254,
+      "sha256": "2299d4f0dca34bb817954073b483c5056ff7d746fe23f65e579a9f629aa6e54e"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/command.json",
+      "bytes": 1165,
+      "sha256": "a55fd3ef83687004ef2a5675daf7ac89547142af2388e99b481fb43b48567ced"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "85a2b3646ab75e093a4506e0f0e257f1814642dc84f040e44a4f8814f8ed4cbb"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/experiment.json",
+      "bytes": 4724,
+      "sha256": "b663a6f76ba03ae0d2df878ab20ba40de5b953bd2025fd310a1342b7af2fbcde"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/history.npz",
+      "bytes": 10412022,
+      "sha256": "d982c6297efedbc339c06a248856fc93e322aee2e3ea18d746d672b73e3d0984"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/holdout_predictions.parquet",
+      "bytes": 22552215,
+      "sha256": "dce6761207010673eaeb2d9bf843c07fb7b81b68420d8a9c7af283cd3110a138"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/metrics.csv",
+      "bytes": 501,
+      "sha256": "b470ea5f9cc536750f0ed621db086ca3b5330ac1f42a45950d90f8ea51147f9b"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/model.pt",
+      "bytes": 875602,
+      "sha256": "e32f333172491ee40b775e46a68f72b57f2a7ead7dc357f53b0c14db29243e78"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/run_config.json",
+      "bytes": 933,
+      "sha256": "13e584adf7a4535fb1c16dda230bb2c8f04319bb68582377883cab4c6994f7bb"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_N/training_trace.csv",
+      "bytes": 4303,
+      "sha256": "695c648fd010e19d9442d12837521be14a023b1902153001bdf5b55bf37efbbf"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/best.pt",
+      "bytes": 2591006,
+      "sha256": "3db9ef8e46024c3c538f637fa7804408cd750e941e949840ee28e028020b49af"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/command.json",
+      "bytes": 1165,
+      "sha256": "a485600d0d1b1f1999b54abde01b23d39e33c38cc661ceacecf6722b19c7a7c9"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "e3d4795c485858275bc943432abe81b8ca37ec1422296b594ce4f50ea1316162"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/experiment.json",
+      "bytes": 4723,
+      "sha256": "a2c857d3e6205fced770163e74baca07cd65d113260fe3ebec6b01bfa36c1edd"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/history.npz",
+      "bytes": 3199638,
+      "sha256": "0ea10a77590ce6bbd96bc14f5f424c4396e14926ecc8be897063622da14d6ce1"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/holdout_predictions.parquet",
+      "bytes": 6838220,
+      "sha256": "fc9464772afdcdc31b81435013d03e8f659063cc292a6fb874f95bb70abb23d9"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/metrics.csv",
+      "bytes": 501,
+      "sha256": "61257f85815e69bf5ce989297b08822749adb8d4c0bc4c042c1739e9f5b9c4f6"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/model.pt",
+      "bytes": 864146,
+      "sha256": "1a7c44dfb2b51816b7fdc2f35bccd433225dfa486f73ca27f0f377841f8aa657"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/run_config.json",
+      "bytes": 933,
+      "sha256": "a6813bca532a869da1a4119dfb13c29e53534f423f74c53d352026242d2f18f0"
+    },
+    {
+      "path": "full_dataset_training_v2/D7_I405_S/training_trace.csv",
+      "bytes": 3655,
+      "sha256": "02bd47b9aa94baa8eb7b9ed0d15dddf3ab34ad3a8aa1b35303c860a6ad2fa079"
+    },
+    {
+      "path": "lightgbm_time80_20/all_metrics.csv",
+      "bytes": 4727,
+      "sha256": "02d2d6e7079acc14a40121ca0ee84220022d9a682f4d5bcf62cdff0c2d9fbb4d"
+    },
+    {
+      "path": "lightgbm_time80_20/comparison.csv",
+      "bytes": 758,
+      "sha256": "8502677b39d7c1805e187a8874ea8e8d018238bfd50135a5ad30b5a182060abe"
+    },
+    {
+      "path": "lightgbm_time80_20/environment_pip_freeze.txt",
+      "bytes": 397,
+      "sha256": "5fa7ed58bd5e0d9fc7f30932afae0562eb799faa58edf027951b9bac5a0bbf93"
+    },
+    {
+      "path": "lightgbm_time80_20/plan.json",
+      "bytes": 7495,
+      "sha256": "2b5afff7900707c7ffd3f9c6265397948411260b5728123901364d280d906b71"
+    },
+    {
+      "path": "lightgbm_time80_20/status.json",
+      "bytes": 248,
+      "sha256": "149a739a7489a2712c901138bcd3586292406523ad85aeab31a59779905fd74c"
+    },
+    {
+      "path": "lightgbm_time80_20/summary.json",
+      "bytes": 208,
+      "sha256": "a8fc07d3e80896905db93526fbdcfa8cca22cdbce9d2a4d84433addbd97bd9a0"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/COMPLETE.json",
+      "bytes": 63,
+      "sha256": "957e6cabe87fb714fc728eda30e4be08853715a76ab225d92b94d241b1e69acf"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/experiment.json",
+      "bytes": 2368,
+      "sha256": "484867de7baec71bf8e5bbcdaa9caa66fc4c1a12e9b7fd0a15d8433975982641"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/feature_importance.csv",
+      "bytes": 5072,
+      "sha256": "5992918ecd92ecd3b880fa92f05d37f7f97ec6616623b350161c52872b87cf5d"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/flow_per_lane.txt",
+      "bytes": 5911052,
+      "sha256": "9eaf690012ffe6c27d4cb520e9667ab2e3e7d29e9cb0702af55890e6c5eccae6"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/flow_per_lane_validation_trace.json",
+      "bytes": 53236,
+      "sha256": "2d152ae0bf091c92917370dad2dbd3671e7d1707dc01eeb40cafd8a7c9b0987f"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/holdout_predictions.parquet",
+      "bytes": 7120076,
+      "sha256": "a4913f4d35054b85b4ae32b978889dbd5f613fdaefee2bcb124f62a96017602f"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/metrics.csv",
+      "bytes": 501,
+      "sha256": "52aec2a4e73f80849f1424daa6e28d979f50481d5fd2d1f2a61c387e42a227ab"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/speed_kmh.txt",
+      "bytes": 4102974,
+      "sha256": "5357355a68584325e693b5f99707550b4f343ec4cec54e3bf48008441c65db24"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_N/speed_kmh_validation_trace.json",
+      "bytes": 39352,
+      "sha256": "216f2362226dba73dda11e7a558d94b526955e41165471c87dd845e5ac98aefe"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/COMPLETE.json",
+      "bytes": 63,
+      "sha256": "6d2a6129472ee0ef67d5f26f1d444ae25ca1133c206c8a29d10e15698e0b0160"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/experiment.json",
+      "bytes": 2368,
+      "sha256": "9d2324a764d4e27a755b55ceac50f0b8704c7eb58a71f546520f004daf01e267"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/feature_importance.csv",
+      "bytes": 4998,
+      "sha256": "b159f0654c5ad79d7afad39ae24927f5c299d496bb90090edc83f296c55076ce"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/flow_per_lane.txt",
+      "bytes": 5812733,
+      "sha256": "2379f39d63320ac0effe2be30733eebd4926452f4e23d10716b2878c291bae50"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/flow_per_lane_validation_trace.json",
+      "bytes": 52488,
+      "sha256": "26bbc652a981cd82af46d2c16af5b7449aa1cd143d92c2810c76108f7c8ecf48"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/holdout_predictions.parquet",
+      "bytes": 4112965,
+      "sha256": "36b90a7d5b675b3e9282a6e4942689a645571aead7758d3b18e78aebe71008a2"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/metrics.csv",
+      "bytes": 501,
+      "sha256": "b9a8549cb7bf2fece8e32a4410c144ebd3a70a4a09bfcd861de5d49e833ea267"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/speed_kmh.txt",
+      "bytes": 1394008,
+      "sha256": "e24545551f79f9563f89276ce4d745f73c3fbb8c0bfd4a1fea81ff72a39c52be"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I405_S/speed_kmh_validation_trace.json",
+      "bytes": 15090,
+      "sha256": "65f27edb43ff1ba2509ac64688c5fc11d1882561d252396fa7db82c9d3e9447a"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "bb9b7a76cbd4bd881f15427fd60235591842e8442a8c7fedc7bf9572b323f0d4"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/experiment.json",
+      "bytes": 2367,
+      "sha256": "f0be8034db18910ff1354a089515bbb9a0118c99027d52f4628243465dd206c5"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/feature_importance.csv",
+      "bytes": 5022,
+      "sha256": "97bb78ce287d947dc54c48c73378d82b13083ae219f1b81bac4e815d38943168"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/flow_per_lane.txt",
+      "bytes": 6009639,
+      "sha256": "58b8b6186a0cada689518c69ba2f846ad1b267475abbbeb451617c625ffdc5a1"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/flow_per_lane_validation_trace.json",
+      "bytes": 52816,
+      "sha256": "6c5d0839298e6f1a5a00d32aa303ef81de0b87c2fb71b55b00cacb3668e5df74"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/holdout_predictions.parquet",
+      "bytes": 19025421,
+      "sha256": "b823b1b262d52f7ece54b0b290912f142f2dd6b7ce0cc9af215281e2fdbfcdca"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/metrics.csv",
+      "bytes": 503,
+      "sha256": "7c99362508810aba8fab3cd7daf14a963af6fd68f0a381c59aa9e2a49c1c1b09"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/speed_kmh.txt",
+      "bytes": 5994371,
+      "sha256": "40babb2a8a8be4619a31647122a63008b1072d2eadf0fa06032e298669af64b5"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_N/speed_kmh_validation_trace.json",
+      "bytes": 53454,
+      "sha256": "60fcea905d3af19bacf4eb62528115fc967cda03d86bd64c6cef77a14862261c"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "80caf8bacf3ba972b92ad2b377971d76ad25c5f18b1eff62f058f9dcb52a7aba"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/experiment.json",
+      "bytes": 2366,
+      "sha256": "93b8dca227135d30457fd69ef1f1e3f4641e3666fdcdb01dab137daef0c49030"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/feature_importance.csv",
+      "bytes": 5008,
+      "sha256": "7066cf02906dc66dc9fe06205c443a455925b16a3d30ecd0251282cf4c0802ca"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/flow_per_lane.txt",
+      "bytes": 5863450,
+      "sha256": "864237323f52330bce9b666ee5a38b9f69a7efa31c8ab9cf64d6c6d4eda67187"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/flow_per_lane_validation_trace.json",
+      "bytes": 52525,
+      "sha256": "fec11683dd5f837aa68409643170ded8626e64635f975832b9548860d16e30ea"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/holdout_predictions.parquet",
+      "bytes": 7998106,
+      "sha256": "facec2a48995c1871a95923db77d6f3a33a4c990ac895606cf1fe089972d47dd"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/metrics.csv",
+      "bytes": 502,
+      "sha256": "f67cf835e56f62ff167b0e49fd519a9298e103dac8e61cff06730fcddc12cba4"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/speed_kmh.txt",
+      "bytes": 2744244,
+      "sha256": "2d3c701a911cb091279457508dd9ecd2e91b200383936b9281af2823507e05d2"
+    },
+    {
+      "path": "lightgbm_time80_20/D12_I5_S/speed_kmh_validation_trace.json",
+      "bytes": 27264,
+      "sha256": "716fa852e73fe2ed5e337ec1606ee04125dc60e0b270556518c31ca1d31bd0e4"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "2cda3faf86779b5facebc2525e8690129b3bfb84df81fb5818d5bda3b6c463e3"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/experiment.json",
+      "bytes": 2365,
+      "sha256": "0981cb12bb9db68030ace37ee05b938fec9f038d1f45372746509c2f5a4df261"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/feature_importance.csv",
+      "bytes": 5047,
+      "sha256": "e8f2dc351049ec1a5cdab422c9a6d4e5d107d13f96297ebd81e461d962c287c9"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/flow_per_lane.txt",
+      "bytes": 5924894,
+      "sha256": "278c4f829eed0dbd9be1807f6ace706c17406690e116c9ab27e1cc829439e76c"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/flow_per_lane_validation_trace.json",
+      "bytes": 52486,
+      "sha256": "7d455198d800eae873b4438f82828db183063e0cfb9c45dfe4a7d1b950283bef"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/holdout_predictions.parquet",
+      "bytes": 11333787,
+      "sha256": "867b3194d86886d6f587b3854d727fd89eadbc3b321f821420eda7eb14fa8921"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/metrics.csv",
+      "bytes": 502,
+      "sha256": "6bd6c844bfbcd40c03132a33a4703eaf2f58c599c89bf7f99a4de9872d130425"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/speed_kmh.txt",
+      "bytes": 4547384,
+      "sha256": "8b07d9212bbfcb05ffd074417ad39ea77447d0051c8e8ed3c34094fc8443b6fb"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_E/speed_kmh_validation_trace.json",
+      "bytes": 43264,
+      "sha256": "5ccf6a67466cf2cba304739f5cd41a1faa8793b9b8e90edd59f71653f5523e04"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/COMPLETE.json",
+      "bytes": 61,
+      "sha256": "1f8a068fdfdd6af03c6c34a466ebeff59c793255c6e83ebce897aff1bbec5b2d"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/experiment.json",
+      "bytes": 2366,
+      "sha256": "60d34e33f47a3809f13fc75683b96518247c306a8deefac706e2b44f66af7beb"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/feature_importance.csv",
+      "bytes": 4974,
+      "sha256": "05e21c931a58f85691947d27e894a2017f94d0ead55f1fca1d19c28438aca658"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/flow_per_lane.txt",
+      "bytes": 5931093,
+      "sha256": "2a6019fa878e1a951db10b43e2e29f3d87d814f00c0599b10e1608eb5ed87c7d"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/flow_per_lane_validation_trace.json",
+      "bytes": 52850,
+      "sha256": "4d4df2467e5e500805b57fc5089f9e912fda2c9118b2f10c8481a2f1181e6220"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/holdout_predictions.parquet",
+      "bytes": 8586047,
+      "sha256": "fdc8b356c5c44e03384218639b47f95fba67409ee65e191f1e1b32823f6bf9c9"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/metrics.csv",
+      "bytes": 501,
+      "sha256": "e98fc603a8c89bac409e41cdd3c6be1bb8e419a452e93600ea56930a8168bdf4"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/speed_kmh.txt",
+      "bytes": 1809498,
+      "sha256": "df14b25b0ded1d3861b3f4ffc7abb8918dcf990b97d034c023285fc144fb1141"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I10_W/speed_kmh_validation_trace.json",
+      "bytes": 18559,
+      "sha256": "586c615c7885257468e7cf967e5565b2ce9cf5aa0efc9d559efd489e6587077b"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "45966f59bb312d3cba29c7c5fc6e5010e5aa92b11cc9543db56bcf563235cecd"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/experiment.json",
+      "bytes": 2367,
+      "sha256": "146afe0cc3cc4da8309354c433e91fbb607b35bb0f912fc0215cb1635c369cd8"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/feature_importance.csv",
+      "bytes": 5043,
+      "sha256": "c69d067a6f4d756d26911e88b938fc00a855825256b896c05a79d2fcd4a1de96"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/flow_per_lane.txt",
+      "bytes": 5994444,
+      "sha256": "448c508fca43d8f5a05045f4ccd3fdfb29d8b76f3f5ff0dc33486d68d7baf1c7"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/flow_per_lane_validation_trace.json",
+      "bytes": 52491,
+      "sha256": "9e6fe1c4952c555a80e44383629d2dbf936b6fc6dcc679ef8982dfaacf1bb814"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/holdout_predictions.parquet",
+      "bytes": 26211649,
+      "sha256": "ecbf128afd5267638d563a7c9c387fda9a418b0e71736f2ebbb0dfe77fa318b2"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/metrics.csv",
+      "bytes": 505,
+      "sha256": "50583525b013888968162ec6afcfca3fb1680b9d052cd50b06df7ea156d7fef7"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/speed_kmh.txt",
+      "bytes": 6173630,
+      "sha256": "6f329ee76de8bab902ec8a134fea3824938adc897ec049b22cf99868a6ac317b"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_E/speed_kmh_validation_trace.json",
+      "bytes": 53569,
+      "sha256": "fa655492ff44ff30c9fbf608221ae94194eacdf3a3ce844da8037334ac2768b4"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "f4c122af309b38f561b98974724a55e52f58f0ed436e0b68797ce7df6d1419e6"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/experiment.json",
+      "bytes": 2366,
+      "sha256": "493a4b08ae168ae1d75521a3774b98fdcf56346525bb08f53c41a9f7827d2bc1"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/feature_importance.csv",
+      "bytes": 5008,
+      "sha256": "f62e5c6578849fabf73d8eab4bedb9b2a63a4c7c9c29ef6f1f601c833ddf7f5e"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/flow_per_lane.txt",
+      "bytes": 5836830,
+      "sha256": "f8392aea9f81c9bacd4dbf807084d88580a10e745bdf22eb41244e72bdce89ed"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/flow_per_lane_validation_trace.json",
+      "bytes": 52495,
+      "sha256": "00189f93257a6a3c08a4816aeb151be315ac1efd6aefd03487b582769c1d87cc"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/holdout_predictions.parquet",
+      "bytes": 6780567,
+      "sha256": "c03777cc8dbff1461a7489d45e99457b742306b71eae6fca3f9e3322ecbe4bce"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/metrics.csv",
+      "bytes": 500,
+      "sha256": "fcaf08f48ed51d12857d576d33c0941cfb992911962daed09d54a6b545b2b023"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/speed_kmh.txt",
+      "bytes": 2573563,
+      "sha256": "e11745eb39b418bb7e6870dbe571e4d4317c03b0cfa3b526fd33e23b6a1ca48e"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I210_W/speed_kmh_validation_trace.json",
+      "bytes": 25630,
+      "sha256": "76063ffbf59771c76808c64122ea24a7495ae525972957385a0eaada549ca018"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "95f87ea39428c8c044ba5ed69c7fd55a179ea69580c1cc8dd88688a31ac3d700"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/experiment.json",
+      "bytes": 2367,
+      "sha256": "6f24a3b0d80a4a2dc99a97c98516684da8428d481277ff6d288dc3e8b1285431"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/feature_importance.csv",
+      "bytes": 5021,
+      "sha256": "2ee40cb7f9f81313c31c82856c9716f00d99ad47951586e5283cfadd2fd8d039"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/flow_per_lane.txt",
+      "bytes": 6051788,
+      "sha256": "3538cee28465707328a9c5acd8f70acf73e660810628c2459d0ab6b147426fa3"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/flow_per_lane_validation_trace.json",
+      "bytes": 52431,
+      "sha256": "fe328228cd2868ed5e7e4f1c6ef093c56869e9917bf3512b96af7e0e0a00dcb0"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/holdout_predictions.parquet",
+      "bytes": 28111176,
+      "sha256": "91f756ff04b633a523dd915ad8c8848e28a3092446060e764d3f48cc40840897"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/metrics.csv",
+      "bytes": 501,
+      "sha256": "b4537a67cd62f287d03b179ed8ad43dd6bbccf821a2d430ec590e3f860e5ed2e"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/speed_kmh.txt",
+      "bytes": 5991169,
+      "sha256": "6de6f74685216e6f9b148478fbf5a4ab649d00be392adc4fe3e61f8b6b08c05a"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_N/speed_kmh_validation_trace.json",
+      "bytes": 53049,
+      "sha256": "87e3ad08b77eb6678ba7938e678ec951116ea4221b202ce0521d0afd47f7cefc"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/COMPLETE.json",
+      "bytes": 62,
+      "sha256": "150659db47b4474a9be21be0ee947688a76dc8d53089c57ada8cbd409aa590b2"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/experiment.json",
+      "bytes": 2366,
+      "sha256": "cc0ccfb8cd08d39b6c60c2221e84e86e09272441bf035487bf7c98e5dd3d98bf"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/feature_importance.csv",
+      "bytes": 4977,
+      "sha256": "d92c16e2d974d94d58365d8c1bbe762086dde54f1f10ae03f5f64ebf60dd4ea5"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/flow_per_lane.txt",
+      "bytes": 5888391,
+      "sha256": "e3458e8a9328e4f273fb1d4181ad8e39774d62d0537d646e0fc846d90c101c08"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/flow_per_lane_validation_trace.json",
+      "bytes": 52449,
+      "sha256": "53b7fae5007e7d7d04482742f7e53beb08a55ca1aefea3f91108486dde31cb14"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/holdout_predictions.parquet",
+      "bytes": 8424320,
+      "sha256": "e6a62b0e7cb709180dbe650c946a2ae13814e14886a433ae06934293104ed3bb"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/metrics.csv",
+      "bytes": 503,
+      "sha256": "044b6529fc561af4cc59fa11c61f465e2653bf39e0284028d6f38bfc07800579"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/speed_kmh.txt",
+      "bytes": 3381167,
+      "sha256": "db5261e7c0aa20f2d4dee6ecb1dec1fdf340805122df33e658d630e48564aa73"
+    },
+    {
+      "path": "lightgbm_time80_20/D7_I405_S/speed_kmh_validation_trace.json",
+      "bytes": 32687,
+      "sha256": "8043f043a1e95e1c0def4d70b055f7633546de0ab4571f702f761496c3527e5d"
+    }
+  ],
+  "errors": [],
+  "scanned_headers": 77571,
+  "seconds": 179.4840000000113,
+  "complete": true
+}
