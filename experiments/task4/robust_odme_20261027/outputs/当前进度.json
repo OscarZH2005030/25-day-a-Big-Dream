@@ -1,9 +1,9 @@
 {
-  "status": "v11 fixed-benchmark experiment completed",
-  "latest_experiment": "outputs/joint_v11/REPORT.md",
+  "status": "v12-v14 targeted bias experiments completed on same 480 cases",
+  "latest_report": "outputs/joint_v14/REPORT.md",
+  "changed_panels": {},
   "actual_S_ODME": null,
-  "baseline_preserved": true,
-  "promotion": false,
-  "four_components_compared_together": true,
+  "promoted": false,
+  "original_submission_preserved": true,
   "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5"
 }

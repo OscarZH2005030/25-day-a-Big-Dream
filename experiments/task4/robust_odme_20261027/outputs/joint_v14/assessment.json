@@ -1,0 +1,69 @@
+{
+  "changed_panels": {},
+  "promoted": false,
+  "checks": [
+    {
+      "phase": "evaluation",
+      "scenario": "all",
+      "all_components_and_total_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "localized_undercount",
+      "all_components_and_total_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "count_systematic30",
+      "all_components_and_total_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "all",
+      "all_components_and_total_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "localized_undercount",
+      "all_components_and_total_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "count_systematic30",
+      "all_components_and_total_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    }
+  ],
+  "original_submission_preserved": true,
+  "actual_hidden_S_ODME": null,
+  "same_benchmark_previously_seen": true
+}

@@ -102,3 +102,11 @@ See [v10 report](outputs/joint_v10/REPORT.md), [all four components and total](o
 `--stage joint-dev` reproduces the fixed 480-case v10 benchmark with 26 candidates and all four components plus total. `--stage joint-dev-infer` reproduces the frozen experimental policy. All three old policies are checked against v10 to <1e-10. The benchmark and actual counts were previously seen; this is repeated sensitivity analysis, not independent path validation. Original submission and default v9 inference are preserved.
 
 See [v11 report](outputs/joint_v11/REPORT.md), [four-component comparison](outputs/joint_v11/four_components_overall.csv), [every error family](outputs/joint_v11/four_components_by_scenario.csv), and [real count CV](outputs/joint_v11/real_count_overall.csv).
+
+## v12-v13: count-bias cases with joint component guards
+
+V12 sparse-adjustment candidates are retained as failures. V13 minimizes prior L1 deviation subject to exactly preserving v11 counted-link loads and every destination total. Both use the same 480 cases. Guarded selection and repeated-benchmark limitations are in the [v13 report](outputs/joint_v13/REPORT.md). Compare [all versions, four components and total](outputs/joint_v13/all_versions_same_test.csv) and [target error families](outputs/joint_v13/target_four_components.csv). Use stages `bias`, `invariant`, or `invariant-infer`. Original submission and default v9 inference are preserved; actual hidden path scores remain unknown.
+
+## v14: count-only discrepancy gate, same joint guards
+
+Adds a fixed robust scale/tail discrepancy gate to the equality-constrained prior adjustment. Same 480-case benchmark; no scenario/truth input to inference. All joint guards and failures are retained in the [v14 report](outputs/joint_v14/REPORT.md). See [all versions](outputs/joint_v14/all_versions_same_test.csv), [target families](outputs/joint_v14/target_four_components.csv), and [calibration tradeoffs](outputs/joint_v14/target_calibration_tradeoffs.csv). Use `--stage guarded` or `--stage guarded-infer`. Original submission and default v9 inference remain preserved; actual hidden scores are unknown.

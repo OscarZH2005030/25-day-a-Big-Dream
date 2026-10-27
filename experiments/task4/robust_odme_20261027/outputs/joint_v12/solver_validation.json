@@ -1,0 +1,20 @@
+{
+  "independent_solver": "SLSQP quadratic epigraph with linear absolute-value constraints",
+  "checks": [
+    {
+      "seed": 12,
+      "max_flow_difference": 8.885890997234469e-06,
+      "objective_difference": 5.6630256040079985e-12
+    },
+    {
+      "seed": 13,
+      "max_flow_difference": 1.6734993153022515e-05,
+      "objective_difference": 2.575006874394603e-11
+    },
+    {
+      "seed": 14,
+      "max_flow_difference": 2.5611594903551804e-05,
+      "objective_difference": 3.1377567211166024e-11
+    }
+  ]
+}

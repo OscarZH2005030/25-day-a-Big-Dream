@@ -26,7 +26,7 @@ def verify(release:Path):
 def main():
  parser=argparse.ArgumentParser(description=__doc__)
  parser.add_argument('--release-root',type=Path,required=True,help='Official kaggle_public directory; read-only')
- parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','joint-dev','joint-dev-infer','all'],default='latest')
+ parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','joint-dev','joint-dev-infer','bias','invariant','invariant-infer','guarded','guarded-infer','all'],default='latest')
  parser.add_argument('--data-python',default=sys.executable,help='Optional Python with requirements-data.txt for XLSX extraction')
  args=parser.parse_args();release=args.release_root.expanduser().resolve()
  env={**os.environ,'TFB_RELEASE_ROOT':str(release),'OMP_NUM_THREADS':'4','OPENBLAS_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONUTF8':'1'}
@@ -51,5 +51,13 @@ def main():
  if args.stage in ['joint-dev','all']:
   run('outputs/joint_v11/run_joint_dev.py');run('outputs/joint_v11/audit_fresh_counts.py');run('outputs/joint_v11/infer_joint_dev.py')
  if args.stage=='joint-dev-infer':run('outputs/joint_v11/infer_joint_dev.py')
+ if args.stage in ['bias','all']:
+  run('outputs/joint_v12/check_solver.py');run('outputs/joint_v12/run_bias.py')
+ if args.stage in ['invariant','all']:
+  run('outputs/joint_v13/run_invariant.py');run('outputs/joint_v13/infer_audit.py')
+ if args.stage=='invariant-infer':run('outputs/joint_v13/infer_audit.py')
+ if args.stage in ['guarded','all']:
+  run('outputs/joint_v14/run_guarded.py');run('outputs/joint_v14/infer_audit.py')
+ if args.stage=='guarded-infer':run('outputs/joint_v14/infer_audit.py')
  verify(release)
 if __name__=='__main__':main()

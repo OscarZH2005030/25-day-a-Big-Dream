@@ -36,5 +36,19 @@
     "experiment": "same 480 artificial cases as v10, 26 candidates, all four components; four reused grouped count seeds plus two new audits",
     "same_old_policy_scores_tolerance": 1e-10,
     "hidden_truth": false
+  },
+  "v12_v14": {
+    "new_convex_solver": "independently checked against SLSQP epigraph QP on 3 random cases",
+    "portable_windows_ps51_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 15,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiments": "same 480 artificial cases; sparse adjustments, invariant LP, count-only gate; all rejected under joint guards",
+    "new_count_audit_seeds": [
+      20261207,
+      20261208
+    ],
+    "hidden_truth": false
   }
 }

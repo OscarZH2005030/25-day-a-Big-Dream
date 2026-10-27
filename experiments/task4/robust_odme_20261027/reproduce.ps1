@@ -2,7 +2,7 @@
 param(
  [Parameter(Mandatory=$true)][string]$ReleaseRoot,
  [string]$Python = 'python',
- [ValidateSet('verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','joint-dev','joint-dev-infer','all')][string]$Stage = 'latest',
+ [ValidateSet('verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','joint-dev','joint-dev-infer','bias','invariant','invariant-infer','guarded','guarded-infer','all')][string]$Stage = 'latest',
  [string]$DataPython = ''
 )
 $ErrorActionPreference = 'Stop'

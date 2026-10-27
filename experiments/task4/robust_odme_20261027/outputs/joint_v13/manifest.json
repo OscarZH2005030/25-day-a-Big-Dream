@@ -1,0 +1,16 @@
+{
+  "seconds": 168.45741415023804,
+  "same_fixed_cases": 480,
+  "weights": {
+    "v11": 0.0,
+    "invariant0.1": 0.1,
+    "invariant0.25": 0.25,
+    "invariant0.5": 0.5,
+    "invariant1": 1.0
+  },
+  "invariant_constraints": "all published counted link loads and normalized AND absolute destination totals equal v11",
+  "max_constraint_error": 1.3642420526593924e-10,
+  "CPU_threads": 4,
+  "hidden_truth_available": false,
+  "baseline_preserved": true
+}

@@ -1,0 +1,10 @@
+{
+  "seconds": 150.18783521652222,
+  "synthetic_cases": 480,
+  "candidates": 14,
+  "same_v10_benchmark": true,
+  "v11_match_tolerance": 1e-10,
+  "CPU_threads": 4,
+  "hidden_truth_available": false,
+  "baseline_preserved": true
+}
