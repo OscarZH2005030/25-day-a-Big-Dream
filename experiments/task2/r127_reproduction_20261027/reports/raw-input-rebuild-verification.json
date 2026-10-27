@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "arrays": 15,
+  "byte_exact_array_hashes": {
+    "position/D7_I10_E/X555.npy": "b58770303f29da7f80ba5c379f2fff142d3fefa21264a036234a156e5e32685f",
+    "position/D7_I10_E/position.npy": "ac6784fdea7d066a81286e560b91204ee09fd64db0e42e70aa50da48c1ca979a",
+    "position/D7_I10_E/random.npy": "86389f09551bf92959c7822209fd5bf186275d5ca1d5aae6ce6dc270035b4bd6",
+    "position/D7_I10_E/y.npy": "f88ec56038df6202c3385fcb4ff19269c2b0ae9b0310f9101903e4dce8cfd37d",
+    "position/D7_I10_E/w.npy": "661943e538a9b8e8da215020acf015b3c91c240108ff97be3a3dfc6676b25bc2",
+    "position/D12_I5_N/X555.npy": "b99151f8c25d969227c4bd1d6ed8d2a2a358b22e03bd71b43dfe48ed1d6ff324",
+    "position/D12_I5_N/position.npy": "986a9fb1fdb26032cad46f8271695a8610a6de45f48873c8c240901ecd672f42",
+    "position/D12_I5_N/random.npy": "306f1268621395db37644a85d9a18f75976e0bcb437d421a725d99b57daa4796",
+    "position/D12_I5_N/y.npy": "ab13284e95c20f2f333ddc1ab2ac1dde92c1a07a5d59d0433756dc6c1fae99e9",
+    "position/D12_I5_N/w.npy": "238772b937f700e85f439e577ff46dcdc407d1e3d03dc7b5bdb566120e077964",
+    "conditional/position.npy": "a0303e251b6678a12e0e526d9e12276e4b8cb3f6f31979a110f7381f26fdb7a5",
+    "conditional/random.npy": "a24c4bf35a95119a979d6ca8430b170e554c40c22f63ab1369397ab993d74c17",
+    "conditional/y.npy": "3337eaf567afd3a97daa9077fd4ebe5fc62ae3d6a447c6727e12f42d10d5772f",
+    "conditional/w.npy": "4fb86395f767125086e0a983b253bb4384bcda8afe800bc2d251816005438395",
+    "conditional/panel.npy": "d1e0e8b9c527a82b4833fef531fd7d3bb6abad2b14a697f709543e2580905cbd"
+  },
+  "seconds": 596.4443159103394,
+  "original_model_cache_IO_blocked": true,
+  "raw_day_arrays_reconstructed_and_verified": 1246,
+  "frozen_sampling_and_weights_provided_as_protocol": true,
+  "features_and_proxy_targets_rebuilt_from_raw_observations": true,
+  "official_S_queue": null
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "RECOVER interrupted full training: reuse4completed600, resumeI210W300 with matched300+300control, finishremaining5roadfull capacity6000",
+  "qualified_roads": [
+    "D7_I10_E",
+    "D7_I210_E",
+    "D7_I210_W",
+    "D12_I5_N",
+    "D12_I5_S"
+  ],
+  "source": "ImmutableR108 providedposition Legendrebasis; no parameter/feature/memory/route search. Rejected3roads not fitted.",
+  "data": "R10 FULL555/y/IPW cells exact replay for all1032selectedwindows eachroad; full .8/.2 normalization from originalweights. Same359observed-only profileprojection features andsameposition/randombases.",
+  "models": "Reuse4completed600 models byte-exact; I210W position300+300 continuation and randomcontrol matched300+300 schedule; remainingI5N/S fresh600. SameR110params/data. Continuation not claimed bitwise identical to uninterrupted RNG; CPU4serial/checkpoint100.",
+  "policy": "Same solealpha1 normalizedrawsixcurve to actualR41 currentpeak; ownunseen/publicpeak>1e-6/explicitposition-supported only. Allunmasked6peak/knownqueue/Ongoing unchanged.",
+  "December_predeclared": "No coefficientsearch. Eligible5roads+>=4positivewindows eachphase, meanIoU>=R41+.004 ANDmatchedcontrol+.002, everyphasevsboth>=-.015. No oldFebselection.",
+  "later": "NextNEWdevelopment actualR41Dec route only, ifpassedJanuaryonlyglobal0/.5/1+negativeguards atfixed.5/.25, thenfreeze beforebothpreviouslyusedFebruary reports/full174000/independent87000/sourcecacheIOblocked/integrity/independentsave beforebestadoption.",
+  "acceptance": "Thisstage8publicmaskedR41inputreproduction+16actualR41fullmodelmainfuture/rampTfuture/allpeak/knownqueue/Ongoing+original92/sourcehash. NoDecember scoring orbestupdate here.",
+  "budget": "3300remaining newtrees;2700trees reused from R111 including300checkpoint; totalcapacity6000. No newfit afterUTC15:00/userSTOP",
+  "Task1": "frozen92 historicalSstate notremeasured",
+  "Ongoing": "frozen",
+  "official_S_queue": null
+}

@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "source_original_X_y_relative_weights_preserved": true,
+  "causality_groups": [
+    {
+      "panel": "D7_I10_E",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 0,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 1,
+      "passed": true,
+      "mainline_future_and_ramp_T_future_invariant": true
+    }
+  ],
+  "Task1_92files_unchanged": true,
+  "no_December_January_February_used": true,
+  "official_S_queue": null
+}

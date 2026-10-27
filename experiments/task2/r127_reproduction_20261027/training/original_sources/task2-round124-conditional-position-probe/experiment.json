@@ -1,0 +1,13 @@
+{
+  "hypothesis": "R123 regional cellBCE timingfailedDecember while acceptedR116 showspositioninformationuseful. Learn first-arrival directly CONDITIONAL on an event from pairedpositive examples, rather than calibrating unconditionalcellprobabilities dominated by negatives. Representation/target factorization changes, no rejectedregional/coefficientparameter rescue.",
+  "distinct": "R53 addedgraph-neighbor snapshots to conditional head; NEW uses validated globalPUBLICposition field fromR116, sameold paired557/y/w exactly, matchedsame916 randomprojection control. Not changingLegendredegree, bins, alpha, loss orK.",
+  "data": "R40early9970 paired/original conditionalpositive rows, original557/y/w/panel byteexact. Append359causalpositionfeatures=916; no label/group/mask/futurequality inputs. Complete labels used for historical target selection only.",
+  "models": "Shared6class200position916 vsrandom916, same31/.035/minleaf80/.85/L2=4/seed/CPU4serial/checkpoint100; 2400newtrees. Freshfull600onlyifallgatespass.",
+  "classification": "RetainR53 gates vsR40: original>=20/paired>=30 targetviews; both logloss/accuracy gains>=-.02, at leastone population BOTH LL+.02 andaccuracy+.03. ADD noninferior to matchedrandomcontrol LL>=0 andaccuracy>=0 on BOTH; no relaxinggates.",
+  "timing": "Solealpha1, require originalR40 mode>=.5 ANDnew mode>=.5 asR53; use singleCDF from rawR10anchor, never re-CDF alreadycorrectedparent. Reference parentALL8R110JuneSeppositioncurve (noDecroute selection). Keep sixpeak/Ongoing/knownqueue. MeanIoU parentR110+.004 ANDbaseR10R40+.004 ANDmatchedrandomhead+.002; eachOctNov all3>=-.01; negativefalseany<=all3+.03/eligibleFP<=all3+.005.",
+  "later": "Fullheads trainJuneNov R40samepaireddata, actualCURRENT R116 parent & originalR31anchor (parent.base.anchor) onceCDF, R40fullprob controls oldconcentration; originalDec/Jan/frozenFeb+independentpreserve required. No fullR116 orR41 OctNov predictions.",
+  "budget": "2*200*6=2400earlytrees; cutUTC15:00/userSTOP before eachnewfit",
+  "Task1": "frozen92 historicalSstate notremeasured",
+  "Ongoing": "frozen",
+  "official_S_queue": null
+}

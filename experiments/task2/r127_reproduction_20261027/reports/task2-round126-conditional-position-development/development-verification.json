@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "parent_root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round116-position-policy-preflight-repair",
+  "parent_frozen_sha256": "1e871d43d9d412c2990eb0c7940c07211c5d403c9e3f500039d6774f887c50ee",
+  "causality_groups": [
+    {
+      "panel": "D7_I10_E",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    }
+  ],
+  "R116_publicinputs_reproduced": true,
+  "Task1_92files_unchanged": true,
+  "knownqueue_Ongoing_peak_frozen": true,
+  "originalR31anchor_onceCDF_proved": true,
+  "January_February_not_evaluated": true,
+  "no_bestupdate": true,
+  "official_S_queue": null
+}

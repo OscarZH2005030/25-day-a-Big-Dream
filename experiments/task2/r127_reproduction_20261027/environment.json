@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.0",
+    "lightgbm": "4.7.0",
+    "torch": "2.9.1+cu128",
+    "scikit-learn": "1.9.1"
+  },
+  "device": "CPU, max4threads; torch CUDA wheel retained for environment parity, no GPU used in verification",
+  "official_S_queue": null
+}

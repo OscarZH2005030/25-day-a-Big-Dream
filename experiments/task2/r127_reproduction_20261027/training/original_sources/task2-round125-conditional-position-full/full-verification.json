@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "qualified_roads": [
+    "D7_I210_E"
+  ],
+  "model_hashes": {
+    "position": "837efa9c4723a5e1617acf35dd00021fea8983ad19f73be178e2fe4dc9cd40f0",
+    "random": "9fe6c4544e091026bd89435ffc52fc4e98a7cf65003f90619e8e3d95343c1365"
+  },
+  "basis_hashes": {
+    "D7_I10_E": "ed1dc5861e18e1c51e96d2849fb2b99630da0b1279a5388fb2c9213dfe5f5718",
+    "D7_I10_W": "884e97bb7b4779a8598e725514f47ca87f5df802a9ff4435d098fd960bd28036",
+    "D7_I210_E": "c92b82aa3177fcf4ed90e813fcba6301f8406d7ad54f8225b1b2cec6486c6d1f",
+    "D7_I210_W": "368381df978f3dc4ebb13587b86a5e791a31d696fef7b297c6e75a6e166beb9b",
+    "D7_I405_N": "8c31170ab890b3a6d375ba80a2fc3a0e15b89c1463b89e5d8aa92daae794d2df",
+    "D7_I405_S": "d3cac05f12acdf6d42c9dc8c1584eb65c2f77cc369e536fd519491f9e6392235",
+    "D12_I5_N": "7b385f06a3a9409d9be22afd70ddb9f18e068a07cffc77f86546717bb042e563",
+    "D12_I5_S": "5c0f269055e6e465184d6fb46532369d16c6e3bc04aa8ee938b9afbbde8f9534"
+  },
+  "causality_groups": [
+    {
+      "panel": "D7_I10_E",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 0,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 1,
+      "passed": true,
+      "ACTUALR116_parent_rawR31anchor_bothheads_mainfuture_rampTfuture_invariant": true,
+      "knownqueue_Ongoing_peak_frozen": true,
+      "oneCDF_from_originalanchor_only": true
+    }
+  ],
+  "parent_root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round116-position-policy-preflight-repair",
+  "parent_frozen_sha256": "1e871d43d9d412c2990eb0c7940c07211c5d403c9e3f500039d6774f887c50ee",
+  "actual_R116_publicinputs_reproduced": true,
+  "Task1_92files_unchanged": true,
+  "no_December_scores_generated": true,
+  "no_bestupdate": true,
+  "official_S_queue": null
+}

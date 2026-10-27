@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "scope": "conditional early probe only; no deployment or calibration",
+  "Task1_92files_unchanged": true,
+  "causality_groups": 16,
+  "all_six_step_support_peak_identical": true,
+  "head_simplex_passed": true,
+  "official_S_queue": null
+}

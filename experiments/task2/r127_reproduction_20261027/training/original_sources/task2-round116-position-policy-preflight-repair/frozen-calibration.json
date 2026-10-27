@@ -1,0 +1,83 @@
+{
+  "selected": {
+    "alpha_position": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.79196938437857,
+    "negative_stats": {
+      "windows": 77,
+      "false_any_macro": 0.0,
+      "false_eligible_fraction_macro": 0.0
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alpha_position": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7853044947864167,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_position": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7912439243396774,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_position": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.79196938437857,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "position_runtime.py": "944e64f92e0c8ce148848ce9f72aad0495f08b3960e0b4bc1867f736d634656f",
+    "position_mode_core.py": "943e3eb0f142b8b68dbb80ead2e7323689d6ebc61fa926658794bd908bcf288b",
+    "gated_core.py": "81dfb5326c2113892e1610fae5e56e65f2e978607e8cc3352c53d5bdc4f5a74b",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b",
+    "D7_I10_E-position.txt": "b7e604fbc86c07ebcfee1dffb7c6ef87bc83669ca7fbca37bc1258fb5162f373",
+    "D7_I10_E-basis.npz": "ed1dc5861e18e1c51e96d2849fb2b99630da0b1279a5388fb2c9213dfe5f5718",
+    "D7_I10_E-basis.json": "37f0fb94456e1de4a8bf902047825fc1f5278a7a5c7cb6f295c60be2e0439b90",
+    "D12_I5_N-position.txt": "47957760e0abd1562a688ca7c60049f7049f4ff9d48601367413707be2189fd6",
+    "D12_I5_N-basis.npz": "7b385f06a3a9409d9be22afd70ddb9f18e068a07cffc77f86546717bb042e563",
+    "D12_I5_N-basis.json": "fb7701412fb6bb0c3d1a8634181ad3e99059b7876ebe339277fb180a1ef33b55"
+  },
+  "route_sha256": "4a1d4b490a7189a604da6c7387a3f1d5b0e04bea2d63428e28f8adf2c38e96e3",
+  "parent_frozen_sha256": "a9b45736280ad8a8cf4abcfd9d6d86689331bf09a7fd6dfaee64f21e7be06500",
+  "December_route_source_sha256": "4a1d4b490a7189a604da6c7387a3f1d5b0e04bea2d63428e28f8adf2c38e96e3",
+  "February_previously_used_report_only": true,
+  "condition_forecast_frozen": [
+    false,
+    true
+  ],
+  "Task1_frozen": true,
+  "all_thresholds_frozen": true,
+  "official_S_queue": null
+}

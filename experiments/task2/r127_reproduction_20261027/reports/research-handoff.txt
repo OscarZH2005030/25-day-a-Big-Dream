@@ -1,0 +1,24 @@
+本轮授权研发已在2026-10-27 08:00洛杉矶时间截止；不再自动启动新训练。
+最后已验收研究父仍R127；仅新增I210东向Onset路由，原R116的I10东向和I5北向保留。Task1、Ongoing与所有历史保存包保持不变。
+367窗重复开发：整体 0.795976208550，Onset 0.732059842015，Ongoing 0.859892575084。
+410窗重复开发：整体 0.754599304093，Onset 0.730101285373，Ongoing 0.779097322813。
+两种人口分开报告，二月不是独立盲测，官方S_queue=null；Task1历史55天S_state=.942828633，本轮未重测。
+最佳完整独立包：C:\Users\18049\Documents\Codex\2026-10-26\trafficflowbench-task2-improvement\outputs\task2-round128-conditional-position-preservation\ConditionalPosition-R127.zip
+SHA256：c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649
+独立87000行原模型/缓存IO阻断复现、174000模板与ZIP CRC/SHA已通过。原R21/R23、R41、R116、R127包在收尾时全部重新核对SHA，Task1原92文件再次核对不变。
+
+最后新增实验：R131按道路训练条件残差，对照同unique-tree预算共享续训；4800新树，8路均未过原更严格分类/实际IoU门槛，未继续full。
+R132找到4822个此前因后续缺失而丢弃、但首次发生前负例prefix全部已知的精确正例。R133向JuneSep原9970条件训练view追加3285到13255，严格匹配原road/class和总权重质量，候选/complete-only对照同容量；2400新树，8路均未过实际IoU门槛，未降低门槛或继续full。
+R137对当前冻结策略作零训练误差分解：December177个Onset窗口，FN518个eligible cells中267(51.54%)来自整条未来曲线峰值低于.5，251(48.46%)属于已支持link但时间错。FP334中216位于确实拥堵link的错误时刻，26来自全6帧已知不拥堵link，92来自未来有缺失、事件身份不确定的link。不能将最后一类当作known-negative事件。
+这些是指定December人口的cell计数，不是367/410窗口人口分数，也不是错误原因的因果证明。Oracle使用未来标签仅作诊断，不能部署或冒充真实模型：固定event-support的完美时间oracle December正窗road宏IoU .74055145 -> .86797361，说明时间边界仍有空间，但单纯条件分类准确率提高不足以保证实际IoU提高。
+R138最后测试条件累计CDF目标：原条件view展开6个请求horizon，922公开因果输入，position/random各1200棵二元树，固定单调投影成六类PMF，再保留原置信门槛/原peak/knownqueue/Ongoing与所有严格对照门槛。本轮early通过道路数：0；最终phase：conditional_position_complete。此实验没有通过full/December/January/完整独立保存，不是新最佳。
+
+全年12个月的公开训练真值仍不齐：目前仅9个月未遮蔽交通观测，3/4月是遮蔽输入，5月未发布；Task2官方queue标签均未公开，所有本地结果是proxy。没有伪造12个月平均分。
+新R127结果没有发布Github或Kaggle；此前用户授权的一次R41/R21发布记录保留。后续如恢复，先读取本文件与session-status.json，检查进程，再基于已保存断点继续；不重复训练或重调已拒绝方案。
+
+最后R139纯诊断在同一训练留出/December人口中比较6种HARD首次时刻oracle与不受曲线形状限制的时间oracle，另作解除旧置信gate的诊断，不部署任何gate变化。最佳HARD first-step不是所有soft-PMF可能性的上界；只用于分辨首次时刻、原falling-tail和旧gate限制。完整数值见session-status.json。
+OctNov_systematic_JuneSep_models：{"baseline": 0.7392187593032704, "timing_oracle_fixed_support": 0.8795444763399135, "erase_complete_negative_events": 0.7429955431811571, "recover_missed_support_with_oracle_timing": 0.8183620014167292, "observable_combined_oracle": 0.9649839487425405, "hard_first_oracle_fixed_oldgate": 0.7417783223247899, "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7813826450384723, "unrestricted_time_oracle_same_fixed_subset": 0.7421730256606698}
+其中仅在完整标签、已被父预测支持且自身历史无拥堵的子集，84/124个link-view因旧R40最大条件概率低于.5而禁止新首次时刻头替换父曲线。这个子集比例不能外推全部事件，oracle提升也不能视为真实可实现收益。
+December_current_R127：{"baseline": 0.7405514459467888, "timing_oracle_fixed_support": 0.8679736121004179, "erase_complete_negative_events": 0.7439260468952963, "recover_missed_support_with_oracle_timing": 0.8199004958583914, "observable_combined_oracle": 0.954961450601943, "hard_first_oracle_fixed_oldgate": 0.7487113514053187, "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7734964278127567, "unrestricted_time_oracle_same_fixed_subset": 0.7495359153903388}
+其中仅在完整标签、已被父预测支持且自身历史无拥堵的子集，101/189个link-view因旧R40最大条件概率低于.5而禁止新首次时刻头替换父曲线。这个子集比例不能外推全部事件，oracle提升也不能视为真实可实现收益。
+这个门控覆盖限制解释了为什么首次时刻分类分数变好未必传递到实际输出；不会据此直接取消门控或降低验收门槛。后续如恢复，需用独立公开因果信息验证当前状态不确定性，或研究未知-prefix的区间首次标签；不能使用未来/双向离线Task1结果作为输入。

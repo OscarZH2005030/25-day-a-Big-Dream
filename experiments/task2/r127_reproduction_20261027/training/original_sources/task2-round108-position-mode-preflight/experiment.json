@@ -1,0 +1,12 @@
+{
+  "hypothesis": "R107 public witnessed-path graph largestcomponent only0.4%-12.8%, all structuralgates failed before any model fit. Do NOT fabricate connections or lower thatgate. Test a different information representation: global spatialposition field using explicit public LWR order_index, which exists for eachobserved mainline link.",
+  "distinct": "Coordinate projection, NOT a graph, road adjacency, inferred travel distance or changed R107 threshold. Fixed Legendre degree0..7 on provided order coordinates. OriginalR6alreadyhas ownposition; NEW feature is allcorridor past field located in this coordinate, not a reused ownposition scalar.",
+  "basis": "N>=16,>=.8N explicit matched publicpositions,>=16unique positions, condition<=1e8. Orthonormal position8 vsfixedseed random8 sharing sameconstant, same data/solver359features andoriginal555 preserved=914.",
+  "features": "13pastframes*3 public channels, observedHQ-only ridge1e-3 projection; pernode modecontributions312 +39pastobservedfractions +8staticbasis. No futurequality/coverage/label inputs; original masks unchanged.",
+  "planned_R109": "Fresh nativeBCE200 candidate914/control914, same originalR10 JuneSep555/y/w/sampling, perroad. Onlysameinputdimension projectiongeometry differs. Fixed normalize6rawcurve to CURRENTcausalparentpeak; unsupportedpositions/knownqueue/Ongoing fixed. No coef/threshold search. Full600 only earlyallgatespassed then actualR41Dec guards/Jan global/frozenFeb/acceptance.",
+  "gates": "UNCHANGED parentIoU+.004/control+.002, eachOctNov>=-.01both, negativefalseany+.03/FP+.005, peaks/eventCE/AP retained. No R107model exists or heldscore to rescue.",
+  "stage": "Zero fitted forecastmodels/scores. Positionbasis+inputcausality preflight only; actualmodel proof pendingR109.",
+  "Task1": "92files frozen",
+  "Ongoing": "frozen",
+  "official_S_queue": null
+}
