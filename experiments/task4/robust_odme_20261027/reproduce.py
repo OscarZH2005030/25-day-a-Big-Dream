@@ -26,7 +26,7 @@ def verify(release:Path):
 def main():
  parser=argparse.ArgumentParser(description=__doc__)
  parser.add_argument('--release-root',type=Path,required=True,help='Official kaggle_public directory; read-only')
- parser.add_argument('--stage',choices=['verify','latest','baseline','external','all'],default='latest')
+ parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','all'],default='latest')
  parser.add_argument('--data-python',default=sys.executable,help='Optional Python with requirements-data.txt for XLSX extraction')
  args=parser.parse_args();release=args.release_root.expanduser().resolve()
  env={**os.environ,'TFB_RELEASE_ROOT':str(release),'OMP_NUM_THREADS':'4','OPENBLAS_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONUTF8':'1'}
@@ -41,6 +41,10 @@ def main():
  if args.stage=='all':
   for p in ['improvement_v2/run_v2.py','external_v3/run_external.py','external_v3/run_hybrid.py','external_v3/validate_external.py','fivemin_v4/run_path_experiments.py','dev_v5/run_dev.py','dev_v5/run_stress.py','adaptive_v6/run_adaptive.py','adaptive_v6/run_fine_amplitude.py','magnitude_v7/run_magnitude.py','scale_shape_v8/run_scale_shape.py','scale_shape_v8/select_balanced.py']:
    run('outputs/'+p)
- if args.stage in ['latest','all']:run('outputs/scale_shape_v8/infer_balanced.py')
+ if args.stage=='scale':run('outputs/scale_shape_v8/infer_balanced.py')
+ if args.stage in ['bounds','robust','all']:run('outputs/robust_v9/run_feasible_audit.py')
+ if args.stage in ['robust','all']:
+  for p in ['run_multi_error.py','select_conservative.py','audit_conservative.py']:run('outputs/robust_v9/'+p)
+ if args.stage in ['latest','robust','all']:run('outputs/robust_v9/infer_conservative.py')
  verify(release)
 if __name__=='__main__':main()

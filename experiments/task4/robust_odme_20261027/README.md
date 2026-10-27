@@ -5,7 +5,7 @@
 ## 已知结果与限制
 
 - 冻结官方目标基准：validation 发布计数 `S_link=0.9999394100`，private 发布计数 `S_link=0.9999232335`。private 数字不是隐藏私榜成绩。
-- 最新探索候选：先按当前 split 的公开计数校正先验加载尺度，再做 KL 正则化非负求解。只更新有同方向五分钟实测流量支持的 D7 I10 E/W、I405 N/S，其余六方向沿用冻结基准。
+- 最新保守候选（v9）：仅 D7_I210_W 使用75%官方解+25%尺度校正KL，其余九方向沿用冻结基准。五组真实计数划分用于选择和复核；不是五份独立路径真值测试。
 - 新尺度匹配人工场景中，旧幅度候选 / scaled KL 的 S_dev 为 0.67423 / 0.92387，人工综合为 0.66940 / 0.88626。这依赖生成假设，不能称作真实提升，不能与早期不同场景的 0.95122 直接比较。
 - 实际 train 四方向分组计数留出 NMAE：官方基准 0.030782、旧幅度候选 0.043517、scaled KL 0.037156。官方基准在这一检查中仍最好，所以未覆盖主预测。
 - v6 自适应模型未通过 S_dev 改善条件；v7 在 160 个人工场景中有 133 个未达到幅度校准目标，**不可用于选模**。保留失败记录，未挑选性删除。
@@ -17,10 +17,10 @@
 - `requirements.txt`：数值环境；`requirements-data.txt`：XLSX 提取时使用的数据环境。
 - `competition_input_manifest.json`：官方输入的路径、大小和 SHA256。**不包含原始竞赛数据。**
 - `outputs/run_task4.py`：官方 λ=0.05 目标的等价对偶求解及基准比较。
-- `outputs/scale_shape_v8/infer_balanced.py`：最新候选的独立推理，无需重跑人工实验。
+- `outputs/robust_v9/infer_conservative.py`：最新保守候选独立推理，无需重跑人工实验；`scale_shape_v8/infer_balanced.py`保留旧v8候选。
 - `outputs/task4_path_flow.csv`：冻结基准预测。
-- `outputs/scale_shape_v8/task4_balanced_scale_candidate.csv`：最新探索候选。
-- `outputs/{improvement_v2,external_v3,fivemin_v4,dev_v5,adaptive_v6,magnitude_v7,scale_shape_v8}`：历轮脚本、配置、结果及说明。冗余的逐方向/逐候选预测可由代码重建，未全部重复提交。
+- `outputs/robust_v9/task4_conservative_candidate.csv`：最新保守探索候选；v8预测仍保留。
+- `outputs/{improvement_v2,external_v3,fivemin_v4,dev_v5,adaptive_v6,magnitude_v7,scale_shape_v8,robust_v9}`：历轮脚本、配置、结果及说明。冗余的逐方向/逐候选预测可由代码重建，未全部重复提交。
 - `outputs/official_reference`：官方代码、配置与文档快照，提交 `f9e3fbc35c066419726987e470448f33d4c72fd9`，保留 MIT 许可证及原作者来源。
 
 ## 准备环境
@@ -62,7 +62,7 @@ python reproduce.py --release-root /data/kaggle_public --stage latest
 python reproduce.py --release-root /data/kaggle_public --stage verify
 ```
 
-`latest` 从冻结基准起构建四方向探索候选，随后核对所有已保存完整预测的模板键、区域、period token、非负/有限性和重复。每份完整预测应为70,708行，覆盖validation/private十方向。`departure_time` 是原样保留的period token，不转时间戳。
+`latest` 从冻结基准起构建单方向保守候选，随后核对所有已保存完整预测的模板键、区域、period token、非负/有限性和重复。每份完整预测应为70,708行，覆盖validation/private十方向。`departure_time` 是原样保留的period token，不转时间戳。
 
 ## 重现所有已完成实验
 
@@ -79,3 +79,14 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\reproduce.ps1 -Release
 ## 提交与其他任务
 
 Task 1、2、4可以使用不同模型。Task 3直接评估Task 1同一份输出，没有单独提交。本目录只处理Task 4，未更改Task 1权重、Task 2代码或其他任务输出。需由使用者最后按官方提交键合并；本目录不自动提交Kaggle。
+
+## v9：多误差反证与真实计数复核
+
+- 12类误差、十方向、三种路径形状，共360场景×8候选。包括计数全局偏差、空间倾斜、异常计数、置换先验、以及加载计数完全不变的OD环流。
+- 增加逐链接0/1/5%容差下的稀疏LP偏离范围。所得S_dev下界是条件性的，且较松，不是比赛分数。
+- 校准人工赢家noise03被真实计数检验否定（NMAE约0.1008，官方约0.0380），保留为失败记录，不推荐部署。
+- 保守策略只有D7_I210_W的mix25通过选择条件。新增两个分组随机种子下，十方向实际train计数NMAE分别从0.036641降至0.036219、0.032442降至0.031862，约改善1.15%和1.79%。
+- 保守策略在重尾人工评估的S_dev略降（0.623457→0.622883），稀疏压力中提高（0.618299→0.621435）；人工综合都小幅改善。**不能宣布S_dev已稳健提高。**
+- `--stage robust`重跑本轮LP、误差族检验、三种计数划分选模和两种新划分复核；`--stage bounds`只重跑条件性LP界限；`--stage scale`保留v8推理入口。
+
+详见[完整v9报告](outputs/robust_v9/多场景与真实计数复核说明.txt)、[真实计数新增划分](outputs/robust_v9/fresh_seed_actual_cv_overall.csv)、[逐误差场景](outputs/robust_v9/multi_error_by_scenario.csv)。原官方基准没有覆盖，未提交Kaggle。

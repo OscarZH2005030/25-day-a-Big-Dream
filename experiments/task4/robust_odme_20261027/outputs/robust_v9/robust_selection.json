@@ -1,0 +1,66 @@
+{
+  "chosen": "noise03",
+  "criterion": "calibration minimum worst error-family SODME regret, with Sdev/path/attraction guards vs official",
+  "calibration_macro": {
+    "amp125": {
+      "S_od": 0.6099868734595383,
+      "S_dev": 0.6051130840827823,
+      "S_attr": 0.91767915663331,
+      "synthetic_S_ODME": 0.7520826605609933
+    },
+    "mix25": {
+      "S_od": 0.5350243929057023,
+      "S_dev": 0.6185357692948518,
+      "S_attr": 0.9063565649802071,
+      "synthetic_S_ODME": 0.718641536923077
+    },
+    "mix50": {
+      "S_od": 0.5846671264663238,
+      "S_dev": 0.6205821405067903,
+      "S_attr": 0.9123704586779521,
+      "synthetic_S_ODME": 0.7421978247978157
+    },
+    "mix75": {
+      "S_od": 0.6235861768895213,
+      "S_dev": 0.6356997958540201,
+      "S_attr": 0.9165050210997583,
+      "synthetic_S_ODME": 0.7626072173372854
+    },
+    "noise03": {
+      "S_od": 0.6633033642417193,
+      "S_dev": 0.6438843869277888,
+      "S_attr": 0.9243414975465126,
+      "synthetic_S_ODME": 0.7805321732917657
+    },
+    "noise10": {
+      "S_od": 0.667600122542245,
+      "S_dev": 0.5842611465375454,
+      "S_attr": 0.9251458744258719,
+      "synthetic_S_ODME": 0.7701000186636358
+    },
+    "official": {
+      "S_od": 0.4797622902787058,
+      "S_dev": 0.6241210134194521,
+      "S_attr": 0.8986912843635281,
+      "synthetic_S_ODME": 0.6934535562311274
+    },
+    "scaled_kl": {
+      "S_od": 0.641486400797975,
+      "S_dev": 0.662106392796186,
+      "S_attr": 0.9169112413905186,
+      "synthetic_S_ODME": 0.7746920417085783
+    }
+  },
+  "max_family_regret": {
+    "amp125": 0.2936584112984616,
+    "mix25": 0.33886379373500053,
+    "mix50": 0.3114897480165383,
+    "mix75": 0.27809107705159575,
+    "noise03": 0.1283897751509725,
+    "noise10": 0.12989919271581674,
+    "official": 0.39037668097745193,
+    "scaled_kl": 0.2460721079448448
+  },
+  "synthetic_only": true,
+  "phases": "calibration mild shapes, evaluation heavy shapes, sparse_stress; calibration choices fixed before evaluation aggregation"
+}

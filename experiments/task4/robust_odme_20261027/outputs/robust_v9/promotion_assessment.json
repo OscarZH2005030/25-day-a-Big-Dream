@@ -1,0 +1,11 @@
+{
+  "promote_to_frozen_submission": false,
+  "reason": "Sdev is slightly lower on heavy-shape evaluation and higher on sparse stress; no hidden path truth; not uniform improvement",
+  "fresh_real_count_cv_pass": true,
+  "Sdev_delta_by_proxy_phase": {
+    "evaluation": -0.0005742795272719592,
+    "sparse_stress": 0.0031361758490772162
+  },
+  "latest_exploratory_policy": "D7_I210_W mix25, nine directions official",
+  "frozen_submission": "outputs/task4_path_flow.csv"
+}

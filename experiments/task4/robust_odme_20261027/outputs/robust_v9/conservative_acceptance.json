@@ -1,0 +1,11 @@
+{
+  "rows": 70708,
+  "keys_match": true,
+  "finite_nonnegative": true,
+  "duplicates": 0,
+  "updated_panels": [
+    "D7_I210_W"
+  ],
+  "baseline_preserved": true,
+  "synthetic_scores_are_competition_scores": false
+}

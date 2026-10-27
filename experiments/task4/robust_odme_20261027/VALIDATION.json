@@ -2,7 +2,7 @@
   "python": "3.12.14",
   "compile_all_sources": "passed",
   "required_input_hashes_checked": 123,
-  "full_prediction_files_checked": 9,
+  "full_prediction_files_checked": 11,
   "rows_per_prediction": 70708,
   "relocated_baseline": "passed",
   "relocated_latest_inference": "passed",
@@ -11,5 +11,11 @@
   "windows_powershell_5_1_entry": "passed",
   "all_historical_stages_portable_full_rerun": false,
   "historical_experiments": "executed in original workspace; portable full historical replay not repeated",
-  "path_truth_available": false
+  "path_truth_available": false,
+  "robust_v9_original_runs": "360 synthetic cases + 10 panels x 5 grouped count-CV seeds + feasible LP ranges completed",
+  "robust_v9_windows_latest_entry": "passed in relocated directory",
+  "robust_v9_full_portable_replay": false,
+  "robust_v9_latest_numeric_identity_max_abs_difference": 0.0,
+  "robust_v9_portable_full_bounds": "passed for all ten panels and three tolerances",
+  "robust_v9_compile": "passed"
 }
