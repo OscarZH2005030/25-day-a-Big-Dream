@@ -1,0 +1,131 @@
+{
+  "policy": {
+    "D12_I405_N": "v11",
+    "D12_I405_S": "v11",
+    "D12_I5_N": "v11",
+    "D12_I5_S": "v11",
+    "D7_I10_E": "v11",
+    "D7_I10_W": "v11",
+    "D7_I210_E": "v11",
+    "D7_I210_W": "v11",
+    "D7_I405_N": "v11",
+    "D7_I405_S": "v11"
+  },
+  "specs": {
+    "v11": {
+      "weight": 0.0,
+      "positive_share": 1.0
+    },
+    "positive0.1": {
+      "weight": 0.1,
+      "positive_share": 1.0
+    },
+    "balanced0.25_mix0.1": {
+      "weight": 0.1,
+      "positive_share": 0.25
+    },
+    "balanced0.5_mix0.1": {
+      "weight": 0.1,
+      "positive_share": 0.5
+    },
+    "balanced0.75_mix0.1": {
+      "weight": 0.1,
+      "positive_share": 0.75
+    },
+    "paired_gate_mix0.1": {
+      "weight": 0.1,
+      "positive_share": "count_only_gate"
+    },
+    "positive0.25": {
+      "weight": 0.25,
+      "positive_share": 1.0
+    },
+    "balanced0.25_mix0.25": {
+      "weight": 0.25,
+      "positive_share": 0.25
+    },
+    "balanced0.5_mix0.25": {
+      "weight": 0.25,
+      "positive_share": 0.5
+    },
+    "balanced0.75_mix0.25": {
+      "weight": 0.25,
+      "positive_share": 0.75
+    },
+    "paired_gate_mix0.25": {
+      "weight": 0.25,
+      "positive_share": "count_only_gate"
+    },
+    "positive0.5": {
+      "weight": 0.5,
+      "positive_share": 1.0
+    },
+    "balanced0.25_mix0.5": {
+      "weight": 0.5,
+      "positive_share": 0.25
+    },
+    "balanced0.5_mix0.5": {
+      "weight": 0.5,
+      "positive_share": 0.5
+    },
+    "balanced0.75_mix0.5": {
+      "weight": 0.5,
+      "positive_share": 0.75
+    },
+    "paired_gate_mix0.5": {
+      "weight": 0.5,
+      "positive_share": "count_only_gate"
+    },
+    "positive0.75": {
+      "weight": 0.75,
+      "positive_share": 1.0
+    },
+    "balanced0.25_mix0.75": {
+      "weight": 0.75,
+      "positive_share": 0.25
+    },
+    "balanced0.5_mix0.75": {
+      "weight": 0.75,
+      "positive_share": 0.5
+    },
+    "balanced0.75_mix0.75": {
+      "weight": 0.75,
+      "positive_share": 0.75
+    },
+    "paired_gate_mix0.75": {
+      "weight": 0.75,
+      "positive_share": "count_only_gate"
+    },
+    "positive1": {
+      "weight": 1.0,
+      "positive_share": 1.0
+    },
+    "balanced0.25_mix1": {
+      "weight": 1.0,
+      "positive_share": 0.25
+    },
+    "balanced0.5_mix1": {
+      "weight": 1.0,
+      "positive_share": 0.5
+    },
+    "balanced0.75_mix1": {
+      "weight": 1.0,
+      "positive_share": 0.75
+    },
+    "paired_gate_mix1": {
+      "weight": 1.0,
+      "positive_share": "count_only_gate"
+    }
+  },
+  "selection": "calibration all four plus total >=v11 overall and each target, count CV mean no worse/worst <=1.01, maximize target Sdev",
+  "selection_count_seeds": [
+    20261201,
+    20261202
+  ],
+  "targets": [
+    "localized_undercount",
+    "count_systematic30"
+  ],
+  "benchmark_previously_seen": true,
+  "informed_direction": "raw KL path estimate projected to v11 counted-link and destination totals; never arbitrary nullspace inflation"
+}

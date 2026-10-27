@@ -1,0 +1,9 @@
+{
+  "seconds": 181.39412140846252,
+  "same_fixed_cases": 480,
+  "candidate_count": 26,
+  "max_constraint_error": 1.3642420526593924e-10,
+  "CPU_threads": 4,
+  "hidden_truth_available": false,
+  "baseline_preserved": true
+}

@@ -1,9 +1,11 @@
 {
-  "status": "v12-v14 targeted bias experiments completed on same 480 cases",
-  "latest_report": "outputs/joint_v14/REPORT.md",
+  "status": "v15 two-direction fixed-benchmark experiment completed",
+  "latest_report": "outputs/joint_v15/REPORT.md",
   "changed_panels": {},
-  "actual_S_ODME": null,
   "promoted": false,
+  "actual_S_ODME": null,
   "original_submission_preserved": true,
-  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5"
+  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5",
+  "additional_calibration_screen": "outputs/joint_v16/REPORT.md",
+  "global_screen_discrete_Sdev_gain": 0.0
 }

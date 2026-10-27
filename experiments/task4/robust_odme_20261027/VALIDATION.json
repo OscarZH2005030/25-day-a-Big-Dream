@@ -50,5 +50,20 @@
       20261208
     ],
     "hidden_truth": false
+  },
+  "v15_v16": {
+    "equality_projector": "independent SLSQP check passed on 3 cases",
+    "portable_windows_ps51_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 16,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiments": "same 480 cases, 26 two-direction candidates; no jointly accepted change; family-safe global screen zero gain",
+    "new_count_audit_seeds": [
+      20261209,
+      20261210
+    ],
+    "global_screen_scope": "calibration only, this candidate grid, no independent path validation",
+    "hidden_truth": false
   }
 }

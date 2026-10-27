@@ -1,0 +1,17 @@
+scenario,delta_S_od,delta_S_link,delta_S_dev,delta_S_attr,delta_synthetic_S_ODME
+additive_prior,0.0,0.0,0.0,0.0,0.0
+correlated_path_prior,0.0,0.0,0.0,0.0,0.0
+count_noise05,0.0,0.0,0.0,0.0,0.0
+count_outliers,0.0,0.0,0.0,0.0,0.0
+count_systematic30,0.0,0.0,0.0,0.0,0.0
+destination_bias,0.0,0.0,0.0,0.0,0.0
+invisible_redistribution,0.0,0.0,0.0,0.0,0.0
+localized_undercount,0.0,0.0,0.0,0.0,0.0
+near_correct_prior,0.0,0.0,0.0,0.0,0.0
+origin_bias,0.0,0.0,0.0,0.0,0.0
+permuted_prior,0.0,0.0,0.0,0.0,0.0
+prior_over2,0.0,0.0,0.0,0.0,0.0
+prior_under05,0.0,0.0,0.0,0.0,0.0
+rounded_counts,0.0,0.0,0.0,0.0,0.0
+spatial_count_tilt,0.0,0.0,0.0,0.0,0.0
+unbiased_prior,0.0,0.0,0.0,0.0,0.0

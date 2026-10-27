@@ -1,0 +1,349 @@
+{
+  "changed_panels": {},
+  "promoted": false,
+  "checks": [
+    {
+      "phase": "evaluation",
+      "scenario": "overall",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "additive_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "correlated_path_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "count_noise05",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "count_outliers",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "count_systematic30",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "destination_bias",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "invisible_redistribution",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "localized_undercount",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "near_correct_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "origin_bias",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "permuted_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "prior_over2",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "prior_under05",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "rounded_counts",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "spatial_count_tilt",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "evaluation",
+      "scenario": "unbiased_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "overall",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "additive_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "correlated_path_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "count_noise05",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "count_outliers",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "count_systematic30",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "destination_bias",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "invisible_redistribution",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "localized_undercount",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "near_correct_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "origin_bias",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "permuted_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "prior_over2",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "prior_under05",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "rounded_counts",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "spatial_count_tilt",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "unbiased_prior",
+      "all_components_nondecreasing": true,
+      "delta_S_od": 0.0,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0
+    }
+  ],
+  "original_submission_preserved": true,
+  "actual_hidden_S_ODME": null,
+  "benchmark_previously_seen": true
+}

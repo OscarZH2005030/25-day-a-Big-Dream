@@ -1,0 +1,24 @@
+{
+  "policy": {
+    "D12_I405_N": "v11",
+    "D12_I405_S": "v11",
+    "D12_I5_N": "v11",
+    "D12_I5_S": "v11",
+    "D7_I10_E": "v11",
+    "D7_I10_W": "v11",
+    "D7_I210_E": "v11",
+    "D7_I210_W": "v11",
+    "D7_I405_N": "v11",
+    "D7_I405_S": "v11"
+  },
+  "calibration_Sdev_gain": 0.0,
+  "raw_MIP_objective_gain": 8.106291786985674e-10,
+  "constraints": "for each of 16 error families, all four components plus total no worse on calibration; select one candidate per panel",
+  "calibration_only_screen": true,
+  "count_CV_not_yet_checked": true,
+  "hidden_truth_available": false,
+  "MIP_optimal": true,
+  "MIP_gap": 0.0,
+  "scope": "only this 26-candidate discrete grid, subject to numerical solver tolerances; not impossibility for all models",
+  "promoted": false
+}

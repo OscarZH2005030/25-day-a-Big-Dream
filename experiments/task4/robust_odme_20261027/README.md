@@ -110,3 +110,11 @@ V12 sparse-adjustment candidates are retained as failures. V13 minimizes prior L
 ## v14: count-only discrepancy gate, same joint guards
 
 Adds a fixed robust scale/tail discrepancy gate to the equality-constrained prior adjustment. Same 480-case benchmark; no scenario/truth input to inference. All joint guards and failures are retained in the [v14 report](outputs/joint_v14/REPORT.md). See [all versions](outputs/joint_v14/all_versions_same_test.csv), [target families](outputs/joint_v14/target_four_components.csv), and [calibration tradeoffs](outputs/joint_v14/target_calibration_tradeoffs.csv). Use `--stage guarded` or `--stage guarded-infer`. Original submission and default v9 inference remain preserved; actual hidden scores are unknown.
+
+## v15: combine informed path correction with deviation reduction
+
+Projects a KL path estimate onto v11 link/destination constraints, then combines it with the minimum-L1 endpoint. Twenty-six candidates; same fixed 480 cases, all four component guards plus actual count CV. See [v15 report](outputs/joint_v15/REPORT.md), [all versions](outputs/joint_v15/all_versions_same_test.csv), [all calibration error families](outputs/joint_v15/calibration_all_families_four_components.csv), and [tradeoffs](outputs/joint_v15/calibration_tradeoffs.csv). Use `--stage bidirectional` or `--stage bidirectional-infer`. Previously seen benchmark, not independent real path validation. Original submission and default v9 inference are preserved.
+
+## v16: global family-safe calibration feasibility
+
+`--stage global-screen` selects one v15 candidate per direction while guarding every component and total separately for all sixteen calibration error families. The screen retains v11 with zero discrete improvement; it is only a candidate-grid feasibility check, not an impossibility theorem or real hidden score. See [screen report](outputs/joint_v16/REPORT.md). No new non-baseline policy, so no extra CV or prediction is claimed for this screen.

@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 1501,
+    "constraint_error": 7.8017592386459e-12,
+    "independent_SLSQP_max_difference": 4.39648317751562e-12
+  },
+  {
+    "seed": 1502,
+    "constraint_error": 8.881784197001252e-15,
+    "independent_SLSQP_max_difference": 1.1173284519827575e-12
+  },
+  {
+    "seed": 1503,
+    "constraint_error": 1.0658141036401503e-14,
+    "independent_SLSQP_max_difference": 3.992361996552063e-13
+  }
+]
