@@ -1,0 +1,7 @@
+{
+  "experiment": "remaining_t1_dynamic_batch_v1",
+  "smoke": false,
+  "integrity_passed": true,
+  "artifact_manifest_sha256": "a8b00fe57bc77487d76b0143d5ff0076e0e0053a1d041669156989f17023c00b",
+  "seconds": 35702.9424756
+}

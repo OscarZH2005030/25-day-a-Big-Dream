@@ -1,0 +1,7 @@
+{
+  "experiment": "t1_training_ablations_v1",
+  "smoke": false,
+  "integrity_passed": true,
+  "artifact_manifest_sha256": "dc1eace9b1e43f2aa497724ea8c9d8b34ea2638d2be4b24db18faf034cf733f1",
+  "seconds": 42058.532817900006
+}
