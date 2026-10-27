@@ -1,0 +1,77 @@
+{
+  "selected": {
+    "alpha_hazard": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7751897171081733
+  },
+  "candidates": [
+    {
+      "alpha_hazard": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.774232296823185
+    },
+    {
+      "alpha_hazard": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7742073007940374
+    },
+    {
+      "alpha_hazard": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7751897171081733
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-hazard-checkpoint.txt": "62520e747e807115ec98c20d930ee1ca98345d72bfef7c0dea139efcf7ddb3d3",
+    "D12_I5_N-hazard.txt": "62520e747e807115ec98c20d930ee1ca98345d72bfef7c0dea139efcf7ddb3d3",
+    "D12_I5_N-probe-checkpoint.txt": "bc41cdcd5a80022c79299c2e9085e8c451fa909247042999ade277ceb4751c24",
+    "D12_I5_N-probe.txt": "bc41cdcd5a80022c79299c2e9085e8c451fa909247042999ade277ceb4751c24",
+    "D12_I5_S-hazard-checkpoint.txt": "7cf38991079326b6ad47e5e88c721159066ab398cf9c99ea45d9d993249d47f6",
+    "D12_I5_S-hazard.txt": "7cf38991079326b6ad47e5e88c721159066ab398cf9c99ea45d9d993249d47f6",
+    "D12_I5_S-probe-checkpoint.txt": "6f6dece695c8eb3953627add00ae26d346ba3deb71e0e2d8fe4a3b6e5d979bca",
+    "D12_I5_S-probe.txt": "6f6dece695c8eb3953627add00ae26d346ba3deb71e0e2d8fe4a3b6e5d979bca",
+    "D7_I10_E-hazard-checkpoint.txt": "398639696241be30e30fc0a6f2fa19c78111ab141fd47d3a3525fd4912790a1e",
+    "D7_I10_E-hazard.txt": "398639696241be30e30fc0a6f2fa19c78111ab141fd47d3a3525fd4912790a1e",
+    "D7_I10_E-probe-checkpoint.txt": "2d818dec3953bff7678877b7bb704d74d049d8c266673bf120198d58034c9d09",
+    "D7_I10_E-probe.txt": "2d818dec3953bff7678877b7bb704d74d049d8c266673bf120198d58034c9d09",
+    "D7_I10_W-hazard-checkpoint.txt": "7aeeffc7575d45690245ccbdc05ffb4b6cb8826e9e2872e4bb13dfc84cf8ffcd",
+    "D7_I10_W-hazard.txt": "7aeeffc7575d45690245ccbdc05ffb4b6cb8826e9e2872e4bb13dfc84cf8ffcd",
+    "D7_I10_W-probe-checkpoint.txt": "75a6ecf7f952f9ff346e9376d2bc6d49e198fb257437551e36a3f3272b1f13f7",
+    "D7_I10_W-probe.txt": "75a6ecf7f952f9ff346e9376d2bc6d49e198fb257437551e36a3f3272b1f13f7",
+    "D7_I210_E-hazard-checkpoint.txt": "4ddb4d0df0fc99f8eb15e3edf29815c39d8027fed841b48d2108a58bbc2caa25",
+    "D7_I210_E-hazard.txt": "4ddb4d0df0fc99f8eb15e3edf29815c39d8027fed841b48d2108a58bbc2caa25",
+    "D7_I210_E-probe-checkpoint.txt": "7bdd263c13fe5c74822e0e4969868c170f420b0945edbc9037bca699fd21aef0",
+    "D7_I210_E-probe.txt": "7bdd263c13fe5c74822e0e4969868c170f420b0945edbc9037bca699fd21aef0",
+    "D7_I210_W-hazard-checkpoint.txt": "9cd8d18359e4267f35b5066dd905ff142a8beaa912d47b29251a4378e48d7740",
+    "D7_I210_W-hazard.txt": "9cd8d18359e4267f35b5066dd905ff142a8beaa912d47b29251a4378e48d7740",
+    "D7_I210_W-probe-checkpoint.txt": "b85caab2f2bfd6512adedd794fca35cbe8c0ff2bce80aac762dcc067c72d3b6a",
+    "D7_I210_W-probe.txt": "b85caab2f2bfd6512adedd794fca35cbe8c0ff2bce80aac762dcc067c72d3b6a",
+    "D7_I405_N-hazard-checkpoint.txt": "4d7316011518599ca01cee5513e21dda678b2ca0db443defad7677ea2c45c76a",
+    "D7_I405_N-hazard.txt": "4d7316011518599ca01cee5513e21dda678b2ca0db443defad7677ea2c45c76a",
+    "D7_I405_N-probe-checkpoint.txt": "c3307f143f4c8dd907b54180d62a2a170a505f8c432130791b2604091937a3a2",
+    "D7_I405_N-probe.txt": "c3307f143f4c8dd907b54180d62a2a170a505f8c432130791b2604091937a3a2",
+    "D7_I405_S-hazard-checkpoint.txt": "126b7b159468a73fc39020dbd223e6bab038339155ae32ab93f5c4d791591862",
+    "D7_I405_S-hazard.txt": "126b7b159468a73fc39020dbd223e6bab038339155ae32ab93f5c4d791591862",
+    "D7_I405_S-probe-checkpoint.txt": "f7ce7d07fc564bb5a075e5aad430630ad882b1f3a5ee020e66b9af21fa962bfa",
+    "D7_I405_S-probe.txt": "f7ce7d07fc564bb5a075e5aad430630ad882b1f3a5ee020e66b9af21fa962bfa"
+  },
+  "route_sha256": "84bc489be6618137291d73580c7ab11e952075660aba0aa5a3c3c0df0cfca43d",
+  "baseline_frozen_sha256": "ebc16c8168e38fad49566639aa87c199cbc2171bb3e4fb59f3bf12b0269d1fbc",
+  "hazard_source_sha256": "5c11fdb878d94ef3ed713169554baac2ca8c06db6195ee55b76d78c3731f63a4",
+  "ongoing_frozen": true,
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

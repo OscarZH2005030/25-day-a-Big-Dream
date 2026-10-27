@@ -1,0 +1,52 @@
+{
+  "selected": {
+    "alpha_interval": 0.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7751897171081733
+  },
+  "candidates": [
+    {
+      "alpha_interval": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7751897171081733
+    },
+    {
+      "alpha_interval": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7751897171081733
+    },
+    {
+      "alpha_interval": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7751897171081733
+    }
+  ],
+  "hashes": {
+    "global-control-probe-checkpoint.txt": "124da8cc4e01bb83b9b45a95a5f4d5df3105db445dc29d2a838ec6bbbb7133d1",
+    "global-control-probe.txt": "ad4b96a0a180e7beb7f8a87d0c38c22500ef241a8bd1a4ce80fb0864c626a0d3",
+    "global-partial-probe-checkpoint.txt": "2c4740033a5c7634b8376691ed7c898744f0b00ee65f08620bafb03de1877668",
+    "global-partial-probe.txt": "2c4740033a5c7634b8376691ed7c898744f0b00ee65f08620bafb03de1877668"
+  },
+  "route_sha256": "a7dce298dd50179e1e379cb94ee6d2a11ba8b33b4564878618dfae5d58e624a4",
+  "baseline_frozen_sha256": "6573682c31c955d39665d9b1adfe3204c101288f5880d9fb3f034fbb59db5cfd",
+  "interval_source_sha256": {
+    "interval_core.py": "460f679c5d503e53bd236940e9157fc7a72a25c5502bfdc6b09c1eb8d49c98f5",
+    "interval_data.py": "dd1a8b8a1c6f4722a6dae7740287b86418f43bfc321dc054be8df90fb77b3c27"
+  },
+  "ongoing_frozen": true,
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

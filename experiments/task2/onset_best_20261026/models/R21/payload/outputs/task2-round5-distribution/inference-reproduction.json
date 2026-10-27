@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "independent_validation_exact_rows": 87000,
+  "Task1_92_file_package_unchanged": true,
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_new_score_measured": false,
+  "official_S_queue": null,
+  "comparison": {
+    "official_persistence": {
+      "overall": 0.27120636405785353,
+      "queue_onset": 0.0019181585677749361,
+      "queue_ongoing": 0.5404945695479322
+    },
+    "carry_T": {
+      "overall": 0.3390507037410652,
+      "queue_onset": 0.005115089514066496,
+      "queue_ongoing": 0.672986317968064
+    },
+    "round4_frozen": {
+      "overall": 0.6787083787433892,
+      "queue_onset": 0.6203710764147913,
+      "queue_ongoing": 0.7370456810719873
+    },
+    "distribution_same_thresholds": {
+      "overall": 0.7127262319557125,
+      "queue_onset": 0.6636851683084762,
+      "queue_ongoing": 0.7617672956029488
+    },
+    "selected": {
+      "overall": 0.7221912702059645,
+      "queue_onset": 0.6798910061632842,
+      "queue_ongoing": 0.764491534248645
+    },
+    "selected_360min_spacing_diagnostic": {
+      "overall": 0.7255933320089536,
+      "queue_onset": 0.6782229629626123,
+      "queue_ongoing": 0.7729637010552951
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 20261027,
+  "parent_models": 2,
+  "parent_rounds": 800,
+  "road_finetunes": 16,
+  "additional_rounds_per_road": 200,
+  "total_new_tree_rounds": 4800,
+  "parent": "shared across eight panels within history condition, with road one-hot",
+  "local": "append 200 trees to parent with only this road/condition data",
+  "inputs": "same 555D causal inputs + eight road identity indicators",
+  "supervision": "same hard labels, selected rows and IPW weights as round5/6",
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "Task1": "original 92-file package frozen; historical .942828633 not remeasured",
+  "selection": "December per-road and temporal half guard; January global mix/threshold; February reused report only",
+  "official_S_queue": null
+}

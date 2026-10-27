@@ -1,0 +1,98 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": 0,
+    "model": "D7_I10_E-0-adapted.txt",
+    "alpha_to_pooled": 0.5
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": 1,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 0,
+    "model": "D7_I10_W-0-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 1,
+    "model": "D7_I10_W-1-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 0,
+    "model": "D7_I210_E-0-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 1,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 0,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 1,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 0,
+    "model": "D7_I405_N-0-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 1,
+    "model": "D7_I405_N-1-adapted.txt",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 0,
+    "model": "D7_I405_S-0-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 1,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 0,
+    "model": "D12_I5_N-0-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 1,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 0,
+    "model": "D12_I5_S-0-adapted.txt",
+    "alpha_to_pooled": 1.0
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 1,
+    "model": "reference",
+    "alpha_to_pooled": 0.25
+  }
+]

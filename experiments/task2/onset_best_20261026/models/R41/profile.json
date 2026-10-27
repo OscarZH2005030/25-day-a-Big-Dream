@@ -1,0 +1,17 @@
+{
+  "entry_round": "task2-round41-paired-policy",
+  "module": "paired_runtime",
+  "class": "PairedPredictor",
+  "forbidden_original_roots": [
+    "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement",
+    "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation"
+  ],
+  "dependency_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.0",
+    "lightgbm": "4.7.0",
+    "torch": "2.9.1+cu128"
+  },
+  "scope": "self-contained Task2 inference weights/code/config; public data and Python environment required separately"
+}

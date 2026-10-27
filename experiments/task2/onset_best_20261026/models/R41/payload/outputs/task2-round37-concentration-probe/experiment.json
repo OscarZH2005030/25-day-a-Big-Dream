@@ -1,0 +1,13 @@
+{
+  "hypothesis": "R34 conditional timing can worsen roads where the head is diffuse; keep base shape unless a six-class conditional first-step mode has >=.5 mass",
+  "scope": "no new training; frozen R33 JuneSep200 head and R10 JuneSep200 base; OctoberNov all-selected-phase held only; no December/January/February raw data",
+  "concentration": "fixed max conditional class output>=.5 majority mode; NOT a calibrated probability of correctness or an event probability; threshold not searched",
+  "safety": "unchanged base on low-concentration/visible-queue links and Ongoing; identical unmasked six-step peak on all links, unknown future-eligibility support can change",
+  "conditional_gate": ">=20 high-concentration complete-label positive link views, >=.20 weighted conditional-event coverage, accuracy>=.50 and improvement>=.03 over JuneSep per-road class prior, logloss improvement>=.02",
+  "timing_gate": "at least one fixedalpha.5/1 has median IoU gain at .1/.2/.35>=-.01 vs causal base, median change vs ungated head>=0, negative false-any+.03 and eligibleFP+.005 at fixed .5",
+  "limits": "conditional complete-label event-positive evaluation is selected and correlated; coverage is not general traffic coverage; no new policy is deployed here",
+  "new_models": 0,
+  "CPU_threads": 4,
+  "Task1": "92files immutable; .942828633 historical only",
+  "official_S_queue": null
+}

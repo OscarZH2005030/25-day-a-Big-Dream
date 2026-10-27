@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_head_trained_in": "R40, fixed original+paired data; no new fitting in R41",
+  "source": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round40-paired-timing",
+  "source_full_training_sha256": "c59684536962c09e0ee8d50b19eea76282825cd3cf5791900ad8413d236d2983",
+  "hashes": {
+    "conditional-first-full.txt": "e2c1aba5581ac383a8950fa00980d727e244552a0d6c7fa52e847e3c9f5b21ee",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b"
+  },
+  "early_gate_sha256": "82c8a4518412e34280d8e60a4b4e3a872778af451be61c60c2a9680851c87cf5",
+  "paired_index_sha256": "fd59cce419d890ada43d04858689fcc7c7c825187818efef129f2da2294c30a0",
+  "official_S_queue": null
+}

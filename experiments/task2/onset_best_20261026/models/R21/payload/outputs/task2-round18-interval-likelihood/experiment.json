@@ -1,0 +1,111 @@
+{
+  "seed": 20261027,
+  "hypothesis": "R17 censors many observed-positive links and assumes persistence; model empty or one contiguous episode, including recovery, and sum likelihood across all intervals compatible with observed labels",
+  "shape_evidence": "R16 .996091 complete positive link windows have one contiguous run, not independent event count",
+  "inputs": "first-horizon549 causal features (six horizon one-hot columns removed) +8 road one-hot; no label-set/mask/future quality as input",
+  "target_patterns": [
+    null,
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "control": "singleton compatible interval labels only; same data sampling/weights/features/objective/parameters",
+  "partial": "all informative compatible label sets, including ambiguous observed-positive links; loss=-log(sum allowed pattern probabilities)",
+  "objective": "gradient p - p_conditioned_on_allowed; positive diagonal upper approximation2p(1-p), NOT exact Newton Hessian; weights applied once",
+  "max_models": 4,
+  "shared_probes": 2,
+  "probe_rounds": 60,
+  "shared_full": 2,
+  "full_rounds": 200,
+  "max_trees": 11440,
+  "CPU_threads": 4,
+  "fit": "June-November expanded onset windows; early probes June-September",
+  "temporal_guard": "October-November original windows: median gain vs R10 direct over .1/.2/.35 >=-.01; >=98% complete positive patterns compatible",
+  "December": "both arms fixed200 rounds, alpha .5/1; gain>=.004, worst phase>=-.015, >=4windows per phase",
+  "January": "global blend0/.5/1 only; both thresholds frozen",
+  "Ongoing": "entire R17 path frozen",
+  "February": "both previously viewed populations only report after freeze",
+  "Task1": "92files frozen, historical .942828633 not newly measured",
+  "official_S_queue": null
+}

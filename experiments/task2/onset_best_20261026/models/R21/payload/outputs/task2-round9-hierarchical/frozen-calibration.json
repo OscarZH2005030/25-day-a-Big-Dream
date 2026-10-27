@@ -1,0 +1,2022 @@
+{
+  "selected": {
+    "alpha_hierarchy": 0.5,
+    "thresholds": [
+      0.35,
+      0.1
+    ],
+    "proxy": 0.7404632772345472
+  },
+  "candidates": [
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7384468421830158
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7032800551552931
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7038039963888512
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7037234943331674
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.701394256868044
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6996315944357945
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6974757783360168
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6917744602270353
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7120212000066567
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7125451412402148
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7124646391845308
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7101354017194076
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7083727392871582
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7062169231873805
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7005156050783989
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7229778774751343
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7235018187086923
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7234213166530085
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7210920791878852
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7193294167556357
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.717173600655858
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7114722825468764
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7273537797906753
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7278777210242333
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7277972189685494
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7254679815034262
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7237053190711766
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7215495029713991
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7158481848624174
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7337404358725297
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7342643771060877
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7341838750504038
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7318546375852806
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.730091975153031
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7279361590532535
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7222348409442718
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7379229009494579
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7384468421830158
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7383663401273319
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7360371026622088
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.734274440229959
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7321186241301816
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7264173060211999
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.730619299479077
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7311432407126351
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7310627386569511
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7287335011918279
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7269708387595784
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.7248150226598008
+    },
+    {
+      "alpha_hierarchy": 0.0,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7191137045508192
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7030427348080492
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7038411624245551
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7032813799869926
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7011186018258917
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6994947049849056
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6972107520628252
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6916027509302693
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7135836471643184
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7143820747808244
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7138222923432617
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7116595141821607
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7100356173411747
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7077516644190944
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7021436632865384
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.723894632454254
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.72469306007076
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7241332776331975
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7219704994720965
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7203466026311105
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.71806264970903
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7124546485764742
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7281681455279954
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7289665731445013
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7284067907069387
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7262440125458376
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7246201157048517
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7223361627827714
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7167281616502155
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.733732039805705
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.734530467422211
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7339706849846483
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7318079068235475
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7301840099825616
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.727900057060481
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7222920559279252
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7389249447239793
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7397233723404852
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7391635899029225
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7370008117418216
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7353769149008358
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7330929619787552
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7274849608461994
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7327832132854651
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.733581640901971
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7330218584644084
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7308590803033075
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7292351834623216
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.726951230540241
+    },
+    {
+      "alpha_hierarchy": 0.25,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7213432294076852
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.702908021921884
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7034419555154139
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7029103826358335
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7007171389098588
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6989880390621982
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6969458325716417
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6910965045397364
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7138381094662762
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7143720430598062
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7138404701802259
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.711647226454251
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7099181266065905
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7078759201160338
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7020265920841285
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7250998241808412
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7256337577743712
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7251021848947907
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.722908941168816
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7211798413211552
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7191376348305988
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7132883067986935
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7275969469898862
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7281308805834161
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7275993077038357
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.725406063977861
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7236769641302003
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7216347576396439
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7157854296077385
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7346545573955704
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7351884909891003
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7346569181095197
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7324636743835452
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7307345745358844
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.728692368045328
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7228430400134226
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7399293436410174
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7404632772345472
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7399317043549668
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7377384606289922
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7360093607813315
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7339671542907749
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7281178262588697
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7323295979561095
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7328635315496395
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7323319586700591
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7301387149440843
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7284096150964237
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.7263674086058671
+    },
+    {
+      "alpha_hierarchy": 0.5,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7205180805739617
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7028851966356666
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7039597067759521
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7030721485787907
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7006850273957731
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6990668259609496
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6968903098083311
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6911561913790398
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7131934594527635
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7142679695930488
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7133804113958875
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7109932902128699
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7093750887780464
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7071985726254278
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7014644541961365
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7248947571173272
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7259692672576127
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7250817090604514
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7226945878774338
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7210763864426103
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7188998702899916
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7131657518607003
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.727713432068654
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7287879422089396
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7279003840117781
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7255132628287605
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.723895061393937
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7217185452413186
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7159844268120271
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7344777830393624
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7355522931796479
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7346647349824865
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7322776137994689
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7306594123646454
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7284828962120269
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7227487777827355
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7383945766480307
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7394690867883161
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7385815285911548
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7361944074081371
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7345762059733136
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7323996898206951
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7266655713914039
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7321301564954629
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7332046666357482
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.732317108438587
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7299299872555693
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7283117858207457
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.7261352696681272
+    },
+    {
+      "alpha_hierarchy": 0.75,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7204011512388359
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7032696486777323
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7043939481557315
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7040329119711124
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7013077719004677
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6996968648892982
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6974484155372148
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6918316752296999
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7132132164852727
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7143375159632719
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7139764797786528
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.711251339708008
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7096404326968386
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7073919833447552
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7017752430372404
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7252222118379583
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7263465113159575
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7259854751313382
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7232603350606936
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7216494280495241
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7194009786974408
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7137842383899259
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7285379279356619
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7296622274136612
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7293011912290419
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7265760511583973
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7249651441472278
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7227166947951444
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7170999544876295
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7341262203270669
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7352505198050661
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7348894836204469
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7321643435498022
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7305534365386328
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7283049871865495
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7226882468790347
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7387644708659193
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7398887703439183
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7395277341592993
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7368025940886547
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7351916870774852
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7329432377254017
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7273264974178869
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7312837691204743
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7324080685984735
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7320470324138544
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7293218923432098
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7277109853320403
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.7254625359799569
+    },
+    {
+      "alpha_hierarchy": 1.0,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7198457956724422
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-0-warm-checkpoint.txt": "ac5a42265d4ffd47ab52bbb41faf2b22afcbef36f5000b30b002dbef86abb2f1",
+    "D12_I5_N-0-warm.txt": "ac5a42265d4ffd47ab52bbb41faf2b22afcbef36f5000b30b002dbef86abb2f1",
+    "D12_I5_N-1-warm-checkpoint.txt": "354a7ab18d40d8236e87ea82716948ef4dadff5dac1f3b2f0f12e6fd14ad59a6",
+    "D12_I5_N-1-warm.txt": "354a7ab18d40d8236e87ea82716948ef4dadff5dac1f3b2f0f12e6fd14ad59a6",
+    "D12_I5_S-0-warm-checkpoint.txt": "4a9900015f17e5d61b403686dae7471ecd11ca808df144c1590f8de96e60ff16",
+    "D12_I5_S-0-warm.txt": "4a9900015f17e5d61b403686dae7471ecd11ca808df144c1590f8de96e60ff16",
+    "D12_I5_S-1-warm-checkpoint.txt": "56ae21af8eee71b5533e1b1d3af65838580aa92a5d52e0077ae6c4d6b33fba58",
+    "D12_I5_S-1-warm.txt": "56ae21af8eee71b5533e1b1d3af65838580aa92a5d52e0077ae6c4d6b33fba58",
+    "D7_I10_E-0-warm-checkpoint.txt": "109841403e5aac38aabe4f4388d3359d937a84800af77a7264cf981aa98188fa",
+    "D7_I10_E-0-warm.txt": "109841403e5aac38aabe4f4388d3359d937a84800af77a7264cf981aa98188fa",
+    "D7_I10_E-1-warm-checkpoint.txt": "d1902efec23e05654ebc01cdd2921e69ee21090b62d9cf1b5d46534cd2943d96",
+    "D7_I10_E-1-warm.txt": "d1902efec23e05654ebc01cdd2921e69ee21090b62d9cf1b5d46534cd2943d96",
+    "D7_I10_W-0-warm-checkpoint.txt": "a48a55189189c2199c20c09a4a9cbc9e9094b23d66afc2fc1d67d784514244e5",
+    "D7_I10_W-0-warm.txt": "a48a55189189c2199c20c09a4a9cbc9e9094b23d66afc2fc1d67d784514244e5",
+    "D7_I10_W-1-warm-checkpoint.txt": "1d80e83754bccdc5f44e1d1caaa211cd7f874893ad89ab9c086b15690fa334fe",
+    "D7_I10_W-1-warm.txt": "1d80e83754bccdc5f44e1d1caaa211cd7f874893ad89ab9c086b15690fa334fe",
+    "D7_I210_E-0-warm-checkpoint.txt": "ac537608f4f5a74f00c110c82d88951999a222c32c1c711fcd012fb880de4b74",
+    "D7_I210_E-0-warm.txt": "ac537608f4f5a74f00c110c82d88951999a222c32c1c711fcd012fb880de4b74",
+    "D7_I210_E-1-warm-checkpoint.txt": "e0f7c4b11e153f97398d722401a4cc23fd384f8770df45515c9c2491f9c17862",
+    "D7_I210_E-1-warm.txt": "e0f7c4b11e153f97398d722401a4cc23fd384f8770df45515c9c2491f9c17862",
+    "D7_I210_W-0-warm-checkpoint.txt": "8dc10cafbc178543313e5aa10207fc2086d3e482c0a1487cc37b7bdc9d1e52e9",
+    "D7_I210_W-0-warm.txt": "8dc10cafbc178543313e5aa10207fc2086d3e482c0a1487cc37b7bdc9d1e52e9",
+    "D7_I210_W-1-warm-checkpoint.txt": "ec56aa40af6f2cf33361129b85d66418d0dd9854259cabeca6c5d1c3f160efdf",
+    "D7_I210_W-1-warm.txt": "ec56aa40af6f2cf33361129b85d66418d0dd9854259cabeca6c5d1c3f160efdf",
+    "D7_I405_N-0-warm-checkpoint.txt": "5b42735fadd2476bf106e2e216168d0b547297e1a16fbaaba11f1c004e7771f4",
+    "D7_I405_N-0-warm.txt": "5b42735fadd2476bf106e2e216168d0b547297e1a16fbaaba11f1c004e7771f4",
+    "D7_I405_N-1-warm-checkpoint.txt": "c6e046e946b10851fa2cadb0a016f875647e0e35e823548c8ff78448e8502a14",
+    "D7_I405_N-1-warm.txt": "c6e046e946b10851fa2cadb0a016f875647e0e35e823548c8ff78448e8502a14",
+    "D7_I405_S-0-warm-checkpoint.txt": "da374ccf1a31484a087a6103d34d7fd79c26fd8127d34afd012dc6eb7779b52c",
+    "D7_I405_S-0-warm.txt": "da374ccf1a31484a087a6103d34d7fd79c26fd8127d34afd012dc6eb7779b52c",
+    "D7_I405_S-1-warm-checkpoint.txt": "2ce9806ad1f285a4e100e018e37d3ed05afe7b6edaa3f75347cee0da76381876",
+    "D7_I405_S-1-warm.txt": "2ce9806ad1f285a4e100e018e37d3ed05afe7b6edaa3f75347cee0da76381876",
+    "parent-0-checkpoint.txt": "1f977c0df5612ee2e9da4d4c87f802e8785af2b80471528c6a49ab6d68fa877c",
+    "parent-0.txt": "1f977c0df5612ee2e9da4d4c87f802e8785af2b80471528c6a49ab6d68fa877c",
+    "parent-1-checkpoint.txt": "55f0ee0edca6f53bcec4970a25e0a328667a653a8b1c3addb6dce257474f0947",
+    "parent-1.txt": "55f0ee0edca6f53bcec4970a25e0a328667a653a8b1c3addb6dce257474f0947"
+  },
+  "route_sha256": "a94d7c71133dff370c347903a08fe272cf4cad4961f96bdad465462495ebb264",
+  "baseline_frozen_sha256": "ee0754e3ec6d1ea4f935fff9955cb6eaf001182cc5f159e71ca0713a4dc6aeda",
+  "february": "reused report only",
+  "Task1_frozen": true
+}

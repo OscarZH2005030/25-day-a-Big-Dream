@@ -1,0 +1,3557 @@
+{
+  "selected": {
+    "head": "baseline",
+    "alpha_neural": 0.0,
+    "thresholds": [
+      0.35,
+      0.1
+    ],
+    "proxy": 0.737192574899633
+  },
+  "candidates": [
+    {
+      "head": "baseline",
+      "alpha_neural": 0.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.737192574899633
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.6365243766469758
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.638876771972241
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.6398324190250739
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.6441050853669588
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.6404657889810144
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6370228325114644
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.6335937060223309
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.6959405859766971
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6982929813019623
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.6992486283547952
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.70352129469668
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.6998819983107357
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6964390418411857
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.6930099153520523
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.7209585561483003
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.7233109514735655
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.7242665985263985
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.7285392648682831
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.724899968482339
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.7214570120127889
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.7180278855236554
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.72091443394356
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.7232668292688254
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.7242224763216583
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.7284951426635429
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.7248558462775987
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.7214128898080486
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.7179837633189152
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.710963255451434
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7133156507766992
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7142712978295322
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.718543964171417
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.7149046677854727
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7114617113159226
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.7080325848267892
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.6861554106244837
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.688507805949749
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.6894634530025818
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.6937361193444667
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.6900968229585224
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.6866538664889724
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.6832247399998388
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.6451466001487816
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.6474989954740468
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.6484546425268797
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.6527273088687645
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.6490880124828201
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.6456450560132702
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.6422159295241368
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.5985520084789268
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.5988841516469323
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.6004575602153392
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.6024651635027054
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.6029372319830274
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6056749913779131
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.6015605247878104
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.6384479758032247
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6387801189712302
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.6403535275396371
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.6423611308270033
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.6428331993073253
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6455709587022112
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.6414564921121083
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.6643612373135019
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.6646933804815075
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.6662667890499145
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.6682743923372807
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.6687464608176027
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.6714842202124884
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.6673697536223857
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.6789606204822047
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.6792927636502102
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.6808661722186171
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.6828737755059834
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.6833458439863054
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.6860836033811912
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.6819691367910883
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.6719982707456991
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.6723304139137045
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.6739038224821114
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.6759114257694776
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.6763834942497996
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.6791212536446853
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.6750067870545826
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.638855328603086
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.6391874717710916
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.6407608803394985
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.6427684836268648
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.6432405521071868
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.6459783115020725
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.6418638449119698
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.601140226666092
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.6014723698340975
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.6030457784025045
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.6050533816898707
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.6055254501701928
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.6082632095650784
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.6041487429749757
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.5726643895392289
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.5770624378909939
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.5764941558079844
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.5773897806618611
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.5789620799738164
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.5808370207723421
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.5822407685625218
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.6003548480636473
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6047528964154121
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.6041846143324027
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.6050802391862793
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.6066525384982348
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6085274792967605
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.6099312270869401
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.6076764821567054
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.6120745305084704
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.6115062484254609
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.6124018732793375
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.613974172591293
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.6158491133898187
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.6172528611799983
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.6031639634822383
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.6075620118340032
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.6069937297509937
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.6078893546048703
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.6094616539168258
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.6113365947153515
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.6127403425055311
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.5952861809510739
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.5996842293028387
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.5991159472198292
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.6000115720737059
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.6015838713856614
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.603458812184187
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.6048625599743668
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.5880298599069456
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.5924279082587104
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.591859626175701
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.5927552510295776
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.5943275503415331
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.5962024911400587
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.5976062389302385
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.5745403461236461
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.5789383944754111
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.5783701123924015
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.5792657372462782
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.5808380365582337
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.5827129773567594
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.584116725146939
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.5405709930238787
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.545929096315485
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.5489280958818783
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.5499233396140771
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.5512994587812594
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.5525998999117763
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.5537469930546582
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.5577141288664835
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.5630722321580898
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.566071231724483
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.567066475456682
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.5684425946238642
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.569743035754381
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.570890128897263
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.5632788051401746
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.5686369084317808
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.5716359079981742
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.572631151730373
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.5740072708975553
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.5753077120280722
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.5764548051709542
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.5630879316716446
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.5684460349632511
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.5714450345296442
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.5724402782618432
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.5738163974290253
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.5751168385595422
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.5762639317024243
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.5578784407998179
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.5632365440914242
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.5662355436578176
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.5672307873900163
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.5686069065571986
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.5699073476877154
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.5710544408305974
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.5524599603607246
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.557818063652331
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.5608170632187243
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.5618123069509231
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.5631884261181053
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.5644888672486222
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.5656359603915042
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.5432743551177605
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.5486324584093668
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.5516314579757602
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.5526267017079589
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.5540028208751412
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.555303262005658
+    },
+    {
+      "head": "independent",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.55645035514854
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.6279519232726192
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6305096950449083
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.632197403995961
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.6361770507538805
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.6323562795361815
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6293138474643498
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.625295542866659
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.6963138410566281
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6988716128289173
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7005593217799699
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.7045389685378893
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.7007181973201904
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6976757652483587
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.6936574606506678
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.7232600813202261
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.7258178530925155
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.7275055620435682
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.7314852088014876
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.7276644375837886
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.724622005511957
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.7206037009142661
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.720415504681206
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.7229732764534952
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.7246609854045478
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.7286406321624674
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.7248198609447685
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.7217774288729368
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.7177591242752459
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.708779305700626
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7113370774729152
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.7130247864239678
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.7170044331818873
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.7131836619641884
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.7101412298923566
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.7061229252946658
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.6877833961413397
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.6903411679136289
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.6920288768646815
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.696008523622601
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.692187752404902
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.6891453203330703
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.6851270157353795
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.6500951161208368
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.652652887893126
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.6543405968441787
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.6583202436020981
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.6544994723843992
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.6514570403125675
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.25,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.6474387357148768
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.579738991366732
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.5831743020862317
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.5853461302204332
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.5900183645216774
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.5904908520294473
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.5928725466362983
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.5891368873676331
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.6251258853761074
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6285611960956069
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.6307330242298086
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.6354052585310527
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.6358777460388226
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6382594406456736
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.6345237813770084
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.6567220665230793
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.6601573772425788
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.6623292053767805
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.6670014396780248
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.6674739271857946
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.6698556217926457
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.6661199625239804
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.6779117570043848
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.6813470677238843
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.683518895858086
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.6881911301593302
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.6886636176671
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.691045312273951
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.6873096530052858
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.6768433383524771
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.6802786490719767
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.6824504772061784
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.6871227115074225
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.6875951990151924
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.6899768936220434
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.6862412343533781
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.6382922344096422
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.6417275451291419
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.6438993732633435
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.6485716075645876
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.6490440950723575
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.6514257896792086
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.6476901304105434
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.6001243320212233
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.6035596427407228
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.6057314708749244
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.6104037051761687
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.6108761926839384
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.6132578872907896
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.5,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.6095222280221243
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.55479010453568
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.5582364430970317
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.5610421686932221
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.5638601736635884
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.566275371546607
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.5683841750321345
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.5693378006746356
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.5885101854349947
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.5919565239963462
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.5947622495925367
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.5975802545629031
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.5999954524459217
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6021042559314491
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.6030578815739502
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.6032580512455509
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.6067043898069024
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.6095101154030929
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.6123281203734594
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.6147433182564779
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.6168521217420054
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.6178057473845064
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.606232587157207
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.6096789257185586
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.612484651314749
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.6153026562851154
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.617717854168134
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.6198266576536615
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.6207802832961625
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.6006645256305347
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.6041108641918863
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.6069165897880767
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.6097345947584432
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.6121497926414617
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.6142585961269892
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.6152122217694902
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.5886375715675765
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.592083910128928
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.5948896357251184
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.5977076406954849
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.6001228385785033
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.6022316420640309
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.6031852677065319
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.5732823812120175
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.5767287197733691
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.5795344453695594
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.582352450339926
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.5847676482229445
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.586876451708472
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 0.75,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.587830077350973
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.5278854825201222
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.5350573932942584
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.536347838487842
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.3
+      ],
+      "proxy": 0.5413941872606768
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.4
+      ],
+      "proxy": 0.5428684314200062
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.5457846836781969
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.1,
+        0.6
+      ],
+      "proxy": 0.5464561919135299
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.5508133518636149
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.557985262637751
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.5592757078313344
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.3
+      ],
+      "proxy": 0.5643220566041693
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.4
+      ],
+      "proxy": 0.5657963007634987
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.5687125530216894
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.2,
+        0.6
+      ],
+      "proxy": 0.5693840612570225
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.1
+      ],
+      "proxy": 0.5589084698803521
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.5660803806544883
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.2
+      ],
+      "proxy": 0.5673708258480717
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "proxy": 0.5724171746209066
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.4
+      ],
+      "proxy": 0.573891418780236
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.5768076710384267
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.3,
+        0.6
+      ],
+      "proxy": 0.5774791792737598
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.1
+      ],
+      "proxy": 0.5596531767018996
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.5668250874760358
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.2
+      ],
+      "proxy": 0.5681155326696193
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.3
+      ],
+      "proxy": 0.5731618814424542
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.4
+      ],
+      "proxy": 0.5746361256017836
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.5775523778599743
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.4,
+        0.6
+      ],
+      "proxy": 0.5782238860953073
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.5566970014297391
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.563868912203875
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.2
+      ],
+      "proxy": 0.5651593573974587
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.3
+      ],
+      "proxy": 0.5702057061702935
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.4
+      ],
+      "proxy": 0.5716799503296228
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.5745962025878135
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.5,
+        0.6
+      ],
+      "proxy": 0.5752677108231468
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.1
+      ],
+      "proxy": 0.5485251302251762
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.15
+      ],
+      "proxy": 0.5556970409993123
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.2
+      ],
+      "proxy": 0.5569874861928958
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.3
+      ],
+      "proxy": 0.5620338349657308
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.4
+      ],
+      "proxy": 0.5635080791250601
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.5
+      ],
+      "proxy": 0.5664243313832508
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.6,
+        0.6
+      ],
+      "proxy": 0.5670958396185839
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.1
+      ],
+      "proxy": 0.5371315296763646
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.15
+      ],
+      "proxy": 0.5443034404505007
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.2
+      ],
+      "proxy": 0.5455938856440842
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.3
+      ],
+      "proxy": 0.5506402344169191
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.4
+      ],
+      "proxy": 0.5521144785762484
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.5
+      ],
+      "proxy": 0.5550307308344391
+    },
+    {
+      "head": "pattern",
+      "alpha_neural": 1.0,
+      "thresholds": [
+        0.7,
+        0.6
+      ],
+      "proxy": 0.5557022390697722
+    }
+  ],
+  "hashes": {
+    "best-independent.pt": "ef1f6b358242e0dd10818d722550e30c308aa200d9bc17f50ec0809b52f79b16",
+    "best-pattern.pt": "71757cc6c6dee8af1956a156a3e9f325da7053adafb240b8389ef5985c7df5c1"
+  },
+  "baseline_frozen_sha256": "4629a7982b0a6ef9b23f8c5e4007aa2022d59a604c34ae95c42b526f20ed4b25",
+  "february": "reused report only",
+  "Task1_frozen": true
+}

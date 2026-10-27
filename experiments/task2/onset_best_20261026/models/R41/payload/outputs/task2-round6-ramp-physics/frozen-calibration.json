@@ -1,0 +1,2051 @@
+{
+  "selected": {
+    "alpha_ramp": 1.0,
+    "thresholds": [
+      0.35,
+      0.1
+    ],
+    "proxy": 0.737192574899633
+  },
+  "candidates": [
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7258871430742784
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6925914641335071
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6933373477093177
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6926654628027028
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.69019544065637
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6880760412643803
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6859285780737829
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.680777152626602
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7053695721954891
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7061154557712994
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7054435708646847
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7029735487183519
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7008541493263623
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6987066861357648
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6935552606885839
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7121089112149592
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7128547947907696
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.712182909884155
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7097128877378222
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7075934883458326
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.705446025155235
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7002945997080542
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7202760683934247
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7210219519692351
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7203500670626205
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7178800449162875
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.715760645524298
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7136131823337004
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7084617568865196
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7234283233407585
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7241742069165689
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7235023220099542
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7210322998636214
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7189129004716317
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7167654372810343
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7116140118338534
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7251412594984681
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7258871430742784
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7252152581676637
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7227452360213309
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7206258366293412
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7184783734387438
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7133269479915629
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7195638527463389
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7203097363221493
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7196378514155347
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7171678292692019
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7150484298772122
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7129009666866147
+    },
+    {
+      "alpha_ramp": 0.0,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7077495412394339
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6946138695110742
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6951510994140848
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6951822655435953
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6923580963989889
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6902256413317167
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6880235585733445
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.682517447293803
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7068075007532509
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7073447306562616
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7073758967857722
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7045517276411657
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7024192725738936
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.7002171898155213
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6947110785359798
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.714022672843754
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7145599027467646
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.714591068876275
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7117668997316686
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7096344446643964
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7074323619060243
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7019262506264827
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7237524825467552
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7242897124497658
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7243208785792763
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7214967094346699
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7193642543673977
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7171621716090256
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.711656060329484
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7282709546224146
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7288081845254253
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7288393506549355
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7260151815103293
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7238827264430571
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.721680643684685
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7161745324051434
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7308392601637753
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.731376490066786
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7314076561962963
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7285834870516901
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7264510319844177
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7242489492260455
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.718742837946504
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.726676572365238
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7272138022682486
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7272449683977591
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7244207992531527
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7222883441858805
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7200862614275083
+    },
+    {
+      "alpha_ramp": 0.25,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7145801501479667
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6951335332818332
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.696332084258305
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6957150068954968
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6933608205058511
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6910387963470557
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6894234883002446
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6831646576380441
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7074426655980576
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7086412165745292
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.708024139211721
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7056699528220755
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7033479286632799
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.7017326206164689
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6954737899542685
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7152656515329108
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7164642025093824
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7158471251465742
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7134929387569285
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.711170914598133
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.709555606551322
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7032967758891217
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7252650554617857
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7264636064382572
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7258465290754491
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7234923426858035
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.721170318527008
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7195550104801969
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7132961798179964
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7300137883382987
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7312123393147703
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7305952619519621
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7282410755623164
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7259190514035209
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7243037433567099
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7180449126945094
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7320931580576524
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.733291709034124
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7326746316713159
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7303204452816701
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7279984211228747
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7263831130760637
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7201242824138632
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7321999988225438
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7333985497990156
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7327814724362074
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7304272860465617
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7281052618877661
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7264899538409553
+    },
+    {
+      "alpha_ramp": 0.5,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7202311231787547
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6959071667766425
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.696975444275531
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6966593969101864
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6942619286688647
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6923041632991345
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6902297569099116
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6842560206878883
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7088409370004601
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7099092144993486
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7095931671340039
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7071956988926824
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7052379335229519
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.7031635271337292
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6971897909117057
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.71542005782167
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7164883353205584
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7161722879552138
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7137748197138922
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7118170543441618
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.709742647954939
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7037689117329156
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7246134557596048
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7256817332584933
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7253656858931485
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7229682176518271
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7210104522820966
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7189360458928737
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7129623096708503
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7309343336141975
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7320026111130858
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7316865637477412
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7292890955064197
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7273313301366893
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7252569237474664
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7192831875254431
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7334507774072228
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7345190549061111
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7342030075407666
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.731805539299445
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7298477739297144
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7277733675404917
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7217996313184684
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7346908524820979
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7357591299809864
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7354430826156417
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.73304561437432
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7310878490045896
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7290134426153668
+    },
+    {
+      "alpha_ramp": 0.75,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7230397063933434
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6979710551039693
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6984949963375273
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6984144942818437
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6960852568167203
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6943225943844707
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6921667782846931
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6864654601757114
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7094353498668716
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7099592911004295
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7098787890447458
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7075495515796225
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7057868891473731
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.7036310730475954
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6979297549386136
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7150718300769098
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7155957713104679
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7155152692547839
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7131860317896607
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7114233693574111
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7092675532576336
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7035662351486518
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7244589096463184
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7249828508798766
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7249023488241926
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7225731113590693
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7208104489268199
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7186546328270422
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7129533147180607
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7319124213558289
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7324363625893868
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.732355860533703
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7300266230685798
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7282639606363303
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7261081445365526
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7204068264275709
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7342981635953247
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7348221048288829
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.734741602773199
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7324123653080757
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7306497028758262
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7284938867760486
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.722792568667067
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.736668633666075
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.737192574899633
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7371120728439492
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.734782835378826
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7330201729465764
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7308643568467987
+    },
+    {
+      "alpha_ramp": 1.0,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7251630387378171
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-0-physics-checkpoint.txt": "73d900cfd95587d040ea95e20305102b981358425ba40cacf5def95521a9c1d2",
+    "D12_I5_N-0-physics.txt": "73d900cfd95587d040ea95e20305102b981358425ba40cacf5def95521a9c1d2",
+    "D12_I5_N-0-ramp-checkpoint.txt": "ea5da0eae78f9eee4a1860b4c74f22bc099e254427bbf7c800d9dfa6f33fce41",
+    "D12_I5_N-0-ramp.txt": "ea5da0eae78f9eee4a1860b4c74f22bc099e254427bbf7c800d9dfa6f33fce41",
+    "D12_I5_N-1-physics-checkpoint.txt": "c36c540678839ad2c5dbb8f9b948dd35afd0798d188aad87131f15b189e06b3a",
+    "D12_I5_N-1-physics.txt": "c36c540678839ad2c5dbb8f9b948dd35afd0798d188aad87131f15b189e06b3a",
+    "D12_I5_N-1-ramp-checkpoint.txt": "32986441fd7796752a786018155188308f13cfbc6e0446dab2022645be48b2ee",
+    "D12_I5_N-1-ramp.txt": "32986441fd7796752a786018155188308f13cfbc6e0446dab2022645be48b2ee",
+    "D12_I5_S-0-physics-checkpoint.txt": "a20640d9a09590172e853dd094e4f3fd82bc392bb1e48b35352356777c1de976",
+    "D12_I5_S-0-physics.txt": "a20640d9a09590172e853dd094e4f3fd82bc392bb1e48b35352356777c1de976",
+    "D12_I5_S-0-ramp-checkpoint.txt": "e6b81fad43a4846cdf46779f4337051eaedd9bc77c60d33a9248ede25f4620d4",
+    "D12_I5_S-0-ramp.txt": "e6b81fad43a4846cdf46779f4337051eaedd9bc77c60d33a9248ede25f4620d4",
+    "D12_I5_S-1-physics-checkpoint.txt": "1d26cc5596601c81dd460888c165f02536dcefabea4a7c850fd9372b31edbb5d",
+    "D12_I5_S-1-physics.txt": "1d26cc5596601c81dd460888c165f02536dcefabea4a7c850fd9372b31edbb5d",
+    "D12_I5_S-1-ramp-checkpoint.txt": "42ca4dd97b5690fdf1b0f6801bfc9321b7bb5fca6d1f885aaae895042fadc01a",
+    "D12_I5_S-1-ramp.txt": "42ca4dd97b5690fdf1b0f6801bfc9321b7bb5fca6d1f885aaae895042fadc01a",
+    "D7_I10_E-0-physics-checkpoint.txt": "5e0f0e5b3d252f949186983a727f74dfee7931232933c57f5c71076bac05e617",
+    "D7_I10_E-0-physics.txt": "5e0f0e5b3d252f949186983a727f74dfee7931232933c57f5c71076bac05e617",
+    "D7_I10_E-0-ramp-checkpoint.txt": "1c39c09f9617a808c23fb150860554955e256ce54cee5c834fcb2f3fe561f763",
+    "D7_I10_E-0-ramp.txt": "1c39c09f9617a808c23fb150860554955e256ce54cee5c834fcb2f3fe561f763",
+    "D7_I10_E-1-physics-checkpoint.txt": "27fcc87854d21b18d33e85d0c3b38e9d409fa2bc0e76dfc63f2925912a42fd3f",
+    "D7_I10_E-1-physics.txt": "27fcc87854d21b18d33e85d0c3b38e9d409fa2bc0e76dfc63f2925912a42fd3f",
+    "D7_I10_E-1-ramp-checkpoint.txt": "5f597696d349ba6698686f406dff9a9733643e9db8f68bb8bd4d6a765c89cb8b",
+    "D7_I10_E-1-ramp.txt": "5f597696d349ba6698686f406dff9a9733643e9db8f68bb8bd4d6a765c89cb8b",
+    "D7_I10_W-0-physics-checkpoint.txt": "d767cda91a1f37c4505c11386b0c91509ac1e953862f23b4db783d7542e849bb",
+    "D7_I10_W-0-physics.txt": "d767cda91a1f37c4505c11386b0c91509ac1e953862f23b4db783d7542e849bb",
+    "D7_I10_W-0-ramp-checkpoint.txt": "18e48966667042db3b3ae6761304c214ec23987bca1e41061cbe228e9d9fdd75",
+    "D7_I10_W-0-ramp.txt": "18e48966667042db3b3ae6761304c214ec23987bca1e41061cbe228e9d9fdd75",
+    "D7_I10_W-1-physics-checkpoint.txt": "78a3e7f90801176f9d6186350786e516cdc5f30459af6cbf72be4bced91e987f",
+    "D7_I10_W-1-physics.txt": "78a3e7f90801176f9d6186350786e516cdc5f30459af6cbf72be4bced91e987f",
+    "D7_I10_W-1-ramp-checkpoint.txt": "02b65cda38fa9d0962582e10aab3f2ad31ce4604f5eceff3977fd0db220025dc",
+    "D7_I10_W-1-ramp.txt": "02b65cda38fa9d0962582e10aab3f2ad31ce4604f5eceff3977fd0db220025dc",
+    "D7_I210_E-0-physics-checkpoint.txt": "f5c91cb8549fd0c54bc1a55f7d3f057eed86a7eadb6f967f7f73f74eb260e7f9",
+    "D7_I210_E-0-physics.txt": "f5c91cb8549fd0c54bc1a55f7d3f057eed86a7eadb6f967f7f73f74eb260e7f9",
+    "D7_I210_E-0-ramp-checkpoint.txt": "23dab81fab1f2d0d5b7b05d0867ba37fdc6ba2f0b27cc0934162bdaad11e34f2",
+    "D7_I210_E-0-ramp.txt": "23dab81fab1f2d0d5b7b05d0867ba37fdc6ba2f0b27cc0934162bdaad11e34f2",
+    "D7_I210_E-1-physics-checkpoint.txt": "43a96028bb9a6f681d7ac50170cc36db13fd58980b5f7ecc7d3d5e9d42f9b4d9",
+    "D7_I210_E-1-physics.txt": "43a96028bb9a6f681d7ac50170cc36db13fd58980b5f7ecc7d3d5e9d42f9b4d9",
+    "D7_I210_E-1-ramp-checkpoint.txt": "5975f1f9aced6972800bee97b7de560a7d00fa67a735d4da5ec4a55e8c5ddf25",
+    "D7_I210_E-1-ramp.txt": "5975f1f9aced6972800bee97b7de560a7d00fa67a735d4da5ec4a55e8c5ddf25",
+    "D7_I210_W-0-physics-checkpoint.txt": "c97ce3f5ed667d74adb0d051dbf36a211edcc120883174bf1de78783d4a51605",
+    "D7_I210_W-0-physics.txt": "c97ce3f5ed667d74adb0d051dbf36a211edcc120883174bf1de78783d4a51605",
+    "D7_I210_W-0-ramp-checkpoint.txt": "edd1162b91082300eb40346e8115a5a1cc1538b8bc7f1a75aa97389f980a6761",
+    "D7_I210_W-0-ramp.txt": "edd1162b91082300eb40346e8115a5a1cc1538b8bc7f1a75aa97389f980a6761",
+    "D7_I210_W-1-physics-checkpoint.txt": "cbc708618febf67e1bad70a30bbebeeebf4b71b45de810179065f672f731213f",
+    "D7_I210_W-1-physics.txt": "cbc708618febf67e1bad70a30bbebeeebf4b71b45de810179065f672f731213f",
+    "D7_I210_W-1-ramp-checkpoint.txt": "e10d6b7ef94e64be7327689225efc014e9a6f1a5556b1024933f55280e2fc499",
+    "D7_I210_W-1-ramp.txt": "e10d6b7ef94e64be7327689225efc014e9a6f1a5556b1024933f55280e2fc499",
+    "D7_I405_N-0-physics-checkpoint.txt": "7b4912905371efb837c179142b82cec4d5ec46e998e263df7fa7d4c6ec40e661",
+    "D7_I405_N-0-physics.txt": "7b4912905371efb837c179142b82cec4d5ec46e998e263df7fa7d4c6ec40e661",
+    "D7_I405_N-0-ramp-checkpoint.txt": "b5034fc06153f53f4dc993cf04db386b90cc5ab29dd802d94faa214c6e017a0a",
+    "D7_I405_N-0-ramp.txt": "b5034fc06153f53f4dc993cf04db386b90cc5ab29dd802d94faa214c6e017a0a",
+    "D7_I405_N-1-physics-checkpoint.txt": "1b549214bf45968acf407722ba651eafb1737d320b55388ff2f7ee56f25d0a01",
+    "D7_I405_N-1-physics.txt": "1b549214bf45968acf407722ba651eafb1737d320b55388ff2f7ee56f25d0a01",
+    "D7_I405_N-1-ramp-checkpoint.txt": "665b6e710ad373907362bd0dfc5c31ce1772286710c55626abe348e453d062e3",
+    "D7_I405_N-1-ramp.txt": "665b6e710ad373907362bd0dfc5c31ce1772286710c55626abe348e453d062e3",
+    "D7_I405_S-0-physics-checkpoint.txt": "c9d4dfaecafabc2cb03e9bc78b71658fdacf9ee8fa57e6bee79f06e4543b67e5",
+    "D7_I405_S-0-physics.txt": "c9d4dfaecafabc2cb03e9bc78b71658fdacf9ee8fa57e6bee79f06e4543b67e5",
+    "D7_I405_S-0-ramp-checkpoint.txt": "7f04cd5051f01e40ec01658adb8207343c484b2cb73d0b41b108c52b7ed1dfde",
+    "D7_I405_S-0-ramp.txt": "7f04cd5051f01e40ec01658adb8207343c484b2cb73d0b41b108c52b7ed1dfde",
+    "D7_I405_S-1-physics-checkpoint.txt": "23f175d5f8f5ee94eb399b5aa4dcb55bd36782697b393b80f2287ffae69bde61",
+    "D7_I405_S-1-physics.txt": "23f175d5f8f5ee94eb399b5aa4dcb55bd36782697b393b80f2287ffae69bde61",
+    "D7_I405_S-1-ramp-checkpoint.txt": "2cb576e989a5126c92f49591dcf85a382353df6bd8ee8c9879dec2c2b53d3d3f",
+    "D7_I405_S-1-ramp.txt": "2cb576e989a5126c92f49591dcf85a382353df6bd8ee8c9879dec2c2b53d3d3f"
+  },
+  "route_sha256": "cc27125a9b36f020142f629ca6c670e3dd8321d28a4adcfa586e94f9f0758197",
+  "baseline_bundle": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round5-distribution",
+  "baseline_frozen_sha256": "eff314c746b0f6ab64177e3799d64e286d71065ae824e845fcf1ca78e5c5642a",
+  "february": "reused report only",
+  "Task1_frozen": true
+}

@@ -1,0 +1,77 @@
+{
+  "selected": {
+    "alpha_history": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.774232296823185
+  },
+  "candidates": [
+    {
+      "alpha_history": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7721358848238282
+    },
+    {
+      "alpha_history": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7738452958734481
+    },
+    {
+      "alpha_history": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.774232296823185
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-history-checkpoint.txt": "17270d5bf897ee962bc48475fae317a4933a53d012bb08727ea8d3e8d79b1a29",
+    "D12_I5_N-history.txt": "17270d5bf897ee962bc48475fae317a4933a53d012bb08727ea8d3e8d79b1a29",
+    "D12_I5_N-probe-checkpoint.txt": "1bb5b807ca6c8ac82a3af5fbee56c67f76772655d44011b008a16c36bd8c27bd",
+    "D12_I5_N-probe.txt": "1bb5b807ca6c8ac82a3af5fbee56c67f76772655d44011b008a16c36bd8c27bd",
+    "D12_I5_S-history-checkpoint.txt": "93c7467681d327c348952556f6efc5cc296eef294ea0686f8fdddb83f03c8e48",
+    "D12_I5_S-history.txt": "93c7467681d327c348952556f6efc5cc296eef294ea0686f8fdddb83f03c8e48",
+    "D12_I5_S-probe-checkpoint.txt": "14141a58d64fe7b4a5f1bb481599fd2ee3791fd053c57858514a7d43de85f652",
+    "D12_I5_S-probe.txt": "14141a58d64fe7b4a5f1bb481599fd2ee3791fd053c57858514a7d43de85f652",
+    "D7_I10_E-history-checkpoint.txt": "045674388c7aec7ffff42a0005fabf6d500f49a59827dd6bddefc4d9f98dbff7",
+    "D7_I10_E-history.txt": "045674388c7aec7ffff42a0005fabf6d500f49a59827dd6bddefc4d9f98dbff7",
+    "D7_I10_E-probe-checkpoint.txt": "d43fd2460f172285ff8360886493a7501c3078b6acd3078eadee8b160bb32522",
+    "D7_I10_E-probe.txt": "d43fd2460f172285ff8360886493a7501c3078b6acd3078eadee8b160bb32522",
+    "D7_I10_W-history-checkpoint.txt": "7ebb9bfe0f1e0e83ad84d4352d629755865cef836aa286b5ab2e68055f9f3773",
+    "D7_I10_W-history.txt": "7ebb9bfe0f1e0e83ad84d4352d629755865cef836aa286b5ab2e68055f9f3773",
+    "D7_I10_W-probe-checkpoint.txt": "d40787cfd53257b2deee88805b300c9fe93c843e90301fc044176209b44fe5ce",
+    "D7_I10_W-probe.txt": "d40787cfd53257b2deee88805b300c9fe93c843e90301fc044176209b44fe5ce",
+    "D7_I210_E-history-checkpoint.txt": "c62e665e3f72d2ac79663fff5aa118e740e9247717aea7bf07f66f2530bfc02a",
+    "D7_I210_E-history.txt": "c62e665e3f72d2ac79663fff5aa118e740e9247717aea7bf07f66f2530bfc02a",
+    "D7_I210_E-probe-checkpoint.txt": "eaa8558ea4238dba721ba9d4f34859d7e2b2f298529db7ff425e7c218cc33e7b",
+    "D7_I210_E-probe.txt": "eaa8558ea4238dba721ba9d4f34859d7e2b2f298529db7ff425e7c218cc33e7b",
+    "D7_I210_W-history-checkpoint.txt": "79d26f554e41209782005bf4571501780c400c04831c416617decd11d615b997",
+    "D7_I210_W-history.txt": "79d26f554e41209782005bf4571501780c400c04831c416617decd11d615b997",
+    "D7_I210_W-probe-checkpoint.txt": "5552165eee04fb8e7a590105b8b96f466a2b40cfd692597aed3c412a2762900b",
+    "D7_I210_W-probe.txt": "5552165eee04fb8e7a590105b8b96f466a2b40cfd692597aed3c412a2762900b",
+    "D7_I405_N-history-checkpoint.txt": "62521a5e1c256ead7a378588996b9fc1c2454bea809e624aeea66e859c3572d8",
+    "D7_I405_N-history.txt": "62521a5e1c256ead7a378588996b9fc1c2454bea809e624aeea66e859c3572d8",
+    "D7_I405_N-probe-checkpoint.txt": "5c68b9d402720b4db0330ac36775bee375c8ff001a8549fc48706d5170637763",
+    "D7_I405_N-probe.txt": "5c68b9d402720b4db0330ac36775bee375c8ff001a8549fc48706d5170637763",
+    "D7_I405_S-history-checkpoint.txt": "c68c33f20f202b0428a03a5bb82702f7c9716e8817eea20c63a02d883b42b8e7",
+    "D7_I405_S-history.txt": "c68c33f20f202b0428a03a5bb82702f7c9716e8817eea20c63a02d883b42b8e7",
+    "D7_I405_S-probe-checkpoint.txt": "e6e6d52cd0de2886a822e8faed6c7dc5ecf36b3e812d3072721e218b7f0e794d",
+    "D7_I405_S-probe.txt": "e6e6d52cd0de2886a822e8faed6c7dc5ecf36b3e812d3072721e218b7f0e794d"
+  },
+  "route_sha256": "83f42b6fb8895a64108493a5edc7795cb7d632e810f656662be5690768500f45",
+  "baseline_frozen_sha256": "79ab17bd4f3bc37d0be5e38099084d2e08724764e4b542a6cf81b6361c056317",
+  "repair_source_sha256": "076a95501ace3f0ba915d8233bb22cf10f29bd2cf6d9405ebe6097ce1ff5f816",
+  "onset_frozen": true,
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

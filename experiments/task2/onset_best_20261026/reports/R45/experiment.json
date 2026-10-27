@@ -1,0 +1,17 @@
+{
+  "prior_attempt": "R44 failed before fitting any model: NumPy Unicode maximum unsupported; original failure preserved; ISO dates now compared with Python max",
+  "hypothesis": "fixed equal-probability averaging across training-month prefixes may reduce conditional timing instability; nested prefixes are correlated and training volume also differs",
+  "data": "same verified R40 paired557 features/labels; source-local raw window/group mass reconstructed before date filtering, no future-prefix normalization or new input fields",
+  "early": "two new JuneJuly and JuneAugust200 heads plus exact reused JuneSeptember R40early200; all evaluated only OctoberNov",
+  "full": "only if gates pass: new JuneSeptember and JuneOctober600 plus reused JuneNovember R40full600; all pre-December; fixed lag0/1/2 months, no member selection or weight tuning",
+  "ensemble": "exact equal probability mean of all3 members; native multiclass6 and same31/.035/minleaf80/.85/L2=4/seed; current .5 mode gate unchanged",
+  "budget": "at most9600 NEW trees, CPU4serial; newest two heads are read-only copies, not newly trained",
+  "held": "original/paired OctNov populations separately; correlated observations not independent validation",
+  "classification_gate": "same R40 two-population LL/accuracy noninferiority-.02, at least one LL+.02 and accuracy+.03, n>=20/30",
+  "timing_gate": "median IoU gain .1/.2/.35>=.002 vs latest head and >=-.01 vs raw causal base, negative false-any+.03/eligibleFP+.005 vs both at .5",
+  "uncertainty": "prefix disagreement can describe model instability, not proof of irreducible uncertainty or calibrated confidence",
+  "deployment": "none here; any full ensemble must be compared to frozen R41 with Dec/Jan guards; no Feb selection",
+  "Task1": "92files immutable; .942828633 historical only",
+  "Ongoing": "unchanged",
+  "official_S_queue": null
+}

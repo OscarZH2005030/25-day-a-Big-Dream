@@ -1,0 +1,14 @@
+{
+  "hypothesis": "maximum class mass<.5 can mean uncertainty between adjacent5min bins rather than a diffuse30min start time; distinguish local ambiguity before extending timing corrections",
+  "source": "reuse successful native R40 JuneSep200 head, NOT the rejected R42 ordinal heads",
+  "scope": "OctNov original R10 and paired conditional targets only; no DecJanFeb raw data, no new fitting",
+  "definition": "new cases: maxclass<.5 AND model central80% probability-mass interval (CDF .1.. .9) width<=1 class; constants fixed once, no search; this is NOT a calibrated confidence interval",
+  "safety": "only new low-mode/narrow no-visible-queue links can change; existing high-mode policy and other links unchanged; all-six peaks preserved; Ongoing untouched",
+  "local_gate": "both original>=20 and paired>=30 new-case views; weighted conditional-event fraction>=.10, empirical interval coverage>=.70 and median-first MAE<=.75steps on both",
+  "timing_gate": "fixedalpha.5/1; median whole-window IoU gain at .1/.2/.35>=.002 vs existing high-mode early policy and>=-.01 vs raw causal base; false-any+.03/eligibleFP+.005 vs both at unchanged .5",
+  "limits": "conditional complete-positive subsets overlap; posterior mass has no guaranteed calibration; no model/policy replacement from this diagnostic",
+  "new_models": 0,
+  "CPU_threads": 4,
+  "Task1": "92files immutable; historical .942828633 not remeasured",
+  "official_S_queue": null
+}

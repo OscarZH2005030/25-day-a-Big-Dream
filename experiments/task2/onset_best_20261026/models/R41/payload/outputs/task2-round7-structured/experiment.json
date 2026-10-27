@@ -1,0 +1,13 @@
+{
+  "seed": 20261027,
+  "optimizer_updates": 8000,
+  "model": "shared local MLP128 x2 residual; road/condition embeddings; independent6 vs pattern64; future speed/flow residual + masked historical speed/flow reconstruction",
+  "mask_policy": "partial future-pattern likelihood; unknown bits marginalized, never zero-filled",
+  "fit_windows": "every second window per panel-condition from same 8192 pool",
+  "primary_loss": "class-balanced BCE + window soft IoU; pattern partial NLL; causal tree distillation; continuous state auxiliary losses",
+  "cpu_threads": 4,
+  "GPU_serial": true,
+  "cpu_temperature": null,
+  "Task1": "original 92-file package frozen; historical .942828633, not remeasured",
+  "official_S_queue": null
+}

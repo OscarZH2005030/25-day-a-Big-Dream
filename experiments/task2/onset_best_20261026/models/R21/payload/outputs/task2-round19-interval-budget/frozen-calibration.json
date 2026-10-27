@@ -1,0 +1,56 @@
+{
+  "selected": {
+    "alpha_interval": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.779781047801851
+  },
+  "candidates": [
+    {
+      "alpha_interval": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7751897171081733
+    },
+    {
+      "alpha_interval": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7768192108879666
+    },
+    {
+      "alpha_interval": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.779781047801851
+    }
+  ],
+  "hashes": {
+    "global-control-checkpoint.txt": "91cb119ce5ac57d025e743fc2d4f41b3b76e3db36a9ca304a3efa70632a97365",
+    "global-control-probe-checkpoint.txt": "a6dd3b664f8ff5ff32e9a8f0d951c6cb3ecda0fb8042ab9db7b422f4963a8bba",
+    "global-control-probe.txt": "f6c76e73cfddb01e056d5bda206efabf5fd51c9c2101055efa9fb610de79d7bd",
+    "global-control.txt": "83ca0ed13b450247881a66f516dc19737f78f1311199946426f686317f09f305",
+    "global-partial-checkpoint.txt": "301813ff384e0939ff297c4026a39b8abba6d87293cab69c14b09dec346a16f7",
+    "global-partial-probe-checkpoint.txt": "fb6b5e09d4ff7f15a3c895d9959890cd159d7e05c71eb0c4f0171b52cdce7ac0",
+    "global-partial-probe.txt": "fb6b5e09d4ff7f15a3c895d9959890cd159d7e05c71eb0c4f0171b52cdce7ac0",
+    "global-partial.txt": "301813ff384e0939ff297c4026a39b8abba6d87293cab69c14b09dec346a16f7"
+  },
+  "route_sha256": "2625039508c7b385317e9d77f86a0bb5fb2e306abaf9699e703c8c8064803058",
+  "baseline_frozen_sha256": "881e74886264a47f4f6c67991d6cec833896451ec353b563c972c9fb7d7cf5b6",
+  "interval_source_sha256": {
+    "interval_core.py": "460f679c5d503e53bd236940e9157fc7a72a25c5502bfdc6b09c1eb8d49c98f5",
+    "interval_data.py": "dd1a8b8a1c6f4722a6dae7740287b86418f43bfc321dc054be8df90fb77b3c27"
+  },
+  "ongoing_frozen": true,
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

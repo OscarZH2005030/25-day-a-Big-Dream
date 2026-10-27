@@ -1,0 +1,165 @@
+{
+  "selected": {
+    "alpha_seed": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7721358848238282
+  },
+  "candidates": [
+    {
+      "alpha_seed": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7712520059187148
+    },
+    {
+      "alpha_seed": 0.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7659030269299267
+    },
+    {
+      "alpha_seed": 0.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7697983184589892
+    },
+    {
+      "alpha_seed": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7712520059187148
+    },
+    {
+      "alpha_seed": 0.25,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.766022304559045
+    },
+    {
+      "alpha_seed": 0.25,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.770485852277707
+    },
+    {
+      "alpha_seed": 0.25,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.771333930241589
+    },
+    {
+      "alpha_seed": 0.5,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7658898967886875
+    },
+    {
+      "alpha_seed": 0.5,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7701124140733087
+    },
+    {
+      "alpha_seed": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7720161545118792
+    },
+    {
+      "alpha_seed": 1.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7643652994188098
+    },
+    {
+      "alpha_seed": 1.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7691033474377706
+    },
+    {
+      "alpha_seed": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7721358848238282
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-seed20261028-checkpoint.txt": "2d989b3acf1bee68d4357ec1303c5964c5393d55d64697c1ac479f853ec5d7e1",
+    "D12_I5_N-seed20261028.txt": "2d989b3acf1bee68d4357ec1303c5964c5393d55d64697c1ac479f853ec5d7e1",
+    "D12_I5_N-seed20261029-checkpoint.txt": "fbe9834dceb0e9ad64f29d76d845ddd075146be161b6e65f1603a5db12c07a80",
+    "D12_I5_N-seed20261029.txt": "fbe9834dceb0e9ad64f29d76d845ddd075146be161b6e65f1603a5db12c07a80",
+    "D12_I5_S-seed20261028-checkpoint.txt": "d371b11e5ecb8e002c1317ecb6d82a739b8679fc906c15a4df8c414e63517878",
+    "D12_I5_S-seed20261028.txt": "d371b11e5ecb8e002c1317ecb6d82a739b8679fc906c15a4df8c414e63517878",
+    "D12_I5_S-seed20261029-checkpoint.txt": "f99f034969a1eb470ae62d3593d368a902a3419d83ee1dc7dc19c01cb1cafd7a",
+    "D12_I5_S-seed20261029.txt": "f99f034969a1eb470ae62d3593d368a902a3419d83ee1dc7dc19c01cb1cafd7a",
+    "D7_I10_E-seed20261028-checkpoint.txt": "144cf67e5eb3032e5ab848d94f15165b4f779247a08b829f666fb9e9ce9c1b93",
+    "D7_I10_E-seed20261028.txt": "144cf67e5eb3032e5ab848d94f15165b4f779247a08b829f666fb9e9ce9c1b93",
+    "D7_I10_E-seed20261029-checkpoint.txt": "7193d23f4f406592c10ce888c5c12f0a313dc63f5ba1dea1047a899861cb3c80",
+    "D7_I10_E-seed20261029.txt": "7193d23f4f406592c10ce888c5c12f0a313dc63f5ba1dea1047a899861cb3c80",
+    "D7_I10_W-seed20261028-checkpoint.txt": "4628794b2154a319461d14ebf94fa70c9411931391c1eb4d54487875cf1eb440",
+    "D7_I10_W-seed20261028.txt": "4628794b2154a319461d14ebf94fa70c9411931391c1eb4d54487875cf1eb440",
+    "D7_I10_W-seed20261029-checkpoint.txt": "a05d1670d0a83ca380fa80cad7d0284669245b2d234f2a36f001e087ef0a6da8",
+    "D7_I10_W-seed20261029.txt": "a05d1670d0a83ca380fa80cad7d0284669245b2d234f2a36f001e087ef0a6da8",
+    "D7_I210_E-seed20261028-checkpoint.txt": "dfb5b6b122e3122d94fccea8b15ec93370dfb62c63c3a9cac18b41fab74f73ed",
+    "D7_I210_E-seed20261028.txt": "dfb5b6b122e3122d94fccea8b15ec93370dfb62c63c3a9cac18b41fab74f73ed",
+    "D7_I210_E-seed20261029-checkpoint.txt": "16af0b7093e7803ce97faa1da547c6d45a4bb56e31584b440288ae2560a81fc3",
+    "D7_I210_E-seed20261029.txt": "16af0b7093e7803ce97faa1da547c6d45a4bb56e31584b440288ae2560a81fc3",
+    "D7_I210_W-seed20261028-checkpoint.txt": "2a9e2c65be24866f0bff09d1e04fb8d8828aaa5b665d3609721eade3e79f7abf",
+    "D7_I210_W-seed20261028.txt": "2a9e2c65be24866f0bff09d1e04fb8d8828aaa5b665d3609721eade3e79f7abf",
+    "D7_I210_W-seed20261029-checkpoint.txt": "170670074c3d381281c550ea86fc77355429ef20d2fb74eb059ad5c3cb05c336",
+    "D7_I210_W-seed20261029.txt": "170670074c3d381281c550ea86fc77355429ef20d2fb74eb059ad5c3cb05c336",
+    "D7_I405_N-seed20261028-checkpoint.txt": "d388cfe41e1482885babe61326832fe92ee0435e1ee4c9b72c5149fd24921e74",
+    "D7_I405_N-seed20261028.txt": "d388cfe41e1482885babe61326832fe92ee0435e1ee4c9b72c5149fd24921e74",
+    "D7_I405_N-seed20261029-checkpoint.txt": "d6beb626c1fba73e687275a0582de1e4b69c21a64e5414ffd051dc233e02ce70",
+    "D7_I405_N-seed20261029.txt": "d6beb626c1fba73e687275a0582de1e4b69c21a64e5414ffd051dc233e02ce70",
+    "D7_I405_S-seed20261028-checkpoint.txt": "1383f33b702f0a4af1094fa05b226049ec8bede3abc6a46c6fce75a72f3dc1cc",
+    "D7_I405_S-seed20261028.txt": "1383f33b702f0a4af1094fa05b226049ec8bede3abc6a46c6fce75a72f3dc1cc",
+    "D7_I405_S-seed20261029-checkpoint.txt": "c957a2fab11c9ca8f3745363f46645710ed39a3af066dbe8c2026bf3dad1e97d",
+    "D7_I405_S-seed20261029.txt": "c957a2fab11c9ca8f3745363f46645710ed39a3af066dbe8c2026bf3dad1e97d"
+  },
+  "seed0_hashes": {
+    "D7_I10_E-0-expanded.txt": "6ad5118379acd3596b19ac648769dd87e52debcd093c2a5c101af73e0720df7e",
+    "D7_I10_W-0-expanded.txt": "6353dd18c4e2452b0e335c0a8c795742309ca7ef28b6233e276c1886916fb8f0",
+    "D7_I210_E-0-expanded.txt": "0ce1e9b68872b6737c479c759d9b4d2eab8720ebdae5480a4ad67b2ac1303637",
+    "D7_I210_W-0-expanded.txt": "6c4a5509fda6fae2417f33d0dafb2491ad4182f5b426aad9c186c33e25410b98",
+    "D7_I405_N-0-expanded.txt": "10468b48dab21cd87527137dc816bd10312969dec710cae465701dc52488b25c",
+    "D7_I405_S-0-expanded.txt": "b108acacc92e213667df2633a4f44011fadeee1215652e7fc6ebc6c4cd3743db",
+    "D12_I5_N-0-expanded.txt": "ef7f59ea3210432921987b77275bf326fd8cf826ff41ab1084f133bda4fb00ff",
+    "D12_I5_S-0-expanded.txt": "e516a731082b1ea3ec1872207e979a10645e104f4155d060c2138d38d95628db"
+  },
+  "route_sha256": "09ec1cade0122422b08b5e97542667bdea9b6619623b032b389a4b732eaaa17c",
+  "baseline_frozen_sha256": "34bd952acb40c001a654c44111c2d085fe232957678b26b3c8d9b7dd6319568e",
+  "ongoing_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

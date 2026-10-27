@@ -1,0 +1,23 @@
+{
+  "seed": 20261027,
+  "hypothesis": "R30 positive-window softIoU worsened negative-window false-any; add a fixed negative-window sampled margin-tail penalty while keeping inputs/sampling unchanged",
+  "data": "original R10 X555/y/w/selected cells, .8 positive-window mass/.2 negative, early JuneSep only; no new windows or overlap reweighting",
+  "objective": "original BCE + .5 positive-window softIoU + .5 negative-window softplus(.25*log weighted_mean_exp(margin/.25)); within negative windows shares from original IPW weights",
+  "negative_scope": "sampled-negative smooth upper-tail score, NOT full eligible-cell max, NOT calibrated event probability; no hidden/future input",
+  "curvature": "exact loss gradient; original positive-IoU diagonal surrogate plus exact diagonal of convex negative-tail penalty; full nonlocal Hessian not used",
+  "initialization": "same custom API/raw0/feature_fraction.85/seed; gamma0 exactly recovers R30 objectives in preflight",
+  "training_gates": "same four JuneSep sparse-positive roads as R30; never select directions from February",
+  "max_new_models": 12,
+  "max_new_tree_rounds": 5600,
+  "early_rounds": 200,
+  "full_rounds": 600,
+  "leaves": 31,
+  "CPU_threads": 4,
+  "controls": "reuse hash-protected identical R30 customBCE early200; compare R30 IoU200 as additional diagnostic; train fresh same-input customBCE600 only where needed, controls not deployable candidates",
+  "October_November": "vs BCE control median gain at .1/.2/.35>=-.01 and negative false-any+.03 /eligibleFP+.005, all at unchanged .5",
+  "December": "fixed600 alpha.5/1, >=4 per phase, mean gain>=.004 and worstphase>=-.015 vs frozen parent",
+  "January": "only global Onsetalpha0/.5/1; thresholds .5/.25 fixed and negative guards unchanged",
+  "Ongoing": "frozen parent, no model or calibration",
+  "Task1": "92files hash protected; historical .942828633 not remeasured",
+  "official_S_queue": null
+}

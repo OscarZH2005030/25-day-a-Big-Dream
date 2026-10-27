@@ -1,0 +1,32 @@
+{
+  "method": "paired global-date cluster resampling, 2000 replicates; exclude replicates missing any panel-condition group",
+  "limitations": "descriptive conditional on repeatedly developed/selected policies; does NOT adjust multi-experiment selection or proxy-label noise; NOT independent significance proof",
+  "reports": {
+    "new_phase_population": {
+      "unique_dates": 28,
+      "panel_condition_groups": 16,
+      "windows": 367,
+      "point_delta_macro_IoU": 0.0034063731768689287,
+      "valid_replicates": 2000,
+      "requested_replicates": 2000,
+      "descriptive_95pct_interval": [
+        0.0008747494882547918,
+        0.007287930671807967
+      ],
+      "bootstrap_fraction_delta_positive": 0.997
+    },
+    "old410": {
+      "unique_dates": 28,
+      "panel_condition_groups": 16,
+      "windows": 410,
+      "point_delta_macro_IoU": 0.0023409176451840903,
+      "valid_replicates": 2000,
+      "requested_replicates": 2000,
+      "descriptive_95pct_interval": [
+        -0.0002866998370997882,
+        0.0052730522264764585
+      ],
+      "bootstrap_fraction_delta_positive": 0.962
+    }
+  }
+}

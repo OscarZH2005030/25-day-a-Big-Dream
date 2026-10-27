@@ -1,0 +1,30 @@
+{
+  "hypothesis": "retain existing strong future-link event support and learn conditional first-arrival timing; full head authorized by five R33 OctoberNov-only passed roads",
+  "stage": "full shared head training only; December selection/January calibration/February reevaluation PENDING; no strategy replacement",
+  "fit": "original R10 June-November Onset selected windows, complete-six-frame positive links with no observed eligible queue in released13frames; no December or later raw data",
+  "target": "six-class first future observed queue step conditioned on event occurrence and complete labels; no event detection refit",
+  "features": "same557 as R33: first-horizon555 minus6 horizon onehot +8 public panel onehot",
+  "weights": "equal conditional-positive window mass then equal positive target-link mass; all targets retained, correlated views not independent episodes",
+  "head": "shared eight-panel multiclass6, fixed600boosting rounds/31 leaves/.035/minleaf80/.85/L2=4/seed20261027; 3600 trees; no parameter search",
+  "selection_gate_source": {
+    "roads": {
+      "D7_I10_E": true,
+      "D7_I10_W": false,
+      "D7_I210_E": true,
+      "D7_I210_W": true,
+      "D7_I405_N": false,
+      "D7_I405_S": true,
+      "D12_I5_N": false,
+      "D12_I5_S": true
+    },
+    "passed_roads": 5,
+    "no_December_or_later_data_used": true
+  },
+  "December_plan": "only R33 passed roads, require >=4 per phase; parent R31 unchanged; normalized support-preserving temporal alpha.5/1, mean IoU gain>=.004/worstphase>=-.015",
+  "January_plan": "only global Onsetalpha0/.5/1 with same normalized timing blend, thresholds .5/.25 and negative false-any+.03/eligibleFP+.005 fixed; Ongoing unchanged",
+  "February_plan": "only after freezing, both already-used populations for paired report; never choose roads from February",
+  "normalization": "R33 exact same per-link all-six peak and visible-queue link invariants; future-eligibility masked support may differ and needs negative guard; heuristic shape, not calibrated probability",
+  "Task1": "92files protected; .942828633 historical not measured anew; R21/R23 saved archives read-only",
+  "CPU_threads": 4,
+  "official_S_queue": null
+}

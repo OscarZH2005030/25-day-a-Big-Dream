@@ -1,0 +1,7 @@
+{
+  "December": "only R33-gated roads and >=4 windows per phase; alpha.5/1, mean gain>=.004/worstphase>=-.015",
+  "January": "single global Onsetalpha0/.5/1; normalized blend preserves unmasked peaks/known queue links; fixed thresholds .5/.25 and negative false-any+.03/eligibleFP+.005",
+  "February": "both populations already viewed, only frozen paired report; no routing/tuning",
+  "Ongoing": "all probabilities and threshold unchanged",
+  "official_S_queue": null
+}

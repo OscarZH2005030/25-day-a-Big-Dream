@@ -1,0 +1,28 @@
+{
+  "seed": 20261027,
+  "hypothesis": "R20 time-separated link recurrence is strong; known static link category may expose risk interaction missed by numeric metadata",
+  "inputs": "same555 causal features +1 categorical public link index; no learned target prior, no future quality/coverage or Task1 offline input",
+  "targets_sampling": "exact R10 expanded rows, all observed queue positives/IPW negatives, unchanged y/w",
+  "max_models": 16,
+  "max_tree_rounds": 6400,
+  "early_rounds": 200,
+  "full_rounds": 600,
+  "num_leaves": 31,
+  "category": {
+    "index": 555,
+    "cat_smooth": 20,
+    "cat_l2": 20,
+    "min_data_per_group": 50,
+    "max_cat_to_onehot": 4
+  },
+  "fit": "June-November; probe June-September",
+  "temporal": "October-November original positive windows median gain vs R10 direct at .1/.2/.35 >=-.01",
+  "negative_guard": "at unchanged threshold.5, macro false-any increase<=.03 and eligible-cell false-positive fraction increase<=.005; early time-holdout and January global blend selection",
+  "full_model_gate": "R20 recurrence, temporal guard, negative guard, actual category split used, >=4 December windows/phase",
+  "December": "fixed600, alpha .5/1, mean gain>=.004 and worstphase>=-.015",
+  "January": "globalalpha0/.5/1 only, original thresholds frozen; same negative guard applied globally",
+  "Ongoing": "entire R19 path and threshold frozen",
+  "Task1": "92files frozen, historical .942828633 not newly measured",
+  "CPU_threads": 4,
+  "official_S_queue": null
+}

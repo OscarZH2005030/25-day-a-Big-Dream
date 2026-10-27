@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "diagnostic_only": true,
+  "training_gate_passed": false,
+  "new_models": 0,
+  "Task1_package_unchanged": true,
+  "artificial_hidden_values_invariant": true,
+  "official_S_queue": null
+}

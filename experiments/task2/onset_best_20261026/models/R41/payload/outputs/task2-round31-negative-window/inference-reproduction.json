@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "independent_validation_exact_rows": 87000,
+  "Task1_package_unchanged": true,
+  "condition_forecast_frozen": [
+    true,
+    true
+  ],
+  "all_thresholds_identical": true,
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_score_newly_measured": false,
+  "official_S_queue": null,
+  "comparison": {
+    "new_phase_population_round30": {
+      "overall": 0.784636217060878,
+      "windows": 367,
+      "queue_onset": 0.7093798590373256,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "new_phase_population_selected": {
+      "overall": 0.784636217060878,
+      "windows": 367,
+      "queue_onset": 0.7093798590373256,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "old410_round30": {
+      "overall": 0.752276544831059,
+      "windows": 410,
+      "queue_onset": 0.7254557668490296,
+      "queue_ongoing": 0.7790973228130884
+    },
+    "old410_selected": {
+      "overall": 0.752276544831059,
+      "windows": 410,
+      "queue_onset": 0.7254557668490296,
+      "queue_ongoing": 0.7790973228130884
+    }
+  },
+  "different_populations_not_directly_comparable": true
+}

@@ -1,0 +1,23 @@
+{
+  "seed": 20261027,
+  "fit_windows_per_panel": 1024,
+  "tree_cells_per_window": 96,
+  "tree_configs": [
+    {
+      "leaves": 31,
+      "rounds": 400
+    },
+    {
+      "leaves": 63,
+      "rounds": 600
+    }
+  ],
+  "neural_updates": 1600,
+  "neural_initialization": "first-round best.pt; fit only, selected December",
+  "neural_iou_weight": 0.6,
+  "cpu_threads": 4,
+  "cpu_temperature": null,
+  "official_S_queue": null,
+  "february_status": "reused development-after-evaluation; not blind",
+  "selection": "December model/round selection; January global condition thresholds and blend; February report only"
+}

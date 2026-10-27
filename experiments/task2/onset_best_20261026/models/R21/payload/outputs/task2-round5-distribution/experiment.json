@@ -1,0 +1,19 @@
+{
+  "seed": 20261027,
+  "fit_windows": 8192,
+  "max_models": 48,
+  "max_tree_rounds": 24000,
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "cpu_temperature": null,
+  "onset": "all observed queue cells + IPW sampled negatives; local precursor features; per-link event probability times conditional horizon queue probability",
+  "ongoing": "all queue cells plus all observed transitions; direct/transition/speed residual heads",
+  "onset_event_rounds": 400,
+  "onset_conditional_rounds": 400,
+  "direct_rounds": 600,
+  "transition_rounds": 600,
+  "speed_residual_rounds": 400,
+  "selection": "December per-road-condition with half-month stability guard; January global blend/thresholds; February reused report only",
+  "Task1": "frozen historical55-day S_state=.942828633; hash protection; no offline Task1 predictions in Task2",
+  "official_S_queue": null
+}

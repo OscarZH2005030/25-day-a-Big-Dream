@@ -1,0 +1,134 @@
+{
+  "selected": {
+    "alphas_balanced": [
+      0.0,
+      0.0
+    ],
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7821734877805655,
+    "negative_stats": {
+      "0": {
+        "windows": 77,
+        "panels": 8,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "1": {
+        "windows": 223,
+        "panels": 8,
+        "false_any_macro": 0.1986433338630224,
+        "false_eligible_fraction_macro": 0.00315842968853806
+      }
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alphas_balanced": [
+        0.0,
+        0.0
+      ],
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7821734877805655,
+      "negative_stats": {
+        "0": {
+          "windows": 77,
+          "panels": 8,
+          "false_any_macro": 0.0,
+          "false_eligible_fraction_macro": 0.0
+        },
+        "1": {
+          "windows": 223,
+          "panels": 8,
+          "false_any_macro": 0.1986433338630224,
+          "false_eligible_fraction_macro": 0.00315842968853806
+        }
+      },
+      "eligible": true
+    },
+    {
+      "alphas_balanced": [
+        0.5,
+        0.0
+      ],
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7821734877805655,
+      "negative_stats": {
+        "0": {
+          "windows": 77,
+          "panels": 8,
+          "false_any_macro": 0.0,
+          "false_eligible_fraction_macro": 0.0
+        },
+        "1": {
+          "windows": 223,
+          "panels": 8,
+          "false_any_macro": 0.1986433338630224,
+          "false_eligible_fraction_macro": 0.00315842968853806
+        }
+      },
+      "eligible": true
+    },
+    {
+      "alphas_balanced": [
+        1.0,
+        0.0
+      ],
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7821734877805655,
+      "negative_stats": {
+        "0": {
+          "windows": 77,
+          "panels": 8,
+          "false_any_macro": 0.0,
+          "false_eligible_fraction_macro": 0.0
+        },
+        "1": {
+          "windows": 223,
+          "panels": 8,
+          "false_any_macro": 0.1986433338630224,
+          "false_eligible_fraction_macro": 0.00315842968853806
+        }
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-0-probe-checkpoint.txt": "283f1faa6af00d6e7389b9015208d6942947539dcb4be5553c17e90742bb074e",
+    "D12_I5_N-0-probe.txt": "283f1faa6af00d6e7389b9015208d6942947539dcb4be5553c17e90742bb074e",
+    "D12_I5_S-0-probe-checkpoint.txt": "2e418ef50b0aa89b32bb9f5f09d7da320ab393a999b4d663ea9d890184e11245",
+    "D12_I5_S-0-probe.txt": "2e418ef50b0aa89b32bb9f5f09d7da320ab393a999b4d663ea9d890184e11245",
+    "D7_I210_E-0-balanced-checkpoint.txt": "5cba4bbce3712fc5853679e06fbbdba419050a83c02ed9b0a311f596ed3588be",
+    "D7_I210_E-0-balanced.txt": "5cba4bbce3712fc5853679e06fbbdba419050a83c02ed9b0a311f596ed3588be",
+    "D7_I210_E-0-paired-control-full-checkpoint.txt": "42818d4dc23cb27c345d6a22b36d27d3166e285fe14a673b1f4de6f8bdc6e324",
+    "D7_I210_E-0-paired-control-full.txt": "42818d4dc23cb27c345d6a22b36d27d3166e285fe14a673b1f4de6f8bdc6e324",
+    "D7_I210_E-0-probe-checkpoint.txt": "ff62d2b941d18e87c194a99b5f82b5e7012b8171a39b88942b62145471782aa6",
+    "D7_I210_E-0-probe.txt": "ff62d2b941d18e87c194a99b5f82b5e7012b8171a39b88942b62145471782aa6",
+    "D7_I405_N-0-probe-checkpoint.txt": "799dab826debabcef6c2b8fe403819d40a4b1d60348245eab416c16fd7a0d04f",
+    "D7_I405_N-0-probe.txt": "799dab826debabcef6c2b8fe403819d40a4b1d60348245eab416c16fd7a0d04f"
+  },
+  "route_sha256": "32a67777505be980c6ef97a5b5c53436d41dcfb920a7b413df432364a87abac8",
+  "feature_source_sha256": "b12d627ad8508975176195b3776529ba2405b1c4ed24fa145d7044cc8fc5f5dc",
+  "training_source_sha256": "86dbfd7a2a2bacfab63ccf6d0524914d0435156999a16181e1f622c470d1ecf7",
+  "objective_source_sha256": "4e74ebee6ba23caf46d35292a60c90284a9c30f4f4ece8224f4b9940e40d66f2",
+  "baseline_frozen_sha256": "a99c32f6f98d60d3adc3bb1263baf7de1537b71b4e6034d8adf71456f1a5b4ec",
+  "condition_forecast_frozen": [
+    true,
+    true
+  ],
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

@@ -1,0 +1,20 @@
+{
+  "seed": 20261027,
+  "models": 32,
+  "rounds_per_model": 600,
+  "max_tree_rounds": 19200,
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "objective": "cross_entropy: supports probability labels [0,1], not binary thresholding of soft labels",
+  "target": "sigmoid((v_cut - eligible noisy future speed_kmh) / sigma_kmh)",
+  "sigmas_kmh": [
+    2.5,
+    5.0
+  ],
+  "inputs": "exact same 555D mainline/ramp/partial-physics",
+  "sampling": "exact same row IDs and IPW weights from round5/6",
+  "selection": "December per-road-condition with half-month stability; January global blend/threshold; February repeated report only",
+  "Task1": "92-file frozen guard, historical .942828633 not remeasured",
+  "official_S_queue": null,
+  "documentation": "https://github.com/lightgbm-org/LightGBM/blob/main/docs/Parameters.rst"
+}

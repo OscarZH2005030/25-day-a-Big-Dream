@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "hypothesis": "original weighted cell BCE and equal-window IoU optimize different losses for sparse Onset positives; add differentiable per-window soft IoU using existing inclusion weights",
+  "data": "original R10 X555/y/window sampling and .8/.2 window mass unchanged; no earlier-view augmentation or overlap weighting",
+  "objective": "weighted BCE + .5*nrows*sum_positive_windows(window_mass*(1-IPW_intersection/IPW_union)); no soft-IoU term for negative windows, retain their BCE",
+  "curvature": "exact gradient including coupled denominator; positive diagonal surrogate, NOT exact nonlocal Hessian",
+  "initialization": "both arms use custom-objective API at raw0, coefficient0 versus.5; R28/R29 preflight found built-in versus custom feature-subsampling path mismatch, so neither failed reference is reused",
+  "gates": "June-September median positive eligible fraction<=.03 and >=50 positive windows; I10W no phase coverage; early temporal and negative guards unchanged",
+  "max_models": 28,
+  "max_tree_rounds": 11200,
+  "probe_rounds": 200,
+  "full_rounds": 600,
+  "leaves": 31,
+  "CPU_threads": 4,
+  "October_November": "paired custom BCE200 vs custom BCE+IoU200; median gain .1/.2/.35>=-.01 and negative false-any+.03 / eligibleFP+.005 at fixed .5",
+  "December": ">=4 per phase; fixed600 alpha.5/1, mean gain>=.004/worstphase>=-.015 vs parent; report same-init BCE600 for mechanism diagnostic, no BCE control deployment",
+  "January": "Onset only globalalpha0/.5/1; fixed thresholds .5/.25; negative false-any+.03/eligibleFP+.005",
+  "Ongoing": "entire R27 parent policy frozen, no new model",
+  "Task1": "92files frozen, historical .942828633 not remeasured",
+  "official_S_queue": null
+}

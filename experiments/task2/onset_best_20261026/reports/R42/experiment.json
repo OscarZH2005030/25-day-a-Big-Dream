@@ -1,0 +1,14 @@
+{
+  "hypothesis": "first-time six-class CE has no explicit ordinal distance; add .5 mean5threshold CDF logloss to penalize distant timing mistakes while keeping paired data and inputs identical",
+  "data": "exact immutable R40 original+paired X557/y/w; earlyJuneSep9970/fullJuneNov14681; no new data or weights; source hashes recorded",
+  "objective": "CE + .5 mean_k[-logsumsoftmax allowed set first<=k or >k]; fixed coefficient, no search",
+  "matched_control": "both custom6class API/raw0/shared3*p*(1-p) conservative diagonal curvature; coefficient0 CE control, weights applied once; never reuse native R40 as matched control",
+  "models": "two early200 and, only if held gates pass, two full600; 31leaves/.035/minleaf80/.85/L2=4/seed20261027; at most9600trees CPU4serial",
+  "held": "OctNov original and paired conditional populations separately, correlated; no DecJanFeb raw data",
+  "classification_gate": ">=20 original/>=30 paired; both CE gain>=-.05, median MAE gain>=-.15steps, CDF-CE gain>=-.005; at least one population CDF-CE gain>=.01 AND median MAE gain>=.05steps",
+  "timing_gate": "fixed maxclass>=.5, alpha.5/1; median window IoU gain(.1/.2/.35)>=.002 vs matched CE control and >=-.01 vs causal base, negative false-any+.03/eligibleFP+.005 vs both control and base at fixed .5",
+  "deployment": "none here; only ordinal may become candidate; matchedCE remains diagnostic; next policy must compare frozen R41, Dec route and Jan global-only guards unchanged",
+  "Task1": "92files immutable, historical .942828633 not remeasured",
+  "Ongoing": "unchanged",
+  "official_S_queue": null
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": 0,
+    "variant": "physics",
+    "iteration": 400,
+    "alpha_new": 1.0,
+    "proxy": 0.7384608867685641,
+    "half_gains": [
+      0.03059499035712776,
+      0.0016630824372760866
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.8635511297687691,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 0,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7476293520720765,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7931632336691574,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 0,
+    "variant": "physics",
+    "iteration": 200,
+    "alpha_new": 0.25,
+    "proxy": 0.9403366058906031,
+    "half_gains": [
+      0.013555555555555543,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.9733036707452726,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 0,
+    "variant": "ramp",
+    "iteration": 600,
+    "alpha_new": 0.25,
+    "proxy": 0.7291051492773308,
+    "half_gains": [
+      0.0016258523611465403,
+      0.010989347662141657
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.6539697439890433,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 0,
+    "variant": "physics",
+    "iteration": 600,
+    "alpha_new": 0.25,
+    "proxy": 0.6523778586571465,
+    "half_gains": [
+      0.05575663013743504,
+      0.02881031077069718
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.8050819877296197,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 0,
+    "variant": "physics",
+    "iteration": 400,
+    "alpha_new": 1.0,
+    "proxy": 0.6296877783701954,
+    "half_gains": [
+      0.10515043737498542,
+      -0.006049097923406133
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.764930800644724,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 0,
+    "variant": "physics",
+    "iteration": 400,
+    "alpha_new": 0.25,
+    "proxy": 0.5799131213329712,
+    "half_gains": [
+      0.030147353234309726,
+      0.0329023556485194
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 1,
+    "variant": "baseline",
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7301800053004711,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 0,
+    "variant": "physics",
+    "iteration": 600,
+    "alpha_new": 1.0,
+    "proxy": 0.6094574182114216,
+    "half_gains": [
+      0.02044170023534342,
+      0.03682419724887076
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 1,
+    "variant": "physics",
+    "iteration": 600,
+    "alpha_new": 1.0,
+    "proxy": 0.7234762775998304,
+    "half_gains": [
+      0.01400772385167659,
+      0.032749074330582606
+    ],
+    "eligible": true
+  }
+]
