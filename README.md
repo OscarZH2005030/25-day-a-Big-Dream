@@ -19,3 +19,8 @@
 ## Task 1：LightGBM、GRIN 与长缺口组合
 
 [代码、正式实验结果与小组运行指南](experiments/task1_january_grin/README.md)。包含十方向纯 LightGBM baseline，以及 I5 / D7 的 GRIN 和固定长缺口切换对比。
+
+
+## Task 4：可复现求解器、外部数据与稳健性实验（2026-10-27）
+
+[完整代码、环境、数据来源、预测和统一复现入口](experiments/task4/robust_odme_20261027/README.md)。包含官方目标基准、历轮S_dev/综合评分代理实验、失败记录及尺度校正KL候选。真实路径标签未公开，人工分数不代表比赛成绩；未覆盖Task1、Task2或原Task4基准。

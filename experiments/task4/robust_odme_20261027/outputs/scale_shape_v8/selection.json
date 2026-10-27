@@ -1,0 +1,49 @@
+{
+  "chosen": "scaled_ridge",
+  "criterion": "calibration Sdev with path,attraction,total guards",
+  "truth": "artificial only; global count-scale calibrated exactly to train",
+  "calibration": {
+    "blend25": {
+      "S_od": 0.4925029373418507,
+      "S_dev": 0.7053695119283998,
+      "S_attr": 0.9443198940981483,
+      "synthetic_S_ODME": 0.7190780860637518
+    },
+    "blend50": {
+      "S_od": 0.5835296439536783,
+      "S_dev": 0.7707456480917487,
+      "S_attr": 0.9514169939519682,
+      "synthetic_S_ODME": 0.7709100918279154
+    },
+    "blend75": {
+      "S_od": 0.6569990976190585,
+      "S_dev": 0.8569773812593484,
+      "S_attr": 0.9578477687054718,
+      "synthetic_S_ODME": 0.8178694476684036
+    },
+    "official": {
+      "S_od": 0.14188226138746823,
+      "S_dev": 0.6024751841853158,
+      "S_attr": 0.9193283270689145,
+      "synthetic_S_ODME": 0.5420997153435828
+    },
+    "old_amp125": {
+      "S_od": 0.3904731410992947,
+      "S_dev": 0.6751854976752198,
+      "S_attr": 0.937298408751533,
+      "synthetic_S_ODME": 0.6675836346356189
+    },
+    "scaled_kl": {
+      "S_od": 0.7719736481449797,
+      "S_dev": 0.9151040480142605,
+      "S_attr": 0.9692210446681002,
+      "synthetic_S_ODME": 0.8800362978346149
+    },
+    "scaled_ridge": {
+      "S_od": 0.6871338655196662,
+      "S_dev": 0.931071326548639,
+      "S_attr": 0.9604809360319002,
+      "synthetic_S_ODME": 0.8429377101546394
+    }
+  }
+}

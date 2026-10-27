@@ -1,0 +1,12 @@
+{
+  "seconds": 42.56328749656677,
+  "synthetic_recommendation": false,
+  "scope": "four source-supported D7 directions; six others baseline",
+  "rows": 70708,
+  "finite_nonnegative_keys_match": true,
+  "CPU_threads": 4,
+  "GPU_used": false,
+  "CPU_temperature": null,
+  "path_truth_available": false,
+  "baseline_preserved": true
+}

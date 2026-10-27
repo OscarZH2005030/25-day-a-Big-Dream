@@ -1,0 +1,21 @@
+{
+  "policy": {
+    "D12_I405_N": "external_attr10_recent",
+    "D12_I405_S": "external_attr10_recent",
+    "D12_I5_N": "official_005",
+    "D12_I5_S": "official_005",
+    "D7_I10_E": "official_005",
+    "D7_I10_W": "official_005",
+    "D7_I210_E": "official_005",
+    "D7_I210_W": "external_attr10_recent",
+    "D7_I405_N": "official_005",
+    "D7_I405_S": "official_005"
+  },
+  "status": "exploratory; original baseline unchanged",
+  "selection": "panelwise improvement on seed20261029; developed after viewing earlier audits",
+  "new_resampling_seeds": [
+    20261031,
+    20261101
+  ],
+  "independent_path_truth_test": false
+}

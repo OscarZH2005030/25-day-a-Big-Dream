@@ -1,0 +1,8 @@
+{
+  "seconds": 25.841201543807983,
+  "panels": 10,
+  "conditions": "true nonnegative paths must load within given per-link count tolerance; not known to hold for hidden truth",
+  "bound_kind": "Dlower exact LP; Dupper sum(b)+LP max totalflow (conservative)",
+  "CPU_threads": 4,
+  "GPU_used": false
+}

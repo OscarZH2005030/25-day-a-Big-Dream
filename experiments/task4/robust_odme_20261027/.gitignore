@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv*/
+work/
+*.log
+outputs/checkpoint_signature.txt

@@ -1,0 +1,10 @@
+{
+  "seconds": 10.217215299606323,
+  "CPU_threads": 4,
+  "GPU_used": false,
+  "CPU_temperature": null,
+  "final_rows": 70708,
+  "all_template_keys_match_baseline": true,
+  "finite_nonnegative": true,
+  "baseline_preserved": true
+}

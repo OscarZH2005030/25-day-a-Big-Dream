@@ -1,0 +1,15 @@
+{
+  "seconds": 96.17131733894348,
+  "candidate": "noise03",
+  "panels": 10,
+  "error_families": 12,
+  "synthetic_cases": 360,
+  "rows": 70708,
+  "all_keys_match": true,
+  "finite_nonnegative": true,
+  "CPU_threads": 4,
+  "GPU_used": false,
+  "CPU_temperature": null,
+  "baseline_preserved": true,
+  "hidden_path_truth_used": false
+}

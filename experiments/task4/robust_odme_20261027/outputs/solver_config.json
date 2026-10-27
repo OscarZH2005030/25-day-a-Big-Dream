@@ -1,0 +1,20 @@
+{
+  "candidates": {
+    "criterion": "train only, grouped 3-fold heldout count NMAE; not path-flow truth",
+    "scores": {
+      "official_005": 0.03663054739899304,
+      "ridge_05": 0.03686501283273686,
+      "relative_005": 0.043373504670196544,
+      "relative_05": 0.04343727119299619
+    },
+    "chosen": "official_005"
+  },
+  "solver": "dual semismooth Newton",
+  "dual_tolerance": 1e-07,
+  "acceptance_dual_tolerance": 1e-05,
+  "max_iterations": 200,
+  "seed": 20261026,
+  "folds": 3,
+  "CPU_threads": 4,
+  "scoring_limit": "S_link only; no path truth"
+}

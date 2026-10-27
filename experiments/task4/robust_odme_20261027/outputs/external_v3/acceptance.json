@@ -1,0 +1,26 @@
+[
+  {
+    "file": "task4_direction_hybrid.csv",
+    "rows": 70708,
+    "all_keys_zones_tokens_match": true,
+    "finite_nonnegative": true
+  },
+  {
+    "file": "task4_external_attr10.csv",
+    "rows": 70708,
+    "all_keys_zones_tokens_match": true,
+    "finite_nonnegative": true
+  },
+  {
+    "file": "task4_external_attr10_recent.csv",
+    "rows": 70708,
+    "all_keys_zones_tokens_match": true,
+    "finite_nonnegative": true
+  },
+  {
+    "file": "task4_official_005.csv",
+    "rows": 70708,
+    "all_keys_zones_tokens_match": true,
+    "finite_nonnegative": true
+  }
+]

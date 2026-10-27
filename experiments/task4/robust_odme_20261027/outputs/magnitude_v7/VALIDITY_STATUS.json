@@ -1,0 +1,5 @@
+{
+  "status": "not_valid_for_model_selection",
+  "reason": "133/160 synthetic cases fail magnitude target within 0.02; mean perturbation is not global scaling",
+  "superseded_method": "scale_shape_v8 separates scale and shape; artificial only"
+}

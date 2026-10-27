@@ -1,0 +1,13 @@
+{
+  "rows": 70708,
+  "keys_zones_periods_match": true,
+  "finite_nonnegative": true,
+  "duplicates": 0,
+  "baseline_preserved": true,
+  "updated_panels": [
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I405_N",
+    "D7_I405_S"
+  ]
+}

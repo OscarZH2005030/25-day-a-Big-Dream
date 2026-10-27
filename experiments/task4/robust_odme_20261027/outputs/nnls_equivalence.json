@@ -1,0 +1,11 @@
+{
+  "panel": "D12_I405_S",
+  "max_abs_difference": 5.5138116294983774e-12,
+  "relative_L2_difference": 2.3866789559845514e-15,
+  "ours": {
+    "success": true,
+    "iterations": 6,
+    "projected_gradient_inf": 3.765654454923606e-11,
+    "message": "dual semismooth Newton; dual_gradient_inf=1.8189894035458565e-12"
+  }
+}

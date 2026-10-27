@@ -1,0 +1,15 @@
+{
+  "rows": 70708,
+  "panels": 10,
+  "periods": [
+    "SYN_PM_PRIVATE",
+    "SYN_PM_VALIDATION"
+  ],
+  "unified_key_rows": 70708,
+  "missing": 0,
+  "duplicates": 0,
+  "nonfinite": 0,
+  "negative": 0,
+  "zones_match": true,
+  "template_keys_and_order_match": true
+}

@@ -1,0 +1,9 @@
+panel,split,candidate,evidence,S_link_diagnostic
+D7_I10_E,validation,kl_amp125,synthetic controller; no hidden truth,0.9999960169479163
+D7_I10_E,private,kl_amp125,synthetic controller; no hidden truth,0.9999958427092529
+D7_I10_W,validation,kl_amp125,synthetic controller; no hidden truth,0.999993813377155
+D7_I10_W,private,kl_amp125,synthetic controller; no hidden truth,0.9999945840139187
+D7_I405_N,validation,kl_amp125,synthetic controller; no hidden truth,0.999998903199022
+D7_I405_N,private,kl_amp125,synthetic controller; no hidden truth,0.999998893504838
+D7_I405_S,validation,kl_amp125,synthetic controller; no hidden truth,0.999994563845842
+D7_I405_S,private,kl_amp125,synthetic controller; no hidden truth,0.9999942309078904

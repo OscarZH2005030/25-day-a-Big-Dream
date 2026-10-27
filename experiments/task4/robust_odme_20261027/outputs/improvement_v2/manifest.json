@@ -1,0 +1,9 @@
+{
+  "seconds": 13.773784160614014,
+  "chosen_on_proxy": "official_005",
+  "CPU_threads": 4,
+  "GPU_used": false,
+  "CPU_temperature": null,
+  "truth_available": false,
+  "baseline_frozen": true
+}

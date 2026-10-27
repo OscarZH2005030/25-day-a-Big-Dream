@@ -1,0 +1,10 @@
+{
+  "official_commit": "f9e3fbc35c066419726987e470448f33d4c72fd9",
+  "elapsed_seconds": 9.172700881958008,
+  "CPU_threads": 4,
+  "CPU_temperature": null,
+  "GPU_used": false,
+  "selected": "official_005",
+  "final_rows": 70708,
+  "path_truth_available": false
+}
