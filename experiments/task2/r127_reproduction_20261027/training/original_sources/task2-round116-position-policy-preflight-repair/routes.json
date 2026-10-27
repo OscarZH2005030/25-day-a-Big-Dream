@@ -1,0 +1,42 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "use_new": true,
+    "alpha_new": 1.0
+  },
+  {
+    "panel": "D7_I10_W",
+    "use_new": false,
+    "alpha_new": 0.0
+  },
+  {
+    "panel": "D7_I210_E",
+    "use_new": false,
+    "alpha_new": 0.0
+  },
+  {
+    "panel": "D7_I210_W",
+    "use_new": false,
+    "alpha_new": 0.0
+  },
+  {
+    "panel": "D7_I405_N",
+    "use_new": false,
+    "alpha_new": 0.0
+  },
+  {
+    "panel": "D7_I405_S",
+    "use_new": false,
+    "alpha_new": 0.0
+  },
+  {
+    "panel": "D12_I5_N",
+    "use_new": true,
+    "alpha_new": 1.0
+  },
+  {
+    "panel": "D12_I5_S",
+    "use_new": false,
+    "alpha_new": 0.0
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "selected": {
+    "alpha_paired": 0.5,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7853044947864167,
+    "negative_stats": {
+      "windows": 77,
+      "false_any_macro": 0.0,
+      "false_eligible_fraction_macro": 0.0
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alpha_paired": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7847741062303322,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_paired": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7853044947864167,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_paired": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7848983617901113,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "conditional-first-full.txt": "e2c1aba5581ac383a8950fa00980d727e244552a0d6c7fa52e847e3c9f5b21ee",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b",
+    "paired_runtime.py": "2b21c4e1d0575e10e978c2aaf9a715ed3d1f1ac83eee18ec17c1653cd0cc0920",
+    "gated_core.py": "eb7868d14976f09615f50c8baa492347b127431c569d2f2f45cb44a935ab58bd"
+  },
+  "route_sha256": "bc88748060e9349c9157b017a3ed624f161b74d5b49351dca92d8b90d01a85cf",
+  "baseline_frozen_sha256": "30184ba18c832c79469bdb8a0eec6c61c89edc8016f71af26811694315238e24",
+  "early_gate_sha256": "82c8a4518412e34280d8e60a4b4e3a872778af451be61c60c2a9680851c87cf5",
+  "condition_forecast_frozen": [
+    false,
+    true
+  ],
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

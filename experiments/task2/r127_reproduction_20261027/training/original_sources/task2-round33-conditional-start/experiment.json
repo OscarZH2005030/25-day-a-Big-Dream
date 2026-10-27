@@ -1,0 +1,15 @@
+{
+  "hypothesis": "R32 shows high future-link support recall but weak exact first-time agreement even without simple cues; preserve baseline peak/support and correct conditional onset timing rather than replace event detection",
+  "scope": "bounded early probe only: JuneSep fit, OctoberNov R10 selected all phases held; NO December/January/February data",
+  "target": "six-class first observed queue step, only complete-six-label positive links with NO observed eligible queue in released 13 frames; conditional on a future positive event, not unconditional event probability",
+  "features": "R10 first-horizon555 minus6 horizon indicators +8 public panel onehot =557; no labels/coverage/mask metadata as input",
+  "weights": "equal mass per positive window with at least one eligible conditional target, then equal per target link; full positives retained, no negative links needed for conditional head",
+  "head": "shared eight-panel LightGBM multiclass6, fixed200 rounds/31leaves, CPU4; 1200 trees; no parameter search",
+  "adjustment": "conditional first-step CDF times base falling tail; blend .5/1 and rescale to identical per-link all-six peak; visible-queue links unchanged; does NOT guarantee support under unknown future eligibility masks or calibrated probabilities",
+  "training_gate": ">=500 JuneSep conditional positive link views; >=50 per applicable road",
+  "held_gate": "per-road >=20 known conditional held views; conditional logloss better than JuneSep per-road class prior by>=.02 and accuracy better by>=.03; at least one predeclared .5/1 adjustment has median IoU gain(.1/.2/.35)>=-.01 plus negative false-any+.03/eligibleFP+.005",
+  "negative_guard": "all eligible held cells; .5 unchanged, no loosening; original R10 JuneSep-only early200 is causal control",
+  "limitations": "complete-label and positive-event conditioning may select a different subset; overlapping views not independent episodes; support-normalization is a heuristic, not an information-bound claim",
+  "Task1": "92file hash unchanged; historical .942828633 not remeasured",
+  "official_S_queue": null
+}

@@ -1,0 +1,15 @@
+{
+  "hypothesis": "R36 found origin phase associated with R10 sampling source; collect all-three-phase matched views of the SAME first-positive timestamp/link observation, before any phase-feature trial",
+  "scope": "complete JuneNov public fit calendar only, no Dec/Jan/Feb data",
+  "label": "complete six future labels, positive event, own link no observed eligible queue in released13frames; whole window Onset",
+  "pair_unit": "same panel/day/link/first-observed-future-positive timestamp; NOT an independent physical event ID",
+  "selection": "from every physical observation group, earliest available triple of consecutive5min origins; optionally latest triple only if disjoint from earliest; all legal origins have same Onset/conditional target rules",
+  "phase": "each triple contains exactly one of each origin slot modulo3, no mod3 feature is added",
+  "augmentation_plan": "retain original conditional rows; append balanced trio views (including labeled duplicates if already selected); original window raw mass1 and each added physical target group raw mass1, normalize globally; not an unbiased official macroIoU loss",
+  "gate": ">=150 paired groups in JuneSep, >=50 in OctNov, plus >=20/10 per applicable direction; exact original-target replay and equal phase counts required",
+  "future": "future quality/coverage/group IDs and target timestamps used ONLY for label/sampling; no inference features",
+  "CPU_threads": 4,
+  "new_models": 0,
+  "Task1": "92files immutable, historical .942828633 not remeasured",
+  "official_S_queue": null
+}

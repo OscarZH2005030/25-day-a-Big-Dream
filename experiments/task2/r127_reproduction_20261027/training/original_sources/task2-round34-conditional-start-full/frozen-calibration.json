@@ -1,0 +1,75 @@
+{
+  "selected": {
+    "alpha_timing": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7829486963682739,
+    "negative_stats": {
+      "windows": 77,
+      "false_any_macro": 0.0,
+      "false_eligible_fraction_macro": 0.0
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alpha_timing": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7821734877805655,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_timing": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7828122876381154,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_timing": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7829486963682739,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "conditional-first-full.txt": "f46de9dd5af119609cf8faf8789c3da0cee1d9185954020b92a8ce23535d41a1",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b",
+    "timing_runtime.py": "c7fdcdb2377f1d3073315971ed06bb9146d7a534b3492ca791ba724ce605a82b"
+  },
+  "route_sha256": "b4b02b909df75b27086e473b478c3ce8581dca0c332d99e966523e1891279059",
+  "baseline_frozen_sha256": "9566bfa729bf9df515c8766d64c24ead5231844edbc082b43600e5d67bfe18ac",
+  "early_gate_sha256": "01c6239fbe3f4f7b0a8bbdaccf89a6e9faac94b720de220fceaa2441863cfe17",
+  "condition_forecast_frozen": [
+    false,
+    true
+  ],
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

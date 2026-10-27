@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "baseline_causality_groups": [
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D7_I10_E",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D7_I10_W",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D7_I210_E",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D7_I210_W",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D7_I405_N",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D7_I405_S",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D12_I5_N",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "OctNov_systematic_JuneSep_models",
+      "panel": "D12_I5_S",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D7_I10_E",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D7_I10_W",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D7_I210_E",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D7_I210_W",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D7_I405_N",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D7_I405_S",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D12_I5_N",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    },
+    {
+      "population": "December_current_R127",
+      "panel": "D12_I5_S",
+      "passed": true,
+      "baseline_only_mainfuture_ramp_target_fields_invariant": true
+    }
+  ],
+  "Task1_92files_unchanged": true,
+  "parent_unchanged": true,
+  "no_training": true,
+  "no_January_February": true,
+  "oracle_scores_not_deployable": true,
+  "official_S_queue": null
+}
