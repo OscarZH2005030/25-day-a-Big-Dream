@@ -1,0 +1,10 @@
+{
+  "promoted": false,
+  "actual_S_ODME": null,
+  "four_components_reported_together": true,
+  "selected_nonofficial_panels": {
+    "D7_I405_S": "scaled_0.1"
+  },
+  "synthetic_scores_only": true,
+  "baseline_preserved": true
+}

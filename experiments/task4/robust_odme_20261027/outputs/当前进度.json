@@ -1,9 +1,8 @@
 {
-  "status": "v9 completed; exploratory candidate retained, frozen submission unchanged",
-  "latest_candidate": "outputs/robust_v9/task4_conservative_candidate.csv",
-  "latest_report": "outputs/robust_v9/多场景与真实计数复核说明.txt",
-  "promotion": "not promoted to frozen submission; Sdev not uniformly better",
+  "status": "v10 joint four-component experiment completed",
+  "latest_experiment": "outputs/joint_v10/REPORT.md",
   "actual_S_ODME": null,
-  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5",
-  "auto_kaggle_submission": false
+  "baseline_preserved": true,
+  "promotion": false,
+  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5"
 }

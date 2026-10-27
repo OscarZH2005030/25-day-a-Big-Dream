@@ -17,5 +17,14 @@
   "robust_v9_full_portable_replay": false,
   "robust_v9_latest_numeric_identity_max_abs_difference": 0.0,
   "robust_v9_portable_full_bounds": "passed for all ten panels and three tolerances",
-  "robust_v9_compile": "passed"
+  "robust_v9_compile": "passed",
+  "v10": {
+    "portable_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 12,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiment": "480 synthetic cases, 9 candidates, all four components, four real grouped count seeds",
+    "hidden_truth": false
+  }
 }

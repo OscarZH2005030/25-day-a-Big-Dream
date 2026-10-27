@@ -1,0 +1,16 @@
+{
+  "policy": {
+    "D12_I405_N": "official",
+    "D12_I405_S": "official",
+    "D12_I5_N": "official",
+    "D12_I5_S": "official",
+    "D7_I10_E": "official",
+    "D7_I10_W": "official",
+    "D7_I210_E": "official",
+    "D7_I210_W": "official",
+    "D7_I405_N": "official",
+    "D7_I405_S": "scaled_0.1"
+  },
+  "selection": "all four calibration component means nondecreasing, total nondecreasing, real CV improvement>=0.5%, worst seed ratio<=1.01, worst scenario total delta>=-0.005",
+  "synthetic_only": true
+}

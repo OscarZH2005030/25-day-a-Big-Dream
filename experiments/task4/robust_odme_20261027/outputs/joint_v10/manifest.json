@@ -1,0 +1,34 @@
+{
+  "seconds": 83.33315634727478,
+  "synthetic_cases": 480,
+  "candidates": 9,
+  "components": [
+    "S_od",
+    "S_link",
+    "S_dev",
+    "S_attr",
+    "synthetic_S_ODME"
+  ],
+  "real_count_selection_seeds": [
+    20261201,
+    20261202
+  ],
+  "real_count_audit_seeds": [
+    20261203,
+    20261204
+  ],
+  "hidden_truth_available": false,
+  "baseline_preserved": true,
+  "policy": {
+    "D12_I405_N": "official",
+    "D12_I405_S": "official",
+    "D12_I5_N": "official",
+    "D12_I5_S": "official",
+    "D7_I10_E": "official",
+    "D7_I10_W": "official",
+    "D7_I210_E": "official",
+    "D7_I210_W": "official",
+    "D7_I405_N": "official",
+    "D7_I405_S": "scaled_0.1"
+  }
+}

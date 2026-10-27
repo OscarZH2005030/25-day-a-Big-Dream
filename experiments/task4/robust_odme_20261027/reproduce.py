@@ -26,7 +26,7 @@ def verify(release:Path):
 def main():
  parser=argparse.ArgumentParser(description=__doc__)
  parser.add_argument('--release-root',type=Path,required=True,help='Official kaggle_public directory; read-only')
- parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','all'],default='latest')
+ parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','all'],default='latest')
  parser.add_argument('--data-python',default=sys.executable,help='Optional Python with requirements-data.txt for XLSX extraction')
  args=parser.parse_args();release=args.release_root.expanduser().resolve()
  env={**os.environ,'TFB_RELEASE_ROOT':str(release),'OMP_NUM_THREADS':'4','OPENBLAS_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONUTF8':'1'}
@@ -46,5 +46,7 @@ def main():
  if args.stage in ['robust','all']:
   for p in ['run_multi_error.py','select_conservative.py','audit_conservative.py']:run('outputs/robust_v9/'+p)
  if args.stage in ['latest','robust','all']:run('outputs/robust_v9/infer_conservative.py')
+ if args.stage in ['joint','all']:run('outputs/joint_v10/run_joint.py')
+ if args.stage=='joint-infer':run('outputs/joint_v10/infer_joint.py')
  verify(release)
 if __name__=='__main__':main()

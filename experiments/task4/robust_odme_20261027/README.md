@@ -90,3 +90,9 @@ Task 1、2、4可以使用不同模型。Task 3直接评估Task 1同一份输出
 - `--stage robust`重跑本轮LP、误差族检验、三种计数划分选模和两种新划分复核；`--stage bounds`只重跑条件性LP界限；`--stage scale`保留v8推理入口。
 
 详见[完整v9报告](outputs/robust_v9/多场景与真实计数复核说明.txt)、[真实计数新增划分](outputs/robust_v9/fresh_seed_actual_cv_overall.csv)、[逐误差场景](outputs/robust_v9/multi_error_by_scenario.csv)。原官方基准没有覆盖，未提交Kaggle。
+
+## v10: four components together
+
+`--stage joint` reproduces 480 artificial cases with all four components, nine candidates and four new actual grouped count splits. `--stage joint-infer` reproduces the frozen v10 experimental policy. This does not replace the previous default latest candidate or the original baseline. All four component calibration guards apply jointly. Actual hidden path components are unknown, not filled with synthetic scores.
+
+See [v10 report](outputs/joint_v10/REPORT.md), [all four components and total](outputs/joint_v10/four_components_overall.csv), [actual four-component availability](outputs/joint_v10/actual_four_components.csv), and [real count audit](outputs/joint_v10/selected_real_count_cv.csv).
