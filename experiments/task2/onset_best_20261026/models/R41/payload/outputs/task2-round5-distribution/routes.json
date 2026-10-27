@@ -1,0 +1,237 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": 0,
+    "config": {
+      "kind": "direct",
+      "iteration": 400
+    },
+    "alpha_new": 1.0,
+    "proxy": 0.7215924549478206,
+    "half_gains": [
+      0.0024361248845820027,
+      0.04082917033185862
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": 1,
+    "config": {
+      "kind": "baseline"
+    },
+    "alpha_new": 0.0,
+    "proxy": 0.8569078802402176,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 0,
+    "config": {
+      "kind": "baseline"
+    },
+    "alpha_new": 0.0,
+    "proxy": 0.7235190076521347,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 1,
+    "config": {
+      "kind": "speed_residual",
+      "temperature": 0.025
+    },
+    "alpha_new": 1.0,
+    "proxy": 0.7919184662927797,
+    "half_gains": [
+      0.00031118888319614513,
+      0.12223190932868344
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 0,
+    "config": {
+      "kind": "direct",
+      "iteration": 200
+    },
+    "alpha_new": 0.25,
+    "proxy": 0.9403366058906031,
+    "half_gains": [
+      0.008585858585858475,
+      0.005340909090909118
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 1,
+    "config": {
+      "kind": "baseline"
+    },
+    "alpha_new": 0.0,
+    "proxy": 0.971078976640712,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 0,
+    "config": {
+      "kind": "direct",
+      "iteration": 600
+    },
+    "alpha_new": 1.0,
+    "proxy": 0.6952044289448596,
+    "half_gains": [
+      0.1623686908836547,
+      0.047492568292465065
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 1,
+    "config": {
+      "kind": "direct",
+      "iteration": 600
+    },
+    "alpha_new": 0.25,
+    "proxy": 0.6680521333024887,
+    "half_gains": [
+      -0.001019167835437207,
+      0.01821151129943499
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 0,
+    "config": {
+      "kind": "direct",
+      "iteration": 600
+    },
+    "alpha_new": 0.25,
+    "proxy": 0.5947749741709148,
+    "half_gains": [
+      0.07476997984939837,
+      0.006628430299920218
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 1,
+    "config": {
+      "kind": "speed_residual",
+      "temperature": 0.025
+    },
+    "alpha_new": 1.0,
+    "proxy": 0.8149299993584933,
+    "half_gains": [
+      -0.012321717745859218,
+      0.03386967201984292
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 0,
+    "config": {
+      "kind": "direct",
+      "iteration": 600
+    },
+    "alpha_new": 1.0,
+    "proxy": 0.5780817021069351,
+    "half_gains": [
+      0.0783562665317612,
+      0.005588492403319711
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 1,
+    "config": {
+      "kind": "baseline"
+    },
+    "alpha_new": 0.0,
+    "proxy": 0.7490539091582568,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 0,
+    "config": {
+      "kind": "event_factor"
+    },
+    "alpha_new": 0.25,
+    "proxy": 0.5321308677787053,
+    "half_gains": [
+      0.07158813422362481,
+      0.052541648027618515
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 1,
+    "config": {
+      "kind": "transition",
+      "iteration": 600
+    },
+    "alpha_new": 0.25,
+    "proxy": 0.7493824930524281,
+    "half_gains": [
+      0.025366710731398068,
+      0.03289348040171314
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 0,
+    "config": {
+      "kind": "direct",
+      "iteration": 600
+    },
+    "alpha_new": 0.5,
+    "proxy": 0.5743278905993358,
+    "half_gains": [
+      0.035245016502781445,
+      0.005092582526570744
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 1,
+    "config": {
+      "kind": "direct",
+      "iteration": 600
+    },
+    "alpha_new": 1.0,
+    "proxy": 0.697856591366988,
+    "half_gains": [
+      0.058830782314734265,
+      0.02883063064862823
+    ],
+    "eligible": true
+  }
+]

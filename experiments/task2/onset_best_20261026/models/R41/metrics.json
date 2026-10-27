@@ -1,0 +1,40 @@
+{
+  "candidate": "R41 paired-origin conditional timing",
+  "root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round41-paired-policy",
+  "entry": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round41-paired-policy\\predict_queue.py",
+  "verified": true,
+  "comparison": {
+    "new_phase_population_round38": {
+      "overall": 0.7880982215196234,
+      "windows": 367,
+      "queue_onset": 0.7163038679548162,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "new_phase_population_selected": {
+      "overall": 0.7907029878272552,
+      "windows": 367,
+      "queue_onset": 0.72151340057008,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "old410_round38": {
+      "overall": 0.7506342421593252,
+      "windows": 410,
+      "queue_onset": 0.7221711615055622,
+      "queue_ongoing": 0.7790973228130884
+    },
+    "old410_selected": {
+      "overall": 0.7506788766138975,
+      "windows": 410,
+      "queue_onset": 0.7222604304147068,
+      "queue_ongoing": 0.7790973228130884
+    }
+  },
+  "frozen_sha256": "a9b45736280ad8a8cf4abcfd9d6d86689331bf09a7fd6dfaee64f21e7be06500",
+  "head_sha256": "e2c1aba5581ac383a8950fa00980d727e244552a0d6c7fa52e847e3c9f5b21ee",
+  "Task1_unchanged": true,
+  "Ongoing_unchanged": true,
+  "original_best_two_unchanged": true,
+  "official_S_queue": null,
+  "limitations": "phase367 proxy record .790702988, Onset .721513401; old410 .750678877 approximately unchanged and below saved R21 best; repeated-developed descriptive results, not independent or official improvement",
+  "policy": "R41 January-frozen policy is parent for future trials; no February-based rollback"
+}

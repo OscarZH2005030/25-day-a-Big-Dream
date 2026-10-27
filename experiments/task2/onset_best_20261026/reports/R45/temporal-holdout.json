@@ -1,0 +1,842 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "original_selected_hold": {
+      "views": 315,
+      "old_logloss": 1.2834873151859092,
+      "new_logloss": 1.3242046143686712,
+      "logloss_gain": -0.04071729918276201,
+      "old_accuracy": 0.49817574511819107,
+      "new_accuracy": 0.49631723192874266,
+      "accuracy_gain": -0.0018585131894484075,
+      "mean_prefix_JS": 0.025335614404007334,
+      "prefix_mode_disagreement_fraction": 0.49820143884892076
+    },
+    "paired_source_neutral_hold": {
+      "views": 534,
+      "old_logloss": 1.3681727305531528,
+      "new_logloss": 1.4051575892409425,
+      "logloss_gain": -0.03698485868778967,
+      "old_accuracy": 0.46666666666666673,
+      "new_accuracy": 0.4456790123456791,
+      "accuracy_gain": -0.020987654320987648,
+      "mean_prefix_JS": 0.02815615108448094,
+      "prefix_mode_disagreement_fraction": 0.5604938864707947
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.6881090653265806,
+            "old_gated_IoU": 0.6929834341374099,
+            "new_gated_IoU": 0.6920245365847514
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.725732054297643,
+            "old_gated_IoU": 0.7334255396367519,
+            "new_gated_IoU": 0.7339155109126576
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.7589419005713371,
+            "old_gated_IoU": 0.7629812894789563,
+            "new_gated_IoU": 0.7617432557464902
+          }
+        ],
+        "median_gain_vs_base": 0.003915471258170822,
+        "median_gain_vs_old": -0.0009588975526585442,
+        "negative_base": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.002564501941903746
+        },
+        "negative_old": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0025818274902734773
+        },
+        "negative_new": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0025729647562973
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.6881090653265806,
+            "old_gated_IoU": 0.7026413837205088,
+            "new_gated_IoU": 0.7014290255353872
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.725732054297643,
+            "old_gated_IoU": 0.7365081551263951,
+            "new_gated_IoU": 0.7346627635863385
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.7589419005713371,
+            "old_gated_IoU": 0.7614877890770634,
+            "new_gated_IoU": 0.7609499850824893
+          }
+        ],
+        "median_gain_vs_base": 0.008930709288695549,
+        "median_gain_vs_old": -0.0012123581851215537,
+        "negative_base": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.002564501941903746
+        },
+        "negative_old": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0026765019748702444
+        },
+        "negative_new": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0026324382984830082
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D7_I10_W",
+    "original_selected_hold": {
+      "views": 115,
+      "old_logloss": 1.0031668812223293,
+      "new_logloss": 1.0375310429345486,
+      "logloss_gain": -0.03436416171221923,
+      "old_accuracy": 0.6004016064257028,
+      "new_accuracy": 0.532128514056225,
+      "accuracy_gain": -0.06827309236947787,
+      "mean_prefix_JS": 0.044184931996657684,
+      "prefix_mode_disagreement_fraction": 0.43775100401606426
+    },
+    "paired_source_neutral_hold": {
+      "views": 81,
+      "old_logloss": 1.0372885185633052,
+      "new_logloss": 1.0917363012475625,
+      "logloss_gain": -0.05444778268425732,
+      "old_accuracy": 0.5714285714285714,
+      "new_accuracy": 0.5317460317460317,
+      "accuracy_gain": -0.03968253968253965,
+      "mean_prefix_JS": 0.04141027711710845,
+      "prefix_mode_disagreement_fraction": 0.4999999701976776
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.6961044514649569,
+            "old_gated_IoU": 0.6861877656334248,
+            "new_gated_IoU": 0.6788785715595248
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.7346943037257293,
+            "old_gated_IoU": 0.7335001789143741,
+            "new_gated_IoU": 0.7271998563527393
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.7898096923079353,
+            "old_gated_IoU": 0.7905412179418639,
+            "new_gated_IoU": 0.7902548417830622
+          }
+        ],
+        "median_gain_vs_base": -0.007494447372989987,
+        "median_gain_vs_old": -0.006300322561634819,
+        "negative_base": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "negative_old": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "negative_new": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.6961044514649569,
+            "old_gated_IoU": 0.674585934646716,
+            "new_gated_IoU": 0.6648091994376402
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.7346943037257293,
+            "old_gated_IoU": 0.7376683681896282,
+            "new_gated_IoU": 0.7224038331828475
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.7898096923079353,
+            "old_gated_IoU": 0.796799795926597,
+            "new_gated_IoU": 0.7872397518402813
+          }
+        ],
+        "median_gain_vs_base": -0.012290470542881793,
+        "median_gain_vs_old": -0.009776735209075849,
+        "negative_base": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "negative_old": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 5.5474193405227886e-05
+        },
+        "negative_new": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D7_I210_E",
+    "original_selected_hold": {
+      "views": 175,
+      "old_logloss": 0.4445601464112872,
+      "new_logloss": 0.49403198855142877,
+      "logloss_gain": -0.04947184214014155,
+      "old_accuracy": 0.8757575757575753,
+      "new_accuracy": 0.8696969696969693,
+      "accuracy_gain": -0.006060606060605989,
+      "mean_prefix_JS": 0.018478275614546538,
+      "prefix_mode_disagreement_fraction": 0.1568181818181818
+    },
+    "paired_source_neutral_hold": {
+      "views": 276,
+      "old_logloss": 0.4871104984230445,
+      "new_logloss": 0.5451593576938633,
+      "logloss_gain": -0.058048859270818765,
+      "old_accuracy": 0.8464912280701754,
+      "new_accuracy": 0.8311403508771928,
+      "accuracy_gain": -0.01535087719298256,
+      "mean_prefix_JS": 0.018972220478797677,
+      "prefix_mode_disagreement_fraction": 0.15789474546909332
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.7894275125217408,
+            "old_gated_IoU": 0.8137002845168655,
+            "new_gated_IoU": 0.8102322613493539
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.8338714361635495,
+            "old_gated_IoU": 0.8541127306601001,
+            "new_gated_IoU": 0.8513325748530903
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.8636029094571396,
+            "old_gated_IoU": 0.8900373216185679,
+            "new_gated_IoU": 0.8885001050951212
+          }
+        ],
+        "median_gain_vs_base": 0.020804748827613073,
+        "median_gain_vs_old": -0.002780155807009743,
+        "negative_base": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0004532733927486026
+        },
+        "negative_old": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0004871706820596853
+        },
+        "negative_new": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.00048291137547479734
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.7894275125217408,
+            "old_gated_IoU": 0.8622569652113735,
+            "new_gated_IoU": 0.849561389636813
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.8338714361635495,
+            "old_gated_IoU": 0.8940263906187987,
+            "new_gated_IoU": 0.8871356811177972
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.8636029094571396,
+            "old_gated_IoU": 0.9140390071264755,
+            "new_gated_IoU": 0.9098510519937528
+          }
+        ],
+        "median_gain_vs_base": 0.05326424495424764,
+        "median_gain_vs_old": -0.006890709501001568,
+        "negative_base": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0004532733927486026
+        },
+        "negative_old": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0005295465012070278
+        },
+        "negative_new": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0005084705939626997
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D7_I210_W",
+    "original_selected_hold": {
+      "views": 171,
+      "old_logloss": 1.4804555915324336,
+      "new_logloss": 1.4954053437903092,
+      "logloss_gain": -0.014949752257875648,
+      "old_accuracy": 0.3686186186186186,
+      "new_accuracy": 0.3828828828828829,
+      "accuracy_gain": 0.014264264264264304,
+      "mean_prefix_JS": 0.02474747348598027,
+      "prefix_mode_disagreement_fraction": 0.47147147147147156
+    },
+    "paired_source_neutral_hold": {
+      "views": 441,
+      "old_logloss": 1.44499839097157,
+      "new_logloss": 1.4442504768145727,
+      "logloss_gain": 0.0007479141569972647,
+      "old_accuracy": 0.35897435897435903,
+      "new_accuracy": 0.36609686609686615,
+      "accuracy_gain": 0.007122507122507116,
+      "mean_prefix_JS": 0.02547741061023725,
+      "prefix_mode_disagreement_fraction": 0.4715099632740021
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5747650373497032,
+            "old_gated_IoU": 0.5752458440072015,
+            "new_gated_IoU": 0.5722893287024393
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.645581742095897,
+            "old_gated_IoU": 0.6472773567391156,
+            "new_gated_IoU": 0.6418774259276092
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.6789840352017573,
+            "old_gated_IoU": 0.68217008201277,
+            "new_gated_IoU": 0.6806249367231725
+          }
+        ],
+        "median_gain_vs_base": -0.0024757086472638745,
+        "median_gain_vs_old": -0.002956515304762153,
+        "negative_base": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009088904909304962
+        },
+        "negative_old": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "negative_new": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5747650373497032,
+            "old_gated_IoU": 0.5809581383035112,
+            "new_gated_IoU": 0.5765917505862714
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.645581742095897,
+            "old_gated_IoU": 0.6449391871348206,
+            "new_gated_IoU": 0.6436294910092198
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.6789840352017573,
+            "old_gated_IoU": 0.6746294309123325,
+            "new_gated_IoU": 0.6676879066562796
+          }
+        ],
+        "median_gain_vs_base": -0.0019522510866771814,
+        "median_gain_vs_old": -0.004366387717239739,
+        "negative_base": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009088904909304962
+        },
+        "negative_old": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "negative_new": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D7_I405_N",
+    "original_selected_hold": {
+      "views": 183,
+      "old_logloss": 1.6405980413606263,
+      "new_logloss": 1.6491967653965625,
+      "logloss_gain": -0.0085987240359362,
+      "old_accuracy": 0.27630743525480367,
+      "new_accuracy": 0.257827903091061,
+      "accuracy_gain": -0.01847953216374265,
+      "mean_prefix_JS": 0.026289038251582603,
+      "prefix_mode_disagreement_fraction": 0.5728153717627402
+    },
+    "paired_source_neutral_hold": {
+      "views": 435,
+      "old_logloss": 1.3899090718057154,
+      "new_logloss": 1.4139252621526561,
+      "logloss_gain": -0.02401619034694069,
+      "old_accuracy": 0.38980716253443526,
+      "new_accuracy": 0.3856749311294766,
+      "accuracy_gain": -0.004132231404958664,
+      "mean_prefix_JS": 0.02470343667234486,
+      "prefix_mode_disagreement_fraction": 0.5041321516036987
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5570967602895139,
+            "old_gated_IoU": 0.5561356835980503,
+            "new_gated_IoU": 0.5567258570184515
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.6010194674040336,
+            "old_gated_IoU": 0.6031040202650746,
+            "new_gated_IoU": 0.601508080700935
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.6329682402844223,
+            "old_gated_IoU": 0.6318393210296324,
+            "new_gated_IoU": 0.6338763873589796
+          }
+        ],
+        "median_gain_vs_base": 0.000488613296901419,
+        "median_gain_vs_old": 0.00059017342040113,
+        "negative_base": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_old": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_new": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5570967602895139,
+            "old_gated_IoU": 0.5569681516103245,
+            "new_gated_IoU": 0.5568837610137629
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.6010194674040336,
+            "old_gated_IoU": 0.6025326552228558,
+            "new_gated_IoU": 0.6029687514758276
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.6329682402844223,
+            "old_gated_IoU": 0.6313002021320617,
+            "new_gated_IoU": 0.6318693378613901
+          }
+        ],
+        "median_gain_vs_base": -0.00021299927575102462,
+        "median_gain_vs_old": 0.0004360962529718071,
+        "negative_base": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_old": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_new": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D7_I405_S",
+    "original_selected_hold": {
+      "views": 282,
+      "old_logloss": 1.614895330513537,
+      "new_logloss": 1.639986236500107,
+      "logloss_gain": -0.025090905986570045,
+      "old_accuracy": 0.33783830078794097,
+      "new_accuracy": 0.33021582733812943,
+      "accuracy_gain": -0.00762247344981154,
+      "mean_prefix_JS": 0.02930581546039531,
+      "prefix_mode_disagreement_fraction": 0.4555498458376156
+    },
+    "paired_source_neutral_hold": {
+      "views": 420,
+      "old_logloss": 1.6348052560435165,
+      "new_logloss": 1.6444532266485758,
+      "logloss_gain": -0.009647970605059397,
+      "old_accuracy": 0.2850877192982456,
+      "new_accuracy": 0.30555555555555547,
+      "accuracy_gain": 0.020467836257309857,
+      "mean_prefix_JS": 0.03074418645083077,
+      "prefix_mode_disagreement_fraction": 0.5526315569877625
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5952451789396281,
+            "old_gated_IoU": 0.5959169066510828,
+            "new_gated_IoU": 0.5956211114929537
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.6392591421438191,
+            "old_gated_IoU": 0.6413107811944976,
+            "new_gated_IoU": 0.6402351722201753
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.6610112592850257,
+            "old_gated_IoU": 0.664320658328802,
+            "new_gated_IoU": 0.6636930803982564
+          }
+        ],
+        "median_gain_vs_base": 0.0009760300763562713,
+        "median_gain_vs_old": -0.0006275779305456863,
+        "negative_base": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007945155194048239
+        },
+        "negative_old": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007832043258476798
+        },
+        "negative_new": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007952915472372267
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5952451789396281,
+            "old_gated_IoU": 0.5950644065736446,
+            "new_gated_IoU": 0.5944603728157243
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.6392591421438191,
+            "old_gated_IoU": 0.6415643696496782,
+            "new_gated_IoU": 0.6384896731447693
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.6610112592850257,
+            "old_gated_IoU": 0.6659759545918196,
+            "new_gated_IoU": 0.661248354351779
+          }
+        ],
+        "median_gain_vs_base": -0.0007694689990497272,
+        "median_gain_vs_old": -0.0030746965049088804,
+        "negative_base": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007945155194048239
+        },
+        "negative_old": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007952915472372267
+        },
+        "negative_new": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0008073787686267738
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D12_I5_N",
+    "original_selected_hold": {
+      "views": 252,
+      "old_logloss": 1.503886042622043,
+      "new_logloss": 1.5268089618678293,
+      "logloss_gain": -0.022922919245786266,
+      "old_accuracy": 0.37694139194139187,
+      "new_accuracy": 0.36835164835164824,
+      "accuracy_gain": -0.008589743589743626,
+      "mean_prefix_JS": 0.02748838972081038,
+      "prefix_mode_disagreement_fraction": 0.5015201465201464
+    },
+    "paired_source_neutral_hold": {
+      "views": 459,
+      "old_logloss": 1.4511968408497227,
+      "new_logloss": 1.4763689508061792,
+      "logloss_gain": -0.02517210995645658,
+      "old_accuracy": 0.3813559322033898,
+      "new_accuracy": 0.3884180790960451,
+      "accuracy_gain": 0.007062146892655274,
+      "mean_prefix_JS": 0.026749328460670647,
+      "prefix_mode_disagreement_fraction": 0.5437853336334229
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.48233128982341056,
+            "old_gated_IoU": 0.48219315374580807,
+            "new_gated_IoU": 0.48168309998784986
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.5347626715885997,
+            "old_gated_IoU": 0.5362055610721904,
+            "new_gated_IoU": 0.5343010226112603
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.5681140643413065,
+            "old_gated_IoU": 0.570724797638972,
+            "new_gated_IoU": 0.5698859822840702
+          }
+        ],
+        "median_gain_vs_base": -0.0004616489773393573,
+        "median_gain_vs_old": -0.0008388153549018229,
+        "negative_base": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00019324982923557554
+        },
+        "negative_old": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017848097842591975
+        },
+        "negative_new": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00018346294371158564
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.48233128982341056,
+            "old_gated_IoU": 0.4830808963818451,
+            "new_gated_IoU": 0.48218189459728733
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.5347626715885997,
+            "old_gated_IoU": 0.537835250677771,
+            "new_gated_IoU": 0.5352586309872212
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.5681140643413065,
+            "old_gated_IoU": 0.5701573519149552,
+            "new_gated_IoU": 0.5693161430615651
+          }
+        ],
+        "median_gain_vs_base": 0.0004959593986214594,
+        "median_gain_vs_old": -0.0008990017845577625,
+        "negative_base": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00019324982923557554
+        },
+        "negative_old": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017848097842591975
+        },
+        "negative_new": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017865802347326158
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  },
+  {
+    "panel": "D12_I5_S",
+    "original_selected_hold": {
+      "views": 203,
+      "old_logloss": 1.5998974986375554,
+      "new_logloss": 1.6334231327406754,
+      "logloss_gain": -0.03352563410312004,
+      "old_accuracy": 0.33763440860215055,
+      "new_accuracy": 0.3094086021505376,
+      "accuracy_gain": -0.028225806451612934,
+      "mean_prefix_JS": 0.026971223827779594,
+      "prefix_mode_disagreement_fraction": 0.5774193548387097
+    },
+    "paired_source_neutral_hold": {
+      "views": 369,
+      "old_logloss": 1.6688252801094892,
+      "new_logloss": 1.6953124361707992,
+      "logloss_gain": -0.026487156061310024,
+      "old_accuracy": 0.2869415807560137,
+      "new_accuracy": 0.2714776632302406,
+      "accuracy_gain": -0.015463917525773141,
+      "mean_prefix_JS": 0.027197876269445687,
+      "prefix_mode_disagreement_fraction": 0.6821306347846985
+    },
+    "classification_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5183776715700262,
+            "old_gated_IoU": 0.5189837249839889,
+            "new_gated_IoU": 0.5184298815830445
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.5717688082672724,
+            "old_gated_IoU": 0.5724221483285973,
+            "new_gated_IoU": 0.5722375591064475
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.593201136693782,
+            "old_gated_IoU": 0.5926371256722659,
+            "new_gated_IoU": 0.5926314130843934
+          }
+        ],
+        "median_gain_vs_base": 5.221001301825012e-05,
+        "median_gain_vs_old": -0.00018458922214981133,
+        "negative_base": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_old": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_new": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "base_IoU": 0.5183776715700262,
+            "old_gated_IoU": 0.5197056251600825,
+            "new_gated_IoU": 0.5185306480679504
+          },
+          {
+            "threshold": 0.2,
+            "base_IoU": 0.5717688082672724,
+            "old_gated_IoU": 0.5731174527062222,
+            "new_gated_IoU": 0.572594013027928
+          },
+          {
+            "threshold": 0.35,
+            "base_IoU": 0.593201136693782,
+            "old_gated_IoU": 0.591884626522429,
+            "new_gated_IoU": 0.5926991656444431
+          }
+        ],
+        "median_gain_vs_base": 0.00015297649792411772,
+        "median_gain_vs_old": -0.0005234396782941575,
+        "negative_base": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_old": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_new": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "eligible": false
+      }
+    ],
+    "full_trial_gate_passed": false
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": 0,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7428079650702478,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": 1,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.8635511297687691,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 0,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7584047531415952,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 1,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7931632336691574,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 0,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.9389925198690976,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 1,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.9733036707452726,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 0,
+    "iteration": 600,
+    "alpha_new": 1.0,
+    "proxy": 0.7258352178049885,
+    "half_gains": [
+      0.061649597763115294,
+      0.019244684972537618
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 1,
+    "iteration": 400,
+    "alpha_new": 1.0,
+    "proxy": 0.7282224453652115,
+    "half_gains": [
+      0.09771711722888887,
+      0.052254811514242494
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 0,
+    "iteration": 600,
+    "alpha_new": 1.0,
+    "proxy": 0.7086716303779774,
+    "half_gains": [
+      0.025597182913107086,
+      0.013077436955965194
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 1,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.8050819877296197,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 0,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.6338391833010404,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 1,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.764930800644724,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 0,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.5983266920863807,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 1,
+    "iteration": null,
+    "alpha_new": 0.0,
+    "proxy": 0.7301800053004711,
+    "half_gains": [
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 0,
+    "iteration": 600,
+    "alpha_new": 0.5,
+    "proxy": 0.6343824353579256,
+    "half_gains": [
+      0.02216511756217643,
+      0.021922006642594805
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 1,
+    "iteration": 600,
+    "alpha_new": 1.0,
+    "proxy": 0.7341300113617083,
+    "half_gains": [
+      0.005767186981463612,
+      0.007145710936145577
+    ],
+    "eligible": true
+  }
+]

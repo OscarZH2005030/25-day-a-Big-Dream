@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "reused_head_no_new_training": true,
+  "source": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round34-conditional-start-full",
+  "source_full_training_sha256": "0be5225741428c2ec46add9337a8f36957887428c0b28eeb4c72cf9f6fa1e427",
+  "hashes": {
+    "conditional-first-full.txt": "f46de9dd5af119609cf8faf8789c3da0cee1d9185954020b92a8ce23535d41a1",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b"
+  },
+  "early_gate_sha256": "5898a2dc1f391e7df7d1cfa8de7ecaef3a610ab1f1ca277e308a185bd6292587",
+  "fit_index_sha256": "489d0d34cca78f86870fa9fa73180b2a06da73d0b9cc9d46d30e7117953f2f57",
+  "official_S_queue": null
+}

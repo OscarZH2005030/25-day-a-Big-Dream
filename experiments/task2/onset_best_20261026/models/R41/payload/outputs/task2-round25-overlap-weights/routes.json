@@ -1,0 +1,194 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.7101631417816291,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.8584647320989752,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.6426762779703955,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.7550471521014157,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.8215148499591224,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.9780077561327561,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.6703208743605086,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.9161107498117772,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.8034627923029252,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.8425384633797156,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 0,
+    "alpha_new": 0.5,
+    "proxy": 0.6826106819575709,
+    "phase_gains": [
+      -0.0004889634023130807,
+      0.019618858845832476,
+      0.006533295136236239
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.9006210928932313,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.7655377898508183,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.847375171292588,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 0,
+    "alpha_new": 0.0,
+    "proxy": 0.7011541242453556,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "condition": 1,
+    "alpha_new": 0.0,
+    "proxy": 0.8911087453218932,
+    "phase_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "eligible": true
+  }
+]

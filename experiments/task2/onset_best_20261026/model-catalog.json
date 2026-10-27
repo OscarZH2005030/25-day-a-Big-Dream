@@ -1,0 +1,39 @@
+{
+  "release_tag": "task2-onset-best-20261026",
+  "models": [
+    {
+      "name": "Phase367-R41",
+      "population": "phase367",
+      "overall": 0.7907029878272552,
+      "onset": 0.72151340057008,
+      "ongoing": 0.8598925750844304,
+      "old410_overall": 0.7506788766138975
+    },
+    {
+      "name": "Old410-R21",
+      "population": "old410",
+      "overall": 0.7544639243749791,
+      "onset": 0.7298305259368698,
+      "ongoing": 0.7790973228130884,
+      "phase367_overall": 0.7842664895090342
+    }
+  ],
+  "Task1_historical_score": 0.942828633,
+  "Task1_new_measurement": false,
+  "Task1_original92files_unchanged": true,
+  "official_S_queue": null,
+  "different_populations_not_comparable": true,
+  "February_repeated_development_report_only": true,
+  "assets": [
+    {
+      "name": "Phase367-R41.zip",
+      "bytes": 862171506,
+      "sha256": "67e211028d724f6f71bbb61b48fcb46748b1c999ced11d827dd0f5713764e1e8"
+    },
+    {
+      "name": "Old410-R21.zip",
+      "bytes": 738852493,
+      "sha256": "70c54099d6f748e72e8ece9945b7a12b479594f8ba61e2de6fb9295e652a9fed"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "seed": 20261027,
+  "hypothesis": "R18 learning curves were still improving strongly at60 rounds; a bounded200-round optimization budget test, preserving old failed gate",
+  "gate": {
+    "passed": true,
+    "arms": {
+      "control": {
+        "median_panel_IoU_gain60minus40": 0.1224690684312456,
+        "per_panel_gains": {
+          "D7_I10_E": 0.0732337816088181,
+          "D7_I10_W": 0.10059391099917753,
+          "D7_I210_E": 0.24001613205038796,
+          "D7_I210_W": 0.12924045115823807,
+          "D7_I405_N": 0.14377754782502164,
+          "D7_I405_S": 0.12221302318796187,
+          "D12_I5_N": 0.12272511367452932,
+          "D12_I5_S": 0.08279875011874521
+        },
+        "loss40": 0.36252797731952696,
+        "loss60": 0.21885826873290198,
+        "continuation_gate_passed": true
+      },
+      "partial": {
+        "median_panel_IoU_gain60minus40": 0.14231899509444812,
+        "per_panel_gains": {
+          "D7_I10_E": 0.1103993945543138,
+          "D7_I10_W": 0.1726425265390364,
+          "D7_I210_E": 0.30052702167031375,
+          "D7_I210_W": 0.15961209962970174,
+          "D7_I405_N": 0.08424885114854654,
+          "D7_I405_S": 0.15531327134566192,
+          "D12_I5_N": 0.12932471884323432,
+          "D12_I5_S": 0.09279690660710976
+        },
+        "loss40": 0.41807491732207525,
+        "loss60": 0.22885512947056455,
+        "continuation_gate_passed": true
+      }
+    },
+    "no_February_used": true
+  },
+  "parent": "R18 two60-round June-September probes continued to200; full models trained afresh if temporal guard passes",
+  "continuation_limit": "exactly200, no larger-round or threshold search; warm continuation need not match uninterrupted stochastic feature sampling",
+  "features": "same R18 557 causal features, exact same cached rows/codes/IPW and custom objective",
+  "control": "singleton labels",
+  "partial": "all informative compatible interval sets; no new labels or changed ambiguity definition",
+  "models_max": 4,
+  "probe_total_rounds": 200,
+  "full_rounds": 200,
+  "classes": 22,
+  "total_trees_in_models_max": 17600,
+  "new_tree_training_max": 14960,
+  "reused_parent_trees": 2640,
+  "parameters": "same31leaves,.05learning,.85feature_fraction,lambdaL2=4,minleaf80,seed20261027; positive diagonal curvature2p(1-p)",
+  "CPU_threads": 4,
+  "temporal": "same October-November original windows; median gain vs R10 direct at .1/.2/.35 >=-.01, compatibility>=.98",
+  "December": "same fixed200/alpha .5or1, gain>=.004,worstphase>=-.015,min4perphase",
+  "January": "only globalalpha0/.5/1, all thresholds frozen",
+  "Ongoing": "R18 entire path frozen",
+  "February": "both repeated populations report only after freeze",
+  "Task1": "92files unchanged; historical .942828633 not newly measured",
+  "official_S_queue": null
+}

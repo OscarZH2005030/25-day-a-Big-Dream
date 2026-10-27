@@ -1,0 +1,429 @@
+{
+  "selected": {
+    "alpha_phase_policy": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7712520059187148
+  },
+  "candidates": [
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7604007519249633
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7306974416489496
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7329934995075953
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7357620432283455
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7340605787505592
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7542141776017856
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7565102354604312
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7592787791811815
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7575773147033948
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7553361503455676
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7576322082042131
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7604007519249633
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.758699287447177
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7541472795058008
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7564433373644465
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7592118810851968
+    },
+    {
+      "alpha_phase_policy": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7575104166074103
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7328884457756124
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7344911949461903
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7373095681868254
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7373986614664958
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7577383650023106
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7593411141728886
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7621594874135236
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.762248580693194
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7595521971572795
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7611549463278575
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7639733195684925
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.764062412848163
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7615947680638778
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7631975172344557
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7660158904750906
+    },
+    {
+      "alpha_phase_policy": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7661049837547611
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7349840887031016
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7367592887230674
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.739632170073181
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7404118276815775
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7604752879514509
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7622504879714167
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7651233693215302
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7659030269299267
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7643705794805131
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.766145779500479
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7690186608505925
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7697983184589892
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.5,
+        0.075
+      ],
+      "proxy": 0.7658242669402389
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.5,
+        0.1
+      ],
+      "proxy": 0.7675994669602046
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.7704723483103183
+    },
+    {
+      "alpha_phase_policy": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7712520059187148
+    }
+  ],
+  "route_sha256": "23d37e4799da288904c0cebea4f4af73ddd92238b597da684fc1db3b739bb99e",
+  "baseline_frozen_sha256": "6dd6d1c7e5a0a9f112a57b5d12ba39853ff8d5537a007336df73584662ef8df4",
+  "proposal_hashes": {
+    "D7_I10_E-0-expanded.txt": "6ad5118379acd3596b19ac648769dd87e52debcd093c2a5c101af73e0720df7e",
+    "D7_I10_E-1-expanded.txt": "eccd51402f2f64243da395a1c5446fa2b0852d5901e7d012bc92970bc1a3a5ce",
+    "D7_I10_W-0-expanded.txt": "6353dd18c4e2452b0e335c0a8c795742309ca7ef28b6233e276c1886916fb8f0",
+    "D7_I10_W-1-expanded.txt": "0982f7a228d14bcfc940b38de6c12ae456029367b32a3cecac2bfef364cc29bf",
+    "D7_I210_E-0-expanded.txt": "0ce1e9b68872b6737c479c759d9b4d2eab8720ebdae5480a4ad67b2ac1303637",
+    "D7_I210_E-1-expanded.txt": "c2c15754457049bd7a2a819b2e6cbe2f2418da09c2f3d19f4b7ef82f9b0d3ed9",
+    "D7_I210_W-0-expanded.txt": "6c4a5509fda6fae2417f33d0dafb2491ad4182f5b426aad9c186c33e25410b98",
+    "D7_I210_W-1-expanded.txt": "113001fd16e21b63f851a2437bbc95e63e7e965bb0522857b74237466347a6f7",
+    "D7_I405_N-0-expanded.txt": "10468b48dab21cd87527137dc816bd10312969dec710cae465701dc52488b25c",
+    "D7_I405_N-1-expanded.txt": "dd22b8c6c9bda3c4276cd3530fa14229be50c058cb43fd3d3ac8983a48a001a0",
+    "D7_I405_S-0-expanded.txt": "b108acacc92e213667df2633a4f44011fadeee1215652e7fc6ebc6c4cd3743db",
+    "D7_I405_S-1-expanded.txt": "7d540096821dcb9522aecef42dbdc85fc8b2d95bcdc3a7c60f77710d567bf0c6",
+    "D12_I5_N-0-expanded.txt": "ef7f59ea3210432921987b77275bf326fd8cf826ff41ab1084f133bda4fb00ff",
+    "D12_I5_N-1-expanded.txt": "acc3b7aa74000c9a4845d8f44315d3908593cf85093abe9e32c6ddb370971b48",
+    "D12_I5_S-0-expanded.txt": "e516a731082b1ea3ec1872207e979a10645e104f4155d060c2138d38d95628db",
+    "D12_I5_S-1-expanded.txt": "3b68025a75d1532508f6081063c693cb27109fe0bbe79f47b4591eeef59b9b36"
+  },
+  "development_index_sha256": "84303b6d003aee22302a4a63bcf57110823365c5af776f40bdc6b2656e4a1fbb",
+  "calibration_index_sha256": "079903b890b0aa9eacf884f02b14ed41e718e966f81b98bcce270759171c066d",
+  "new_February_population_built_after_freeze": true,
+  "February_source_month_already_used": true,
+  "official_S_queue": null
+}

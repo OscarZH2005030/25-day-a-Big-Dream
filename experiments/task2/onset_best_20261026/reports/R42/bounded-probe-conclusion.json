@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "scope": "bounded early objective comparison, no full models or deployment",
+  "actual_boosting_rounds": 400,
+  "actual_trees": 2400,
+  "passed_roads": 0,
+  "reason": "No road simultaneously met fixed CDF-CE gain .01 and median MAE gain .05steps with all guards; do not loosen thresholds",
+  "all_conditional_CE_and_CDFCE_improved": true,
+  "max_observed_median_MAE_gain_steps": 0.04729729729729737,
+  "model_hashes": {
+    "conditional-control-probe-checkpoint.txt": "348e0ecac55c3b390d7bd846edf468026f769465aff65ea3a9c3ac9844e1f0ee",
+    "conditional-control-probe.txt": "348e0ecac55c3b390d7bd846edf468026f769465aff65ea3a9c3ac9844e1f0ee",
+    "conditional-ordinal-probe-checkpoint.txt": "bf33c6b1fd2fbd07e53e46c3f8e31367e616bb80c2bfe939da73f7e539f84822",
+    "conditional-ordinal-probe.txt": "bf33c6b1fd2fbd07e53e46c3f8e31367e616bb80c2bfe939da73f7e539f84822"
+  },
+  "Task1_unchanged": true,
+  "Ongoing_unchanged": true,
+  "official_S_queue": null
+}

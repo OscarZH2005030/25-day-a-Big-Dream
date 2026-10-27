@@ -1,0 +1,11 @@
+{
+  "hypothesis": "source-neutral paired timing views may improve cross-phase conditional predictions; new R40 head changes only majority-mode links, others retain frozen R38",
+  "new_models_in_policy_stage": 0,
+  "head_source": "R40 full600 trained on original+paired conditional targets; exact SHA; original X/y preserved; no coefficient search",
+  "anchor": "R31 original event curve; low concentration retains current R34 curve, no repeated CDF on already corrected curves",
+  "December": "only R40-gated roads and >=4 windows per phase; alpha.5/1, mean gain>=.004/worstphase>=-.015",
+  "January": "single global Onsetalpha0/.5/1; normalized blend preserves unmasked peaks/known queue links; fixed thresholds .5/.25 and negative false-any+.03/eligibleFP+.005",
+  "February": "both populations already viewed, only frozen paired report; no routing/tuning",
+  "Ongoing": "all probabilities and threshold unchanged",
+  "official_S_queue": null
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "independent_validation_exact_rows": 87000,
+  "Task1_package_unchanged": true,
+  "onset_predictions_identical": true,
+  "all_thresholds_identical": true,
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_score_newly_measured": false,
+  "official_S_queue": null,
+  "comparison": {
+    "new_phase_population_round13": {
+      "overall": 0.7765918671890242,
+      "windows": 367,
+      "queue_onset": 0.7001039056473557,
+      "queue_ongoing": 0.8530798287306927
+    },
+    "new_phase_population_selected": {
+      "overall": 0.7799982403658932,
+      "windows": 367,
+      "queue_onset": 0.7001039056473557,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "old410_round13": {
+      "overall": 0.7499798775194351,
+      "windows": 410,
+      "queue_onset": 0.72554426751615,
+      "queue_ongoing": 0.7744154875227202
+    },
+    "old410_selected": {
+      "overall": 0.7523207951646191,
+      "windows": 410,
+      "queue_onset": 0.72554426751615,
+      "queue_ongoing": 0.7790973228130884
+    }
+  },
+  "different_populations_not_directly_comparable": true
+}

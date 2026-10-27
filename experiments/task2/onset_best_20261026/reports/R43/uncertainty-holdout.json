@@ -1,0 +1,922 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "original_hold": {
+      "conditional_positive_views": 315,
+      "low_mode_narrow_views": 3,
+      "weighted_conditional_event_fraction": 0.011031175059952037,
+      "mode_ge_half_views": 91,
+      "interval_width_hist": {
+        "0": 22,
+        "1": 34,
+        "2": 16,
+        "3": 45,
+        "4": 106,
+        "5": 92
+      },
+      "empirical_interval_coverage": 1.0,
+      "median_first_MAE_steps": 0.8695652173913043
+    },
+    "paired_hold": {
+      "conditional_positive_views": 534,
+      "low_mode_narrow_views": 6,
+      "weighted_conditional_event_fraction": 0.008641975308641974,
+      "mode_ge_half_views": 115,
+      "interval_width_hist": {
+        "0": 4,
+        "1": 63,
+        "2": 42,
+        "3": 59,
+        "4": 209,
+        "5": 157
+      },
+      "empirical_interval_coverage": 0.9999999999999998,
+      "median_first_MAE_steps": 0.2857142857142857
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.6881090653265806,
+            "high_mode_IoU": 0.7026413837205088,
+            "extra_interval_IoU": 0.7025967686892931
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.725732054297643,
+            "high_mode_IoU": 0.7365081551263951,
+            "extra_interval_IoU": 0.7366572308568662
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.7589419005713371,
+            "high_mode_IoU": 0.7614877890770634,
+            "extra_interval_IoU": 0.7614877890770634
+          }
+        ],
+        "median_gain_vs_raw": 0.010925176559223204,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.002564501941903746
+        },
+        "negative_high_mode": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0026765019748702444
+        },
+        "negative_extra": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0026765019748702444
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.6881090653265806,
+            "high_mode_IoU": 0.7026413837205088,
+            "extra_interval_IoU": 0.7027385724329119
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.725732054297643,
+            "high_mode_IoU": 0.7365081551263951,
+            "extra_interval_IoU": 0.7366572308568662
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.7589419005713371,
+            "high_mode_IoU": 0.7614877890770634,
+            "extra_interval_IoU": 0.7615444184941581
+          }
+        ],
+        "median_gain_vs_raw": 0.010925176559223204,
+        "median_gain_vs_high_mode": 9.718871240316229e-05,
+        "negative_raw": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.002564501941903746
+        },
+        "negative_high_mode": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0026765019748702444
+        },
+        "negative_extra": {
+          "false_any": 0.21511627906976744,
+          "eligible_FP": 0.0026765019748702444
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D7_I10_W",
+    "original_hold": {
+      "conditional_positive_views": 115,
+      "low_mode_narrow_views": 2,
+      "weighted_conditional_event_fraction": 0.018072289156626505,
+      "mode_ge_half_views": 63,
+      "interval_width_hist": {
+        "0": 13,
+        "1": 28,
+        "2": 39,
+        "3": 28,
+        "4": 7,
+        "5": 0
+      },
+      "empirical_interval_coverage": 1.0,
+      "median_first_MAE_steps": 0.3333333333333333
+    },
+    "paired_hold": {
+      "conditional_positive_views": 81,
+      "low_mode_narrow_views": 2,
+      "weighted_conditional_event_fraction": 0.015873015873015872,
+      "mode_ge_half_views": 43,
+      "interval_width_hist": {
+        "0": 4,
+        "1": 22,
+        "2": 31,
+        "3": 19,
+        "4": 5,
+        "5": 0
+      },
+      "empirical_interval_coverage": 1.0,
+      "median_first_MAE_steps": 0.5
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.6961044514649569,
+            "high_mode_IoU": 0.674585934646716,
+            "extra_interval_IoU": 0.6749258724866539
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.7346943037257293,
+            "high_mode_IoU": 0.7376683681896282,
+            "extra_interval_IoU": 0.736557655540454
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.7898096923079353,
+            "high_mode_IoU": 0.796799795926597,
+            "extra_interval_IoU": 0.796799795926597
+          }
+        ],
+        "median_gain_vs_raw": 0.0018633518147247452,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "negative_high_mode": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 5.5474193405227886e-05
+        },
+        "negative_extra": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 5.5474193405227886e-05
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.6961044514649569,
+            "high_mode_IoU": 0.674585934646716,
+            "extra_interval_IoU": 0.6758709743932942
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.7346943037257293,
+            "high_mode_IoU": 0.7376683681896282,
+            "extra_interval_IoU": 0.736557655540454
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.7898096923079353,
+            "high_mode_IoU": 0.796799795926597,
+            "extra_interval_IoU": 0.7948508189776201
+          }
+        ],
+        "median_gain_vs_raw": 0.0018633518147247452,
+        "median_gain_vs_high_mode": -0.0011107126491741726,
+        "negative_raw": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 4.437935472418231e-05
+        },
+        "negative_high_mode": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 5.5474193405227886e-05
+        },
+        "negative_extra": {
+          "false_any": 0.005747126436781609,
+          "eligible_FP": 5.5474193405227886e-05
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D7_I210_E",
+    "original_hold": {
+      "conditional_positive_views": 175,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 140,
+      "interval_width_hist": {
+        "0": 80,
+        "1": 25,
+        "2": 14,
+        "3": 21,
+        "4": 15,
+        "5": 20
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "paired_hold": {
+      "conditional_positive_views": 276,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 216,
+      "interval_width_hist": {
+        "0": 123,
+        "1": 56,
+        "2": 22,
+        "3": 32,
+        "4": 25,
+        "5": 18
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.7894275125217408,
+            "high_mode_IoU": 0.8622569652113735,
+            "extra_interval_IoU": 0.8622569652113735
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.8338714361635495,
+            "high_mode_IoU": 0.8940263906187987,
+            "extra_interval_IoU": 0.8940263906187987
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.8636029094571396,
+            "high_mode_IoU": 0.9140390071264755,
+            "extra_interval_IoU": 0.9140390071264755
+          }
+        ],
+        "median_gain_vs_raw": 0.06015495445524921,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0004532733927486026
+        },
+        "negative_high_mode": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0005295465012070278
+        },
+        "negative_extra": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0005295465012070278
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.7894275125217408,
+            "high_mode_IoU": 0.8622569652113735,
+            "extra_interval_IoU": 0.8622569652113735
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.8338714361635495,
+            "high_mode_IoU": 0.8940263906187987,
+            "extra_interval_IoU": 0.8940263906187987
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.8636029094571396,
+            "high_mode_IoU": 0.9140390071264755,
+            "extra_interval_IoU": 0.9140390071264755
+          }
+        ],
+        "median_gain_vs_raw": 0.06015495445524921,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0004532733927486026
+        },
+        "negative_high_mode": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0005295465012070278
+        },
+        "negative_extra": {
+          "false_any": 0.06395348837209303,
+          "eligible_FP": 0.0005295465012070278
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D7_I210_W",
+    "original_hold": {
+      "conditional_positive_views": 171,
+      "low_mode_narrow_views": 1,
+      "weighted_conditional_event_fraction": 0.0045045045045045045,
+      "mode_ge_half_views": 52,
+      "interval_width_hist": {
+        "0": 9,
+        "1": 10,
+        "2": 27,
+        "3": 35,
+        "4": 69,
+        "5": 21
+      },
+      "empirical_interval_coverage": 1.0,
+      "median_first_MAE_steps": 0.0
+    },
+    "paired_hold": {
+      "conditional_positive_views": 441,
+      "low_mode_narrow_views": 3,
+      "weighted_conditional_event_fraction": 0.007122507122507123,
+      "mode_ge_half_views": 135,
+      "interval_width_hist": {
+        "0": 4,
+        "1": 30,
+        "2": 79,
+        "3": 110,
+        "4": 161,
+        "5": 57
+      },
+      "empirical_interval_coverage": 1.0,
+      "median_first_MAE_steps": 0.2
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5747650373497032,
+            "high_mode_IoU": 0.5809581383035112,
+            "extra_interval_IoU": 0.5805705414042864
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.645581742095897,
+            "high_mode_IoU": 0.6449391871348206,
+            "extra_interval_IoU": 0.6446864065483696
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.6789840352017573,
+            "high_mode_IoU": 0.6746294309123325,
+            "extra_interval_IoU": 0.6755984231603945
+          }
+        ],
+        "median_gain_vs_raw": -0.0008953355475274094,
+        "median_gain_vs_high_mode": -0.00025278058645095136,
+        "negative_raw": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009088904909304962
+        },
+        "negative_high_mode": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "negative_extra": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5747650373497032,
+            "high_mode_IoU": 0.5809581383035112,
+            "extra_interval_IoU": 0.5805761587506519
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.645581742095897,
+            "high_mode_IoU": 0.6449391871348206,
+            "extra_interval_IoU": 0.6440853399283312
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.6789840352017573,
+            "high_mode_IoU": 0.6746294309123325,
+            "extra_interval_IoU": 0.6758534211204109
+          }
+        ],
+        "median_gain_vs_raw": -0.0014964021675658579,
+        "median_gain_vs_high_mode": -0.00038197955285923513,
+        "negative_raw": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009088904909304962
+        },
+        "negative_high_mode": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "negative_extra": {
+          "false_any": 0.09883720930232558,
+          "eligible_FP": 0.0009252678247005584
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D7_I405_N",
+    "original_hold": {
+      "conditional_positive_views": 183,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 41,
+      "interval_width_hist": {
+        "0": 3,
+        "1": 12,
+        "2": 26,
+        "3": 48,
+        "4": 63,
+        "5": 31
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "paired_hold": {
+      "conditional_positive_views": 435,
+      "low_mode_narrow_views": 3,
+      "weighted_conditional_event_fraction": 0.008264462809917356,
+      "mode_ge_half_views": 98,
+      "interval_width_hist": {
+        "0": 2,
+        "1": 26,
+        "2": 93,
+        "3": 114,
+        "4": 130,
+        "5": 70
+      },
+      "empirical_interval_coverage": 1.0,
+      "median_first_MAE_steps": 0.6666666666666666
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5570967602895139,
+            "high_mode_IoU": 0.5569681516103245,
+            "extra_interval_IoU": 0.5569532061793196
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.6010194674040336,
+            "high_mode_IoU": 0.6025326552228558,
+            "extra_interval_IoU": 0.6025326552228558
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.6329682402844223,
+            "high_mode_IoU": 0.6313002021320617,
+            "extra_interval_IoU": 0.6313002021320617
+          }
+        ],
+        "median_gain_vs_raw": -0.00014355411019428832,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_high_mode": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_extra": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5570967602895139,
+            "high_mode_IoU": 0.5569681516103245,
+            "extra_interval_IoU": 0.5569532061793196
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.6010194674040336,
+            "high_mode_IoU": 0.6025326552228558,
+            "extra_interval_IoU": 0.6026328958002416
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.6329682402844223,
+            "high_mode_IoU": 0.6313002021320617,
+            "extra_interval_IoU": 0.6313002021320617
+          }
+        ],
+        "median_gain_vs_raw": -0.00014355411019428832,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_high_mode": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "negative_extra": {
+          "false_any": 0.1511627906976744,
+          "eligible_FP": 0.0002943897941592513
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D7_I405_S",
+    "original_hold": {
+      "conditional_positive_views": 282,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 58,
+      "interval_width_hist": {
+        "0": 5,
+        "1": 5,
+        "2": 24,
+        "3": 62,
+        "4": 135,
+        "5": 51
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "paired_hold": {
+      "conditional_positive_views": 420,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 72,
+      "interval_width_hist": {
+        "0": 0,
+        "1": 9,
+        "2": 44,
+        "3": 90,
+        "4": 206,
+        "5": 71
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5952451789396281,
+            "high_mode_IoU": 0.5950644065736446,
+            "extra_interval_IoU": 0.5950644065736446
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.6392591421438191,
+            "high_mode_IoU": 0.6415643696496782,
+            "extra_interval_IoU": 0.6415643696496782
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.6610112592850257,
+            "high_mode_IoU": 0.6659759545918196,
+            "extra_interval_IoU": 0.6659759545918196
+          }
+        ],
+        "median_gain_vs_raw": 0.002305227505859153,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007945155194048239
+        },
+        "negative_high_mode": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007952915472372267
+        },
+        "negative_extra": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007952915472372267
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5952451789396281,
+            "high_mode_IoU": 0.5950644065736446,
+            "extra_interval_IoU": 0.5947894185476192
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.6392591421438191,
+            "high_mode_IoU": 0.6415643696496782,
+            "extra_interval_IoU": 0.6415643696496782
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.6610112592850257,
+            "high_mode_IoU": 0.6659759545918196,
+            "extra_interval_IoU": 0.6659759545918196
+          }
+        ],
+        "median_gain_vs_raw": 0.002305227505859153,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007945155194048239
+        },
+        "negative_high_mode": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007952915472372267
+        },
+        "negative_extra": {
+          "false_any": 0.05813953488372093,
+          "eligible_FP": 0.0007952915472372267
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D12_I5_N",
+    "original_hold": {
+      "conditional_positive_views": 252,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 47,
+      "interval_width_hist": {
+        "0": 7,
+        "1": 6,
+        "2": 19,
+        "3": 76,
+        "4": 101,
+        "5": 43
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "paired_hold": {
+      "conditional_positive_views": 459,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 72,
+      "interval_width_hist": {
+        "0": 1,
+        "1": 19,
+        "2": 38,
+        "3": 139,
+        "4": 200,
+        "5": 62
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.48233128982341056,
+            "high_mode_IoU": 0.4830808963818451,
+            "extra_interval_IoU": 0.4830808963818451
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.5347626715885997,
+            "high_mode_IoU": 0.537835250677771,
+            "extra_interval_IoU": 0.537835250677771
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.5681140643413065,
+            "high_mode_IoU": 0.5701573519149552,
+            "extra_interval_IoU": 0.5701573519149552
+          }
+        ],
+        "median_gain_vs_raw": 0.002043287573648689,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00019324982923557554
+        },
+        "negative_high_mode": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017848097842591975
+        },
+        "negative_extra": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017848097842591975
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.48233128982341056,
+            "high_mode_IoU": 0.4830808963818451,
+            "extra_interval_IoU": 0.48322624521905433
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.5347626715885997,
+            "high_mode_IoU": 0.537835250677771,
+            "extra_interval_IoU": 0.537835250677771
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.5681140643413065,
+            "high_mode_IoU": 0.5701573519149552,
+            "extra_interval_IoU": 0.5701573519149552
+          }
+        ],
+        "median_gain_vs_raw": 0.002043287573648689,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00019324982923557554
+        },
+        "negative_high_mode": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017848097842591975
+        },
+        "negative_extra": {
+          "false_any": 0.06976744186046512,
+          "eligible_FP": 0.00017848097842591975
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  },
+  {
+    "panel": "D12_I5_S",
+    "original_hold": {
+      "conditional_positive_views": 203,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 24,
+      "interval_width_hist": {
+        "0": 8,
+        "1": 0,
+        "2": 7,
+        "3": 24,
+        "4": 105,
+        "5": 59
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "paired_hold": {
+      "conditional_positive_views": 369,
+      "low_mode_narrow_views": 0,
+      "weighted_conditional_event_fraction": 0.0,
+      "mode_ge_half_views": 20,
+      "interval_width_hist": {
+        "0": 0,
+        "1": 2,
+        "2": 8,
+        "3": 46,
+        "4": 214,
+        "5": 99
+      },
+      "empirical_interval_coverage": null,
+      "median_first_MAE_steps": null
+    },
+    "local_uncertainty_gate": false,
+    "adjustments": [
+      {
+        "alpha": 0.5,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5183776715700262,
+            "high_mode_IoU": 0.5197056251600825,
+            "extra_interval_IoU": 0.5197056251600825
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.5717688082672724,
+            "high_mode_IoU": 0.5731174527062222,
+            "extra_interval_IoU": 0.5731174527062222
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.593201136693782,
+            "high_mode_IoU": 0.591884626522429,
+            "extra_interval_IoU": 0.591884626522429
+          }
+        ],
+        "median_gain_vs_raw": 0.001327953590056219,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_high_mode": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_extra": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "eligible": false
+      },
+      {
+        "alpha": 1.0,
+        "reports": [
+          {
+            "threshold": 0.1,
+            "raw_IoU": 0.5183776715700262,
+            "high_mode_IoU": 0.5197056251600825,
+            "extra_interval_IoU": 0.5197056251600825
+          },
+          {
+            "threshold": 0.2,
+            "raw_IoU": 0.5717688082672724,
+            "high_mode_IoU": 0.5731174527062222,
+            "extra_interval_IoU": 0.5731174527062222
+          },
+          {
+            "threshold": 0.35,
+            "raw_IoU": 0.593201136693782,
+            "high_mode_IoU": 0.591884626522429,
+            "extra_interval_IoU": 0.591884626522429
+          }
+        ],
+        "median_gain_vs_raw": 0.001327953590056219,
+        "median_gain_vs_high_mode": 0.0,
+        "negative_raw": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_high_mode": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "negative_extra": {
+          "false_any": 0.12790697674418605,
+          "eligible_FP": 0.0007703978796706324
+        },
+        "eligible": false
+      }
+    ],
+    "full_policy_trial_gate": false
+  }
+]

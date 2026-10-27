@@ -1,0 +1,14 @@
+{
+  "seed": 20261027,
+  "models": 32,
+  "rounds_per_model": 600,
+  "max_total_tree_rounds": 19200,
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "cpu_temperature": null,
+  "inputs": "490D base; +44D strictly T-60..T-5 public ramp history; +21D internal-flow/partial-balance/topological-position",
+  "ablation": "same round5 sample IDs, labels, IPW weights, tree parameters and seed; compare ramp-only vs ramp+partial-physics",
+  "Task1": "92-file frozen package guard; historical .942828633, not remeasured",
+  "selection": "December per-road/condition and half-month stability guard; January global calibration; February reused report only",
+  "official_S_queue": null
+}

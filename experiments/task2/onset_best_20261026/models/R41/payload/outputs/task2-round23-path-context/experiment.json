@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "hypothesis": "public paths bridge unobserved segments omitted from immediate sensor graph; historical endpoint context may improve onset and ongoing separately",
+  "features": "original555 unchanged +256 directional path-context history/visibility/gap/capacity-ratio features=811",
+  "graph": "R22 public consecutive sensors along directed paths, <=8 intervening unobserved links; only edges not already immediate; reachability not physical adjacency",
+  "unknowns": "no intermediate traffic state or closed conservation inferred; uniform mean/max endpoint observations, path witnesses not traffic weights",
+  "tasks": "5 structurally eligible directions x onset/ongoing separate models; original all-positive/ongoing-transition rows/IPW unchanged",
+  "max_models": 20,
+  "max_tree_rounds": 8000,
+  "early_rounds": 200,
+  "early_leaves": 31,
+  "full_rounds": 600,
+  "full_leaves": "onset31/ongoing63 as R10",
+  "fit": "June-November, early June-September with October-November original paired direct controls",
+  "training_gates": "structural coverage >=.20 or isolated reduction>=.10; temporal median gain .1/.2/.35>=-.01; actual path feature split used; Dec>=4 per phase; fixed-threshold negative guard false-any+.03 and eligible-fraction+.005",
+  "December": "fixed600, alpha .5/1, gain>=.004 and worstphase>=-.015",
+  "January": "global condition-specific blends [0,.5,1]x[0,.5,1], thresholds frozen [.5,.25], same negative guard separately per condition; no per-road January tuning",
+  "Task1": "92files frozen historical .942828633 not newly measured",
+  "CPU_threads": 4,
+  "official_S_queue": null
+}

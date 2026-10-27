@@ -1,0 +1,14 @@
+{
+  "roads": {
+    "D7_I10_E": false,
+    "D7_I10_W": false,
+    "D7_I210_E": false,
+    "D7_I210_W": false,
+    "D7_I405_N": false,
+    "D7_I405_S": false,
+    "D12_I5_N": false,
+    "D12_I5_S": false
+  },
+  "passed_roads": 0,
+  "both_original_and_paired_hold_guarded": true
+}

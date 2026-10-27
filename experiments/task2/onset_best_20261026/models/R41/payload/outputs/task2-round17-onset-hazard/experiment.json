@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "hypothesis": "Onset support localization exceeds space-time IoU; first-arrival hazard can improve timing",
+  "features": "unchanged causal555; no oracle shift, no future labels/quality/coverage as inputs",
+  "target": "hazard at each +5..+30 conditional on all previous eligible future frames observed nonqueue; first missing/low-quality censors risk set",
+  "queue_probability": "1-product(1-hazard through h); persistence approximation, no claim of calibrated hazard under informative missingness",
+  "per_road_fit_gate": ">=50 known first-arrival rows and >=90% complete positive link windows still queued at +30",
+  "max_models": 16,
+  "max_tree_rounds": 6400,
+  "full_rounds": 600,
+  "probe_rounds": 200,
+  "num_leaves": 31,
+  "control": "R10 expanded original queue-target probes200 at same555features; baseline full R15",
+  "training_months": "June-November; temporal probe June-September and October-November holdout",
+  "selection": "December phase-balanced >=4/phase, mean gain>=.004 and worst phase>=-.015; alpha .5/1",
+  "January": "global blend0/.5/1 only; original thresholds frozen",
+  "Ongoing": "R15 entire probability and threshold unchanged",
+  "Task1": "92file hash freeze, historical .942828633 not remeasured",
+  "CPU_threads": 4,
+  "official_S_queue": null
+}

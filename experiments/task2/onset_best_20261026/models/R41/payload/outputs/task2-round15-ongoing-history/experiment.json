@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "hypothesis": "Condition-specific bounded history reconstruction; all-condition R14 gate failed, only Ongoing satisfies the original reconstruction limits",
+  "reconstruction_gate_passed_ongoing": true,
+  "onset": "entire R13 probability and threshold frozen",
+  "fit_windows": "same R10 expanded Ongoing origins and exact selected cells/IPW",
+  "features": "original555 +136 reconstructed-history summaries; original missing flags remain",
+  "target": "same hard future queue labels",
+  "models": 8,
+  "full_rounds": 600,
+  "temporal_probes": 8,
+  "probe_rounds": 200,
+  "total_tree_rounds": 6400,
+  "control": "reuse R10 June-September expanded probes200; fixed rows/weights/parameters except appended features",
+  "temporal_guard": "median IoU gain at .1/.2/.35 >=-.01 on October-November original positive windows",
+  "December_guard": "fixed600, alpha .5/1; >=4 per phase, gain>=.004 and worst phase>=-.015",
+  "January": "global blend 0/.5/1 only; both thresholds frozen",
+  "CPU_threads": 4,
+  "Task1": "92file freeze; history reconstruction is not a new Task1 score",
+  "official_S_queue": null
+}

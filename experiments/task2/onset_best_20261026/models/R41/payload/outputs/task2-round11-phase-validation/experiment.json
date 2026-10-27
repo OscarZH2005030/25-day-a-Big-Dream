@@ -1,0 +1,11 @@
+{
+  "training": "none; existing round10 full600 tree candidates only",
+  "new_hypothesis": "old development/calibration population covers phase0 only; validate phase robustness before selecting policy",
+  "phase_population": "8 per phase per panel-condition; three phases, all future-positive; >=360min between any selected origins within group",
+  "selection": "December same policy across phases; gains>=.005 and worst phase>=-.02; retain temporal fit holdout guard",
+  "calibration": "January global alpha in0/.5/1 and coarse threshold grids; baseline frozen decision retained",
+  "audit": "new February proxy population built only after policy freeze; whole month already seen in prior experiments; old410 retained separately",
+  "cpu_threads": 4,
+  "official_S_queue": null,
+  "Task1": "frozen92file package .942828633 historical only"
+}

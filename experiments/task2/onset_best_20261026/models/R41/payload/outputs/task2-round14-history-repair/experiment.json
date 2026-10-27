@@ -1,0 +1,18 @@
+{
+  "hypothesis": "missing history obscures local onset trajectories; bounded-window interpolation may add useful estimates",
+  "phase": "pre-training diagnostic gate",
+  "CPU_threads": 4,
+  "Task1": "frozen historical .942828633; artificial reconstruction diagnostic is NOT Task1 score",
+  "training_gate": "fit-history mean weighted normalized RMSE improves >=2%; latest3 speed and flow RMSE each not worse than carry by >2%",
+  "methods": [
+    "past-only carry with free-speed/zero-flow defaults",
+    "linear interpolation within released <=forecast-T history, endpoint nearest value"
+  ],
+  "mask_rates": [
+    0.2,
+    0.35,
+    0.5
+  ],
+  "no_training_on_December": true,
+  "official_S_queue": null
+}

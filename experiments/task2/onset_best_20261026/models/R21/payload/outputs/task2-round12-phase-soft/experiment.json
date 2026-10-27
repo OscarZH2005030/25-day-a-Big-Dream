@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "models": 16,
+  "rounds_per_model": 600,
+  "max_tree_rounds": 9600,
+  "new_hypothesis": "factorial combination of real origin-phase coverage and soft noisy threshold targets; onset only",
+  "inputs": "same555D and exact expanded round10 row IDs/IPW weights",
+  "sigmas_kmh": [
+    2.5,
+    5.0
+  ],
+  "objective": "cross_entropy",
+  "ongoing": "entire probability path and decision threshold fixed to round11",
+  "selection": "December phase-balanced population, min4 windows per phase, temporal holdout guard, gain>=.005 and worst phase>=-.02",
+  "calibration": "January global onset mix/threshold only; ongoing frozen",
+  "audit": "same new-phase and old410 populations as round11, both repeated development-after-evaluation",
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "Task1": "92file frozen package, historical .942828633 not remeasured",
+  "official_S_queue": null
+}

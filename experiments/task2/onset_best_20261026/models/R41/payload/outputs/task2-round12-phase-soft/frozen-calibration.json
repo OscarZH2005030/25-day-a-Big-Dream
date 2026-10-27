@@ -1,0 +1,283 @@
+{
+  "selected": {
+    "alpha_phase_soft": 0.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7712520059187148
+  },
+  "candidates": [
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7712520059187148
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7334838707044592
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7404118276815775
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7540525999741409
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7659030269299267
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.767101127656774
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7697983184589892
+    },
+    {
+      "alpha_phase_soft": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7712520059187148
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7330082395241536
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7403778547498894
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7540624406787398
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.765339221694252
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7666003811751875
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7696001446234567
+    },
+    {
+      "alpha_phase_soft": 0.25,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7701464464886181
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7326767635536037
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7406401725369431
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7540847019371236
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7656917937987252
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7656550521284012
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7702844046515903
+    },
+    {
+      "alpha_phase_soft": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7704049912844895
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7325363067175654
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7397804192943818
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7530425730814182
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7638760756880096
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.765014888123161
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7692085270949243
+    },
+    {
+      "alpha_phase_soft": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7708400715848844
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-sigma2.5-checkpoint.txt": "dfcb514557155284d8f81fc45da58a26b2e1a0819cca4ea00b78f0a966846fb6",
+    "D12_I5_N-sigma2.5.txt": "dfcb514557155284d8f81fc45da58a26b2e1a0819cca4ea00b78f0a966846fb6",
+    "D12_I5_N-sigma5.0-checkpoint.txt": "3a603dfa8372ec559a6a92cf2185a5acae3ba387f8a063454a4617e7da5bfbe0",
+    "D12_I5_N-sigma5.0.txt": "3a603dfa8372ec559a6a92cf2185a5acae3ba387f8a063454a4617e7da5bfbe0",
+    "D12_I5_S-sigma2.5-checkpoint.txt": "953056984d8541d1cd16414a0f701ffabf95bdc9ffda020975bf3daf6d7eace0",
+    "D12_I5_S-sigma2.5.txt": "953056984d8541d1cd16414a0f701ffabf95bdc9ffda020975bf3daf6d7eace0",
+    "D12_I5_S-sigma5.0-checkpoint.txt": "5e0b64aa78b3ae77edebf295d34dd2526ecde4d63533eb5e8890753fdddf315b",
+    "D12_I5_S-sigma5.0.txt": "5e0b64aa78b3ae77edebf295d34dd2526ecde4d63533eb5e8890753fdddf315b",
+    "D7_I10_E-sigma2.5-checkpoint.txt": "013532cc5e6f2da98998f922e9522246b874514884fee364a3b2e656379f2b51",
+    "D7_I10_E-sigma2.5.txt": "013532cc5e6f2da98998f922e9522246b874514884fee364a3b2e656379f2b51",
+    "D7_I10_E-sigma5.0-checkpoint.txt": "6bfff15675730f82e25243ce2e95326636fceacbd08ef09a13c35a1ee185af57",
+    "D7_I10_E-sigma5.0.txt": "6bfff15675730f82e25243ce2e95326636fceacbd08ef09a13c35a1ee185af57",
+    "D7_I10_W-sigma2.5-checkpoint.txt": "dc5f45ebe7be1ca58385d65e680fd505f4a2015ab254836ff7bd65fae5ed5c46",
+    "D7_I10_W-sigma2.5.txt": "dc5f45ebe7be1ca58385d65e680fd505f4a2015ab254836ff7bd65fae5ed5c46",
+    "D7_I10_W-sigma5.0-checkpoint.txt": "6076b2d4ca7e27020c68959b1b26aef65fabd91ac6559874cab865b2d652b672",
+    "D7_I10_W-sigma5.0.txt": "6076b2d4ca7e27020c68959b1b26aef65fabd91ac6559874cab865b2d652b672",
+    "D7_I210_E-sigma2.5-checkpoint.txt": "58a60c48d5fa498709730a9f9bbfa9adbe93bf7c1caa860a8113762f140ead2e",
+    "D7_I210_E-sigma2.5.txt": "58a60c48d5fa498709730a9f9bbfa9adbe93bf7c1caa860a8113762f140ead2e",
+    "D7_I210_E-sigma5.0-checkpoint.txt": "8f29abb6f7e2a6f32bd8df540e242a2c7f3c94573a362d33ce2e9072c811ca07",
+    "D7_I210_E-sigma5.0.txt": "8f29abb6f7e2a6f32bd8df540e242a2c7f3c94573a362d33ce2e9072c811ca07",
+    "D7_I210_W-sigma2.5-checkpoint.txt": "b52dc0c0f7d5ef8ba35f91aeee1c152a47068df37060af94fde7b969841b1b69",
+    "D7_I210_W-sigma2.5.txt": "b52dc0c0f7d5ef8ba35f91aeee1c152a47068df37060af94fde7b969841b1b69",
+    "D7_I210_W-sigma5.0-checkpoint.txt": "fa017411dc27a7bc6b62e472688f9aaad91d9da634ad66608a82572d362cef37",
+    "D7_I210_W-sigma5.0.txt": "fa017411dc27a7bc6b62e472688f9aaad91d9da634ad66608a82572d362cef37",
+    "D7_I405_N-sigma2.5-checkpoint.txt": "3705e7b0f5e60de44de02f270f6e925764687d7bd60198f2c1dbd7e43b09001a",
+    "D7_I405_N-sigma2.5.txt": "3705e7b0f5e60de44de02f270f6e925764687d7bd60198f2c1dbd7e43b09001a",
+    "D7_I405_N-sigma5.0-checkpoint.txt": "178e0f9685b201073f70e03640db937a822d8b107a034b376024f54d3b2d7fd3",
+    "D7_I405_N-sigma5.0.txt": "178e0f9685b201073f70e03640db937a822d8b107a034b376024f54d3b2d7fd3",
+    "D7_I405_S-sigma2.5-checkpoint.txt": "3cd856219eb2c84991424abd7b5836c67136579c92d971a4588586d81569e228",
+    "D7_I405_S-sigma2.5.txt": "3cd856219eb2c84991424abd7b5836c67136579c92d971a4588586d81569e228",
+    "D7_I405_S-sigma5.0-checkpoint.txt": "ea0be85750ffd0445eb63949ee712250b913a4f1ded37abd175e1860cfb33583",
+    "D7_I405_S-sigma5.0.txt": "ea0be85750ffd0445eb63949ee712250b913a4f1ded37abd175e1860cfb33583"
+  },
+  "route_sha256": "b91df830f2606bcc6acaac9099feba86d1535b7800432d741c0b16e645c8166b",
+  "baseline_frozen_sha256": "a391a175db6a74f94202dbf67bd07cc2f2a8301bed1be0da58ee2eacfe52b212",
+  "ongoing_threshold_frozen": 0.25,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "seed0": "unchanged round10 complete600 hard-target model",
+  "new_models": 16,
+  "rounds_per_model": 600,
+  "new_tree_rounds": 9600,
+  "objective": "binary hard queue; NOT tuned sigma; data/labels/IPW/555features/hyperparams fixed",
+  "ensemble": "equal mean of three seeds, no performance-weighted members",
+  "selection": "December phase-balanced onset only with temporal guard; January coarse onset-only calibration",
+  "ongoing": "all probabilities and threshold frozen to round12",
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "Task1": "92file frozen package historical .942828633 not remeasured",
+  "official_S_queue": null
+}

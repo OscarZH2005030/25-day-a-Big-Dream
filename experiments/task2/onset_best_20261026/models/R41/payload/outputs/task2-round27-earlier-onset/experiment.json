@@ -1,0 +1,21 @@
+{
+  "seed": 20261027,
+  "hypothesis": "selected Onset views omit earlier legal forecast origins despite broad positive-observation group coverage; append earliest missing views while retaining later views",
+  "features": "unchanged causal R10 555; no group ID, earliest lag, future quality or sampling metadata as inputs",
+  "training_selection": "R26 June-September-only gate B; append 797 real fit-only June-November earlier Onset origins, seven directions; I10W unchanged",
+  "sampling": "original X/y/row order and within-window IPW preserved; appended windows all positives plus max192 stratified IPW negatives; positive-window mass .8, negative .2; no R25 overlap weights",
+  "early_normalization": "June-September only; October-November never contributes early fit",
+  "max_models": 14,
+  "max_tree_rounds": 5600,
+  "early_rounds": 200,
+  "full_rounds": 600,
+  "leaves": 31,
+  "CPU_threads": 4,
+  "temporal": "October-November original windows paired with R10 early200; median gain at .1/.2/.35>=-.01 and false-any increase<=.03 / eligible FP<=.005 at fixed .5",
+  "December": ">=4 per phase; fixed600 alpha.5/1, mean gain>=.004 and worst phase>=-.015",
+  "January": "Onset globalalpha0/.5/1 only; thresholds .5/.25 unchanged; negative false-any +.03 and eligibleFP+.005 guards",
+  "Ongoing": "entire parent R25 policy frozen; no new model or calibration",
+  "baseline": "R25 identical to R23; R21/R23 saved archives read-only; no February selection",
+  "Task1": "92files unchanged; historical .942828633 not remeasured",
+  "official_S_queue": null
+}

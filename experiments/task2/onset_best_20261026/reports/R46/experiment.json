@@ -1,0 +1,24 @@
+{
+  "hypothesis": "road-local conditional timing continuation may learn local transitions hidden by shared-road gradients",
+  "parent": "R41; no deployment in this stage",
+  "data": "exact read-only R40 original+paired557 targets; JuneSep fitting, OctNov two correlated held populations; no new input feature",
+  "arms": "R40 native200 source; matched shared continuation50 on all roads; local continuation50 separately per road, same parameters in both arms; one shared control reused across roads",
+  "parameters": {
+    "new_rounds": 50,
+    "new_num_leaves": 7,
+    "new_min_data_in_leaf": 20,
+    "new_learning_rate": 0.02,
+    "feature_fraction": 0.85,
+    "lambda_l2": 4,
+    "seed": 20261027
+  },
+  "weighting": "same relative R40 source window/group weights within each training subset, normalized mean1; local sample count and regularization context differ, not a pure isolated mechanism proof",
+  "classification_gate": "both source and matched shared control independently: each original/paired LL and accuracy >=-.02; at least one population LL gain>=.02 AND accuracy gain>=.03; >=20/30 views",
+  "timing_gate": "alpha .5/1, mode>=.5; median IoU(.1/.2/.35)>=+.002 vs BOTH source gated and matched control gated; >=-.01 vs raw base; negative false-any+.03/eligibleFP+.005 vs all three",
+  "full": "only passing roads, R40native600 + same fixed50 shared/local; no member, learning-rate, rounds, leaves or gate search",
+  "budget": "at most9early+9full continuations x50x6=5400 NEW trees; existing source trees retained exactly, CPU4serial",
+  "deployment": "later new directory, parentR41, Dec routephase>=4/mean+.004/worst>=-.015; Jan globalonly0/.5/1; Feb frozen repeated report only",
+  "Task1": "original92 files hash unchanged; historical score only",
+  "Ongoing": "unchanged",
+  "official_S_queue": null
+}

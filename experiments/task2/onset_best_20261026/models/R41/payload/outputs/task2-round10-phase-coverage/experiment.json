@@ -1,0 +1,19 @@
+{
+  "seed": 20261027,
+  "original_windows": 8192,
+  "target_windows": 16384,
+  "new_windows": "true public fit origins at phase +5/+10 minutes; original phase0 retained",
+  "features": 555,
+  "full_models": 16,
+  "full_rounds": 600,
+  "temporal_probes": 32,
+  "probe_rounds": 200,
+  "max_total_tree_rounds": 16000,
+  "temporal_holdout": "June-September train; October-November original positive windows evaluate paired control vs expanded",
+  "temporal_guard": "median gain over fixed .1/.2/.35 thresholds >=-.01 required before December deployment",
+  "selection": "December half-month stability; January global calibration; February repeated report only",
+  "cpu_threads": 4,
+  "GPU_training": false,
+  "Task1": "92-file frozen guard, .942828633 historical only",
+  "official_S_queue": null
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "independent_validation_exact_rows": 87000,
+  "Task1_package_unchanged": true,
+  "condition_forecast_frozen": [
+    false,
+    true
+  ],
+  "all_six_step_peaks_identical": true,
+  "known_queue_links_identical": true,
+  "all_thresholds_identical": true,
+  "comparison": {
+    "new_phase_population_round38": {
+      "overall": 0.7880982215196234,
+      "windows": 367,
+      "queue_onset": 0.7163038679548162,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "new_phase_population_selected": {
+      "overall": 0.7907029878272552,
+      "windows": 367,
+      "queue_onset": 0.72151340057008,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "old410_round38": {
+      "overall": 0.7506342421593252,
+      "windows": 410,
+      "queue_onset": 0.7221711615055622,
+      "queue_ongoing": 0.7790973228130884
+    },
+    "old410_selected": {
+      "overall": 0.7506788766138975,
+      "windows": 410,
+      "queue_onset": 0.7222604304147068,
+      "queue_ongoing": 0.7790973228130884
+    }
+  },
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_score_newly_measured": false,
+  "official_S_queue": null
+}

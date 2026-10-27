@@ -1,3 +1,7 @@
+## Task2 最新最佳参考与组会进度（2026-10-26）
+
+[方法、分人口结果、完整模型下载与复现](experiments/task2/onset_best_20261026/README.md) · [组会总结](experiments/task2/onset_best_20261026/GROUP_MEETING_20261026.md)。新367窗 R41 综合代理 IoU 0.790703／Onset 0.721513，旧410窗最佳仍为 R21 0.754464；窗口集合不可横比，官方 S_queue=null，二月是重复开发后复评。Task1 原冻结包不变。
+
 # 25-
 我们要拿到钱
 给我第一名

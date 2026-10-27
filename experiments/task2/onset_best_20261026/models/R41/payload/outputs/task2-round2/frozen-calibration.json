@@ -1,0 +1,1698 @@
+{
+  "selected": {
+    "model": "new_tree",
+    "thresholds": [
+      0.2,
+      0.15
+    ],
+    "proxy": 0.6846635950318323
+  },
+  "candidates": [
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6701181546983863
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.6674210076360717
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.6663766904958526
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.1,
+        0.45
+      ],
+      "proxy": 0.6650561972481851
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6630855697372879
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.6808402877492326
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.6781431406869178
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.6770988235466989
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.15,
+        0.45
+      ],
+      "proxy": 0.6757783302990312
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.673807702788134
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6846635950318323
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.6819664479695177
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.6809221308292985
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.2,
+        0.45
+      ],
+      "proxy": 0.6796016375816311
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6776310100707337
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.680356278198191
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.6776591311358764
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.6766148139956574
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.25,
+        0.45
+      ],
+      "proxy": 0.6752943207479898
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.6733236932370925
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.676649565395562
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.3,
+        0.25
+      ],
+      "proxy": 0.6739524183332475
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.3,
+        0.35
+      ],
+      "proxy": 0.6729081011930284
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.3,
+        0.45
+      ],
+      "proxy": 0.6715876079453609
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.6696169804344636
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.6608801780638514
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.4,
+        0.25
+      ],
+      "proxy": 0.6581830310015366
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.4,
+        0.35
+      ],
+      "proxy": 0.6571387138613176
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.4,
+        0.45
+      ],
+      "proxy": 0.65581822061365
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.6538475931027529
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.6393112797249825
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.6366141326626678
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.6355698155224487
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.5,
+        0.45
+      ],
+      "proxy": 0.6342493222747811
+    },
+    {
+      "model": "new_tree",
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.632278694763884
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.5955560708122078
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.5999992886198615
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.5988777269393357
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.1,
+        0.45
+      ],
+      "proxy": 0.5971866414540394
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.596524198661678
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.6062817891710013
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.610725006978655
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.6096034452981292
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.15,
+        0.45
+      ],
+      "proxy": 0.6079123598128329
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.6072499170204715
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.5872988651031442
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.5917420829107978
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.590620521230272
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.2,
+        0.45
+      ],
+      "proxy": 0.5889294357449757
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.5882669929526143
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.5640814561859113
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.5685246739935649
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.5674031123130392
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.25,
+        0.45
+      ],
+      "proxy": 0.5657120268277429
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.5650495840353814
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.5433130439264657
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.3,
+        0.25
+      ],
+      "proxy": 0.5477562617341194
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.3,
+        0.35
+      ],
+      "proxy": 0.5466347000535936
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.3,
+        0.45
+      ],
+      "proxy": 0.5449436145682973
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.5442811717759359
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.5038283572105322
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.4,
+        0.25
+      ],
+      "proxy": 0.508271575018186
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.4,
+        0.35
+      ],
+      "proxy": 0.5071500133376602
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.4,
+        0.45
+      ],
+      "proxy": 0.5054589278523639
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.5047964850600025
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.47654922498300656
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.4809924427906602
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.47987088111013443
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.5,
+        0.45
+      ],
+      "proxy": 0.47817979562483814
+    },
+    {
+      "model": "old_tree",
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.47751735283247676
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.39812292568809016
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.39758824050390024
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.39705406801084286
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.1,
+        0.45
+      ],
+      "proxy": 0.3954437288912639
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.39317932490161955
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.3982599890387112
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.39772530385452126
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.3971911313614638
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.15,
+        0.45
+      ],
+      "proxy": 0.3955807922418849
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.3933163882522406
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.39771971916732174
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.3971850339831318
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.39665086149007445
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.2,
+        0.45
+      ],
+      "proxy": 0.3950405223704955
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.39277611838085125
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.3981156467691317
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.39758096158494177
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.3970467890918844
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.25,
+        0.45
+      ],
+      "proxy": 0.3954364499723054
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.3931720459826612
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.3981156467691317
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.3,
+        0.25
+      ],
+      "proxy": 0.39758096158494177
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.3,
+        0.35
+      ],
+      "proxy": 0.3970467890918844
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.3,
+        0.45
+      ],
+      "proxy": 0.3954364499723054
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.3931720459826612
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.3982535144161905
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.4,
+        0.25
+      ],
+      "proxy": 0.3977188292320006
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.4,
+        0.35
+      ],
+      "proxy": 0.3971846567389432
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.4,
+        0.45
+      ],
+      "proxy": 0.39557431761936435
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.39330991362972
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.3985483692002094
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.3980136840160195
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.397479511522962
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.5,
+        0.45
+      ],
+      "proxy": 0.39586917240338315
+    },
+    {
+      "model": "new_neural",
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.3936047684137388
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6744456690418256
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.6738023525665279
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.6714873866857101
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.1,
+        0.45
+      ],
+      "proxy": 0.6712498239590658
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6721422839028388
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.678690050234943
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.6780467337596452
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.6757317678788275
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.15,
+        0.45
+      ],
+      "proxy": 0.6754942051521833
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.6763866650959562
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6718593834550576
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.6712160669797599
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.6689011010989421
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.2,
+        0.45
+      ],
+      "proxy": 0.6686635383722979
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6695559983160708
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.6632355043465223
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.6625921878712246
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.6602772219904067
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.25,
+        0.45
+      ],
+      "proxy": 0.6600396592637627
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.6609321192075357
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.653530195041572
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.3,
+        0.25
+      ],
+      "proxy": 0.6528868785662743
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.3,
+        0.35
+      ],
+      "proxy": 0.6505719126854564
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.3,
+        0.45
+      ],
+      "proxy": 0.6503343499588123
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.6512268099025852
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.6237106785333233
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.4,
+        0.25
+      ],
+      "proxy": 0.6230673620580255
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.4,
+        0.35
+      ],
+      "proxy": 0.6207523961772077
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.4,
+        0.45
+      ],
+      "proxy": 0.6205148334505636
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.6214072933943365
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.5610837424562142
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.5604404259809165
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.5581254601000987
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.5,
+        0.45
+      ],
+      "proxy": 0.5578878973734545
+    },
+    {
+      "model": "blend-0.25",
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.5587803573172274
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6763000547734623
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.6739444791403447
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.6742455445379032
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.1,
+        0.45
+      ],
+      "proxy": 0.6713032490081351
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6664268661013295
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.6675425890593819
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.6651870134262642
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.6654880788238229
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.15,
+        0.45
+      ],
+      "proxy": 0.6625457832940547
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.657669400387249
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.651452145618296
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.6490965699851783
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.6493976353827366
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.2,
+        0.45
+      ],
+      "proxy": 0.6464553398529687
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.641578956946163
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.6301438990914059
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.6277883234582883
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.6280893888558468
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.25,
+        0.45
+      ],
+      "proxy": 0.6251470933260785
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.6202707104192728
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.5911627817278298
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.3,
+        0.25
+      ],
+      "proxy": 0.5888072060947122
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.3,
+        0.35
+      ],
+      "proxy": 0.5891082714922705
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.3,
+        0.45
+      ],
+      "proxy": 0.5861659759625024
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.5812895930556968
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.4812536041516712
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.4,
+        0.25
+      ],
+      "proxy": 0.47889802851855356
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.4,
+        0.35
+      ],
+      "proxy": 0.47919909391611204
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.4,
+        0.45
+      ],
+      "proxy": 0.4762567983863438
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.4713804154795383
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.40865644782148247
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.4063008721883649
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.4066019375859234
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.5,
+        0.45
+      ],
+      "proxy": 0.4036596420561552
+    },
+    {
+      "model": "blend-0.5",
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.39878325914934953
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6500398808372785
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.6434723160353947
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.6423809514809169
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.1,
+        0.45
+      ],
+      "proxy": 0.6416621313307662
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6417009713289414
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.596611215282295
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.5900436504804112
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.5889522859259334
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.15,
+        0.45
+      ],
+      "proxy": 0.5882334657757827
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.5882723057739578
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.4865800108238415
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.4800124460219578
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.4789210814674799
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.2,
+        0.45
+      ],
+      "proxy": 0.47820226131732935
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.47824110131550446
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.40878794246472455
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.4022203776628407
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.401129013108363
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.25,
+        0.45
+      ],
+      "proxy": 0.40041019295821234
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.40044903295638745
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.3,
+        0.15
+      ],
+      "proxy": 0.4066829620555963
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.3,
+        0.25
+      ],
+      "proxy": 0.40011539725371237
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.3,
+        0.35
+      ],
+      "proxy": 0.3990240326992347
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.3,
+        0.45
+      ],
+      "proxy": 0.398305212549084
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "proxy": 0.39834405254725913
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.4,
+        0.15
+      ],
+      "proxy": 0.40599606819455303
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.4,
+        0.25
+      ],
+      "proxy": 0.3994285033926692
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.4,
+        0.35
+      ],
+      "proxy": 0.39833713883819144
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.4,
+        0.45
+      ],
+      "proxy": 0.39761831868804076
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.4,
+        0.5
+      ],
+      "proxy": 0.397657158686216
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.5,
+        0.15
+      ],
+      "proxy": 0.40578688652010436
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.3992193217182205
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.5,
+        0.35
+      ],
+      "proxy": 0.3981279571637427
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.5,
+        0.45
+      ],
+      "proxy": 0.39740913701359204
+    },
+    {
+      "model": "blend-0.75",
+      "thresholds": [
+        0.5,
+        0.5
+      ],
+      "proxy": 0.39744797701176726
+    }
+  ],
+  "selection_month": "January",
+  "february": "previously inspected first round; report only this round",
+  "hashes": {
+    "selected-tree.txt": "168a42baf4ad77d7b8e06218bae6423e06bd503296a95dee3f51340654a274ea",
+    "best.pt": "6804da416903bc82582c564d7c01f1ad679cf4b26f1d2a458b84ef5f06e4e2cc"
+  }
+}

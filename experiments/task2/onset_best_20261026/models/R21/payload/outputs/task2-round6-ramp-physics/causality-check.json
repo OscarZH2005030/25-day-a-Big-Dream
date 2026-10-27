@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "panel": "D7_I10_E",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 0,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 1,
+      "passed": true,
+      "ramp_T_and_future_perturbed": true,
+      "mainline_future_perturbed": true
+    }
+  ],
+  "ramps_cutoff": "T-5",
+  "external_boundary_flows_not_fabricated": true
+}

@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "independent_validation_exact_rows": 87000,
+  "Task1_package_unchanged": true,
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_score_newly_measured": false,
+  "official_S_queue": null,
+  "comparison": {
+    "official_persistence": {
+      "overall": 0.27120636405785353,
+      "queue_onset": 0.0019181585677749361,
+      "queue_ongoing": 0.5404945695479322
+    },
+    "carry_T": {
+      "overall": 0.3390507037410652,
+      "queue_onset": 0.005115089514066496,
+      "queue_ongoing": 0.672986317968064
+    },
+    "round6_frozen": {
+      "overall": 0.7316489722544108,
+      "queue_onset": 0.6979417339692682,
+      "queue_ongoing": 0.7653562105395535
+    },
+    "independent_fixed05": {
+      "overall": 0.5624238788833572,
+      "queue_onset": 0.4070443422356849,
+      "queue_ongoing": 0.7178034155310296
+    },
+    "pattern_fixed05": {
+      "overall": 0.567341011298904,
+      "queue_onset": 0.415804824503032,
+      "queue_ongoing": 0.718877198094776
+    },
+    "selected": {
+      "overall": 0.7316489722544108,
+      "queue_onset": 0.6979417339692682,
+      "queue_ongoing": 0.7653562105395535
+    },
+    "selected_360min_spacing_diagnostic": {
+      "overall": 0.7352329198033942,
+      "queue_onset": 0.6966374622605848,
+      "queue_ongoing": 0.7738283773462036
+    }
+  }
+}

@@ -1,0 +1,5 @@
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==26.0.0
+lightgbm==4.7.0
+torch==2.9.1+cu128

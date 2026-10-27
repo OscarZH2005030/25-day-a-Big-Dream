@@ -1,0 +1,7442 @@
+{
+  "D7_I10_E": {
+    "link_ids": [
+      "L10E-002",
+      "L10E-008",
+      "L10E-012",
+      "L10E-014",
+      "L10E-017",
+      "L10E-020",
+      "L10E-021",
+      "L10E-022",
+      "L10E-023",
+      "L10E-024",
+      "L10E-025",
+      "L10E-026",
+      "L10E-027",
+      "L10E-028",
+      "L10E-034",
+      "L10E-043",
+      "L10E-049",
+      "L10E-052",
+      "L10E-053",
+      "L10E-054",
+      "L10E-055",
+      "L10E-056",
+      "L10E-057",
+      "L10E-069",
+      "L10E-073",
+      "L10E-076",
+      "L10E-077",
+      "L10E-078",
+      "L10E-083",
+      "L10E-084",
+      "L10E-085",
+      "L10E-086",
+      "L10E-088",
+      "L10E-089",
+      "L10E-090",
+      "L10E-095",
+      "L10E-098",
+      "L10E-100",
+      "L10E-102",
+      "L10E-104",
+      "L10E-106",
+      "L10E-110",
+      "L10E-117",
+      "L10E-118",
+      "L10E-119",
+      "L10E-120",
+      "L10E-121",
+      "L10E-122",
+      "L10E-123",
+      "L10E-124",
+      "L10E-125",
+      "L10E-126",
+      "L10E-127",
+      "L10E-128",
+      "L10E-129",
+      "L10E-130",
+      "L10E-131",
+      "L10E-132",
+      "L10E-133",
+      "L10E-134",
+      "L10E-135",
+      "L10E-136",
+      "L10E-137",
+      "L10E-146",
+      "L10E-147",
+      "L10E-151",
+      "L10E-154",
+      "L10E-157",
+      "L10E-161",
+      "L10E-162",
+      "L10E-163",
+      "L10E-164",
+      "L10E-165",
+      "L10E-166",
+      "L10E-168",
+      "L10E-169",
+      "L10E-170",
+      "L10E-171",
+      "L10E-172",
+      "L10E-175",
+      "L10E-176",
+      "L10E-177",
+      "L10E-178",
+      "L10E-179",
+      "L10E-180",
+      "L10E-181",
+      "L10E-185",
+      "L10E-187",
+      "L10E-190",
+      "L10E-191",
+      "L10E-195",
+      "L10E-199",
+      "L10E-203",
+      "L10E-204",
+      "L10E-205",
+      "L10E-206",
+      "L10E-207",
+      "L10E-208",
+      "L10E-209",
+      "L10E-210",
+      "L10E-211",
+      "L10E-213",
+      "L10E-214",
+      "L10E-215",
+      "L10E-216",
+      "L10E-217",
+      "L10E-221",
+      "L10E-222",
+      "L10E-224",
+      "L10E-226",
+      "L10E-231",
+      "L10E-233",
+      "L10E-243",
+      "L10E-246",
+      "L10E-248",
+      "L10E-249",
+      "L10E-253",
+      "L10E-254",
+      "L10E-258",
+      "L10E-262",
+      "L10E-263",
+      "L10E-266",
+      "L10E-273",
+      "L10E-282",
+      "L10E-284",
+      "L10E-288",
+      "L10E-290",
+      "L10E-293",
+      "L10E-294",
+      "L10E-298",
+      "L10E-303",
+      "L10E-304",
+      "L10E-308",
+      "L10E-311",
+      "L10E-317",
+      "L10E-322",
+      "L10E-323",
+      "L10E-324",
+      "L10E-325",
+      "L10E-326",
+      "L10E-329",
+      "L10E-331",
+      "L10E-333",
+      "L10E-337",
+      "L10E-349",
+      "L10E-351"
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 133,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_077",
+          "sequence": [
+            "L10E-002",
+            "L10E-312",
+            "L10E-311"
+          ]
+        },
+        "witness_path_count": 1216
+      },
+      {
+        "source": 2,
+        "target": 120,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_032",
+          "sequence": [
+            "L10E-012",
+            "L10E-167",
+            "L10E-152",
+            "L10E-263"
+          ]
+        },
+        "witness_path_count": 1891
+      },
+      {
+        "source": 4,
+        "target": 60,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_028",
+          "sequence": [
+            "L10E-017",
+            "L10E-018",
+            "L10E-019",
+            "L10E-255",
+            "L10E-174",
+            "L10E-135"
+          ]
+        },
+        "witness_path_count": 1755
+      },
+      {
+        "source": 13,
+        "target": 105,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_050",
+          "sequence": [
+            "L10E-028",
+            "L10E-218",
+            "L10E-217"
+          ]
+        },
+        "witness_path_count": 2107
+      },
+      {
+        "source": 16,
+        "target": 101,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_057",
+          "sequence": [
+            "L10E-049",
+            "L10E-144",
+            "L10E-301",
+            "L10E-139",
+            "L10E-213"
+          ]
+        },
+        "witness_path_count": 2016
+      },
+      {
+        "source": 24,
+        "target": 109,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_055",
+          "sequence": [
+            "L10E-073",
+            "L10E-227",
+            "L10E-226"
+          ]
+        },
+        "witness_path_count": 2052
+      },
+      {
+        "source": 29,
+        "target": 86,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_039",
+          "sequence": [
+            "L10E-084",
+            "L10E-244",
+            "L10E-185"
+          ]
+        },
+        "witness_path_count": 2052
+      },
+      {
+        "source": 35,
+        "target": 65,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_092",
+          "sequence": [
+            "L10E-095",
+            "L10E-265",
+            "L10E-151"
+          ]
+        },
+        "witness_path_count": 91
+      },
+      {
+        "source": 36,
+        "target": 104,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_069",
+          "sequence": [
+            "L10E-098",
+            "L10E-338",
+            "L10E-234",
+            "L10E-235",
+            "L10E-216"
+          ]
+        },
+        "witness_path_count": 1632
+      },
+      {
+        "source": 38,
+        "target": 37,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_082",
+          "sequence": [
+            "L10E-102",
+            "L10E-319",
+            "L10E-260",
+            "L10E-318",
+            "L10E-194",
+            "L10E-099",
+            "L10E-100"
+          ]
+        },
+        "witness_path_count": 891
+      },
+      {
+        "source": 39,
+        "target": 116,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_079",
+          "sequence": [
+            "L10E-104",
+            "L10E-242",
+            "L10E-316",
+            "L10E-300",
+            "L10E-241",
+            "L10E-159",
+            "L10E-253"
+          ]
+        },
+        "witness_path_count": 1092
+      },
+      {
+        "source": 40,
+        "target": 132,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_073",
+          "sequence": [
+            "L10E-106",
+            "L10E-094",
+            "L10E-093",
+            "L10E-352",
+            "L10E-310",
+            "L10E-309",
+            "L10E-308"
+          ]
+        },
+        "witness_path_count": 1440
+      },
+      {
+        "source": 42,
+        "target": 1,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_061",
+          "sequence": [
+            "L10E-117",
+            "L10E-087",
+            "L10E-008"
+          ]
+        },
+        "witness_path_count": 1920
+      },
+      {
+        "source": 59,
+        "target": 2,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_031",
+          "sequence": [
+            "L10E-134",
+            "L10E-228",
+            "L10E-012"
+          ]
+        },
+        "witness_path_count": 1860
+      },
+      {
+        "source": 63,
+        "target": 110,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_059",
+          "sequence": [
+            "L10E-146",
+            "L10E-232",
+            "L10E-256",
+            "L10E-231"
+          ]
+        },
+        "witness_path_count": 1972
+      },
+      {
+        "source": 67,
+        "target": 114,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_035",
+          "sequence": [
+            "L10E-157",
+            "L10E-247",
+            "L10E-248"
+          ]
+        },
+        "witness_path_count": 1972
+      },
+      {
+        "source": 68,
+        "target": 67,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_034",
+          "sequence": [
+            "L10E-161",
+            "L10E-237",
+            "L10E-236",
+            "L10E-157"
+          ]
+        },
+        "witness_path_count": 1947
+      },
+      {
+        "source": 74,
+        "target": 4,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_027",
+          "sequence": [
+            "L10E-168",
+            "L10E-252",
+            "L10E-251",
+            "L10E-016",
+            "L10E-017"
+          ]
+        },
+        "witness_path_count": 1716
+      },
+      {
+        "source": 90,
+        "target": 126,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_063",
+          "sequence": [
+            "L10E-195",
+            "L10E-197",
+            "L10E-007",
+            "L10E-112",
+            "L10E-113",
+            "L10E-290"
+          ]
+        },
+        "witness_path_count": 1860
+      },
+      {
+        "source": 101,
+        "target": 63,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_058",
+          "sequence": [
+            "L10E-213",
+            "L10E-145",
+            "L10E-146"
+          ]
+        },
+        "witness_path_count": 1995
+      },
+      {
+        "source": 102,
+        "target": 13,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_049",
+          "sequence": [
+            "L10E-214",
+            "L10E-031",
+            "L10E-028"
+          ]
+        },
+        "witness_path_count": 2112
+      },
+      {
+        "source": 104,
+        "target": 144,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_070",
+          "sequence": [
+            "L10E-216",
+            "L10E-339",
+            "L10E-108",
+            "L10E-349"
+          ]
+        },
+        "witness_path_count": 1587
+      },
+      {
+        "source": 105,
+        "target": 107,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_051",
+          "sequence": [
+            "L10E-217",
+            "L10E-068",
+            "L10E-222"
+          ]
+        },
+        "witness_path_count": 2100
+      },
+      {
+        "source": 106,
+        "target": 24,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_054",
+          "sequence": [
+            "L10E-221",
+            "L10E-072",
+            "L10E-073"
+          ]
+        },
+        "witness_path_count": 2067
+      },
+      {
+        "source": 108,
+        "target": 115,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_037",
+          "sequence": [
+            "L10E-224",
+            "L10E-250",
+            "L10E-249"
+          ]
+        },
+        "witness_path_count": 2016
+      },
+      {
+        "source": 109,
+        "target": 16,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_056",
+          "sequence": [
+            "L10E-226",
+            "L10E-048",
+            "L10E-049"
+          ]
+        },
+        "witness_path_count": 2035
+      },
+      {
+        "source": 110,
+        "target": 42,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_060",
+          "sequence": [
+            "L10E-231",
+            "L10E-059",
+            "L10E-058",
+            "L10E-299",
+            "L10E-220",
+            "L10E-219",
+            "L10E-116",
+            "L10E-117"
+          ]
+        },
+        "witness_path_count": 1947
+      },
+      {
+        "source": 111,
+        "target": 121,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_046",
+          "sequence": [
+            "L10E-233",
+            "L10E-188",
+            "L10E-044",
+            "L10E-266"
+          ]
+        },
+        "witness_path_count": 2115
+      },
+      {
+        "source": 113,
+        "target": 66,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_042",
+          "sequence": [
+            "L10E-246",
+            "L10E-245",
+            "L10E-156",
+            "L10E-223",
+            "L10E-302",
+            "L10E-154"
+          ]
+        },
+        "witness_path_count": 2091
+      },
+      {
+        "source": 114,
+        "target": 108,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_036",
+          "sequence": [
+            "L10E-248",
+            "L10E-225",
+            "L10E-224"
+          ]
+        },
+        "witness_path_count": 1995
+      },
+      {
+        "source": 116,
+        "target": 118,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_080",
+          "sequence": [
+            "L10E-253",
+            "L10E-091",
+            "L10E-092",
+            "L10E-259",
+            "L10E-315",
+            "L10E-258"
+          ]
+        },
+        "witness_path_count": 1027
+      },
+      {
+        "source": 118,
+        "target": 38,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_081",
+          "sequence": [
+            "L10E-258",
+            "L10E-101",
+            "L10E-353",
+            "L10E-102"
+          ]
+        },
+        "witness_path_count": 960
+      },
+      {
+        "source": 120,
+        "target": 68,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_033",
+          "sequence": [
+            "L10E-263",
+            "L10E-264",
+            "L10E-161"
+          ]
+        },
+        "witness_path_count": 1920
+      },
+      {
+        "source": 121,
+        "target": 103,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_047",
+          "sequence": [
+            "L10E-266",
+            "L10E-045",
+            "L10E-215"
+          ]
+        },
+        "witness_path_count": 2116
+      },
+      {
+        "source": 122,
+        "target": 36,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_068",
+          "sequence": [
+            "L10E-273",
+            "L10E-272",
+            "L10E-295",
+            "L10E-138",
+            "L10E-042",
+            "L10E-097",
+            "L10E-098"
+          ]
+        },
+        "witness_path_count": 1675
+      },
+      {
+        "source": 124,
+        "target": 123,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_066",
+          "sequence": [
+            "L10E-284",
+            "L10E-270",
+            "L10E-280",
+            "L10E-283",
+            "L10E-282"
+          ]
+        },
+        "witness_path_count": 1755
+      },
+      {
+        "source": 125,
+        "target": 124,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_065",
+          "sequence": [
+            "L10E-288",
+            "L10E-287",
+            "L10E-286",
+            "L10E-285",
+            "L10E-284"
+          ]
+        },
+        "witness_path_count": 1792
+      },
+      {
+        "source": 126,
+        "target": 125,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_064",
+          "sequence": [
+            "L10E-290",
+            "L10E-291",
+            "L10E-111",
+            "L10E-289",
+            "L10E-288"
+          ]
+        },
+        "witness_path_count": 1827
+      },
+      {
+        "source": 130,
+        "target": 131,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_075",
+          "sequence": [
+            "L10E-303",
+            "L10E-306",
+            "L10E-305",
+            "L10E-304"
+          ]
+        },
+        "witness_path_count": 1332
+      },
+      {
+        "source": 131,
+        "target": 0,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_076",
+          "sequence": [
+            "L10E-304",
+            "L10E-001",
+            "L10E-192",
+            "L10E-002"
+          ]
+        },
+        "witness_path_count": 1275
+      },
+      {
+        "source": 132,
+        "target": 130,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_074",
+          "sequence": [
+            "L10E-308",
+            "L10E-307",
+            "L10E-303"
+          ]
+        },
+        "witness_path_count": 1387
+      },
+      {
+        "source": 133,
+        "target": 39,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_078",
+          "sequence": [
+            "L10E-311",
+            "L10E-314",
+            "L10E-313",
+            "L10E-103",
+            "L10E-104"
+          ]
+        },
+        "witness_path_count": 1155
+      },
+      {
+        "source": 136,
+        "target": 138,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_084",
+          "sequence": [
+            "L10E-323",
+            "L10E-320",
+            "L10E-321",
+            "L10E-160",
+            "L10E-325"
+          ]
+        },
+        "witness_path_count": 747
+      },
+      {
+        "source": 139,
+        "target": 35,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_091",
+          "sequence": [
+            "L10E-326",
+            "L10E-267",
+            "L10E-096",
+            "L10E-095"
+          ]
+        },
+        "witness_path_count": 180
+      },
+      {
+        "source": 140,
+        "target": 139,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_090",
+          "sequence": [
+            "L10E-329",
+            "L10E-328",
+            "L10E-327",
+            "L10E-326"
+          ]
+        },
+        "witness_path_count": 267
+      },
+      {
+        "source": 141,
+        "target": 140,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_089",
+          "sequence": [
+            "L10E-331",
+            "L10E-330",
+            "L10E-329"
+          ]
+        },
+        "witness_path_count": 352
+      },
+      {
+        "source": 142,
+        "target": 141,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_088",
+          "sequence": [
+            "L10E-333",
+            "L10E-332",
+            "L10E-331"
+          ]
+        },
+        "witness_path_count": 435
+      },
+      {
+        "source": 143,
+        "target": 142,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_087",
+          "sequence": [
+            "L10E-337",
+            "L10E-336",
+            "L10E-335",
+            "L10E-334",
+            "L10E-333"
+          ]
+        },
+        "witness_path_count": 516
+      },
+      {
+        "source": 144,
+        "target": 145,
+        "min_gap": 8,
+        "max_gap": 8,
+        "witness": {
+          "path_id": "P000_071",
+          "sequence": [
+            "L10E-349",
+            "L10E-347",
+            "L10E-346",
+            "L10E-345",
+            "L10E-344",
+            "L10E-343",
+            "L10E-342",
+            "L10E-341",
+            "L10E-340",
+            "L10E-351"
+          ]
+        },
+        "witness_path_count": 1540
+      },
+      {
+        "source": 145,
+        "target": 40,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_072",
+          "sequence": [
+            "L10E-351",
+            "L10E-350",
+            "L10E-105",
+            "L10E-106"
+          ]
+        },
+        "witness_path_count": 1491
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "3644ad141fa03669e6df6bf27f296150d0e338d7a99887ba7d330009eb63919e",
+      "fd_parameters.csv": "9b741c430057ee1e7f04bb7200a88a28c2180d589ee42cfd8afa22174796e43e",
+      "lwr_mainline_topology.csv": "c4db9ffa7dbfcf9e11a03e1b0190dfa20e2bd05ee6f351b37bcad810fad3e57b",
+      "path_set.csv": "a76363222ddfcbb05fdecb9991e0c5868c12bc9117d599250e919421c790345f",
+      "synthetic_network_manifest.json": "f8738762b355f35dd1a709d8787821effee6fbaed129350c13f2f940c4ca67d0"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D7_I10_W": {
+    "link_ids": [
+      "L10W-001",
+      "L10W-010",
+      "L10W-013",
+      "L10W-014",
+      "L10W-016",
+      "L10W-021",
+      "L10W-024",
+      "L10W-029",
+      "L10W-031",
+      "L10W-045",
+      "L10W-051",
+      "L10W-061",
+      "L10W-062",
+      "L10W-068",
+      "L10W-071",
+      "L10W-078",
+      "L10W-081",
+      "L10W-084",
+      "L10W-086",
+      "L10W-091",
+      "L10W-097",
+      "L10W-099",
+      "L10W-101",
+      "L10W-103",
+      "L10W-107",
+      "L10W-109",
+      "L10W-113",
+      "L10W-116",
+      "L10W-124",
+      "L10W-125",
+      "L10W-129",
+      "L10W-140",
+      "L10W-142",
+      "L10W-144",
+      "L10W-145",
+      "L10W-147",
+      "L10W-150",
+      "L10W-159",
+      "L10W-161",
+      "L10W-164",
+      "L10W-169",
+      "L10W-175",
+      "L10W-176",
+      "L10W-189",
+      "L10W-190",
+      "L10W-191",
+      "L10W-196",
+      "L10W-197",
+      "L10W-198",
+      "L10W-204",
+      "L10W-208",
+      "L10W-212",
+      "L10W-216",
+      "L10W-220",
+      "L10W-221",
+      "L10W-223",
+      "L10W-232",
+      "L10W-236",
+      "L10W-237",
+      "L10W-239",
+      "L10W-241",
+      "L10W-244",
+      "L10W-246",
+      "L10W-248",
+      "L10W-251",
+      "L10W-253",
+      "L10W-259",
+      "L10W-260",
+      "L10W-262",
+      "L10W-265",
+      "L10W-268",
+      "L10W-269",
+      "L10W-273",
+      "L10W-275",
+      "L10W-278",
+      "L10W-280",
+      "L10W-282",
+      "L10W-286",
+      "L10W-287",
+      "L10W-288",
+      "L10W-289",
+      "L10W-291",
+      "L10W-292",
+      "L10W-296",
+      "L10W-297",
+      "L10W-298",
+      "L10W-301",
+      "L10W-302",
+      "L10W-304",
+      "L10W-306",
+      "L10W-310",
+      "L10W-312",
+      "L10W-315",
+      "L10W-336",
+      "L10W-361",
+      "L10W-364",
+      "L10W-365",
+      "L10W-370",
+      "L10W-371",
+      "L10W-377",
+      "L10W-383",
+      "L10W-385",
+      "L10W-386",
+      "L10W-388",
+      "L10W-390",
+      "L10W-395",
+      "L10W-402"
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 57,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_024",
+          "sequence": [
+            "L10W-001",
+            "L10W-351",
+            "L10W-352",
+            "L10W-374",
+            "L10W-106",
+            "L10W-236"
+          ]
+        },
+        "witness_path_count": 1771
+      },
+      {
+        "source": 1,
+        "target": 11,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_047",
+          "sequence": [
+            "L10W-010",
+            "L10W-295",
+            "L10W-135",
+            "L10W-136",
+            "L10W-267",
+            "L10W-060",
+            "L10W-061"
+          ]
+        },
+        "witness_path_count": 2484
+      },
+      {
+        "source": 2,
+        "target": 38,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_077",
+          "sequence": [
+            "L10W-013",
+            "L10W-276",
+            "L10W-160",
+            "L10W-161"
+          ]
+        },
+        "witness_path_count": 1824
+      },
+      {
+        "source": 3,
+        "target": 52,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_090",
+          "sequence": [
+            "L10W-014",
+            "L10W-215",
+            "L10W-217",
+            "L10W-285",
+            "L10W-077",
+            "L10W-076",
+            "L10W-216"
+          ]
+        },
+        "witness_path_count": 979
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_089",
+          "sequence": [
+            "L10W-016",
+            "L10W-015",
+            "L10W-014"
+          ]
+        },
+        "witness_path_count": 1056
+      },
+      {
+        "source": 5,
+        "target": 4,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_088",
+          "sequence": [
+            "L10W-021",
+            "L10W-018",
+            "L10W-019",
+            "L10W-348",
+            "L10W-017",
+            "L10W-016"
+          ]
+        },
+        "witness_path_count": 1131
+      },
+      {
+        "source": 7,
+        "target": 84,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_038",
+          "sequence": [
+            "L10W-029",
+            "L10W-340",
+            "L10W-120",
+            "L10W-121",
+            "L10W-297"
+          ]
+        },
+        "witness_path_count": 2331
+      },
+      {
+        "source": 8,
+        "target": 7,
+        "min_gap": 8,
+        "max_gap": 8,
+        "witness": {
+          "path_id": "P000_037",
+          "sequence": [
+            "L10W-031",
+            "L10W-195",
+            "L10W-036",
+            "L10W-037",
+            "L10W-032",
+            "L10W-033",
+            "L10W-034",
+            "L10W-343",
+            "L10W-341",
+            "L10W-029"
+          ]
+        },
+        "witness_path_count": 2304
+      },
+      {
+        "source": 10,
+        "target": 34,
+        "min_gap": 8,
+        "max_gap": 8,
+        "witness": {
+          "path_id": "P000_096",
+          "sequence": [
+            "L10W-051",
+            "L10W-201",
+            "L10W-155",
+            "L10W-156",
+            "L10W-157",
+            "L10W-228",
+            "L10W-210",
+            "L10W-299",
+            "L10W-146",
+            "L10W-145"
+          ]
+        },
+        "witness_path_count": 475
+      },
+      {
+        "source": 11,
+        "target": 74,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_048",
+          "sequence": [
+            "L10W-061",
+            "L10W-313",
+            "L10W-305",
+            "L10W-278"
+          ]
+        },
+        "witness_path_count": 2491
+      },
+      {
+        "source": 13,
+        "target": 72,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_057",
+          "sequence": [
+            "L10W-068",
+            "L10W-272",
+            "L10W-273"
+          ]
+        },
+        "witness_path_count": 2464
+      },
+      {
+        "source": 15,
+        "target": 85,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_072",
+          "sequence": [
+            "L10W-078",
+            "L10W-026",
+            "L10W-266",
+            "L10W-271",
+            "L10W-270",
+            "L10W-056",
+            "L10W-298"
+          ]
+        },
+        "witness_path_count": 2059
+      },
+      {
+        "source": 16,
+        "target": 66,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_017",
+          "sequence": [
+            "L10W-081",
+            "L10W-258",
+            "L10W-259"
+          ]
+        },
+        "witness_path_count": 1344
+      },
+      {
+        "source": 17,
+        "target": 26,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_029",
+          "sequence": [
+            "L10W-084",
+            "L10W-112",
+            "L10W-235",
+            "L10W-375",
+            "L10W-398",
+            "L10W-113"
+          ]
+        },
+        "witness_path_count": 2016
+      },
+      {
+        "source": 18,
+        "target": 56,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_004",
+          "sequence": [
+            "L10W-086",
+            "L10W-394",
+            "L10W-180",
+            "L10W-178",
+            "L10W-357",
+            "L10W-232"
+          ]
+        },
+        "witness_path_count": 291
+      },
+      {
+        "source": 20,
+        "target": 103,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_002",
+          "sequence": [
+            "L10W-097",
+            "L10W-314",
+            "L10W-389",
+            "L10W-179",
+            "L10W-085",
+            "L10W-388"
+          ]
+        },
+        "witness_path_count": 99
+      },
+      {
+        "source": 21,
+        "target": 54,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_007",
+          "sequence": [
+            "L10W-099",
+            "L10W-095",
+            "L10W-096",
+            "L10W-219",
+            "L10W-221"
+          ]
+        },
+        "witness_path_count": 564
+      },
+      {
+        "source": 22,
+        "target": 97,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_014",
+          "sequence": [
+            "L10W-101",
+            "L10W-254",
+            "L10W-370"
+          ]
+        },
+        "witness_path_count": 1131
+      },
+      {
+        "source": 23,
+        "target": 16,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_016",
+          "sequence": [
+            "L10W-103",
+            "L10W-368",
+            "L10W-257",
+            "L10W-256",
+            "L10W-082",
+            "L10W-081"
+          ]
+        },
+        "witness_path_count": 1275
+      },
+      {
+        "source": 24,
+        "target": 25,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_026",
+          "sequence": [
+            "L10W-107",
+            "L10W-108",
+            "L10W-109"
+          ]
+        },
+        "witness_path_count": 1875
+      },
+      {
+        "source": 25,
+        "target": 89,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_027",
+          "sequence": [
+            "L10W-109",
+            "L10W-294",
+            "L10W-349",
+            "L10W-307",
+            "L10W-306"
+          ]
+        },
+        "witness_path_count": 1924
+      },
+      {
+        "source": 27,
+        "target": 68,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_034",
+          "sequence": [
+            "L10W-116",
+            "L10W-117",
+            "L10W-354",
+            "L10W-262"
+          ]
+        },
+        "witness_path_count": 2211
+      },
+      {
+        "source": 29,
+        "target": 35,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_041",
+          "sequence": [
+            "L10W-125",
+            "L10W-127",
+            "L10W-128",
+            "L10W-346",
+            "L10W-238",
+            "L10W-126",
+            "L10W-008",
+            "L10W-148",
+            "L10W-147"
+          ]
+        },
+        "witness_path_count": 2400
+      },
+      {
+        "source": 30,
+        "target": 69,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_043",
+          "sequence": [
+            "L10W-129",
+            "L10W-133",
+            "L10W-134",
+            "L10W-265"
+          ]
+        },
+        "witness_path_count": 2436
+      },
+      {
+        "source": 31,
+        "target": 33,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_086",
+          "sequence": [
+            "L10W-140",
+            "L10W-143",
+            "L10W-144"
+          ]
+        },
+        "witness_path_count": 1275
+      },
+      {
+        "source": 32,
+        "target": 31,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_085",
+          "sequence": [
+            "L10W-142",
+            "L10W-139",
+            "L10W-140"
+          ]
+        },
+        "witness_path_count": 1344
+      },
+      {
+        "source": 33,
+        "target": 5,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_087",
+          "sequence": [
+            "L10W-144",
+            "L10W-162",
+            "L10W-163",
+            "L10W-229",
+            "L10W-281",
+            "L10W-020",
+            "L10W-021"
+          ]
+        },
+        "witness_path_count": 1204
+      },
+      {
+        "source": 34,
+        "target": 55,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_097",
+          "sequence": [
+            "L10W-145",
+            "L10W-342",
+            "L10W-050",
+            "L10W-223"
+          ]
+        },
+        "witness_path_count": 384
+      },
+      {
+        "source": 35,
+        "target": 30,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_042",
+          "sequence": [
+            "L10W-147",
+            "L10W-333",
+            "L10W-193",
+            "L10W-130",
+            "L10W-129"
+          ]
+        },
+        "witness_path_count": 2419
+      },
+      {
+        "source": 36,
+        "target": 50,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_092",
+          "sequence": [
+            "L10W-150",
+            "L10W-151",
+            "L10W-149",
+            "L10W-208"
+          ]
+        },
+        "witness_path_count": 819
+      },
+      {
+        "source": 38,
+        "target": 37,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_078",
+          "sequence": [
+            "L10W-161",
+            "L10W-158",
+            "L10W-159"
+          ]
+        },
+        "witness_path_count": 1771
+      },
+      {
+        "source": 39,
+        "target": 98,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_022",
+          "sequence": [
+            "L10W-164",
+            "L10W-165",
+            "L10W-233",
+            "L10W-371"
+          ]
+        },
+        "witness_path_count": 1659
+      },
+      {
+        "source": 40,
+        "target": 91,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_051",
+          "sequence": [
+            "L10W-169",
+            "L10W-048",
+            "L10W-311",
+            "L10W-312"
+          ]
+        },
+        "witness_path_count": 2500
+      },
+      {
+        "source": 42,
+        "target": 83,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_032",
+          "sequence": [
+            "L10W-176",
+            "L10W-088",
+            "L10W-380",
+            "L10W-087",
+            "L10W-400",
+            "L10W-118",
+            "L10W-119",
+            "L10W-296"
+          ]
+        },
+        "witness_path_count": 2139
+      },
+      {
+        "source": 48,
+        "target": 64,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_082",
+          "sequence": [
+            "L10W-198",
+            "L10W-252",
+            "L10W-251"
+          ]
+        },
+        "witness_path_count": 1539
+      },
+      {
+        "source": 49,
+        "target": 51,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_074",
+          "sequence": [
+            "L10W-204",
+            "L10W-199",
+            "L10W-011",
+            "L10W-212"
+          ]
+        },
+        "witness_path_count": 1971
+      },
+      {
+        "source": 52,
+        "target": 36,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_091",
+          "sequence": [
+            "L10W-216",
+            "L10W-214",
+            "L10W-075",
+            "L10W-074",
+            "L10W-255",
+            "L10W-230",
+            "L10W-150"
+          ]
+        },
+        "witness_path_count": 900
+      },
+      {
+        "source": 54,
+        "target": 102,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_008",
+          "sequence": [
+            "L10W-221",
+            "L10W-231",
+            "L10W-250",
+            "L10W-381",
+            "L10W-386"
+          ]
+        },
+        "witness_path_count": 651
+      },
+      {
+        "source": 55,
+        "target": 47,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_098",
+          "sequence": [
+            "L10W-223",
+            "L10W-041",
+            "L10W-040",
+            "L10W-197"
+          ]
+        },
+        "witness_path_count": 291
+      },
+      {
+        "source": 56,
+        "target": 63,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_005",
+          "sequence": [
+            "L10W-232",
+            "L10W-093",
+            "L10W-094",
+            "L10W-249",
+            "L10W-248"
+          ]
+        },
+        "witness_path_count": 384
+      },
+      {
+        "source": 58,
+        "target": 42,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_031",
+          "sequence": [
+            "L10W-237",
+            "L10W-114",
+            "L10W-293",
+            "L10W-115",
+            "L10W-177",
+            "L10W-344",
+            "L10W-376",
+            "L10W-176"
+          ]
+        },
+        "witness_path_count": 2100
+      },
+      {
+        "source": 59,
+        "target": 94,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_020",
+          "sequence": [
+            "L10W-239",
+            "L10W-104",
+            "L10W-317",
+            "L10W-361"
+          ]
+        },
+        "witness_path_count": 1539
+      },
+      {
+        "source": 60,
+        "target": 22,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_013",
+          "sequence": [
+            "L10W-241",
+            "L10W-401",
+            "L10W-369",
+            "L10W-101"
+          ]
+        },
+        "witness_path_count": 1056
+      },
+      {
+        "source": 62,
+        "target": 2,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_076",
+          "sequence": [
+            "L10W-246",
+            "L10W-012",
+            "L10W-013"
+          ]
+        },
+        "witness_path_count": 1875
+      },
+      {
+        "source": 63,
+        "target": 21,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_006",
+          "sequence": [
+            "L10W-248",
+            "L10W-393",
+            "L10W-098",
+            "L10W-382",
+            "L10W-099"
+          ]
+        },
+        "witness_path_count": 475
+      },
+      {
+        "source": 67,
+        "target": 32,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_084",
+          "sequence": [
+            "L10W-260",
+            "L10W-200",
+            "L10W-141",
+            "L10W-142"
+          ]
+        },
+        "witness_path_count": 1411
+      },
+      {
+        "source": 68,
+        "target": 76,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_035",
+          "sequence": [
+            "L10W-262",
+            "L10W-358",
+            "L10W-283",
+            "L10W-360",
+            "L10W-379",
+            "L10W-282"
+          ]
+        },
+        "witness_path_count": 2244
+      },
+      {
+        "source": 70,
+        "target": 19,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_070",
+          "sequence": [
+            "L10W-268",
+            "L10W-277",
+            "L10W-091"
+          ]
+        },
+        "witness_path_count": 2139
+      },
+      {
+        "source": 72,
+        "target": 6,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_058",
+          "sequence": [
+            "L10W-273",
+            "L10W-023",
+            "L10W-024"
+          ]
+        },
+        "witness_path_count": 2451
+      },
+      {
+        "source": 73,
+        "target": 9,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_060",
+          "sequence": [
+            "L10W-275",
+            "L10W-274",
+            "L10W-225",
+            "L10W-044",
+            "L10W-045"
+          ]
+        },
+        "witness_path_count": 2419
+      },
+      {
+        "source": 74,
+        "target": 92,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_049",
+          "sequence": [
+            "L10W-278",
+            "L10W-168",
+            "L10W-315"
+          ]
+        },
+        "witness_path_count": 2496
+      },
+      {
+        "source": 75,
+        "target": 93,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_094",
+          "sequence": [
+            "L10W-280",
+            "L10W-152",
+            "L10W-153",
+            "L10W-080",
+            "L10W-154",
+            "L10W-338",
+            "L10W-337",
+            "L10W-261",
+            "L10W-336"
+          ]
+        },
+        "witness_path_count": 651
+      },
+      {
+        "source": 76,
+        "target": 8,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_036",
+          "sequence": [
+            "L10W-282",
+            "L10W-038",
+            "L10W-039",
+            "L10W-035",
+            "L10W-224",
+            "L10W-345",
+            "L10W-030",
+            "L10W-031"
+          ]
+        },
+        "witness_path_count": 2275
+      },
+      {
+        "source": 77,
+        "target": 1,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_046",
+          "sequence": [
+            "L10W-286",
+            "L10W-009",
+            "L10W-010"
+          ]
+        },
+        "witness_path_count": 2475
+      },
+      {
+        "source": 81,
+        "target": 13,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_056",
+          "sequence": [
+            "L10W-291",
+            "L10W-069",
+            "L10W-068"
+          ]
+        },
+        "witness_path_count": 2475
+      },
+      {
+        "source": 84,
+        "target": 28,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_039",
+          "sequence": [
+            "L10W-297",
+            "L10W-090",
+            "L10W-350",
+            "L10W-089",
+            "L10W-123",
+            "L10W-353",
+            "L10W-122",
+            "L10W-124"
+          ]
+        },
+        "witness_path_count": 2356
+      },
+      {
+        "source": 85,
+        "target": 49,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_073",
+          "sequence": [
+            "L10W-298",
+            "L10W-057",
+            "L10W-203",
+            "L10W-279",
+            "L10W-202",
+            "L10W-227",
+            "L10W-334",
+            "L10W-205",
+            "L10W-204"
+          ]
+        },
+        "witness_path_count": 2016
+      },
+      {
+        "source": 86,
+        "target": 14,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_053",
+          "sequence": [
+            "L10W-301",
+            "L10W-070",
+            "L10W-071"
+          ]
+        },
+        "witness_path_count": 2496
+      },
+      {
+        "source": 87,
+        "target": 45,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_062",
+          "sequence": [
+            "L10W-302",
+            "L10W-359",
+            "L10W-191"
+          ]
+        },
+        "witness_path_count": 2379
+      },
+      {
+        "source": 88,
+        "target": 12,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_067",
+          "sequence": [
+            "L10W-304",
+            "L10W-303",
+            "L10W-347",
+            "L10W-062"
+          ]
+        },
+        "witness_path_count": 2244
+      },
+      {
+        "source": 89,
+        "target": 17,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_028",
+          "sequence": [
+            "L10W-306",
+            "L10W-110",
+            "L10W-111",
+            "L10W-373",
+            "L10W-290",
+            "L10W-083",
+            "L10W-084"
+          ]
+        },
+        "witness_path_count": 1971
+      },
+      {
+        "source": 90,
+        "target": 59,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_019",
+          "sequence": [
+            "L10W-310",
+            "L10W-240",
+            "L10W-367",
+            "L10W-239"
+          ]
+        },
+        "witness_path_count": 1476
+      },
+      {
+        "source": 91,
+        "target": 86,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_052",
+          "sequence": [
+            "L10W-312",
+            "L10W-049",
+            "L10W-300",
+            "L10W-301"
+          ]
+        },
+        "witness_path_count": 2499
+      },
+      {
+        "source": 92,
+        "target": 40,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_050",
+          "sequence": [
+            "L10W-315",
+            "L10W-316",
+            "L10W-171",
+            "L10W-170",
+            "L10W-169"
+          ]
+        },
+        "witness_path_count": 2499
+      },
+      {
+        "source": 93,
+        "target": 10,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_095",
+          "sequence": [
+            "L10W-336",
+            "L10W-055",
+            "L10W-335",
+            "L10W-053",
+            "L10W-054",
+            "L10W-052",
+            "L10W-051"
+          ]
+        },
+        "witness_path_count": 564
+      },
+      {
+        "source": 94,
+        "target": 39,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_021",
+          "sequence": [
+            "L10W-361",
+            "L10W-397",
+            "L10W-372",
+            "L10W-105",
+            "L10W-396",
+            "L10W-164"
+          ]
+        },
+        "witness_path_count": 1600
+      },
+      {
+        "source": 95,
+        "target": 96,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_011",
+          "sequence": [
+            "L10W-364",
+            "L10W-363",
+            "L10W-365"
+          ]
+        },
+        "witness_path_count": 900
+      },
+      {
+        "source": 96,
+        "target": 60,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_012",
+          "sequence": [
+            "L10W-365",
+            "L10W-284",
+            "L10W-100",
+            "L10W-241"
+          ]
+        },
+        "witness_path_count": 979
+      },
+      {
+        "source": 97,
+        "target": 23,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_015",
+          "sequence": [
+            "L10W-370",
+            "L10W-102",
+            "L10W-355",
+            "L10W-356",
+            "L10W-103"
+          ]
+        },
+        "witness_path_count": 1204
+      },
+      {
+        "source": 98,
+        "target": 0,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_023",
+          "sequence": [
+            "L10W-371",
+            "L10W-002",
+            "L10W-234",
+            "L10W-001"
+          ]
+        },
+        "witness_path_count": 1716
+      },
+      {
+        "source": 101,
+        "target": 95,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_010",
+          "sequence": [
+            "L10W-385",
+            "L10W-384",
+            "L10W-222",
+            "L10W-364"
+          ]
+        },
+        "witness_path_count": 819
+      },
+      {
+        "source": 103,
+        "target": 18,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_003",
+          "sequence": [
+            "L10W-388",
+            "L10W-391",
+            "L10W-392",
+            "L10W-086"
+          ]
+        },
+        "witness_path_count": 196
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "061267389351bd33e5f4b9ab228b8052ea616b87a1a5ba260a88c06f34f46fdb",
+      "fd_parameters.csv": "063eb2bce2dc337587f4d5d9d07d151eab2b93ba831e5efb8ab79d53dd5eb1b6",
+      "lwr_mainline_topology.csv": "b9a0ef5cd7690de841915817aa47ba66d349521ffce2f9f8e1edd94fa3c0f3ec",
+      "path_set.csv": "a340616e135570733fbdb537417e02c777aca6c13d716da82b66456a56c8c0ad",
+      "synthetic_network_manifest.json": "6c6a38e4d1bb128e6facfb03d6548967b306852eb3dd1239c31e4489883e8c3d"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D7_I210_E": {
+    "link_ids": [
+      "L210E-001",
+      "L210E-002",
+      "L210E-003",
+      "L210E-004",
+      "L210E-005",
+      "L210E-006",
+      "L210E-007",
+      "L210E-008",
+      "L210E-009",
+      "L210E-010",
+      "L210E-011",
+      "L210E-012",
+      "L210E-013",
+      "L210E-014",
+      "L210E-015",
+      "L210E-016",
+      "L210E-017",
+      "L210E-018",
+      "L210E-019",
+      "L210E-020",
+      "L210E-022",
+      "L210E-023",
+      "L210E-024",
+      "L210E-025",
+      "L210E-026",
+      "L210E-027",
+      "L210E-028",
+      "L210E-029",
+      "L210E-030",
+      "L210E-031",
+      "L210E-032",
+      "L210E-033",
+      "L210E-034",
+      "L210E-035",
+      "L210E-036",
+      "L210E-037",
+      "L210E-038",
+      "L210E-039",
+      "L210E-040",
+      "L210E-041",
+      "L210E-042",
+      "L210E-043",
+      "L210E-044",
+      "L210E-045",
+      "L210E-046",
+      "L210E-047",
+      "L210E-048",
+      "L210E-049",
+      "L210E-050",
+      "L210E-051",
+      "L210E-052",
+      "L210E-053",
+      "L210E-054",
+      "L210E-055",
+      "L210E-056",
+      "L210E-057",
+      "L210E-058",
+      "L210E-059",
+      "L210E-060",
+      "L210E-061",
+      "L210E-062",
+      "L210E-063",
+      "L210E-064",
+      "L210E-065",
+      "L210E-066",
+      "L210E-067",
+      "L210E-068",
+      "L210E-069",
+      "L210E-070",
+      "L210E-071",
+      "L210E-072",
+      "L210E-073",
+      "L210E-074",
+      "L210E-075",
+      "L210E-076",
+      "L210E-077",
+      "L210E-078",
+      "L210E-079",
+      "L210E-080",
+      "L210E-081",
+      "L210E-082",
+      "L210E-083",
+      "L210E-084",
+      "L210E-085",
+      "L210E-086",
+      "L210E-087",
+      "L210E-088",
+      "L210E-089",
+      "L210E-090",
+      "L210E-091",
+      "L210E-093",
+      "L210E-094",
+      "L210E-095",
+      "L210E-096",
+      "L210E-097",
+      "L210E-098",
+      "L210E-099",
+      "L210E-100",
+      "L210E-101",
+      "L210E-102",
+      "L210E-103",
+      "L210E-104",
+      "L210E-105",
+      "L210E-106",
+      "L210E-107",
+      "L210E-116",
+      "L210E-117",
+      "L210E-118",
+      "L210E-119",
+      "L210E-120",
+      "L210E-121",
+      "L210E-122",
+      "L210E-123",
+      "L210E-124",
+      "L210E-125",
+      "L210E-126",
+      "L210E-127",
+      "L210E-128",
+      "L210E-129",
+      "L210E-130",
+      "L210E-131",
+      "L210E-132",
+      "L210E-133",
+      "L210E-134",
+      "L210E-135",
+      "L210E-136",
+      "L210E-137",
+      "L210E-138",
+      "L210E-139",
+      "L210E-140",
+      "L210E-141",
+      "L210E-142",
+      "L210E-143",
+      "L210E-144",
+      "L210E-145",
+      "L210E-146",
+      "L210E-147",
+      "L210E-148",
+      "L210E-149",
+      "L210E-150",
+      "L210E-151",
+      "L210E-152",
+      "L210E-153",
+      "L210E-154",
+      "L210E-155",
+      "L210E-156",
+      "L210E-157",
+      "L210E-158",
+      "L210E-159",
+      "L210E-160",
+      "L210E-161",
+      "L210E-162",
+      "L210E-163",
+      "L210E-164",
+      "L210E-166",
+      "L210E-167",
+      "L210E-168",
+      "L210E-169",
+      "L210E-170",
+      "L210E-171",
+      "L210E-172",
+      "L210E-173",
+      "L210E-174",
+      "L210E-175",
+      "L210E-176",
+      "L210E-177",
+      "L210E-178",
+      "L210E-179",
+      "L210E-180",
+      "L210E-181",
+      "L210E-182",
+      "L210E-183",
+      "L210E-185",
+      "L210E-186",
+      "L210E-187",
+      "L210E-188",
+      "L210E-189",
+      "L210E-190",
+      "L210E-191",
+      "L210E-192",
+      "L210E-193",
+      "L210E-194",
+      "L210E-195",
+      "L210E-196",
+      "L210E-197",
+      "L210E-198",
+      "L210E-199",
+      "L210E-200",
+      "L210E-201",
+      "L210E-202",
+      "L210E-203",
+      "L210E-204",
+      "L210E-205",
+      "L210E-206",
+      "L210E-207",
+      "L210E-211",
+      "L210E-212",
+      "L210E-213",
+      "L210E-214",
+      "L210E-215",
+      "L210E-216",
+      "L210E-217",
+      "L210E-218",
+      "L210E-219",
+      "L210E-220",
+      "L210E-221",
+      "L210E-222",
+      "L210E-223",
+      "L210E-224",
+      "L210E-225",
+      "L210E-226",
+      "L210E-227",
+      "L210E-228",
+      "L210E-229",
+      "L210E-230",
+      "L210E-231",
+      "L210E-232",
+      "L210E-233",
+      "L210E-234",
+      "L210E-235",
+      "L210E-236",
+      "L210E-237",
+      "L210E-238",
+      "L210E-239",
+      "L210E-240",
+      "L210E-241",
+      "L210E-242",
+      "L210E-243",
+      "L210E-244",
+      "L210E-245",
+      "L210E-246",
+      "L210E-247",
+      "L210E-248",
+      "L210E-249",
+      "L210E-250",
+      "L210E-251",
+      "L210E-252",
+      "L210E-253",
+      "L210E-254",
+      "L210E-255",
+      "L210E-256",
+      "L210E-257",
+      "L210E-258",
+      "L210E-259",
+      "L210E-260",
+      "L210E-261",
+      "L210E-262",
+      "L210E-263",
+      "L210E-264",
+      "L210E-265",
+      "L210E-266",
+      "L210E-267",
+      "L210E-268",
+      "L210E-269",
+      "L210E-270",
+      "L210E-271",
+      "L210E-272",
+      "L210E-273",
+      "L210E-274",
+      "L210E-275",
+      "L210E-276",
+      "L210E-277",
+      "L210E-278",
+      "L210E-279",
+      "L210E-280",
+      "L210E-281",
+      "L210E-282",
+      "L210E-283",
+      "L210E-284",
+      "L210E-285",
+      "L210E-286",
+      "L210E-291",
+      "L210E-292",
+      "L210E-298",
+      "L210E-301",
+      "L210E-302",
+      "L210E-303",
+      "L210E-304",
+      "L210E-305",
+      "L210E-306",
+      "L210E-307",
+      "L210E-308",
+      "L210E-309",
+      "L210E-310",
+      "L210E-311",
+      "L210E-312",
+      "L210E-313",
+      "L210E-314",
+      "L210E-315",
+      "L210E-316",
+      "L210E-317",
+      "L210E-318",
+      "L210E-319",
+      "L210E-320",
+      "L210E-321",
+      "L210E-322",
+      "L210E-323"
+    ],
+    "edges": [
+      {
+        "source": 90,
+        "target": 94,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_067",
+          "sequence": [
+            "L210E-093",
+            "L210E-296",
+            "L210E-097"
+          ]
+        },
+        "witness_path_count": 396
+      },
+      {
+        "source": 94,
+        "target": 195,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_068",
+          "sequence": [
+            "L210E-097",
+            "L210E-294",
+            "L210E-211"
+          ]
+        },
+        "witness_path_count": 335
+      },
+      {
+        "source": 153,
+        "target": 272,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_070",
+          "sequence": [
+            "L210E-164",
+            "L210E-290",
+            "L210E-289",
+            "L210E-288",
+            "L210E-287",
+            "L210E-292"
+          ]
+        },
+        "witness_path_count": 207
+      },
+      {
+        "source": 195,
+        "target": 153,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_069",
+          "sequence": [
+            "L210E-211",
+            "L210E-293",
+            "L210E-164"
+          ]
+        },
+        "witness_path_count": 272
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "81c50de6080d744832996d79b4c44f8e01ebcb963156e0da5057741f2660c1b1",
+      "fd_parameters.csv": "f3dd832a019990a5c8407e03f6bbc54b71454aa562eb56f0d11495707f530486",
+      "lwr_mainline_topology.csv": "f2632aa02d532845808423ffb20453b6a7dc47133f08115ee22965bb4bfb8fb8",
+      "path_set.csv": "d1039508467e722c2cd3700571c8ec9515977d713a538a5a11334e6da09cc43c",
+      "synthetic_network_manifest.json": "076b63526b9a1d3a52ecdc2a4eafddad5ab6ead3da4aafb3cf449309c4d41a69"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D7_I210_W": {
+    "link_ids": [
+      "L210W-001",
+      "L210W-004",
+      "L210W-006",
+      "L210W-008",
+      "L210W-022",
+      "L210W-028",
+      "L210W-029",
+      "L210W-034",
+      "L210W-038",
+      "L210W-052",
+      "L210W-053",
+      "L210W-054",
+      "L210W-058",
+      "L210W-065",
+      "L210W-072",
+      "L210W-079",
+      "L210W-099",
+      "L210W-105",
+      "L210W-106",
+      "L210W-108",
+      "L210W-112",
+      "L210W-113",
+      "L210W-129",
+      "L210W-130",
+      "L210W-132",
+      "L210W-136",
+      "L210W-137",
+      "L210W-141",
+      "L210W-143",
+      "L210W-150",
+      "L210W-151",
+      "L210W-154",
+      "L210W-155",
+      "L210W-159",
+      "L210W-161",
+      "L210W-167",
+      "L210W-169",
+      "L210W-172",
+      "L210W-176",
+      "L210W-177",
+      "L210W-180",
+      "L210W-181",
+      "L210W-182",
+      "L210W-184",
+      "L210W-188",
+      "L210W-190",
+      "L210W-192",
+      "L210W-197",
+      "L210W-202",
+      "L210W-206",
+      "L210W-210",
+      "L210W-211",
+      "L210W-221",
+      "L210W-222",
+      "L210W-228",
+      "L210W-230",
+      "L210W-231",
+      "L210W-233",
+      "L210W-234",
+      "L210W-236",
+      "L210W-238",
+      "L210W-239",
+      "L210W-242",
+      "L210W-246",
+      "L210W-251",
+      "L210W-256",
+      "L210W-261",
+      "L210W-263",
+      "L210W-265",
+      "L210W-274",
+      "L210W-281",
+      "L210W-282",
+      "L210W-285",
+      "L210W-291",
+      "L210W-294",
+      "L210W-298",
+      "L210W-299",
+      "L210W-301",
+      "L210W-305",
+      "L210W-306",
+      "L210W-308"
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_053",
+          "sequence": [
+            "L210W-004",
+            "L210W-005",
+            "L210W-259",
+            "L210W-006"
+          ]
+        },
+        "witness_path_count": 1508
+      },
+      {
+        "source": 2,
+        "target": 8,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_054",
+          "sequence": [
+            "L210W-006",
+            "L210W-209",
+            "L210W-173",
+            "L210W-175",
+            "L210W-257",
+            "L210W-040",
+            "L210W-037",
+            "L210W-038"
+          ]
+        },
+        "witness_path_count": 1484
+      },
+      {
+        "source": 3,
+        "target": 64,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_075",
+          "sequence": [
+            "L210W-008",
+            "L210W-010",
+            "L210W-009",
+            "L210W-012",
+            "L210W-011",
+            "L210W-194",
+            "L210W-014",
+            "L210W-013",
+            "L210W-251"
+          ]
+        },
+        "witness_path_count": 518
+      },
+      {
+        "source": 4,
+        "target": 69,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_068",
+          "sequence": [
+            "L210W-022",
+            "L210W-023",
+            "L210W-275",
+            "L210W-276",
+            "L210W-274"
+          ]
+        },
+        "witness_path_count": 938
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_052",
+          "sequence": [
+            "L210W-028",
+            "L210W-101",
+            "L210W-103",
+            "L210W-102",
+            "L210W-168",
+            "L210W-174",
+            "L210W-004"
+          ]
+        },
+        "witness_path_count": 1530
+      },
+      {
+        "source": 8,
+        "target": 48,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_055",
+          "sequence": [
+            "L210W-038",
+            "L210W-207",
+            "L210W-202"
+          ]
+        },
+        "witness_path_count": 1458
+      },
+      {
+        "source": 10,
+        "target": 4,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_067",
+          "sequence": [
+            "L210W-053",
+            "L210W-248",
+            "L210W-022"
+          ]
+        },
+        "witness_path_count": 990
+      },
+      {
+        "source": 11,
+        "target": 9,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_065",
+          "sequence": [
+            "L210W-054",
+            "L210W-243",
+            "L210W-244",
+            "L210W-052"
+          ]
+        },
+        "witness_path_count": 1088
+      },
+      {
+        "source": 13,
+        "target": 36,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_070",
+          "sequence": [
+            "L210W-065",
+            "L210W-064",
+            "L210W-169"
+          ]
+        },
+        "witness_path_count": 828
+      },
+      {
+        "source": 15,
+        "target": 39,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_034",
+          "sequence": [
+            "L210W-079",
+            "L210W-081",
+            "L210W-267",
+            "L210W-177"
+          ]
+        },
+        "witness_path_count": 1584
+      },
+      {
+        "source": 16,
+        "target": 50,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_005",
+          "sequence": [
+            "L210W-099",
+            "L210W-126",
+            "L210W-262",
+            "L210W-125",
+            "L210W-097",
+            "L210W-098",
+            "L210W-210"
+          ]
+        },
+        "witness_path_count": 308
+      },
+      {
+        "source": 17,
+        "target": 0,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_042",
+          "sequence": [
+            "L210W-105",
+            "L210W-046",
+            "L210W-047",
+            "L210W-255",
+            "L210W-254",
+            "L210W-002",
+            "L210W-001"
+          ]
+        },
+        "witness_path_count": 1640
+      },
+      {
+        "source": 18,
+        "target": 27,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_028",
+          "sequence": [
+            "L210W-106",
+            "L210W-144",
+            "L210W-141"
+          ]
+        },
+        "witness_path_count": 1458
+      },
+      {
+        "source": 19,
+        "target": 20,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_015",
+          "sequence": [
+            "L210W-108",
+            "L210W-139",
+            "L210W-140",
+            "L210W-218",
+            "L210W-115",
+            "L210W-112"
+          ]
+        },
+        "witness_path_count": 938
+      },
+      {
+        "source": 20,
+        "target": 21,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_016",
+          "sequence": [
+            "L210W-112",
+            "L210W-114",
+            "L210W-113"
+          ]
+        },
+        "witness_path_count": 990
+      },
+      {
+        "source": 21,
+        "target": 62,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_017",
+          "sequence": [
+            "L210W-113",
+            "L210W-109",
+            "L210W-242"
+          ]
+        },
+        "witness_path_count": 1040
+      },
+      {
+        "source": 22,
+        "target": 51,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_039",
+          "sequence": [
+            "L210W-129",
+            "L210W-212",
+            "L210W-211"
+          ]
+        },
+        "witness_path_count": 1634
+      },
+      {
+        "source": 23,
+        "target": 77,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_036",
+          "sequence": [
+            "L210W-130",
+            "L210W-131",
+            "L210W-301"
+          ]
+        },
+        "witness_path_count": 1610
+      },
+      {
+        "source": 24,
+        "target": 31,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_032",
+          "sequence": [
+            "L210W-132",
+            "L210W-133",
+            "L210W-091",
+            "L210W-092",
+            "L210W-219",
+            "L210W-093",
+            "L210W-094",
+            "L210W-153",
+            "L210W-154"
+          ]
+        },
+        "witness_path_count": 1550
+      },
+      {
+        "source": 25,
+        "target": 26,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_081",
+          "sequence": [
+            "L210W-136",
+            "L210W-193",
+            "L210W-067",
+            "L210W-137"
+          ]
+        },
+        "witness_path_count": 80
+      },
+      {
+        "source": 27,
+        "target": 30,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_029",
+          "sequence": [
+            "L210W-141",
+            "L210W-297",
+            "L210W-152",
+            "L210W-151"
+          ]
+        },
+        "witness_path_count": 1484
+      },
+      {
+        "source": 28,
+        "target": 19,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_014",
+          "sequence": [
+            "L210W-143",
+            "L210W-288",
+            "L210W-044",
+            "L210W-117",
+            "L210W-108"
+          ]
+        },
+        "witness_path_count": 884
+      },
+      {
+        "source": 29,
+        "target": 56,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_046",
+          "sequence": [
+            "L210W-150",
+            "L210W-307",
+            "L210W-232",
+            "L210W-278",
+            "L210W-231"
+          ]
+        },
+        "witness_path_count": 1620
+      },
+      {
+        "source": 30,
+        "target": 76,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_030",
+          "sequence": [
+            "L210W-151",
+            "L210W-134",
+            "L210W-135",
+            "L210W-213",
+            "L210W-085",
+            "L210W-084",
+            "L210W-299"
+          ]
+        },
+        "witness_path_count": 1508
+      },
+      {
+        "source": 33,
+        "target": 47,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_073",
+          "sequence": [
+            "L210W-159",
+            "L210W-196",
+            "L210W-100",
+            "L210W-198",
+            "L210W-061",
+            "L210W-060",
+            "L210W-197"
+          ]
+        },
+        "witness_path_count": 648
+      },
+      {
+        "source": 34,
+        "target": 49,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_060",
+          "sequence": [
+            "L210W-161",
+            "L210W-017",
+            "L210W-018",
+            "L210W-019",
+            "L210W-020",
+            "L210W-240",
+            "L210W-021",
+            "L210W-206"
+          ]
+        },
+        "witness_path_count": 1298
+      },
+      {
+        "source": 35,
+        "target": 6,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_050",
+          "sequence": [
+            "L210W-167",
+            "L210W-280",
+            "L210W-166",
+            "L210W-032",
+            "L210W-031",
+            "L210W-030",
+            "L210W-029"
+          ]
+        },
+        "witness_path_count": 1568
+      },
+      {
+        "source": 36,
+        "target": 7,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_071",
+          "sequence": [
+            "L210W-169",
+            "L210W-063",
+            "L210W-062",
+            "L210W-035",
+            "L210W-203",
+            "L210W-036",
+            "L210W-033",
+            "L210W-034"
+          ]
+        },
+        "witness_path_count": 770
+      },
+      {
+        "source": 37,
+        "target": 35,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_049",
+          "sequence": [
+            "L210W-172",
+            "L210W-163",
+            "L210W-167"
+          ]
+        },
+        "witness_path_count": 1584
+      },
+      {
+        "source": 38,
+        "target": 60,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_057",
+          "sequence": [
+            "L210W-176",
+            "L210W-237",
+            "L210W-238"
+          ]
+        },
+        "witness_path_count": 1400
+      },
+      {
+        "source": 39,
+        "target": 23,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_035",
+          "sequence": [
+            "L210W-177",
+            "L210W-158",
+            "L210W-157",
+            "L210W-268",
+            "L210W-269",
+            "L210W-217",
+            "L210W-130"
+          ]
+        },
+        "witness_path_count": 1598
+      },
+      {
+        "source": 41,
+        "target": 68,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_012",
+          "sequence": [
+            "L210W-181",
+            "L210W-077",
+            "L210W-266",
+            "L210W-265"
+          ]
+        },
+        "witness_path_count": 770
+      },
+      {
+        "source": 42,
+        "target": 53,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_022",
+          "sequence": [
+            "L210W-182",
+            "L210W-110",
+            "L210W-111",
+            "L210W-223",
+            "L210W-290",
+            "L210W-222"
+          ]
+        },
+        "witness_path_count": 1260
+      },
+      {
+        "source": 43,
+        "target": 41,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_011",
+          "sequence": [
+            "L210W-184",
+            "L210W-078",
+            "L210W-179",
+            "L210W-253",
+            "L210W-076",
+            "L210W-181"
+          ]
+        },
+        "witness_path_count": 710
+      },
+      {
+        "source": 44,
+        "target": 34,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_059",
+          "sequence": [
+            "L210W-188",
+            "L210W-160",
+            "L210W-016",
+            "L210W-161"
+          ]
+        },
+        "witness_path_count": 1334
+      },
+      {
+        "source": 46,
+        "target": 25,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_080",
+          "sequence": [
+            "L210W-192",
+            "L210W-187",
+            "L210W-186",
+            "L210W-247",
+            "L210W-138",
+            "L210W-136"
+          ]
+        },
+        "witness_path_count": 158
+      },
+      {
+        "source": 47,
+        "target": 3,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_074",
+          "sequence": [
+            "L210W-197",
+            "L210W-164",
+            "L210W-195",
+            "L210W-007",
+            "L210W-008"
+          ]
+        },
+        "witness_path_count": 584
+      },
+      {
+        "source": 48,
+        "target": 38,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_056",
+          "sequence": [
+            "L210W-202",
+            "L210W-039",
+            "L210W-176"
+          ]
+        },
+        "witness_path_count": 1430
+      },
+      {
+        "source": 51,
+        "target": 74,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_040",
+          "sequence": [
+            "L210W-211",
+            "L210W-104",
+            "L210W-294"
+          ]
+        },
+        "witness_path_count": 1638
+      },
+      {
+        "source": 52,
+        "target": 12,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_063",
+          "sequence": [
+            "L210W-221",
+            "L210W-220",
+            "L210W-059",
+            "L210W-058"
+          ]
+        },
+        "witness_path_count": 1178
+      },
+      {
+        "source": 54,
+        "target": 75,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_026",
+          "sequence": [
+            "L210W-228",
+            "L210W-304",
+            "L210W-298"
+          ]
+        },
+        "witness_path_count": 1400
+      },
+      {
+        "source": 55,
+        "target": 37,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_048",
+          "sequence": [
+            "L210W-230",
+            "L210W-199",
+            "L210W-172"
+          ]
+        },
+        "witness_path_count": 1598
+      },
+      {
+        "source": 56,
+        "target": 55,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_047",
+          "sequence": [
+            "L210W-231",
+            "L210W-165",
+            "L210W-230"
+          ]
+        },
+        "witness_path_count": 1610
+      },
+      {
+        "source": 57,
+        "target": 42,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_021",
+          "sequence": [
+            "L210W-233",
+            "L210W-185",
+            "L210W-264",
+            "L210W-182"
+          ]
+        },
+        "witness_path_count": 1220
+      },
+      {
+        "source": 59,
+        "target": 40,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_008",
+          "sequence": [
+            "L210W-236",
+            "L210W-045",
+            "L210W-208",
+            "L210W-180"
+          ]
+        },
+        "witness_path_count": 518
+      },
+      {
+        "source": 61,
+        "target": 43,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_010",
+          "sequence": [
+            "L210W-239",
+            "L210W-215",
+            "L210W-214",
+            "L210W-183",
+            "L210W-184"
+          ]
+        },
+        "witness_path_count": 648
+      },
+      {
+        "source": 62,
+        "target": 73,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_018",
+          "sequence": [
+            "L210W-242",
+            "L210W-241",
+            "L210W-289",
+            "L210W-291"
+          ]
+        },
+        "witness_path_count": 1088
+      },
+      {
+        "source": 63,
+        "target": 46,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_079",
+          "sequence": [
+            "L210W-246",
+            "L210W-245",
+            "L210W-191",
+            "L210W-192"
+          ]
+        },
+        "witness_path_count": 234
+      },
+      {
+        "source": 64,
+        "target": 66,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_076",
+          "sequence": [
+            "L210W-251",
+            "L210W-250",
+            "L210W-261"
+          ]
+        },
+        "witness_path_count": 450
+      },
+      {
+        "source": 65,
+        "target": 52,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_062",
+          "sequence": [
+            "L210W-256",
+            "L210W-015",
+            "L210W-221"
+          ]
+        },
+        "witness_path_count": 1220
+      },
+      {
+        "source": 66,
+        "target": 45,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_077",
+          "sequence": [
+            "L210W-261",
+            "L210W-260",
+            "L210W-189",
+            "L210W-190"
+          ]
+        },
+        "witness_path_count": 380
+      },
+      {
+        "source": 68,
+        "target": 28,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_013",
+          "sequence": [
+            "L210W-265",
+            "L210W-170",
+            "L210W-171",
+            "L210W-216",
+            "L210W-043",
+            "L210W-142",
+            "L210W-143"
+          ]
+        },
+        "witness_path_count": 828
+      },
+      {
+        "source": 71,
+        "target": 70,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_002",
+          "sequence": [
+            "L210W-282",
+            "L210W-283",
+            "L210W-281"
+          ]
+        },
+        "witness_path_count": 80
+      },
+      {
+        "source": 72,
+        "target": 59,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_007",
+          "sequence": [
+            "L210W-285",
+            "L210W-284",
+            "L210W-286",
+            "L210W-236"
+          ]
+        },
+        "witness_path_count": 450
+      },
+      {
+        "source": 75,
+        "target": 18,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_027",
+          "sequence": [
+            "L210W-298",
+            "L210W-003",
+            "L210W-279",
+            "L210W-270",
+            "L210W-178",
+            "L210W-107",
+            "L210W-273",
+            "L210W-106"
+          ]
+        },
+        "witness_path_count": 1430
+      },
+      {
+        "source": 76,
+        "target": 24,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_031",
+          "sequence": [
+            "L210W-299",
+            "L210W-293",
+            "L210W-083",
+            "L210W-277",
+            "L210W-082",
+            "L210W-132"
+          ]
+        },
+        "witness_path_count": 1530
+      },
+      {
+        "source": 77,
+        "target": 32,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_037",
+          "sequence": [
+            "L210W-301",
+            "L210W-300",
+            "L210W-227",
+            "L210W-226",
+            "L210W-303",
+            "L210W-156",
+            "L210W-295",
+            "L210W-155"
+          ]
+        },
+        "witness_path_count": 1620
+      },
+      {
+        "source": 79,
+        "target": 78,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_024",
+          "sequence": [
+            "L210W-306",
+            "L210W-229",
+            "L210W-305"
+          ]
+        },
+        "witness_path_count": 1334
+      },
+      {
+        "source": 80,
+        "target": 14,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_044",
+          "sequence": [
+            "L210W-308",
+            "L210W-073",
+            "L210W-072"
+          ]
+        },
+        "witness_path_count": 1634
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "bb9600764c3707f4d27a1b989353c37b28daa837277657420736bf1306207826",
+      "fd_parameters.csv": "b23ce6e0bc7b2bab3056c3bf86f2e0de666adf211032cbcb47358c31d4eb62c1",
+      "lwr_mainline_topology.csv": "92417ff1963fa3ccfea6e7dd8dc66c06672d529554084416b62e780856ff16f7",
+      "path_set.csv": "bfea10b9b0957dc9421a06e7177aa3de329eacebf07b0aa4ced63946402ee8d3",
+      "synthetic_network_manifest.json": "43d4bd73f5b136fe028c9e659e1f887d7b7720ac07532007473947ceee5e844e"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D7_I405_N": {
+    "link_ids": [
+      "L405N-001",
+      "L405N-002",
+      "L405N-003",
+      "L405N-004",
+      "L405N-005",
+      "L405N-006",
+      "L405N-007",
+      "L405N-008",
+      "L405N-009",
+      "L405N-010",
+      "L405N-011",
+      "L405N-012",
+      "L405N-013",
+      "L405N-014",
+      "L405N-015",
+      "L405N-016",
+      "L405N-017",
+      "L405N-018",
+      "L405N-019",
+      "L405N-020",
+      "L405N-021",
+      "L405N-022",
+      "L405N-023",
+      "L405N-024",
+      "L405N-025",
+      "L405N-026",
+      "L405N-027",
+      "L405N-028",
+      "L405N-029",
+      "L405N-031",
+      "L405N-032",
+      "L405N-033",
+      "L405N-034",
+      "L405N-035",
+      "L405N-037",
+      "L405N-041",
+      "L405N-042",
+      "L405N-043",
+      "L405N-044",
+      "L405N-045",
+      "L405N-046",
+      "L405N-047",
+      "L405N-048",
+      "L405N-049",
+      "L405N-050",
+      "L405N-051",
+      "L405N-052",
+      "L405N-053",
+      "L405N-054",
+      "L405N-055",
+      "L405N-056",
+      "L405N-057",
+      "L405N-058",
+      "L405N-059",
+      "L405N-060",
+      "L405N-061",
+      "L405N-062",
+      "L405N-063",
+      "L405N-064",
+      "L405N-065",
+      "L405N-066",
+      "L405N-067",
+      "L405N-068",
+      "L405N-069",
+      "L405N-070",
+      "L405N-071",
+      "L405N-072",
+      "L405N-073",
+      "L405N-074",
+      "L405N-075",
+      "L405N-076",
+      "L405N-077",
+      "L405N-078",
+      "L405N-079",
+      "L405N-080",
+      "L405N-081",
+      "L405N-082",
+      "L405N-083",
+      "L405N-084",
+      "L405N-085",
+      "L405N-086",
+      "L405N-087",
+      "L405N-088",
+      "L405N-089",
+      "L405N-090",
+      "L405N-091",
+      "L405N-092",
+      "L405N-093",
+      "L405N-094",
+      "L405N-095",
+      "L405N-096",
+      "L405N-097",
+      "L405N-098",
+      "L405N-101",
+      "L405N-110",
+      "L405N-112",
+      "L405N-113",
+      "L405N-114",
+      "L405N-115",
+      "L405N-116",
+      "L405N-117",
+      "L405N-118",
+      "L405N-119",
+      "L405N-120",
+      "L405N-121",
+      "L405N-122",
+      "L405N-123",
+      "L405N-124",
+      "L405N-125",
+      "L405N-126",
+      "L405N-127",
+      "L405N-129",
+      "L405N-131",
+      "L405N-132",
+      "L405N-133",
+      "L405N-134",
+      "L405N-135",
+      "L405N-136",
+      "L405N-137",
+      "L405N-138",
+      "L405N-139",
+      "L405N-140",
+      "L405N-141",
+      "L405N-142",
+      "L405N-143",
+      "L405N-145",
+      "L405N-146",
+      "L405N-147",
+      "L405N-148",
+      "L405N-149",
+      "L405N-151",
+      "L405N-152",
+      "L405N-153",
+      "L405N-155",
+      "L405N-156",
+      "L405N-157",
+      "L405N-158",
+      "L405N-159",
+      "L405N-160",
+      "L405N-161",
+      "L405N-162",
+      "L405N-163",
+      "L405N-164",
+      "L405N-165",
+      "L405N-166",
+      "L405N-167",
+      "L405N-168",
+      "L405N-169",
+      "L405N-170",
+      "L405N-171",
+      "L405N-172",
+      "L405N-173",
+      "L405N-174",
+      "L405N-175",
+      "L405N-176",
+      "L405N-177",
+      "L405N-178",
+      "L405N-179",
+      "L405N-180",
+      "L405N-181",
+      "L405N-182",
+      "L405N-183",
+      "L405N-184",
+      "L405N-185",
+      "L405N-186",
+      "L405N-187",
+      "L405N-188",
+      "L405N-189",
+      "L405N-190",
+      "L405N-191",
+      "L405N-192",
+      "L405N-193",
+      "L405N-194",
+      "L405N-195",
+      "L405N-196",
+      "L405N-197",
+      "L405N-198",
+      "L405N-199",
+      "L405N-200",
+      "L405N-201",
+      "L405N-202",
+      "L405N-203",
+      "L405N-204",
+      "L405N-205",
+      "L405N-206",
+      "L405N-207",
+      "L405N-208",
+      "L405N-209",
+      "L405N-210",
+      "L405N-211",
+      "L405N-212",
+      "L405N-213",
+      "L405N-214",
+      "L405N-215",
+      "L405N-216",
+      "L405N-217",
+      "L405N-218",
+      "L405N-219",
+      "L405N-220",
+      "L405N-221",
+      "L405N-222",
+      "L405N-223",
+      "L405N-224",
+      "L405N-225",
+      "L405N-226",
+      "L405N-227",
+      "L405N-228",
+      "L405N-229",
+      "L405N-230",
+      "L405N-231",
+      "L405N-232",
+      "L405N-233",
+      "L405N-234",
+      "L405N-235",
+      "L405N-236",
+      "L405N-237",
+      "L405N-238",
+      "L405N-239",
+      "L405N-240",
+      "L405N-241",
+      "L405N-242",
+      "L405N-243",
+      "L405N-244",
+      "L405N-245",
+      "L405N-246",
+      "L405N-247",
+      "L405N-248",
+      "L405N-249",
+      "L405N-250",
+      "L405N-251",
+      "L405N-252",
+      "L405N-253",
+      "L405N-254",
+      "L405N-255",
+      "L405N-256",
+      "L405N-257",
+      "L405N-258",
+      "L405N-259",
+      "L405N-260",
+      "L405N-261",
+      "L405N-262",
+      "L405N-263",
+      "L405N-264",
+      "L405N-265",
+      "L405N-266",
+      "L405N-267",
+      "L405N-268",
+      "L405N-269",
+      "L405N-270",
+      "L405N-271",
+      "L405N-272",
+      "L405N-273",
+      "L405N-276",
+      "L405N-279",
+      "L405N-280",
+      "L405N-281",
+      "L405N-282",
+      "L405N-283",
+      "L405N-284",
+      "L405N-299",
+      "L405N-304",
+      "L405N-307",
+      "L405N-316",
+      "L405N-317",
+      "L405N-318",
+      "L405N-319",
+      "L405N-320",
+      "L405N-321",
+      "L405N-322",
+      "L405N-324",
+      "L405N-325",
+      "L405N-326",
+      "L405N-328",
+      "L405N-329",
+      "L405N-330",
+      "L405N-331",
+      "L405N-332",
+      "L405N-333",
+      "L405N-334",
+      "L405N-335",
+      "L405N-336",
+      "L405N-337",
+      "L405N-338",
+      "L405N-339",
+      "L405N-340",
+      "L405N-341",
+      "L405N-342",
+      "L405N-343",
+      "L405N-344",
+      "L405N-346",
+      "L405N-348",
+      "L405N-349",
+      "L405N-350",
+      "L405N-353",
+      "L405N-354",
+      "L405N-358",
+      "L405N-359",
+      "L405N-360",
+      "L405N-361",
+      "L405N-362",
+      "L405N-363",
+      "L405N-364",
+      "L405N-365",
+      "L405N-366",
+      "L405N-367",
+      "L405N-368",
+      "L405N-369",
+      "L405N-370",
+      "L405N-371",
+      "L405N-372",
+      "L405N-373",
+      "L405N-374",
+      "L405N-375",
+      "L405N-376",
+      "L405N-377",
+      "L405N-378",
+      "L405N-379",
+      "L405N-380",
+      "L405N-381",
+      "L405N-382",
+      "L405N-383",
+      "L405N-384",
+      "L405N-385",
+      "L405N-386",
+      "L405N-387",
+      "L405N-388",
+      "L405N-389",
+      "L405N-390",
+      "L405N-391",
+      "L405N-392",
+      "L405N-393",
+      "L405N-397",
+      "L405N-406",
+      "L405N-407",
+      "L405N-408",
+      "L405N-409",
+      "L405N-410",
+      "L405N-411",
+      "L405N-412",
+      "L405N-413",
+      "L405N-414",
+      "L405N-415",
+      "L405N-416",
+      "L405N-422",
+      "L405N-423",
+      "L405N-424",
+      "L405N-425",
+      "L405N-426",
+      "L405N-427",
+      "L405N-428",
+      "L405N-429",
+      "L405N-430"
+    ],
+    "edges": [
+      {
+        "source": 7,
+        "target": 251,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_082",
+          "sequence": [
+            "L405N-008",
+            "L405N-356",
+            "L405N-355",
+            "L405N-274",
+            "L405N-030",
+            "L405N-273"
+          ]
+        },
+        "witness_path_count": 1134
+      },
+      {
+        "source": 93,
+        "target": 34,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_090",
+          "sequence": [
+            "L405N-101",
+            "L405N-107",
+            "L405N-106",
+            "L405N-296",
+            "L405N-039",
+            "L405N-037"
+          ]
+        },
+        "witness_path_count": 534
+      },
+      {
+        "source": 94,
+        "target": 35,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_093",
+          "sequence": [
+            "L405N-110",
+            "L405N-288",
+            "L405N-108",
+            "L405N-287",
+            "L405N-286",
+            "L405N-041"
+          ]
+        },
+        "witness_path_count": 276
+      },
+      {
+        "source": 95,
+        "target": 138,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_087",
+          "sequence": [
+            "L405N-112",
+            "L405N-420",
+            "L405N-421",
+            "L405N-419",
+            "L405N-418",
+            "L405N-160"
+          ]
+        },
+        "witness_path_count": 774
+      },
+      {
+        "source": 99,
+        "target": 98,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_078",
+          "sequence": [
+            "L405N-116",
+            "L405N-277",
+            "L405N-115"
+          ]
+        },
+        "witness_path_count": 1386
+      },
+      {
+        "source": 112,
+        "target": 260,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_085",
+          "sequence": [
+            "L405N-131",
+            "L405N-305",
+            "L405N-304"
+          ]
+        },
+        "witness_path_count": 924
+      },
+      {
+        "source": 129,
+        "target": 252,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_080",
+          "sequence": [
+            "L405N-149",
+            "L405N-327",
+            "L405N-276"
+          ]
+        },
+        "witness_path_count": 1264
+      },
+      {
+        "source": 133,
+        "target": 94,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_092",
+          "sequence": [
+            "L405N-155",
+            "L405N-290",
+            "L405N-292",
+            "L405N-289",
+            "L405N-109",
+            "L405N-110"
+          ]
+        },
+        "witness_path_count": 364
+      },
+      {
+        "source": 138,
+        "target": 259,
+        "min_gap": 8,
+        "max_gap": 8,
+        "witness": {
+          "path_id": "P000_088",
+          "sequence": [
+            "L405N-160",
+            "L405N-150",
+            "L405N-345",
+            "L405N-302",
+            "L405N-038",
+            "L405N-040",
+            "L405N-301",
+            "L405N-103",
+            "L405N-104",
+            "L405N-299"
+          ]
+        },
+        "witness_path_count": 696
+      },
+      {
+        "source": 250,
+        "target": 112,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_084",
+          "sequence": [
+            "L405N-272",
+            "L405N-352",
+            "L405N-351",
+            "L405N-131"
+          ]
+        },
+        "witness_path_count": 996
+      },
+      {
+        "source": 251,
+        "target": 250,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_083",
+          "sequence": [
+            "L405N-273",
+            "L405N-315",
+            "L405N-401",
+            "L405N-323",
+            "L405N-128",
+            "L405N-272"
+          ]
+        },
+        "witness_path_count": 1066
+      },
+      {
+        "source": 252,
+        "target": 7,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_081",
+          "sequence": [
+            "L405N-276",
+            "L405N-275",
+            "L405N-008"
+          ]
+        },
+        "witness_path_count": 1200
+      },
+      {
+        "source": 254,
+        "target": 331,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_076",
+          "sequence": [
+            "L405N-280",
+            "L405N-399",
+            "L405N-398",
+            "L405N-397"
+          ]
+        },
+        "witness_path_count": 1500
+      },
+      {
+        "source": 259,
+        "target": 93,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_089",
+          "sequence": [
+            "L405N-299",
+            "L405N-300",
+            "L405N-298",
+            "L405N-395",
+            "L405N-297",
+            "L405N-102",
+            "L405N-101"
+          ]
+        },
+        "witness_path_count": 616
+      },
+      {
+        "source": 260,
+        "target": 95,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_086",
+          "sequence": [
+            "L405N-304",
+            "L405N-400",
+            "L405N-347",
+            "L405N-303",
+            "L405N-112"
+          ]
+        },
+        "witness_path_count": 850
+      },
+      {
+        "source": 261,
+        "target": 125,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_095",
+          "sequence": [
+            "L405N-307",
+            "L405N-306",
+            "L405N-145"
+          ]
+        },
+        "witness_path_count": 94
+      },
+      {
+        "source": 331,
+        "target": 99,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_077",
+          "sequence": [
+            "L405N-397",
+            "L405N-278",
+            "L405N-116"
+          ]
+        },
+        "witness_path_count": 1444
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "5d5eb3b06b8c4e9fb3a55f69584a4a7cb07b00314e1d76a4cfa584b60bdf09cf",
+      "fd_parameters.csv": "7e8ff6104ca67def8f4c4b0ced1629ad51d0b0841ad6fbf4de99138124cab822",
+      "lwr_mainline_topology.csv": "17c9e8dedca538ef0be85931581ae5404315fa0c760613aef00d030524a6f23f",
+      "path_set.csv": "2cee32dfdf249247a97c35981b481837acc486b8c5fb72168402fed8b38e6f40",
+      "synthetic_network_manifest.json": "ebfc4cd2321ec53774000ce9304804092c030f72e654d7b1d612e58b122a3fab"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D7_I405_S": {
+    "link_ids": [
+      "L405S-001",
+      "L405S-004",
+      "L405S-005",
+      "L405S-007",
+      "L405S-013",
+      "L405S-017",
+      "L405S-021",
+      "L405S-029",
+      "L405S-031",
+      "L405S-036",
+      "L405S-038",
+      "L405S-040",
+      "L405S-041",
+      "L405S-044",
+      "L405S-046",
+      "L405S-052",
+      "L405S-054",
+      "L405S-056",
+      "L405S-061",
+      "L405S-064",
+      "L405S-065",
+      "L405S-067",
+      "L405S-071",
+      "L405S-073",
+      "L405S-074",
+      "L405S-077",
+      "L405S-078",
+      "L405S-082",
+      "L405S-084",
+      "L405S-087",
+      "L405S-095",
+      "L405S-106",
+      "L405S-109",
+      "L405S-115",
+      "L405S-116",
+      "L405S-119",
+      "L405S-124",
+      "L405S-126",
+      "L405S-127",
+      "L405S-128",
+      "L405S-129",
+      "L405S-133",
+      "L405S-135",
+      "L405S-140",
+      "L405S-142",
+      "L405S-145",
+      "L405S-149",
+      "L405S-155",
+      "L405S-157",
+      "L405S-158",
+      "L405S-169",
+      "L405S-173",
+      "L405S-175",
+      "L405S-176",
+      "L405S-180",
+      "L405S-181",
+      "L405S-184",
+      "L405S-186",
+      "L405S-193",
+      "L405S-194",
+      "L405S-196",
+      "L405S-202",
+      "L405S-206",
+      "L405S-214",
+      "L405S-220",
+      "L405S-222",
+      "L405S-226",
+      "L405S-227",
+      "L405S-228",
+      "L405S-231",
+      "L405S-234",
+      "L405S-241",
+      "L405S-254",
+      "L405S-260",
+      "L405S-264",
+      "L405S-270",
+      "L405S-278",
+      "L405S-282",
+      "L405S-286",
+      "L405S-289",
+      "L405S-299",
+      "L405S-305",
+      "L405S-309",
+      "L405S-310",
+      "L405S-313",
+      "L405S-317",
+      "L405S-319",
+      "L405S-322",
+      "L405S-323",
+      "L405S-334",
+      "L405S-336",
+      "L405S-363",
+      "L405S-364",
+      "L405S-373",
+      "L405S-377",
+      "L405S-387",
+      "L405S-392",
+      "L405S-394",
+      "L405S-403",
+      "L405S-406",
+      "L405S-413",
+      "L405S-417",
+      "L405S-420",
+      "L405S-421",
+      "L405S-422",
+      "L405S-424",
+      "L405S-425",
+      "L405S-430",
+      "L405S-431"
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 72,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_065",
+          "sequence": [
+            "L405S-001",
+            "L405S-253",
+            "L405S-252",
+            "L405S-254"
+          ]
+        },
+        "witness_path_count": 2048
+      },
+      {
+        "source": 2,
+        "target": 33,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_077",
+          "sequence": [
+            "L405S-005",
+            "L405S-295",
+            "L405S-115"
+          ]
+        },
+        "witness_path_count": 1520
+      },
+      {
+        "source": 3,
+        "target": 11,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_079",
+          "sequence": [
+            "L405S-007",
+            "L405S-002",
+            "L405S-292",
+            "L405S-040"
+          ]
+        },
+        "witness_path_count": 1404
+      },
+      {
+        "source": 6,
+        "target": 2,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_076",
+          "sequence": [
+            "L405S-021",
+            "L405S-296",
+            "L405S-297",
+            "L405S-339",
+            "L405S-338",
+            "L405S-005"
+          ]
+        },
+        "witness_path_count": 1575
+      },
+      {
+        "source": 7,
+        "target": 80,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_074",
+          "sequence": [
+            "L405S-029",
+            "L405S-300",
+            "L405S-022",
+            "L405S-023",
+            "L405S-299"
+          ]
+        },
+        "witness_path_count": 1679
+      },
+      {
+        "source": 8,
+        "target": 49,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_005",
+          "sequence": [
+            "L405S-031",
+            "L405S-161",
+            "L405S-160",
+            "L405S-159",
+            "L405S-097",
+            "L405S-158"
+          ]
+        },
+        "witness_path_count": 368
+      },
+      {
+        "source": 9,
+        "target": 46,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_010",
+          "sequence": [
+            "L405S-036",
+            "L405S-151",
+            "L405S-150",
+            "L405S-096",
+            "L405S-089",
+            "L405S-090",
+            "L405S-092",
+            "L405S-148",
+            "L405S-149"
+          ]
+        },
+        "witness_path_count": 783
+      },
+      {
+        "source": 11,
+        "target": 12,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_080",
+          "sequence": [
+            "L405S-040",
+            "L405S-042",
+            "L405S-043",
+            "L405S-041"
+          ]
+        },
+        "witness_path_count": 1343
+      },
+      {
+        "source": 12,
+        "target": 86,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_081",
+          "sequence": [
+            "L405S-041",
+            "L405S-320",
+            "L405S-319"
+          ]
+        },
+        "witness_path_count": 1280
+      },
+      {
+        "source": 13,
+        "target": 41,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_090",
+          "sequence": [
+            "L405S-044",
+            "L405S-132",
+            "L405S-108",
+            "L405S-133"
+          ]
+        },
+        "witness_path_count": 623
+      },
+      {
+        "source": 14,
+        "target": 87,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_094",
+          "sequence": [
+            "L405S-046",
+            "L405S-348",
+            "L405S-302",
+            "L405S-301",
+            "L405S-048",
+            "L405S-049",
+            "L405S-341",
+            "L405S-322"
+          ]
+        },
+        "witness_path_count": 279
+      },
+      {
+        "source": 15,
+        "target": 79,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_070",
+          "sequence": [
+            "L405S-052",
+            "L405S-051",
+            "L405S-053",
+            "L405S-290",
+            "L405S-289"
+          ]
+        },
+        "witness_path_count": 1863
+      },
+      {
+        "source": 16,
+        "target": 78,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_072",
+          "sequence": [
+            "L405S-054",
+            "L405S-287",
+            "L405S-026",
+            "L405S-027",
+            "L405S-028",
+            "L405S-286"
+          ]
+        },
+        "witness_path_count": 1775
+      },
+      {
+        "source": 17,
+        "target": 73,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_060",
+          "sequence": [
+            "L405S-056",
+            "L405S-263",
+            "L405S-123",
+            "L405S-018",
+            "L405S-262",
+            "L405S-261",
+            "L405S-019",
+            "L405S-260"
+          ]
+        },
+        "witness_path_count": 2183
+      },
+      {
+        "source": 18,
+        "target": 21,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_054",
+          "sequence": [
+            "L405S-061",
+            "L405S-060",
+            "L405S-059",
+            "L405S-068",
+            "L405S-067"
+          ]
+        },
+        "witness_path_count": 2279
+      },
+      {
+        "source": 19,
+        "target": 20,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_057",
+          "sequence": [
+            "L405S-064",
+            "L405S-063",
+            "L405S-269",
+            "L405S-065"
+          ]
+        },
+        "witness_path_count": 2240
+      },
+      {
+        "source": 20,
+        "target": 74,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_058",
+          "sequence": [
+            "L405S-065",
+            "L405S-268",
+            "L405S-058",
+            "L405S-267",
+            "L405S-265",
+            "L405S-264"
+          ]
+        },
+        "witness_path_count": 2223
+      },
+      {
+        "source": 21,
+        "target": 75,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_055",
+          "sequence": [
+            "L405S-067",
+            "L405S-066",
+            "L405S-270"
+          ]
+        },
+        "witness_path_count": 2268
+      },
+      {
+        "source": 22,
+        "target": 105,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_052",
+          "sequence": [
+            "L405S-071",
+            "L405S-277",
+            "L405S-276",
+            "L405S-111",
+            "L405S-112",
+            "L405S-274",
+            "L405S-275",
+            "L405S-424"
+          ]
+        },
+        "witness_path_count": 2295
+      },
+      {
+        "source": 24,
+        "target": 98,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_048",
+          "sequence": [
+            "L405S-074",
+            "L405S-216",
+            "L405S-285",
+            "L405S-404",
+            "L405S-398",
+            "L405S-397",
+            "L405S-403"
+          ]
+        },
+        "witness_path_count": 2303
+      },
+      {
+        "source": 25,
+        "target": 68,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_040",
+          "sequence": [
+            "L405S-077",
+            "L405S-229",
+            "L405S-342",
+            "L405S-228"
+          ]
+        },
+        "witness_path_count": 2223
+      },
+      {
+        "source": 26,
+        "target": 70,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_037",
+          "sequence": [
+            "L405S-078",
+            "L405S-107",
+            "L405S-136",
+            "L405S-238",
+            "L405S-237",
+            "L405S-236",
+            "L405S-235",
+            "L405S-234"
+          ]
+        },
+        "witness_path_count": 2160
+      },
+      {
+        "source": 27,
+        "target": 28,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_034",
+          "sequence": [
+            "L405S-082",
+            "L405S-213",
+            "L405S-246",
+            "L405S-083",
+            "L405S-245",
+            "L405S-351",
+            "L405S-352",
+            "L405S-084"
+          ]
+        },
+        "witness_path_count": 2079
+      },
+      {
+        "source": 28,
+        "target": 71,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_035",
+          "sequence": [
+            "L405S-084",
+            "L405S-350",
+            "L405S-244",
+            "L405S-349",
+            "L405S-242",
+            "L405S-081",
+            "L405S-243",
+            "L405S-241"
+          ]
+        },
+        "witness_path_count": 2108
+      },
+      {
+        "source": 30,
+        "target": 9,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_009",
+          "sequence": [
+            "L405S-095",
+            "L405S-152",
+            "L405S-037",
+            "L405S-036"
+          ]
+        },
+        "witness_path_count": 704
+      },
+      {
+        "source": 32,
+        "target": 81,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_092",
+          "sequence": [
+            "L405S-109",
+            "L405S-306",
+            "L405S-003",
+            "L405S-405",
+            "L405S-305"
+          ]
+        },
+        "witness_path_count": 455
+      },
+      {
+        "source": 33,
+        "target": 3,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_078",
+          "sequence": [
+            "L405S-115",
+            "L405S-006",
+            "L405S-121",
+            "L405S-294",
+            "L405S-117",
+            "L405S-293",
+            "L405S-007"
+          ]
+        },
+        "witness_path_count": 1463
+      },
+      {
+        "source": 34,
+        "target": 50,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_003",
+          "sequence": [
+            "L405S-116",
+            "L405S-102",
+            "L405S-170",
+            "L405S-169"
+          ]
+        },
+        "witness_path_count": 188
+      },
+      {
+        "source": 35,
+        "target": 91,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_029",
+          "sequence": [
+            "L405S-119",
+            "L405S-199",
+            "L405S-198",
+            "L405S-363"
+          ]
+        },
+        "witness_path_count": 1904
+      },
+      {
+        "source": 36,
+        "target": 89,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_067",
+          "sequence": [
+            "L405S-124",
+            "L405S-249",
+            "L405S-125",
+            "L405S-335",
+            "L405S-250",
+            "L405S-334"
+          ]
+        },
+        "witness_path_count": 1980
+      },
+      {
+        "source": 37,
+        "target": 34,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_002",
+          "sequence": [
+            "L405S-126",
+            "L405S-171",
+            "L405S-120",
+            "L405S-130",
+            "L405S-116"
+          ]
+        },
+        "witness_path_count": 95
+      },
+      {
+        "source": 38,
+        "target": 83,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_086",
+          "sequence": [
+            "L405S-127",
+            "L405S-414",
+            "L405S-310"
+          ]
+        },
+        "witness_path_count": 935
+      },
+      {
+        "source": 39,
+        "target": 40,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_020",
+          "sequence": [
+            "L405S-128",
+            "L405S-190",
+            "L405S-189",
+            "L405S-188",
+            "L405S-191",
+            "L405S-104",
+            "L405S-129"
+          ]
+        },
+        "witness_path_count": 1463
+      },
+      {
+        "source": 40,
+        "target": 57,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_021",
+          "sequence": [
+            "L405S-129",
+            "L405S-187",
+            "L405S-105",
+            "L405S-186"
+          ]
+        },
+        "witness_path_count": 1520
+      },
+      {
+        "source": 41,
+        "target": 32,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_091",
+          "sequence": [
+            "L405S-133",
+            "L405S-307",
+            "L405S-109"
+          ]
+        },
+        "witness_path_count": 540
+      },
+      {
+        "source": 44,
+        "target": 13,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_089",
+          "sequence": [
+            "L405S-142",
+            "L405S-122",
+            "L405S-010",
+            "L405S-308",
+            "L405S-045",
+            "L405S-044"
+          ]
+        },
+        "witness_path_count": 704
+      },
+      {
+        "source": 45,
+        "target": 51,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_012",
+          "sequence": [
+            "L405S-145",
+            "L405S-091",
+            "L405S-144",
+            "L405S-033",
+            "L405S-032",
+            "L405S-143",
+            "L405S-173"
+          ]
+        },
+        "witness_path_count": 935
+      },
+      {
+        "source": 46,
+        "target": 45,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_011",
+          "sequence": [
+            "L405S-149",
+            "L405S-093",
+            "L405S-147",
+            "L405S-146",
+            "L405S-145"
+          ]
+        },
+        "witness_path_count": 860
+      },
+      {
+        "source": 47,
+        "target": 30,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_008",
+          "sequence": [
+            "L405S-155",
+            "L405S-131",
+            "L405S-154",
+            "L405S-153",
+            "L405S-094",
+            "L405S-095"
+          ]
+        },
+        "witness_path_count": 623
+      },
+      {
+        "source": 48,
+        "target": 47,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_007",
+          "sequence": [
+            "L405S-157",
+            "L405S-156",
+            "L405S-088",
+            "L405S-155"
+          ]
+        },
+        "witness_path_count": 540
+      },
+      {
+        "source": 49,
+        "target": 48,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_006",
+          "sequence": [
+            "L405S-158",
+            "L405S-098",
+            "L405S-099",
+            "L405S-100",
+            "L405S-157"
+          ]
+        },
+        "witness_path_count": 455
+      },
+      {
+        "source": 51,
+        "target": 107,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_013",
+          "sequence": [
+            "L405S-173",
+            "L405S-174",
+            "L405S-172",
+            "L405S-178",
+            "L405S-427",
+            "L405S-428",
+            "L405S-430"
+          ]
+        },
+        "witness_path_count": 1008
+      },
+      {
+        "source": 54,
+        "target": 94,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_025",
+          "sequence": [
+            "L405S-180",
+            "L405S-179",
+            "L405S-209",
+            "L405S-382",
+            "L405S-381",
+            "L405S-380",
+            "L405S-379",
+            "L405S-378",
+            "L405S-377"
+          ]
+        },
+        "witness_path_count": 1728
+      },
+      {
+        "source": 56,
+        "target": 55,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_023",
+          "sequence": [
+            "L405S-184",
+            "L405S-137",
+            "L405S-182",
+            "L405S-370",
+            "L405S-369",
+            "L405S-181"
+          ]
+        },
+        "witness_path_count": 1628
+      },
+      {
+        "source": 57,
+        "target": 56,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_022",
+          "sequence": [
+            "L405S-186",
+            "L405S-185",
+            "L405S-183",
+            "L405S-371",
+            "L405S-372",
+            "L405S-184"
+          ]
+        },
+        "witness_path_count": 1575
+      },
+      {
+        "source": 58,
+        "target": 39,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_019",
+          "sequence": [
+            "L405S-193",
+            "L405S-437",
+            "L405S-118",
+            "L405S-192",
+            "L405S-343",
+            "L405S-128"
+          ]
+        },
+        "witness_path_count": 1404
+      },
+      {
+        "source": 63,
+        "target": 27,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_033",
+          "sequence": [
+            "L405S-214",
+            "L405S-358",
+            "L405S-357",
+            "L405S-356",
+            "L405S-355",
+            "L405S-353",
+            "L405S-354",
+            "L405S-082"
+          ]
+        },
+        "witness_path_count": 2048
+      },
+      {
+        "source": 64,
+        "target": 106,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_046",
+          "sequence": [
+            "L405S-220",
+            "L405S-219",
+            "L405S-075",
+            "L405S-218",
+            "L405S-217",
+            "L405S-425"
+          ]
+        },
+        "witness_path_count": 2295
+      },
+      {
+        "source": 65,
+        "target": 43,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_044",
+          "sequence": [
+            "L405S-222",
+            "L405S-221",
+            "L405S-076",
+            "L405S-140"
+          ]
+        },
+        "witness_path_count": 2279
+      },
+      {
+        "source": 66,
+        "target": 67,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_042",
+          "sequence": [
+            "L405S-226",
+            "L405S-434",
+            "L405S-227"
+          ]
+        },
+        "witness_path_count": 2255
+      },
+      {
+        "source": 67,
+        "target": 65,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_043",
+          "sequence": [
+            "L405S-227",
+            "L405S-224",
+            "L405S-436",
+            "L405S-435",
+            "L405S-225",
+            "L405S-223",
+            "L405S-222"
+          ]
+        },
+        "witness_path_count": 2268
+      },
+      {
+        "source": 68,
+        "target": 66,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_041",
+          "sequence": [
+            "L405S-228",
+            "L405S-230",
+            "L405S-226"
+          ]
+        },
+        "witness_path_count": 2240
+      },
+      {
+        "source": 70,
+        "target": 69,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_038",
+          "sequence": [
+            "L405S-234",
+            "L405S-233",
+            "L405S-232",
+            "L405S-231"
+          ]
+        },
+        "witness_path_count": 2183
+      },
+      {
+        "source": 71,
+        "target": 26,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_036",
+          "sequence": [
+            "L405S-241",
+            "L405S-240",
+            "L405S-239",
+            "L405S-079",
+            "L405S-080",
+            "L405S-078"
+          ]
+        },
+        "witness_path_count": 2135
+      },
+      {
+        "source": 72,
+        "target": 36,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_066",
+          "sequence": [
+            "L405S-254",
+            "L405S-251",
+            "L405S-124"
+          ]
+        },
+        "witness_path_count": 2015
+      },
+      {
+        "source": 73,
+        "target": 5,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_061",
+          "sequence": [
+            "L405S-260",
+            "L405S-259",
+            "L405S-258",
+            "L405S-020",
+            "L405S-257",
+            "L405S-017"
+          ]
+        },
+        "witness_path_count": 2160
+      },
+      {
+        "source": 74,
+        "target": 17,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_059",
+          "sequence": [
+            "L405S-264",
+            "L405S-057",
+            "L405S-266",
+            "L405S-056"
+          ]
+        },
+        "witness_path_count": 2204
+      },
+      {
+        "source": 76,
+        "target": 22,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_051",
+          "sequence": [
+            "L405S-278",
+            "L405S-072",
+            "L405S-432",
+            "L405S-071"
+          ]
+        },
+        "witness_path_count": 2300
+      },
+      {
+        "source": 77,
+        "target": 76,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_050",
+          "sequence": [
+            "L405S-282",
+            "L405S-280",
+            "L405S-279",
+            "L405S-035",
+            "L405S-069",
+            "L405S-070",
+            "L405S-278"
+          ]
+        },
+        "witness_path_count": 2303
+      },
+      {
+        "source": 79,
+        "target": 16,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_071",
+          "sequence": [
+            "L405S-289",
+            "L405S-288",
+            "L405S-054"
+          ]
+        },
+        "witness_path_count": 1820
+      },
+      {
+        "source": 80,
+        "target": 6,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_075",
+          "sequence": [
+            "L405S-299",
+            "L405S-298",
+            "L405S-021"
+          ]
+        },
+        "witness_path_count": 1628
+      },
+      {
+        "source": 81,
+        "target": 14,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_093",
+          "sequence": [
+            "L405S-305",
+            "L405S-303",
+            "L405S-304",
+            "L405S-134",
+            "L405S-047",
+            "L405S-046"
+          ]
+        },
+        "witness_path_count": 368
+      },
+      {
+        "source": 82,
+        "target": 44,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_088",
+          "sequence": [
+            "L405S-309",
+            "L405S-340",
+            "L405S-142"
+          ]
+        },
+        "witness_path_count": 783
+      },
+      {
+        "source": 84,
+        "target": 38,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_085",
+          "sequence": [
+            "L405S-313",
+            "L405S-312",
+            "L405S-311",
+            "L405S-127"
+          ]
+        },
+        "witness_path_count": 1008
+      },
+      {
+        "source": 85,
+        "target": 84,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_084",
+          "sequence": [
+            "L405S-317",
+            "L405S-110",
+            "L405S-313"
+          ]
+        },
+        "witness_path_count": 1079
+      },
+      {
+        "source": 86,
+        "target": 93,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_082",
+          "sequence": [
+            "L405S-319",
+            "L405S-318",
+            "L405S-373"
+          ]
+        },
+        "witness_path_count": 1215
+      },
+      {
+        "source": 87,
+        "target": 88,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_095",
+          "sequence": [
+            "L405S-322",
+            "L405S-009",
+            "L405S-324",
+            "L405S-008",
+            "L405S-323"
+          ]
+        },
+        "witness_path_count": 188
+      },
+      {
+        "source": 88,
+        "target": 99,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_096",
+          "sequence": [
+            "L405S-323",
+            "L405S-114",
+            "L405S-113",
+            "L405S-012",
+            "L405S-325",
+            "L405S-011",
+            "L405S-406"
+          ]
+        },
+        "witness_path_count": 95
+      },
+      {
+        "source": 89,
+        "target": 103,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_068",
+          "sequence": [
+            "L405S-334",
+            "L405S-055",
+            "L405S-247",
+            "L405S-421"
+          ]
+        },
+        "witness_path_count": 1943
+      },
+      {
+        "source": 91,
+        "target": 29,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_030",
+          "sequence": [
+            "L405S-363",
+            "L405S-362",
+            "L405S-212",
+            "L405S-211",
+            "L405S-087"
+          ]
+        },
+        "witness_path_count": 1943
+      },
+      {
+        "source": 93,
+        "target": 85,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_083",
+          "sequence": [
+            "L405S-373",
+            "L405S-321",
+            "L405S-433",
+            "L405S-316",
+            "L405S-315",
+            "L405S-314",
+            "L405S-317"
+          ]
+        },
+        "witness_path_count": 1148
+      },
+      {
+        "source": 94,
+        "target": 61,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_026",
+          "sequence": [
+            "L405S-377",
+            "L405S-376",
+            "L405S-384",
+            "L405S-375",
+            "L405S-374",
+            "L405S-365",
+            "L405S-366",
+            "L405S-202"
+          ]
+        },
+        "witness_path_count": 1775
+      },
+      {
+        "source": 95,
+        "target": 35,
+        "min_gap": 7,
+        "max_gap": 7,
+        "witness": {
+          "path_id": "P000_028",
+          "sequence": [
+            "L405S-387",
+            "L405S-386",
+            "L405S-385",
+            "L405S-388",
+            "L405S-139",
+            "L405S-086",
+            "L405S-085",
+            "L405S-395",
+            "L405S-119"
+          ]
+        },
+        "witness_path_count": 1863
+      },
+      {
+        "source": 98,
+        "target": 77,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_049",
+          "sequence": [
+            "L405S-403",
+            "L405S-399",
+            "L405S-400",
+            "L405S-401",
+            "L405S-402",
+            "L405S-282"
+          ]
+        },
+        "witness_path_count": 2304
+      },
+      {
+        "source": 103,
+        "target": 15,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_069",
+          "sequence": [
+            "L405S-421",
+            "L405S-050",
+            "L405S-248",
+            "L405S-291",
+            "L405S-052"
+          ]
+        },
+        "witness_path_count": 1904
+      },
+      {
+        "source": 105,
+        "target": 18,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_053",
+          "sequence": [
+            "L405S-424",
+            "L405S-025",
+            "L405S-273",
+            "L405S-272",
+            "L405S-024",
+            "L405S-062",
+            "L405S-271",
+            "L405S-061"
+          ]
+        },
+        "witness_path_count": 2288
+      },
+      {
+        "source": 107,
+        "target": 53,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_014",
+          "sequence": [
+            "L405S-430",
+            "L405S-429",
+            "L405S-177",
+            "L405S-176"
+          ]
+        },
+        "witness_path_count": 1079
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "67cd2874dd5f4e9003ca0c66f8855100f76cce2f26a9e9830ca6dcf0fa2cf117",
+      "fd_parameters.csv": "9bc6fb6b923a155a073a8cab943aaf69dc9eb1c1faf6fdc34a0639eaea0fb329",
+      "lwr_mainline_topology.csv": "31215651b677d43d30382189b0a4b1c3aa89fad431173d7165c3a75a43443f99",
+      "path_set.csv": "166a39cf7ddd9f89409b9815d3e0b9337bb76a4abde323949924df92f9a40718",
+      "synthetic_network_manifest.json": "60c868a0dc6e8301254e8a4853cf529fae9d5ae70490dd0b0d362a434bc848c4"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D12_I5_N": {
+    "link_ids": [
+      "L5N-001",
+      "L5N-002",
+      "L5N-003",
+      "L5N-004",
+      "L5N-005",
+      "L5N-006",
+      "L5N-007",
+      "L5N-008",
+      "L5N-009",
+      "L5N-010",
+      "L5N-011",
+      "L5N-012",
+      "L5N-013",
+      "L5N-014",
+      "L5N-015",
+      "L5N-016",
+      "L5N-017",
+      "L5N-018",
+      "L5N-019",
+      "L5N-020",
+      "L5N-021",
+      "L5N-022",
+      "L5N-023",
+      "L5N-024",
+      "L5N-025",
+      "L5N-026",
+      "L5N-027",
+      "L5N-028",
+      "L5N-029",
+      "L5N-030",
+      "L5N-031",
+      "L5N-032",
+      "L5N-033",
+      "L5N-034",
+      "L5N-035",
+      "L5N-036",
+      "L5N-037",
+      "L5N-038",
+      "L5N-039",
+      "L5N-040",
+      "L5N-041",
+      "L5N-042",
+      "L5N-043",
+      "L5N-044",
+      "L5N-045",
+      "L5N-046",
+      "L5N-047",
+      "L5N-048",
+      "L5N-049",
+      "L5N-050",
+      "L5N-051",
+      "L5N-052",
+      "L5N-053",
+      "L5N-054",
+      "L5N-055",
+      "L5N-056",
+      "L5N-057",
+      "L5N-058",
+      "L5N-059",
+      "L5N-060",
+      "L5N-061",
+      "L5N-062",
+      "L5N-063",
+      "L5N-064",
+      "L5N-065",
+      "L5N-066",
+      "L5N-067",
+      "L5N-068",
+      "L5N-069",
+      "L5N-070",
+      "L5N-071",
+      "L5N-072",
+      "L5N-073",
+      "L5N-074",
+      "L5N-075",
+      "L5N-076",
+      "L5N-077",
+      "L5N-078",
+      "L5N-079",
+      "L5N-080",
+      "L5N-081",
+      "L5N-082",
+      "L5N-083",
+      "L5N-084",
+      "L5N-085",
+      "L5N-086",
+      "L5N-087",
+      "L5N-088",
+      "L5N-089",
+      "L5N-090",
+      "L5N-091",
+      "L5N-092",
+      "L5N-093",
+      "L5N-094",
+      "L5N-095",
+      "L5N-096",
+      "L5N-097",
+      "L5N-098",
+      "L5N-099",
+      "L5N-100",
+      "L5N-101",
+      "L5N-102",
+      "L5N-103",
+      "L5N-104",
+      "L5N-105",
+      "L5N-106",
+      "L5N-107",
+      "L5N-108",
+      "L5N-109",
+      "L5N-110",
+      "L5N-111",
+      "L5N-112",
+      "L5N-113",
+      "L5N-114",
+      "L5N-115",
+      "L5N-116",
+      "L5N-117",
+      "L5N-118",
+      "L5N-119",
+      "L5N-120",
+      "L5N-121",
+      "L5N-122",
+      "L5N-123",
+      "L5N-124",
+      "L5N-125",
+      "L5N-126",
+      "L5N-127",
+      "L5N-128",
+      "L5N-129",
+      "L5N-130",
+      "L5N-131",
+      "L5N-132",
+      "L5N-133",
+      "L5N-134",
+      "L5N-135",
+      "L5N-136",
+      "L5N-137",
+      "L5N-138",
+      "L5N-139",
+      "L5N-140",
+      "L5N-141",
+      "L5N-142",
+      "L5N-143",
+      "L5N-144",
+      "L5N-145",
+      "L5N-146",
+      "L5N-147",
+      "L5N-148",
+      "L5N-149",
+      "L5N-150",
+      "L5N-151",
+      "L5N-152",
+      "L5N-153",
+      "L5N-154",
+      "L5N-155",
+      "L5N-156",
+      "L5N-157",
+      "L5N-158",
+      "L5N-159",
+      "L5N-160",
+      "L5N-161",
+      "L5N-162",
+      "L5N-163",
+      "L5N-164",
+      "L5N-165",
+      "L5N-166",
+      "L5N-167",
+      "L5N-168",
+      "L5N-169",
+      "L5N-170",
+      "L5N-171",
+      "L5N-172",
+      "L5N-173",
+      "L5N-174",
+      "L5N-175",
+      "L5N-176",
+      "L5N-177",
+      "L5N-178",
+      "L5N-179",
+      "L5N-180",
+      "L5N-181",
+      "L5N-182",
+      "L5N-183",
+      "L5N-184",
+      "L5N-185",
+      "L5N-186",
+      "L5N-187",
+      "L5N-188",
+      "L5N-189",
+      "L5N-190",
+      "L5N-191",
+      "L5N-192",
+      "L5N-193",
+      "L5N-194",
+      "L5N-195",
+      "L5N-196",
+      "L5N-197",
+      "L5N-198",
+      "L5N-199",
+      "L5N-200",
+      "L5N-201",
+      "L5N-202",
+      "L5N-203",
+      "L5N-204",
+      "L5N-205",
+      "L5N-206",
+      "L5N-207",
+      "L5N-208",
+      "L5N-209",
+      "L5N-210",
+      "L5N-211",
+      "L5N-212",
+      "L5N-213",
+      "L5N-214",
+      "L5N-215",
+      "L5N-216",
+      "L5N-217",
+      "L5N-218",
+      "L5N-219",
+      "L5N-220",
+      "L5N-221",
+      "L5N-222",
+      "L5N-223",
+      "L5N-224",
+      "L5N-225",
+      "L5N-226",
+      "L5N-227",
+      "L5N-228",
+      "L5N-229",
+      "L5N-230",
+      "L5N-231",
+      "L5N-232",
+      "L5N-233",
+      "L5N-234",
+      "L5N-235",
+      "L5N-236",
+      "L5N-237",
+      "L5N-238",
+      "L5N-239",
+      "L5N-240",
+      "L5N-241",
+      "L5N-242",
+      "L5N-243",
+      "L5N-244",
+      "L5N-245",
+      "L5N-246",
+      "L5N-247",
+      "L5N-248",
+      "L5N-249",
+      "L5N-250",
+      "L5N-251",
+      "L5N-252",
+      "L5N-253",
+      "L5N-254",
+      "L5N-255",
+      "L5N-256",
+      "L5N-257",
+      "L5N-258"
+    ],
+    "edges": [],
+    "source_hashes": {
+      "links.csv": "93a1ecf6024e69844aa1916df3b825ac645f5fe88d7520dc5c1f367ab829b1e0",
+      "fd_parameters.csv": "3750f4e9cf3d85c5d219befe0d5bf773e6b37a2a6d3e3700631d0c4e23006082",
+      "lwr_mainline_topology.csv": "a49a7a337c57af65aeb4796a2122a06dbd5d7bc5e41cc70f3bedb3151d7c41cd",
+      "path_set.csv": "935a312c7bf0275017e742d72cbbf8016940a4093891d3afc95e74608d2a2938",
+      "synthetic_network_manifest.json": "d890df8a3ceeba05fdf6da88e897a07ddabadfc1c08f365231ccbd5e825be73e"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  },
+  "D12_I5_S": {
+    "link_ids": [
+      "L5S-002",
+      "L5S-005",
+      "L5S-009",
+      "L5S-010",
+      "L5S-013",
+      "L5S-017",
+      "L5S-020",
+      "L5S-022",
+      "L5S-028",
+      "L5S-033",
+      "L5S-035",
+      "L5S-036",
+      "L5S-041",
+      "L5S-045",
+      "L5S-048",
+      "L5S-049",
+      "L5S-050",
+      "L5S-051",
+      "L5S-052",
+      "L5S-053",
+      "L5S-054",
+      "L5S-055",
+      "L5S-057",
+      "L5S-058",
+      "L5S-061",
+      "L5S-062",
+      "L5S-063",
+      "L5S-065",
+      "L5S-066",
+      "L5S-067",
+      "L5S-068",
+      "L5S-069",
+      "L5S-071",
+      "L5S-077",
+      "L5S-079",
+      "L5S-083",
+      "L5S-084",
+      "L5S-085",
+      "L5S-086",
+      "L5S-091",
+      "L5S-093",
+      "L5S-095",
+      "L5S-096",
+      "L5S-101",
+      "L5S-107",
+      "L5S-113",
+      "L5S-116",
+      "L5S-120",
+      "L5S-121",
+      "L5S-122",
+      "L5S-123",
+      "L5S-125",
+      "L5S-130",
+      "L5S-132",
+      "L5S-135",
+      "L5S-136",
+      "L5S-137",
+      "L5S-142",
+      "L5S-143",
+      "L5S-146",
+      "L5S-147",
+      "L5S-149",
+      "L5S-152",
+      "L5S-154",
+      "L5S-156",
+      "L5S-158",
+      "L5S-159",
+      "L5S-161",
+      "L5S-165",
+      "L5S-173",
+      "L5S-174",
+      "L5S-178",
+      "L5S-179",
+      "L5S-181",
+      "L5S-185",
+      "L5S-186",
+      "L5S-187",
+      "L5S-190",
+      "L5S-191",
+      "L5S-193",
+      "L5S-196",
+      "L5S-197",
+      "L5S-199",
+      "L5S-205",
+      "L5S-220",
+      "L5S-223",
+      "L5S-226",
+      "L5S-239",
+      "L5S-240",
+      "L5S-249",
+      "L5S-252",
+      "L5S-260",
+      "L5S-262",
+      "L5S-264",
+      "L5S-267",
+      "L5S-271",
+      "L5S-272",
+      "L5S-277",
+      "L5S-278",
+      "L5S-280"
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 37,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_070",
+          "sequence": [
+            "L5S-002",
+            "L5S-003",
+            "L5S-211",
+            "L5S-085"
+          ]
+        },
+        "witness_path_count": 2139
+      },
+      {
+        "source": 2,
+        "target": 19,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_082",
+          "sequence": [
+            "L5S-009",
+            "L5S-046",
+            "L5S-047",
+            "L5S-237",
+            "L5S-053"
+          ]
+        },
+        "witness_path_count": 1539
+      },
+      {
+        "source": 6,
+        "target": 45,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_064",
+          "sequence": [
+            "L5S-020",
+            "L5S-021",
+            "L5S-201",
+            "L5S-112",
+            "L5S-113"
+          ]
+        },
+        "witness_path_count": 2331
+      },
+      {
+        "source": 7,
+        "target": 65,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_046",
+          "sequence": [
+            "L5S-022",
+            "L5S-192",
+            "L5S-024",
+            "L5S-025",
+            "L5S-241",
+            "L5S-158"
+          ]
+        },
+        "witness_path_count": 2475
+      },
+      {
+        "source": 8,
+        "target": 7,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_045",
+          "sequence": [
+            "L5S-028",
+            "L5S-026",
+            "L5S-222",
+            "L5S-207",
+            "L5S-027",
+            "L5S-206",
+            "L5S-023",
+            "L5S-022"
+          ]
+        },
+        "witness_path_count": 2464
+      },
+      {
+        "source": 10,
+        "target": 85,
+        "min_gap": 6,
+        "max_gap": 6,
+        "witness": {
+          "path_id": "P000_043",
+          "sequence": [
+            "L5S-035",
+            "L5S-225",
+            "L5S-170",
+            "L5S-238",
+            "L5S-169",
+            "L5S-164",
+            "L5S-224",
+            "L5S-223"
+          ]
+        },
+        "witness_path_count": 2436
+      },
+      {
+        "source": 12,
+        "target": 84,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_027",
+          "sequence": [
+            "L5S-041",
+            "L5S-204",
+            "L5S-040",
+            "L5S-080",
+            "L5S-081",
+            "L5S-176",
+            "L5S-220"
+          ]
+        },
+        "witness_path_count": 1924
+      },
+      {
+        "source": 14,
+        "target": 33,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_094",
+          "sequence": [
+            "L5S-048",
+            "L5S-073",
+            "L5S-077"
+          ]
+        },
+        "witness_path_count": 651
+      },
+      {
+        "source": 15,
+        "target": 86,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_023",
+          "sequence": [
+            "L5S-049",
+            "L5S-273",
+            "L5S-274",
+            "L5S-148",
+            "L5S-138",
+            "L5S-226"
+          ]
+        },
+        "witness_path_count": 1716
+      },
+      {
+        "source": 16,
+        "target": 31,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_096",
+          "sequence": [
+            "L5S-050",
+            "L5S-076",
+            "L5S-078",
+            "L5S-128",
+            "L5S-075",
+            "L5S-069"
+          ]
+        },
+        "witness_path_count": 475
+      },
+      {
+        "source": 17,
+        "target": 21,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_086",
+          "sequence": [
+            "L5S-051",
+            "L5S-015",
+            "L5S-133",
+            "L5S-234",
+            "L5S-014",
+            "L5S-100",
+            "L5S-055"
+          ]
+        },
+        "witness_path_count": 1275
+      },
+      {
+        "source": 18,
+        "target": 3,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_079",
+          "sequence": [
+            "L5S-052",
+            "L5S-127",
+            "L5S-011",
+            "L5S-010"
+          ]
+        },
+        "witness_path_count": 1716
+      },
+      {
+        "source": 20,
+        "target": 40,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_061",
+          "sequence": [
+            "L5S-054",
+            "L5S-110",
+            "L5S-281",
+            "L5S-093"
+          ]
+        },
+        "witness_path_count": 2400
+      },
+      {
+        "source": 21,
+        "target": 43,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_087",
+          "sequence": [
+            "L5S-055",
+            "L5S-072",
+            "L5S-070",
+            "L5S-089",
+            "L5S-103",
+            "L5S-104",
+            "L5S-101"
+          ]
+        },
+        "witness_path_count": 1204
+      },
+      {
+        "source": 22,
+        "target": 2,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_081",
+          "sequence": [
+            "L5S-057",
+            "L5S-008",
+            "L5S-009"
+          ]
+        },
+        "witness_path_count": 1600
+      },
+      {
+        "source": 23,
+        "target": 46,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_066",
+          "sequence": [
+            "L5S-058",
+            "L5S-114",
+            "L5S-115",
+            "L5S-088",
+            "L5S-116"
+          ]
+        },
+        "witness_path_count": 2275
+      },
+      {
+        "source": 24,
+        "target": 10,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_042",
+          "sequence": [
+            "L5S-061",
+            "L5S-030",
+            "L5S-031",
+            "L5S-229",
+            "L5S-166",
+            "L5S-034",
+            "L5S-035"
+          ]
+        },
+        "witness_path_count": 2419
+      },
+      {
+        "source": 27,
+        "target": 62,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_057",
+          "sequence": [
+            "L5S-065",
+            "L5S-251",
+            "L5S-153",
+            "L5S-152"
+          ]
+        },
+        "witness_path_count": 2464
+      },
+      {
+        "source": 28,
+        "target": 66,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_014",
+          "sequence": [
+            "L5S-066",
+            "L5S-244",
+            "L5S-159"
+          ]
+        },
+        "witness_path_count": 1131
+      },
+      {
+        "source": 31,
+        "target": 4,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_097",
+          "sequence": [
+            "L5S-069",
+            "L5S-183",
+            "L5S-182",
+            "L5S-012",
+            "L5S-013"
+          ]
+        },
+        "witness_path_count": 384
+      },
+      {
+        "source": 32,
+        "target": 14,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_093",
+          "sequence": [
+            "L5S-071",
+            "L5S-099",
+            "L5S-177",
+            "L5S-048"
+          ]
+        },
+        "witness_path_count": 736
+      },
+      {
+        "source": 33,
+        "target": 16,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_095",
+          "sequence": [
+            "L5S-077",
+            "L5S-098",
+            "L5S-050"
+          ]
+        },
+        "witness_path_count": 564
+      },
+      {
+        "source": 34,
+        "target": 20,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_060",
+          "sequence": [
+            "L5S-079",
+            "L5S-056",
+            "L5S-054"
+          ]
+        },
+        "witness_path_count": 2419
+      },
+      {
+        "source": 36,
+        "target": 90,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_048",
+          "sequence": [
+            "L5S-084",
+            "L5S-157",
+            "L5S-252"
+          ]
+        },
+        "witness_path_count": 2491
+      },
+      {
+        "source": 42,
+        "target": 88,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_005",
+          "sequence": [
+            "L5S-096",
+            "L5S-208",
+            "L5S-268",
+            "L5S-240"
+          ]
+        },
+        "witness_path_count": 384
+      },
+      {
+        "source": 43,
+        "target": 98,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_088",
+          "sequence": [
+            "L5S-101",
+            "L5S-102",
+            "L5S-278"
+          ]
+        },
+        "witness_path_count": 1131
+      },
+      {
+        "source": 44,
+        "target": 96,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_011",
+          "sequence": [
+            "L5S-107",
+            "L5S-248",
+            "L5S-272"
+          ]
+        },
+        "witness_path_count": 900
+      },
+      {
+        "source": 45,
+        "target": 23,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_065",
+          "sequence": [
+            "L5S-113",
+            "L5S-188",
+            "L5S-256",
+            "L5S-189",
+            "L5S-058"
+          ]
+        },
+        "witness_path_count": 2304
+      },
+      {
+        "source": 47,
+        "target": 0,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_069",
+          "sequence": [
+            "L5S-120",
+            "L5S-082",
+            "L5S-002"
+          ]
+        },
+        "witness_path_count": 2176
+      },
+      {
+        "source": 49,
+        "target": 50,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_073",
+          "sequence": [
+            "L5S-122",
+            "L5S-214",
+            "L5S-213",
+            "L5S-123"
+          ]
+        },
+        "witness_path_count": 2016
+      },
+      {
+        "source": 50,
+        "target": 51,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_074",
+          "sequence": [
+            "L5S-123",
+            "L5S-124",
+            "L5S-242",
+            "L5S-125"
+          ]
+        },
+        "witness_path_count": 1971
+      },
+      {
+        "source": 51,
+        "target": 79,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_075",
+          "sequence": [
+            "L5S-125",
+            "L5S-194",
+            "L5S-193"
+          ]
+        },
+        "witness_path_count": 1924
+      },
+      {
+        "source": 52,
+        "target": 32,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_092",
+          "sequence": [
+            "L5S-130",
+            "L5S-129",
+            "L5S-071"
+          ]
+        },
+        "witness_path_count": 819
+      },
+      {
+        "source": 53,
+        "target": 52,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_091",
+          "sequence": [
+            "L5S-132",
+            "L5S-203",
+            "L5S-131",
+            "L5S-074",
+            "L5S-130"
+          ]
+        },
+        "witness_path_count": 900
+      },
+      {
+        "source": 56,
+        "target": 11,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_037",
+          "sequence": [
+            "L5S-137",
+            "L5S-246",
+            "L5S-036"
+          ]
+        },
+        "witness_path_count": 2304
+      },
+      {
+        "source": 57,
+        "target": 39,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_035",
+          "sequence": [
+            "L5S-142",
+            "L5S-257",
+            "L5S-258",
+            "L5S-092",
+            "L5S-091"
+          ]
+        },
+        "witness_path_count": 2244
+      },
+      {
+        "source": 58,
+        "target": 18,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_078",
+          "sequence": [
+            "L5S-143",
+            "L5S-126",
+            "L5S-052"
+          ]
+        },
+        "witness_path_count": 1771
+      },
+      {
+        "source": 59,
+        "target": 87,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_053",
+          "sequence": [
+            "L5S-146",
+            "L5S-145",
+            "L5S-007",
+            "L5S-230",
+            "L5S-144",
+            "L5S-239"
+          ]
+        },
+        "witness_path_count": 2496
+      },
+      {
+        "source": 61,
+        "target": 35,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_021",
+          "sequence": [
+            "L5S-149",
+            "L5S-150",
+            "L5S-245",
+            "L5S-139",
+            "L5S-083"
+          ]
+        },
+        "witness_path_count": 1600
+      },
+      {
+        "source": 62,
+        "target": 26,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_058",
+          "sequence": [
+            "L5S-152",
+            "L5S-255",
+            "L5S-198",
+            "L5S-250",
+            "L5S-063"
+          ]
+        },
+        "witness_path_count": 2451
+      },
+      {
+        "source": 63,
+        "target": 59,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_052",
+          "sequence": [
+            "L5S-154",
+            "L5S-006",
+            "L5S-195",
+            "L5S-146"
+          ]
+        },
+        "witness_path_count": 2499
+      },
+      {
+        "source": 65,
+        "target": 36,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_047",
+          "sequence": [
+            "L5S-158",
+            "L5S-001",
+            "L5S-228",
+            "L5S-227",
+            "L5S-253",
+            "L5S-084"
+          ]
+        },
+        "witness_path_count": 2484
+      },
+      {
+        "source": 66,
+        "target": 76,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_015",
+          "sequence": [
+            "L5S-159",
+            "L5S-160",
+            "L5S-187"
+          ]
+        },
+        "witness_path_count": 1204
+      },
+      {
+        "source": 67,
+        "target": 54,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_019",
+          "sequence": [
+            "L5S-161",
+            "L5S-168",
+            "L5S-232",
+            "L5S-275",
+            "L5S-135"
+          ]
+        },
+        "witness_path_count": 1476
+      },
+      {
+        "source": 69,
+        "target": 63,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_051",
+          "sequence": [
+            "L5S-173",
+            "L5S-216",
+            "L5S-172",
+            "L5S-155",
+            "L5S-154"
+          ]
+        },
+        "witness_path_count": 2500
+      },
+      {
+        "source": 70,
+        "target": 9,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_040",
+          "sequence": [
+            "L5S-174",
+            "L5S-059",
+            "L5S-032",
+            "L5S-217",
+            "L5S-033"
+          ]
+        },
+        "witness_path_count": 2379
+      },
+      {
+        "source": 71,
+        "target": 77,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_100",
+          "sequence": [
+            "L5S-178",
+            "L5S-212",
+            "L5S-190"
+          ]
+        },
+        "witness_path_count": 99
+      },
+      {
+        "source": 74,
+        "target": 92,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_033",
+          "sequence": [
+            "L5S-185",
+            "L5S-261",
+            "L5S-171",
+            "L5S-141",
+            "L5S-037",
+            "L5S-038",
+            "L5S-262"
+          ]
+        },
+        "witness_path_count": 2176
+      },
+      {
+        "source": 75,
+        "target": 95,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_017",
+          "sequence": [
+            "L5S-186",
+            "L5S-134",
+            "L5S-270",
+            "L5S-269",
+            "L5S-271"
+          ]
+        },
+        "witness_path_count": 1344
+      },
+      {
+        "source": 78,
+        "target": 47,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_068",
+          "sequence": [
+            "L5S-191",
+            "L5S-210",
+            "L5S-117",
+            "L5S-118",
+            "L5S-119",
+            "L5S-120"
+          ]
+        },
+        "witness_path_count": 2211
+      },
+      {
+        "source": 79,
+        "target": 1,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_076",
+          "sequence": [
+            "L5S-193",
+            "L5S-004",
+            "L5S-005"
+          ]
+        },
+        "witness_path_count": 1875
+      },
+      {
+        "source": 80,
+        "target": 97,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_025",
+          "sequence": [
+            "L5S-196",
+            "L5S-042",
+            "L5S-277"
+          ]
+        },
+        "witness_path_count": 1824
+      },
+      {
+        "source": 81,
+        "target": 93,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_030",
+          "sequence": [
+            "L5S-197",
+            "L5S-184",
+            "L5S-264"
+          ]
+        },
+        "witness_path_count": 2059
+      },
+      {
+        "source": 82,
+        "target": 5,
+        "min_gap": 8,
+        "max_gap": 8,
+        "witness": {
+          "path_id": "P000_084",
+          "sequence": [
+            "L5S-199",
+            "L5S-202",
+            "L5S-019",
+            "L5S-236",
+            "L5S-180",
+            "L5S-018",
+            "L5S-215",
+            "L5S-097",
+            "L5S-016",
+            "L5S-017"
+          ]
+        },
+        "witness_path_count": 1411
+      },
+      {
+        "source": 84,
+        "target": 25,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_028",
+          "sequence": [
+            "L5S-220",
+            "L5S-221",
+            "L5S-039",
+            "L5S-218",
+            "L5S-094",
+            "L5S-062"
+          ]
+        },
+        "witness_path_count": 1971
+      },
+      {
+        "source": 85,
+        "target": 8,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_044",
+          "sequence": [
+            "L5S-223",
+            "L5S-231",
+            "L5S-209",
+            "L5S-163",
+            "L5S-029",
+            "L5S-028"
+          ]
+        },
+        "witness_path_count": 2451
+      },
+      {
+        "source": 86,
+        "target": 80,
+        "min_gap": 4,
+        "max_gap": 4,
+        "witness": {
+          "path_id": "P000_024",
+          "sequence": [
+            "L5S-226",
+            "L5S-175",
+            "L5S-243",
+            "L5S-044",
+            "L5S-043",
+            "L5S-196"
+          ]
+        },
+        "witness_path_count": 1771
+      },
+      {
+        "source": 87,
+        "target": 83,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_054",
+          "sequence": [
+            "L5S-239",
+            "L5S-162",
+            "L5S-205"
+          ]
+        },
+        "witness_path_count": 2491
+      },
+      {
+        "source": 88,
+        "target": 30,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_006",
+          "sequence": [
+            "L5S-240",
+            "L5S-167",
+            "L5S-068"
+          ]
+        },
+        "witness_path_count": 475
+      },
+      {
+        "source": 89,
+        "target": 27,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_056",
+          "sequence": [
+            "L5S-249",
+            "L5S-254",
+            "L5S-065"
+          ]
+        },
+        "witness_path_count": 2475
+      },
+      {
+        "source": 91,
+        "target": 70,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_039",
+          "sequence": [
+            "L5S-260",
+            "L5S-279",
+            "L5S-259",
+            "L5S-219",
+            "L5S-151",
+            "L5S-233",
+            "L5S-174"
+          ]
+        },
+        "witness_path_count": 2356
+      },
+      {
+        "source": 92,
+        "target": 57,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_034",
+          "sequence": [
+            "L5S-262",
+            "L5S-140",
+            "L5S-142"
+          ]
+        },
+        "witness_path_count": 2211
+      },
+      {
+        "source": 93,
+        "target": 38,
+        "min_gap": 5,
+        "max_gap": 5,
+        "witness": {
+          "path_id": "P000_031",
+          "sequence": [
+            "L5S-264",
+            "L5S-266",
+            "L5S-263",
+            "L5S-265",
+            "L5S-064",
+            "L5S-087",
+            "L5S-086"
+          ]
+        },
+        "witness_path_count": 2100
+      },
+      {
+        "source": 94,
+        "target": 73,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_008",
+          "sequence": [
+            "L5S-267",
+            "L5S-106",
+            "L5S-181"
+          ]
+        },
+        "witness_path_count": 651
+      },
+      {
+        "source": 95,
+        "target": 67,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_018",
+          "sequence": [
+            "L5S-271",
+            "L5S-247",
+            "L5S-161"
+          ]
+        },
+        "witness_path_count": 1411
+      },
+      {
+        "source": 96,
+        "target": 29,
+        "min_gap": 1,
+        "max_gap": 1,
+        "witness": {
+          "path_id": "P000_012",
+          "sequence": [
+            "L5S-272",
+            "L5S-200",
+            "L5S-067"
+          ]
+        },
+        "witness_path_count": 979
+      },
+      {
+        "source": 97,
+        "target": 12,
+        "min_gap": 2,
+        "max_gap": 2,
+        "witness": {
+          "path_id": "P000_026",
+          "sequence": [
+            "L5S-277",
+            "L5S-060",
+            "L5S-276",
+            "L5S-041"
+          ]
+        },
+        "witness_path_count": 1875
+      },
+      {
+        "source": 98,
+        "target": 60,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_089",
+          "sequence": [
+            "L5S-278",
+            "L5S-105",
+            "L5S-235",
+            "L5S-090",
+            "L5S-147"
+          ]
+        },
+        "witness_path_count": 1056
+      },
+      {
+        "source": 99,
+        "target": 6,
+        "min_gap": 3,
+        "max_gap": 3,
+        "witness": {
+          "path_id": "P000_063",
+          "sequence": [
+            "L5S-280",
+            "L5S-108",
+            "L5S-109",
+            "L5S-111",
+            "L5S-020"
+          ]
+        },
+        "witness_path_count": 2356
+      }
+    ],
+    "source_hashes": {
+      "links.csv": "4a27eee57ede3b848a6e1230d1874203e4c52ee98ce64355be044eef730b75e3",
+      "fd_parameters.csv": "2d2cc75ea58d87f4faa17bb25482adc106bbd5f3508c5af7643f3e71b2156c92",
+      "lwr_mainline_topology.csv": "08d70cd76c65c1c6cbeff355fb61281596eff8be9423d839f478368f768cfd95",
+      "path_set.csv": "13fcbcd2608a844325033a28d8d5f3d72f102a53181701ac0b9f952d9551f0dc",
+      "synthetic_network_manifest.json": "6bca720ec030777dfce76eed5b5ffc5ed112bd7a8d0906845487f1e884900005"
+    },
+    "semantics": "public directed path reachability only; intermediate states unobserved",
+    "max_intervening_links": 8
+  }
+}

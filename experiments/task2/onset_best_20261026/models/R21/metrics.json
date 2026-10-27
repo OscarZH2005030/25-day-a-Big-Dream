@@ -1,0 +1,33 @@
+{
+  "preserved_for": "old410",
+  "historical_reference_best_proxy_IoU": 0.7544639243749791,
+  "full_comparison": {
+    "new_phase_population_round19": {
+      "overall": 0.783874783988302,
+      "windows": 367,
+      "queue_onset": 0.7078569928921734,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "new_phase_population_selected": {
+      "overall": 0.7842664895090342,
+      "windows": 367,
+      "queue_onset": 0.7086404039336379,
+      "queue_ongoing": 0.8598925750844304
+    },
+    "old410_round19": {
+      "overall": 0.7544562827110874,
+      "windows": 410,
+      "queue_onset": 0.7298152426090865,
+      "queue_ongoing": 0.7790973228130884
+    },
+    "old410_selected": {
+      "overall": 0.7544639243749791,
+      "windows": 410,
+      "queue_onset": 0.7298305259368698,
+      "queue_ongoing": 0.7790973228130884
+    }
+  },
+  "official_S_queue": null,
+  "not_independent_blind_test": true,
+  "Task1_frozen_historical_S_state": 0.942828633
+}

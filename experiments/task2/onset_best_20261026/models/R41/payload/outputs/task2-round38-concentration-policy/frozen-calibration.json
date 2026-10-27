@@ -1,0 +1,76 @@
+{
+  "selected": {
+    "alpha_concentration": 0.5,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7847741062303322,
+    "negative_stats": {
+      "windows": 77,
+      "false_any_macro": 0.0,
+      "false_eligible_fraction_macro": 0.0
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alpha_concentration": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7829486963682739,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_concentration": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7847741062303322,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_concentration": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7835966435510406,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "conditional-first-full.txt": "f46de9dd5af119609cf8faf8789c3da0cee1d9185954020b92a8ce23535d41a1",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b",
+    "concentration_runtime.py": "d9a18ec221c5fa7ec505e2e8a54db311e02b8fb5f256a67f6c3e26cd39c8dd06",
+    "gated_core.py": "eb7868d14976f09615f50c8baa492347b127431c569d2f2f45cb44a935ab58bd"
+  },
+  "route_sha256": "768cebcb2f74895b52c0f04bf8d09b8de47e5908047f77b679afd8e891af136b",
+  "baseline_frozen_sha256": "662d170a521da9e18643d86d58a31978e943de0217d2e0659ec3a3d5f8cfd2fb",
+  "early_gate_sha256": "5898a2dc1f391e7df7d1cfa8de7ecaef3a610ab1f1ca277e308a185bd6292587",
+  "condition_forecast_frozen": [
+    false,
+    true
+  ],
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

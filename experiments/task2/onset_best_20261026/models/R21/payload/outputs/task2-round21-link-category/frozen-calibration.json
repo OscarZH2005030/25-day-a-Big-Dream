@@ -1,0 +1,102 @@
+{
+  "selected": {
+    "alpha_category": 1.0,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7804265812710387,
+    "negative_stats": {
+      "windows": 77,
+      "panels": 8,
+      "false_any_macro": 0.0,
+      "false_eligible_fraction_macro": 0.0
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alpha_category": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.779781047801851,
+      "negative_stats": {
+        "windows": 77,
+        "panels": 8,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_category": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7802902440873944,
+      "negative_stats": {
+        "windows": 77,
+        "panels": 8,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_category": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7804265812710387,
+      "negative_stats": {
+        "windows": 77,
+        "panels": 8,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-category-checkpoint.txt": "05ada0421f82b134cc05903d832621aeb1fe6e520f8f7231177decfe28458c8b",
+    "D12_I5_N-category.txt": "05ada0421f82b134cc05903d832621aeb1fe6e520f8f7231177decfe28458c8b",
+    "D12_I5_N-probe-checkpoint.txt": "9d5a17972414686e8eaed35cbeed55c6f0b8fc1dbf7a4dd192f350701ef7d10b",
+    "D12_I5_N-probe.txt": "9d5a17972414686e8eaed35cbeed55c6f0b8fc1dbf7a4dd192f350701ef7d10b",
+    "D12_I5_S-probe-checkpoint.txt": "f8010fefaaf4cfa879246b1e7562a05a4a86002ff6b2a52166f3d81f3f81da4a",
+    "D12_I5_S-probe.txt": "f8010fefaaf4cfa879246b1e7562a05a4a86002ff6b2a52166f3d81f3f81da4a",
+    "D7_I10_E-category-checkpoint.txt": "94e8b2d4d8a7d53aa1fd0f03f89731039e8e74b6a72fde244e222035cc11c0ca",
+    "D7_I10_E-category.txt": "94e8b2d4d8a7d53aa1fd0f03f89731039e8e74b6a72fde244e222035cc11c0ca",
+    "D7_I10_E-probe-checkpoint.txt": "290a79d8fc4f6c373db53df49c88a6ff607c23945986f7b3b1eb66ab1c857074",
+    "D7_I10_E-probe.txt": "290a79d8fc4f6c373db53df49c88a6ff607c23945986f7b3b1eb66ab1c857074",
+    "D7_I10_W-probe-checkpoint.txt": "91d578d8ee8b42ae46831ba42b20fc060c1da614f511a80698b0c5870a1d115a",
+    "D7_I10_W-probe.txt": "91d578d8ee8b42ae46831ba42b20fc060c1da614f511a80698b0c5870a1d115a",
+    "D7_I210_E-category-checkpoint.txt": "9dd445f806ee9aeb467b9e0ce8d338a756798eb71b27b305d529832d9fe94028",
+    "D7_I210_E-category.txt": "9dd445f806ee9aeb467b9e0ce8d338a756798eb71b27b305d529832d9fe94028",
+    "D7_I210_E-probe-checkpoint.txt": "5c402d0a04a37f52ddd8bdeca3c63c4673f9eeb3a0bd819e4a941c0bb7b04b3d",
+    "D7_I210_E-probe.txt": "5c402d0a04a37f52ddd8bdeca3c63c4673f9eeb3a0bd819e4a941c0bb7b04b3d",
+    "D7_I210_W-category-checkpoint.txt": "54422f14d4fa75f62847027363d258b7495a02767f9f3d60d71ff2496abd672c",
+    "D7_I210_W-category.txt": "54422f14d4fa75f62847027363d258b7495a02767f9f3d60d71ff2496abd672c",
+    "D7_I210_W-probe-checkpoint.txt": "52fc13c96bf023e6063e3fe6d76785ed7c3935caad1e9548981070a1904269cc",
+    "D7_I210_W-probe.txt": "52fc13c96bf023e6063e3fe6d76785ed7c3935caad1e9548981070a1904269cc",
+    "D7_I405_N-category-checkpoint.txt": "916f4dadf4fbf7d7e186613504aa2319d7defe00cfbd92c4aae22befb2b17f57",
+    "D7_I405_N-category.txt": "916f4dadf4fbf7d7e186613504aa2319d7defe00cfbd92c4aae22befb2b17f57",
+    "D7_I405_N-probe-checkpoint.txt": "6f59613214dfbd52ffd086797f01ed1c018fb3580972e57cd2a46186177ec210",
+    "D7_I405_N-probe.txt": "6f59613214dfbd52ffd086797f01ed1c018fb3580972e57cd2a46186177ec210",
+    "D7_I405_S-category-checkpoint.txt": "8b7ab93ea122ca1affd9ce30da65f5c164df168fc04d3a39f643aedff9ec155c",
+    "D7_I405_S-category.txt": "8b7ab93ea122ca1affd9ce30da65f5c164df168fc04d3a39f643aedff9ec155c",
+    "D7_I405_S-probe-checkpoint.txt": "0de3d365bb038a85728f6fb4c2f4552a40b7bbdf561fe5758a381157b522318a",
+    "D7_I405_S-probe.txt": "0de3d365bb038a85728f6fb4c2f4552a40b7bbdf561fe5758a381157b522318a"
+  },
+  "route_sha256": "64c75a0a5d669ca3a02736e4ab343e55d1ab17176bb940e9036546b8410728a1",
+  "vocabulary_sha256": "8fd863022e40d6bdf1f9a9cacd2c944aa9be20d951517c4903ca677dcff4eef0",
+  "source_sha256": "2c29e332559e5fc3704fdef0b8a9740eeaffcbd4841b94c945a0e89cc827f97d",
+  "baseline_frozen_sha256": "c9ceabcf66338b94a0be0527585165e9c76f08aaf38e4039951dc4b5a3f1d7e9",
+  "ongoing_frozen": true,
+  "all_thresholds_frozen": true,
+  "February_previously_used_report_only": true,
+  "Task1_frozen": true
+}

@@ -1,0 +1,2108 @@
+{
+  "selected": {
+    "alpha_distribution": 1.0,
+    "thresholds": [
+      0.25,
+      0.1
+    ],
+    "proxy": 0.7258871430742784
+  },
+  "candidates": [
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.6917790122048201
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6690429631829197
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6708166296403354
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6713747970618623
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6696316922577414
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6689862437554863
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6669495679566864
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6622455368699287
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.6810869739710266
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.6828606404284423
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.6834188078499694
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.6816757030458482
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6810302545435936
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6789935787447935
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6742895476580357
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.6859873965180113
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.687761062975427
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6883192303969541
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.6865761255928332
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.6859306770905781
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.6838940012917782
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6791899702050204
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.6894471783258774
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.6912208447832932
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.6917790122048201
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.6900359074006992
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.6893904588984443
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.6873537830996443
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.6826497520128866
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.6870715192701895
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.6888451857276052
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.6894033531491324
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.6876602483450114
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.6870147998427565
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.6849781240439564
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6802740929571985
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.6831401217931333
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.684913788250549
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.6854719556720761
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.683728850867955
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.6830834023657002
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.6810467265669002
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.6763426954801425
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.6711363350646014
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.6729100015220171
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.673468168943544
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.6717250641394231
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.6710796156371681
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.6690429398383682
+    },
+    {
+      "alpha_distribution": 0.0,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.6643389087516103
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6797183869124523
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.680897477299554
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6799185715472783
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6788504170019627
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6791416768789331
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6789209276169456
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6732857950573303
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.6916854121839999
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.6928645025711015
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.6918855968188258
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.6908174422735103
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.6911087021504807
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.690887952888493
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6852528203288778
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.6968204915621663
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.6979995819492679
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.6970206761969922
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.6959525216516765
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.6962437815286471
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.6960230322666594
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6903878997070442
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7023022882617025
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.703481378648804
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7025024728965285
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7014343183512128
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7017255782281832
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7015048289661956
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.6958696964065804
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.702351136432841
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7035302268199425
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7025513210676668
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7014831665223512
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7017744263993216
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.701553677137334
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.6959185445777187
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.6972359644918548
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.6984150548789565
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.6974361491266808
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.696367994581365
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.6966592544583354
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.696438505196348
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.6908033726367326
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.6892867179895876
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.6904658083766892
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.6894869026244136
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.688418748079098
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.6887100079560682
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.6884892586940807
+    },
+    {
+      "alpha_distribution": 0.25,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.6828541261344654
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6888903302964251
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6899491143068495
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6885424012865067
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6881958987924163
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6882176038120714
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6878885784187443
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6815625159531529
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7010029775478891
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7020617615583133
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7006550485379707
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.70030854604388
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7003302510635353
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.7000012256702083
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6936751632046168
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7030611960653145
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7041199800757387
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7027132670553959
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7023667645613054
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7023884695809605
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7020594441876336
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.6957333817220419
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7103700129175925
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7114287969280166
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7100220839076739
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7096755814135833
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7096972864332385
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7093682610399116
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7030421985743199
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7122322347227892
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7132910187332135
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7118843057128708
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7115378032187802
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7115595082384353
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7112304828451084
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7049044203795167
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7100075622538848
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.711066346264309
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7096596332439662
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7093131307498757
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7093348357695308
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7090058103762039
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7026797479106123
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.701349027992515
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7024078120029393
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7010010989825964
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.700654596488506
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7006763015081611
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7003472761148342
+    },
+    {
+      "alpha_distribution": 0.5,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.6940212136492425
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6898885866330903
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6919809983889691
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6942602651679548
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.6917159980127502
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6900477920045041
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6866559453967498
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.6832564142447668
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7027660677654053
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.704858479521284
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7071377463002697
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.704593479145065
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.702925273136819
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6995334265290646
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6961338953770817
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7079002960886891
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.709992707844568
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.7122719746235535
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7097277074683489
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.708059501460103
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.7046676548523485
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7012681237003655
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7130203961235999
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7151128078794788
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7173920746584644
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7148478075032597
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.7131796014950136
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7097877548872593
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7063882237352765
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7184913769449797
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7205837887008585
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7228630554798441
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7203187883246396
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7186505823163936
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7152587357086392
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7118592045566562
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7170346099842507
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7191270217401297
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7214062885191151
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7188620213639106
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7171938153556646
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7138019687479102
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7104024375959274
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7085133268716493
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.710605738627528
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7128850054065137
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.710340738251309
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7086725322430629
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7052806856353085
+    },
+    {
+      "alpha_distribution": 0.75,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7018811544833257
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.075
+      ],
+      "proxy": 0.6925914641335071
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.1
+      ],
+      "proxy": 0.6933373477093177
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.15
+      ],
+      "proxy": 0.6926654628027028
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.2
+      ],
+      "proxy": 0.69019544065637
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.25
+      ],
+      "proxy": 0.6880760412643803
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.35
+      ],
+      "proxy": 0.6859285780737829
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.05,
+        0.5
+      ],
+      "proxy": 0.680777152626602
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.075
+      ],
+      "proxy": 0.7053695721954891
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.1
+      ],
+      "proxy": 0.7061154557712994
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.15
+      ],
+      "proxy": 0.7054435708646847
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.2
+      ],
+      "proxy": 0.7029735487183519
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.25
+      ],
+      "proxy": 0.7008541493263623
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.35
+      ],
+      "proxy": 0.6987066861357648
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.075,
+        0.5
+      ],
+      "proxy": 0.6935552606885839
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.075
+      ],
+      "proxy": 0.7121089112149592
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.1
+      ],
+      "proxy": 0.7128547947907696
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.15
+      ],
+      "proxy": 0.712182909884155
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.2
+      ],
+      "proxy": 0.7097128877378222
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.25
+      ],
+      "proxy": 0.7075934883458326
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.35
+      ],
+      "proxy": 0.705446025155235
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.1,
+        0.5
+      ],
+      "proxy": 0.7002945997080542
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.075
+      ],
+      "proxy": 0.7202760683934247
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.1
+      ],
+      "proxy": 0.7210219519692351
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.15
+      ],
+      "proxy": 0.7203500670626205
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.2
+      ],
+      "proxy": 0.7178800449162875
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.25
+      ],
+      "proxy": 0.715760645524298
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.35
+      ],
+      "proxy": 0.7136131823337004
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.15,
+        0.5
+      ],
+      "proxy": 0.7084617568865196
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.075
+      ],
+      "proxy": 0.7234283233407585
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.1
+      ],
+      "proxy": 0.7241742069165689
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.15
+      ],
+      "proxy": 0.7235023220099542
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.2
+      ],
+      "proxy": 0.7210322998636214
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.25
+      ],
+      "proxy": 0.7189129004716317
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.35
+      ],
+      "proxy": 0.7167654372810343
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.2,
+        0.5
+      ],
+      "proxy": 0.7116140118338534
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.075
+      ],
+      "proxy": 0.7251412594984681
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.1
+      ],
+      "proxy": 0.7258871430742784
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.15
+      ],
+      "proxy": 0.7252152581676637
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.2
+      ],
+      "proxy": 0.7227452360213309
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.25
+      ],
+      "proxy": 0.7206258366293412
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.35
+      ],
+      "proxy": 0.7184783734387438
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.25,
+        0.5
+      ],
+      "proxy": 0.7133269479915629
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.075
+      ],
+      "proxy": 0.7195638527463389
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.1
+      ],
+      "proxy": 0.7203097363221493
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.15
+      ],
+      "proxy": 0.7196378514155347
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.2
+      ],
+      "proxy": 0.7171678292692019
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.25
+      ],
+      "proxy": 0.7150484298772122
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.35
+      ],
+      "proxy": 0.7129009666866147
+    },
+    {
+      "alpha_distribution": 1.0,
+      "thresholds": [
+        0.35,
+        0.5
+      ],
+      "proxy": 0.7077495412394339
+    }
+  ],
+  "hashes": {
+    "D12_I5_N-0-conditional-checkpoint.txt": "72cf1c3b9a9d05875b5046efda4789c40a4e9d7542c1cf785034623ffdd3db72",
+    "D12_I5_N-0-conditional.txt": "72cf1c3b9a9d05875b5046efda4789c40a4e9d7542c1cf785034623ffdd3db72",
+    "D12_I5_N-0-direct-checkpoint.txt": "602babee0c527e599e13d65eef93f7b26e0d9d9732323bba3a653ef595679e3b",
+    "D12_I5_N-0-direct.txt": "602babee0c527e599e13d65eef93f7b26e0d9d9732323bba3a653ef595679e3b",
+    "D12_I5_N-0-event-checkpoint.txt": "c6ccb98ce3b608edb03d762e1fc46aa1496104620125639b61f0c36bc73c853b",
+    "D12_I5_N-0-event.txt": "c6ccb98ce3b608edb03d762e1fc46aa1496104620125639b61f0c36bc73c853b",
+    "D12_I5_N-1-direct-checkpoint.txt": "cc8037f50920aeac3d4d954d4a5e4ff6b5b3d5fb61c4bdd086e6d03584424c74",
+    "D12_I5_N-1-direct.txt": "cc8037f50920aeac3d4d954d4a5e4ff6b5b3d5fb61c4bdd086e6d03584424c74",
+    "D12_I5_N-1-speed-checkpoint.txt": "fa6510570abd6f1091c05d87a558a8acf0a56a4c143c6a67244851ae2b1fce34",
+    "D12_I5_N-1-speed.txt": "fa6510570abd6f1091c05d87a558a8acf0a56a4c143c6a67244851ae2b1fce34",
+    "D12_I5_N-1-transition-checkpoint.txt": "72e7a5f0d1ccf15a950fe794b848920c2744f1d7b081ba11085956eca832a95a",
+    "D12_I5_N-1-transition.txt": "72e7a5f0d1ccf15a950fe794b848920c2744f1d7b081ba11085956eca832a95a",
+    "D12_I5_S-0-conditional-checkpoint.txt": "608418d26fa78bcd8c13cf565b89013cfccf4733f61c2f2c6cfa9886016961da",
+    "D12_I5_S-0-conditional.txt": "608418d26fa78bcd8c13cf565b89013cfccf4733f61c2f2c6cfa9886016961da",
+    "D12_I5_S-0-direct-checkpoint.txt": "3dc60cafa76ad2d0807ac4d3294adb0ba7982bf48dacdd4fbb73474aa6a2bfa2",
+    "D12_I5_S-0-direct.txt": "3dc60cafa76ad2d0807ac4d3294adb0ba7982bf48dacdd4fbb73474aa6a2bfa2",
+    "D12_I5_S-0-event-checkpoint.txt": "f09b16c28d99a4673dd7dbaa3c67c4607ffe98e3c103a98775c2503b1ab7cbe0",
+    "D12_I5_S-0-event.txt": "f09b16c28d99a4673dd7dbaa3c67c4607ffe98e3c103a98775c2503b1ab7cbe0",
+    "D12_I5_S-1-direct-checkpoint.txt": "1d285733fa013122eb7d27eefedb68c1ebf5349d5128dd4ad4102d99769d1542",
+    "D12_I5_S-1-direct.txt": "1d285733fa013122eb7d27eefedb68c1ebf5349d5128dd4ad4102d99769d1542",
+    "D12_I5_S-1-speed-checkpoint.txt": "37f498653420ee4f8faee5904e4511d287a6343684d8fb19f7ef1ec11d96c4f9",
+    "D12_I5_S-1-speed.txt": "37f498653420ee4f8faee5904e4511d287a6343684d8fb19f7ef1ec11d96c4f9",
+    "D12_I5_S-1-transition-checkpoint.txt": "528f24b4839ce9d5abdccd1bb9bcbe99257d734febb5597d0916d2bd7758e0c2",
+    "D12_I5_S-1-transition.txt": "528f24b4839ce9d5abdccd1bb9bcbe99257d734febb5597d0916d2bd7758e0c2",
+    "D7_I10_E-0-conditional-checkpoint.txt": "db8c6cc0ee5bdf375a995ca99e97b962e0754ecac0fd82d7827d6551dc263431",
+    "D7_I10_E-0-conditional.txt": "db8c6cc0ee5bdf375a995ca99e97b962e0754ecac0fd82d7827d6551dc263431",
+    "D7_I10_E-0-direct-checkpoint.txt": "c821445740393720b4f274e61f282ee98418e05683cb23551ac39f20357c5a8e",
+    "D7_I10_E-0-direct.txt": "c821445740393720b4f274e61f282ee98418e05683cb23551ac39f20357c5a8e",
+    "D7_I10_E-0-event-checkpoint.txt": "eac1eca01f43b7f80de8368f81eb1a6bced7581ed363528db8a158532b6bd7bc",
+    "D7_I10_E-0-event.txt": "eac1eca01f43b7f80de8368f81eb1a6bced7581ed363528db8a158532b6bd7bc",
+    "D7_I10_E-1-direct-checkpoint.txt": "87039ee59970844796bd73263fefa5e7486a32f086c2021db6623f9e15d85c78",
+    "D7_I10_E-1-direct.txt": "87039ee59970844796bd73263fefa5e7486a32f086c2021db6623f9e15d85c78",
+    "D7_I10_E-1-speed-checkpoint.txt": "cfc6e9da77eda0ccb1e419791bcb1f2259f427fe35e655b72aef854299d0e196",
+    "D7_I10_E-1-speed.txt": "cfc6e9da77eda0ccb1e419791bcb1f2259f427fe35e655b72aef854299d0e196",
+    "D7_I10_E-1-transition-checkpoint.txt": "7a4b0bbc7b5b205ce847869be2905340815c1a08e52c0f5436582c574aa98f2d",
+    "D7_I10_E-1-transition.txt": "7a4b0bbc7b5b205ce847869be2905340815c1a08e52c0f5436582c574aa98f2d",
+    "D7_I10_W-0-conditional-checkpoint.txt": "34d9e260908c1494ee42b595d5740ef2d1cdc579f6340fff6ab15d1d726b98e2",
+    "D7_I10_W-0-conditional.txt": "34d9e260908c1494ee42b595d5740ef2d1cdc579f6340fff6ab15d1d726b98e2",
+    "D7_I10_W-0-direct-checkpoint.txt": "f8d84e929bf0a5fb7f1d7dc91f7b262be9e8be8be8c3e2c3381dfaf527ce651b",
+    "D7_I10_W-0-direct.txt": "f8d84e929bf0a5fb7f1d7dc91f7b262be9e8be8be8c3e2c3381dfaf527ce651b",
+    "D7_I10_W-0-event-checkpoint.txt": "9c4fc3a029061cd5b3652db36906851ea6c32922813454d7c8a0582c582c9901",
+    "D7_I10_W-0-event.txt": "9c4fc3a029061cd5b3652db36906851ea6c32922813454d7c8a0582c582c9901",
+    "D7_I10_W-1-direct-checkpoint.txt": "706a929cc80946bb0b1834328d375e1a06c19a106bf570bfeac3cfdd75aecbd7",
+    "D7_I10_W-1-direct.txt": "706a929cc80946bb0b1834328d375e1a06c19a106bf570bfeac3cfdd75aecbd7",
+    "D7_I10_W-1-speed-checkpoint.txt": "951e934f8bd917257257b486179fff13d0d1c3f0c95b12da02f936989b7a15be",
+    "D7_I10_W-1-speed.txt": "951e934f8bd917257257b486179fff13d0d1c3f0c95b12da02f936989b7a15be",
+    "D7_I10_W-1-transition-checkpoint.txt": "5db1bb8e142d4e0c4bb7361820ba831d8baa44f7f151dfcc672f3c23ee8b449e",
+    "D7_I10_W-1-transition.txt": "5db1bb8e142d4e0c4bb7361820ba831d8baa44f7f151dfcc672f3c23ee8b449e",
+    "D7_I210_E-0-conditional-checkpoint.txt": "401cba14d8e14ca10afd855e6c705ddbe3f00f9cf4011479eb6bbafc439b7f32",
+    "D7_I210_E-0-conditional.txt": "401cba14d8e14ca10afd855e6c705ddbe3f00f9cf4011479eb6bbafc439b7f32",
+    "D7_I210_E-0-direct-checkpoint.txt": "5b4f7c3e6c11b30d792fc254eb314bbdf744bdecc9d3fa66ce82b2538f75de4e",
+    "D7_I210_E-0-direct.txt": "5b4f7c3e6c11b30d792fc254eb314bbdf744bdecc9d3fa66ce82b2538f75de4e",
+    "D7_I210_E-0-event-checkpoint.txt": "738e575d76bcef72f68df23f5284367203759d9bbbd2b38cfcd848f89ce91fdf",
+    "D7_I210_E-0-event.txt": "738e575d76bcef72f68df23f5284367203759d9bbbd2b38cfcd848f89ce91fdf",
+    "D7_I210_E-1-direct-checkpoint.txt": "359d2d6fbbc342339d2c7eb4aedc196a2bd060792a3c177b60ffab6911f4c22a",
+    "D7_I210_E-1-direct.txt": "359d2d6fbbc342339d2c7eb4aedc196a2bd060792a3c177b60ffab6911f4c22a",
+    "D7_I210_E-1-speed-checkpoint.txt": "c6cbfb5d709414ed8a2fb611446f281a9332b090dbd6365a3c1b846be153263f",
+    "D7_I210_E-1-speed.txt": "c6cbfb5d709414ed8a2fb611446f281a9332b090dbd6365a3c1b846be153263f",
+    "D7_I210_E-1-transition-checkpoint.txt": "544ebfcd936b51f9098750178ac7844c68ae472d87b793f0e9b3451ab4f0203f",
+    "D7_I210_E-1-transition.txt": "544ebfcd936b51f9098750178ac7844c68ae472d87b793f0e9b3451ab4f0203f",
+    "D7_I210_W-0-conditional-checkpoint.txt": "ca8c22b3ccab05acb1a731093b4748831b623a131a2597c0f391dae6a1c7d8e9",
+    "D7_I210_W-0-conditional.txt": "ca8c22b3ccab05acb1a731093b4748831b623a131a2597c0f391dae6a1c7d8e9",
+    "D7_I210_W-0-direct-checkpoint.txt": "b13403b4d1d15ccb732af4e091b666c4a59211f6f92aaa2d16037eb4f24df163",
+    "D7_I210_W-0-direct.txt": "b13403b4d1d15ccb732af4e091b666c4a59211f6f92aaa2d16037eb4f24df163",
+    "D7_I210_W-0-event-checkpoint.txt": "8bbe563f184c5c40c4db77391b06025b9e6ed2226b78b57b1c48dc3f386443f7",
+    "D7_I210_W-0-event.txt": "8bbe563f184c5c40c4db77391b06025b9e6ed2226b78b57b1c48dc3f386443f7",
+    "D7_I210_W-1-direct-checkpoint.txt": "9ddbc38e23ceeb797a7c0838fc788028096d0348c246f4c80469b5378cfa513f",
+    "D7_I210_W-1-direct.txt": "9ddbc38e23ceeb797a7c0838fc788028096d0348c246f4c80469b5378cfa513f",
+    "D7_I210_W-1-speed-checkpoint.txt": "0601af96a04cbfd125cd463be6607c56fc4e22957ec28a9af2c33ad6c2cfb0f4",
+    "D7_I210_W-1-speed.txt": "0601af96a04cbfd125cd463be6607c56fc4e22957ec28a9af2c33ad6c2cfb0f4",
+    "D7_I210_W-1-transition-checkpoint.txt": "b5aa37c8c3d97e66393fd34c1628c5d385b2d1ec6ae3e2bb9627f96c92e1c70b",
+    "D7_I210_W-1-transition.txt": "b5aa37c8c3d97e66393fd34c1628c5d385b2d1ec6ae3e2bb9627f96c92e1c70b",
+    "D7_I405_N-0-conditional-checkpoint.txt": "2b246ae3380f4c5039ae2de53c4f253a8e3aef02a8d6d0387673c221d40f6e18",
+    "D7_I405_N-0-conditional.txt": "2b246ae3380f4c5039ae2de53c4f253a8e3aef02a8d6d0387673c221d40f6e18",
+    "D7_I405_N-0-direct-checkpoint.txt": "37cf7bb50a39b972453175a257ccc663697d92fd156a1184b612ab5b92a42d0c",
+    "D7_I405_N-0-direct.txt": "37cf7bb50a39b972453175a257ccc663697d92fd156a1184b612ab5b92a42d0c",
+    "D7_I405_N-0-event-checkpoint.txt": "fe579dbf29b582d4cc878b98fdcf04b87e3c501b9b1e7e4d3fddedfc48206cab",
+    "D7_I405_N-0-event.txt": "fe579dbf29b582d4cc878b98fdcf04b87e3c501b9b1e7e4d3fddedfc48206cab",
+    "D7_I405_N-1-direct-checkpoint.txt": "a8f483f2f8b2ffeb6333a0d63b6d08b6310a469f2abcb1d3a7d5b3c527a21b14",
+    "D7_I405_N-1-direct.txt": "a8f483f2f8b2ffeb6333a0d63b6d08b6310a469f2abcb1d3a7d5b3c527a21b14",
+    "D7_I405_N-1-speed-checkpoint.txt": "38d926522a1925b2921be22b5a8f82060e0dcd2dcf36989224a4a127634211e9",
+    "D7_I405_N-1-speed.txt": "38d926522a1925b2921be22b5a8f82060e0dcd2dcf36989224a4a127634211e9",
+    "D7_I405_N-1-transition-checkpoint.txt": "eb1427649c1eb01ecb971ab8f23bbfc1497a97a7dfca02d189a848312ec10b1a",
+    "D7_I405_N-1-transition.txt": "eb1427649c1eb01ecb971ab8f23bbfc1497a97a7dfca02d189a848312ec10b1a",
+    "D7_I405_S-0-conditional-checkpoint.txt": "ef94f6ac1c8c978c2b177ce66d6f7f0c492d6cdb6d954ad3b3cfef0dda9aff7b",
+    "D7_I405_S-0-conditional.txt": "ef94f6ac1c8c978c2b177ce66d6f7f0c492d6cdb6d954ad3b3cfef0dda9aff7b",
+    "D7_I405_S-0-direct-checkpoint.txt": "dcf1ff64cea7414011cb4bd211233956c42d5be3025ed8b496831a9c63f2c1dd",
+    "D7_I405_S-0-direct.txt": "dcf1ff64cea7414011cb4bd211233956c42d5be3025ed8b496831a9c63f2c1dd",
+    "D7_I405_S-0-event-checkpoint.txt": "88cf2494f3a6282c4e56442144f282599fe2a057d83938b12e83a1b4fef50acd",
+    "D7_I405_S-0-event.txt": "88cf2494f3a6282c4e56442144f282599fe2a057d83938b12e83a1b4fef50acd",
+    "D7_I405_S-1-direct-checkpoint.txt": "c229ff743af35843074a6c9cc0e3389f7fa39128eb97d6c41bd81542399eba2c",
+    "D7_I405_S-1-direct.txt": "c229ff743af35843074a6c9cc0e3389f7fa39128eb97d6c41bd81542399eba2c",
+    "D7_I405_S-1-speed-checkpoint.txt": "5b3fc2bc70687f6cae180680d9a8ea2bab165aa09cef11f0692f1cd7de3b7a82",
+    "D7_I405_S-1-speed.txt": "5b3fc2bc70687f6cae180680d9a8ea2bab165aa09cef11f0692f1cd7de3b7a82",
+    "D7_I405_S-1-transition-checkpoint.txt": "4e3e09766189f620fd86779d6220b79614e3fd4b8fdc047209da1ae00a0a24aa",
+    "D7_I405_S-1-transition.txt": "4e3e09766189f620fd86779d6220b79614e3fd4b8fdc047209da1ae00a0a24aa",
+    "baseline\\D12_I5_N-0-adapted.txt": "d97c61cea41e2476e1594ce35968e85c55224710b94b8c298881db4d9a4b20f5",
+    "baseline\\D12_I5_N-0-previous.txt": "96f55b60338b2a7c0fbc0ba6113564f0e3bb59fb528bb91966dfd11676292c38",
+    "baseline\\D12_I5_N-1-previous.txt": "15cb9dba05cc12b606cbf7f7309aae4de1c8368c7e9e20c29d12b15270c7f9c3",
+    "baseline\\D12_I5_S-0-adapted.txt": "37404327787cff9eb286dd9ddd58e216aeacf720e23ad769d689a19b08a4b0d0",
+    "baseline\\D12_I5_S-0-previous.txt": "35d7f83b58fc826c0b1f1693631e7458a597becf732cf356ef39d84e1b53d3e1",
+    "baseline\\D12_I5_S-1-previous.txt": "8aa61ce0ea43f20759e291655b40ebfa347238f7730435d8ba3a69f2fef9e384",
+    "baseline\\D7_I10_E-0-adapted.txt": "5d14dc5a49a789db7ef0617868578d843995ae51b287712ebe3879224829e1dd",
+    "baseline\\D7_I10_E-0-previous.txt": "8d0ef2fe49cb97ce085531e9c8a6d882b3603723346d5cd7d9e9c5d8b5f5fcb0",
+    "baseline\\D7_I10_E-1-previous.txt": "94223f1a515dc81cb9763c1dfddadc72195a0fc7323a281a0348ad45fdac2f7d",
+    "baseline\\D7_I10_W-0-adapted.txt": "134674034c71861950e6e2a94de8dc8d6900520386a9ad9d083af5b062a9857d",
+    "baseline\\D7_I10_W-0-previous.txt": "12c9199e19ee7f4bcd9c39a0dfee3492baf17d05f0320cfc6014275002379510",
+    "baseline\\D7_I10_W-1-adapted.txt": "1e986ab7c0488631cf82e461fff6f9e2aa59a3e012f4cf15c915c64c88a7d5bb",
+    "baseline\\D7_I10_W-1-previous.txt": "ad6b03dbb2cebd6f73888e6e3f2d491fd069a2672455b72a9d8491d0f5da9078",
+    "baseline\\D7_I210_E-0-adapted.txt": "5bb4ad5da4953b733ee1a154105c7d0c570fa116002627ad29e8c421f825a351",
+    "baseline\\D7_I210_E-0-previous.txt": "1444c2f2f1adee55072edb64b98d3bde49f33a1db9013d0345dafbef1098e9fe",
+    "baseline\\D7_I210_E-1-previous.txt": "ccfab9dde9c141d90ffba4e4b98570b2525df552e327670c9993cfd1d723a98f",
+    "baseline\\D7_I210_W-0-previous.txt": "20e017c281022bab9d7cff458bd63b74d2493c2b7e3f0295afc8afddc2691612",
+    "baseline\\D7_I210_W-1-previous.txt": "711401e774355d09dadeac032e6fea8d1b3308f96a33e111e9c88a275c063639",
+    "baseline\\D7_I405_N-0-adapted.txt": "b0e1ac4a1d1aa4923a43ed0fb98fa4a26cc0501ae09f3f1d71d1f85ce0ba3527",
+    "baseline\\D7_I405_N-0-previous.txt": "f697ff559897f1cf9171200ed4119e437bcef369f388437adfb4616c3c16a610",
+    "baseline\\D7_I405_N-1-adapted.txt": "c5f4781b145fec7084a20725208a49784d81ce67504f83328f29cdf797a18ccb",
+    "baseline\\D7_I405_N-1-previous.txt": "f8a2eb4920f82a4915c4abecc5ee12240f50330f643c4ed6a43c5eb22534cf29",
+    "baseline\\D7_I405_S-0-adapted.txt": "7830565727b2855fe0329211785fca16286519658ecfefdefb5978bd99752ead",
+    "baseline\\D7_I405_S-0-previous.txt": "d30893cddd285c02c3e110449d65e3364a82315d747577d564e8ef9237850fb4",
+    "baseline\\D7_I405_S-1-previous.txt": "ee8f3415f48f0097835958b13909eb9b4066ee35193994fcfa6a326c703698be",
+    "baseline\\pooled.txt": "168a42baf4ad77d7b8e06218bae6423e06bd503296a95dee3f51340654a274ea"
+  },
+  "route_sha256": "16dd55ad82102b70ebc75ea11a27965730c40f508871575d62d964714f3300ba",
+  "selection_month": "January",
+  "february_status": "reused development-after-evaluation",
+  "Task1_weights_frozen": true
+}
