@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "branches": [
+    "jayden186_8selected_roads",
+    "global_then_adapted_lightgbm",
+    "original51_transformer_and_isolated_trees"
+  ],
+  "full_retraining_performed": false,
+  "notes": "real data gradient/tree/holdout-boundary checks, not another60epoch training"
+}

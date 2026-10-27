@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "keys": "official submission_key order; one-to-one, finite/nonnegative, queue binary",
+  "output": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\work\\task1-full-merge-acceptance\\submission.csv",
+  "sha256": "4f677ee66a6956ff817d275b3c34bce439694fcebbf53c71c4f328774da8cecc",
+  "scope": "integration schema test: Task1 published frozen weights + Task2 first-round outputs + existing Task4 file; not declared best whole-competition model",
+  "Task2_source": "outputs/task2-queue-20261026/queue-validation.csv and queue-private.csv",
+  "Task4_source": "trafficflowbench-task4-odme/outputs/task4_path_flow.csv"
+}

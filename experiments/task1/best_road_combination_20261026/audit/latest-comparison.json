@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "panel": "D12_I405_N",
+      "previous": 0.9599817732498342,
+      "new_jayden186": 0.9615534431014351,
+      "selected": 0.9615534431014351,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D12_I405_S",
+      "previous": 0.9345913880574989,
+      "new_jayden186": 0.9333810518551712,
+      "selected": 0.9345913880574989,
+      "method": "adapted_lightgbm"
+    },
+    {
+      "panel": "D12_I5_N",
+      "previous": 0.9576885062013032,
+      "new_jayden186": 0.9581526006884994,
+      "selected": 0.9581526006884994,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D12_I5_S",
+      "previous": 0.9346354407172521,
+      "new_jayden186": 0.9415194972896327,
+      "selected": 0.9415194972896327,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I10_E",
+      "previous": 0.944081477725208,
+      "new_jayden186": 0.9455036589476217,
+      "selected": 0.9455036589476217,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I10_W",
+      "previous": 0.9474486124732479,
+      "new_jayden186": 0.950063663873315,
+      "selected": 0.950063663873315,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I210_E",
+      "previous": 0.944040335588856,
+      "new_jayden186": 0.9438192168794824,
+      "selected": 0.944040335588856,
+      "method": "github_original_hybrid"
+    },
+    {
+      "panel": "D7_I210_W",
+      "previous": 0.9240697530141947,
+      "new_jayden186": 0.9267006379968471,
+      "selected": 0.9267006379968471,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I405_N",
+      "previous": 0.933082696544326,
+      "new_jayden186": 0.9345658035065639,
+      "selected": 0.9345658035065639,
+      "method": "jayden_186"
+    },
+    {
+      "panel": "D7_I405_S",
+      "previous": 0.9255738917198686,
+      "new_jayden186": 0.9315952978725047,
+      "selected": 0.9315952978725047,
+      "method": "jayden_186"
+    }
+  ],
+  "selected_mean": 0.9428286326922775,
+  "previous_mean": 0.9405193875291588,
+  "new_pure_mean": 0.9426854872011073,
+  "gain_vs_previous": 0.0023092451631187005,
+  "selection": "whole road max on previously viewed same55days; not independent blind test",
+  "targets": 6636705
+}

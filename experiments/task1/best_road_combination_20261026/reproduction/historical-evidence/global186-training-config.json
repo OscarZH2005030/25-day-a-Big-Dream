@@ -1,0 +1,51 @@
+{
+  "seed": 20261024,
+  "train_days": 204,
+  "validation_days": 69,
+  "train_dates": [
+    "2030-06-01",
+    "2030-12-21"
+  ],
+  "validation_dates": [
+    "2030-12-22",
+    "2031-02-28"
+  ],
+  "validation_use": "model selection/early stopping, not independent blind test",
+  "history": "masked released observations from 204 training dates only; no hidden targets; fixed for both splits",
+  "lgb": {
+    "global_rounds": 600,
+    "adapt_rounds": 180,
+    "patience": 45,
+    "learning_rate": 0.04,
+    "adapt_learning_rate": 0.015,
+    "train_cap_per_road_day": 1500,
+    "selection_cap_per_road_day": 1000,
+    "num_threads": 4,
+    "num_leaves": 63,
+    "max_bin": 127
+  },
+  "transformer": {
+    "width": 128,
+    "depth": 4,
+    "heads": 4,
+    "global_epochs": 18,
+    "adapt_epochs": 12,
+    "patience": 4,
+    "batch_windows": 4,
+    "core_slots": 24,
+    "halo_slots": 6,
+    "windows_per_training_day_per_epoch": 1,
+    "global_lr": 0.0003,
+    "adapt_lr": 5e-05,
+    "weight_decay": 0.01,
+    "checkpoint_every_epochs": 5
+  },
+  "fusion": "none; each branch reported separately",
+  "score": {
+    "speed_weight": 0.54,
+    "flow_weight": 0.46,
+    "speed_scale": 25,
+    "flow_per_lane_scale": 600,
+    "aggregation": "R1/R2/R3 macro then equal panels (five equal two-direction families)"
+  }
+}

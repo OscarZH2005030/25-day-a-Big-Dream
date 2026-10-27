@@ -1,0 +1,9 @@
+{
+  "jayden_source_repository": "https://github.com/OscarZH2005030/25-day-a-Big-Dream",
+  "jayden_main_snapshot": "066c028f80aa6fee14d6b42c79522c910bb90b40",
+  "new_186_training": "vendored actual source snapshots from this completed experiment; immutable originals retained",
+  "original51_worker": "upstream snapshot under task1_t1_dynamic_20261021/task1/transformer_priority/upstream; original contributor comments retained",
+  "historical_original_reference": "7a2a5accc38cc1be4c2806c9577c5bd2b53ec550",
+  "portability": "DATA/WORK/CACHE redirected, two unused Jayden roads skipped with original seed indices retained, summary labels clarified",
+  "attribution": "Original authors retained; this delivery committed and merged as Stevexxx/chengweiliu669-pixel"
+}

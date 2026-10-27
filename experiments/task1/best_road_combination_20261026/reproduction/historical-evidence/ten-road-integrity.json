@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "targets": 6636705,
+  "roads": [
+    {
+      "panel": "D12_I405_N",
+      "rows": 363106,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "48fdc8480e088def6e5abb0f41df50578375cfb69f9583bcfceabc682818e70b",
+      "source_completion_sha256": "3d871e881a3894d8e097a02a6f7ed2aaba02bd623ecad0000831f96c0ad817cb"
+    },
+    {
+      "panel": "D12_I405_S",
+      "rows": 194969,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "d9d4c17301c22ddca764e2103e673451eb6a0d22e472ed47045bbf33c404ea22",
+      "source_completion_sha256": "c656c50a7bdb3cbb7cf7be4d4405c26525972aa33f46b542773a6ca8ec646b95"
+    },
+    {
+      "panel": "D12_I5_N",
+      "rows": 1004145,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "12a91d39ac256759573a49e320dc77a1e7fa3fd67b4d20bd124e351d919828ca",
+      "source_completion_sha256": "4d37b6b0a5084cf41ccd46f36b8021549c26a910721988911a9cee3a4d80392e"
+    },
+    {
+      "panel": "D12_I5_S",
+      "rows": 415258,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "9ca41e7cafa62c41031b3c623836e6e4b3fc541015cb7313350c44f2b7b5ff35",
+      "source_completion_sha256": "76637cd7237cf8e75f699f0af18bbb2f129bb9fdc6b53f9fc9d84ceb87e18c11"
+    },
+    {
+      "panel": "D7_I10_E",
+      "rows": 594132,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "f460589d7b4fff19d3b0ac04324a291e2116e4882569bdcbfdcca89adc34c010",
+      "source_completion_sha256": "c650247045fa8a7a17b788cf89df83361a2051c5c0c2db8835e13bf458b7c9c1"
+    },
+    {
+      "panel": "D7_I10_W",
+      "rows": 445815,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "7691dbd2622e48977a0d98141876f6c676b217530bf65e1ffa0b43424a3cfe19",
+      "source_completion_sha256": "f791b02f39e3ecf546c08be4938b1e131eb8cb2507cd4956d6f416d12feccf3a"
+    },
+    {
+      "panel": "D7_I210_E",
+      "rows": 1367094,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "2c305ff87b17e3ea824d9e485dd576513ce751c04c099995a9ddbe8ddb30fac1",
+      "source_completion_sha256": "3210c115a60367218bd685b5e619efd4992785bb4bde12f9e54493dcb1f8e671"
+    },
+    {
+      "panel": "D7_I210_W",
+      "rows": 344738,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "b819c91e945b379188d9d1cc99ae466be42b8fc5e64ddddfed422692962f01ea",
+      "source_completion_sha256": "17dd2c83aa41c7e68edb721f5492930ff8a5ab994c56d4972c1bf0942b211f79"
+    },
+    {
+      "panel": "D7_I405_N",
+      "rows": 1470896,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "3b371431c8e550c708e8bafdd0d174d07b8283fbfced1aeab2d36d0069689e88",
+      "source_completion_sha256": "d181338ca051a0b4b6ec37f33db3fbacc3e8c455cb82608119e5b223f5c564a2"
+    },
+    {
+      "panel": "D7_I405_S",
+      "rows": 436552,
+      "dates": 55,
+      "duplicate_keys": 0,
+      "prediction_sha256": "b9fe74d1c636a4411cb73e46e2694917bcdab475fc008812fb530e881331310c",
+      "source_completion_sha256": "c4854b6859f4406352f4558c5250b8f1f4581e67887593e1e57b5e547ff63f23"
+    }
+  ],
+  "old_two_hashes_unchanged": true
+}

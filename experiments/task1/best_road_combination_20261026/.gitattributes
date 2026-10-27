@@ -1,0 +1,3 @@
+* -text
+reproduction/vendor/** linguist-vendored
+feature-source/code/** linguist-vendored

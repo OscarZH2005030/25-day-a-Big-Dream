@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+runs/
+models/
+release-cache/
+.venv-task1-repro/
+local-settings.json
+predictions/

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "historical_profiles_rebuilt_from_raw_equal": [
+    "D12_I405_N",
+    "D12_I5_N",
+    "D12_I5_S",
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I210_W",
+    "D7_I405_N",
+    "D7_I405_S"
+  ],
+  "original_transformer_checkpoint_loaded_and_forward_exact": true,
+  "all_three_submission_tasks_fixture_passed": true,
+  "missing_state_key_rejected": true,
+  "full_retraining_performed": false
+}
