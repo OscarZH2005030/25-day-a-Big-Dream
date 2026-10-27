@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 6735795,
+  "validation_private_complete": true,
+  "output": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\work\\task1-repro-published\\submissions\\state_submission.csv",
+  "sha256": "544be94f070af7a98b2c1573800926ed11d60163ac8cc26ff4e7986c45062adc",
+  "scope": "Task1 state rows only; merge with Task2 and Task4 for Kaggle"
+}

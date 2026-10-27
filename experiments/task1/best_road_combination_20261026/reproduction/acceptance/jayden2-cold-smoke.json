@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "road": "D12_I5_N",
+      "input_columns": 372,
+      "parameters": 225958,
+      "loss": 0.06178541108965874,
+      "boundary_padding_checked": true,
+      "augmentation_no_original_target_overlap": true,
+      "hidden_value_perturbation_invariance": true,
+      "ephemeral_optimizer_updates": 1
+    },
+    {
+      "road": "D7_I405_N",
+      "input_columns": 372,
+      "parameters": 225958,
+      "loss": 0.1205964982509613,
+      "boundary_padding_checked": true,
+      "augmentation_no_original_target_overlap": true,
+      "hidden_value_perturbation_invariance": true,
+      "ephemeral_optimizer_updates": 1
+    }
+  ],
+  "main_sha256": "db23d0632fbc4d89c4b688b4ce83a0524aefa3ffc40e7cf1dfba56040fdb24d4",
+  "formal_training_started": false
+}

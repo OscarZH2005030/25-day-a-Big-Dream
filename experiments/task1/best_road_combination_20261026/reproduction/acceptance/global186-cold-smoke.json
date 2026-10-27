@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "transformer_forward_backward_optimizer": true,
+  "loss": 0.007636429741978645,
+  "actual_optimizer_updates": 1,
+  "lightgbm_init_model_prefix_preserved": true,
+  "source_global_booster_unchanged": true,
+  "score_synthetic_unit_check": true,
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "torch": "2.9.1+cu128",
+  "lightgbm": "4.7.0",
+  "parameters": 1108098
+}

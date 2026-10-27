@@ -1,0 +1,7 @@
+{
+  "all_data_match": true,
+  "files": 5540,
+  "mismatches": [],
+  "data_root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-22\\trafficflowbench-kaggle-rtx-5080-16gb-1\\work\\competition-data\\kaggle_public",
+  "expected_manifest_sha256": "cd05eee82a930c83e66961d42496788963e091d1e77c20dfbc6546878fc9c13e"
+}

@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "tests": 5,
+  "scope": "three-task valid merge, missing/duplicate keys, nonbinary queue, extra state file"
+}

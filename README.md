@@ -19,3 +19,8 @@
 ## Task 1：LightGBM、GRIN 与长缺口组合
 
 [代码、正式实验结果与小组运行指南](experiments/task1_january_grin/README.md)。包含十方向纯 LightGBM baseline，以及 I5 / D7 的 GRIN 和固定长缺口切换对比。
+
+
+## Task1：0.9428完整复现
+
+[从零训练、全55日评估、Task1预测与完整Kaggle合并流程](experiments/task1/best_road_combination_20261026/reproduction/README_完整复现.md)。发布权重重算S_state=0.94282863197，6,636,705个目标；验证/私有Task1预测6,735,795行。属于已查看过的本地选模验证，不是Kaggle总分。

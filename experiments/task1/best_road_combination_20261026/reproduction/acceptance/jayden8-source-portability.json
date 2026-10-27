@@ -1,0 +1,8 @@
+{
+  "vendor_sha256": "bad4c31cb3326343d07fcd393d689a5165c07abf43109ba93a6f8e47c7f363cc",
+  "generated_sha256": "62421d782db31c54debb8aebf8d92381324102a26c0ab3a2ec3b7dd1bdf04bc6",
+  "changes": [
+    "DATA/WORK/CACHE relative to configured roots",
+    "jayden8 skips two unselected roads without changing ROADS indices or per-road seeds"
+  ]
+}

@@ -1,0 +1,4940 @@
+{
+  "scope": "all10directions; same55dates and official targets; new recipe not exact replication",
+  "dates": [
+    "2031-01-05",
+    "2031-01-06",
+    "2031-01-07",
+    "2031-01-08",
+    "2031-01-09",
+    "2031-01-10",
+    "2031-01-11",
+    "2031-01-12",
+    "2031-01-13",
+    "2031-01-14",
+    "2031-01-15",
+    "2031-01-16",
+    "2031-01-17",
+    "2031-01-18",
+    "2031-01-19",
+    "2031-01-20",
+    "2031-01-21",
+    "2031-01-22",
+    "2031-01-23",
+    "2031-01-24",
+    "2031-01-25",
+    "2031-01-26",
+    "2031-01-27",
+    "2031-01-28",
+    "2031-01-29",
+    "2031-01-30",
+    "2031-01-31",
+    "2031-02-01",
+    "2031-02-02",
+    "2031-02-03",
+    "2031-02-04",
+    "2031-02-05",
+    "2031-02-06",
+    "2031-02-07",
+    "2031-02-08",
+    "2031-02-09",
+    "2031-02-10",
+    "2031-02-11",
+    "2031-02-12",
+    "2031-02-13",
+    "2031-02-14",
+    "2031-02-15",
+    "2031-02-16",
+    "2031-02-17",
+    "2031-02-18",
+    "2031-02-19",
+    "2031-02-20",
+    "2031-02-21",
+    "2031-02-22",
+    "2031-02-23",
+    "2031-02-24",
+    "2031-02-25",
+    "2031-02-26",
+    "2031-02-27",
+    "2031-02-28"
+  ],
+  "rows": [
+    {
+      "panel": "D12_I405_N",
+      "family": "D12_I405",
+      "new_186": 0.9615534431014351,
+      "original_GitHub_transformer": 0.9599199736706012,
+      "gain_vs_original": 0.001633469430833867,
+      "Jayden_T1": null,
+      "Jayden_A_dynamic": null,
+      "gain_vs_T1": null,
+      "gain_vs_A_dynamic": null,
+      "previous_selected_road_model": 0.9599817732498342,
+      "gain_vs_previous_selected": 0.0015716698516008432,
+      "macro_speed_RMSE_kmh": 0.9534014456958274,
+      "macro_flow_RMSE_per_lane_vph": 23.28663348461089,
+      "rows": 363106,
+      "epochs": 36,
+      "best_epoch": 28,
+      "optimizer_updates": 36864,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D12_I405_N\\best.pt",
+      "model_sha256": "271046a6fec49b62719066cb919cec85f66181ea6ea4ad957023576a78a908be",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D12_I405_S",
+      "family": "D12_I405",
+      "new_186": 0.9333810518551712,
+      "original_GitHub_transformer": 0.9270291240041544,
+      "gain_vs_original": 0.006351927851016792,
+      "Jayden_T1": null,
+      "Jayden_A_dynamic": null,
+      "gain_vs_T1": null,
+      "gain_vs_A_dynamic": null,
+      "previous_selected_road_model": 0.9345913880574989,
+      "gain_vs_previous_selected": -0.0012103362023276887,
+      "macro_speed_RMSE_kmh": 1.639572367615003,
+      "macro_flow_RMSE_per_lane_vph": 40.701110875232466,
+      "rows": 194969,
+      "epochs": 55,
+      "best_epoch": 47,
+      "optimizer_updates": 56320,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D12_I405_S\\best.pt",
+      "model_sha256": "413e253beb2bf8ab64bd224453cea6c1d5935f8d0eabb432fe14220bd6fbcd87",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D12_I5_N",
+      "family": "D12_I5",
+      "new_186": 0.9581526006884994,
+      "original_GitHub_transformer": 0.9576885062012988,
+      "gain_vs_original": 0.00046409448720063917,
+      "Jayden_T1": 0.9573225877668152,
+      "Jayden_A_dynamic": 0.9579972198065945,
+      "gain_vs_T1": 0.0008300129216841645,
+      "gain_vs_A_dynamic": 0.00015538088190492072,
+      "previous_selected_road_model": 0.9576885062013032,
+      "gain_vs_previous_selected": 0.0004640944871961983,
+      "macro_speed_RMSE_kmh": 1.024304878296295,
+      "macro_flow_RMSE_per_lane_vph": 25.72488774821838,
+      "rows": 1004145,
+      "epochs": 60,
+      "best_epoch": 57,
+      "optimizer_updates": 61440,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186\\results\\D12_I5_N\\best.pt",
+      "model_sha256": "c5fd4d6c00d50ba9a7ef7cd2eba251b83c28b4cb23432e4190305642b24cbdb2",
+      "reused_completed_two": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "family": "D12_I5",
+      "new_186": 0.9415194972896327,
+      "original_GitHub_transformer": 0.9248304481821992,
+      "gain_vs_original": 0.016689049107433518,
+      "Jayden_T1": 0.9269732898802915,
+      "Jayden_A_dynamic": 0.9282139712087091,
+      "gain_vs_T1": 0.014546207409341205,
+      "gain_vs_A_dynamic": 0.013305526080923613,
+      "previous_selected_road_model": 0.9346354407172521,
+      "gain_vs_previous_selected": 0.006884056572380559,
+      "macro_speed_RMSE_kmh": 1.6195576753648282,
+      "macro_flow_RMSE_per_lane_vph": 30.649639464113452,
+      "rows": 415258,
+      "epochs": 46,
+      "best_epoch": 38,
+      "optimizer_updates": 47104,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D12_I5_S\\best.pt",
+      "model_sha256": "0a7a95ef32ebbfbc8bd244c1758170864823a03e19f076ce91f8b00a79a7e450",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D7_I10_E",
+      "family": "D7_I10",
+      "new_186": 0.9455036589476217,
+      "original_GitHub_transformer": 0.9435602701882384,
+      "gain_vs_original": 0.0019433887593832688,
+      "Jayden_T1": null,
+      "Jayden_A_dynamic": null,
+      "gain_vs_T1": null,
+      "gain_vs_A_dynamic": null,
+      "previous_selected_road_model": 0.944081477725208,
+      "gain_vs_previous_selected": 0.0014221812224136654,
+      "macro_speed_RMSE_kmh": 1.384802045620494,
+      "macro_flow_RMSE_per_lane_vph": 32.0668915656204,
+      "rows": 594132,
+      "epochs": 60,
+      "best_epoch": 57,
+      "optimizer_updates": 61440,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D7_I10_E\\best.pt",
+      "model_sha256": "5a6b54780f222d8be339915bf4f3272c0d27fccafdd0aeecc4e46e03c2b6fba9",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D7_I10_W",
+      "family": "D7_I10",
+      "new_186": 0.950063663873315,
+      "original_GitHub_transformer": 0.945343407007699,
+      "gain_vs_original": 0.004720256865615946,
+      "Jayden_T1": null,
+      "Jayden_A_dynamic": null,
+      "gain_vs_T1": null,
+      "gain_vs_A_dynamic": null,
+      "previous_selected_road_model": 0.9474486124732479,
+      "gain_vs_previous_selected": 0.0026150514000671254,
+      "macro_speed_RMSE_kmh": 1.2924950226310798,
+      "macro_flow_RMSE_per_lane_vph": 28.71970909285274,
+      "rows": 445815,
+      "epochs": 60,
+      "best_epoch": 54,
+      "optimizer_updates": 61440,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D7_I10_W\\best.pt",
+      "model_sha256": "eadb058cf976e01a249643527cac015cc898a54afeef8c4b1b5d46cb3f42df51",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D7_I210_E",
+      "family": "D7_I210",
+      "new_186": 0.9438192168794824,
+      "original_GitHub_transformer": 0.9440066516882064,
+      "gain_vs_original": -0.000187434808723963,
+      "Jayden_T1": null,
+      "Jayden_A_dynamic": null,
+      "gain_vs_T1": null,
+      "gain_vs_A_dynamic": null,
+      "previous_selected_road_model": 0.944040335588856,
+      "gain_vs_previous_selected": -0.00022111870937358002,
+      "macro_speed_RMSE_kmh": 1.4853485211415014,
+      "macro_flow_RMSE_per_lane_vph": 31.431202257210316,
+      "rows": 1367094,
+      "epochs": 32,
+      "best_epoch": 24,
+      "optimizer_updates": 32768,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D7_I210_E\\best.pt",
+      "model_sha256": "7472b6cd4faeccb03ad60c1514ad4525fbbf714ec73fbdfea1a38132407165bd",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D7_I210_W",
+      "family": "D7_I210",
+      "new_186": 0.9267006379968471,
+      "original_GitHub_transformer": 0.910514504751041,
+      "gain_vs_original": 0.01618613324580609,
+      "Jayden_T1": null,
+      "Jayden_A_dynamic": null,
+      "gain_vs_T1": null,
+      "gain_vs_A_dynamic": null,
+      "previous_selected_road_model": 0.9240697530141947,
+      "gain_vs_previous_selected": 0.002630884982652404,
+      "macro_speed_RMSE_kmh": 2.2164728568578047,
+      "macro_flow_RMSE_per_lane_vph": 33.16114995003177,
+      "rows": 344738,
+      "epochs": 39,
+      "best_epoch": 31,
+      "optimizer_updates": 39936,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D7_I210_W\\best.pt",
+      "model_sha256": "0daa08f8b6aef5463d1a15cbc60d8bac6d69ff3b99d43da51458075337a9ea79",
+      "reused_completed_two": false
+    },
+    {
+      "panel": "D7_I405_N",
+      "family": "D7_I405",
+      "new_186": 0.9345658035065639,
+      "original_GitHub_transformer": 0.9321267545357004,
+      "gain_vs_original": 0.0024390489708635554,
+      "Jayden_T1": 0.9328182995747681,
+      "Jayden_A_dynamic": 0.9331269770265083,
+      "gain_vs_T1": 0.0017475039317957908,
+      "gain_vs_A_dynamic": 0.001438826480055666,
+      "previous_selected_road_model": 0.933082696544326,
+      "gain_vs_previous_selected": 0.0014831069622379678,
+      "macro_speed_RMSE_kmh": 1.689928774334871,
+      "macro_flow_RMSE_per_lane_vph": 37.73704561017771,
+      "rows": 1470896,
+      "epochs": 60,
+      "best_epoch": 56,
+      "optimizer_updates": 61440,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186\\results\\D7_I405_N\\best.pt",
+      "model_sha256": "210c849ed15699dbaea16cc0e02d802c1c3c9a3c8c311be47254b9b0abd1cffd",
+      "reused_completed_two": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "family": "D7_I405",
+      "new_186": 0.9315952978725047,
+      "original_GitHub_transformer": 0.9131052072051772,
+      "gain_vs_original": 0.01849009066732754,
+      "Jayden_T1": 0.9163230942936694,
+      "Jayden_A_dynamic": 0.9175736606486652,
+      "gain_vs_T1": 0.015272203578835297,
+      "gain_vs_A_dynamic": 0.014021637223839534,
+      "previous_selected_road_model": 0.9255738917198686,
+      "gain_vs_previous_selected": 0.006021406152636133,
+      "macro_speed_RMSE_kmh": 1.919474365261695,
+      "macro_flow_RMSE_per_lane_vph": 35.144420658055786,
+      "rows": 436552,
+      "epochs": 60,
+      "best_epoch": 57,
+      "optimizer_updates": 61440,
+      "model_path": "C:\\Users\\18049\\Documents\\Codex\\2026-10-24\\trafficflowbench-186-global-road-adaptation\\outputs\\jayden-t1-186-remaining8\\results\\D7_I405_S\\best.pt",
+      "model_sha256": "e9e29916d105ead966305b9e34e8d6bdc97b330e78a655c3e37599f58f828e3b",
+      "reused_completed_two": false
+    }
+  ],
+  "families": [
+    {
+      "family": "D12_I405",
+      "new_186": 0.9474672474783031,
+      "original_GitHub_transformer": 0.9434745488373778
+    },
+    {
+      "family": "D12_I5",
+      "new_186": 0.949836048989066,
+      "original_GitHub_transformer": 0.941259477191749
+    },
+    {
+      "family": "D7_I10",
+      "new_186": 0.9477836614104683,
+      "original_GitHub_transformer": 0.9444518385979688
+    },
+    {
+      "family": "D7_I210",
+      "new_186": 0.9352599274381648,
+      "original_GitHub_transformer": 0.9272605782196237
+    },
+    {
+      "family": "D7_I405",
+      "new_186": 0.9330805506895343,
+      "original_GitHub_transformer": 0.9226159808704388
+    }
+  ],
+  "means": {
+    "new_186": 0.9426854872011073,
+    "original_GitHub_transformer": 0.9358124847434317,
+    "gain_vs_original": 0.006873002457675725,
+    "previous_selected_road_model": 0.9405193875291588,
+    "gain_vs_previous_selected": 0.0021660996719483627,
+    "macro_speed_RMSE_kmh": 1.52253579528194,
+    "macro_flow_RMSE_per_lane_vph": 31.86226907061239
+  },
+  "matched_Jayden_references": {
+    "Jayden_T1": {
+      "available_directions": 4,
+      "panels": [
+        "D12_I5_N",
+        "D12_I5_S",
+        "D7_I405_N",
+        "D7_I405_S"
+      ],
+      "reference_mean": 0.9333593178788862,
+      "new_mean_same_directions": 0.9414582998393002,
+      "gain": 0.008098981960414114,
+      "scope": "matched available directions only; not ten-road total"
+    },
+    "Jayden_A_dynamic": {
+      "available_directions": 4,
+      "panels": [
+        "D12_I5_N",
+        "D12_I5_S",
+        "D7_I405_N",
+        "D7_I405_S"
+      ],
+      "reference_mean": 0.9342279571726192,
+      "new_mean_same_directions": 0.9414582998393002,
+      "gain": 0.007230342666680933,
+      "scope": "matched available directions only; not ten-road total"
+    }
+  },
+  "targets": 6636705,
+  "old_two_unchanged": true,
+  "details": [
+    {
+      "S_state": 0.9615534431014351,
+      "rows": 363106,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 62720,
+          "speed_rmse_kmh": 0.7954147795545305,
+          "flow_rmse_per_lane_vph": 22.5574105354868,
+          "S_state": 0.9655250260177488
+        },
+        {
+          "regime": "R2",
+          "rows": 123294,
+          "speed_rmse_kmh": 1.0890640978827768,
+          "flow_rmse_per_lane_vph": 23.968468436180064,
+          "S_state": 0.9581003896846607
+        },
+        {
+          "regime": "R3",
+          "rows": 177092,
+          "speed_rmse_kmh": 0.9757254596501751,
+          "flow_rmse_per_lane_vph": 23.334021482165795,
+          "S_state": 0.9610349136018959
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 0,
+          "rows": 3970,
+          "speed_sse": 3.905016592413908,
+          "flow_sse": 4.989273596209514
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 0,
+          "rows": 3850,
+          "speed_sse": 3.6025652326195043,
+          "flow_sse": 6.317166863752224
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 1,
+          "rows": 5978,
+          "speed_sse": 5.785392941014039,
+          "flow_sse": 9.838480089898649
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 2,
+          "rows": 9862,
+          "speed_sse": 9.43378188251451,
+          "flow_sse": 15.987830208849454
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 0,
+          "rows": 3842,
+          "speed_sse": 3.72347977849497,
+          "flow_sse": 7.029539868573412
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 0,
+          "rows": 3881,
+          "speed_sse": 3.6370695819699463,
+          "flow_sse": 5.942805893376001
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 0,
+          "rows": 3825,
+          "speed_sse": 3.591897825246294,
+          "flow_sse": 4.59208650350846
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 0,
+          "rows": 3898,
+          "speed_sse": 3.6460521787194224,
+          "flow_sse": 5.248353823077408
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 2,
+          "rows": 9857,
+          "speed_sse": 9.560859671725318,
+          "flow_sse": 16.59947210202911
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 1,
+          "rows": 5950,
+          "speed_sse": 5.374445736666707,
+          "flow_sse": 9.208001523890655
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 1,
+          "rows": 5808,
+          "speed_sse": 13.38478307152496,
+          "flow_sse": 8.494573740619783
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 1,
+          "rows": 5926,
+          "speed_sse": 13.310807960032134,
+          "flow_sse": 10.903016603011173
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 0,
+          "rows": 3882,
+          "speed_sse": 3.5675543018040354,
+          "flow_sse": 5.3582888033954434
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 0,
+          "rows": 4016,
+          "speed_sse": 3.6749102539278056,
+          "flow_sse": 5.587655783265923
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 2,
+          "rows": 9816,
+          "speed_sse": 10.3960473063167,
+          "flow_sse": 12.286029284820833
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 0,
+          "rows": 3990,
+          "speed_sse": 3.846709229282057,
+          "flow_sse": 6.019307556219191
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 2,
+          "rows": 9857,
+          "speed_sse": 23.143501686570193,
+          "flow_sse": 13.948010547322676
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 1,
+          "rows": 5873,
+          "speed_sse": 5.312665169725143,
+          "flow_sse": 8.715437814353585
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 1,
+          "rows": 5900,
+          "speed_sse": 5.571057600713926,
+          "flow_sse": 8.707596029870501
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 1,
+          "rows": 5871,
+          "speed_sse": 5.660741858346114,
+          "flow_sse": 9.022663238324057
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 0,
+          "rows": 3974,
+          "speed_sse": 3.657531094183474,
+          "flow_sse": 5.205433046844112
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 2,
+          "rows": 9659,
+          "speed_sse": 9.421836255837555,
+          "flow_sse": 12.62969707884097
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 1,
+          "rows": 5913,
+          "speed_sse": 5.5204063688420755,
+          "flow_sse": 9.891557344035569
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 0,
+          "rows": 3839,
+          "speed_sse": 3.72902272771724,
+          "flow_sse": 4.610566906134393
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 1,
+          "rows": 5824,
+          "speed_sse": 5.794552489821995,
+          "flow_sse": 7.243409377465472
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 2,
+          "rows": 9790,
+          "speed_sse": 9.683327433273764,
+          "flow_sse": 16.241495295924867
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 0,
+          "rows": 3941,
+          "speed_sse": 8.376476383442759,
+          "flow_sse": 6.370553822597963
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 5782,
+          "speed_sse": 5.506857944545567,
+          "flow_sse": 8.432993271796292
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 0,
+          "rows": 3873,
+          "speed_sse": 3.476707813716625,
+          "flow_sse": 5.614806304025923
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 2,
+          "rows": 10023,
+          "speed_sse": 9.789269314000828,
+          "flow_sse": 16.395245397264652
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 2,
+          "rows": 9791,
+          "speed_sse": 9.629186808467816,
+          "flow_sse": 16.27560397209481
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 2,
+          "rows": 9919,
+          "speed_sse": 51.38401394532776,
+          "flow_sse": 16.04387108319683
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 1,
+          "rows": 6021,
+          "speed_sse": 5.726381336402595,
+          "flow_sse": 9.554324396831106
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 0,
+          "rows": 4023,
+          "speed_sse": 3.8455282219841145,
+          "flow_sse": 4.9836453030146055
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 2,
+          "rows": 9832,
+          "speed_sse": 9.780411474134015,
+          "flow_sse": 14.402689429849655
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 0,
+          "rows": 3948,
+          "speed_sse": 3.6639836751548067,
+          "flow_sse": 4.885237397519388
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 2,
+          "rows": 9846,
+          "speed_sse": 9.623791601749057,
+          "flow_sse": 16.567875886040994
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 0,
+          "rows": 3968,
+          "speed_sse": 3.5466672670811707,
+          "flow_sse": 5.8959513578479905
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 1,
+          "rows": 5790,
+          "speed_sse": 44.20795448982857,
+          "flow_sse": 8.622879382309053
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 9874,
+          "speed_sse": 9.903832888599371,
+          "flow_sse": 15.605299056455886
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 1,
+          "rows": 5829,
+          "speed_sse": 5.509797406132699,
+          "flow_sse": 9.58104083989662
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 2,
+          "rows": 9765,
+          "speed_sse": 9.443070642657577,
+          "flow_sse": 14.178451503247285
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 1,
+          "rows": 5843,
+          "speed_sse": 5.549678977323237,
+          "flow_sse": 7.425753025314945
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 1,
+          "rows": 5890,
+          "speed_sse": 5.485286249886968,
+          "flow_sse": 7.853593461272785
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 1,
+          "rows": 5959,
+          "speed_sse": 5.8247047189863395,
+          "flow_sse": 9.106096348252397
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 1,
+          "rows": 5834,
+          "speed_sse": 50.39887078676248,
+          "flow_sse": 18.21281633112642
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 1,
+          "rows": 5756,
+          "speed_sse": 23.269297865679402,
+          "flow_sse": 12.713942184460613
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 2,
+          "rows": 9717,
+          "speed_sse": 48.64049922607394,
+          "flow_sse": 14.462447753297434
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 9879,
+          "speed_sse": 9.43283083742469,
+          "flow_sse": 12.70313824412806
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 1,
+          "rows": 5983,
+          "speed_sse": 5.581453933806373,
+          "flow_sse": 7.756990288489698
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 1,
+          "rows": 5820,
+          "speed_sse": 5.627231896300566,
+          "flow_sse": 8.230151387281534
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 1,
+          "rows": 5744,
+          "speed_sse": 5.5722820179657155,
+          "flow_sse": 7.237070148014303
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 2,
+          "rows": 9800,
+          "speed_sse": 10.046706189257229,
+          "flow_sse": 13.64193231519444
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 2,
+          "rows": 9917,
+          "speed_sse": 10.266577394919963,
+          "flow_sse": 15.180606556669073
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 2,
+          "rows": 9888,
+          "speed_sse": 10.178372637581028,
+          "flow_sse": 14.690422904844437
+        }
+      ],
+      "panel": "D12_I405_N",
+      "reference_original_transformer": 0.9599199736706012,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 36,
+        "actual_optimizer_updates": 36864,
+        "best_epoch": 28,
+        "best_inner_S_state": 0.9610863048912629,
+        "seconds": 1157.8075349330902,
+        "exposure": {
+          "augmented_windows": 36805,
+          "static_windows": 36923,
+          "extra_targets": 1934263,
+          "original_targets": 27258680,
+          "retained_targets": 25324417
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.001633469430833867
+    },
+    {
+      "S_state": 0.9333810518551712,
+      "rows": 194969,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 19268,
+          "speed_rmse_kmh": 1.7211769352990527,
+          "flow_rmse_per_lane_vph": 39.33656488845787,
+          "S_state": 0.9326645451163895
+        },
+        {
+          "regime": "R2",
+          "rows": 64145,
+          "speed_rmse_kmh": 1.3341549230804945,
+          "flow_rmse_per_lane_vph": 40.236834429340256,
+          "S_state": 0.9403340139323006
+        },
+        {
+          "regime": "R3",
+          "rows": 111556,
+          "speed_rmse_kmh": 1.8633852444654617,
+          "flow_rmse_per_lane_vph": 42.52993330789926,
+          "S_state": 0.9271445965168232
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 1,
+          "rows": 2964,
+          "speed_sse": 5.155303980706646,
+          "flow_sse": 10.890039560190807
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 1,
+          "rows": 2957,
+          "speed_sse": 4.600570506928591,
+          "flow_sse": 13.098297226105124
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 2,
+          "rows": 4769,
+          "speed_sse": 7.643987925665499,
+          "flow_sse": 21.26087402561624
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 1,
+          "rows": 2893,
+          "speed_sse": 18.456206480650554,
+          "flow_sse": 15.22910678203979
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 2,
+          "rows": 4829,
+          "speed_sse": 7.783851261487371,
+          "flow_sse": 17.160589131364866
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 2,
+          "rows": 4860,
+          "speed_sse": 24.03232768683675,
+          "flow_sse": 21.922284366247432
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 1,
+          "rows": 2924,
+          "speed_sse": 5.259114491341228,
+          "flow_sse": 14.998618158965233
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 0,
+          "rows": 1936,
+          "speed_sse": 23.7261853508193,
+          "flow_sse": 6.867241705251146
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 2,
+          "rows": 4876,
+          "speed_sse": 7.494334395082433,
+          "flow_sse": 16.874140171588593
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 0,
+          "rows": 1986,
+          "speed_sse": 3.3800126067745193,
+          "flow_sse": 9.228757901030253
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 0,
+          "rows": 1905,
+          "speed_sse": 3.130034468807467,
+          "flow_sse": 8.943951474068285
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 1,
+          "rows": 2930,
+          "speed_sse": 23.396552940512002,
+          "flow_sse": 15.381356355144051
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 0,
+          "rows": 1919,
+          "speed_sse": 3.029252053106802,
+          "flow_sse": 6.836290094574217
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 1,
+          "rows": 2784,
+          "speed_sse": 15.463372296357447,
+          "flow_sse": 11.92580082575483
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 0,
+          "rows": 1915,
+          "speed_sse": 6.493815426141747,
+          "flow_sse": 6.235295477448648
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 2,
+          "rows": 4978,
+          "speed_sse": 16.952694408362877,
+          "flow_sse": 27.582976720261065
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 1,
+          "rows": 2831,
+          "speed_sse": 13.628173641145985,
+          "flow_sse": 13.572537787377362
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 2,
+          "rows": 4848,
+          "speed_sse": 47.2626617922195,
+          "flow_sse": 26.426604518568098
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 0,
+          "rows": 1956,
+          "speed_sse": 21.22780576259544,
+          "flow_sse": 12.270768476205328
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 2,
+          "rows": 4834,
+          "speed_sse": 17.843951230274616,
+          "flow_sse": 26.998218603468704
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 2,
+          "rows": 4804,
+          "speed_sse": 32.575061643803,
+          "flow_sse": 21.627032199758986
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 2,
+          "rows": 4817,
+          "speed_sse": 30.479026575133336,
+          "flow_sse": 20.198351471475398
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 1,
+          "rows": 2868,
+          "speed_sse": 4.456022121043645,
+          "flow_sse": 10.11918241972885
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 1,
+          "rows": 3004,
+          "speed_sse": 4.678694673724181,
+          "flow_sse": 12.912196460164878
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 2,
+          "rows": 4817,
+          "speed_sse": 7.488583304751255,
+          "flow_sse": 24.208315499694635
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 1,
+          "rows": 2916,
+          "speed_sse": 4.7195555623509335,
+          "flow_sse": 12.22862141359241
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 2,
+          "rows": 4834,
+          "speed_sse": 81.13466236694494,
+          "flow_sse": 37.710103663954385
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 2889,
+          "speed_sse": 6.733833510037188,
+          "flow_sse": 15.144252151726732
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 1,
+          "rows": 2966,
+          "speed_sse": 6.962238664013783,
+          "flow_sse": 13.21815209652167
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 1,
+          "rows": 2989,
+          "speed_sse": 5.1057228938927715,
+          "flow_sse": 13.458199078678144
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 2,
+          "rows": 4901,
+          "speed_sse": 116.15896601608902,
+          "flow_sse": 35.299797445286245
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 1,
+          "rows": 2993,
+          "speed_sse": 18.525502954710724,
+          "flow_sse": 15.655987210262932
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 1,
+          "rows": 2944,
+          "speed_sse": 13.514417646718412,
+          "flow_sse": 14.208784205853256
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 2,
+          "rows": 4810,
+          "speed_sse": 31.90343485204045,
+          "flow_sse": 27.194003394730245
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 1,
+          "rows": 2847,
+          "speed_sse": 4.634255482063736,
+          "flow_sse": 9.872111966420428
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 1,
+          "rows": 2954,
+          "speed_sse": 4.497431748299984,
+          "flow_sse": 10.228986779470853
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 1,
+          "rows": 2884,
+          "speed_sse": 4.691651312684461,
+          "flow_sse": 16.194952707697794
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 2,
+          "rows": 4831,
+          "speed_sse": 28.11160499791435,
+          "flow_sse": 29.556283076703618
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 1,
+          "rows": 2936,
+          "speed_sse": 4.435166101171475,
+          "flow_sse": 14.424900807545495
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 0,
+          "rows": 1921,
+          "speed_sse": 11.804028893873308,
+          "flow_sse": 7.8195885175332105
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 1,
+          "rows": 2954,
+          "speed_sse": 4.864112095886878,
+          "flow_sse": 13.028679037149846
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 1,
+          "rows": 2896,
+          "speed_sse": 4.781743428016587,
+          "flow_sse": 13.93739531887428
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 1,
+          "rows": 2822,
+          "speed_sse": 4.122172698043528,
+          "flow_sse": 8.746667999998294
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 2,
+          "rows": 4804,
+          "speed_sse": 7.491544089204865,
+          "flow_sse": 19.10879608215636
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 0,
+          "rows": 1939,
+          "speed_sse": 2.9654063479476918,
+          "flow_sse": 7.5461236292463365
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 2,
+          "rows": 4914,
+          "speed_sse": 8.273561260065808,
+          "flow_sse": 25.94006702380617
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 2,
+          "rows": 4844,
+          "speed_sse": 19.66924748651094,
+          "flow_sse": 25.237485153608255
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 2,
+          "rows": 4754,
+          "speed_sse": 30.48538569109475,
+          "flow_sse": 24.76415341428646
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 4881,
+          "speed_sse": 16.551645427103328,
+          "flow_sse": 18.639943098175557
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 2,
+          "rows": 4850,
+          "speed_sse": 24.067191727776496,
+          "flow_sse": 20.992994186225125
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 0,
+          "rows": 1883,
+          "speed_sse": 12.646047835070672,
+          "flow_sse": 9.861601932081475
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 0,
+          "rows": 1908,
+          "speed_sse": 2.9261911283376207,
+          "flow_sse": 7.208812230420207
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 2,
+          "rows": 4944,
+          "speed_sse": 19.775631154451297,
+          "flow_sse": 23.515337363051827
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 2,
+          "rows": 4858,
+          "speed_sse": 7.790838150443619,
+          "flow_sse": 21.359506258737
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 2,
+          "rows": 4899,
+          "speed_sse": 28.782211247774836,
+          "flow_sse": 26.927588583075977
+        }
+      ],
+      "panel": "D12_I405_S",
+      "reference_original_transformer": 0.9270291240041544,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 55,
+        "actual_optimizer_updates": 56320,
+        "best_epoch": 47,
+        "best_inner_S_state": 0.9342647746658971,
+        "seconds": 1367.1555502414703,
+        "exposure": {
+          "augmented_windows": 56419,
+          "static_windows": 56221,
+          "extra_targets": 2032758,
+          "original_targets": 29328010,
+          "retained_targets": 27295252
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.006351927851016792
+    },
+    {
+      "S_state": 0.9581526006884994,
+      "rows": 1004145,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 272068,
+          "speed_rmse_kmh": 0.9157545902785845,
+          "flow_rmse_per_lane_vph": 24.744391703861687,
+          "S_state": 0.9612490005436887
+        },
+        {
+          "regime": "R2",
+          "rows": 221360,
+          "speed_rmse_kmh": 1.0244273018839845,
+          "flow_rmse_per_lane_vph": 25.863152449909798,
+          "S_state": 0.9580439534010419
+        },
+        {
+          "regime": "R3",
+          "rows": 510717,
+          "speed_rmse_kmh": 1.1327327427263154,
+          "flow_rmse_per_lane_vph": 26.567119090883644,
+          "S_state": 0.9551648481207675
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 0,
+          "rows": 11280,
+          "speed_sse": 14.729472039101935,
+          "flow_sse": 21.282233283916256
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 0,
+          "rows": 11351,
+          "speed_sse": 12.280306679797803,
+          "flow_sse": 16.65638046149153
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 2,
+          "rows": 28314,
+          "speed_sse": 61.12229874578222,
+          "flow_sse": 47.16136801939183
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 1,
+          "rows": 17176,
+          "speed_sse": 22.97561318810088,
+          "flow_sse": 27.768832372901358
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 2,
+          "rows": 28255,
+          "speed_sse": 72.78796392174357,
+          "flow_sse": 66.63263732004646
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 0,
+          "rows": 11211,
+          "speed_sse": 14.137327236691252,
+          "flow_sse": 23.868266449354188
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 2,
+          "rows": 28478,
+          "speed_sse": 43.29917995999057,
+          "flow_sse": 51.23734371648098
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 2,
+          "rows": 28204,
+          "speed_sse": 69.51782203129702,
+          "flow_sse": 63.5403525183014
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 0,
+          "rows": 11156,
+          "speed_sse": 11.937045047441112,
+          "flow_sse": 15.629029488287209
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 0,
+          "rows": 11455,
+          "speed_sse": 16.643748383574952,
+          "flow_sse": 19.343963204223257
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 2,
+          "rows": 28403,
+          "speed_sse": 56.71260427818404,
+          "flow_sse": 50.53026628263554
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 0,
+          "rows": 11253,
+          "speed_sse": 11.930048957216748,
+          "flow_sse": 15.57187039471727
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 0,
+          "rows": 11354,
+          "speed_sse": 11.80354161928733,
+          "flow_sse": 14.20294510304299
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 0,
+          "rows": 11392,
+          "speed_sse": 12.243414848813117,
+          "flow_sse": 16.439159446795003
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 0,
+          "rows": 11513,
+          "speed_sse": 39.69290275137914,
+          "flow_sse": 28.120863070037167
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 1,
+          "rows": 16987,
+          "speed_sse": 30.23476464360967,
+          "flow_sse": 28.191735963250906
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 1,
+          "rows": 17095,
+          "speed_sse": 19.159921481957408,
+          "flow_sse": 25.39990331375692
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 2,
+          "rows": 28302,
+          "speed_sse": 87.70054569153648,
+          "flow_sse": 65.5709649367153
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 2,
+          "rows": 28540,
+          "speed_sse": 90.21983804241884,
+          "flow_sse": 79.21874578033805
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 0,
+          "rows": 11251,
+          "speed_sse": 15.944961930749297,
+          "flow_sse": 21.911640448253856
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 1,
+          "rows": 17008,
+          "speed_sse": 34.857231387035014,
+          "flow_sse": 44.278915623163684
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 1,
+          "rows": 16985,
+          "speed_sse": 23.952406869235162,
+          "flow_sse": 34.86262230354865
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 1,
+          "rows": 16987,
+          "speed_sse": 37.228836671975735,
+          "flow_sse": 32.794502183533545
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 0,
+          "rows": 11498,
+          "speed_sse": 14.017664254276031,
+          "flow_sse": 27.17731567942458
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 1,
+          "rows": 17139,
+          "speed_sse": 44.94026726675975,
+          "flow_sse": 36.95053287930738
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 1,
+          "rows": 16943,
+          "speed_sse": 19.19828970951363,
+          "flow_sse": 30.898538248492862
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 2,
+          "rows": 28311,
+          "speed_sse": 34.54686625990341,
+          "flow_sse": 45.708925707420384
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 16850,
+          "speed_sse": 20.772226354914416,
+          "flow_sse": 30.58500354220342
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 0,
+          "rows": 11315,
+          "speed_sse": 11.827128504250062,
+          "flow_sse": 15.079214650937129
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 2,
+          "rows": 28494,
+          "speed_sse": 33.60496225961078,
+          "flow_sse": 44.201220697266706
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 1,
+          "rows": 17050,
+          "speed_sse": 32.21937608585837,
+          "flow_sse": 34.42344888800073
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 0,
+          "rows": 11243,
+          "speed_sse": 12.30713124401236,
+          "flow_sse": 20.247712857992973
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 2,
+          "rows": 28413,
+          "speed_sse": 66.77671310826415,
+          "flow_sse": 71.34893224952214
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 1,
+          "rows": 17016,
+          "speed_sse": 46.10362722599216,
+          "flow_sse": 26.515709820461932
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 0,
+          "rows": 11476,
+          "speed_sse": 12.203594201089869,
+          "flow_sse": 16.87400941755626
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 0,
+          "rows": 11195,
+          "speed_sse": 18.401075918024233,
+          "flow_sse": 22.2307420115628
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 1,
+          "rows": 17058,
+          "speed_sse": 21.53077048872838,
+          "flow_sse": 35.74411445683154
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 0,
+          "rows": 11374,
+          "speed_sse": 12.263537004279488,
+          "flow_sse": 15.816507152307452
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 2,
+          "rows": 28408,
+          "speed_sse": 76.30540338051236,
+          "flow_sse": 68.64753510967691
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 28510,
+          "speed_sse": 32.77694115696863,
+          "flow_sse": 37.19216260255109
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 0,
+          "rows": 11213,
+          "speed_sse": 15.200631706218523,
+          "flow_sse": 19.530730368523905
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 2,
+          "rows": 28234,
+          "speed_sse": 55.54365651530382,
+          "flow_sse": 59.44639498805238
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 0,
+          "rows": 11352,
+          "speed_sse": 23.766125007276845,
+          "flow_sse": 20.372475510898717
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 2,
+          "rows": 28112,
+          "speed_sse": 123.164671871103,
+          "flow_sse": 64.16042642094995
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 0,
+          "rows": 11323,
+          "speed_sse": 11.978515234432098,
+          "flow_sse": 15.319552003479188
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 2,
+          "rows": 28323,
+          "speed_sse": 37.282701903317516,
+          "flow_sse": 54.94434747356558
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 2,
+          "rows": 28352,
+          "speed_sse": 33.3152935406729,
+          "flow_sse": 38.87004547419496
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 2,
+          "rows": 28413,
+          "speed_sse": 41.91319655801744,
+          "flow_sse": 57.88745174497902
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 0,
+          "rows": 11490,
+          "speed_sse": 21.951155570607963,
+          "flow_sse": 27.262789580578612
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 0,
+          "rows": 11274,
+          "speed_sse": 12.19195108641042,
+          "flow_sse": 18.01853488376247
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 2,
+          "rows": 28651,
+          "speed_sse": 31.877402746611324,
+          "flow_sse": 35.00669461104155
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 1,
+          "rows": 17066,
+          "speed_sse": 18.517131137800522,
+          "flow_sse": 22.886950495438242
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 0,
+          "rows": 11335,
+          "speed_sse": 12.71594600832698,
+          "flow_sse": 16.36040141437563
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 0,
+          "rows": 11474,
+          "speed_sse": 13.029221308418565,
+          "flow_sse": 21.31166529238426
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 0,
+          "rows": 11290,
+          "speed_sse": 11.856329419231088,
+          "flow_sse": 14.102925133374626
+        }
+      ],
+      "panel": "D12_I5_N",
+      "reference_original_transformer": 0.9576885062012988,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 60,
+        "actual_optimizer_updates": 61440,
+        "best_epoch": 57,
+        "best_inner_S_state": 0.9574618898852166,
+        "seconds": 2294.665427207947,
+        "exposure": {
+          "augmented_windows": 61530,
+          "static_windows": 61350,
+          "extra_targets": 3274196,
+          "original_targets": 45435438,
+          "retained_targets": 42161242
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.00046409448720063917
+    },
+    {
+      "S_state": 0.9415194972896327,
+      "rows": 415258,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 70142,
+          "speed_rmse_kmh": 1.3073666100886236,
+          "flow_rmse_per_lane_vph": 29.172526351388083,
+          "S_state": 0.9493952776860215
+        },
+        {
+          "regime": "R2",
+          "rows": 125050,
+          "speed_rmse_kmh": 1.513487138466287,
+          "flow_rmse_per_lane_vph": 30.24555610862366,
+          "S_state": 0.9441204181258501
+        },
+        {
+          "regime": "R3",
+          "rows": 220066,
+          "speed_rmse_kmh": 2.0378192775395743,
+          "flow_rmse_per_lane_vph": 32.530835932328614,
+          "S_state": 0.9310427960570267
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 0,
+          "rows": 4377,
+          "speed_sse": 6.639022375308426,
+          "flow_sse": 8.882772469699633
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 1,
+          "rows": 6586,
+          "speed_sse": 10.490773786232987,
+          "flow_sse": 13.562637895280819
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 1,
+          "rows": 6535,
+          "speed_sse": 40.20349171687883,
+          "flow_sse": 23.901503329408744
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 2,
+          "rows": 10866,
+          "speed_sse": 62.603585919384315,
+          "flow_sse": 37.653715034210734
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 2,
+          "rows": 10875,
+          "speed_sse": 14.496120851182013,
+          "flow_sse": 17.47520435523316
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 1,
+          "rows": 6584,
+          "speed_sse": 15.076984327995024,
+          "flow_sse": 19.1653918940188
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 2,
+          "rows": 11101,
+          "speed_sse": 202.1914806265697,
+          "flow_sse": 53.963368849384665
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 0,
+          "rows": 4405,
+          "speed_sse": 21.425811278779086,
+          "flow_sse": 9.1355602558078
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 2,
+          "rows": 11079,
+          "speed_sse": 14.77410744267354,
+          "flow_sse": 20.299703410101426
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 0,
+          "rows": 4327,
+          "speed_sse": 6.468934828117262,
+          "flow_sse": 11.66267796723013
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 1,
+          "rows": 6583,
+          "speed_sse": 16.24747703060379,
+          "flow_sse": 18.15463823170822
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 1,
+          "rows": 6668,
+          "speed_sse": 11.661356277093068,
+          "flow_sse": 15.614493050279687
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 1,
+          "rows": 6527,
+          "speed_sse": 31.814767209229288,
+          "flow_sse": 18.619025550534182
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 1,
+          "rows": 6573,
+          "speed_sse": 53.092044434526485,
+          "flow_sse": 21.108037519133276
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 0,
+          "rows": 4360,
+          "speed_sse": 6.553269097004576,
+          "flow_sse": 8.621821688554526
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 1,
+          "rows": 6528,
+          "speed_sse": 19.349776210015513,
+          "flow_sse": 15.092001595482486
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 2,
+          "rows": 10919,
+          "speed_sse": 53.53559063546415,
+          "flow_sse": 32.315960888583
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 2,
+          "rows": 11167,
+          "speed_sse": 168.11306597379627,
+          "flow_sse": 47.78953800533742
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 2,
+          "rows": 11075,
+          "speed_sse": 109.57501406156555,
+          "flow_sse": 30.12765041137158
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 0,
+          "rows": 4312,
+          "speed_sse": 8.460263396903256,
+          "flow_sse": 10.67581976948583
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 1,
+          "rows": 6639,
+          "speed_sse": 13.834849980107023,
+          "flow_sse": 20.791986171927945
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 0,
+          "rows": 4301,
+          "speed_sse": 5.645160240111011,
+          "flow_sse": 7.033028420794953
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 2,
+          "rows": 11026,
+          "speed_sse": 83.57356617476273,
+          "flow_sse": 39.628399586197624
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 1,
+          "rows": 6609,
+          "speed_sse": 34.73954702884093,
+          "flow_sse": 14.710130726664968
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 2,
+          "rows": 10878,
+          "speed_sse": 124.86430043485939,
+          "flow_sse": 48.629444326472225
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 2,
+          "rows": 10928,
+          "speed_sse": 63.23542501175811,
+          "flow_sse": 34.41639583410123
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 0,
+          "rows": 4351,
+          "speed_sse": 22.68283047619419,
+          "flow_sse": 12.653719608436578
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 6628,
+          "speed_sse": 9.001319170482379,
+          "flow_sse": 13.607931486987294
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 0,
+          "rows": 4329,
+          "speed_sse": 8.408710251071074,
+          "flow_sse": 10.839230084740269
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 1,
+          "rows": 6660,
+          "speed_sse": 48.0571493546864,
+          "flow_sse": 18.887253327307246
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 0,
+          "rows": 4513,
+          "speed_sse": 10.921923157924144,
+          "flow_sse": 8.830591275918344
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 0,
+          "rows": 4345,
+          "speed_sse": 21.034488466002138,
+          "flow_sse": 13.609262538819095
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 0,
+          "rows": 4494,
+          "speed_sse": 8.511917637374156,
+          "flow_sse": 13.013658764229241
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 2,
+          "rows": 10901,
+          "speed_sse": 75.21666099723835,
+          "flow_sse": 28.924895427058445
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 1,
+          "rows": 6659,
+          "speed_sse": 9.969209882172969,
+          "flow_sse": 12.93394291627638
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 0,
+          "rows": 4241,
+          "speed_sse": 6.637336950772104,
+          "flow_sse": 9.263374962129967
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 2,
+          "rows": 10985,
+          "speed_sse": 31.889105986703505,
+          "flow_sse": 23.029339854134662
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 2,
+          "rows": 11083,
+          "speed_sse": 47.182292010471954,
+          "flow_sse": 33.11030170069356
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 2,
+          "rows": 10988,
+          "speed_sse": 92.93141335798167,
+          "flow_sse": 34.99916557221813
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 11012,
+          "speed_sse": 44.87841347188783,
+          "flow_sse": 24.634686065465104
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 1,
+          "rows": 6621,
+          "speed_sse": 9.045084261834074,
+          "flow_sse": 12.848216281803257
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 0,
+          "rows": 4431,
+          "speed_sse": 13.816502450552065,
+          "flow_sse": 10.999909179659335
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 1,
+          "rows": 6564,
+          "speed_sse": 27.7379504253389,
+          "flow_sse": 16.575381688075293
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 2,
+          "rows": 11101,
+          "speed_sse": 56.72477970035973,
+          "flow_sse": 30.81194950877567
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 1,
+          "rows": 6479,
+          "speed_sse": 8.15938722470404,
+          "flow_sse": 12.740241173907105
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 1,
+          "rows": 6512,
+          "speed_sse": 30.242426206061975,
+          "flow_sse": 20.12064857017774
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 2,
+          "rows": 11036,
+          "speed_sse": 14.584268796743345,
+          "flow_sse": 17.857711664257717
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 0,
+          "rows": 4536,
+          "speed_sse": 9.001041880849348,
+          "flow_sse": 8.708892796709367
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 11040,
+          "speed_sse": 72.0011781526594,
+          "flow_sse": 30.768025519117202
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 1,
+          "rows": 6430,
+          "speed_sse": 61.18935440082858,
+          "flow_sse": 18.282329906181964
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 1,
+          "rows": 6665,
+          "speed_sse": 8.398966198405844,
+          "flow_sse": 11.047952360410394
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 2,
+          "rows": 10951,
+          "speed_sse": 53.531864328240815,
+          "flow_sse": 28.530525512432753
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 0,
+          "rows": 4440,
+          "speed_sse": 26.407557440737055,
+          "flow_sse": 12.693565419596055
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 0,
+          "rows": 4380,
+          "speed_sse": 9.204796761218741,
+          "flow_sse": 9.191080671185569
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 2,
+          "rows": 11055,
+          "speed_sse": 76.2892995529662,
+          "flow_sse": 31.939595889421078
+        }
+      ],
+      "panel": "D12_I5_S",
+      "reference_original_transformer": 0.9248304481821992,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 46,
+        "actual_optimizer_updates": 47104,
+        "best_epoch": 38,
+        "best_inner_S_state": 0.9417725600784821,
+        "seconds": 1447.0555844306946,
+        "exposure": {
+          "augmented_windows": 47353,
+          "static_windows": 46855,
+          "extra_targets": 2543233,
+          "original_targets": 34933003,
+          "retained_targets": 32389770
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.016689049107433518
+    },
+    {
+      "S_state": 0.9455036589476217,
+      "rows": 594132,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 102297,
+          "speed_rmse_kmh": 1.327233348770793,
+          "flow_rmse_per_lane_vph": 31.886434606887388,
+          "S_state": 0.9468854931346038
+        },
+        {
+          "regime": "R2",
+          "rows": 202846,
+          "speed_rmse_kmh": 1.3233127635323017,
+          "flow_rmse_per_lane_vph": 30.70782083927205,
+          "S_state": 0.9478737816642604
+        },
+        {
+          "regime": "R3",
+          "rows": 288989,
+          "speed_rmse_kmh": 1.5038600245583869,
+          "flow_rmse_per_lane_vph": 33.606419250701755,
+          "S_state": 0.9417517020440009
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 2,
+          "rows": 16140,
+          "speed_sse": 43.53701181383608,
+          "flow_sse": 54.375373157015716
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 0,
+          "rows": 6286,
+          "speed_sse": 14.847955963541011,
+          "flow_sse": 20.371619977192005
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 1,
+          "rows": 9739,
+          "speed_sse": 24.363297708989503,
+          "flow_sse": 26.01850051733525
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 0,
+          "rows": 6493,
+          "speed_sse": 15.932970001415594,
+          "flow_sse": 14.875661332896671
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 0,
+          "rows": 6373,
+          "speed_sse": 14.31067637840057,
+          "flow_sse": 22.66729003170045
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 1,
+          "rows": 9802,
+          "speed_sse": 30.624040820143183,
+          "flow_sse": 34.325534709673114
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 0,
+          "rows": 6297,
+          "speed_sse": 23.432079225490916,
+          "flow_sse": 19.421831117638394
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 0,
+          "rows": 6379,
+          "speed_sse": 15.287202819593194,
+          "flow_sse": 14.782586671299814
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 1,
+          "rows": 9834,
+          "speed_sse": 24.808984326940447,
+          "flow_sse": 21.298586279691662
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 1,
+          "rows": 9636,
+          "speed_sse": 22.95864529354572,
+          "flow_sse": 24.068347618676093
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 2,
+          "rows": 16086,
+          "speed_sse": 40.89280469909238,
+          "flow_sse": 50.347628729413756
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 1,
+          "rows": 9628,
+          "speed_sse": 23.47000403062279,
+          "flow_sse": 26.482033165489195
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 2,
+          "rows": 15872,
+          "speed_sse": 49.3900368499839,
+          "flow_sse": 50.11895763252363
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 1,
+          "rows": 9677,
+          "speed_sse": 48.76159853400053,
+          "flow_sse": 28.398195805195577
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 1,
+          "rows": 9784,
+          "speed_sse": 26.296074182784572,
+          "flow_sse": 21.821439148337753
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 0,
+          "rows": 6459,
+          "speed_sse": 15.766224010519833,
+          "flow_sse": 15.213649193637846
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 2,
+          "rows": 15899,
+          "speed_sse": 60.57698395258849,
+          "flow_sse": 61.70033191057054
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 1,
+          "rows": 9465,
+          "speed_sse": 23.142645246795247,
+          "flow_sse": 28.037246494027038
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 2,
+          "rows": 16174,
+          "speed_sse": 47.45235150681465,
+          "flow_sse": 52.29238937300362
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 1,
+          "rows": 9647,
+          "speed_sse": 38.76979258869186,
+          "flow_sse": 30.463993497805788
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 2,
+          "rows": 16109,
+          "speed_sse": 40.11248433204252,
+          "flow_sse": 41.78464315509991
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 1,
+          "rows": 9545,
+          "speed_sse": 25.798345962712304,
+          "flow_sse": 23.348346387683723
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 1,
+          "rows": 9682,
+          "speed_sse": 32.22324334889643,
+          "flow_sse": 26.01522324843437
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 0,
+          "rows": 6509,
+          "speed_sse": 20.242711186224263,
+          "flow_sse": 25.376656095361827
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 0,
+          "rows": 6338,
+          "speed_sse": 25.096265191757976,
+          "flow_sse": 19.974519994473535
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 1,
+          "rows": 9741,
+          "speed_sse": 38.85873535040945,
+          "flow_sse": 32.16903650921896
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 0,
+          "rows": 6318,
+          "speed_sse": 15.217071495407477,
+          "flow_sse": 16.366804438703767
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 2,
+          "rows": 16206,
+          "speed_sse": 65.51545064693617,
+          "flow_sse": 49.85234925127241
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 2,
+          "rows": 16048,
+          "speed_sse": 70.72405299219727,
+          "flow_sse": 41.359278978143124
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 0,
+          "rows": 6446,
+          "speed_sse": 14.859357679729854,
+          "flow_sse": 14.727358831729507
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 0,
+          "rows": 6410,
+          "speed_sse": 17.40911074511684,
+          "flow_sse": 18.799564764673647
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 2,
+          "rows": 15960,
+          "speed_sse": 53.77428428054992,
+          "flow_sse": 55.66905301461888
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 1,
+          "rows": 9551,
+          "speed_sse": 23.59887488983853,
+          "flow_sse": 25.557381000120408
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 1,
+          "rows": 9574,
+          "speed_sse": 22.460567888082238,
+          "flow_sse": 25.887364518069102
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 1,
+          "rows": 9647,
+          "speed_sse": 23.940206081056274,
+          "flow_sse": 22.30032337869188
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 1,
+          "rows": 9641,
+          "speed_sse": 22.691813231091984,
+          "flow_sse": 19.512075486773288
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 1,
+          "rows": 9612,
+          "speed_sse": 23.01749606192874,
+          "flow_sse": 17.48020014785884
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 1,
+          "rows": 9642,
+          "speed_sse": 21.949687880343788,
+          "flow_sse": 19.94528274258382
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 1,
+          "rows": 9705,
+          "speed_sse": 23.330758512940143,
+          "flow_sse": 25.194237545635175
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 16145,
+          "speed_sse": 127.22888146649413,
+          "flow_sse": 60.36067281153727
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 2,
+          "rows": 16061,
+          "speed_sse": 40.4303046195315,
+          "flow_sse": 46.63833606016071
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 2,
+          "rows": 15984,
+          "speed_sse": 53.06629178480043,
+          "flow_sse": 50.521934045404834
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 0,
+          "rows": 6480,
+          "speed_sse": 30.919437073207458,
+          "flow_sse": 17.528986364901662
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 2,
+          "rows": 16181,
+          "speed_sse": 50.78834623623036,
+          "flow_sse": 58.6233613492575
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 1,
+          "rows": 9699,
+          "speed_sse": 24.05170716681247,
+          "flow_sse": 31.87651225646644
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 2,
+          "rows": 16175,
+          "speed_sse": 76.55039962237507,
+          "flow_sse": 40.5965866767891
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 0,
+          "rows": 6343,
+          "speed_sse": 16.25444082877558,
+          "flow_sse": 20.55297508779577
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 2,
+          "rows": 15786,
+          "speed_sse": 89.6374422007105,
+          "flow_sse": 60.16460344815635
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 16114,
+          "speed_sse": 39.96530707653202,
+          "flow_sse": 46.744322383207646
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 0,
+          "rows": 6399,
+          "speed_sse": 15.2663118167211,
+          "flow_sse": 11.226662273498992
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 1,
+          "rows": 9595,
+          "speed_sse": 23.22768234726567,
+          "flow_sse": 21.127210379202758
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 0,
+          "rows": 6384,
+          "speed_sse": 18.18005472927044,
+          "flow_sse": 21.187805950889167
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 0,
+          "rows": 6383,
+          "speed_sse": 15.299911329472028,
+          "flow_sse": 15.842510643760205
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 2,
+          "rows": 15979,
+          "speed_sse": 40.4230233115461,
+          "flow_sse": 34.11283713236759
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 2,
+          "rows": 16070,
+          "speed_sse": 55.65625426630678,
+          "flow_sse": 51.35316196708127
+        }
+      ],
+      "panel": "D7_I10_E",
+      "reference_original_transformer": 0.9435602701882384,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 60,
+        "actual_optimizer_updates": 61440,
+        "best_epoch": 57,
+        "best_inner_S_state": 0.9443154701482968,
+        "seconds": 1968.937269449234,
+        "exposure": {
+          "augmented_windows": 61358,
+          "static_windows": 61522,
+          "extra_targets": 3143590,
+          "original_targets": 43604672,
+          "retained_targets": 40461082
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.0019433887593832688
+    },
+    {
+      "S_state": 0.950063663873315,
+      "rows": 445815,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 56496,
+          "speed_rmse_kmh": 1.1691530720874037,
+          "flow_rmse_per_lane_vph": 27.67120777221755,
+          "S_state": 0.9535317010175454
+        },
+        {
+          "regime": "R2",
+          "rows": 176988,
+          "speed_rmse_kmh": 1.2669189464404311,
+          "flow_rmse_per_lane_vph": 27.98707864077895,
+          "S_state": 0.9511777904656229
+        },
+        {
+          "regime": "R3",
+          "rows": 212331,
+          "speed_rmse_kmh": 1.4414130493654052,
+          "flow_rmse_per_lane_vph": 30.500840865561717,
+          "S_state": 0.9454815001367767
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 0,
+          "rows": 4672,
+          "speed_sse": 10.177782447181308,
+          "flow_sse": 9.483382630169729
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 0,
+          "rows": 4789,
+          "speed_sse": 11.494352312666539,
+          "flow_sse": 10.724175122978886
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 2,
+          "rows": 11724,
+          "speed_sse": 26.32704772925156,
+          "flow_sse": 22.355431821343302
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 1,
+          "rows": 7073,
+          "speed_sse": 16.29923538990303,
+          "flow_sse": 17.80450330498623
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 0,
+          "rows": 4772,
+          "speed_sse": 10.12277580917754,
+          "flow_sse": 10.76660599374989
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 1,
+          "rows": 7209,
+          "speed_sse": 16.324104174498792,
+          "flow_sse": 18.86969662130681
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 2,
+          "rows": 11765,
+          "speed_sse": 27.68812673302329,
+          "flow_sse": 24.44165515897238
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 0,
+          "rows": 4809,
+          "speed_sse": 10.169959741030254,
+          "flow_sse": 7.838547262069186
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 2,
+          "rows": 11746,
+          "speed_sse": 26.566699988305448,
+          "flow_sse": 32.01882243852995
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 0,
+          "rows": 4630,
+          "speed_sse": 10.186658409951292,
+          "flow_sse": 6.717888695113176
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 1,
+          "rows": 7013,
+          "speed_sse": 15.348458917755636,
+          "flow_sse": 13.29270816725441
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 2,
+          "rows": 11842,
+          "speed_sse": 26.765523919451724,
+          "flow_sse": 26.074900597472624
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 2,
+          "rows": 11853,
+          "speed_sse": 27.774860425028237,
+          "flow_sse": 25.010851496157763
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 2,
+          "rows": 11929,
+          "speed_sse": 91.71420319072561,
+          "flow_sse": 46.49679390795458
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 2,
+          "rows": 11564,
+          "speed_sse": 26.144036080566195,
+          "flow_sse": 18.94824412126213
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 0,
+          "rows": 4684,
+          "speed_sse": 10.476127130650056,
+          "flow_sse": 12.824522518896043
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 1,
+          "rows": 7083,
+          "speed_sse": 16.46658485942723,
+          "flow_sse": 16.23193795778944
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 1,
+          "rows": 7229,
+          "speed_sse": 46.90501435692393,
+          "flow_sse": 28.88709071855068
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 1,
+          "rows": 7159,
+          "speed_sse": 16.276659611697344,
+          "flow_sse": 19.000571828303883
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 2,
+          "rows": 11765,
+          "speed_sse": 26.234685383105315,
+          "flow_sse": 29.070760297478948
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 0,
+          "rows": 4743,
+          "speed_sse": 9.949062160828873,
+          "flow_sse": 8.45499317723069
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 1,
+          "rows": 7074,
+          "speed_sse": 44.277367390717956,
+          "flow_sse": 17.02156853506841
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 1,
+          "rows": 7071,
+          "speed_sse": 15.210020222310618,
+          "flow_sse": 14.290566092106657
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 1,
+          "rows": 7088,
+          "speed_sse": 15.957876695902375,
+          "flow_sse": 18.20304988822953
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 2,
+          "rows": 11770,
+          "speed_sse": 27.001638736225857,
+          "flow_sse": 22.19483063595917
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 2,
+          "rows": 11885,
+          "speed_sse": 27.1666301484928,
+          "flow_sse": 24.189941708419408
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 2,
+          "rows": 11829,
+          "speed_sse": 26.998884525097665,
+          "flow_sse": 32.818274089521026
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 0,
+          "rows": 4637,
+          "speed_sse": 10.363710981815888,
+          "flow_sse": 11.131698624419315
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 1,
+          "rows": 7144,
+          "speed_sse": 15.94103569188212,
+          "flow_sse": 9.975280992506406
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 1,
+          "rows": 7175,
+          "speed_sse": 16.37215097853789,
+          "flow_sse": 13.341387673653418
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 1,
+          "rows": 7137,
+          "speed_sse": 16.114402002612213,
+          "flow_sse": 19.037563036983258
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 1,
+          "rows": 7031,
+          "speed_sse": 16.389259174312784,
+          "flow_sse": 19.119257415840863
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 2,
+          "rows": 11765,
+          "speed_sse": 28.378243867917575,
+          "flow_sse": 32.94873492500421
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 0,
+          "rows": 4680,
+          "speed_sse": 10.130044175378032,
+          "flow_sse": 8.608320736518134
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 1,
+          "rows": 7006,
+          "speed_sse": 15.286472398442292,
+          "flow_sse": 15.242368792282306
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 1,
+          "rows": 7082,
+          "speed_sse": 15.33143827609257,
+          "flow_sse": 11.935592883420856
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 2,
+          "rows": 11861,
+          "speed_sse": 27.095036025838027,
+          "flow_sse": 30.39402584566502
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 1,
+          "rows": 7036,
+          "speed_sse": 15.589516324739861,
+          "flow_sse": 13.861006611683496
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 2,
+          "rows": 11837,
+          "speed_sse": 36.82513820580081,
+          "flow_sse": 31.845231053350634
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 11967,
+          "speed_sse": 27.353491538995286,
+          "flow_sse": 20.403686971402323
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 1,
+          "rows": 7074,
+          "speed_sse": 16.180437144649204,
+          "flow_sse": 14.540158514732866
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 0,
+          "rows": 4792,
+          "speed_sse": 10.322719712985823,
+          "flow_sse": 10.613678292695955
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 1,
+          "rows": 7097,
+          "speed_sse": 15.40339392486743,
+          "flow_sse": 8.853338155153462
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 1,
+          "rows": 7039,
+          "speed_sse": 16.663599408392713,
+          "flow_sse": 13.201088727547669
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 1,
+          "rows": 7016,
+          "speed_sse": 15.155643011351401,
+          "flow_sse": 12.5386505242905
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 2,
+          "rows": 11723,
+          "speed_sse": 106.38397295272337,
+          "flow_sse": 55.97879888512898
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 1,
+          "rows": 7052,
+          "speed_sse": 16.110563947997832,
+          "flow_sse": 9.920714011634685
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 0,
+          "rows": 4665,
+          "speed_sse": 10.6677674999981,
+          "flow_sse": 12.175103355745636
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 1,
+          "rows": 7001,
+          "speed_sse": 14.860764620554235,
+          "flow_sse": 14.982294957620152
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 1,
+          "rows": 7064,
+          "speed_sse": 15.451487456291673,
+          "flow_sse": 12.597882055608313
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 2,
+          "rows": 11780,
+          "speed_sse": 92.92297442250461,
+          "flow_sse": 43.998869184878885
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 2,
+          "rows": 11726,
+          "speed_sse": 26.505340551514962,
+          "flow_sse": 29.509602282305316
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 0,
+          "rows": 4623,
+          "speed_sse": 9.49976043715391,
+          "flow_sse": 10.824268320772717
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 1,
+          "rows": 6982,
+          "speed_sse": 15.434752845816202,
+          "flow_sse": 16.91654062819083
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 1,
+          "rows": 7053,
+          "speed_sse": 15.178623860723292,
+          "flow_sse": 15.42005335175659
+        }
+      ],
+      "panel": "D7_I10_W",
+      "reference_original_transformer": 0.945343407007699,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 60,
+        "actual_optimizer_updates": 61440,
+        "best_epoch": 54,
+        "best_inner_S_state": 0.9522459466171721,
+        "seconds": 1847.7605023384094,
+        "exposure": {
+          "augmented_windows": 61300,
+          "static_windows": 61580,
+          "extra_targets": 3147001,
+          "original_targets": 43809131,
+          "retained_targets": 40662130
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.004720256865615946
+    },
+    {
+      "S_state": 0.9438192168794824,
+      "rows": 1367094,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 157193,
+          "speed_rmse_kmh": 1.444471934219074,
+          "flow_rmse_per_lane_vph": 30.878003627954254,
+          "S_state": 0.9451262701061032
+        },
+        {
+          "regime": "R2",
+          "rows": 293947,
+          "speed_rmse_kmh": 1.4699299581125127,
+          "flow_rmse_per_lane_vph": 31.410826793432427,
+          "S_state": 0.9441678790298049
+        },
+        {
+          "regime": "R3",
+          "rows": 915954,
+          "speed_rmse_kmh": 1.5416436710929173,
+          "flow_rmse_per_lane_vph": 32.00477635024426,
+          "S_state": 0.9421635015025391
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 1,
+          "rows": 19551,
+          "speed_sse": 64.91220526508747,
+          "flow_sse": 45.294719310509464
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 1,
+          "rows": 19545,
+          "speed_sse": 66.27023594592674,
+          "flow_sse": 54.449533953557534
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 2,
+          "rows": 32696,
+          "speed_sse": 112.06836562288208,
+          "flow_sse": 92.84586165372673
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 1,
+          "rows": 19346,
+          "speed_sse": 63.90576187506184,
+          "flow_sse": 53.57340834231121
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 1,
+          "rows": 19577,
+          "speed_sse": 65.30879049516835,
+          "flow_sse": 60.18311870768475
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 1,
+          "rows": 19862,
+          "speed_sse": 65.36191582628246,
+          "flow_sse": 55.81777583895768
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 2,
+          "rows": 32926,
+          "speed_sse": 119.35669181316761,
+          "flow_sse": 107.51100892307338
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 1,
+          "rows": 19610,
+          "speed_sse": 66.00454471807518,
+          "flow_sse": 44.539112140054435
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 2,
+          "rows": 32579,
+          "speed_sse": 113.04040593912812,
+          "flow_sse": 94.05083596208755
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 1,
+          "rows": 19565,
+          "speed_sse": 64.50429097993883,
+          "flow_sse": 54.33094596056453
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 0,
+          "rows": 13061,
+          "speed_sse": 43.412533337013514,
+          "flow_sse": 35.66329508930703
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 0,
+          "rows": 13110,
+          "speed_sse": 42.48597060230418,
+          "flow_sse": 33.408647108641375
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 2,
+          "rows": 32742,
+          "speed_sse": 114.34208098059581,
+          "flow_sse": 100.14368907769573
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 0,
+          "rows": 13131,
+          "speed_sse": 44.09487353240928,
+          "flow_sse": 33.6262943182294
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 2,
+          "rows": 32862,
+          "speed_sse": 116.4211830071456,
+          "flow_sse": 84.55656085891475
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 0,
+          "rows": 12944,
+          "speed_sse": 43.07583645637703,
+          "flow_sse": 31.17704484689827
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 1,
+          "rows": 19580,
+          "speed_sse": 63.97030768863824,
+          "flow_sse": 55.260156660820044
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 1,
+          "rows": 19554,
+          "speed_sse": 66.3373517188669,
+          "flow_sse": 50.101488161445054
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 2,
+          "rows": 32747,
+          "speed_sse": 112.16603339849728,
+          "flow_sse": 94.02047523762987
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 1,
+          "rows": 19557,
+          "speed_sse": 65.74968633502675,
+          "flow_sse": 51.89362251412847
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 1,
+          "rows": 19569,
+          "speed_sse": 65.41897292150469,
+          "flow_sse": 47.91256584774322
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 2,
+          "rows": 32719,
+          "speed_sse": 126.92655175306965,
+          "flow_sse": 64.33950410015483
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 2,
+          "rows": 32629,
+          "speed_sse": 113.0425253370184,
+          "flow_sse": 86.89154144078381
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 1,
+          "rows": 19723,
+          "speed_sse": 96.621353783996,
+          "flow_sse": 67.54466156656882
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 2,
+          "rows": 32863,
+          "speed_sse": 235.14368565438514,
+          "flow_sse": 121.11976629285161
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 2,
+          "rows": 32557,
+          "speed_sse": 112.10341510207286,
+          "flow_sse": 94.12757503005324
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 2,
+          "rows": 32551,
+          "speed_sse": 110.65996943787275,
+          "flow_sse": 92.77717376130978
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 2,
+          "rows": 32915,
+          "speed_sse": 112.71321310268682,
+          "flow_sse": 85.10363306425694
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 2,
+          "rows": 32896,
+          "speed_sse": 111.76739915211458,
+          "flow_sse": 85.69629024324725
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 0,
+          "rows": 13010,
+          "speed_sse": 43.07442434468423,
+          "flow_sse": 35.870916292928825
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 1,
+          "rows": 19674,
+          "speed_sse": 71.31004161335282,
+          "flow_sse": 55.86881116673036
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 1,
+          "rows": 19593,
+          "speed_sse": 65.74740722722906,
+          "flow_sse": 51.14965833800991
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 0,
+          "rows": 13088,
+          "speed_sse": 44.0789676178234,
+          "flow_sse": 37.80156070619624
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 1,
+          "rows": 19641,
+          "speed_sse": 64.7844028060413,
+          "flow_sse": 57.69119869344179
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 2,
+          "rows": 32468,
+          "speed_sse": 112.96021296059276,
+          "flow_sse": 87.66800084415657
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 2,
+          "rows": 32973,
+          "speed_sse": 119.37549459909346,
+          "flow_sse": 89.99060052758276
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 0,
+          "rows": 13099,
+          "speed_sse": 42.73689332415385,
+          "flow_sse": 34.59783849339203
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 2,
+          "rows": 32719,
+          "speed_sse": 115.07271644718948,
+          "flow_sse": 92.35026063081224
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 0,
+          "rows": 13167,
+          "speed_sse": 44.11752737076225,
+          "flow_sse": 35.113804708505064
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 32388,
+          "speed_sse": 112.4810977519919,
+          "flow_sse": 98.23035558521529
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 2,
+          "rows": 32625,
+          "speed_sse": 112.10602166538045,
+          "flow_sse": 96.79467689925639
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 2,
+          "rows": 32872,
+          "speed_sse": 117.5172004873242,
+          "flow_sse": 97.0765761124479
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 0,
+          "rows": 13235,
+          "speed_sse": 48.71488106254378,
+          "flow_sse": 28.86965243294304
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 0,
+          "rows": 13091,
+          "speed_sse": 41.98364427958181,
+          "flow_sse": 36.742166163190305
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 2,
+          "rows": 32790,
+          "speed_sse": 113.301983104398,
+          "flow_sse": 91.97264696084396
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 0,
+          "rows": 13103,
+          "speed_sse": 43.90753978013904,
+          "flow_sse": 37.3337922187436
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 2,
+          "rows": 32601,
+          "speed_sse": 164.9227907051985,
+          "flow_sse": 111.81596490395765
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 0,
+          "rows": 13154,
+          "speed_sse": 43.08981042466064,
+          "flow_sse": 36.11676547486466
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 32573,
+          "speed_sse": 135.8313223162995,
+          "flow_sse": 92.88080698250862
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 2,
+          "rows": 32873,
+          "speed_sse": 111.84825028288478,
+          "flow_sse": 76.11510437155394
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 2,
+          "rows": 32698,
+          "speed_sse": 113.66750448338718,
+          "flow_sse": 88.79230137877809
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 2,
+          "rows": 32616,
+          "speed_sse": 143.81503593497595,
+          "flow_sse": 92.46593397566744
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 2,
+          "rows": 32640,
+          "speed_sse": 122.49221199007786,
+          "flow_sse": 91.37183489883932
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 2,
+          "rows": 32723,
+          "speed_sse": 158.33371960480636,
+          "flow_sse": 89.03130565819423
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 2,
+          "rows": 32713,
+          "speed_sse": 119.58852456112146,
+          "flow_sse": 106.41780237795876
+        }
+      ],
+      "panel": "D7_I210_E",
+      "reference_original_transformer": 0.9440066516882064,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 32,
+        "actual_optimizer_updates": 32768,
+        "best_epoch": 24,
+        "best_inner_S_state": 0.9434955412364109,
+        "seconds": 1216.2771258354187,
+        "exposure": {
+          "augmented_windows": 32726,
+          "static_windows": 32810,
+          "extra_targets": 1703568,
+          "original_targets": 23286934,
+          "retained_targets": 21583366
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": -0.000187434808723963
+    },
+    {
+      "S_state": 0.9267006379968471,
+      "rows": 344738,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 46398,
+          "speed_rmse_kmh": 2.129263889854367,
+          "flow_rmse_per_lane_vph": 32.44903855110556,
+          "S_state": 0.9291303037566314
+        },
+        {
+          "regime": "R2",
+          "rows": 111741,
+          "speed_rmse_kmh": 2.0653701591746327,
+          "flow_rmse_per_lane_vph": 32.41135714498154,
+          "S_state": 0.9305392974173421
+        },
+        {
+          "regime": "R3",
+          "rows": 186599,
+          "speed_rmse_kmh": 2.454784521544414,
+          "flow_rmse_per_lane_vph": 34.623054154008216,
+          "S_state": 0.9204323128165677
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 2,
+          "rows": 8868,
+          "speed_sse": 55.43249614291108,
+          "flow_sse": 24.80413071095241
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 0,
+          "rows": 3517,
+          "speed_sse": 40.77896371601736,
+          "flow_sse": 10.250763374442748
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 2,
+          "rows": 8917,
+          "speed_sse": 134.75153298411192,
+          "flow_sse": 37.83867322602481
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 0,
+          "rows": 3527,
+          "speed_sse": 17.516179242739085,
+          "flow_sse": 11.80059938681012
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 0,
+          "rows": 3665,
+          "speed_sse": 22.624796849694505,
+          "flow_sse": 11.282079202715783
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 2,
+          "rows": 8934,
+          "speed_sse": 94.94864558433397,
+          "flow_sse": 30.48405449324961
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 2,
+          "rows": 8906,
+          "speed_sse": 73.28354806122672,
+          "flow_sse": 25.127018001959826
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 1,
+          "rows": 5288,
+          "speed_sse": 24.433795726504226,
+          "flow_sse": 13.241415114085545
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 1,
+          "rows": 5379,
+          "speed_sse": 25.065573394422145,
+          "flow_sse": 12.3762105060235
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 2,
+          "rows": 8843,
+          "speed_sse": 97.37026746991774,
+          "flow_sse": 32.43741925403886
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 2,
+          "rows": 8839,
+          "speed_sse": 98.13235308556062,
+          "flow_sse": 28.53724040977546
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 2,
+          "rows": 8928,
+          "speed_sse": 81.8152602925813,
+          "flow_sse": 31.104849883188344
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 1,
+          "rows": 5372,
+          "speed_sse": 83.88737965919464,
+          "flow_sse": 22.567913750789103
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 1,
+          "rows": 5259,
+          "speed_sse": 27.437871725382514,
+          "flow_sse": 13.901131914895883
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 1,
+          "rows": 5364,
+          "speed_sse": 47.081900542623856,
+          "flow_sse": 14.47135669437995
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 2,
+          "rows": 8886,
+          "speed_sse": 126.14040287308606,
+          "flow_sse": 29.875249348724278
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 0,
+          "rows": 3615,
+          "speed_sse": 32.28336802805664,
+          "flow_sse": 10.390177953746225
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 1,
+          "rows": 5407,
+          "speed_sse": 31.33739752278555,
+          "flow_sse": 16.387179775556465
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 1,
+          "rows": 5160,
+          "speed_sse": 44.419186263639574,
+          "flow_sse": 16.834186711517532
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 1,
+          "rows": 5333,
+          "speed_sse": 36.74194373037851,
+          "flow_sse": 16.130247844817923
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 1,
+          "rows": 5454,
+          "speed_sse": 36.408762596856214,
+          "flow_sse": 14.840891667318743
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 2,
+          "rows": 8807,
+          "speed_sse": 162.42671424001068,
+          "flow_sse": 42.285544162642715
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 0,
+          "rows": 3516,
+          "speed_sse": 41.831099820825365,
+          "flow_sse": 10.199603097548621
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 2,
+          "rows": 8890,
+          "speed_sse": 56.62068252832737,
+          "flow_sse": 26.809556443123633
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 1,
+          "rows": 5389,
+          "speed_sse": 27.467181394895704,
+          "flow_sse": 14.27375697073701
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 1,
+          "rows": 5372,
+          "speed_sse": 22.016852531547187,
+          "flow_sse": 17.661489350182006
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 2,
+          "rows": 8902,
+          "speed_sse": 67.90402251419265,
+          "flow_sse": 29.00863678263853
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 5294,
+          "speed_sse": 38.786308396740424,
+          "flow_sse": 22.916071687044777
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 1,
+          "rows": 5309,
+          "speed_sse": 37.373946355465186,
+          "flow_sse": 13.625156672273814
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 0,
+          "rows": 3663,
+          "speed_sse": 32.7996758869332,
+          "flow_sse": 10.026623455434096
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 0,
+          "rows": 3465,
+          "speed_sse": 17.002473934995272,
+          "flow_sse": 9.533671019302139
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 0,
+          "rows": 3603,
+          "speed_sse": 23.36438808229479,
+          "flow_sse": 13.006360810425207
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 2,
+          "rows": 8870,
+          "speed_sse": 54.75909710015088,
+          "flow_sse": 26.582653137704334
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 1,
+          "rows": 5198,
+          "speed_sse": 31.05633754664719,
+          "flow_sse": 15.06301695969062
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 2,
+          "rows": 8767,
+          "speed_sse": 69.96574803507845,
+          "flow_sse": 26.02060306043201
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 1,
+          "rows": 5308,
+          "speed_sse": 37.56627210244952,
+          "flow_sse": 13.872124238994216
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 0,
+          "rows": 3582,
+          "speed_sse": 16.610041250876108,
+          "flow_sse": 10.299957349464567
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 0,
+          "rows": 3499,
+          "speed_sse": 12.826500769877192,
+          "flow_sse": 9.41317568358968
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 1,
+          "rows": 5203,
+          "speed_sse": 32.11670630207071,
+          "flow_sse": 15.67733361855437
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 8786,
+          "speed_sse": 109.62734584413852,
+          "flow_sse": 43.89217424393003
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 2,
+          "rows": 8969,
+          "speed_sse": 74.39621160233536,
+          "flow_sse": 24.08310386678536
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 2,
+          "rows": 8908,
+          "speed_sse": 64.97357685768762,
+          "flow_sse": 24.57224421232236
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 1,
+          "rows": 5340,
+          "speed_sse": 41.11111402947441,
+          "flow_sse": 13.947845618615066
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 1,
+          "rows": 5270,
+          "speed_sse": 32.246172881273765,
+          "flow_sse": 13.029836472898634
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 2,
+          "rows": 8869,
+          "speed_sse": 54.08755017523282,
+          "flow_sse": 24.63867865871269
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 2,
+          "rows": 8890,
+          "speed_sse": 90.78303150908482,
+          "flow_sse": 26.984739948297797
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 1,
+          "rows": 5277,
+          "speed_sse": 48.0822333308397,
+          "flow_sse": 16.807143639752624
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 1,
+          "rows": 5323,
+          "speed_sse": 24.926453655899824,
+          "flow_sse": 14.17896065646633
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 0,
+          "rows": 3577,
+          "speed_sse": 36.33827824034903,
+          "flow_sse": 10.073647691590324
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 0,
+          "rows": 3562,
+          "speed_sse": 17.713417463600216,
+          "flow_sse": 9.04605421851369
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 2,
+          "rows": 8953,
+          "speed_sse": 80.99361876117176,
+          "flow_sse": 28.9435839892852
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 2,
+          "rows": 8959,
+          "speed_sse": 49.427311834023826,
+          "flow_sse": 28.01870739236646
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 2,
+          "rows": 8908,
+          "speed_sse": 101.26366257378312,
+          "flow_sse": 29.302939486205382
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 0,
+          "rows": 3607,
+          "speed_sse": 24.88300093288735,
+          "flow_sse": 10.383717017369193
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 1,
+          "rows": 5442,
+          "speed_sse": 33.091979775167616,
+          "flow_sse": 14.261956743923799
+        }
+      ],
+      "panel": "D7_I210_W",
+      "reference_original_transformer": 0.910514504751041,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 39,
+        "actual_optimizer_updates": 39936,
+        "best_epoch": 31,
+        "best_inner_S_state": 0.9276181190266599,
+        "seconds": 1247.6232981681824,
+        "exposure": {
+          "augmented_windows": 39834,
+          "static_windows": 40038,
+          "extra_targets": 2150924,
+          "original_targets": 27040380,
+          "retained_targets": 24889456
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.01618613324580609
+    },
+    {
+      "S_state": 0.9345658035065639,
+      "rows": 1470896,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 231858,
+          "speed_rmse_kmh": 1.5896551833500454,
+          "flow_rmse_per_lane_vph": 38.21385195130223,
+          "S_state": 0.9363661615436407
+        },
+        {
+          "regime": "R2",
+          "rows": 465663,
+          "speed_rmse_kmh": 1.6572149079689507,
+          "flow_rmse_per_lane_vph": 37.51202504017142,
+          "S_state": 0.9354449387904059
+        },
+        {
+          "regime": "R3",
+          "rows": 773375,
+          "speed_rmse_kmh": 1.8229162316856167,
+          "flow_rmse_per_lane_vph": 37.48525983905946,
+          "S_state": 0.9318863101856452
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 2,
+          "rows": 38875,
+          "speed_sse": 262.5071465909898,
+          "flow_sse": 165.905485839341
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 2,
+          "rows": 38953,
+          "speed_sse": 177.3516175340741,
+          "flow_sse": 162.5020459172084
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 2,
+          "rows": 38481,
+          "speed_sse": 170.48721642422146,
+          "flow_sse": 137.13346054353772
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 0,
+          "rows": 15348,
+          "speed_sse": 55.68351781161019,
+          "flow_sse": 61.03547388733425
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 0,
+          "rows": 15429,
+          "speed_sse": 61.207565379967505,
+          "flow_sse": 53.125882732318644
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 2,
+          "rows": 38815,
+          "speed_sse": 434.82188042451173,
+          "flow_sse": 234.36098680159554
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 0,
+          "rows": 15354,
+          "speed_sse": 58.55902533645644,
+          "flow_sse": 63.734074590134206
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 2,
+          "rows": 38540,
+          "speed_sse": 161.79878808683742,
+          "flow_sse": 113.05463015960231
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 0,
+          "rows": 15400,
+          "speed_sse": 57.6833828133808,
+          "flow_sse": 44.63262294060373
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 2,
+          "rows": 38581,
+          "speed_sse": 214.94343429993188,
+          "flow_sse": 163.7874222598433
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 1,
+          "rows": 23235,
+          "speed_sse": 89.19309618347881,
+          "flow_sse": 97.9879811363333
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 2,
+          "rows": 38716,
+          "speed_sse": 161.6583225452066,
+          "flow_sse": 115.09279999176835
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 1,
+          "rows": 23280,
+          "speed_sse": 89.99729935925781,
+          "flow_sse": 88.40647169676778
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 1,
+          "rows": 23293,
+          "speed_sse": 93.34934148120107,
+          "flow_sse": 79.31072646158236
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 1,
+          "rows": 23005,
+          "speed_sse": 102.23119885235158,
+          "flow_sse": 73.36398574651503
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 1,
+          "rows": 23181,
+          "speed_sse": 89.80500202073037,
+          "flow_sse": 84.32848061821228
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 2,
+          "rows": 38447,
+          "speed_sse": 190.300955022858,
+          "flow_sse": 152.48421424081354
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 1,
+          "rows": 23220,
+          "speed_sse": 91.29123883335308,
+          "flow_sse": 64.23216790594981
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 2,
+          "rows": 38497,
+          "speed_sse": 189.33391935381886,
+          "flow_sse": 173.34337063196074
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 1,
+          "rows": 23214,
+          "speed_sse": 91.92987095839963,
+          "flow_sse": 85.59863553317867
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 1,
+          "rows": 23181,
+          "speed_sse": 100.09889060986407,
+          "flow_sse": 66.94762413618155
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 2,
+          "rows": 38753,
+          "speed_sse": 216.14453848318897,
+          "flow_sse": 180.07974264178918
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 0,
+          "rows": 15568,
+          "speed_sse": 59.372873869997555,
+          "flow_sse": 73.81953466234191
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 1,
+          "rows": 23352,
+          "speed_sse": 99.11778327259219,
+          "flow_sse": 103.90523813434625
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 1,
+          "rows": 23204,
+          "speed_sse": 86.06288106089889,
+          "flow_sse": 92.33745858403685
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 0,
+          "rows": 15546,
+          "speed_sse": 73.19474495387331,
+          "flow_sse": 51.41018591628557
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 0,
+          "rows": 15291,
+          "speed_sse": 65.30143439729235,
+          "flow_sse": 67.94169485791406
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 23256,
+          "speed_sse": 97.71638952285817,
+          "flow_sse": 93.53385930034972
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 1,
+          "rows": 23248,
+          "speed_sse": 100.32938870293168,
+          "flow_sse": 74.5739647607689
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 2,
+          "rows": 38591,
+          "speed_sse": 183.67400979714796,
+          "flow_sse": 120.2221286977749
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 2,
+          "rows": 38616,
+          "speed_sse": 216.03886127455297,
+          "flow_sse": 151.1119223346441
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 0,
+          "rows": 15269,
+          "speed_sse": 65.75370438599661,
+          "flow_sse": 74.24747957543369
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 0,
+          "rows": 15493,
+          "speed_sse": 64.36161753070496,
+          "flow_sse": 81.63767174874201
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 0,
+          "rows": 15444,
+          "speed_sse": 57.23524680428294,
+          "flow_sse": 80.04112753493287
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 2,
+          "rows": 38743,
+          "speed_sse": 255.2008488015785,
+          "flow_sse": 185.33143329078803
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 2,
+          "rows": 38740,
+          "speed_sse": 175.91213738450264,
+          "flow_sse": 114.86656171646872
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 1,
+          "rows": 23623,
+          "speed_sse": 97.55499407913918,
+          "flow_sse": 90.86230259166389
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 0,
+          "rows": 15565,
+          "speed_sse": 72.5961909101409,
+          "flow_sse": 60.8984788321244
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 2,
+          "rows": 38923,
+          "speed_sse": 162.63609901703717,
+          "flow_sse": 134.46774389938682
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 0,
+          "rows": 15384,
+          "speed_sse": 64.2974777031885,
+          "flow_sse": 61.01730905142641
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 2,
+          "rows": 38722,
+          "speed_sse": 211.23254541953847,
+          "flow_sse": 182.36522832941444
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 0,
+          "rows": 15657,
+          "speed_sse": 63.21389816137303,
+          "flow_sse": 56.869547120017955
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 2,
+          "rows": 38984,
+          "speed_sse": 172.30535551738794,
+          "flow_sse": 120.78159583490378
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 1,
+          "rows": 23467,
+          "speed_sse": 118.90850049358681,
+          "flow_sse": 115.41994212267251
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 1,
+          "rows": 23212,
+          "speed_sse": 99.24411512171748,
+          "flow_sse": 92.20173781933966
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 2,
+          "rows": 38408,
+          "speed_sse": 225.05954618111136,
+          "flow_sse": 169.0997079777599
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 1,
+          "rows": 23433,
+          "speed_sse": 94.8536077520491,
+          "flow_sse": 97.3032274088152
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 1,
+          "rows": 23327,
+          "speed_sse": 143.37978066297816,
+          "flow_sse": 118.49734198129808
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 38399,
+          "speed_sse": 151.35993883276632,
+          "flow_sse": 105.58803041411961
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 2,
+          "rows": 38591,
+          "speed_sse": 179.14222648178924,
+          "flow_sse": 137.04311732573817
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 0,
+          "rows": 15551,
+          "speed_sse": 58.95287623999475,
+          "flow_sse": 59.03899212043759
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 1,
+          "rows": 23243,
+          "speed_sse": 104.40389008808773,
+          "flow_sse": 101.37930089404284
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 1,
+          "rows": 23382,
+          "speed_sse": 88.8890034593031,
+          "flow_sse": 68.02097082142194
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 1,
+          "rows": 23307,
+          "speed_sse": 167.84983838922426,
+          "flow_sse": 131.95144986516652
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 0,
+          "rows": 15559,
+          "speed_sse": 60.036045527835356,
+          "flow_sse": 51.05516108969343
+        }
+      ],
+      "panel": "D7_I405_N",
+      "reference_original_transformer": 0.9321267545357004,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 60,
+        "actual_optimizer_updates": 61440,
+        "best_epoch": 56,
+        "best_inner_S_state": 0.9342708058092795,
+        "seconds": 2595.401002407074,
+        "exposure": {
+          "augmented_windows": 61657,
+          "static_windows": 61223,
+          "extra_targets": 3270609,
+          "original_targets": 44742860,
+          "retained_targets": 41472251
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.0024390489708635554
+    },
+    {
+      "S_state": 0.9315952978725047,
+      "rows": 436552,
+      "regimes": [
+        {
+          "regime": "R1",
+          "rows": 62141,
+          "speed_rmse_kmh": 1.7013522470896876,
+          "flow_rmse_per_lane_vph": 34.77013597977718,
+          "S_state": 0.9365936872117002
+        },
+        {
+          "regime": "R2",
+          "rows": 194739,
+          "speed_rmse_kmh": 1.912908251846104,
+          "flow_rmse_per_lane_vph": 34.38341030503112,
+          "S_state": 0.9323205671929337
+        },
+        {
+          "regime": "R3",
+          "rows": 179672,
+          "speed_rmse_kmh": 2.144162596849294,
+          "flow_rmse_per_lane_vph": 36.279715689359065,
+          "S_state": 0.9258716392128801
+        }
+      ],
+      "days": [
+        {
+          "date": "2031-01-05",
+          "regime": 1,
+          "rows": 7170,
+          "speed_sse": 28.199310012647608,
+          "flow_sse": 24.829300967895556
+        },
+        {
+          "date": "2031-01-06",
+          "regime": 2,
+          "rows": 11907,
+          "speed_sse": 62.075506761105345,
+          "flow_sse": 36.379324051393624
+        },
+        {
+          "date": "2031-01-07",
+          "regime": 0,
+          "rows": 4851,
+          "speed_sse": 24.33887111607084,
+          "flow_sse": 18.655869819752162
+        },
+        {
+          "date": "2031-01-08",
+          "regime": 1,
+          "rows": 7299,
+          "speed_sse": 71.13626084618716,
+          "flow_sse": 27.542508945886638
+        },
+        {
+          "date": "2031-01-09",
+          "regime": 2,
+          "rows": 11800,
+          "speed_sse": 102.98331119296685,
+          "flow_sse": 44.47232121155098
+        },
+        {
+          "date": "2031-01-10",
+          "regime": 0,
+          "rows": 4845,
+          "speed_sse": 28.953770072495168,
+          "flow_sse": 17.09155276727495
+        },
+        {
+          "date": "2031-01-11",
+          "regime": 1,
+          "rows": 7192,
+          "speed_sse": 71.3822828575617,
+          "flow_sse": 21.270012631835776
+        },
+        {
+          "date": "2031-01-12",
+          "regime": 0,
+          "rows": 4738,
+          "speed_sse": 17.583483604116424,
+          "flow_sse": 10.763453171593804
+        },
+        {
+          "date": "2031-01-13",
+          "regime": 2,
+          "rows": 11869,
+          "speed_sse": 48.17400623525161,
+          "flow_sse": 32.261302509549395
+        },
+        {
+          "date": "2031-01-14",
+          "regime": 1,
+          "rows": 7279,
+          "speed_sse": 48.29891329871394,
+          "flow_sse": 21.830001831543896
+        },
+        {
+          "date": "2031-01-15",
+          "regime": 1,
+          "rows": 7330,
+          "speed_sse": 32.43648744139094,
+          "flow_sse": 29.17624086926552
+        },
+        {
+          "date": "2031-01-16",
+          "regime": 0,
+          "rows": 4783,
+          "speed_sse": 24.41245245967935,
+          "flow_sse": 14.566675289798335
+        },
+        {
+          "date": "2031-01-17",
+          "regime": 2,
+          "rows": 11986,
+          "speed_sse": 94.90412769416251,
+          "flow_sse": 49.72132805643989
+        },
+        {
+          "date": "2031-01-18",
+          "regime": 0,
+          "rows": 4754,
+          "speed_sse": 17.551620847705955,
+          "flow_sse": 14.495408472835123
+        },
+        {
+          "date": "2031-01-19",
+          "regime": 1,
+          "rows": 7237,
+          "speed_sse": 27.527025959312933,
+          "flow_sse": 19.980008725503158
+        },
+        {
+          "date": "2031-01-20",
+          "regime": 2,
+          "rows": 11991,
+          "speed_sse": 144.90713253806962,
+          "flow_sse": 47.23205327661887
+        },
+        {
+          "date": "2031-01-21",
+          "regime": 1,
+          "rows": 7225,
+          "speed_sse": 34.90264352697898,
+          "flow_sse": 25.08716769853288
+        },
+        {
+          "date": "2031-01-22",
+          "regime": 0,
+          "rows": 4738,
+          "speed_sse": 25.61755373767165,
+          "flow_sse": 21.18351802587425
+        },
+        {
+          "date": "2031-01-23",
+          "regime": 0,
+          "rows": 4705,
+          "speed_sse": 22.99278371091642,
+          "flow_sse": 16.291990301092397
+        },
+        {
+          "date": "2031-01-24",
+          "regime": 1,
+          "rows": 7206,
+          "speed_sse": 53.918526050510465,
+          "flow_sse": 27.870186129735632
+        },
+        {
+          "date": "2031-01-25",
+          "regime": 0,
+          "rows": 4771,
+          "speed_sse": 20.61119189511585,
+          "flow_sse": 16.621697765927724
+        },
+        {
+          "date": "2031-01-26",
+          "regime": 0,
+          "rows": 4799,
+          "speed_sse": 19.274018783910442,
+          "flow_sse": 13.435978855135971
+        },
+        {
+          "date": "2031-01-27",
+          "regime": 1,
+          "rows": 7155,
+          "speed_sse": 29.872549093411926,
+          "flow_sse": 19.08686954995992
+        },
+        {
+          "date": "2031-01-28",
+          "regime": 2,
+          "rows": 11895,
+          "speed_sse": 62.286429947919416,
+          "flow_sse": 35.78660878652353
+        },
+        {
+          "date": "2031-01-29",
+          "regime": 1,
+          "rows": 7212,
+          "speed_sse": 93.75892380824023,
+          "flow_sse": 32.68619230576936
+        },
+        {
+          "date": "2031-01-30",
+          "regime": 1,
+          "rows": 7233,
+          "speed_sse": 46.150836811952836,
+          "flow_sse": 24.394248159307033
+        },
+        {
+          "date": "2031-01-31",
+          "regime": 1,
+          "rows": 7091,
+          "speed_sse": 27.70084733176308,
+          "flow_sse": 22.206731267981432
+        },
+        {
+          "date": "2031-02-01",
+          "regime": 1,
+          "rows": 7266,
+          "speed_sse": 26.377946902280073,
+          "flow_sse": 17.163961968932874
+        },
+        {
+          "date": "2031-02-02",
+          "regime": 1,
+          "rows": 7204,
+          "speed_sse": 29.331266133810573,
+          "flow_sse": 21.383653683320173
+        },
+        {
+          "date": "2031-02-03",
+          "regime": 2,
+          "rows": 12013,
+          "speed_sse": 94.27450468109919,
+          "flow_sse": 36.81328682908636
+        },
+        {
+          "date": "2031-02-04",
+          "regime": 1,
+          "rows": 7254,
+          "speed_sse": 46.24058851530007,
+          "flow_sse": 23.426558029138896
+        },
+        {
+          "date": "2031-02-05",
+          "regime": 2,
+          "rows": 12126,
+          "speed_sse": 97.45956878274174,
+          "flow_sse": 52.6311987560167
+        },
+        {
+          "date": "2031-02-06",
+          "regime": 2,
+          "rows": 11995,
+          "speed_sse": 145.03819866367996,
+          "flow_sse": 61.454803337001245
+        },
+        {
+          "date": "2031-02-07",
+          "regime": 0,
+          "rows": 4766,
+          "speed_sse": 21.21207184445215,
+          "flow_sse": 15.645939316293683
+        },
+        {
+          "date": "2031-02-08",
+          "regime": 1,
+          "rows": 7158,
+          "speed_sse": 26.890887521249027,
+          "flow_sse": 26.032585249765063
+        },
+        {
+          "date": "2031-02-09",
+          "regime": 1,
+          "rows": 7208,
+          "speed_sse": 43.35318185926649,
+          "flow_sse": 23.266088609759684
+        },
+        {
+          "date": "2031-02-10",
+          "regime": 1,
+          "rows": 7198,
+          "speed_sse": 27.30378888227638,
+          "flow_sse": 22.281005253260176
+        },
+        {
+          "date": "2031-02-11",
+          "regime": 2,
+          "rows": 12004,
+          "speed_sse": 81.84639829427248,
+          "flow_sse": 37.353743382358815
+        },
+        {
+          "date": "2031-02-12",
+          "regime": 0,
+          "rows": 4913,
+          "speed_sse": 26.040922542471094,
+          "flow_sse": 20.97476011856661
+        },
+        {
+          "date": "2031-02-13",
+          "regime": 2,
+          "rows": 12107,
+          "speed_sse": 106.6287077897821,
+          "flow_sse": 50.52115985605009
+        },
+        {
+          "date": "2031-02-14",
+          "regime": 1,
+          "rows": 7334,
+          "speed_sse": 34.679357254639456,
+          "flow_sse": 25.879666319547102
+        },
+        {
+          "date": "2031-02-15",
+          "regime": 1,
+          "rows": 7061,
+          "speed_sse": 27.48427631848722,
+          "flow_sse": 16.405988248951786
+        },
+        {
+          "date": "2031-02-16",
+          "regime": 2,
+          "rows": 12060,
+          "speed_sse": 65.52317416058068,
+          "flow_sse": 43.58433800399034
+        },
+        {
+          "date": "2031-02-17",
+          "regime": 0,
+          "rows": 4818,
+          "speed_sse": 22.385738786655544,
+          "flow_sse": 15.096289289291622
+        },
+        {
+          "date": "2031-02-18",
+          "regime": 1,
+          "rows": 7120,
+          "speed_sse": 55.791423385947084,
+          "flow_sse": 24.708190045749888
+        },
+        {
+          "date": "2031-02-19",
+          "regime": 1,
+          "rows": 7313,
+          "speed_sse": 26.54879375089064,
+          "flow_sse": 18.55924351248215
+        },
+        {
+          "date": "2031-02-20",
+          "regime": 1,
+          "rows": 7210,
+          "speed_sse": 26.928466537345,
+          "flow_sse": 18.124527123784862
+        },
+        {
+          "date": "2031-02-21",
+          "regime": 2,
+          "rows": 12097,
+          "speed_sse": 103.94620162521458,
+          "flow_sse": 55.71995466070335
+        },
+        {
+          "date": "2031-02-22",
+          "regime": 2,
+          "rows": 11920,
+          "speed_sse": 65.8616391121466,
+          "flow_sse": 43.90193892049746
+        },
+        {
+          "date": "2031-02-23",
+          "regime": 0,
+          "rows": 4660,
+          "speed_sse": 16.822809531643923,
+          "flow_sse": 13.860560605006285
+        },
+        {
+          "date": "2031-02-24",
+          "regime": 1,
+          "rows": 7181,
+          "speed_sse": 27.94919689078018,
+          "flow_sse": 25.332895699302753
+        },
+        {
+          "date": "2031-02-25",
+          "regime": 1,
+          "rows": 7134,
+          "speed_sse": 72.4285925606959,
+          "flow_sse": 30.733634011312198
+        },
+        {
+          "date": "2031-02-26",
+          "regime": 2,
+          "rows": 11902,
+          "speed_sse": 45.73913317327106,
+          "flow_sse": 29.076302977237383
+        },
+        {
+          "date": "2031-02-27",
+          "regime": 1,
+          "rows": 7235,
+          "speed_sse": 73.98151628734051,
+          "flow_sse": 27.24723644978934
+        },
+        {
+          "date": "2031-02-28",
+          "regime": 1,
+          "rows": 7234,
+          "speed_sse": 29.574030486625787,
+          "flow_sse": 23.006761116703302
+        }
+      ],
+      "panel": "D7_I405_S",
+      "reference_original_transformer": 0.9131052072051772,
+      "fit": {
+        "parameters": 225958,
+        "epochs": 60,
+        "actual_optimizer_updates": 61440,
+        "best_epoch": 57,
+        "best_inner_S_state": 0.9337389867507891,
+        "seconds": 1825.0280768871307,
+        "exposure": {
+          "augmented_windows": 61331,
+          "static_windows": 61549,
+          "extra_targets": 3263022,
+          "original_targets": 42743356,
+          "retained_targets": 39480334
+        },
+        "initialization": "new random372input T1; no old checkpoint",
+        "config": {
+          "window": 24,
+          "patch_nodes": 64,
+          "width": 64,
+          "heads": 4,
+          "layers": 3,
+          "dropout": 0.1,
+          "batch_size": 2,
+          "seed": 2026,
+          "threads": 4,
+          "epochs": 60,
+          "steps_per_epoch": 1024,
+          "patience": 8,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.01,
+          "clip": 1.0,
+          "eval_batch": 4,
+          "input_numeric": 186,
+          "input_columns": 372,
+          "augmented_view_probability": 0.5,
+          "checkpoint_every_epochs": 5,
+          "training_dtype": "float32",
+          "feature_transform": "signedlog/5 float16 cache then training-only zscore clipped8",
+          "mask_library": "one deterministic daily mask, randomly sampled alongside static view; not original per-step dynamic recomputation"
+        }
+      },
+      "protocol": "28history/168train/22selection/55holdout; holdoutpreviouslyviewed; newmethodnotreplication",
+      "gain_vs_original": 0.01849009066732754
+    }
+  ]
+}
