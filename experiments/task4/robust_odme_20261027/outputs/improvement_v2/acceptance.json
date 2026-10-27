@@ -1,0 +1,20 @@
+[
+  {
+    "candidate": "task4_kl_005.csv",
+    "rows": 70708,
+    "template_matches": true,
+    "finite_nonnegative": true
+  },
+  {
+    "candidate": "task4_official_005.csv",
+    "rows": 70708,
+    "template_matches": true,
+    "finite_nonnegative": true
+  },
+  {
+    "candidate": "task4_scaled_ridge.csv",
+    "rows": 70708,
+    "template_matches": true,
+    "finite_nonnegative": true
+  }
+]

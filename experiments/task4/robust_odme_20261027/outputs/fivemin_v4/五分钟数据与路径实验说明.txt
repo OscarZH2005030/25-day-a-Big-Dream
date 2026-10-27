@@ -1,0 +1,57 @@
+﻿Task4 第四轮：无需登录的五分钟实测数据及路径三项代理实验
+
+结论：已实际下载并核验五分钟数据。使用真实PM波动校准人工路径误差后，KL候选在三个路径分项的宏平均均超过官方L2基准。此结果是合成已知路径实验，不是比赛隐藏路径成绩；原预测保留。
+
+一、找到并下载的真实五分钟来源
+1. ASU Trans+AI Lab cbi_plus，benchmarks/I-10 和 benchmarks/I-405，README注明Caltrans PeMS实测流量。已锁定Git提交68be4363108c64499327b5cf5152410901aec393。公开raw链接下载不需账号/Cookie。
+来源：https://github.com/asu-trans-ai-lab/cbi_plus/tree/master/benchmarks
+四方向覆盖：D7_I10_E=16站、D7_I10_W=16站、D7_I405_N=9站、D7_I405_S=20站；合计61站×31天×288点=544608条记录。t0=2018-03-01 00:00，dt=5min，n=8928，结束2018-03-31 23:55。每条流量有限非负。
+流量单位按上游明确契约为vph/lane，无需乘12；本轮只使用同一传感器的PM相对波动，不用不可靠车道数放大。PM窗口为本地15:00–19:00。
+限制：上游紧凑文件没有pct_observed，无法恢复>=75%观测资格；不是原始官方Clearinghouse全字段。timezone=local_naive，跨夏令时仍按上游每昼夜288格解释，不与比赛UTC日历逐行对齐。README与dataset_meta的速度单位说明冲突，速度未用于本轮数值校准。
+2. 原作者STGCN_IJCAI-18发布的PeMSD7_L五分钟速度，锁定Git提交4ab75ab69af354d6a0ab86aefa082d389b187127。
+来源：https://github.com/VeritasYin/STGCN_IJCAI-18/tree/master/dataset
+实际矩阵12672×1026，对应44个工作日块；2012年5–6月，五分钟，经过清洗及插值。文件本身无逐行时间戳，仅提供顺序块，不自行当作连续44个日历日。
+目标道路站点：D7 I10 E/W=69/58，I210 E/W=41/43，I405 N/S=76/89；另有D7 I5 N/S=52/63。全部有站点ID、经纬度、道路号、方向。I5在D7，不冒充比赛D12_I5。该集只有速度，不把速度用FD反演后伪称实测流量。
+3. D12 I5和I405：本轮仍未找到已验证能匿名直下的同区域五分钟流量。找到相关研究和EvoXXLTraffic D12线索，但处理数据在网盘，未核验取得文件，不列为已获取。
+
+二、排除的候选来源
+USDOT AMS Pasadena Main Data（a79b-e3wn）：可匿名查询、含路段号及流量，但抽查station717135的12条连续记录时间间隔为60分钟。虽列名含5-minute，也不能把它称为五分钟观测；未拿小时数据插值冒充。
+来源：https://data.transportation.gov/resource/a79b-e3wn.json
+SMU Clowder Los Angeles Dataset01：页面和目录公开，但直接下载CSV返回401；而页面对日/分钟粒度描述不一致，未使用。
+Seattle Loop I5/I405是华盛顿州道路，不作为加州同道路数据。PEMS07常用883节点包的具体道路元数据未核验，不把区域覆盖自动当逐道路覆盖。
+
+三、方法与选参，重点为另外三项
+用真实五分钟流量计算每站每日PM均值，用3月1–15日均值作为站内归一化参考，提取每日/跨站相对需求波动。
+以这些波动强度构造人工已知路径f*：目的地共同乘性扰动、起终点共同乘性扰动、加性截断扰动三种。站点只提供统计分布，不与比赛Z编号作未经证实的地理对应。真实路段波动不等于真实路径误差，这是实验假设。
+候选为官方非负L2正则与KL熵正则的混合，KL权重0/0.25/0.5/0.75/1。
+选参只最大化(.45*S_od+.15*S_dev+.15*S_attr)/.75，明确不包含S_link。使用人工f*按官方公式计算三项。
+校准使用前半月5天（3月1、4、7、10、13）；评估使用后半月6天（16、19、22、25、28、31），每阶段四方向×三情景。所有日期PM值此前做过数据审计，没有声称完全未查看的真实盲测；选参后未按后半月分数改权重。
+总计132个人工路径场景、5个权重660条结果，原始细项在path_component_trials.csv。只用四个确有同方向实测流量来源的D7方向建候选，其余六方向保留原基准。
+
+四、后半月数据驱动的合成评估（不是比赛成绩）
+指标 | 官方L2基准 | KL候选
+S_od | 0.94008058 | 0.95752359
+S_dev | 0.73746575 | 0.76261463
+S_attr | 0.99000621 | 0.99207565
+path_components | 0.90954274 | 0.92545221
+synthetic_S_ODME | 0.93215643 | 0.94408900
+
+情景差异不能忽略：
+additive_clipped: S_od 0.949402->0.946372, S_dev 0.547686->0.658221, S_attr 0.996849->0.997133
+destination_shock: S_od 0.928471->0.958802, S_dev 0.850613->0.824109, S_attr 0.984775->0.988136
+origin_destination_shock: S_od 0.942369->0.967396, S_dev 0.814099->0.805515, S_attr 0.988395->0.990958
+
+三项仅在宏平均同时改善；目的地/起终点乘性情景下S_dev仍下降，加性情景下S_od稍降，因此没有普遍占优。
+另一个冲突证据：此前真实train计数留出对KL不利（第二轮新划分基准0.040255、KL约0.049858）。本轮按用户要求切换到路径三项代理目标，但这并不会消除两种验证目标冲突。候选只能保留为待验证版本。
+
+五、当前比赛成绩与文件验收
+真实比赛S_od/S_dev/S_attr/S_ODME依旧未知，主办方路径标签未公开。0.944089是本轮人工路径实验平均，不是我们真实Task4分数。
+原基准官方本地S_link仍为validation=0.9999394100、private发布计数=0.9999232335。第三轮混合候选已保留。本轮task4_path_objective_candidate.csv作为独立候选保存，未覆盖、提交或发布。
+本轮预测共70708行，五列自然键/区域/period与已验收官方模板基准逐行一致，流量均有限非负。CPU4线程，无GPU，CPU温度null。
+
+六、来源与许可
+下载源、版本、SHA256均在sources.json。verified_five_minute_sources.zip包含原始紧凑流量JSON、站点表、上游README/metadata、PeMSD7压缩数据和许可证。
+CBI代码为MIT，数据按上游声明为Caltrans public agency data；STGCN仓库为BSD-2-Clause。保持原版权和许可证，不把软件许可证等同于免除全部上游数据条件。Caltrans条款：https://dot.ca.gov/conditions-of-use
+
+重现命令：powershell.exe -NoProfile -ExecutionPolicy Bypass -File "<original-local-workspace>"
+下载与审计均保存本聊天work/fivemin_v4，结果只写本目录；需保留父目录run_task4.py、official_reference及improvement_v2/run_v2.py。没有升级共享环境或干扰Task2。

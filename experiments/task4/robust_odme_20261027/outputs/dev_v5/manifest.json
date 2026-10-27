@@ -1,0 +1,11 @@
+{
+  "seconds": 38.58873891830444,
+  "candidate": "kl_amp125",
+  "rows": 70708,
+  "all_template_keys_match": true,
+  "finite_nonnegative": true,
+  "CPU_threads": 4,
+  "GPU_used": false,
+  "CPU_temperature": null,
+  "baseline_preserved": true
+}

@@ -1,0 +1,12 @@
+{
+  "seconds": 71.96430706977844,
+  "alpha": 1.25,
+  "rows": 70708,
+  "keys_match": true,
+  "finite_nonnegative": true,
+  "duplicates": 0,
+  "GPU_used": false,
+  "CPU_threads": 4,
+  "CPU_temperature": null,
+  "baseline_preserved": true
+}

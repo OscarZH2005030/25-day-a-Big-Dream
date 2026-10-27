@@ -1,0 +1,362 @@
+[
+  {
+    "panel": "D12_I405_N",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 3.0,
+    "network_lanes_max": 8.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 81,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 52367.18795472132
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 81,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 48653.59619885256
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 81,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 49377.75764546849
+      }
+    }
+  },
+  {
+    "panel": "D12_I405_S",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 4.0,
+    "network_lanes_max": 8.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 35,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 38644.355038704845
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 35,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 34059.546650381686
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 35,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 39724.624904770135
+      }
+    }
+  },
+  {
+    "panel": "D12_I5_N",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 3.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 257,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 121034.56267126474
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 257,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 128040.87952691977
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 257,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 128123.396125681
+      }
+    }
+  },
+  {
+    "panel": "D12_I5_S",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 3.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 100,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 136922.66559226828
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 100,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 138781.5421924642
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 100,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 143265.96565757907
+      }
+    }
+  },
+  {
+    "panel": "D7_I10_E",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 1.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 137,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 106730.53681815029
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 137,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 113635.5057520537
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 137,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 117842.8697755814
+      }
+    }
+  },
+  {
+    "panel": "D7_I10_W",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 3.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 100,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 129173.9707212582
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 100,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 127497.10694164442
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 100,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 121307.92767924172
+      }
+    }
+  },
+  {
+    "panel": "D7_I210_E",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 1.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 294,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 62719.00610232909
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 294,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 59709.75179762205
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 294,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 61522.31333119083
+      }
+    }
+  },
+  {
+    "panel": "D7_I210_W",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 2.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 81,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 82189.98591290452
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 81,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 82651.77629276815
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 81,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 85205.43372352741
+      }
+    }
+  },
+  {
+    "panel": "D7_I405_N",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 3.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 350,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 84452.85381810743
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 350,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 83071.25587004429
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 350,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 84167.21945929057
+      }
+    }
+  },
+  {
+    "panel": "D7_I405_S",
+    "incidence_duplicate_rows": 0,
+    "path_ids_unique": true,
+    "network_lanes_min": 3.0,
+    "network_lanes_max": 6.0,
+    "splits": {
+      "train": {
+        "period": [
+          "SYN_PM_TRAIN"
+        ],
+        "counts": 96,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 96321.61532826099
+      },
+      "validation": {
+        "period": [
+          "SYN_PM_VALIDATION"
+        ],
+        "counts": 96,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 90040.62816463839
+      },
+      "private": {
+        "period": [
+          "SYN_PM_PRIVATE"
+        ],
+        "counts": 96,
+        "missing_count_values": 0,
+        "counts_outside_incidence": 0,
+        "prior_sum": 93697.03655595751
+      }
+    }
+  }
+]

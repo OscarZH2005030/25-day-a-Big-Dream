@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "compile_all_sources": "passed",
+  "required_input_hashes_checked": 123,
+  "full_prediction_files_checked": 9,
+  "rows_per_prediction": 70708,
+  "relocated_baseline": "passed",
+  "relocated_latest_inference": "passed",
+  "anonymous_external_download_and_extraction": "passed after adding directory creation and original hash checks",
+  "latest_max_abs_flow_difference": 0.0,
+  "windows_powershell_5_1_entry": "passed",
+  "all_historical_stages_portable_full_rerun": false,
+  "historical_experiments": "executed in original workspace; portable full historical replay not repeated",
+  "path_truth_available": false
+}

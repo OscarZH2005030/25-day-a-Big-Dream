@@ -1,0 +1,32 @@
+[
+  {
+    "file": "d7_ramps_2024.xlsx",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/traffic-operations/documents/census/2024/2024-d7-ramp-adt-a11y.xlsx",
+    "bytes": 575874,
+    "sha256": "9815fe2f85c6918000a98be166500bda2f81968207f313ae2d6439ac6b04355a"
+  },
+  {
+    "file": "d12_ramps_2024.xlsx",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/traffic-operations/documents/census/2024/2024-d12-ramp-adt-a11y.xlsx",
+    "bytes": 379482,
+    "sha256": "67cd33d545a6b7071c97a2a1916b28a41f2e5149cfbf9a8c6b728da1f8399702"
+  },
+  {
+    "file": "peak_hours_2024.xlsx",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/traffic-operations/documents/census/2024/2024-ca-peak-hours-a11y.xlsx",
+    "bytes": 273416,
+    "sha256": "f655af6d4451fe9b65cfa890b4e7aefa51fc72ef593c63fe3d50327acfbec657"
+  },
+  {
+    "file": "aadt_metadata.json",
+    "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Traffic_AADT/FeatureServer/0?f=pjson",
+    "bytes": 9692,
+    "sha256": "bf79ddd0b64f8e720be0a109a2db27f3456f622f950503026f100f16932c0d18"
+  },
+  {
+    "file": "aadt_selected_2024.json",
+    "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Traffic_AADT/FeatureServer/0/query?where=DISTRICT+IN+%28%2707%27%2C%2712%27%2C%277%27%29+AND+RTE+IN+%28%275%27%2C%27005%27%2C%2710%27%2C%27010%27%2C%27210%27%2C%27405%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json&resultRecordCount=2000",
+    "bytes": 246164,
+    "sha256": "35aa3fd1e67bd35675b18e596569b002697d6c947cec42b7df7debdb61f11750"
+  }
+]

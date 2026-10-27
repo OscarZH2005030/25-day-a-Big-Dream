@@ -1,0 +1,9 @@
+{
+  "candidate": "scaled_kl",
+  "criterion": "calibration synthetic SODME with Sdev>=old_amp125",
+  "truth": "artificial only",
+  "final_rows": 70708,
+  "keys_match": true,
+  "finite_nonnegative": true,
+  "baseline_preserved": true
+}

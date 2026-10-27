@@ -1,0 +1,14 @@
+{
+  "chosen": "official_005",
+  "best_external": "external_attr10_recent",
+  "criterion": "train grouped heldout counts, not hidden path truth",
+  "scores": {
+    "official_005": 0.037438159157201,
+    "external_attr10_recent": 0.037606489794361535,
+    "external_attr10": 0.03901113597789618,
+    "external_attr25": 0.04164998681878884,
+    "external_variance": 0.07907515982954359,
+    "external_both10": 0.07956874484155677,
+    "external_both25": 0.08039273764990316
+  }
+}

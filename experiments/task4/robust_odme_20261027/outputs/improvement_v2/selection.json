@@ -1,0 +1,14 @@
+{
+  "seed": 20261027,
+  "criterion": "train grouped count holdout NMAE; not path truth",
+  "chosen": "official_005",
+  "scores": {
+    "official_005": 0.04025547514329643,
+    "scaled_ridge": 0.0422073569443421,
+    "blend_kl_50": 0.043970516067672216,
+    "kl_0005": 0.04985138195693247,
+    "kl_005": 0.04985787882900396,
+    "kl_05": 0.049922671023550844
+  },
+  "synthetic_does_not_select": true
+}

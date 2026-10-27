@@ -1,0 +1,9 @@
+source,district,route,direction,stations,rows_per_station,weekday_blocks,channel,cadence_minutes,timestamps,zero_fraction,median_raw
+STGCN_PeMSD7_L,7,5,N,52,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,62.5
+STGCN_PeMSD7_L,7,5,S,63,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,63.0
+STGCN_PeMSD7_L,7,10,E,69,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,63.6
+STGCN_PeMSD7_L,7,10,W,58,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,64.7
+STGCN_PeMSD7_L,7,210,E,41,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,64.3
+STGCN_PeMSD7_L,7,210,W,43,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,64.0
+STGCN_PeMSD7_L,7,405,N,76,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,65.0
+STGCN_PeMSD7_L,7,405,S,89,12672,44,speed_only,5,weekday blocks in May-Jun 2012; explicit per-row timestamps absent,0.0,64.7

@@ -1,0 +1,72 @@
+﻿Task4 外部真实数据实验（第三轮）
+
+已执行：下载Caltrans官方真实道路资料、提取数据、校准6种外部先验候选，与官方基准比较。没有只停留在解释。
+一、外部资料
+官方入口：https://dot.ca.gov/programs/traffic-operations/census
+下载D7、D12的2024版Ramp ADT表（内含2015–2024观测列）及2024版Peak Hour表，并通过Caltrans GIS AADT服务获取656条带经纬度的记录。资料不是5分钟PeMS时序。
+目标五个道路家族共有1193条匝道位置记录：D7 I10=364，I210=193，I405=271；D12 I5=255，I405=110。位置记录不等于2024年均有观测。
+2024表中缺失年份保留为空；最新记录可能来自2015–2024。D12 I5方向没有2024观测，最新至2022；D12 I405部分最新至2023。freshness候选优先2022及以后，若不足10个OFF匝道，则使用该方向最新年及前一年，规则已记录在代码。
+Peak Hour字段包含观测年份YR，未把版次当作所有行的实际观测年。本轮峰小时与AADT只用于审计覆盖和单位，不直接作为隐藏目标或路径标签。
+五家族的方向和区号匹配用于统计分布；没有逐站映射。比赛网络synthetic_network_manifest.json明确detector/ramp IDs及ramp attachment已替换，网络links无经纬度/里程字段，因此不能凭名称猜测地理配对。
+PeMS主页https://pems.dot.ca.gov/说明历史明细需账号，本轮没有取得登录后的5分钟数据，也未注册账号或发邮件。
+
+二、数据许可与竞赛规则
+Caltrans使用条款：https://dot.ca.gov/conditions-of-use。网站一般信息视为public domain，例外材料仍须尊重原版权；GIS元数据标注Copyright State of California/Caltrans，不把它擅自改标为CC许可。sources.json记录原始下载地址、大小、SHA256。
+比赛规则允许公开且低成本可取得的外部数据，但须披露。这里仅使用汇总统计校准模型，没有查找或读取主办方保管标签。规则来源：https://www.kaggle.com/competitions/2026-ieee-big-data-traffic-flow-bench/rules
+
+三、实验定义
+候选A：按真实同道路同方向OFF匝道流量分布，校准目的地吸引力先验的分布形状。保留比赛先验的目的地排序，将真实分布分位数归一化到同一总量，以10%或25%权重混合，再做非负计数求解。排序对应是模型假设，不是地理对应。
+候选B：用真实匝道连续年份的绝对变化与平均流量，分箱估计异方差指数，改变路径先验惩罚权重。两方向连续年样本很少时用预设指数1，这些不是可靠估计。真实跨年波动与比赛弱先验误差并不等价，因此作为可否证候选测试。
+候选C：上述两个方法组合。候选D：10%吸引力混合改用较新记录，以检验陈旧记录影响。共6个外部候选，加官方基准。
+选参：仅train，种子20261029，相同A行分组的三折计数留出；每方向等权。复核：另一种子20261030，在相同train上重新划分。所有已有train记录已查看，两套划分不是独立路径真值盲测。
+validation/private仅在候选选定后求解和检查发布计数拟合，未参与超参选择。CPU4线程，无GPU；CPU温度null。
+
+四、结果（留出计数NMAE越低越好）
+official_005: 0.037438159
+external_attr10_recent: 0.037606490
+external_attr10: 0.039011136
+external_attr25: 0.041649987
+external_variance: 0.079075160
+external_both10: 0.079568745
+external_both25: 0.080392738
+
+另一划分复核：
+external_attr10_recent: 0.035174289
+official_005: 0.035181367
+
+较新资料明显优于混合旧年份的外部候选，但仍未在选参划分超过基准；另一划分仅有极小反向差异，不足以证明优势。原主预测和基准保留。
+fit_overall.csv提供真实发布计数拟合、先验偏离、相对先验目的地TV。后两者不是官方S_dev/S_attr，靠近先验也不等于更接近真值。
+另用真实匝道跨年比率校准人工目的地扰动，运行3种种子作敏感性试验。real_calibrated_synthetic_overall.csv里的S_od/S_dev/S_attr均基于人工f，不是比赛真值，且这些试验未用于选参。该假设下外部候选综合约0.86333，基准约0.87860，仍未胜出。不能将这两个数当真实Task4分数。
+
+五、当前可确认成绩与交付
+当前冻结基准的官方本地S_link：validation=0.9999394100；private发布计数=0.9999232335。完整S_ODME和另外三项仍未知。
+best_external为external_attr10_recent，保留候选供复现，未自动替换主预测或提交Kaggle。所有task4_*.csv均按十方向两split共70708条模板键验收。
+原始真实资料：real_sources.zip；五家族清洗数据：five_family_real_ramps.csv；完整来源：sources.json；逐方向对比：paired_direction_comparison.csv；预测拟合：fit_by_panel.csv。
+重现命令：powershell.exe -NoProfile -ExecutionPolicy Bypass -File "<original-local-workspace>"
+需保留父目录run_task4.py及official_reference和improvement_v2/run_v2.py。本机下载提取用bundled Python，数值实验使用已有model-env，没有升级共享依赖。
+
+判断：这次真实数据没有证明能提高另外三项。限制来自缺少地理映射和路径监督，而不在计数残差。真实历史资料可用于方法校准，但不能当合成2031年路径标签。
+
+六、按方向混合的后续探索
+仅对D12_I405_N、D12_I405_S、D7_I210_W启用较新实测分布的10%吸引力先验，其他七方向保留官方基准。候选以seed20261029方向误差决定，策略在查看过前述审计后提出，具有探索性。
+随后冻结策略，以两个新的随机划分复核（仍复用已查看train计数，不是独立路径标签评估）：
+{
+  "20261031": {
+    "baseline": 0.0355550208495272,
+    "hybrid": 0.0348340986636097,
+    "relative_improvement": 0.020276241405356443
+  },
+  "20261101": {
+    "baseline": 0.0378742133015772,
+    "hybrid": 0.0369334250713484,
+    "relative_improvement": 0.02483980915293682
+  }
+}
+官方评分器对混合候选的发布计数评分：{"validation": 0.9999418988394326, "private": 0.9999278292106216}
+混合预测task4_direction_hybrid.csv已通过70708条模板键检查。原主预测仍未覆盖，用户可在后续明确授权时决定整合。
+合成敏感性结果（只用于检查假设，不代表比赛分数）：
+                      S_od     S_dev    S_attr  synthetic_S_ODME
+candidate
+direction_hybrid  0.801762  0.726134  0.960830          0.863831
+official_005      0.810941  0.794686  0.963186          0.878598
+混合候选在计数留出有约2%–2.5%的改善，但在本轮真实比率校准的合成路径情景上没有证明完整分数提升。不能据此声称另外三项已改善。

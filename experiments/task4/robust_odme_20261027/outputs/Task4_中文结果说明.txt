@@ -1,0 +1,53 @@
+﻿TrafficFlowBench Task 4：公开数据审计、候选比较与推理交付
+
+结论：本轮没有证据证明候选优于官方基准，最终保留非负正则化 λ=0.05。公开数据没有路径流量真值，不能报告完整 S_ODME 或宣称提升名次。
+官方来源：https://github.com/jacky850/trafficflowbench-public；快照提交 f9e3fbc35c066419726987e470448f33d4c72fd9。官方 MIT 代码与许可证随 official_reference 保留。比赛 Kaggle 页面可访问但本次网页读取未返回正文，规则核对依赖当前官方仓库及本地 Release 1.0/config。
+
+一、评分与发布契约
+S_ODME=0.45*S_od+0.25*S_link+0.15*S_dev+0.15*S_attr，占全赛0.20。方向在家族内等权，家族再等权。十方向全部纳入。
+只有 S_link 可用发布计数计算；S_od、S_dev、S_attr 依赖未公开真值，均记为不可用。prior_relative_L1 和 destination_prior_TV 分别是相对先验偏离和相对先验目的地分布变化，不是官方 S_dev 或 S_attr。
+每个 split 只有一个 SYN_PM_* period token。train 模板也是全零占位，未当标签。未读旧实验结果、未接入 Task1 重建或 Task2 数据。
+发布的 Task4 synthetic_link_counts 是本题实际输入，直接进入 A*f=c；没有按车道除法或乘 PM 时长。官方备用从观测构造计数的代码取15–19时 flow_vph 均值，但不能据此断言 synthetic_link_counts 的生成细节完全相同；公开字段没有更精确的生成单位说明。保留原值与 split 边界。
+未观测 connector 不补零；实测 count 无缺失，ID/区域/路径映射与模板已检查。base_od 是网络级文件，官方代码提示可能对应 private prior，故严格使用各 split 的 synthetic_weak_prior。
+
+二、模型和验证
+官方目标：min ||A*f-c||² + 0.05||f-b||²，f>=0。候选增加 λ=0.5 及按 median(b)/max(b,0.1*median(b)) 加权的两种正则。
+用等价凸对偶半光滑牛顿法求解，只分解观测数阶系统；所有候选记录收敛状态及投影梯度。D12_I405_S/train 与官方 scipy.nnls 比较，相对 L2 差2.39e-15。
+仅 train 进行固定种子20261026的三折计数留出；A 完全相同的行归入同折，避免重复探测方程泄漏。每方向先平均三折再方向等权。此验证衡量未见计数的恢复，不能衡量未见路径真值。
+选参与汇总复用相同 train 折，选中者的该数值存在选择偏差，不是独立最终评估。validation/private 计数仅在选定候选后用于全量求解和残差诊断，没有用它们选择超参。没有可报告的独立路径误差或盲测 S_ODME。
+本题只有三个聚合 period，无法合法做按日时间外路径验证；没有时间监督依据，本轮未加入时间/家族共享或神经网络。
+曾遇到大方向 L-BFGS 次数上限，已废弃该批结果并更换求解方法，当前交付全部由收敛的对偶求解重新生成。历史失败记录保存在本聊天 work，未作为选参依据。
+
+候选 train 留出计数 NMAE（越低越好）：
+  official_005: 0.03663055
+  ridge_05: 0.03686501
+  relative_005: 0.04337350
+  relative_05: 0.04343727
+
+三、逐方向结果（最终官方基准）
+方向 | 路径数 | train观测/秩/零空间维数 | train留出NMAE | validation S_link | private S_link
+D12_I405_N | 903 | 81/42/861 | 0.057036 | 0.99989470 | 0.99988219
+D12_I405_S | 630 | 35/35/595 | 0.070191 | 0.99975726 | 0.99962853
+D12_I5_N | 4278 | 257/92/4186 | 0.022060 | 0.99998580 | 0.99998564
+D12_I5_S | 5050 | 100/100/4950 | 0.023759 | 0.99996158 | 0.99996025
+D7_I10_E | 4278 | 137/92/4186 | 0.022141 | 0.99996960 | 0.99996713
+D7_I10_W | 5050 | 100/100/4950 | 0.031558 | 0.99995150 | 0.99995902
+D7_I210_E | 2628 | 294/72/2556 | 0.030449 | 0.99998664 | 0.99998648
+D7_I210_W | 3321 | 81/81/3240 | 0.039185 | 0.99993123 | 0.99991127
+D7_I405_N | 4560 | 350/95/4465 | 0.035713 | 0.99999296 | 0.99999249
+D7_I405_S | 4656 | 96/96/4560 | 0.034216 | 0.99996284 | 0.99995934
+
+总体：validation S_link=0.9999394100；private 发布计数 S_link=0.9999232335。此处 private 数字只是公开输入计数上的拟合，不是隐藏私榜成绩。官方 score_task4.py 已分别复核。
+最终相对先验 L1：validation 0.36064、private 0.35740；目的地相对先验 TV：validation 0.10179、private 0.10163。拟合残差几乎为零仍有大量零空间自由度，不能推出真实OD正确。
+
+四、验收与文件
+最终 task4_path_flow.csv 共70708行，覆盖十方向 validation/private，统一 submission_key 的70708条 ODME 键一一匹配，无遗漏、重复、非有限或负值，origin/destination 与模板一致，period token原样保留。
+task4_submission_id_patch.csv 是 submission_id/path_flow 补丁，供用户以后合并全赛文件。它不是完整 Kaggle 上传文件；本轮未覆盖其他任务值，也未提交、发布或合并PR。
+comparison_by_panel.csv 与 comparison_overall.csv 包含四候选全方向/全split对比；train_count_holdout.csv 为每折结果；schema_audit.json、audit.json、acceptance.json 为审计验收；input_hashes.json 记录输入哈希。
+run_task4.py 可重现选参和预测，run_task4.ps1 提供日志、互斥锁、基于源码与数据指纹的断点重用。依赖已安装 numpy/pandas/scipy，不改共享环境；CPU 4线程，GPU未使用，CPU温度 null。
+PowerShell脚本已以UTF-8 BOM保存，并在Windows PowerShell 5.1实际运行验证。
+
+重跑命令（Windows PowerShell 5.1）：
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "<original-local-workspace>"
+
+限制：当前脚本使用本机固定只读数据根与已有Python路径；迁移机器需修改脚本中REL及PowerShell的TaskPython。保留official_reference目录与脚本同级。

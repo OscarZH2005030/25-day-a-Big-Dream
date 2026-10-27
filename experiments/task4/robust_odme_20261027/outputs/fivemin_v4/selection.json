@@ -1,0 +1,21 @@
+{
+  "KL_weight": 1.0,
+  "criterion": "calibration artificial known path: (.45 Sod+.15 Sdev+.15 Sattr)/.75; excludes Slink",
+  "scores": {
+    "1.0": 0.9225369480880191,
+    "0.75": 0.9182313006354565,
+    "0.5": 0.9144357295696502,
+    "0.25": 0.9108883479332412,
+    "0.0": 0.9075332598224878
+  },
+  "flow_source_panels": [
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I405_N",
+    "D7_I405_S"
+  ],
+  "real_calibration_days": "March1-15 2018",
+  "real_evaluation_days": "March16-31 2018",
+  "path_truth": "artificial; never competition truth",
+  "previous_days_seen": "all PM values were audited before this experiment"
+}

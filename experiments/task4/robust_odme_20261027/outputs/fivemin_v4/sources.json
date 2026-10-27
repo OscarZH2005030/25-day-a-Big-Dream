@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-10/README.md",
+    "file": "I-10_README.md",
+    "sha256": "27ede0a376d9d6e8e52db47e783e08f92c470c8fad2d564d670b0aa1f10af9a4",
+    "bytes": 2416,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-10/dataset_meta.json",
+    "file": "I-10_dataset_meta.json",
+    "sha256": "9e0581e85040366eda02b3ace73302d16a81cc5434bd47f8d630a4e8e8a5d47a",
+    "bytes": 970,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-10/sensor_information.csv",
+    "file": "I-10_sensor_information.csv",
+    "sha256": "c6a36d4be94ff04d07e82f0ddd1bcd3c7183dc53a866963e1d94f63e4b416ebc",
+    "bytes": 2904,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-10/link_performance.json",
+    "file": "I-10_link_performance.json",
+    "sha256": "e6dceffe023be7be9364ec4b587789ea0226e7caa888cacc49e2983b9d508bfc",
+    "bytes": 5532494,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-405/README.md",
+    "file": "I-405_README.md",
+    "sha256": "100c7345247a64c3fc233f9177fea734f3f61e84a07a419e48855ea99bd85434",
+    "bytes": 2448,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-405/dataset_meta.json",
+    "file": "I-405_dataset_meta.json",
+    "sha256": "c9fe1c8d8ad7b38f876c56f8f04fd90fc5dd81b461e520fb7c51fecdcf651490",
+    "bytes": 972,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-405/sensor_information.csv",
+    "file": "I-405_sensor_information.csv",
+    "sha256": "b4b8cb2e18e964d1ee0f01844e59fbaab32d1424326df33caabd0340e5fd1a69",
+    "bytes": 2727,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/asu-trans-ai-lab/cbi_plus/68be4363108c64499327b5cf5152410901aec393/benchmarks/I-405/link_performance.json",
+    "file": "I-405_link_performance.json",
+    "sha256": "1e6a1a0ce71733a076e9788c4913a7c5e58baf2215a90feec9094ea1090cc0e7",
+    "bytes": 5009668,
+    "repository_revision": "68be4363108c64499327b5cf5152410901aec393",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/VeritasYin/STGCN_IJCAI-18/4ab75ab69af354d6a0ab86aefa082d389b187127/dataset/PeMSD7_Full.zip",
+    "file": "PeMSD7_Full.zip",
+    "sha256": "79e03f4b3054ceb19b6c6488b78b2bc8884e4bfaabd9d7266ad5933332fb1580",
+    "bytes": 29211203,
+    "repository_revision": "4ab75ab69af354d6a0ab86aefa082d389b187127",
+    "authenticated": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/VeritasYin/STGCN_IJCAI-18/4ab75ab69af354d6a0ab86aefa082d389b187127/dataset/PeMSD7_L_Station_Info_1026.csv",
+    "file": "PeMSD7_L_Station_Info_1026.csv",
+    "sha256": "1f3bd071a0a3e2d090b072f03b7863c6409f535423e0717967117bd29943a9d6",
+    "bytes": 41229,
+    "repository_revision": "4ab75ab69af354d6a0ab86aefa082d389b187127",
+    "authenticated": false
+  }
+]
