@@ -96,3 +96,9 @@ Task 1、2、4可以使用不同模型。Task 3直接评估Task 1同一份输出
 `--stage joint` reproduces 480 artificial cases with all four components, nine candidates and four new actual grouped count splits. `--stage joint-infer` reproduces the frozen v10 experimental policy. This does not replace the previous default latest candidate or the original baseline. All four component calibration guards apply jointly. Actual hidden path components are unknown, not filled with synthetic scores.
 
 See [v10 report](outputs/joint_v10/REPORT.md), [all four components and total](outputs/joint_v10/four_components_overall.csv), [actual four-component availability](outputs/joint_v10/actual_four_components.csv), and [real count audit](outputs/joint_v10/selected_real_count_cv.csv).
+
+## v11: fixed benchmark, deviation and structured prior corrections
+
+`--stage joint-dev` reproduces the fixed 480-case v10 benchmark with 26 candidates and all four components plus total. `--stage joint-dev-infer` reproduces the frozen experimental policy. All three old policies are checked against v10 to <1e-10. The benchmark and actual counts were previously seen; this is repeated sensitivity analysis, not independent path validation. Original submission and default v9 inference are preserved.
+
+See [v11 report](outputs/joint_v11/REPORT.md), [four-component comparison](outputs/joint_v11/four_components_overall.csv), [every error family](outputs/joint_v11/four_components_by_scenario.csv), and [real count CV](outputs/joint_v11/real_count_overall.csv).

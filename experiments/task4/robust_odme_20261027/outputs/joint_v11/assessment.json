@@ -1,0 +1,28 @@
+{
+  "same_benchmark_verified": true,
+  "reference": "previous_v9",
+  "checks": [
+    {
+      "phase": "evaluation",
+      "delta_S_od": 0.002354240028604071,
+      "delta_S_link": 1.821168455817812e-06,
+      "delta_S_dev": -9.403626484538741e-05,
+      "delta_S_attr": 0.00041451538437187185,
+      "delta_synthetic_S_ODME": 0.0011079351729147424,
+      "all_components_non_decreasing": false
+    },
+    {
+      "phase": "sparse_stress",
+      "delta_S_od": 0.00307807560095541,
+      "delta_S_link": 2.38635613347693e-06,
+      "delta_S_dev": 0.0012339654157887958,
+      "delta_S_attr": 0.0005949070293023162,
+      "delta_synthetic_S_ODME": 0.0016600614762268817,
+      "all_components_non_decreasing": true
+    }
+  ],
+  "promoted_to_original_submission": false,
+  "actual_S_ODME": null,
+  "count_data_reused": true,
+  "evaluation_benchmark_previously_seen": true
+}

@@ -1,0 +1,9 @@
+{
+  "seconds": 208.25036144256592,
+  "synthetic_cases": 480,
+  "same_case_baseline_max_difference_tolerance": 1e-10,
+  "candidates": 26,
+  "CPU_threads": 4,
+  "hidden_path_truth": false,
+  "baseline_preserved": true
+}

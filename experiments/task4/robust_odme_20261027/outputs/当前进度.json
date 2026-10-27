@@ -1,8 +1,9 @@
 {
-  "status": "v10 joint four-component experiment completed",
-  "latest_experiment": "outputs/joint_v10/REPORT.md",
+  "status": "v11 fixed-benchmark experiment completed",
+  "latest_experiment": "outputs/joint_v11/REPORT.md",
   "actual_S_ODME": null,
   "baseline_preserved": true,
   "promotion": false,
+  "four_components_compared_together": true,
   "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5"
 }

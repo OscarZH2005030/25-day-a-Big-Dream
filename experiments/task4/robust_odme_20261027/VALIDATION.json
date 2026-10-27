@@ -26,5 +26,15 @@
     "numeric_identity_max_abs_difference": 0.0,
     "experiment": "480 synthetic cases, 9 candidates, all four components, four real grouped count seeds",
     "hidden_truth": false
+  },
+  "v11": {
+    "portable_inference": "passed",
+    "input_hashes": 123,
+    "complete_predictions_validated": 13,
+    "prediction_rows": 70708,
+    "numeric_identity_max_abs_difference": 0.0,
+    "experiment": "same 480 artificial cases as v10, 26 candidates, all four components; four reused grouped count seeds plus two new audits",
+    "same_old_policy_scores_tolerance": 1e-10,
+    "hidden_truth": false
   }
 }
