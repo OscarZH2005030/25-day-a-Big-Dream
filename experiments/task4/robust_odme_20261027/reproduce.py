@@ -26,7 +26,7 @@ def verify(release:Path):
 def main():
  parser=argparse.ArgumentParser(description=__doc__)
  parser.add_argument('--release-root',type=Path,required=True,help='Official kaggle_public directory; read-only')
- parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','joint-dev','joint-dev-infer','bias','invariant','invariant-infer','guarded','guarded-infer','bidirectional','bidirectional-infer','global-screen','all'],default='latest')
+ parser.add_argument('--stage',choices=['verify','latest','baseline','external','scale','bounds','robust','joint','joint-infer','joint-dev','joint-dev-infer','bias','invariant','invariant-infer','guarded','guarded-infer','bidirectional','bidirectional-infer','global-screen','external-od-data','external-od','external-od-infer','external-od-probe','all'],default='latest')
  parser.add_argument('--data-python',default=sys.executable,help='Optional Python with requirements-data.txt for XLSX extraction')
  args=parser.parse_args();release=args.release_root.expanduser().resolve()
  env={**os.environ,'TFB_RELEASE_ROOT':str(release),'OMP_NUM_THREADS':'4','OPENBLAS_NUM_THREADS':'4','MKL_NUM_THREADS':'4','PYTHONUTF8':'1'}
@@ -63,5 +63,11 @@ def main():
   run('outputs/joint_v15/equality_projection.py');run('outputs/joint_v15/run_bidirectional.py');run('outputs/joint_v15/infer_audit.py')
  if args.stage=='bidirectional-infer':run('outputs/joint_v15/infer_audit.py')
  if args.stage in ['global-screen','all']:run('outputs/joint_v16/screen_global.py')
+ if args.stage in ['external-od-data','external-od','all']:
+  run('outputs/external_od_v17/acquire.py');run('outputs/external_od_v17/prepare.py');run('outputs/external_od_v17/audit_geography.py')
+ if args.stage in ['external-od','all']:
+  run('outputs/external_od_v17/run_external_od.py');run('outputs/external_od_v17/infer_audit.py');run('outputs/external_od_v17/global_external_diagnostic.py')
+ if args.stage=='external-od-infer':run('outputs/external_od_v17/infer_audit.py')
+ if args.stage=='external-od-probe':run('outputs/external_od_v17/global_external_diagnostic.py')
  verify(release)
 if __name__=='__main__':main()

@@ -1,11 +1,15 @@
 {
-  "status": "v15 two-direction fixed-benchmark experiment completed",
-  "latest_report": "outputs/joint_v15/REPORT.md",
-  "changed_panels": {},
-  "promoted": false,
+  "status": "v17 actual external OD acquired and same-test weak-prior experiments completed",
+  "latest_report": "outputs/external_od_v17/REPORT.md",
+  "strict_policy_changed_panels": {},
+  "diagnostic_promoted": false,
   "actual_S_ODME": null,
   "original_submission_preserved": true,
-  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5",
-  "additional_calibration_screen": "outputs/joint_v16/REPORT.md",
-  "global_screen_discrete_Sdev_gain": 0.0
+  "released_count_type": "synthetic",
+  "verified_geographic_zone_matches": 0,
+  "true_external_sources": [
+    "Census LODES2023",
+    "FHWA NHTS2017"
+  ],
+  "draft_pr": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/pull/5"
 }

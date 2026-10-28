@@ -10,3 +10,13 @@ Caltrans条款：https://dot.ca.gov/conditions-of-use 。网站一般信息视�
 已排除的来源：USDOT AMS Pasadena表字段名含5-minute，但抽查时间戳间隔为一小时；SMU公开目录的CSV下载返回401；Seattle I5/I405不在加州。D12 I5/I405仍无已验证匿名取得的五分钟流量，因此没有把D7 I5冒充比赛D12 I5。
 
 所有人工f*只用于方法实验，不是竞赛隐藏标签。发布的预测都是本模型计算结果，不含主办方保管真值。
+
+## v17 sources and correction
+
+Published competition count CV is **synthetic released-count CV**, not real observed traffic validation; see DATA_VALIDATION_CORRECTION.md. Earlier filenames and numeric results remain for reproduction.
+
+- Census LODES8 California2023 primary-job home/work OD and block coordinates: https://lehd.ces.census.gov/data/lodes/LODES8/ca/ . Official uncompressed SHA256 verified. Administrative/statistically processed employment linkage, not measured vehicle routes. Derived county totals and weighted distance histograms only; raw blocks/OD rows not redistributed.
+- FHWA NHTS2017 public trip ZIP: https://nhts.ornl.gov/assets/2016/download/Csv.zip . Primary documentation: https://nhts.ornl.gov/media/2017/doc/NHTS2017_UsersGuide_04232019_1.pdf . Source: U.S. Department of Transportation, Federal Highway Administration, 2017 National Household Travel Survey, accessed 2026-10-27. Aggregated regional resident driver-trip distances with final trip weights; no household-level rows redistributed.
+- Other searches (NextGen2021 California OD catalog, NGSIM, Metro I405 and sample networks) are cataloged in outputs/external_od_v17/source_research_catalog.json. They are not represented as acquired matching path truth. NLR catalog license applies to that catalog's data, not automatically to Census/FHWA products; no NextGen bulk data used here.
+
+Five source URLs, compressed SHA256 pins, and Census's uncompressed checksum proof are retained in outputs/external_od_v17. Do not substitute a same-named link in another network when geometry/lengths disagree.

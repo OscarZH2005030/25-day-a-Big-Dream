@@ -1,0 +1,10 @@
+{
+  "seconds": 41.09011960029602,
+  "same_fixed_cases": 480,
+  "candidate_count": 13,
+  "real_external_histogram_sha256": "fcb1be1c018b111d95e3ca47d903ec0ab8817fa68a2111fd13be84eac2ff7b1b",
+  "max_constraint_error": 4.525535501898048e-11,
+  "CPU_threads": 4,
+  "hidden_truth_available": false,
+  "baseline_preserved": true
+}

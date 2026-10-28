@@ -1,0 +1,32 @@
+{
+  "strict_policy_changed_panels": {},
+  "diagnostic_promoted": false,
+  "global_diagnostic_checks": [
+    {
+      "phase": "evaluation",
+      "scenario": "overall",
+      "all_components_nondecreasing": false,
+      "delta_S_od": -0.00025610778784490584,
+      "delta_S_link": 0.0,
+      "delta_S_dev": 0.0032336170181077595,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": 0.0003697940481859341
+    },
+    {
+      "phase": "sparse_stress",
+      "scenario": "overall",
+      "all_components_nondecreasing": false,
+      "delta_S_od": -0.005778859307518591,
+      "delta_S_link": 0.0,
+      "delta_S_dev": -0.029018371309569857,
+      "delta_S_attr": 0.0,
+      "delta_synthetic_S_ODME": -0.00695324238481887
+    }
+  ],
+  "verified_geographic_zone_matches": 0,
+  "true_external_data_acquired": true,
+  "release_count_type": "synthetic",
+  "actual_hidden_S_ODME": null,
+  "original_submission_preserved": true,
+  "benchmark_previously_seen": true
+}

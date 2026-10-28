@@ -1,0 +1,13 @@
+{
+  "verified": [
+    {
+      "file": "ca_xwalk.csv.gz",
+      "uncompressed_sha256": "61dc3df7f67986d95b3d1b505eb91e53f4eb805a87a048b5cee36e8ec5499c97"
+    },
+    {
+      "file": "ca_od_main_JT01_2023.csv.gz",
+      "uncompressed_sha256": "f06ad10d3525286d0eb33fdf0f0686fbf9cc54415cc65f8bf453a57be4f7a1e8"
+    }
+  ],
+  "source": "official Census SHA256 file covers uncompressed CSV"
+}

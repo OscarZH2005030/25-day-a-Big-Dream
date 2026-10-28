@@ -1,0 +1,21 @@
+{
+  "real_LA_Orange_census_blocks": 118360,
+  "LODES_CA_rows_scanned": 14634271,
+  "LODES_LA_OC_OD_pairs": 4315198,
+  "LODES_LA_OC_primary_jobs": 4645915,
+  "LODES_missing_coordinate_pairs": 0,
+  "NHTS_national_trip_records_scanned": 923572,
+  "NHTS_LA_OC_weekday_vehicle_trips": 10657,
+  "NHTS_LA_OC_households": 1854,
+  "NHTS_LA_OC_weekday_vehicle_records": 10657,
+  "NHTS_LA_OC_weekday_vehicle_households": 1854,
+  "NHTS_LA_OC_weekday_vehicle_weighted_mean_km": 13.494808973235813,
+  "NHTS_LA_OC_PM_vehicle_records": 3114,
+  "NHTS_LA_OC_PM_vehicle_households": 1392,
+  "NHTS_LA_OC_PM_vehicle_weighted_mean_km": 13.306599526220872,
+  "LODES_is": "annual employer/worker residence-workplace linkage; not observed vehicle trips, routes or PM departures",
+  "NHTS_is": "2017 sampled household driver trips; survey-weighted lengths, no target-zone geographic crosswalk",
+  "competition_geographic_zone_matches": 0,
+  "competition_counts_are": "synthetic released counts, not historical measured traffic rows",
+  "transfer_assumption": "trip lengths or commuter straight-line distances can only provide a weak regional length prior; corridor segment length is not full trip length"
+}

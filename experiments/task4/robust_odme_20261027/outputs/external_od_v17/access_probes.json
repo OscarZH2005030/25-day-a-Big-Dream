@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://nhts.ornl.gov/assets/2016/download/Csv.zip",
+    "status": 200,
+    "content_type": "application/x-zip-compressed",
+    "length": "83726358",
+    "magic": "504b0304"
+  },
+  {
+    "url": "https://nhts.ornl.gov/od",
+    "status": 200,
+    "content_type": "text/html",
+    "length": "2998",
+    "magic": "3c21444f"
+  },
+  {
+    "url": "https://data.transportation.gov/api/views/8ect-6jqj.json",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "length": null,
+    "magic": "7b0a2020"
+  },
+  {
+    "url": "https://www.nlr.gov/transportation/secure-transportation-data/tsdc-california-travel-survey",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "length": null,
+    "magic": "203c2144"
+  }
+]

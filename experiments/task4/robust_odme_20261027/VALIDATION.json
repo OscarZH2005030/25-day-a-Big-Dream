@@ -65,5 +65,22 @@
     ],
     "global_screen_scope": "calibration only, this candidate grid, no independent path validation",
     "hidden_truth": false
+  },
+  "external_od_v17": {
+    "source_downloads": "anonymous official Census/FHWA, pins recorded; raw data excluded from Git",
+    "Census_uncompressed_official_SHA256": "passed for OD and crosswalk",
+    "LODES_LA_Orange_pairs": 4315198,
+    "NHTS_LA_metro_resident_PM_driver_records": 3114,
+    "geographic_zone_matches_verified": 0,
+    "count_CV_correction": "competition release counts are synthetic, prior reports using real_count_CV refer to released synthetic holdouts",
+    "portable_PS51_inference": "passed",
+    "portable_external_diagnostic": "passed",
+    "prediction_numeric_identity_max_abs_diff": 0.0,
+    "diagnostic_numeric_identity_max_abs_diff": 0.0,
+    "input_hashes_checked": 123,
+    "complete_prediction_files": 17,
+    "rows_per_prediction": 70708,
+    "actual_hidden_path_truth": false,
+    "promoted": false
   }
 }

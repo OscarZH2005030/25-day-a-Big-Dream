@@ -1,0 +1,102 @@
+{
+  "policy": {
+    "D12_I405_N": "v11",
+    "D12_I405_S": "v11",
+    "D12_I5_N": "v11",
+    "D12_I5_S": "v11",
+    "D7_I10_E": "v11",
+    "D7_I10_W": "v11",
+    "D7_I210_E": "v11",
+    "D7_I210_W": "v11",
+    "D7_I405_N": "v11",
+    "D7_I405_S": "v11"
+  },
+  "specs": {
+    "v11": {
+      "source": null,
+      "weight": 0.0
+    },
+    "nhts_pm_survival_mix0.05": {
+      "source": "nhts_pm_survival",
+      "weight": 0.05
+    },
+    "nhts_pm_survival_mix0.15": {
+      "source": "nhts_pm_survival",
+      "weight": 0.15
+    },
+    "nhts_pm_survival_mix0.3": {
+      "source": "nhts_pm_survival",
+      "weight": 0.3
+    },
+    "nhts_pm_density_mix0.05": {
+      "source": "nhts_pm_density",
+      "weight": 0.05
+    },
+    "nhts_pm_density_mix0.15": {
+      "source": "nhts_pm_density",
+      "weight": 0.15
+    },
+    "nhts_pm_density_mix0.3": {
+      "source": "nhts_pm_density",
+      "weight": 0.3
+    },
+    "nhts_weekday_survival_mix0.05": {
+      "source": "nhts_weekday_survival",
+      "weight": 0.05
+    },
+    "nhts_weekday_survival_mix0.15": {
+      "source": "nhts_weekday_survival",
+      "weight": 0.15
+    },
+    "nhts_weekday_survival_mix0.3": {
+      "source": "nhts_weekday_survival",
+      "weight": 0.3
+    },
+    "lodes_survival_circ13_mix0.05": {
+      "source": "lodes_survival_circ13",
+      "weight": 0.05
+    },
+    "lodes_survival_circ13_mix0.15": {
+      "source": "lodes_survival_circ13",
+      "weight": 0.15
+    },
+    "lodes_survival_circ13_mix0.3": {
+      "source": "lodes_survival_circ13",
+      "weight": 0.3
+    }
+  },
+  "external_prior_sources": {
+    "nhts_pm_survival": [
+      "NHTS_LA_OC_PM_vehicle",
+      "survival",
+      1.0
+    ],
+    "nhts_pm_density": [
+      "NHTS_LA_OC_PM_vehicle",
+      "density",
+      1.0
+    ],
+    "nhts_weekday_survival": [
+      "NHTS_LA_OC_weekday_vehicle",
+      "survival",
+      1.0
+    ],
+    "lodes_survival_circ13": [
+      "LODES_LA_OC_primary_jobs_straight_line",
+      "survival",
+      1.3
+    ]
+  },
+  "minimum_complete_length_paths_per_panel": 100,
+  "selection": "maximize joint calibration Sod+Sdev with all-four/total guards overall and target families, released SYNTHETIC count CV mean no worse/worst <=1.01",
+  "selection_count_seeds": [
+    20261201,
+    20261202
+  ],
+  "targets": [
+    "localized_undercount",
+    "count_systematic30"
+  ],
+  "benchmark_previously_seen": true,
+  "actual_geographic_OD_zone_matches": 0
+}

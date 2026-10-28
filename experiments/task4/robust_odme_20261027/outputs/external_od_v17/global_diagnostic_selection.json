@@ -1,0 +1,7 @@
+{
+  "chosen": "nhts_weekday_survival_mix0.05",
+  "selection": "global calibration-mean Sod+Sdev maximum, guarding all four means and total; deliberately diagnostic, NOT the strict per-panel/target policy",
+  "target_family_guards_not_enforced_in_selection": true,
+  "benchmark_previously_seen": true,
+  "promoted": false
+}

@@ -1,0 +1,11 @@
+{
+  "historical_source_rows_in_release": false,
+  "competition_counts": "synthetic released counts; previous reports calling these real count CV should be read as released synthetic count CV",
+  "true_external_sources": [
+    "Census LODES residence/workplace linkages",
+    "NHTS household travel diary data",
+    "previous public Caltrans/PeMS external sources"
+  ],
+  "zone_match": "none verified; overlapping IDs in a third-party sample were insufficient and showed inconsistent lengths",
+  "missing_link_lengths": "do not impute from another road or interpret partial sum as complete distance"
+}

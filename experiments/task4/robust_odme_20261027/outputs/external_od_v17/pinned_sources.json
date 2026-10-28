@@ -1,0 +1,42 @@
+[
+  {
+    "file": "ca_xwalk.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ca/ca_xwalk.csv.gz",
+    "bytes": 9294052,
+    "sha256": "6b11ae561c4b3e84799a6730f68915d29cabe5bc4355e65382aaa1d44c6fa361",
+    "anonymous": true,
+    "seconds": 0.0
+  },
+  {
+    "file": "lodes_ca.sha256sum",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ca/lodes_ca.sha256sum",
+    "bytes": 228995,
+    "sha256": "c0fc7d432bfc3b3b63f8efc113c809cfd0870eb47f497d2bef3328fbeed11830",
+    "anonymous": true,
+    "seconds": 0.014860153198242188
+  },
+  {
+    "file": "ca_od_main_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ca/od/ca_od_main_JT01_2023.csv.gz",
+    "bytes": 87499091,
+    "sha256": "cc4620a9cac908eeef0fd24893b8b79d3b557388e128224644acb166ee7514f6",
+    "anonymous": true,
+    "seconds": 0.045865535736083984
+  },
+  {
+    "file": "LODESTechDoc.pdf",
+    "url": "https://lehd.ces.census.gov/doc/help/onthemap/LODESTechDoc.pdf",
+    "bytes": 602016,
+    "sha256": "1189b8aa4cefd6cdf53c3b85e27366054af0cd5418056b04ff70d210b87eddee",
+    "anonymous": true,
+    "seconds": 0.0
+  },
+  {
+    "file": "nhts2017_Csv.zip",
+    "url": "https://nhts.ornl.gov/assets/2016/download/Csv.zip",
+    "bytes": 83726358,
+    "sha256": "4f1917d9470fbf351c325ee9fe7d4cdbf71715775d0e0c974ca57861b4d8704d",
+    "anonymous": true,
+    "seconds": 0.0335843563079834
+  }
+]
