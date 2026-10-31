@@ -1,0 +1,5 @@
+﻿population,model,threshold,IoU,FP,FN
+new_phase_population,R127,0.5,0.7320598420153661,327,467
+new_phase_population,candidate,0.5,0.75442854251226,309,533
+old410,R127,0.5,0.7301012853729876,374,569
+old410,candidate,0.5,0.7366974561481688,422,567

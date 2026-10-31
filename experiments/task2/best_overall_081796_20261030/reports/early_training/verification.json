@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "unit_tests": 4,
+  "independent_runtime_rows": 256,
+  "max_probability_error": {
+    "control": 0.0,
+    "early_full": 0.0,
+    "context_timing": 0.0
+  },
+  "source_models_and_references_unchanged": true,
+  "January_selections_and_models_frozen_before_February": true,
+  "February_parameter_selection": false,
+  "R127_original_files_verified": 1214,
+  "official_S_queue": null
+}

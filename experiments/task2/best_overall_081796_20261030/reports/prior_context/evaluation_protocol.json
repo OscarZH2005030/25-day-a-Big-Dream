@@ -1,0 +1,19 @@
+{
+  "reason": "User explicitly requested continuation after January results; evaluate frozen candidate without changing earlier failed adoption gates",
+  "threshold": 0.5,
+  "configuration": {
+    "leaves": 63,
+    "depth": 7,
+    "min_leaf": 60,
+    "l2": 20,
+    "rounds": 600,
+    "name": "capacity",
+    "variant": "combined"
+  },
+  "January_gate_passed": false,
+  "February_parameter_selection": false,
+  "official_S_queue": null,
+  "reference_cutoff": "2030-11-30",
+  "populations_separate": true,
+  "caveat": "February populations were inspected in previous experiments; this is not a new blind test."
+}

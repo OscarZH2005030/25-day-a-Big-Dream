@@ -1,0 +1,9 @@
+{
+  "phase": "final",
+  "head": "early",
+  "seed": 20261101,
+  "source_rows": 550758,
+  "supervised_rows": 54674,
+  "dimensions": 997,
+  "known_cells_only": true
+}

@@ -1,0 +1,29 @@
+{
+  "training": "Development June-September only; final June-November only. Reuse frozen prior-context event heads; retrain timing only.",
+  "features": "Same996 causal features:940 base +8 previous-day priors +48 previous-day normal-reference anomalies. No query targets or future masks as inputs.",
+  "timing": {
+    "context_timing": "Six-class endpoint-type-conditioned start/end,996 context features",
+    "weighted_timing": "Same timing head, positive sequences with any known positive in first3 horizons receive3x row weight",
+    "early": "Three-horizon conditional queue classifier on known cells of sequences with observed future event; horizon index as input; missing cells excluded; known noncontiguous sequences included. Blend conditional first3 with old timing by .5 or1; later3 unchanged."
+  },
+  "budget": {
+    "seeds": [
+      20261030,
+      20261031,
+      20261101
+    ],
+    "rounds": 400,
+    "leaves": 31,
+    "depth": 6,
+    "min_leaf": 60,
+    "l2": 15,
+    "learning_rate": 0.04,
+    "threads": 8
+  },
+  "October_selection": "Fixed .5 decoder, one prespecified seed. Eligible if IoU>=control-.01, FP<=1.15control, totalFN<=1.05control. Among eligible select lowest first3 FN then highest IoU; take top2. If fewer than2 eligible fill by IoU diagnostic-only.",
+  "November": "Top2 with3 seeds versus same-date-trained prior-context control; report IoU/earlyFN/FP and paired-day intervals. No November-driven threshold/config change. Both final candidates proceed as research candidates.",
+  "January": "Two thresholds early/late from .25.. .75 step.05 only. Eligible: IoU>=R127, first3FN<=.95R127, FP<=1.10R127,totalFN<=1.05R127,no road loss>.05. MaxIoU among eligible, tie lower earlyFN thenFP; if none eligible choose diagnostic maxIoU only. Apply same search to unchanged prior control.",
+  "February": "Only after all January selections and model hashes frozen. Evaluate both retained candidates and calibration-only control once on the same two separate populations. No changes from February scores; archive every candidate with either population IoU>R127.",
+  "caution": "The request targets short-horizon errors previously seen on February. All new choices/thresholds are selected using October/November/January only; February is reused development evidence, not an independent blind confirmation.",
+  "official_S_queue": null
+}

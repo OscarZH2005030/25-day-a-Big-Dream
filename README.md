@@ -1,10 +1,12 @@
-## Task 2 当前最佳：R127（2026-10-29 核验）
+## Task 2 当前最高新口径代理Overall：0.817962444（2026-10-30）
 
-[完整模型下载、推理及精确重训](experiments/task2/r127_reproduction_20261027/README.md) · [最新最佳模型确认与逐月审计](experiments/task2/r127_reproduction_20261027/reports/current_best_20261029/README.md)
+[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_081796_20261030/README.md)
 
-二月367个固定正例窗口：整体代理IoU **0.795976209**，Onset **0.732059842**；另一套410窗口：整体 **0.754599304**，Onset **0.730101285**。后续两阶段、残差/门控及源定位→传播生成实验均未证明稳定超过R127，继续采用原冻结权重与Onset `.50`／Ongoing `.25` 门槛。完整权重已保存在 [GitHub Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+采用 **新Onset early_full + 原R127 Ongoing**。二月新口径367个正例窗口：Overall **0.817962444**，Onset **0.776032314**，Ongoing **0.859892575**；原R127 Overall为0.795976209，提升2.20个百分点。同一模型在旧410窗口上Overall为0.758598036。三种子及门槛固定，只用一月选择门槛，二月未调参；近期Ongoing实验未提升新口径，故本版保留R127 Ongoing。
 
-以上是公开带噪观测构造的代理评分，不是官方 `S_queue`；二月已多次用于开发，不能视为独立盲测。逐月审计区分训练期、选模期与校准期；数据实际只有11个月，三、四月预测没有公开队列真值，五月无数据。
+以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。不同窗口口径分别报告，不拼接道路或按口径切换模型。新增权重已入库，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+
+[原R127完整复现](experiments/task2/r127_reproduction_20261027/README.md) · [原0.79598版本与逐月审计](experiments/task2/r127_reproduction_20261027/reports/current_best_20261029/README.md)
 
 # 25-
 

@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "published_files_verified": 63,
+  "all16_panel_condition_scores_match_to_1e12": true,
+  "causality_checks": [
+    {
+      "population": "new_phase_population",
+      "group": "D7_I10_E/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I10_E/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I10_W/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I10_W/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I210_E/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I210_E/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I210_W/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I210_W/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I405_N/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I405_N/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I405_S/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D7_I405_S/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D12_I5_N/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D12_I5_N/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D12_I5_S/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "new_phase_population",
+      "group": "D12_I5_S/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I10_E/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I10_E/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I10_W/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I10_W/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I210_E/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I210_E/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I210_W/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I210_W/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I405_N/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I405_N/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I405_S/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D7_I405_S/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D12_I5_N/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D12_I5_N/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D12_I5_S/queue_onset",
+      "query_target_mutation_does_not_change_prediction": true
+    },
+    {
+      "population": "old410",
+      "group": "D12_I5_S/queue_ongoing",
+      "query_target_mutation_does_not_change_prediction": true
+    }
+  ],
+  "query_data_rebuilt_and_hash_verified": 198,
+  "seconds": 159.21680212020874,
+  "official_S_queue": null
+}

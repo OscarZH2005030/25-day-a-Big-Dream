@@ -1,0 +1,36 @@
+{
+  "version": "task2-hybrid-081796-20261030",
+  "onset_candidate": "early_full",
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "onset_threshold": [
+    0.5,
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "ongoing_threshold": 0.25,
+  "ongoing_model": "Unmodified R127",
+  "reference_cutoff": "2030-11-30",
+  "calibration": "January only",
+  "February_parameter_selection": false,
+  "official_S_queue": null,
+  "primary_result": {
+    "population": "new_phase_population",
+    "model": "early_full",
+    "onset_IoU": 0.7760323136566369,
+    "ongoing_IoU": 0.8598925750844304,
+    "overall_IoU": 0.8179624443705337,
+    "overall_gain": 0.021986235820635414
+  },
+  "R127_archive": {
+    "url": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/download/task2-r127-repro-20261027/ConditionalPosition-R127.zip",
+    "sha256": "c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649"
+  },
+  "selection_caveat": "Best observed new-February overall point estimate. Reused development population; not independent blind confirmation. Same model used for both populations."
+}

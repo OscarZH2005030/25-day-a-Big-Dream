@@ -1,0 +1,4 @@
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+shared/*.txt -diff
+final_early_*/*.txt -diff
+*.npz -diff
