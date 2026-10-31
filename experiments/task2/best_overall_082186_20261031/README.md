@@ -39,4 +39,12 @@ python evaluate.py --package "D:/models/ConditionalPosition-R127" --data-root "D
 
 所有新头在R127安装原模型加载保护前加载，Ongoing原父链不修改。`code/hybrid_ongoing.py` 是两条件原始观测推理适配器。历史参考在推理时不更新，不读取一月或二月标签。
 
+已有相同274维因果特征时，也可独立调用：
+
+```powershell
+python code/predict_ongoing_roads.py --models . --features "D:/work/ongoing_features.npz" --candidate larger_odds50 --output "D:/work/ongoing_prediction.npz"
+```
+
+输入NPZ包含 `X[N,274]`、道路名称 `panel[N]`、冻结R127概率 `parent[N,6]`。特征顺序见 `feature_names.json`；输出概率、固定门槛0.325和二值预测。八道路共256行的独立特征入口与实验概率逐位一致，见 `acceptance/feature_runtime.json`。
+
 `reports/` 保存月份选择、逐道路/时距、误报漏报和不确定性结果。`training_archive/` 保存实验代码及原路径布局；完整重新训练仍依赖原始数据和训练缓存，不声称已经验证一键从零训练。`manifest.json` 记录本目录全部交付文件SHA256。
