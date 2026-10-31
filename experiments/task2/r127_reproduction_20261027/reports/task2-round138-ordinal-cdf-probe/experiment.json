@@ -1,0 +1,12 @@
+{
+  "hypothesis": "R137 actual frozen current strategy: many FP occur on true-positive links at wrong times, and fixed-support timing oracle retains substantial headroom. Exact-first softmax accuracy and added exact-prefix examples did not translate into adequate actual IoU. Test cumulative ordinal first-arrival supervision aligned to boundary errors.",
+  "distinct": "Change sixclass EXACT-first objective into six binary conditional CDF targets 1(first<=h), retaining original complete-positive R40 paired data and validated position features. No R133 extra data, no loss coefficient/mask/position-degree/road-residual sweep. This is conditional start CDF, not unconditional cellBCE or event hazard.",
+  "data": "Original R1249970 complete-positive conditional views X916/y/w/panel readonly. Tile each view six requested horizons, append public forecast-horizon onehot6 ->922. Each view total weight preserved by /6 then SAME original view-weight mean normalizer. No future observations or quality in input.",
+  "decode": "Fixed monotone upper-envelope cumulative maximum over six CDF predictions, force lastCDF1 because conditioned on event within horizon; first-PMF=differences. Existing oldR40 andnew mode>=.5 gates, oneCDF from RAW R10 anchor, all6eventpeaks/knownqueue/Ongoing fixed. No learned projection or confidence/threshold search.",
+  "capacity": "Two fresh nativebinary1200trees, position vs matchedrandom spatial field, same922 features/31/.035/min80/.85/L2=4/seed, CPU4serial checkpoint200. Each same1200unique trees as R124200round6class source, architecture/target differ, not pure loss isolation.2400newtrees total; guardUTC15:00 beforeeachfit.",
+  "gates": "Retain all R131 stronger original/paired classification gates vs oldR40 AND sharedR124200; matchedrandom CDF noninfer on both. MeanpositiveIoU >= ALLROADR124first+.004 AND R110+.004 AND R10R40+.004 AND randomCDF+.002; OctNov each allrefs>=-.01; falseany+.03/eligibleFP+.005. No relaxing classification gates for alternative objective.",
+  "later": "Only all gates and actualbaseline/candidate/control future/ramp/92/source checks allow new full stage with CURRENT R127. No fullR127/R116/R41 onOctNov, no Dec/Jan/Feb here. AtUTC15:00 stop NEW fitting; do not start oversized full afterdeadline merely because early passed. Save qualified early for future human continuation if cutoff.",
+  "Task1": "frozen92",
+  "Ongoing": "frozen",
+  "official_S_queue": null
+}

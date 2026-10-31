@@ -1,0 +1,51 @@
+{
+  "candidate": "R127 conditional-position first-arrival Onset policy",
+  "root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round127-conditional-position-policy",
+  "entry": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round128-conditional-position-preservation\\ConditionalPosition-R127\\predict.py",
+  "runtime_module": "conditional_position_runtime",
+  "runtime_class": "ConditionalPositionPredictor",
+  "verified": true,
+  "accepted_utc": "2026-10-27T14:15:33.087572+00:00",
+  "comparison": {
+    "new_phase_population_parent": {
+      "overall": 0.7950666182848394,
+      "queue_onset": 0.7302406614852481,
+      "queue_ongoing": 0.8598925750844304,
+      "windows": 367
+    },
+    "new_phase_population_selected": {
+      "overall": 0.7959762085498983,
+      "queue_onset": 0.7320598420153661,
+      "queue_ongoing": 0.8598925750844304,
+      "windows": 367
+    },
+    "old410_parent": {
+      "overall": 0.754599304093038,
+      "queue_onset": 0.7301012853729876,
+      "queue_ongoing": 0.7790973228130884,
+      "windows": 410
+    },
+    "old410_selected": {
+      "overall": 0.754599304093038,
+      "queue_onset": 0.7301012853729876,
+      "queue_ongoing": 0.7790973228130884,
+      "windows": 410
+    }
+  },
+  "frozen_sha256": "eae9aa7a5567f513313f2b604b4ed21cc64d9b68d0d15b1613c1fb9ebcf3d1b3",
+  "route_sha256": "3bfc5b8cfeebb5b9b47e0f53f98ac5544686913ef8068864beb69d7b7f1e5fff",
+  "Task1_unchanged": true,
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_score_newly_measured": false,
+  "Ongoing_unchanged": true,
+  "original_best_two_unchanged": true,
+  "official_S_queue": null,
+  "acceptance_basis": "R124 training-only conditional gates, R126 December route, R127 January global calibration and complete integrity, R128 independent preservation. February reports descriptive, never selection/rollback.",
+  "portable_root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round128-conditional-position-preservation\\ConditionalPosition-R127",
+  "archive": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round128-conditional-position-preservation\\ConditionalPosition-R127.zip",
+  "archive_sha256": "c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649",
+  "different_populations_not_directly_comparable": true,
+  "February_repeated_development_not_blind": true,
+  "previous_accepted_parent": "R116",
+  "no_new_publication": true
+}

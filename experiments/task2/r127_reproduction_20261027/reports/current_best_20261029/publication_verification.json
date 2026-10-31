@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "frozen_model_files_verified": 1214,
+  "published_reference_prediction_rows_matched": 174000,
+  "split_checks": [
+    {
+      "split": "validation",
+      "rows": 87000,
+      "all_keys_and_queue_pred_exact": true
+    },
+    {
+      "split": "private",
+      "rows": 87000,
+      "all_keys_and_queue_pred_exact": true
+    }
+  ],
+  "raw_competition_data_included": false,
+  "runtime_included": false,
+  "unselected_candidate_weights_included": false,
+  "Kaggle_submission_performed": false
+}

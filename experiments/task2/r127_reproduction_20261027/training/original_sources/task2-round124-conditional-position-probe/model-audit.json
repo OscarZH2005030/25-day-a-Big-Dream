@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "position",
+    "rows": 9970,
+    "features": 916,
+    "rounds": 200,
+    "trees": 1200,
+    "sha256": "4879ce726d0224787cbf50c23e8df161aaa39664dfd044633f3a909d75261b21"
+  },
+  {
+    "mode": "random",
+    "rows": 9970,
+    "features": 916,
+    "rounds": 200,
+    "trees": 1200,
+    "sha256": "0ae944232fc014db2a800f8d304c6005b4c602fe10a420a0a5159d713d0fd64a"
+  }
+]

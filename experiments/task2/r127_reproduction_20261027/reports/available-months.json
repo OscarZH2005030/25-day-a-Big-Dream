@@ -1,0 +1,32 @@
+{
+  "user_confirmed_intent": "Separate training for all twelve calendar months, followed by individual month scores and an equal-month average; not December alone.",
+  "confirmation_date_utc": "2026-10-27",
+  "target_calendar_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "available_public_unmasked_train": {
+    "start": "2030-06-01",
+    "end": "2031-02-28",
+    "month_count": 9,
+    "calendar_months": [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  },
+  "missing_complete_training_calendar_months": [3, 4, 5],
+  "other_released_splits": {
+    "2031-03": "validation: masked observations only; no complete Task2 horizon labels",
+    "2031-04": "private: masked observations only; no complete Task2 horizon labels",
+    "2031-05": "not included in the local public release"
+  },
+  "sources_checked": "Main public release README and synthetic_release_v1 calendar; matching local Task4 official-reference and Task2 USB-transfer calendar copies.",
+  "data_source_search_status": "User instructed us to search Kaggle. Completed live official Data page, IEEE index and organizer documentation checks on 2026-10-27: eleven months total, nine months unmasked train observations, no twelve-month supplement found. Local 9688 files match current Kaggle count. No repeat data-location question is pending.",
+  "source_audit_file": "work/kaggle-official-data-audit-20261027.json",
+  "queue_label_precision": "Unmasked traffic observations are available for nine training months; official Task2 queue labels remain withheld on every split, so local queue results are proxies rather than official scores.",
+  "existing_evaluation_protocol": {
+    "fit": "June-November",
+    "early_temporal_holdout": "October-November, using June-September models only",
+    "development": "December",
+    "global_calibration": "January",
+    "frozen_repeat_development_evaluation": "February"
+  },
+  "evaluation_constraint": "Do not silently fit the protected December/January/February evaluation labels for the existing benchmark. Any later annual experiment that reuses these labels needs a separately declared evaluation protocol and cannot claim the old February population as independent validation.",
+  "reporting": "Report the actual available, eligible evaluation months and their equal-month average explicitly; do not fabricate a twelve-month score or mix old and new evaluation populations.",
+  "frozen": ["Task1 original92 files, routing and offline outputs", "Ongoing strategy and outputs", "R41 accepted best", "original R21/R23 preserved packages"],
+  "official_S_queue": null
+}

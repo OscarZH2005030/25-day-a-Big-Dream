@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-27T09:30:44Z",
+  "request": "User explicitly asked to search Kaggle for IEEE traffic data and additional months.",
+  "official_competition": "2026 IEEE Big Data-Traffic Flow Bench",
+  "data_url": "https://www.kaggle.com/competitions/2026-ieee-big-data-traffic-flow-bench/data",
+  "ieee_index_url": "https://bigdataieee.org/BigData2026/cup/",
+  "official_documentation_url": "https://github.com/jacky850/trafficflowbench-public/blob/main/docs/DATA.md",
+  "verification": "Read current authenticated Kaggle Data page visibly through background browser, including split table and file explorer. Cross-checked official IEEE competition directory and organizer repository. No submission, posting, account changes or installation.",
+  "live_kaggle_file_count": 9688,
+  "live_kaggle_size_display": "12.39 GB",
+  "local_public_release_file_count": 9688,
+  "local_readme_bytes": 6761,
+  "file_counts_match": true,
+  "splits": {
+    "train": {"start": "2030-06-01", "end": "2031-02-28", "months": 9, "days": 273, "unmasked_observations": true},
+    "validation": {"month": "2031-03", "months": 1, "days": 31, "unmasked_observations": false},
+    "private": {"month": "2031-04", "months": 1, "days": 30, "unmasked_observations": false}
+  },
+  "total_released_calendar_months": 11,
+  "additional_twelve_month_version_found": false,
+  "scope_of_negative_result": "No twelve-month or extra complete-month release found in current official Data page and inspected official documentation; not a claim that every unrelated Kaggle traffic dataset was exhausted.",
+  "important_precision": "Nine train months contain unmasked traffic OBSERVATIONS, not official Task2 queue ground truth. Official queue labels are withheld on every split. Existing local queue scores remain observation-based proxies and official_S_queue stays null.",
+  "external_data_relation": "The release calendar is synthetic and cannot be joined to real traffic data as missing competition months. Separate external pretraining would be a distinct experiment with explicit provenance, not completion of this release.",
+  "no_missing_month_download": "No new applicable month files identified; did not re-download the existing 12.39GB package.",
+  "official_S_queue": null
+}

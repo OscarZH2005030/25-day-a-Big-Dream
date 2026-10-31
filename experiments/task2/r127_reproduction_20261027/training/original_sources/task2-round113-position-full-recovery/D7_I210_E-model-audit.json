@@ -1,0 +1,24 @@
+[
+  {
+    "mode": "position",
+    "features": 914,
+    "rounds": 600,
+    "rows": 206533,
+    "matched_original555_y_weights_and_capacity": true,
+    "reused_completed_model": true,
+    "source_sha256": "c90e253e6b0965d4fcfe1abc6f17a401ea3c6ba65c937dcfb0616b322f0e0547",
+    "new_trees": 0,
+    "sha256": "c90e253e6b0965d4fcfe1abc6f17a401ea3c6ba65c937dcfb0616b322f0e0547"
+  },
+  {
+    "mode": "random",
+    "features": 914,
+    "rounds": 600,
+    "rows": 206533,
+    "matched_original555_y_weights_and_capacity": true,
+    "reused_completed_model": true,
+    "source_sha256": "562101d555963b1e51122597b13685fc3292e1a00206549144bc0fbca1dd71fe",
+    "new_trees": 0,
+    "sha256": "562101d555963b1e51122597b13685fc3292e1a00206549144bc0fbca1dd71fe"
+  }
+]

@@ -1,0 +1,362 @@
+{
+  "january": {
+    "R127": {
+      "TP": 2403,
+      "FP": 310,
+      "FN": 392,
+      "known": 156340,
+      "FNR": 0.1402504472271914,
+      "FPR": 0.0020189520987332703,
+      "FN_support_missed": 174,
+      "FN_timing_given_support": 218,
+      "FP_on_known_positive_link": 215,
+      "FP_on_complete_negative_link": 32,
+      "FP_on_incomplete_no_known_positive_link": 63,
+      "known_positive_links": 972,
+      "missed_positive_links": 115
+    },
+    "source_propagation": {
+      "TP": 2216,
+      "FP": 569,
+      "FN": 579,
+      "known": 156340,
+      "FNR": 0.2071556350626118,
+      "FPR": 0.00370575401348139,
+      "FN_support_missed": 361,
+      "FN_timing_given_support": 218,
+      "FP_on_known_positive_link": 372,
+      "FP_on_complete_negative_link": 58,
+      "FP_on_incomplete_no_known_positive_link": 139,
+      "known_positive_links": 972,
+      "missed_positive_links": 194
+    },
+    "no_transport_control": {
+      "TP": 2334,
+      "FP": 735,
+      "FN": 461,
+      "known": 156340,
+      "FNR": 0.16493738819320214,
+      "FPR": 0.004786870298609528,
+      "FN_support_missed": 262,
+      "FN_timing_given_support": 199,
+      "FP_on_known_positive_link": 434,
+      "FP_on_complete_negative_link": 82,
+      "FP_on_incomplete_no_known_positive_link": 219,
+      "known_positive_links": 972,
+      "missed_positive_links": 150
+    },
+    "new_vs_R127": {
+      "new_FP": 370,
+      "removed_FP": 111,
+      "added_FN": 289,
+      "recovered_FN": 102
+    },
+    "source_birth_vs_accumulation": {
+      "FP_birth_already_above_threshold": 396,
+      "FP_accumulation_dependent": 173,
+      "TP_birth_already_above_threshold": 1794,
+      "TP_accumulation_dependent": 422,
+      "note": "Accumulation includes persistence/current-state/transport; this does not isolate transport causally. Noisy-OR ensures final probability >= birth."
+    },
+    "source_semantics": {
+      "high_birth_cells_on_known_queue_continuations": 1149,
+      "known_queue_continuation_cells": 1550,
+      "high_birth_on_current_known_positive": 1794,
+      "note": "Birth emits high probability even where own link is already known queued at previous step. Such continuing-positive cells are omitted from the weak-source auxiliary mask. Threshold .6 is the frozen queue threshold, not a tuned source threshold."
+    },
+    "graph_strata": {
+      "isolated": {
+        "R127": {
+          "TP": 805,
+          "FP": 105,
+          "FN": 175,
+          "known": 32832,
+          "FNR": 0.17857142857142858,
+          "FPR": 0.003296496295366068
+        },
+        "source_propagation": {
+          "TP": 705,
+          "FP": 179,
+          "FN": 275,
+          "known": 32832,
+          "FNR": 0.28061224489795916,
+          "FPR": 0.005619741303528821
+        },
+        "no_transport_control": {
+          "TP": 782,
+          "FP": 268,
+          "FN": 198,
+          "known": 32832,
+          "FNR": 0.20204081632653062,
+          "FPR": 0.008413914353886725
+        }
+      },
+      "connected": {
+        "R127": {
+          "TP": 1598,
+          "FP": 205,
+          "FN": 217,
+          "known": 123508,
+          "FNR": 0.11955922865013774,
+          "FPR": 0.0016845669019582062
+        },
+        "source_propagation": {
+          "TP": 1511,
+          "FP": 390,
+          "FN": 304,
+          "known": 123508,
+          "FNR": 0.1674931129476584,
+          "FPR": 0.0032047858134814657
+        },
+        "no_transport_control": {
+          "TP": 1552,
+          "FP": 467,
+          "FN": 263,
+          "known": 123508,
+          "FNR": 0.14490358126721764,
+          "FPR": 0.0038375255766560116
+        }
+      }
+    }
+  },
+  "new_phase_population": {
+    "R127": {
+      "TP": 2429,
+      "FP": 327,
+      "FN": 467,
+      "known": 154549,
+      "FNR": 0.16125690607734808,
+      "FPR": 0.002156238254436114,
+      "FN_support_missed": 292,
+      "FN_timing_given_support": 175,
+      "FP_on_known_positive_link": 205,
+      "FP_on_complete_negative_link": 24,
+      "FP_on_incomplete_no_known_positive_link": 98,
+      "known_positive_links": 1002,
+      "missed_positive_links": 145
+    },
+    "source_propagation": {
+      "TP": 2160,
+      "FP": 660,
+      "FN": 736,
+      "known": 154549,
+      "FNR": 0.2541436464088398,
+      "FPR": 0.004352040513540781,
+      "FN_support_missed": 456,
+      "FN_timing_given_support": 280,
+      "FP_on_known_positive_link": 422,
+      "FP_on_complete_negative_link": 33,
+      "FP_on_incomplete_no_known_positive_link": 205,
+      "known_positive_links": 1002,
+      "missed_positive_links": 223
+    },
+    "no_transport_control": {
+      "TP": 2283,
+      "FP": 868,
+      "FN": 613,
+      "known": 154549,
+      "FNR": 0.21167127071823205,
+      "FPR": 0.005723592675383936,
+      "FN_support_missed": 379,
+      "FN_timing_given_support": 234,
+      "FP_on_known_positive_link": 472,
+      "FP_on_complete_negative_link": 68,
+      "FP_on_incomplete_no_known_positive_link": 328,
+      "known_positive_links": 1002,
+      "missed_positive_links": 183
+    },
+    "new_vs_R127": {
+      "new_FP": 465,
+      "removed_FP": 132,
+      "added_FN": 356,
+      "recovered_FN": 87
+    },
+    "source_birth_vs_accumulation": {
+      "FP_birth_already_above_threshold": 482,
+      "FP_accumulation_dependent": 178,
+      "TP_birth_already_above_threshold": 1867,
+      "TP_accumulation_dependent": 293,
+      "note": "Accumulation includes persistence/current-state/transport; this does not isolate transport causally. Noisy-OR ensures final probability >= birth."
+    },
+    "source_semantics": {
+      "high_birth_cells_on_known_queue_continuations": 1191,
+      "known_queue_continuation_cells": 1614,
+      "high_birth_on_current_known_positive": 1867,
+      "note": "Birth emits high probability even where own link is already known queued at previous step. Such continuing-positive cells are omitted from the weak-source auxiliary mask. Threshold .6 is the frozen queue threshold, not a tuned source threshold."
+    },
+    "graph_strata": {
+      "isolated": {
+        "R127": {
+          "TP": 939,
+          "FP": 124,
+          "FN": 165,
+          "known": 32089,
+          "FNR": 0.14945652173913043,
+          "FPR": 0.004001936420848798
+        },
+        "source_propagation": {
+          "TP": 795,
+          "FP": 194,
+          "FN": 309,
+          "known": 32089,
+          "FNR": 0.2798913043478261,
+          "FPR": 0.006261094077779571
+        },
+        "no_transport_control": {
+          "TP": 858,
+          "FP": 291,
+          "FN": 246,
+          "known": 32089,
+          "FNR": 0.22282608695652173,
+          "FPR": 0.009391641116669356
+        }
+      },
+      "connected": {
+        "R127": {
+          "TP": 1490,
+          "FP": 203,
+          "FN": 302,
+          "known": 122460,
+          "FNR": 0.16852678571428573,
+          "FPR": 0.0016823018530181986
+        },
+        "source_propagation": {
+          "TP": 1365,
+          "FP": 466,
+          "FN": 427,
+          "known": 122460,
+          "FNR": 0.23828125,
+          "FPR": 0.0038618357808201014
+        },
+        "no_transport_control": {
+          "TP": 1425,
+          "FP": 577,
+          "FN": 367,
+          "known": 122460,
+          "FNR": 0.20479910714285715,
+          "FPR": 0.004781715119169954
+        }
+      }
+    }
+  },
+  "old410": {
+    "R127": {
+      "TP": 2844,
+      "FP": 374,
+      "FN": 569,
+      "known": 171163,
+      "FNR": 0.16671549956050397,
+      "FPR": 0.0022295081967213114,
+      "FN_support_missed": 262,
+      "FN_timing_given_support": 307,
+      "FP_on_known_positive_link": 230,
+      "FP_on_complete_negative_link": 34,
+      "FP_on_incomplete_no_known_positive_link": 110,
+      "known_positive_links": 1096,
+      "missed_positive_links": 130
+    },
+    "source_propagation": {
+      "TP": 2527,
+      "FP": 572,
+      "FN": 886,
+      "known": 171163,
+      "FNR": 0.25959566363902725,
+      "FPR": 0.0034098360655737707,
+      "FN_support_missed": 469,
+      "FN_timing_given_support": 417,
+      "FP_on_known_positive_link": 267,
+      "FP_on_complete_negative_link": 84,
+      "FP_on_incomplete_no_known_positive_link": 221,
+      "known_positive_links": 1096,
+      "missed_positive_links": 234
+    },
+    "no_transport_control": {
+      "TP": 2673,
+      "FP": 708,
+      "FN": 740,
+      "known": 171163,
+      "FNR": 0.21681804863756227,
+      "FPR": 0.0042205663189269745,
+      "FN_support_missed": 380,
+      "FN_timing_given_support": 360,
+      "FP_on_known_positive_link": 277,
+      "FP_on_complete_negative_link": 122,
+      "FP_on_incomplete_no_known_positive_link": 309,
+      "known_positive_links": 1096,
+      "missed_positive_links": 189
+    },
+    "new_vs_R127": {
+      "new_FP": 325,
+      "removed_FP": 127,
+      "added_FN": 432,
+      "recovered_FN": 115
+    },
+    "source_birth_vs_accumulation": {
+      "FP_birth_already_above_threshold": 381,
+      "FP_accumulation_dependent": 191,
+      "TP_birth_already_above_threshold": 2195,
+      "TP_accumulation_dependent": 332,
+      "note": "Accumulation includes persistence/current-state/transport; this does not isolate transport causally. Noisy-OR ensures final probability >= birth."
+    },
+    "source_semantics": {
+      "high_birth_cells_on_known_queue_continuations": 1500,
+      "known_queue_continuation_cells": 1971,
+      "high_birth_on_current_known_positive": 2195,
+      "note": "Birth emits high probability even where own link is already known queued at previous step. Such continuing-positive cells are omitted from the weak-source auxiliary mask. Threshold .6 is the frozen queue threshold, not a tuned source threshold."
+    },
+    "graph_strata": {
+      "isolated": {
+        "R127": {
+          "TP": 960,
+          "FP": 130,
+          "FN": 184,
+          "known": 34722,
+          "FNR": 0.16083916083916083,
+          "FPR": 0.0038715825838346535
+        },
+        "source_propagation": {
+          "TP": 775,
+          "FP": 205,
+          "FN": 369,
+          "known": 34722,
+          "FNR": 0.32255244755244755,
+          "FPR": 0.006105187920662339
+        },
+        "no_transport_control": {
+          "TP": 859,
+          "FP": 297,
+          "FN": 285,
+          "known": 34722,
+          "FNR": 0.2491258741258741,
+          "FPR": 0.008845077133837632
+        }
+      },
+      "connected": {
+        "R127": {
+          "TP": 1884,
+          "FP": 244,
+          "FN": 385,
+          "known": 136441,
+          "FNR": 0.16967827236668137,
+          "FPR": 0.0018185612497391408
+        },
+        "source_propagation": {
+          "TP": 1752,
+          "FP": 367,
+          "FN": 517,
+          "known": 136441,
+          "FNR": 0.22785368003525783,
+          "FPR": 0.0027352949944846913
+        },
+        "no_transport_control": {
+          "TP": 1814,
+          "FP": 411,
+          "FN": 455,
+          "known": 136441,
+          "FNR": 0.2005288673424416,
+          "FPR": 0.003063232269027815
+        }
+      }
+    }
+  }
+}

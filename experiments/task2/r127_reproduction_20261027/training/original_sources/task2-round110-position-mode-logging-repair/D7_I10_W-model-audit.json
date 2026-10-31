@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "position",
+    "features": 914,
+    "rounds": 200,
+    "rows": 136282,
+    "sha256": "cd6f1b5fd1f5db2359eab7c84b71e5875c5c8f263e0390c66e2efdc09403e5ba",
+    "matched_original555_y_weights_and_capacity": true
+  },
+  {
+    "mode": "random",
+    "features": 914,
+    "rounds": 200,
+    "rows": 136282,
+    "sha256": "936e5f5bd06584b80dc6998bf244e5d7aeefcd205872ab614c33d8f697a012b3",
+    "matched_original555_y_weights_and_capacity": true
+  }
+]

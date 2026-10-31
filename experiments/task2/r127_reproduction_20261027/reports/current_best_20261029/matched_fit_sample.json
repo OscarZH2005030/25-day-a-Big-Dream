@@ -1,0 +1,29 @@
+{
+  "R127": {
+    "onset_IoU": 0.8412208604369735,
+    "TP": 6089,
+    "FP": 388,
+    "FN": 472,
+    "windows": 384,
+    "threshold": 0.5,
+    "scope": "In-sample fixed-hash 384 June-November onset windows; same samples for all models; thresholds fixed from original January selection"
+  },
+  "source_propagation": {
+    "onset_IoU": 0.6621355448617574,
+    "TP": 5115,
+    "FP": 1247,
+    "FN": 1446,
+    "windows": 384,
+    "threshold": 0.6,
+    "scope": "In-sample fixed-hash 384 June-November onset windows; same samples for all models; thresholds fixed from original January selection"
+  },
+  "no_transport_control": {
+    "onset_IoU": 0.6631997350892942,
+    "TP": 5415,
+    "FP": 1597,
+    "FN": 1146,
+    "windows": 384,
+    "threshold": 0.35,
+    "scope": "In-sample fixed-hash 384 June-November onset windows; same samples for all models; thresholds fixed from original January selection"
+  }
+}

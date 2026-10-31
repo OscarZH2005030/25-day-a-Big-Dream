@@ -1,0 +1,83 @@
+{
+  "selected": {
+    "alpha_position": 0.5,
+    "thresholds": [
+      0.5,
+      0.25
+    ],
+    "proxy": 0.7924902177119033,
+    "negative_stats": {
+      "windows": 77,
+      "false_any_macro": 0.0,
+      "false_eligible_fraction_macro": 0.0
+    },
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "alpha_position": 0.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.79196938437857,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_position": 0.5,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7924902177119033,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    },
+    {
+      "alpha_position": 1.0,
+      "thresholds": [
+        0.5,
+        0.25
+      ],
+      "proxy": 0.7924902177119033,
+      "negative_stats": {
+        "windows": 77,
+        "false_any_macro": 0.0,
+        "false_eligible_fraction_macro": 0.0
+      },
+      "eligible": true
+    }
+  ],
+  "hashes": {
+    "conditional_position_runtime.py": "c8f650d25b45d8b17a4f77bd8ff8ddec661f14a44c2fcd99be18ab71ae7eac1b",
+    "position_mode_core.py": "943e3eb0f142b8b68dbb80ead2e7323689d6ebc61fa926658794bd908bcf288b",
+    "gated_core.py": "81dfb5326c2113892e1610fae5e56e65f2e978607e8cc3352c53d5bdc4f5a74b",
+    "timing_core.py": "f7a1448e56f2cb0ea333c0e9f1f75662453e1efc87ef5e820965111ad7105f9b",
+    "position-first-full.txt": "837efa9c4723a5e1617acf35dd00021fea8983ad19f73be178e2fe4dc9cd40f0",
+    "old-first-full.txt": "e2c1aba5581ac383a8950fa00980d727e244552a0d6c7fa52e847e3c9f5b21ee",
+    "D7_I210_E-basis.npz": "c92b82aa3177fcf4ed90e813fcba6301f8406d7ad54f8225b1b2cec6486c6d1f",
+    "D7_I210_E-basis.json": "6bac19801aab8c8716809cf5d045fb82a64c9439c838312665aa565e41a25300"
+  },
+  "route_sha256": "3bfc5b8cfeebb5b9b47e0f53f98ac5544686913ef8068864beb69d7b7f1e5fff",
+  "parent_frozen_sha256": "1e871d43d9d412c2990eb0c7940c07211c5d403c9e3f500039d6774f887c50ee",
+  "December_route_source_sha256": "3bfc5b8cfeebb5b9b47e0f53f98ac5544686913ef8068864beb69d7b7f1e5fff",
+  "February_previously_used_report_only": true,
+  "condition_forecast_frozen": [
+    false,
+    true
+  ],
+  "Task1_frozen": true,
+  "all_thresholds_frozen": true,
+  "original_anchor_once_CDF": true,
+  "both_conditional_confidence_at_least": 0.5,
+  "official_S_queue": null
+}

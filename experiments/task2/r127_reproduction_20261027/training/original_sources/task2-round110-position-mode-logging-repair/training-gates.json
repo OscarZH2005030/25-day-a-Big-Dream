@@ -1,0 +1,14 @@
+{
+  "roads": {
+    "D7_I10_E": true,
+    "D7_I10_W": false,
+    "D7_I210_E": true,
+    "D7_I210_W": true,
+    "D7_I405_N": false,
+    "D7_I405_S": false,
+    "D12_I5_N": true,
+    "D12_I5_S": true
+  },
+  "passed_roads": 5,
+  "full_started": false
+}

@@ -1,0 +1,14 @@
+{
+  "hypothesis": "reduce origin-phase/source confounding by appending matched3phase conditional targets, retaining original rows and architecture",
+  "data": "JuneSep original3634 conditional rows plus R39 paired view cohort; original X/y exact and relative weights retained; complete future labels only sampling/targets",
+  "weights": "each original conditional window raw mass1 plus each paired first-positive physical observation group mass1; normalize; paired observations can duplicate original, not independent new events",
+  "features": "same557, no explicit phase/group/future metadata feature",
+  "models": "shared6class early200, full600 only if early two-population gates pass; same31 leaves/.035/minleaf80/.85/L2=4/seed20261027; maximum4800trees CPU4serial",
+  "held": "OctoberNov original R10 views and source-neutral paired target views separately; both correlated, not independent tests; no Dec/Jan/Feb data",
+  "classification_gate": ">=20 original and>=30 paired held target views; LL gain vs frozen R33 early head>=-.02 and accuracy gain>=-.02 on BOTH populations; >=.02 LL and>=.03 accuracy gains together on at least one",
+  "timing_gate": "fixed concentration>=.5 gate; alpha.5/1; original held whole-window median IoU gain(.1/.2/.35)>=-.01 vs causal base and >=-.005 vs old gated head; negative false-any+.03/eligibleFP+.005 vs BOTH old gated and raw base at .5",
+  "deployment": "none here; any full head must later face December gates and January global-only calibration against frozen R38 parent",
+  "Task1": "92files immutable, historical .942828633 not remeasured",
+  "Ongoing": "no model changes",
+  "official_S_queue": null
+}

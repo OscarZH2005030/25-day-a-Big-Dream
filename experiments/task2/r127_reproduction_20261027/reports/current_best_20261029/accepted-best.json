@@ -1,0 +1,41 @@
+{
+  "model": "R127",
+  "status": "retained_best",
+  "date": "2026-10-29",
+  "weights_retrained": false,
+  "thresholds": [
+    0.5,
+    0.25
+  ],
+  "official_S_queue": null,
+  "February_repeated_development_not_blind": true,
+  "benchmark_comparison": {
+    "new_phase_population_parent": {
+      "overall": 0.7950666182848394,
+      "queue_onset": 0.7302406614852481,
+      "queue_ongoing": 0.8598925750844304,
+      "windows": 367
+    },
+    "new_phase_population_selected": {
+      "overall": 0.7959762085498983,
+      "queue_onset": 0.7320598420153661,
+      "queue_ongoing": 0.8598925750844304,
+      "windows": 367
+    },
+    "old410_parent": {
+      "overall": 0.754599304093038,
+      "queue_onset": 0.7301012853729876,
+      "queue_ongoing": 0.7790973228130884,
+      "windows": 410
+    },
+    "old410_selected": {
+      "overall": 0.754599304093038,
+      "queue_onset": 0.7301012853729876,
+      "queue_ongoing": 0.7790973228130884,
+      "windows": 410
+    }
+  },
+  "model_release": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027",
+  "model_archive_sha256": "c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649",
+  "selection_note": "No later candidate demonstrated stable improvement over R127 under its predeclared January calibration rule. No February road selection or threshold change."
+}

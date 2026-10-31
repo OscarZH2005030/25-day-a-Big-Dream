@@ -1,0 +1,19 @@
+{
+  "accepted-best.json": "bb57da0abc6241d3e7be503f15a0d0700d69b24c8ef42a1e42ce8ae619cf169b",
+  "calendar_verification.json": "b3a7640c8d615c3b464b31cd582076cc0b1938c2d8bc585557a2b2ea369349ae",
+  "candidate_model_integrity.json": "e747d700138d5e16190ecb76c2d9fdd0e50a7b038b96cbd7cbac2b6877047f4f",
+  "decomposition.json": "0a9603445d73cff26f458533ee43a75f26d1672c9bbb7ab35eddd6d9ef80f345",
+  "failure_analysis.txt": "e85f268ea58ce2cab51aac2c3a5a900466db8e5b28726547f61875a690bc93a1",
+  "failure_analysis_verification.json": "e01951ab19e6dae3a671efa5fb0cc2b4435bda1c2eacdbe8c69fd09ea7d8edc9",
+  "failure_diagnostics.png": "7e82bb1d8de484bcce5d8b880d23a5f731d72df19c394d0daf039f9594cd84b7",
+  "fixed_clock_monthly_comparison.csv": "5577777ce644c8fe6e52499f4e82603ef1d22c626bb950d5d092296fafebbd01",
+  "matched_fit_sample.json": "dd3302d56f05d226fe143dbb2d5f909508b5f124e2014cc1ee7c55380d7174e6",
+  "monthly_comparison.csv": "af1a844f93c5c3e924c94e3a23a95c4730e0b3f7924f674488572fc933b5b61f",
+  "monthly_iou.png": "dc04ab4e37877cfc4a6aa4e391469ecbce5fe55dbd532c4b10d0e9f4cc32899b",
+  "per_horizon_errors.csv": "322ca2f86b44b653399f78625379e8cae99f50f7768741ecd9e84645d2e5d2ee",
+  "previous_prediction_overlap_checks.json": "052575273707800727b986fd251134e821f1ac94c54f0c2399533256a118bf30",
+  "publication_verification.json": "528ba1c7fbc50a0da1cbf4871c2fce92c7c9986db66a9849e90d10cb7cd976fb",
+  "README.md": "d58aa70959e636db5dd89c31bffdff5decf2f61b988cd4f5027c47910970b8ea",
+  "road_comparison.csv": "d0e86078229a9e26e845c63d7056f3a09f00cbe3c369c329501657f932bfbe9c",
+  "verify_audit.py": "98070518396ffc82cd3a072b4f772763274a70123841e77b65056b82747eb62f"
+}

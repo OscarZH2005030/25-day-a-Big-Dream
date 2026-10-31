@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "causality_groups": [
+    {
+      "panel": "D7_I10_E",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 0,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 1,
+      "passed": true,
+      "actual_early_parent_bothheads_future_ramp_invariant": true,
+      "all6peak_knownqueue_Ongoing_frozen": true,
+      "no_full_parent_on_OctNov": true
+    }
+  ],
+  "originalR40_557_y_w_preserved": true,
+  "Task1_92files_unchanged": true,
+  "current_R116_unmodified": true,
+  "no_fullparent_on_OctNov": true,
+  "no_December_January_February_scores": true,
+  "no_bestupdate": true,
+  "official_S_queue": null
+}

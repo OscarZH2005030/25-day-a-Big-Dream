@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "causality_groups": [
+    {
+      "panel": "D7_I10_E",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 0,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "condition": 1,
+      "passed": true,
+      "actual_parent_both_model_mainfuture_rampTfuture_invariant": true,
+      "Ongoing_knownqueue_all6peak_frozen": true
+    }
+  ],
+  "Task1_92files_unchanged": true,
+  "knownqueue_Ongoing_all6peak_frozen": true,
+  "source_hashes_unchanged": true,
+  "no_December_January_February_scores": true,
+  "no_best_update": true,
+  "official_S_queue": null
+}

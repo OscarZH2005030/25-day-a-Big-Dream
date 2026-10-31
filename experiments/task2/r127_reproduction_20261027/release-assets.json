@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ConditionalPosition-R127.zip",
+    "kind": "inference",
+    "root": "ConditionalPosition-R127",
+    "url": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/download/task2-r127-repro-20261027/ConditionalPosition-R127.zip",
+    "bytes": 876716119,
+    "sha256": "c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649"
+  },
+  {
+    "name": "TrainingInputs-R127.zip",
+    "kind": "training",
+    "root": "TrainingInputs-R127",
+    "url": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/download/task2-r127-repro-20261027/TrainingInputs-R127.zip",
+    "bytes": 1161167848,
+    "sha256": "7541693b6206a2cec6742d2450e0786aed4e1c987c090a7167cf20fbcbf8e49e"
+  }
+]

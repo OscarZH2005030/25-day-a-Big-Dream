@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "fixed_clock_scored_windows": 6552,
+  "balanced_event_scored_windows": 1152,
+  "inference_windows": 160,
+  "all_eight_panels_all_273_days_three_fixed_clocks": true,
+  "all_nine_months_balanced_event_groups_complete": true,
+  "frozen_package_files_verified": 1214,
+  "thresholds": [
+    0.5,
+    0.25
+  ],
+  "parameters_changed": false,
+  "official_templates_validated": true,
+  "all_12_months_available": false
+}

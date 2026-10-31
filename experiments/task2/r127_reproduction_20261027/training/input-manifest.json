@@ -1,0 +1,319 @@
+{
+  "schema": "R127-exact-incremental-training-inputs-v1",
+  "scope": "Exactly retrain the two accepted R116 position heads and R127 shared conditional head, plus all three matched controls. Historical R41-and-earlier parent chain is intentionally frozen and supplied in inference archive.",
+  "label_kind": "public-observation proxy labels, NOT organizer queue_true",
+  "fit_months": [
+    "2030-06",
+    "2030-07",
+    "2030-08",
+    "2030-09",
+    "2030-10",
+    "2030-11"
+  ],
+  "models": [
+    {
+      "file": "D7_I10_E-position.txt",
+      "group": "selected",
+      "X_parts": [
+        "position/D7_I10_E/X555.npy",
+        "position/D7_I10_E/position.npy"
+      ],
+      "y": "position/D7_I10_E/y.npy",
+      "w": "position/D7_I10_E/w.npy",
+      "rounds": 600,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.035,
+        "min_data_in_leaf": 80,
+        "feature_fraction": 0.85,
+        "lambda_l2": 4,
+        "num_threads": 4,
+        "verbosity": -1,
+        "seed": 20261027,
+        "deterministic": true,
+        "force_col_wise": true,
+        "objective": "binary"
+      },
+      "model_sha256": "b7e604fbc86c07ebcfee1dffb7c6ef87bc83669ca7fbca37bc1258fb5162f373"
+    },
+    {
+      "file": "D7_I10_E-random.txt",
+      "group": "controls",
+      "X_parts": [
+        "position/D7_I10_E/X555.npy",
+        "position/D7_I10_E/random.npy"
+      ],
+      "y": "position/D7_I10_E/y.npy",
+      "w": "position/D7_I10_E/w.npy",
+      "rounds": 600,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.035,
+        "min_data_in_leaf": 80,
+        "feature_fraction": 0.85,
+        "lambda_l2": 4,
+        "num_threads": 4,
+        "verbosity": -1,
+        "seed": 20261027,
+        "deterministic": true,
+        "force_col_wise": true,
+        "objective": "binary"
+      },
+      "model_sha256": "11eaa44bd1624154b178c8675357d0aa598c53309ae12c7fdb965a672c1436f9"
+    },
+    {
+      "file": "D12_I5_N-position.txt",
+      "group": "selected",
+      "X_parts": [
+        "position/D12_I5_N/X555.npy",
+        "position/D12_I5_N/position.npy"
+      ],
+      "y": "position/D12_I5_N/y.npy",
+      "w": "position/D12_I5_N/w.npy",
+      "rounds": 600,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.035,
+        "min_data_in_leaf": 80,
+        "feature_fraction": 0.85,
+        "lambda_l2": 4,
+        "num_threads": 4,
+        "verbosity": -1,
+        "seed": 20261027,
+        "deterministic": true,
+        "force_col_wise": true,
+        "objective": "binary"
+      },
+      "model_sha256": "47957760e0abd1562a688ca7c60049f7049f4ff9d48601367413707be2189fd6"
+    },
+    {
+      "file": "D12_I5_N-random.txt",
+      "group": "controls",
+      "X_parts": [
+        "position/D12_I5_N/X555.npy",
+        "position/D12_I5_N/random.npy"
+      ],
+      "y": "position/D12_I5_N/y.npy",
+      "w": "position/D12_I5_N/w.npy",
+      "rounds": 600,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.035,
+        "min_data_in_leaf": 80,
+        "feature_fraction": 0.85,
+        "lambda_l2": 4,
+        "num_threads": 4,
+        "verbosity": -1,
+        "seed": 20261027,
+        "deterministic": true,
+        "force_col_wise": true,
+        "objective": "binary"
+      },
+      "model_sha256": "d69baa5db187fbe4a1d755a395cbc5879b45491abc06512df6ec578fad736292"
+    },
+    {
+      "file": "position-first-full.txt",
+      "group": "selected",
+      "X_parts": [
+        "conditional/position.npy"
+      ],
+      "y": "conditional/y.npy",
+      "w": "conditional/w.npy",
+      "rounds": 600,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.035,
+        "min_data_in_leaf": 80,
+        "feature_fraction": 0.85,
+        "lambda_l2": 4,
+        "num_threads": 4,
+        "verbosity": -1,
+        "seed": 20261027,
+        "deterministic": true,
+        "force_col_wise": true,
+        "objective": "multiclass",
+        "num_class": 6
+      },
+      "model_sha256": "837efa9c4723a5e1617acf35dd00021fea8983ad19f73be178e2fe4dc9cd40f0"
+    },
+    {
+      "file": "random-first-full.txt",
+      "group": "controls",
+      "X_parts": [
+        "conditional/random.npy"
+      ],
+      "y": "conditional/y.npy",
+      "w": "conditional/w.npy",
+      "rounds": 600,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.035,
+        "min_data_in_leaf": 80,
+        "feature_fraction": 0.85,
+        "lambda_l2": 4,
+        "num_threads": 4,
+        "verbosity": -1,
+        "seed": 20261027,
+        "deterministic": true,
+        "force_col_wise": true,
+        "objective": "multiclass",
+        "num_class": 6
+      },
+      "model_sha256": "9fe6c4544e091026bd89435ffc52fc4e98a7cf65003f90619e8e3d95343c1365"
+    }
+  ],
+  "files": {
+    "position/D7_I10_E/X555.npy": {
+      "bytes": 469705508,
+      "sha256": "b58770303f29da7f80ba5c379f2fff142d3fefa21264a036234a156e5e32685f",
+      "shape": [
+        211579,
+        555
+      ],
+      "dtype": "float32"
+    },
+    "position/D7_I10_E/position.npy": {
+      "bytes": 303827572,
+      "sha256": "ac6784fdea7d066a81286e560b91204ee09fd64db0e42e70aa50da48c1ca979a",
+      "shape": [
+        211579,
+        359
+      ],
+      "dtype": "float32"
+    },
+    "position/D7_I10_E/random.npy": {
+      "bytes": 303827572,
+      "sha256": "86389f09551bf92959c7822209fd5bf186275d5ca1d5aae6ce6dc270035b4bd6",
+      "shape": [
+        211579,
+        359
+      ],
+      "dtype": "float32"
+    },
+    "position/D7_I10_E/y.npy": {
+      "bytes": 846444,
+      "sha256": "f88ec56038df6202c3385fcb4ff19269c2b0ae9b0310f9101903e4dce8cfd37d",
+      "shape": [
+        211579
+      ],
+      "dtype": "float32"
+    },
+    "position/D7_I10_E/w.npy": {
+      "bytes": 1692760,
+      "sha256": "661943e538a9b8e8da215020acf015b3c91c240108ff97be3a3dfc6676b25bc2",
+      "shape": [
+        211579
+      ],
+      "dtype": "float64"
+    },
+    "reference_models/D7_I10_E-position.txt": {
+      "bytes": 2227548,
+      "sha256": "b7e604fbc86c07ebcfee1dffb7c6ef87bc83669ca7fbca37bc1258fb5162f373"
+    },
+    "reference_models/D7_I10_E-random.txt": {
+      "bytes": 2217084,
+      "sha256": "11eaa44bd1624154b178c8675357d0aa598c53309ae12c7fdb965a672c1436f9"
+    },
+    "position/D12_I5_N/X555.npy": {
+      "bytes": 461325008,
+      "sha256": "b99151f8c25d969227c4bd1d6ed8d2a2a358b22e03bd71b43dfe48ed1d6ff324",
+      "shape": [
+        207804,
+        555
+      ],
+      "dtype": "float32"
+    },
+    "position/D12_I5_N/position.npy": {
+      "bytes": 298406672,
+      "sha256": "986a9fb1fdb26032cad46f8271695a8610a6de45f48873c8c240901ecd672f42",
+      "shape": [
+        207804,
+        359
+      ],
+      "dtype": "float32"
+    },
+    "position/D12_I5_N/random.npy": {
+      "bytes": 298406672,
+      "sha256": "306f1268621395db37644a85d9a18f75976e0bcb437d421a725d99b57daa4796",
+      "shape": [
+        207804,
+        359
+      ],
+      "dtype": "float32"
+    },
+    "position/D12_I5_N/y.npy": {
+      "bytes": 831344,
+      "sha256": "ab13284e95c20f2f333ddc1ab2ac1dde92c1a07a5d59d0433756dc6c1fae99e9",
+      "shape": [
+        207804
+      ],
+      "dtype": "float32"
+    },
+    "position/D12_I5_N/w.npy": {
+      "bytes": 1662560,
+      "sha256": "238772b937f700e85f439e577ff46dcdc407d1e3d03dc7b5bdb566120e077964",
+      "shape": [
+        207804
+      ],
+      "dtype": "float64"
+    },
+    "reference_models/D12_I5_N-position.txt": {
+      "bytes": 2238315,
+      "sha256": "47957760e0abd1562a688ca7c60049f7049f4ff9d48601367413707be2189fd6"
+    },
+    "reference_models/D12_I5_N-random.txt": {
+      "bytes": 2225776,
+      "sha256": "d69baa5db187fbe4a1d755a395cbc5879b45491abc06512df6ec578fad736292"
+    },
+    "conditional/position.npy": {
+      "bytes": 53791312,
+      "sha256": "a0303e251b6678a12e0e526d9e12276e4b8cb3f6f31979a110f7381f26fdb7a5",
+      "shape": [
+        14681,
+        916
+      ],
+      "dtype": "float32"
+    },
+    "conditional/random.npy": {
+      "bytes": 53791312,
+      "sha256": "a24c4bf35a95119a979d6ca8430b170e554c40c22f63ab1369397ab993d74c17",
+      "shape": [
+        14681,
+        916
+      ],
+      "dtype": "float32"
+    },
+    "conditional/y.npy": {
+      "bytes": 58852,
+      "sha256": "3337eaf567afd3a97daa9077fd4ebe5fc62ae3d6a447c6727e12f42d10d5772f",
+      "shape": [
+        14681
+      ],
+      "dtype": "int32"
+    },
+    "conditional/w.npy": {
+      "bytes": 58852,
+      "sha256": "4fb86395f767125086e0a983b253bb4384bcda8afe800bc2d251816005438395",
+      "shape": [
+        14681
+      ],
+      "dtype": "float32"
+    },
+    "conditional/panel.npy": {
+      "bytes": 528644,
+      "sha256": "d1e0e8b9c527a82b4833fef531fd7d3bb6abad2b14a697f709543e2580905cbd",
+      "shape": [
+        14681
+      ],
+      "dtype": "<U9"
+    },
+    "reference_models/position-first-full.txt": {
+      "bytes": 13004165,
+      "sha256": "837efa9c4723a5e1617acf35dd00021fea8983ad19f73be178e2fe4dc9cd40f0"
+    },
+    "reference_models/random-first-full.txt": {
+      "bytes": 12994544,
+      "sha256": "9fe6c4544e091026bd89435ffc52fc4e98a7cf65003f90619e8e3d95343c1365"
+    }
+  }
+}

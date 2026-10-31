@@ -1,0 +1,11 @@
+{
+  "hypothesis": "R132 found 4822 previously discarded conditional positive views with fully known negative prefix and exact observed first positive, but labels missing ONLY after onset. Learn from these exact first-time targets without asserting unknown-before-onset negatives.",
+  "method": "All original JuneSep R40 paired/original9970 X916/y/panel retained; extra prefix-identifiable JuneSep data appended, no future information in inputs. Extra natural per-origin mass then combined road/first-class masses matched EXACTLY to original complete-only masses. Targets after first positive irrelevant to sixclass first-time definition.",
+  "distinct": "New target-data eligibility, not a loss coefficient or interval soft-label sweep; no inferred unknown negatives, no future coverage routing. Different from unconditional partial-negative R104 and first-hazard R17. R130 end-shape remains rejected.",
+  "capacity": "Both start identical JuneSep R124200 sixclass backbone. Candidate200 additional rounds on mass-matched complete+exact-prefix data; control200 on unchanged complete-only rows. Each400round/2400trees, same916 positionfeatures/nativeparams, 2400newtrees total, checkpoint50 serialCPU4.",
+  "gates": "Retain R131 stronger original+paired R53 classification gates vs oldR40 AND sharedR124200, matchedcontrol noninfer on both. Retain actual ALLROADR124+.004 AND R110+.004 AND R10R40+.004 AND matched+.002, OctNov each>=-.01/negativefalseany+.03/eligibleFP+.005 against all. ADD new-prefix OctNov firstLL/accuracy >= BOTH R124shared and matchedcontrol, n>=30. No gate/coef rescue.",
+  "later": "Only all gates plus16actualfuture/ramp/92/source integrity pass allows NEW full stage with current acceptedR127 parent and same mass-matching method. December/Janglobal/frozenFeb and independent preservation beforeadoption.",
+  "future_inputs": "Future masks/y only supervised exact-prefix eligibility/class labels and scoring; no runtimefeature/routing. OriginalR127/Task1/Ongoing frozen.",
+  "cutoff_UTC": "2026-10-27T15:00:00Z",
+  "official_S_queue": null
+}

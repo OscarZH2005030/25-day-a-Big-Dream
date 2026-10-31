@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "diagnostic_only": true,
+  "new_models": 0,
+  "complete_calendar": true,
+  "original_target_replay_exact": true,
+  "paired_sample_replay_groups": 16,
+  "source_neutral_equal_phase_counts_per_group": true,
+  "Task1_92files_unchanged": true,
+  "official_S_queue": null
+}

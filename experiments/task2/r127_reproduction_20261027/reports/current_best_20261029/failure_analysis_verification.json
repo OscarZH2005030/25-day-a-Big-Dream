@@ -1,0 +1,10 @@
+{
+  "FN_and_FP_decompositions_sum_exactly": true,
+  "source_queue_lower_bound_checked": true,
+  "fit_sample_y_m_bitwise_aligned": true,
+  "fit_sample_size": 384,
+  "model_files_unchanged": 6,
+  "new_training": false,
+  "threshold_search": false,
+  "February_tuning": false
+}

@@ -1,0 +1,14 @@
+{
+  "hypothesis": "Shared conditional first-arrival head improves logloss but some roads fail actual timing IoU. Test conditional road-specific logit residual branches, retaining a common learned backbone while isolating perroad gradients; user requested perroad error adjustment.",
+  "distinct": "Partition changes from shared multiclass fitting to road-specific residual branches, not a loss/coefficient/position-basis/confidence sweep. Unlike rejected R88 monthly unconditional cell residuals, this is road grouping on conditional first-arrival targets, no month ensemble.",
+  "data": "Exact readonly R124 JuneSep9970 original+paired X916/y/w/panel. OctNov original and paired holdout. No fullR127/R116/R41 predictions or Dec routes/Jan alpha in early reference.",
+  "capacity": "Common R124 position200round sixclass backbone. Eight separate50round road continuations vs single400round pooled continuation. SAME3600 unique trees each including1200 shared prefix;4800 newly trained total. Inference perroad250 vs pooled600. Identical native params and data roster; within each branch original relative row weights retained and normalized to mean1, with fixed L2=4.",
+  "gates": "All old R53 original/paired n20/30 + LL/acc noninfer-.02 and at leastone LL+.02/acc+.03 vsR40; ADD same gains vsR124shared200 and noninfer0 vs matchedpooled600 on both. MeanpositiveIoU >= ALLROADR124 firstpolicy+.004 AND R110position+.004 AND rawR10/R40+.004 AND pooledcontrol+.002; OctNov each allrefs>=-.01; negativefalseany+.03/eligibleFP+.005 allrefs. All6peak/knownqueue/Ongoing fixed; oldR40 andnewmode>=.5; singleCDF rawR10 anchor.",
+  "full": "Only after all early gates and actualmodel future/ramp/92/source checks. New directory, currentR127 actualparent; rawR31 anchor nested parent.base.base.anchor. Originalfull R125600 backbone plus150 perqualifiedroad vs pooled150*nqualified control for same unique extra-tree budget. No control deployment or parameter rescue. Original Dec/Jan/frozenFeb/independent preservation required.",
+  "CPU": 4,
+  "checkpoint_every": 25,
+  "cutoff_UTC": "2026-10-27T15:00:00Z",
+  "Task1": "frozen92",
+  "Ongoing": "frozen",
+  "official_S_queue": null
+}

@@ -1,0 +1,541 @@
+{
+  "passed": true,
+  "stages": [
+    {
+      "stage": "extract_and_CRC",
+      "passed": true,
+      "seconds": 30.941171884536743
+    },
+    {
+      "stage": "verify_frozen_manifest_before",
+      "passed": true,
+      "seconds": 7.119240760803223
+    },
+    {
+      "stage": "retrain_all_six",
+      "passed": true,
+      "seconds": 403.0452983379364
+    },
+    {
+      "stage": "predict_validation",
+      "passed": true,
+      "seconds": 25.184807538986206
+    },
+    {
+      "stage": "predict_private",
+      "passed": true,
+      "seconds": 24.932883501052856
+    },
+    {
+      "stage": "recompute_proxy_and_causality",
+      "passed": true,
+      "seconds": 264.1440281867981
+    },
+    {
+      "stage": "verify_frozen_manifest_after",
+      "passed": true,
+      "seconds": 1.1332263946533203
+    }
+  ],
+  "retraining": {
+    "passed": true,
+    "completed": [
+      {
+        "file": "D7_I10_E-position.txt",
+        "sha256": "b7e604fbc86c07ebcfee1dffb7c6ef87bc83669ca7fbca37bc1258fb5162f373",
+        "trees": 600,
+        "byte_exact": true
+      },
+      {
+        "file": "D7_I10_E-random.txt",
+        "sha256": "11eaa44bd1624154b178c8675357d0aa598c53309ae12c7fdb965a672c1436f9",
+        "trees": 600,
+        "byte_exact": true
+      },
+      {
+        "file": "D12_I5_N-position.txt",
+        "sha256": "47957760e0abd1562a688ca7c60049f7049f4ff9d48601367413707be2189fd6",
+        "trees": 600,
+        "byte_exact": true
+      },
+      {
+        "file": "D12_I5_N-random.txt",
+        "sha256": "d69baa5db187fbe4a1d755a395cbc5879b45491abc06512df6ec578fad736292",
+        "trees": 600,
+        "byte_exact": true
+      },
+      {
+        "file": "position-first-full.txt",
+        "sha256": "837efa9c4723a5e1617acf35dd00021fea8983ad19f73be178e2fe4dc9cd40f0",
+        "trees": 3600,
+        "byte_exact": true
+      },
+      {
+        "file": "random-first-full.txt",
+        "sha256": "9fe6c4544e091026bd89435ffc52fc4e98a7cf65003f90619e8e3d95343c1365",
+        "trees": 3600,
+        "byte_exact": true
+      }
+    ],
+    "seconds": 400.18840432167053,
+    "frozen_parent_chain_not_retrained": true,
+    "official_S_queue": null
+  },
+  "public_templates": {
+    "validation": {
+      "rows": 87000,
+      "exact_rows": true,
+      "original_model_cache_IO_blocked": true,
+      "package_native_models": 95
+    },
+    "private": {
+      "rows": 87000,
+      "exact_rows": true,
+      "original_model_cache_IO_blocked": true,
+      "package_native_models": 95
+    }
+  },
+  "proxy_evaluation": {
+    "passed": true,
+    "seconds": 255.92568492889404,
+    "causality_checks": [
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I10_E",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I10_E",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I10_W",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I10_W",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I210_E",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I210_E",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I210_W",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I210_W",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I405_N",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I405_N",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I405_S",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D7_I405_S",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D12_I5_N",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D12_I5_N",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D12_I5_S",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "new_phase_population",
+        "panel": "D12_I5_S",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I10_E",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I10_E",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I10_W",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I10_W",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I210_E",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I210_E",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I210_W",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I210_W",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I405_N",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I405_N",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I405_S",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D7_I405_S",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D12_I5_N",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D12_I5_N",
+        "condition": 1,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D12_I5_S",
+        "condition": 0,
+        "passed": true
+      },
+      {
+        "population": "old410",
+        "panel": "D12_I5_S",
+        "condition": 1,
+        "passed": true
+      }
+    ],
+    "original_model_cache_IO_blocked": true,
+    "package_models_only": true,
+    "native_models": [
+      "payload\\outputs\\task2-round10-phase-coverage\\D12_I5_N-0-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D12_I5_N-1-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D12_I5_S-0-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D12_I5_S-1-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I10_E-1-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I210_E-0-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I210_W-0-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I210_W-1-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I405_N-0-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I405_S-0-expanded.txt",
+      "payload\\outputs\\task2-round10-phase-coverage\\D7_I405_S-1-expanded.txt",
+      "payload\\outputs\\task2-round116-position-policy-preflight-repair\\D12_I5_N-position.txt",
+      "payload\\outputs\\task2-round116-position-policy-preflight-repair\\D7_I10_E-position.txt",
+      "payload\\outputs\\task2-round12-phase-soft\\D7_I210_E-sigma5.0.txt",
+      "payload\\outputs\\task2-round12-phase-soft\\D7_I210_W-sigma2.5.txt",
+      "payload\\outputs\\task2-round12-phase-soft\\D7_I405_N-sigma5.0.txt",
+      "payload\\outputs\\task2-round12-phase-soft\\D7_I405_S-sigma2.5.txt",
+      "payload\\outputs\\task2-round127-conditional-position-policy\\old-first-full.txt",
+      "payload\\outputs\\task2-round127-conditional-position-policy\\position-first-full.txt",
+      "payload\\outputs\\task2-round13-seed-stability\\D7_I210_E-seed20261028.txt",
+      "payload\\outputs\\task2-round13-seed-stability\\D7_I210_E-seed20261029.txt",
+      "payload\\outputs\\task2-round13-seed-stability\\D7_I405_S-seed20261028.txt",
+      "payload\\outputs\\task2-round13-seed-stability\\D7_I405_S-seed20261029.txt",
+      "payload\\outputs\\task2-round15-ongoing-history\\D7_I10_E-history.txt",
+      "payload\\outputs\\task2-round15-ongoing-history\\D7_I210_W-history.txt",
+      "payload\\outputs\\task2-round15-ongoing-history\\D7_I405_N-history.txt",
+      "payload\\outputs\\task2-round17-onset-hazard\\D7_I10_E-hazard.txt",
+      "payload\\outputs\\task2-round19-interval-budget\\global-control.txt",
+      "payload\\outputs\\task2-round21-link-category\\D12_I5_N-category.txt",
+      "payload\\outputs\\task2-round23-path-context\\D7_I405_S-0-path.txt",
+      "payload\\outputs\\task2-round34-conditional-start-full\\conditional-first-full.txt",
+      "payload\\outputs\\task2-round38-concentration-policy\\conditional-first-full.txt",
+      "payload\\outputs\\task2-round41-paired-policy\\conditional-first-full.txt",
+      "payload\\outputs\\task2-round5-distribution\\D12_I5_N-0-conditional.txt",
+      "payload\\outputs\\task2-round5-distribution\\D12_I5_N-0-event.txt",
+      "payload\\outputs\\task2-round5-distribution\\D12_I5_N-1-transition.txt",
+      "payload\\outputs\\task2-round5-distribution\\D12_I5_S-0-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D12_I5_S-1-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I10_E-0-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I10_W-1-speed.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I210_E-0-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I210_W-0-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I210_W-1-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I405_N-0-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I405_N-1-speed.txt",
+      "payload\\outputs\\task2-round5-distribution\\D7_I405_S-0-direct.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D12_I5_N-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D12_I5_N-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D12_I5_N-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D12_I5_S-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D12_I5_S-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D12_I5_S-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_E-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_E-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_E-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_W-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_W-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_W-1-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I10_W-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I210_E-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I210_E-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I210_E-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I210_W-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I210_W-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_N-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_N-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_N-1-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_N-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_S-0-adapted.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_S-0-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\D7_I405_S-1-previous.txt",
+      "payload\\outputs\\task2-round5-distribution\\baseline\\pooled.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D12_I5_N-0-physics.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D12_I5_S-0-physics.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D12_I5_S-1-physics.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D7_I10_E-0-physics.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D7_I210_E-0-physics.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D7_I210_W-0-ramp.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D7_I405_N-0-physics.txt",
+      "payload\\outputs\\task2-round6-ramp-physics\\D7_I405_S-0-physics.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D12_I5_N-0-sigma2.5.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D12_I5_S-0-sigma2.5.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D7_I10_E-0-sigma2.5.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D7_I10_W-0-sigma5.0.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D7_I210_E-0-sigma2.5.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D7_I210_W-0-sigma5.0.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D7_I405_N-0-sigma2.5.txt",
+      "payload\\outputs\\task2-round8-soft-targets\\D7_I405_S-0-sigma2.5.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D12_I5_N-0-warm.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D12_I5_S-0-warm.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D12_I5_S-1-warm.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D7_I10_E-0-warm.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D7_I210_W-0-warm.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D7_I405_N-0-warm.txt",
+      "payload\\outputs\\task2-round9-hierarchical\\D7_I405_S-0-warm.txt"
+    ],
+    "raw_day_cache_rebuilt_and_content_verified": 224,
+    "all_panel_condition_scores_exact_to_1e12": true,
+    "official_S_queue": null
+  },
+  "recomputed_metrics": {
+    "reports": {
+      "new_phase_population": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7959762085498983,
+        "diagnostic_macro_IoU": 0.7959762085498983,
+        "missing_groups": [],
+        "n_windows": 367,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.897987583300062,
+          "D12_I5_N/queue_onset": 0.7004586389899622,
+          "D12_I5_S/queue_ongoing": 0.8260884746108371,
+          "D12_I5_S/queue_onset": 0.6617866970991971,
+          "D7_I10_E/queue_ongoing": 0.8540268986884986,
+          "D7_I10_E/queue_onset": 0.7900400526425958,
+          "D7_I10_W/queue_ongoing": 0.7360861380104802,
+          "D7_I10_W/queue_onset": 0.6791356315253374,
+          "D7_I210_E/queue_ongoing": 0.9112303591470258,
+          "D7_I210_E/queue_onset": 0.9235532407407407,
+          "D7_I210_W/queue_ongoing": 0.9297699869610391,
+          "D7_I210_W/queue_onset": 0.741849158748246,
+          "D7_I405_N/queue_ongoing": 0.8469073007673128,
+          "D7_I405_N/queue_onset": 0.6998865862755238,
+          "D7_I405_S/queue_ongoing": 0.877043859190188,
+          "D7_I405_S/queue_onset": 0.6597687301013263
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8220334756655472,
+          "D7_I10_W": 0.7076108847679088,
+          "D7_I210_E": 0.9173917999438832,
+          "D7_I210_W": 0.8358095728546425,
+          "D7_I405_N": 0.7733969435214183,
+          "D7_I405_S": 0.7684062946457572,
+          "D12_I5_N": 0.7992231111450121,
+          "D12_I5_S": 0.7439375858550171
+        },
+        "by_family": {
+          "D7_I10": 0.764822180216728,
+          "D7_I210": 0.8766006863992628,
+          "D7_I405": 0.7709016190835878,
+          "D12_I5": 0.7715803485000146
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 23,
+          "D7_I10_W/queue_ongoing": 16,
+          "D7_I10_W/queue_onset": 16,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "old410": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.754599304093038,
+        "diagnostic_macro_IoU": 0.754599304093038,
+        "missing_groups": [],
+        "n_windows": 410,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.7625778045373969,
+          "D12_I5_N/queue_onset": 0.6389429844875765,
+          "D12_I5_S/queue_ongoing": 0.7481814912036933,
+          "D12_I5_S/queue_onset": 0.7133228687576515,
+          "D7_I10_E/queue_ongoing": 0.8449732934473618,
+          "D7_I10_E/queue_onset": 0.7685077643149761,
+          "D7_I10_W/queue_ongoing": 0.7806225742527412,
+          "D7_I10_W/queue_onset": 0.7451294088122732,
+          "D7_I210_E/queue_ongoing": 0.9530746509129967,
+          "D7_I210_E/queue_onset": 0.9176397515527951,
+          "D7_I210_W/queue_ongoing": 0.6536609664978744,
+          "D7_I210_W/queue_onset": 0.6568106582658026,
+          "D7_I405_N/queue_ongoing": 0.7775284871489282,
+          "D7_I405_N/queue_onset": 0.7424937633783671,
+          "D7_I405_S/queue_ongoing": 0.7121593145037148,
+          "D7_I405_S/queue_onset": 0.657963083414458
+        },
+        "by_panel": {
+          "D7_I10_E": 0.806740528881169,
+          "D7_I10_W": 0.7628759915325072,
+          "D7_I210_E": 0.9353572012328959,
+          "D7_I210_W": 0.6552358123818385,
+          "D7_I405_N": 0.7600111252636477,
+          "D7_I405_S": 0.6850611989590865,
+          "D12_I5_N": 0.7007603945124867,
+          "D12_I5_S": 0.7307521799806724
+        },
+        "by_family": {
+          "D7_I10": 0.784808260206838,
+          "D7_I210": 0.7952965068073672,
+          "D7_I405": 0.7225361621113671,
+          "D12_I5": 0.7157562872465796
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 25,
+          "D12_I5_N/queue_onset": 25,
+          "D12_I5_S/queue_ongoing": 26,
+          "D12_I5_S/queue_onset": 26,
+          "D7_I10_E/queue_ongoing": 23,
+          "D7_I10_E/queue_onset": 23,
+          "D7_I10_W/queue_ongoing": 28,
+          "D7_I10_W/queue_onset": 17,
+          "D7_I210_E/queue_ongoing": 28,
+          "D7_I210_E/queue_onset": 28,
+          "D7_I210_W/queue_ongoing": 28,
+          "D7_I210_W/queue_onset": 28,
+          "D7_I405_N/queue_ongoing": 28,
+          "D7_I405_N/queue_onset": 28,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 25
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      }
+    },
+    "official_S_queue": null,
+    "February_repeated_development_not_blind": true,
+    "populations_not_pooled": true
+  },
+  "archive_sha256": {
+    "ConditionalPosition-R127.zip": "c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649",
+    "TrainingInputs-R127.zip": "7541693b6206a2cec6742d2450e0786aed4e1c987c090a7167cf20fbcbf8e49e"
+  },
+  "new_input_caches_rebuilt_from_public_data": true,
+  "not_12_month_scores": true,
+  "February_previously_used_not_blind": true,
+  "Task1_historical_S_state": 0.942828633,
+  "Task1_score_not_remeasured": true,
+  "official_S_queue": null
+}

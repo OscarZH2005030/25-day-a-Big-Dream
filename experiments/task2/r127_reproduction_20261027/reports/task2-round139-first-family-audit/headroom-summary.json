@@ -1,0 +1,516 @@
+{
+  "OctNov_systematic_JuneSep_models": {
+    "windows": 256,
+    "positive_windows": 121,
+    "road_macro_positive_window_IoU": {
+      "baseline": 0.7392187593032704,
+      "timing_oracle_fixed_support": 0.8795444763399135,
+      "erase_complete_negative_events": 0.7429955431811571,
+      "recover_missed_support_with_oracle_timing": 0.8183620014167292,
+      "observable_combined_oracle": 0.9649839487425405,
+      "hard_first_oracle_fixed_oldgate": 0.7417783223247899,
+      "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7813826450384723,
+      "unrestricted_time_oracle_same_fixed_subset": 0.7421730256606698
+    },
+    "cell_count_totals": {
+      "TP": 1771,
+      "FP": 195,
+      "FN": 284,
+      "missed_support_FN": 124,
+      "timing_FN_supported_links": 160,
+      "complete_negative_event_FP": 19,
+      "positive_link_timing_FP": 127,
+      "partial_unknown_event_FP": 49,
+      "known_positive_linkviews": 685,
+      "missed_positive_linkviews": 85,
+      "eligible_complete_supported_linkviews": 124,
+      "old_diffuse_complete_supported_linkviews": 84
+    },
+    "cell_weighted_FN_fraction_due_to_missed_support": 0.43661971830985913,
+    "cell_weighted_FP_fraction_complete_negative_events": 0.09743589743589744,
+    "cell_weighted_FP_fraction_partial_unknown_events": 0.2512820512820513,
+    "per_road": {
+      "D7_I10_E": {
+        "windows": 32,
+        "positive_windows": 17,
+        "cell_totals": {
+          "TP": 343,
+          "FP": 37,
+          "FN": 43,
+          "missed_support_FN": 33,
+          "timing_FN_supported_links": 10,
+          "complete_negative_event_FP": 2,
+          "positive_link_timing_FP": 29,
+          "partial_unknown_event_FP": 6,
+          "known_positive_linkviews": 148,
+          "missed_positive_linkviews": 22,
+          "eligible_complete_supported_linkviews": 31,
+          "old_diffuse_complete_supported_linkviews": 15
+        },
+        "positive_window_IoU": {
+          "baseline": 0.8105522309934076,
+          "timing_oracle_fixed_support": 0.8970842882607589,
+          "erase_complete_negative_events": 0.8105522309934076,
+          "recover_missed_support_with_oracle_timing": 0.8770508304331833,
+          "observable_combined_oracle": 0.9647058823529411,
+          "hard_first_oracle_fixed_oldgate": 0.8105522309934076,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.8448187871639884,
+          "unrestricted_time_oracle_same_fixed_subset": 0.813709857680446
+        }
+      },
+      "D7_I10_W": {
+        "windows": 32,
+        "positive_windows": 11,
+        "cell_totals": {
+          "TP": 85,
+          "FP": 3,
+          "FN": 4,
+          "missed_support_FN": 1,
+          "timing_FN_supported_links": 3,
+          "complete_negative_event_FP": 0,
+          "positive_link_timing_FP": 2,
+          "partial_unknown_event_FP": 1,
+          "known_positive_linkviews": 34,
+          "missed_positive_linkviews": 1,
+          "eligible_complete_supported_linkviews": 5,
+          "old_diffuse_complete_supported_linkviews": 3
+        },
+        "positive_window_IoU": {
+          "baseline": 0.8752039627039626,
+          "timing_oracle_fixed_support": 0.9475524475524476,
+          "erase_complete_negative_events": 0.8752039627039626,
+          "recover_missed_support_with_oracle_timing": 0.8821969696969696,
+          "observable_combined_oracle": 0.9545454545454546,
+          "hard_first_oracle_fixed_oldgate": 0.8808857808857808,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.9096736596736598,
+          "unrestricted_time_oracle_same_fixed_subset": 0.8808857808857808
+        }
+      },
+      "D7_I210_E": {
+        "windows": 32,
+        "positive_windows": 20,
+        "cell_totals": {
+          "TP": 357,
+          "FP": 25,
+          "FN": 4,
+          "missed_support_FN": 0,
+          "timing_FN_supported_links": 4,
+          "complete_negative_event_FP": 5,
+          "positive_link_timing_FP": 9,
+          "partial_unknown_event_FP": 11,
+          "known_positive_linkviews": 96,
+          "missed_positive_linkviews": 0,
+          "eligible_complete_supported_linkviews": 17,
+          "old_diffuse_complete_supported_linkviews": 6
+        },
+        "positive_window_IoU": {
+          "baseline": 0.9481102955015999,
+          "timing_oracle_fixed_support": 1.0,
+          "erase_complete_negative_events": 0.9481102955015999,
+          "recover_missed_support_with_oracle_timing": 0.9481102955015999,
+          "observable_combined_oracle": 1.0,
+          "hard_first_oracle_fixed_oldgate": 0.9481102955015999,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.9555112279025323,
+          "unrestricted_time_oracle_same_fixed_subset": 0.9481102955015999
+        }
+      },
+      "D7_I210_W": {
+        "windows": 32,
+        "positive_windows": 16,
+        "cell_totals": {
+          "TP": 182,
+          "FP": 37,
+          "FN": 50,
+          "missed_support_FN": 17,
+          "timing_FN_supported_links": 33,
+          "complete_negative_event_FP": 3,
+          "positive_link_timing_FP": 22,
+          "partial_unknown_event_FP": 12,
+          "known_positive_linkviews": 81,
+          "missed_positive_linkviews": 13,
+          "eligible_complete_supported_linkviews": 15,
+          "old_diffuse_complete_supported_linkviews": 9
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6276131063692425,
+          "timing_oracle_fixed_support": 0.7930839993339993,
+          "erase_complete_negative_events": 0.6323479548540909,
+          "recover_missed_support_with_oracle_timing": 0.7334662809724171,
+          "observable_combined_oracle": 0.9068813131313131,
+          "hard_first_oracle_fixed_oldgate": 0.6412000628909815,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.6571050808121285,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6412000628909815
+        }
+      },
+      "D7_I405_N": {
+        "windows": 32,
+        "positive_windows": 17,
+        "cell_totals": {
+          "TP": 106,
+          "FP": 30,
+          "FN": 11,
+          "missed_support_FN": 4,
+          "timing_FN_supported_links": 7,
+          "complete_negative_event_FP": 3,
+          "positive_link_timing_FP": 22,
+          "partial_unknown_event_FP": 5,
+          "known_positive_linkviews": 44,
+          "missed_positive_linkviews": 4,
+          "eligible_complete_supported_linkviews": 6,
+          "old_diffuse_complete_supported_linkviews": 6
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6668009989167485,
+          "timing_oracle_fixed_support": 0.8890473852523189,
+          "erase_complete_negative_events": 0.6803756595502326,
+          "recover_missed_support_with_oracle_timing": 0.7294195947421753,
+          "observable_combined_oracle": 0.96524064171123,
+          "hard_first_oracle_fixed_oldgate": 0.6668009989167485,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7060761028977348,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6668009989167485
+        }
+      },
+      "D7_I405_S": {
+        "windows": 32,
+        "positive_windows": 16,
+        "cell_totals": {
+          "TP": 309,
+          "FP": 25,
+          "FN": 72,
+          "missed_support_FN": 19,
+          "timing_FN_supported_links": 53,
+          "complete_negative_event_FP": 4,
+          "positive_link_timing_FP": 17,
+          "partial_unknown_event_FP": 4,
+          "known_positive_linkviews": 122,
+          "missed_positive_linkviews": 16,
+          "eligible_complete_supported_linkviews": 23,
+          "old_diffuse_complete_supported_linkviews": 22
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6976784896411685,
+          "timing_oracle_fixed_support": 0.886639948118735,
+          "erase_complete_negative_events": 0.6976784896411685,
+          "recover_missed_support_with_oracle_timing": 0.790223092254421,
+          "observable_combined_oracle": 0.989356884057971,
+          "hard_first_oracle_fixed_oldgate": 0.6976784896411685,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.770793041506943,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6976784896411685
+        }
+      },
+      "D12_I5_N": {
+        "windows": 32,
+        "positive_windows": 14,
+        "cell_totals": {
+          "TP": 252,
+          "FP": 29,
+          "FN": 59,
+          "missed_support_FN": 34,
+          "timing_FN_supported_links": 25,
+          "complete_negative_event_FP": 0,
+          "positive_link_timing_FP": 19,
+          "partial_unknown_event_FP": 10,
+          "known_positive_linkviews": 100,
+          "missed_positive_linkviews": 22,
+          "eligible_complete_supported_linkviews": 17,
+          "old_diffuse_complete_supported_linkviews": 13
+        },
+        "positive_window_IoU": {
+          "baseline": 0.5968767701423461,
+          "timing_oracle_fixed_support": 0.7283445675978734,
+          "erase_complete_negative_events": 0.5968767701423461,
+          "recover_missed_support_with_oracle_timing": 0.805865604768362,
+          "observable_combined_oracle": 0.9391414141414142,
+          "hard_first_oracle_fixed_oldgate": 0.598084499610945,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.6426164086141576,
+          "unrestricted_time_oracle_same_fixed_subset": 0.598084499610945
+        }
+      },
+      "D12_I5_S": {
+        "windows": 32,
+        "positive_windows": 10,
+        "cell_totals": {
+          "TP": 137,
+          "FP": 9,
+          "FN": 41,
+          "missed_support_FN": 16,
+          "timing_FN_supported_links": 25,
+          "complete_negative_event_FP": 2,
+          "positive_link_timing_FP": 7,
+          "partial_unknown_event_FP": 0,
+          "known_positive_linkviews": 60,
+          "missed_positive_linkviews": 7,
+          "eligible_complete_supported_linkviews": 10,
+          "old_diffuse_complete_supported_linkviews": 10
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6909142201576874,
+          "timing_oracle_fixed_support": 0.8946031746031746,
+          "erase_complete_negative_events": 0.7028189820624493,
+          "recover_missed_support_with_oracle_timing": 0.7805633429647048,
+          "observable_combined_oracle": 1.0,
+          "hard_first_oracle_fixed_oldgate": 0.6909142201576874,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7644668517366348,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6909142201576874
+        }
+      }
+    }
+  },
+  "December_current_R127": {
+    "windows": 177,
+    "positive_windows": 177,
+    "road_macro_positive_window_IoU": {
+      "baseline": 0.7405514459467888,
+      "timing_oracle_fixed_support": 0.8679736121004179,
+      "erase_complete_negative_events": 0.7439260468952963,
+      "recover_missed_support_with_oracle_timing": 0.8199004958583914,
+      "observable_combined_oracle": 0.954961450601943,
+      "hard_first_oracle_fixed_oldgate": 0.7487113514053187,
+      "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7734964278127567,
+      "unrestricted_time_oracle_same_fixed_subset": 0.7495359153903388
+    },
+    "cell_count_totals": {
+      "TP": 2756,
+      "FP": 334,
+      "FN": 518,
+      "missed_support_FN": 267,
+      "timing_FN_supported_links": 251,
+      "complete_negative_event_FP": 26,
+      "positive_link_timing_FP": 216,
+      "partial_unknown_event_FP": 92,
+      "known_positive_linkviews": 1048,
+      "missed_positive_linkviews": 125,
+      "eligible_complete_supported_linkviews": 189,
+      "old_diffuse_complete_supported_linkviews": 101
+    },
+    "cell_weighted_FN_fraction_due_to_missed_support": 0.5154440154440154,
+    "cell_weighted_FP_fraction_complete_negative_events": 0.07784431137724551,
+    "cell_weighted_FP_fraction_partial_unknown_events": 0.2754491017964072,
+    "per_road": {
+      "D7_I10_E": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 527,
+          "FP": 70,
+          "FN": 127,
+          "missed_support_FN": 86,
+          "timing_FN_supported_links": 41,
+          "complete_negative_event_FP": 9,
+          "positive_link_timing_FP": 40,
+          "partial_unknown_event_FP": 21,
+          "known_positive_linkviews": 198,
+          "missed_positive_linkviews": 35,
+          "eligible_complete_supported_linkviews": 30,
+          "old_diffuse_complete_supported_linkviews": 10
+        },
+        "positive_window_IoU": {
+          "baseline": 0.7434757105978367,
+          "timing_oracle_fixed_support": 0.8725991215274974,
+          "erase_complete_negative_events": 0.745212585026439,
+          "recover_missed_support_with_oracle_timing": 0.8290624307708786,
+          "observable_combined_oracle": 0.9641754850088183,
+          "hard_first_oracle_fixed_oldgate": 0.7565516077539822,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7721714454326435,
+          "unrestricted_time_oracle_same_fixed_subset": 0.7589897826059503
+        }
+      },
+      "D7_I10_W": {
+        "windows": 9,
+        "positive_windows": 9,
+        "cell_totals": {
+          "TP": 70,
+          "FP": 9,
+          "FN": 35,
+          "missed_support_FN": 30,
+          "timing_FN_supported_links": 5,
+          "complete_negative_event_FP": 0,
+          "positive_link_timing_FP": 7,
+          "partial_unknown_event_FP": 2,
+          "known_positive_linkviews": 34,
+          "missed_positive_linkviews": 10,
+          "eligible_complete_supported_linkviews": 7,
+          "old_diffuse_complete_supported_linkviews": 1
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6426762779703955,
+          "timing_oracle_fixed_support": 0.7377217553688141,
+          "erase_complete_negative_events": 0.6426762779703955,
+          "recover_missed_support_with_oracle_timing": 0.8779703956174544,
+          "observable_combined_oracle": 0.9730158730158729,
+          "hard_first_oracle_fixed_oldgate": 0.6670963023904201,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.6670963023904201,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6670963023904201
+        }
+      },
+      "D7_I210_E": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 284,
+          "FP": 37,
+          "FN": 12,
+          "missed_support_FN": 0,
+          "timing_FN_supported_links": 12,
+          "complete_negative_event_FP": 0,
+          "positive_link_timing_FP": 31,
+          "partial_unknown_event_FP": 6,
+          "known_positive_linkviews": 108,
+          "missed_positive_linkviews": 0,
+          "eligible_complete_supported_linkviews": 31,
+          "old_diffuse_complete_supported_linkviews": 5
+        },
+        "positive_window_IoU": {
+          "baseline": 0.8873331529581531,
+          "timing_oracle_fixed_support": 0.9613095238095237,
+          "erase_complete_negative_events": 0.8873331529581531,
+          "recover_missed_support_with_oracle_timing": 0.8873331529581531,
+          "observable_combined_oracle": 0.9613095238095237,
+          "hard_first_oracle_fixed_oldgate": 0.8891606383382701,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.9152023050049367,
+          "unrestricted_time_oracle_same_fixed_subset": 0.8891606383382701
+        }
+      },
+      "D7_I210_W": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 268,
+          "FP": 32,
+          "FN": 42,
+          "missed_support_FN": 13,
+          "timing_FN_supported_links": 29,
+          "complete_negative_event_FP": 1,
+          "positive_link_timing_FP": 21,
+          "partial_unknown_event_FP": 10,
+          "known_positive_linkviews": 111,
+          "missed_positive_linkviews": 9,
+          "eligible_complete_supported_linkviews": 21,
+          "old_diffuse_complete_supported_linkviews": 14
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6703208743605086,
+          "timing_oracle_fixed_support": 0.809340428090428,
+          "erase_complete_negative_events": 0.6731617834514175,
+          "recover_missed_support_with_oracle_timing": 0.773892302931937,
+          "observable_combined_oracle": 0.9190806878306877,
+          "hard_first_oracle_fixed_oldgate": 0.6755737233633576,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7177735416683587,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6755737233633576
+        }
+      },
+      "D7_I405_N": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 230,
+          "FP": 27,
+          "FN": 44,
+          "missed_support_FN": 35,
+          "timing_FN_supported_links": 9,
+          "complete_negative_event_FP": 0,
+          "positive_link_timing_FP": 25,
+          "partial_unknown_event_FP": 2,
+          "known_positive_linkviews": 94,
+          "missed_positive_linkviews": 17,
+          "eligible_complete_supported_linkviews": 17,
+          "old_diffuse_complete_supported_linkviews": 13
+        },
+        "positive_window_IoU": {
+          "baseline": 0.8034627923029252,
+          "timing_oracle_fixed_support": 0.9379950682034015,
+          "erase_complete_negative_events": 0.8034627923029252,
+          "recover_missed_support_with_oracle_timing": 0.855599413895192,
+          "observable_combined_oracle": 0.9947115384615385,
+          "hard_first_oracle_fixed_oldgate": 0.8044097619998949,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.8364228842677118,
+          "unrestricted_time_oracle_same_fixed_subset": 0.8044097619998949
+        }
+      },
+      "D7_I405_S": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 559,
+          "FP": 68,
+          "FN": 92,
+          "missed_support_FN": 37,
+          "timing_FN_supported_links": 55,
+          "complete_negative_event_FP": 7,
+          "positive_link_timing_FP": 43,
+          "partial_unknown_event_FP": 18,
+          "known_positive_linkviews": 196,
+          "missed_positive_linkviews": 23,
+          "eligible_complete_supported_linkviews": 21,
+          "old_diffuse_complete_supported_linkviews": 12
+        },
+        "positive_window_IoU": {
+          "baseline": 0.6740562850976524,
+          "timing_oracle_fixed_support": 0.8434509923794083,
+          "erase_complete_negative_events": 0.6805982790908011,
+          "recover_missed_support_with_oracle_timing": 0.7481661916199478,
+          "observable_combined_oracle": 0.9405546525683826,
+          "hard_first_oracle_fixed_oldgate": 0.6803372693715944,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7059434046268525,
+          "unrestricted_time_oracle_same_fixed_subset": 0.6820855211198461
+        }
+      },
+      "D12_I5_N": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 483,
+          "FP": 52,
+          "FN": 72,
+          "missed_support_FN": 30,
+          "timing_FN_supported_links": 42,
+          "complete_negative_event_FP": 4,
+          "positive_link_timing_FP": 26,
+          "partial_unknown_event_FP": 22,
+          "known_positive_linkviews": 179,
+          "missed_positive_linkviews": 18,
+          "eligible_complete_supported_linkviews": 37,
+          "old_diffuse_complete_supported_linkviews": 26
+        },
+        "positive_window_IoU": {
+          "baseline": 0.8019323500414837,
+          "timing_oracle_fixed_support": 0.8924815902792093,
+          "erase_complete_negative_events": 0.8134913601738635,
+          "recover_missed_support_with_oracle_timing": 0.832360025813987,
+          "observable_combined_oracle": 0.9365287180703002,
+          "hard_first_oracle_fixed_oldgate": 0.8096808880531796,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.8223004277658056,
+          "unrestricted_time_oracle_same_fixed_subset": 0.8096808880531796
+        }
+      },
+      "D12_I5_S": {
+        "windows": 24,
+        "positive_windows": 24,
+        "cell_totals": {
+          "TP": 335,
+          "FP": 39,
+          "FN": 94,
+          "missed_support_FN": 36,
+          "timing_FN_supported_links": 58,
+          "complete_negative_event_FP": 5,
+          "positive_link_timing_FP": 23,
+          "partial_unknown_event_FP": 11,
+          "known_positive_linkviews": 128,
+          "missed_positive_linkviews": 13,
+          "eligible_complete_supported_linkviews": 25,
+          "old_diffuse_complete_supported_linkviews": 20
+        },
+        "positive_window_IoU": {
+          "baseline": 0.7011541242453556,
+          "timing_oracle_fixed_support": 0.8888904171450611,
+          "erase_complete_negative_events": 0.7054721441883757,
+          "recover_missed_support_with_oracle_timing": 0.7548200532595818,
+          "observable_combined_oracle": 0.9503151260504202,
+          "hard_first_oracle_fixed_oldgate": 0.7068806199718513,
+          "hard_first_oracle_lift_oldgate_DIAGNOSTIC": 0.7510611113453253,
+          "unrestricted_time_oracle_same_fixed_subset": 0.7092907052517919
+        }
+      }
+    }
+  }
+}

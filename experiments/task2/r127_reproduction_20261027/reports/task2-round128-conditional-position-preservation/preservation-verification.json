@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "portable_root": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round128-conditional-position-preservation\\ConditionalPosition-R127",
+  "archive": "C:\\Users\\18049\\Documents\\Codex\\2026-10-26\\trafficflowbench-task2-improvement\\outputs\\task2-round128-conditional-position-preservation\\ConditionalPosition-R127.zip",
+  "archive_bytes": 876716119,
+  "archive_sha256": "c90229ea2df8215ffe18c52de910b1c32735d569257e36b076b0c3e9e3f07649",
+  "zip_CRC_passed": true,
+  "independent_validation_rows": 87000,
+  "original_model_and_cache_IO_blocked": true,
+  "Task1_92files_unchanged": true,
+  "Ongoing_frozen": true,
+  "source_files_unchanged": true,
+  "no_GitHub_or_Kaggle_publication": true,
+  "official_S_queue": null
+}

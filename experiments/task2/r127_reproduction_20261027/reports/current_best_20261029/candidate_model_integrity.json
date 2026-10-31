@@ -1,0 +1,11 @@
+{
+  "all_six_frozen_models_unchanged": true,
+  "sha256": {
+    "no_transport_control_20261029\\model.pt": "8a109f157374f18da170269d418eb5eff5662cdc3b8191eea3f0e5fcb85fec33",
+    "no_transport_control_20261030\\model.pt": "584c6504011e04d45fc4484a27588ec1871e5ebf60c5c63e70f454720ef58eff",
+    "no_transport_control_20261031\\model.pt": "58cd35f7bcfef5528fcbf978219448febb042422aeff77012e14104d1ab3c921",
+    "source_propagation_20261029\\model.pt": "98934701421afcb741d5bce7a45d1cb72b76d7b4404eabc118ba245c23089e49",
+    "source_propagation_20261030\\model.pt": "c13dedc7a59bcb6a7a107b5315df2ce77f96708252d3ce52d3f4f0174be5faaf",
+    "source_propagation_20261031\\model.pt": "06d93d0c6d7a755ba4dad19bb3f1211cfccbb5e05c281c45c3651cb999005772"
+  }
+}
