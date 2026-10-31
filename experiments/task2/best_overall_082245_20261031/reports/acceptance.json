@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "onset_unchanged": true,
+  "previous082186_full_archive_hashes_verified": true,
+  "previous082186_all_files_verified": true,
+  "independent_runtime_rows": 256,
+  "all8_roads": true,
+  "max_probability_error": {
+    "inverse_odds50": 0.0,
+    "sqrt_odds50": 0.0
+  },
+  "January_thresholds_only": true,
+  "February_parameter_tuning": false
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 256,
+  "roads": 8,
+  "CLI_invocation_checked": true,
+  "maximum_probability_error": 0.0,
+  "threshold": 0.35
+}

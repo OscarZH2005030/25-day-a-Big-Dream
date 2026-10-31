@@ -1,0 +1,43 @@
+{
+  "version": "task2-hybrid-082245-20261031",
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "onset_package": "../best_overall_081796_20261030",
+  "onset_candidate": "Frozen early_full",
+  "onset_threshold": [
+    0.5,
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "ongoing_candidate": "inverse_odds50",
+  "ongoing_threshold": 0.35,
+  "ongoing_features": 274,
+  "ongoing_model": "Keep frozen600-tree road specialist,continue200trees with inverse-positive-density window weighting;3seeds,equal log-odds R127 mixture",
+  "reference_cutoff": "2030-11-30",
+  "calibration": "January thresholds only",
+  "February_parameter_selection": false,
+  "official_S_queue": null,
+  "primary_result": {
+    "ongoing_model": "inverse_odds50",
+    "ongoing_IoU": 0.8688705016265295,
+    "fixed_onset_IoU": 0.7760323136566369,
+    "overall_IoU": 0.8224514076415832
+  },
+  "IoU_vs_previous_best": {
+    "delta": 0.0011911086255359526,
+    "day_cluster_95CI": [
+      -0.001393314523428085,
+      0.0038938522286122244
+    ],
+    "valid_resamples": 2000,
+    "days": 28
+  },
+  "selection_caveat": "Observed reused-February point-estimate leader, not independent blind confirmation. Same weights and thresholds for both populations.",
+  "tradeoff": "New population FP789->739,FN377->412 versus0.82186; preserve previous model. Not confirmed stable improvement."
+}

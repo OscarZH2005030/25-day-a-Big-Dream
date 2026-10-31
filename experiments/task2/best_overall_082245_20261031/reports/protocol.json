@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-31",
+  "method": "Continue frozen600-tree road specialist for200trees, emphasizing low-support positive windows. Full original600 trees retained.",
+  "supervision": "Same8143windows, causal274features, selectednodes,known2horizon sampling andIPW. June-Sep development and June-Nov final; no December/January fitting.",
+  "density": "For each positive fitting window q=known future positive cells / all known future cells over all road nodes and6horizons. Labels determine training weights only, never query inputs. Unknown targets excluded. Auxiliary no-known-positive windows factor1.",
+  "weighting": "Window factor clip((.1/(q+.01))**power,.5,cap), sqrt(power.5,cap4) or inverse(power1,cap8). Renormalize positive mass back to80%,auxiliary20% perroad, thenmean1. Fixed additional200trees lr.02,63leavesdepth7min60L2=20.",
+  "configs": [
+    {
+      "name": "sqrt_independent",
+      "capacity": "sqrt",
+      "mix": "independent"
+    },
+    {
+      "name": "sqrt_odds50",
+      "capacity": "sqrt",
+      "mix": "odds50"
+    },
+    {
+      "name": "inverse_independent",
+      "capacity": "inverse",
+      "mix": "independent"
+    },
+    {
+      "name": "inverse_odds50",
+      "capacity": "inverse",
+      "mix": "odds50"
+    }
+  ],
+  "capacities": {
+    "sqrt": {
+      "power": 0.5,
+      "cap": 4.0
+    },
+    "inverse": {
+      "power": 1.0,
+      "cap": 8.0
+    }
+  },
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "October": "Four configs: sqrt/inverse each independent or fixed equal log-odds R127 blend. June-Sep600-tree initialization from previous experiment; fixed.25 choose top2 IoU, FP/FN<=1.15R127 preferred. R127 trained on these dates, so anchored development not fully OOS.",
+  "November": "Same selected2,three fixed seeds, report only; no reselection.",
+  "January": "Only one global threshold per candidate .05.. .75 step.025; maximizeIoU subject FP/FN<=1.05current0812186model January,and eachroad IoU loss<=.03; otherwise diagnostic maximum.",
+  "February": "Weights/config/Januarythresholds hash frozen; same2populations, no tuning. Retain every point-estimate leader above0.821855853; do not change best onset early_full.",
+  "labels": "Reliable observation proxy, not official hidden S_queue. February reused development, not blind."
+}
