@@ -1,0 +1,4724 @@
+{
+  "new_phase_population": {
+    "overall_proxy_IoU": 0.8218558533288152,
+    "onset_proxy_IoU": 0.7760323136566369,
+    "ongoing_proxy_IoU": 0.8676793930009936,
+    "positive_windows": 367,
+    "by_panel_condition": {
+      "D7_I10_E/queue_onset": 0.7950185672207014,
+      "D7_I10_E/queue_ongoing": 0.834521253119354,
+      "D7_I10_W/queue_onset": 0.8825746302308802,
+      "D7_I10_W/queue_ongoing": 0.7665249689493641,
+      "D7_I210_E/queue_onset": 0.9307692307692307,
+      "D7_I210_E/queue_ongoing": 0.8923611111111112,
+      "D7_I210_W/queue_onset": 0.6779485159090423,
+      "D7_I210_W/queue_ongoing": 0.9427967948048223,
+      "D7_I405_N/queue_onset": 0.7553802411824483,
+      "D7_I405_N/queue_ongoing": 0.8729034693385245,
+      "D7_I405_S/queue_onset": 0.7685882920120859,
+      "D7_I405_S/queue_ongoing": 0.8921858390091351,
+      "D12_I5_N/queue_onset": 0.7246753868028563,
+      "D12_I5_N/queue_ongoing": 0.9025099063477683,
+      "D12_I5_S/queue_onset": 0.67330364512585,
+      "D12_I5_S/queue_ongoing": 0.8376318013278695
+    },
+    "cell_counts": {
+      "FP": 1056,
+      "FN": 905
+    },
+    "window_scores": [
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-15T09:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-18T06:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6363636363636364
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-06T12:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-19T13:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4166666666666667
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-22T12:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-26T12:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-02T12:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-21T07:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-25T07:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-20T11:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-08T11:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-13T07:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-01T08:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-12T12:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-28T11:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8181818181818182
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-16T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-07T11:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.2777777777777778
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-17T07:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6190476190476191
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-04T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4594594594594595
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-14T12:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-05T07:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.603448275862069
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-09T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-03T12:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8235294117647058
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-21T15:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8692307692307693
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-13T19:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-08T16:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-25T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-01T11:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-20T14:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9428571428571428
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-06T12:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.84375
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-17T16:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.993006993006993
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-05T16:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8230088495575221
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-13T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.125
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-02T12:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7037037037037037
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-18T16:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9821428571428571
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-04T16:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6363636363636364
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-01T17:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9473684210526315
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-22T14:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-16T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9787234042553191
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-09T13:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-15T16:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9811320754716981
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-12T13:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-28T16:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-14T14:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.98
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-18T09:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-21T21:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5555555555555556
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-07T12:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-26T14:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7857142857142857
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-27T14:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9375
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-06T14:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9333333333333333
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-21T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-10T14:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-05T14:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T07:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-19T14:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-04T14:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T14:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-23T14:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-01T14:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-08T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-15T14:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-24T14:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-22T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-27T15:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-22T16:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-04T14:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9444444444444444
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-24T15:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7837837837837838
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-19T17:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7266666666666667
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-05T16:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-26T16:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8125
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-01T16:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-23T15:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.21428571428571427
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-21T14:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-06T15:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-15T16:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-08T16:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-10T15:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T08:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.16129032258064516
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-09T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-03T06:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-18T06:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-20T07:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-08T08:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5384615384615384
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-17T06:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-26T06:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-12T06:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-22T08:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-15T08:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-24T07:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-23T10:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-14T06:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-04T06:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-19T06:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-10T06:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-27T07:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-13T06:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-05T06:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-16T09:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-02T09:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-01T08:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-06T06:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-07T06:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-14T10:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-07T19:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-09T20:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-07T07:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-17T17:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-26T16:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-13T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-28T14:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-12T20:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-20T09:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4166666666666667
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-24T11:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-26T10:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-06T18:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-10T10:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-02T14:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-01T16:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-08T09:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-28T21:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-18T18:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-16T13:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-25T16:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-08T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-13T20:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-19T08:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-17T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-16T09:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8181818181818182
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-04T10:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8421052631578947
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-10T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-03T05:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-02T10:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-05T09:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-22T08:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-07T10:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-06T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-13T05:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-11T05:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.875
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-18T13:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-01T07:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-10T05:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8181818181818182
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-12T08:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.07142857142857142
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-19T10:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-20T04:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-27T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.76
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-15T09:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3076923076923077
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-08T09:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-25T10:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7857142857142857
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-24T05:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-28T12:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-19T14:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-08T14:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9864864864864865
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-26T11:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-10T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-13T15:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-04T18:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9782608695652174
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-10T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-20T15:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9821428571428571
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-25T12:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-27T13:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.96
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-15T10:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9512195121951219
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-11T13:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.95
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-22T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-23T15:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9801980198019802
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-09T09:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-05T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.95
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-18T16:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8225806451612904
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-09T17:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9805825242718447
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-12T15:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9911504424778761
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-06T15:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-17T14:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7435897435897436
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-03T16:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9278350515463918
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-26T17:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-28T17:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9230769230769231
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-03T13:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-21T10:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-20T05:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8666666666666667
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-26T13:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-02T12:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-05T06:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-09T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-11T13:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6923076923076923
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-11T05:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7272727272727273
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-08T09:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-28T13:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-17T05:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.06451612903225806
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-18T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-06T05:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-27T05:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.2894736842105263
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-10T05:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-07T05:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-15T11:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-18T05:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-12T12:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-01T09:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-24T06:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-14T10:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-13T05:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-22T15:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.925
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-21T12:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9142857142857143
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-18T15:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.927038626609442
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-25T17:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-28T18:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-02T12:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-05T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-01T16:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9946808510638298
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-20T17:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-06T08:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9838709677419355
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-03T16:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-24T19:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9657320872274143
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-10T21:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-11T06:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.20689655172413793
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-25T07:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-27T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9500805152979066
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-12T16:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.967741935483871
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-07T06:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8181818181818182
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-04T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-09T18:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.868421052631579
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-04T18:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.952191235059761
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-23T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9672131147540983
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-05T13:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8484848484848485
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-15T14:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9693877551020408
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-11T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-22T09:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-05T06:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-10T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4444444444444444
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-20T13:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-04T07:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-28T12:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-17T12:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7368421052631579
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-08T09:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5833333333333334
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-01T15:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-03T12:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-23T10:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8125
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-06T12:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9259259259259259
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-21T07:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9454545454545454
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-09T10:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8461538461538461
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-14T10:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-18T07:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9230769230769231
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-12T07:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9459459459459459
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-25T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-16T10:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-27T06:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-02T12:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6486486486486487
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-13T07:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.21875
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-07T12:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8666666666666667
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-04T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-17T17:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.26666666666666666
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-11T15:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8514851485148515
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-05T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-04T15:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9488636363636364
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-08T12:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-16T11:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-27T16:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-20T14:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.36363636363636365
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-21T12:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-03T16:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9411764705882353
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-22T17:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9236641221374046
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-23T14:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9938271604938271
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-13T08:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8645833333333334
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-12T15:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9195402298850575
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-07T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9010989010989011
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-24T12:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-25T16:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9261744966442953
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-14T12:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9607843137254902
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-10T14:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9936708860759493
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-09T12:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-21T22:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7777777777777778
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-24T19:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9210526315789473
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-25T09:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9493670886075949
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-27T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5384615384615384
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-10T12:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-05T12:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-25T14:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9444444444444444
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-19T12:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-15T12:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-14T12:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-17T13:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-08T13:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-20T14:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-03T14:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6551724137931034
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-07T13:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5294117647058824
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-12T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.851063829787234
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-21T12:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-23T12:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-06T08:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-26T14:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.95
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-04T07:55:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6153846153846154
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-02T14:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-18T14:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-09T11:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7368421052631579
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-22T10:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-01T12:35:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-16T11:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-09T16:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-01T18:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8535353535353535
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-17T19:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7702702702702703
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-19T18:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9871382636655949
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-10T18:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9739952718676123
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-22T20:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9289940828402367
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-16T19:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9826086956521739
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-14T13:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8088235294117647
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-23T18:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8238636363636364
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-07T17:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9411764705882353
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-25T16:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-03T14:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9895833333333334
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-06T14:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9635416666666666
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-08T17:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9473684210526315
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-05T18:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-06T08:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6712328767123288
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-12T14:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8741935483870967
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-04T13:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9285714285714286
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-26T16:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9615384615384616
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-22T13:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.946031746031746
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-02T17:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9230769230769231
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-18T17:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-27T14:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9238410596026491
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-21T17:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9941860465116279
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-22T11:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-25T13:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-04T15:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-03T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8205128205128205
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-21T13:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-02T10:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.29411764705882354
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-15T09:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.71875
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-13T14:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-05T12:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8666666666666667
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-10T14:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-09T13:05:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-18T15:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-06T12:15:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-08T13:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-28T12:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.45
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-23T10:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-27T13:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7368421052631579
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-14T14:40:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6551724137931034
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-16T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.1111111111111111
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-17T13:50:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7777777777777778
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-12T13:25:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8928571428571429
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-01T13:45:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9375
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-19T12:20:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5555555555555556
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-07T13:10:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.25
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-03T14:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9418604651162791
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-05T12:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.918918918918919
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-06T18:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.848
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-05T19:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.855072463768116
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-21T15:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8857142857142857
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-11T13:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9433962264150944
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-02T19:15:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7272727272727273
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-28T15:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8773584905660378
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-16T14:25:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9538461538461539
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-19T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9574468085106383
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-01T14:20:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9583333333333334
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-15T10:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.23529411764705882
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-17T17:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9338842975206612
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-12T14:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9117647058823529
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-14T16:40:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5555555555555556
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-23T19:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-26T13:50:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9285714285714286
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-10T17:10:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8604651162790697
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-22T18:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8656716417910447
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-15T17:05:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9349593495934959
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-13T16:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8648648648648649
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-25T14:45:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9649122807017544
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-09T14:35:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.88
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-04T15:55:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8
+      }
+    ]
+  },
+  "old410": {
+    "overall_proxy_IoU": 0.7696392677858372,
+    "onset_proxy_IoU": 0.7380987498843654,
+    "ongoing_proxy_IoU": 0.8011797856873091,
+    "positive_windows": 410,
+    "by_panel_condition": {
+      "D7_I10_E/queue_onset": 0.7641370364621549,
+      "D7_I10_E/queue_ongoing": 0.83811084490176,
+      "D7_I10_W/queue_onset": 0.8090517893586947,
+      "D7_I10_W/queue_ongoing": 0.8153723755786296,
+      "D7_I210_E/queue_onset": 0.9347228858098423,
+      "D7_I210_E/queue_ongoing": 0.9371643394199786,
+      "D7_I210_W/queue_onset": 0.6743935231435233,
+      "D7_I210_W/queue_ongoing": 0.7150108697953478,
+      "D7_I405_N/queue_onset": 0.7665366168705605,
+      "D7_I405_N/queue_ongoing": 0.7897577833792854,
+      "D7_I405_S/queue_onset": 0.7343145380194946,
+      "D7_I405_S/queue_ongoing": 0.7469581052741135,
+      "D12_I5_N/queue_onset": 0.6124430373532758,
+      "D12_I5_N/queue_ongoing": 0.8040395776551855,
+      "D12_I5_S/queue_onset": 0.6091905720573778,
+      "D12_I5_S/queue_ongoing": 0.7630243894941722
+    },
+    "cell_counts": {
+      "FP": 989,
+      "FN": 1529
+    },
+    "window_scores": [
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-01T08:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-01T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9705882352941176
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-02T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-02T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5070422535211268
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-03T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8666666666666667
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-03T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7272727272727273
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-04T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4594594594594595
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-04T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-05T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6111111111111112
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-05T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9354838709677419
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-06T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-06T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-07T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-07T12:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-08T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3142857142857143
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-08T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-09T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-09T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8301886792452831
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-12T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-12T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-13T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9411764705882353
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-13T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.125
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-14T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-14T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-15T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-15T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-16T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-16T12:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-17T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.56
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-17T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4025974025974026
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-18T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-18T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.373134328358209
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-19T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3076923076923077
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-19T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-20T12:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9354838709677419
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-20T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-21T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8055555555555556
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-21T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4375
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-22T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-22T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.967741935483871
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-25T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9701492537313433
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-25T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-26T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7619047619047619
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-26T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-28T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2031-02-28T12:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-01T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8666666666666667
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-01T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-01T18:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9545454545454546
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-04T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-04T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9444444444444444
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-04T18:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-05T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-05T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-05T19:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-06T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-06T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.95
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-06T18:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-08T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-08T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.96
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-08T16:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8421052631578947
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-10T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-10T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9615384615384616
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-10T16:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7777777777777778
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T15:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-12T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-15T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-15T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-15T16:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6521739130434783
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-19T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-19T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9565217391304348
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-19T19:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8518518518518519
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-21T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-21T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9565217391304348
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-21T18:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-22T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-22T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-22T16:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9230769230769231
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-23T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-23T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-24T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9285714285714286
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-24T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.48936170212765956
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-24T19:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6956521739130435
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-26T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-26T15:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9130434782608695
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-26T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-26T16:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-27T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-27T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9565217391304348
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2031-02-27T16:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-01T09:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-01T09:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-02T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-02T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-03T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-03T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-04T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-04T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-05T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-05T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-06T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-06T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-07T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-07T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-08T08:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.34615384615384615
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-08T09:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-09T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-09T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-10T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-10T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-11T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-11T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-12T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-12T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-13T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-13T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-14T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-14T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-15T08:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-15T09:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7894736842105263
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-16T10:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-16T10:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-17T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8260869565217391
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-17T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.21428571428571427
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-18T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-18T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-19T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-19T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-20T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-20T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-21T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-21T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-22T08:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-22T09:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-23T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-23T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-24T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-24T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-25T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-25T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-26T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-26T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-27T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-27T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.23684210526315788
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-28T06:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2031-02-28T07:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-01T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-01T09:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-02T10:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-02T10:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5909090909090909
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-03T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-03T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-04T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-04T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4146341463414634
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-05T05:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-05T05:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-06T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-06T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8709677419354839
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-07T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-07T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-08T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4666666666666667
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-08T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-09T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-09T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-10T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-10T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-11T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-11T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-12T05:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6363636363636364
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-12T05:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.68
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-13T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-13T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-14T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-14T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6944444444444444
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-15T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-15T10:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-16T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.375
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-16T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-17T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-17T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9642857142857143
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-18T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-18T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-19T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-19T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7857142857142857
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-20T05:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-20T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6612903225806451
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-21T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8181818181818182
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-21T12:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-22T08:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.36363636363636365
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-22T09:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-23T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-23T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-24T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8181818181818182
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-24T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.42857142857142855
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-25T05:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-25T05:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-26T05:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7692307692307693
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-26T05:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-27T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.76
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-27T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-28T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2031-02-28T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8461538461538461
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-01T10:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-01T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-02T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-02T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-03T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-03T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-04T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8421052631578947
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-04T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-05T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-05T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-06T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-06T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9402985074626866
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-07T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9411764705882353
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-07T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-08T10:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-08T10:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-09T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-09T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-10T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7619047619047619
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-10T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-11T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8421052631578947
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-11T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.41379310344827586
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-12T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-12T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8823529411764706
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-13T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9444444444444444
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-13T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-14T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8571428571428571
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-14T11:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-15T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7777777777777778
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-15T12:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-16T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-16T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-17T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-17T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-18T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7647058823529411
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-18T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6875
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-19T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8518518518518519
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-19T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-20T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.782608695652174
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-20T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8125
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-21T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6153846153846154
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-21T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-22T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-22T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-23T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.16666666666666666
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-23T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-24T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9230769230769231
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-24T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-25T06:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7878787878787878
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-25T06:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8709677419354839
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-26T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-26T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6470588235294118
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-27T05:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.40816326530612246
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-27T06:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6091954022988506
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-28T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.25
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2031-02-28T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9130434782608695
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-01T15:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-02T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-02T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.48484848484848486
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-03T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7333333333333333
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-03T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8529411764705882
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-04T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7241379310344828
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-04T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-05T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-05T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6790123456790124
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-06T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.44
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-06T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7551020408163265
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-07T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8947368421052632
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-07T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5964912280701754
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-08T09:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6923076923076923
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-08T09:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4482758620689655
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-09T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-09T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8837209302325582
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-10T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4444444444444444
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-10T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-11T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-11T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8958333333333334
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-12T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-12T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.4307692307692308
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-13T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.37037037037037035
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-13T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-14T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-14T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-16T10:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-16T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8974358974358975
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-17T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-17T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5737704918032787
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-18T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8163265306122449
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-18T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9518072289156626
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-20T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7391304347826086
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-20T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-21T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8809523809523809
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-21T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7340425531914894
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-22T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-22T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-23T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-23T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.88
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-24T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7368421052631579
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-24T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8787878787878788
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-25T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-25T08:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.935064935064935
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-27T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7916666666666666
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-27T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.14
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-28T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5238095238095238
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2031-02-28T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-01T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-01T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9024390243902439
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-02T14:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.875
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-02T14:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.68
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-03T14:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4782608695652174
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-03T14:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.875
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-04T07:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-04T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7936507936507936
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-05T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8125
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-05T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7741935483870968
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-06T08:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-06T08:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6712328767123288
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-07T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6296296296296297
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-07T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.863013698630137
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-08T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-08T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.84
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-09T11:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-09T11:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9090909090909091
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-10T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6875
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-10T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8823529411764706
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-11T14:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-11T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7636363636363637
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-12T07:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-12T07:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5961538461538461
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-14T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9166666666666666
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-14T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9310344827586207
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-15T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6153846153846154
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-15T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8518518518518519
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-16T11:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-16T11:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9130434782608695
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-17T14:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.6111111111111112
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-17T14:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.921875
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-18T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-18T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6129032258064516
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-19T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8064516129032258
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-19T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8904109589041096
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-20T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-20T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7777777777777778
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-21T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9047619047619048
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-21T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.875
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-22T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-22T10:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.5402298850574713
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-23T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.4166666666666667
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-23T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.775
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-25T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.42857142857142855
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-25T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.95
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-26T14:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-26T14:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7941176470588235
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-27T08:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.0
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2031-02-27T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7169811320754716
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-01T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-01T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-02T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.18181818181818182
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-02T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-03T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-03T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.96
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-04T15:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-04T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-05T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-05T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.975
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-06T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7407407407407407
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-06T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.975609756097561
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-07T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8823529411764706
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-07T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.39215686274509803
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-08T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.75
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-08T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7647058823529411
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-09T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-09T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.625
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-10T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7647058823529411
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-10T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-11T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.42857142857142855
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-11T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9464285714285714
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-12T13:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8333333333333334
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-12T13:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6875
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-13T14:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7272727272727273
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-13T14:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.875
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-14T14:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8260869565217391
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-14T15:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-15T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.9047619047619048
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-15T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.2727272727272727
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-16T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.1111111111111111
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-16T11:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.14814814814814814
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-17T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.8
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-17T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.7096774193548387
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-18T15:00:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-18T15:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-19T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.65
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-19T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9574468085106383
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-21T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5714285714285714
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-21T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9444444444444444
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-22T11:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.10526315789473684
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-22T12:30:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.78125
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-23T10:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.3333333333333333
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-23T11:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.6666666666666666
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-25T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-25T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8125
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-26T09:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.7142857142857143
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-26T10:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.48484848484848486
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-27T13:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-27T14:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.9523809523809523
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-28T12:30:00Z",
+        "condition": "queue_onset",
+        "IoU": 0.5555555555555556
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2031-02-28T13:00:00Z",
+        "condition": "queue_ongoing",
+        "IoU": 0.8571428571428571
+      }
+    ]
+  }
+}

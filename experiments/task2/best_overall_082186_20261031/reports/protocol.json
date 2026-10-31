@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-31",
+  "method": "Separate shared-horizon binary specialist per road, compared with global rich-field head; two predeclared capacities.",
+  "features": "Identical274 causal rich-field features, no new feature selection. Same8143 June-Nov windows, node/horizon sampling, IPW and80/20positive/auxiliary mass as prior speed experiment.",
+  "capacities": {
+    "compact": {
+      "rounds": 400,
+      "num_leaves": 31,
+      "max_depth": 6,
+      "min_data_in_leaf": 100
+    },
+    "larger": {
+      "rounds": 600,
+      "num_leaves": 63,
+      "max_depth": 7,
+      "min_data_in_leaf": 60
+    }
+  },
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "configs": [
+    {
+      "name": "compact_independent",
+      "capacity": "compact",
+      "mix": "independent"
+    },
+    {
+      "name": "compact_odds50",
+      "capacity": "compact",
+      "mix": "odds50"
+    },
+    {
+      "name": "larger_independent",
+      "capacity": "larger",
+      "mix": "independent"
+    },
+    {
+      "name": "larger_odds50",
+      "capacity": "larger",
+      "mix": "odds50"
+    }
+  ],
+  "October": "June-Sep weights and end-Sep reference; one seed, fixed.25 select top2 of4 by IoU with FP/FN<=1.15R127 preferred. R127 in-sample on development dates.",
+  "November": "Selected2 with3 seeds, no reselection. Final weights June-Nov with3 fixed seeds.",
+  "January": "Only one global threshold per candidate, .05.. .75 step.025, maximizeIoU subject FP/FN<=1.05R127 and no road IoU loss>.03; else diagnostic maximum. No road-specific January gates or thresholds.",
+  "February": "After hash freeze, same2 populations, no tuning. Preserve .817962444, .818656782 and best early_full onset. Retain every point-estimate improvement, report uncertainty.",
+  "labels": "Reliable-observation proxy, hidden official S_queue unavailable; February reused development, not blind."
+}

@@ -1,10 +1,10 @@
-## Task 2 当前最高新口径代理Overall：0.817962444（2026-10-30）
+## Task 2 当前最高新口径代理Overall：0.821855853（2026-10-31）
 
-[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_081796_20261030/README.md)
+[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_082186_20261031/README.md)
 
-采用 **新Onset early_full + 原R127 Ongoing**。二月新口径367个正例窗口：Overall **0.817962444**，Onset **0.776032314**，Ongoing **0.859892575**；原R127 Overall为0.795976209，提升2.20个百分点。同一模型在旧410窗口上Overall为0.758598036。三种子及门槛固定，只用一月选择门槛，二月未调参；近期Ongoing实验未提升新口径，故本版保留R127 Ongoing。
+采用 **固定最好Onset early_full + 按道路训练并与R127融合的Ongoing**。二月新口径367个正例窗口：Overall **0.821855853**，Onset **0.776032314**，Ongoing **0.867679393**。Ongoing FP789/FN377；原R127为FP922/FN372。同一模型在旧410窗口上Overall为0.769639268、Ongoing为0.801179786。三种子及门槛固定，只用一月选门槛0.325，二月未调参。原[0.817962444版本](experiments/task2/best_overall_081796_20261030/README.md)及其Onset原样保留。
 
-以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。不同窗口口径分别报告，不拼接道路或按口径切换模型。新增权重已入库，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。新口径相对上一最好增益的95%日块区间仍跨零，稳定性待验证。不同窗口口径分别报告，不拼接道路或按口径切换模型。24个新增Ongoing权重已入库，Onset沿用已发布权重，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
 
 [原R127完整复现](experiments/task2/r127_reproduction_20261027/README.md) · [原0.79598版本与逐月审计](experiments/task2/r127_reproduction_20261027/reports/current_best_20261029/README.md)
 

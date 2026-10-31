@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "independent_runtime_rows": 256,
+  "runtime_all8_roads": true,
+  "max_probability_error": {
+    "larger_odds50": 0.0,
+    "compact_odds50": 0.0
+  },
+  "onset_unchanged": true,
+  "R127_files_verified": 1214,
+  "published081796_files_verified": 65,
+  "prior0818656782_archive_hashes_verified": true,
+  "January_only_thresholds": true,
+  "February_parameter_selection": false
+}
