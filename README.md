@@ -1,10 +1,10 @@
-## Task 2 当前最高新口径代理Overall点估计：0.822451408（2026-10-31）
+## Task 2 当前最高新口径代理Overall点估计：0.826387575（2026-10-31）
 
-[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_082245_20261031/README.md)
+[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_082639_jaccard_20261031/README.md)
 
-采用 **固定最好Onset early_full + 按道路继续训练并与R127融合的Ongoing**。二月新口径367个正例窗口：Overall **0.822451408**，Onset **0.776032314**，Ongoing **0.868870502**。小队列窗口加权继续训练后，相对[保留的0.821855853版本](experiments/task2/best_overall_082186_20261031/README.md)，Ongoing FP789→739、FN377→412，有少误报、多漏报的取舍。同一模型在旧410窗口上Overall为0.771088384、Ongoing为0.804078019。三种子及门槛固定，只用一月选门槛0.35，二月未调参。原0.82186和[0.817962444版本](experiments/task2/best_overall_081796_20261030/README.md)及其最好Onset均原样保留。
+采用 **固定最好Onset early_full + 完整已知时距监督和Soft-IoU损失的Ongoing**。二月新口径367个正例窗口：Overall **0.826387575**，Onset **0.776032314**，Ongoing **0.876742837**。相对[保留的0.822451408版本](experiments/task2/best_overall_082245_20261031/README.md)，Ongoing FP739→690、FN412→423。同数据同轮数BCE对照Ongoing为0.870013664。同一模型在旧410窗口上Overall0.771024918、Ongoing0.803951086，略低于0.82245版本的旧口径0.804078019。三种子固定，仅一月选择最高IoU门槛0.375，二月未调参。原0.82245、[0.82186](experiments/task2/best_overall_082186_20261031/README.md)和[0.81796](experiments/task2/best_overall_081796_20261030/README.md)及最好Onset均原样保留。
 
-以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。两套口径相对0.82186增益的95%日块区间都跨零；本版作为另存研究候选，不宣称已确认稳定提升。一月ongoing0.90167不代表二月达到0.9。不同窗口口径分别报告，不拼接道路或按口径切换模型。24个800树Ongoing权重已入库，Onset沿用已发布权重，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。新口径增益95%日块区间仍跨零，本版作为另存研究候选，不宣称稳定提升。一月最高IoU门槛不满足原FN保护条件，本轮以一月最高IoU为主目标采用该点，二月没有重新选门槛。二月Ongoing尚未达到0.9。不同窗口口径分别报告，不拼接道路或按口径切换模型。24个900树Ongoing权重已入库，Onset沿用已发布权重，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
 
 [原R127完整复现](experiments/task2/r127_reproduction_20261027/README.md) · [原0.79598版本与逐月审计](experiments/task2/r127_reproduction_20261027/reports/current_best_20261029/README.md)
 

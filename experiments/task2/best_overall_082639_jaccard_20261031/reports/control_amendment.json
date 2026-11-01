@@ -1,0 +1,10 @@
+{
+  "before_January": true,
+  "before_February": true,
+  "reason": "Separate benefit of full-known-horizon supervision from SoftIoU loss at final evaluation",
+  "config": {
+    "name": "control_odds50",
+    "capacity": "control",
+    "mix": "odds50"
+  }
+}

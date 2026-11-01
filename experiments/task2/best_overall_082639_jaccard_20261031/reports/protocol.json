@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-31",
+  "method": "Full-known-horizon continuation: matched BCE control versus BCE+window Soft-IoU gradients. Start frozen800-tree inverse-density road models;100newtrees lr.02.",
+  "inputs": "Identical274 causal features and selectednodes/IPW from8143windows. All known5-30min horizons replace sampled<=2horizons/node. Missing future cells never enter rows. No future input features.",
+  "weights": "Same inverse-density positive-window factor clip(.1/(q+.01),.5,8),aux factor1,positive/aux mass80/20 perroad,mean1. q from known fitting targets only. Same weights/data across3heads.",
+  "objective": "Weighted BCE plus lambda * sum_window(weight_mass*(1-softIoU)). Exact analytical gradient; positive Fisher-like curvature proxy because true SoftIoU Hessian may be negative. Auxiliary allnegative windows still trained by BCE. lambda0,.25,.75 fixed before development.",
+  "configs": [
+    {
+      "name": "control_independent",
+      "capacity": "control",
+      "mix": "independent"
+    },
+    {
+      "name": "control_odds50",
+      "capacity": "control",
+      "mix": "odds50"
+    },
+    {
+      "name": "j025_independent",
+      "capacity": "j025",
+      "mix": "independent"
+    },
+    {
+      "name": "j025_odds50",
+      "capacity": "j025",
+      "mix": "odds50"
+    },
+    {
+      "name": "j075_independent",
+      "capacity": "j075",
+      "mix": "independent"
+    },
+    {
+      "name": "j075_odds50",
+      "capacity": "j075",
+      "mix": "odds50"
+    }
+  ],
+  "capacities": {
+    "control": {
+      "strength": 0.0
+    },
+    "j025": {
+      "strength": 0.25
+    },
+    "j075": {
+      "strength": 0.75
+    }
+  },
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "rounds": 100,
+  "October": "June-Sep800-tree initialization and known-horizon fitting;one seed6configs(control/j025/j075 x independent/odds50),fixed.25 pick top2IoU with FP/FN<=1.15R127 preferred. R127 fit these dates,anchored development not fully OOS.",
+  "November": "Selected2,three seeds,report only;no reselection. FinalJune-Nov800-tree initialization plus100trees.",
+  "January": "Primary threshold only: maximizeJanuaryIoU on .05.. .75 step.025 without hard FP/FN constraints, as requested higherIoU priority. Report FP/FN<=1.05incumbent and perroadloss<=.03 feasibility and best feasible threshold separately; no February threshold selection.",
+  "February": "All weights/config/Januarythresholds+objective source hash frozen before same2populations;no tuning;retain everypointleader;preserve082245,082186,bestearly_full onset.",
+  "caveat": "Reliable-observation proxy,not official S_queue;February repeated development,not blind.",
+  "fixed_control_ablation": "Before any January/February evaluation, append control_odds50 as fixed matched full-horizon BCE final control to two October-selected SoftIoU candidates. Finalcontrol uses3seeds. November confirmation remains selected2SoftIoU3seeds; control October uses1seed. No model choice on Jan/Feb."
+}

@@ -1,0 +1,13 @@
+﻿population,model_082245,minutes,FP_082245,FN_082245,model_082639,FP_082639,FN_082639,FP_change,FN_change
+new_phase_population,inverse_odds50,5,63,38,j075_odds50,58,36,-5,-2
+new_phase_population,inverse_odds50,10,67,54,j075_odds50,62,52,-5,-2
+new_phase_population,inverse_odds50,15,108,65,j075_odds50,102,68,-6,3
+new_phase_population,inverse_odds50,20,153,77,j075_odds50,150,80,-3,3
+new_phase_population,inverse_odds50,25,166,94,j075_odds50,150,97,-16,3
+new_phase_population,inverse_odds50,30,182,84,j075_odds50,168,90,-14,6
+old410,inverse_odds50,5,62,60,j075_odds50,56,65,-6,5
+old410,inverse_odds50,10,79,138,j075_odds50,75,146,-4,8
+old410,inverse_odds50,15,83,166,j075_odds50,78,171,-5,5
+old410,inverse_odds50,20,98,187,j075_odds50,93,194,-5,7
+old410,inverse_odds50,25,117,219,j075_odds50,111,226,-6,7
+old410,inverse_odds50,30,109,216,j075_odds50,104,224,-5,8

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "onset_unchanged": true,
+  "previous082245_full_archive_hashes_verified": true,
+  "previous082245_all_files_verified": true,
+  "independent_runtime_rows": 256,
+  "all8_roads": true,
+  "max_probability_error": {
+    "j025_odds50": 0.0,
+    "j075_odds50": 0.0,
+    "control_odds50": 0.0
+  },
+  "unit_tests": 4,
+  "actual_training_objective_descent_verified": true,
+  "January_thresholds_only": true,
+  "February_parameter_tuning": false
+}

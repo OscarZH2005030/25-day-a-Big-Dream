@@ -1,0 +1,8 @@
+{
+  "note": "January stdout feasible means some feasible grid threshold exists; the authoritative selected-threshold feasibility is January_results.json candidates[name].feasible. Primary thresholds maximize January IoU without hard FP/FN guardrails. Models, thresholds and predictions are unchanged.",
+  "selected_threshold_feasibility": {
+    "j025_odds50": false,
+    "j075_odds50": false,
+    "control_odds50": false
+  }
+}

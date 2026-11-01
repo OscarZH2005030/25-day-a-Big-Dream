@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "CLI_checked": true,
+  "rows": 256,
+  "roads": 8,
+  "maximum_probability_error": 0.0,
+  "threshold": 0.375,
+  "raw_scores_decoded_with_sigmoid": true
+}

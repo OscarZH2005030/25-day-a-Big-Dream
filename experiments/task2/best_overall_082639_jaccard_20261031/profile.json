@@ -1,0 +1,45 @@
+{
+  "version": "task2-hybrid-082639-20261031",
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "onset_package": "../best_overall_081796_20261030",
+  "onset_candidate": "Frozen early_full",
+  "onset_threshold": [
+    0.5,
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "ongoing_candidate": "j075_odds50",
+  "ongoing_threshold": 0.375,
+  "ongoing_features": 274,
+  "ongoing_model": "Frozen800trees+100trees,all-known horizons,weighted BCE+0.75windowSoftIoU; sigmoid raw scores;3seeds and equal log-odds R127 mixture",
+  "reference_cutoff": "2030-11-30",
+  "calibration": "January thresholds only",
+  "February_parameter_selection": false,
+  "official_S_queue": null,
+  "primary_result": {
+    "ongoing_model": "j075_odds50",
+    "ongoing_IoU": 0.876742836881804,
+    "fixed_onset_IoU": 0.7760323136566369,
+    "overall_IoU": 0.8263875752692205
+  },
+  "IoU_vs_previous_best": {
+    "delta": 0.007872335255274532,
+    "day_cluster_95CI": [
+      -0.001137921020346633,
+      0.023692641421475234
+    ],
+    "valid_resamples": 2000,
+    "days": 28
+  },
+  "selection_caveat": "Observed reused-February point-estimate leader, not independent blind confirmation. Same weights and thresholds for both populations.",
+  "tradeoff": "FP739->690,FN412->423; observed reused-February point leader, not confirmed stable improvement.",
+  "January_selected_threshold_guardrail_feasible": false,
+  "January_best_feasible_threshold": 0.35
+}

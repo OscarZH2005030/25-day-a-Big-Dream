@@ -1,0 +1,25 @@
+{
+  "panel": "D7_I10_E",
+  "phase": "June-September fitting",
+  "seed": 20261030,
+  "heads": {
+    "control": {
+      "objective_before": 0.006072479699523175,
+      "objective_after": 0.004755843433817842,
+      "decreased": true,
+      "rows": 235842
+    },
+    "j025": {
+      "objective_before": 0.0843728433862722,
+      "objective_after": 0.07642421427800754,
+      "decreased": true,
+      "rows": 235842
+    },
+    "j075": {
+      "objective_before": 0.24097357075977024,
+      "objective_after": 0.21814878921540704,
+      "decreased": true,
+      "rows": 235842
+    }
+  }
+}
