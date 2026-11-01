@@ -1,0 +1,46 @@
+{
+  "version": "task2-horizon-082723-20261031",
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "onset_package": "../best_overall_081796_20261030",
+  "onset_candidate": "Frozen early_full",
+  "onset_threshold": [
+    0.5,
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "ongoing_candidate": "bce_a100",
+  "ongoing_threshold": 0.375,
+  "ongoing_features": 274,
+  "ongoing_model": "Frozen900tree perroad parent+six100tree perhorizon residuals,external initial logit score,3seeds then equal log-odds R127 mixture",
+  "reference_cutoff": "2030-11-30",
+  "calibration": "January thresholds only",
+  "February_parameter_selection": false,
+  "official_S_queue": null,
+  "primary_result": {
+    "ongoing_IoU": 0.8784184919824021,
+    "onset_IoU": 0.7760323136566369,
+    "overall_IoU": 0.8272254028195195
+  },
+  "IoU_vs_previous_best": {
+    "delta": 0.0016756551005980835,
+    "day_cluster_95CI": [
+      -0.00013633609249455819,
+      0.0036572953912787304
+    ],
+    "valid_resamples": 2000,
+    "days": 28
+  },
+  "selection_caveat": "Observed reused-February point-estimate leader, not independent blind confirmation. Same weights and thresholds for both populations.",
+  "tradeoff": "Versus frozen0.82639,new population FP690->681,FN423->417;still reused-development proxy scoring.",
+  "January_selected_threshold_guardrail_feasible": true,
+  "January_best_feasible_threshold": 0.375,
+  "base_ongoing_package": "../best_overall_082639_jaccard_20261031",
+  "residual_alpha": 1.0
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "CLI_checked": true,
+  "rows": 256,
+  "roads": 8,
+  "external_frozen900_parent_plus_residual_verified": true,
+  "maximum_probability_error": 0.0
+}

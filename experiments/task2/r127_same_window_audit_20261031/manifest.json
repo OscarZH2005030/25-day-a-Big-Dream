@@ -1,0 +1,13 @@
+{
+  ".gitattributes": "308a40fa1d89ae5ea4390b4c9b46a0108b09f171f07898f25d451fa0c69c4e9f",
+  ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+  "comparison.csv": "534e265198e2a4a1c6f80cbdc8c31f8e4498ad01dd75e3c6d0585f51e13652ed",
+  "evaluate.py": "e894209c64d11272f29c0a6ad6624506fb118c987d3f71e336e3e652a6580a22",
+  "february64.json": "ae36c093d0dfca5a2f2d2c86534c4c781a4e9426689ebf6b4fc99c9a99b160b4",
+  "new_horizon_results.json": "be969691a2ae3df816aa04d8ec28bb3e2be0fdfc1801a21ff97884cbee531c43",
+  "new_horizon_verification.json": "61d534e4bc176bb4d2e2690b42c87f20d15463f9da133ba8e35ad30231f0f2a0",
+  "original_R127_monthly_comparison.csv": "af1a844f93c5c3e924c94e3a23a95c4730e0b3f7924f674488572fc933b5b61f",
+  "README.md": "b9be586bae42d71b948a36991555f3d3bf2d0e63b13f6218b39e727da25a3e8e",
+  "results.json": "59b1e9be7e3d2b4d581f7220fa194f4a547f858f64a9ff0af2ca370b61336dcb",
+  "verification.json": "13f1e729cf5420cca27f63f0c539ff61e47d2168f26bafae518287f93e75ec29"
+}

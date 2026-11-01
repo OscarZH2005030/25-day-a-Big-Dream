@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "onset_unchanged": true,
+  "previous082639_full_archive_hashes_verified": true,
+  "previous082639_all_files_verified": true,
+  "independent_runtime_rows": 256,
+  "all8_roads": true,
+  "max_probability_error": {
+    "bce_a100": 0.0,
+    "bce_a50": 0.0
+  },
+  "external_initial_score_composition_test_passed": true,
+  "base900files_copied_and_hash_verified": 24,
+  "January_thresholds_only": true,
+  "February_parameter_tuning": false
+}

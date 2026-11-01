@@ -1,0 +1,3007 @@
+{
+  "R127": {
+    "onset_IoU": 0.9763958045275114,
+    "per_road": {
+      "D12_I5_N": 0.9479223972481825,
+      "D12_I5_S": 0.9641864065007415,
+      "D7_I10_E": 0.9924616156542463,
+      "D7_I10_W": 0.9488636363636364,
+      "D7_I210_E": 1.0,
+      "D7_I210_W": 0.9985955056179775,
+      "D7_I405_N": 0.9768228677554269,
+      "D7_I405_S": 0.9823140070798808
+    },
+    "windows": 64,
+    "window_rows": [
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-15T13:45:00+00:00",
+        "iou": 0.9642857142857143
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-10T18:30:00+00:00",
+        "iou": 0.9635627530364372
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-24T17:45:00+00:00",
+        "iou": 0.9980582524271845
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-08T22:20:00+00:00",
+        "iou": 0.8648648648648649
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-13T13:30:00+00:00",
+        "iou": 0.9732142857142857
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-29T11:40:00+00:00",
+        "iou": 0.9642857142857143
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-08T16:00:00+00:00",
+        "iou": 0.9935691318327974
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-28T20:45:00+00:00",
+        "iou": 0.8615384615384616
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-28T10:35:00+00:00",
+        "iou": 0.9032258064516129
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-09T13:20:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-07T17:10:00+00:00",
+        "iou": 0.9957805907172996
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-13T15:45:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-07T10:45:00+00:00",
+        "iou": 0.896551724137931
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-24T18:45:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-30T15:15:00+00:00",
+        "iou": 0.9285714285714286
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-09T12:40:00+00:00",
+        "iou": 0.9893617021276596
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-16T14:25:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-21T20:05:00+00:00",
+        "iou": 0.965034965034965
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-02T13:10:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-10T12:00:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-11T18:00:00+00:00",
+        "iou": 0.9850746268656716
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-08T13:35:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-10T14:10:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-23T13:15:00+00:00",
+        "iou": 0.9895833333333334
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-21T16:55:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-26T15:30:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-15T15:45:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-21T16:10:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-15T17:30:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-03T15:30:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-15T16:20:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-28T15:25:00+00:00",
+        "iou": 0.5909090909090909
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-30T08:30:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-22T08:55:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-14T17:00:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-02T13:15:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-06T10:25:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-18T09:25:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-09T10:45:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-14T09:50:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-09T12:20:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-15T14:55:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-08T06:20:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-01T08:15:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-11T18:55:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-22T16:45:00+00:00",
+        "iou": 0.9887640449438202
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-01T12:25:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-10T17:35:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-30T15:25:00+00:00",
+        "iou": 0.9882352941176471
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-25T16:15:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-12T07:15:00+00:00",
+        "iou": 0.983739837398374
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-23T16:45:00+00:00",
+        "iou": 0.9901639344262295
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-02T13:40:00+00:00",
+        "iou": 0.8888888888888888
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-11T12:50:00+00:00",
+        "iou": 0.9852941176470589
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-30T12:20:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-04T17:35:00+00:00",
+        "iou": 0.9782608695652174
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-07T12:15:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-24T16:15:00+00:00",
+        "iou": 0.9834254143646409
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-14T13:25:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-14T08:35:00+00:00",
+        "iou": 1.0
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-16T13:45:00+00:00",
+        "iou": 0.990909090909091
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-16T12:05:00+00:00",
+        "iou": 0.9642857142857143
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-24T12:45:00+00:00",
+        "iou": 0.9508196721311475
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-27T16:00:00+00:00",
+        "iou": 0.9690721649484536
+      }
+    ],
+    "cell_counts": {
+      "TP_cells": 5978,
+      "FP_cells": 103,
+      "FN_cells": 5,
+      "missed_support_FN_cells": 3,
+      "timing_FN_cells": 2,
+      "positive_link_timing_FP_cells": 78,
+      "complete_negative_link_FP_cells": 5,
+      "unknown_event_link_FP_cells": 20,
+      "known_positive_links": 1366,
+      "missed_positive_links": 3
+    },
+    "macro_FPR": 0.0025026876010719027,
+    "window_errors": [
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-15T13:45:00+00:00",
+        "FP": 7,
+        "TP": 189,
+        "FN": 0,
+        "eligible_negative": 1007,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-10T18:30:00+00:00",
+        "FP": 9,
+        "TP": 238,
+        "FN": 0,
+        "eligible_negative": 958,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-24T17:45:00+00:00",
+        "FP": 1,
+        "TP": 514,
+        "FN": 0,
+        "eligible_negative": 684,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-08T22:20:00+00:00",
+        "FP": 5,
+        "TP": 32,
+        "FN": 0,
+        "eligible_negative": 1137,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-13T13:30:00+00:00",
+        "FP": 9,
+        "TP": 327,
+        "FN": 0,
+        "eligible_negative": 824,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-29T11:40:00+00:00",
+        "FP": 4,
+        "TP": 108,
+        "FN": 0,
+        "eligible_negative": 1066,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-08T16:00:00+00:00",
+        "FP": 2,
+        "TP": 618,
+        "FN": 2,
+        "eligible_negative": 613,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_N",
+        "origin": "2030-11-28T20:45:00+00:00",
+        "FP": 9,
+        "TP": 56,
+        "FN": 0,
+        "eligible_negative": 1130,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-28T10:35:00+00:00",
+        "FP": 3,
+        "TP": 28,
+        "FN": 0,
+        "eligible_negative": 418,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-09T13:20:00+00:00",
+        "FP": 0,
+        "TP": 97,
+        "FN": 0,
+        "eligible_negative": 380,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-07T17:10:00+00:00",
+        "FP": 1,
+        "TP": 236,
+        "FN": 0,
+        "eligible_negative": 204,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-13T15:45:00+00:00",
+        "FP": 0,
+        "TP": 165,
+        "FN": 0,
+        "eligible_negative": 286,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-07T10:45:00+00:00",
+        "FP": 3,
+        "TP": 26,
+        "FN": 0,
+        "eligible_negative": 451,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-24T18:45:00+00:00",
+        "FP": 0,
+        "TP": 1,
+        "FN": 0,
+        "eligible_negative": 458,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-30T15:15:00+00:00",
+        "FP": 4,
+        "TP": 52,
+        "FN": 0,
+        "eligible_negative": 413,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D12_I5_S",
+        "origin": "2030-11-09T12:40:00+00:00",
+        "FP": 1,
+        "TP": 93,
+        "FN": 0,
+        "eligible_negative": 378,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-16T14:25:00+00:00",
+        "FP": 0,
+        "TP": 45,
+        "FN": 0,
+        "eligible_negative": 632,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-21T20:05:00+00:00",
+        "FP": 5,
+        "TP": 138,
+        "FN": 0,
+        "eligible_negative": 526,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-02T13:10:00+00:00",
+        "FP": 0,
+        "TP": 34,
+        "FN": 0,
+        "eligible_negative": 629,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-10T12:00:00+00:00",
+        "FP": 0,
+        "TP": 30,
+        "FN": 0,
+        "eligible_negative": 636,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-11T18:00:00+00:00",
+        "FP": 1,
+        "TP": 66,
+        "FN": 0,
+        "eligible_negative": 619,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-08T13:35:00+00:00",
+        "FP": 0,
+        "TP": 39,
+        "FN": 0,
+        "eligible_negative": 614,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-10T14:10:00+00:00",
+        "FP": 0,
+        "TP": 108,
+        "FN": 0,
+        "eligible_negative": 600,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_E",
+        "origin": "2030-11-23T13:15:00+00:00",
+        "FP": 1,
+        "TP": 95,
+        "FN": 0,
+        "eligible_negative": 567,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-21T16:55:00+00:00",
+        "FP": 0,
+        "TP": 24,
+        "FN": 0,
+        "eligible_negative": 450,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-26T15:30:00+00:00",
+        "FP": 0,
+        "TP": 26,
+        "FN": 0,
+        "eligible_negative": 449,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-15T15:45:00+00:00",
+        "FP": 0,
+        "TP": 24,
+        "FN": 0,
+        "eligible_negative": 478,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-21T16:10:00+00:00",
+        "FP": 0,
+        "TP": 24,
+        "FN": 0,
+        "eligible_negative": 467,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-15T17:30:00+00:00",
+        "FP": 0,
+        "TP": 21,
+        "FN": 0,
+        "eligible_negative": 453,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-03T15:30:00+00:00",
+        "FP": 0,
+        "TP": 5,
+        "FN": 0,
+        "eligible_negative": 487,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-15T16:20:00+00:00",
+        "FP": 0,
+        "TP": 20,
+        "FN": 0,
+        "eligible_negative": 473,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I10_W",
+        "origin": "2030-11-28T15:25:00+00:00",
+        "FP": 9,
+        "TP": 13,
+        "FN": 0,
+        "eligible_negative": 479,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-30T08:30:00+00:00",
+        "FP": 0,
+        "TP": 26,
+        "FN": 0,
+        "eligible_negative": 1362,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-22T08:55:00+00:00",
+        "FP": 0,
+        "TP": 26,
+        "FN": 0,
+        "eligible_negative": 1360,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-14T17:00:00+00:00",
+        "FP": 0,
+        "TP": 25,
+        "FN": 0,
+        "eligible_negative": 1354,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-02T13:15:00+00:00",
+        "FP": 0,
+        "TP": 21,
+        "FN": 0,
+        "eligible_negative": 1321,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-06T10:25:00+00:00",
+        "FP": 0,
+        "TP": 22,
+        "FN": 0,
+        "eligible_negative": 1311,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-18T09:25:00+00:00",
+        "FP": 0,
+        "TP": 26,
+        "FN": 0,
+        "eligible_negative": 1367,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-09T10:45:00+00:00",
+        "FP": 0,
+        "TP": 23,
+        "FN": 0,
+        "eligible_negative": 1349,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_E",
+        "origin": "2030-11-14T09:50:00+00:00",
+        "FP": 0,
+        "TP": 22,
+        "FN": 0,
+        "eligible_negative": 1372,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-09T12:20:00+00:00",
+        "FP": 0,
+        "TP": 47,
+        "FN": 0,
+        "eligible_negative": 321,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-15T14:55:00+00:00",
+        "FP": 0,
+        "TP": 79,
+        "FN": 0,
+        "eligible_negative": 290,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-08T06:20:00+00:00",
+        "FP": 0,
+        "TP": 38,
+        "FN": 0,
+        "eligible_negative": 320,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-01T08:15:00+00:00",
+        "FP": 0,
+        "TP": 33,
+        "FN": 0,
+        "eligible_negative": 339,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-11T18:55:00+00:00",
+        "FP": 0,
+        "TP": 22,
+        "FN": 0,
+        "eligible_negative": 353,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-22T16:45:00+00:00",
+        "FP": 1,
+        "TP": 88,
+        "FN": 0,
+        "eligible_negative": 291,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-01T12:25:00+00:00",
+        "FP": 0,
+        "TP": 45,
+        "FN": 0,
+        "eligible_negative": 331,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I210_W",
+        "origin": "2030-11-10T17:35:00+00:00",
+        "FP": 0,
+        "TP": 83,
+        "FN": 0,
+        "eligible_negative": 278,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-30T15:25:00+00:00",
+        "FP": 2,
+        "TP": 168,
+        "FN": 0,
+        "eligible_negative": 1451,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-25T16:15:00+00:00",
+        "FP": 0,
+        "TP": 149,
+        "FN": 0,
+        "eligible_negative": 1465,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-12T07:15:00+00:00",
+        "FP": 0,
+        "TP": 121,
+        "FN": 2,
+        "eligible_negative": 1459,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-23T16:45:00+00:00",
+        "FP": 3,
+        "TP": 302,
+        "FN": 0,
+        "eligible_negative": 1270,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-02T13:40:00+00:00",
+        "FP": 4,
+        "TP": 32,
+        "FN": 0,
+        "eligible_negative": 1573,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-11T12:50:00+00:00",
+        "FP": 0,
+        "TP": 67,
+        "FN": 1,
+        "eligible_negative": 1555,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-30T12:20:00+00:00",
+        "FP": 0,
+        "TP": 8,
+        "FN": 0,
+        "eligible_negative": 1600,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_N",
+        "origin": "2030-11-04T17:35:00+00:00",
+        "FP": 5,
+        "TP": 225,
+        "FN": 0,
+        "eligible_negative": 1354,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-07T12:15:00+00:00",
+        "FP": 0,
+        "TP": 73,
+        "FN": 0,
+        "eligible_negative": 431,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-24T16:15:00+00:00",
+        "FP": 3,
+        "TP": 178,
+        "FN": 0,
+        "eligible_negative": 307,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-14T13:25:00+00:00",
+        "FP": 0,
+        "TP": 81,
+        "FN": 0,
+        "eligible_negative": 442,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-14T08:35:00+00:00",
+        "FP": 0,
+        "TP": 74,
+        "FN": 0,
+        "eligible_negative": 424,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-16T13:45:00+00:00",
+        "FP": 1,
+        "TP": 109,
+        "FN": 0,
+        "eligible_negative": 379,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-16T12:05:00+00:00",
+        "FP": 1,
+        "TP": 27,
+        "FN": 0,
+        "eligible_negative": 457,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-24T12:45:00+00:00",
+        "FP": 3,
+        "TP": 58,
+        "FN": 0,
+        "eligible_negative": 451,
+        "false_any": true,
+        "positive": true
+      },
+      {
+        "panel": "D7_I405_S",
+        "origin": "2030-11-27T16:00:00+00:00",
+        "FP": 6,
+        "TP": 188,
+        "FN": 0,
+        "eligible_negative": 324,
+        "false_any": true,
+        "positive": true
+      }
+    ],
+    "per_road_FPR": {
+      "D12_I5_N": 0.006200296535921283,
+      "D12_I5_S": 0.004016064257028112,
+      "D7_I10_E": 0.001451378809869376,
+      "D7_I10_W": 0.0024089935760171306,
+      "D7_I210_E": 0.0,
+      "D7_I210_W": 0.00039635354736424893,
+      "D7_I405_N": 0.0011938262130127058,
+      "D7_I405_S": 0.004354587869362364
+    }
+  },
+  "candidates": {
+    "bce_a100": {
+      "onset_IoU": 0.9587565996028197,
+      "per_road": {
+        "D12_I5_N": 0.935550761430631,
+        "D12_I5_S": 0.9395214119894121,
+        "D7_I10_E": 0.9817032922946385,
+        "D7_I10_W": 0.928030303030303,
+        "D7_I210_E": 1.0,
+        "D7_I210_W": 0.9689321095571095,
+        "D7_I405_N": 0.9682405101551501,
+        "D7_I405_S": 0.9480744083653128
+      },
+      "windows": 64,
+      "window_rows": [
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-15T13:45:00+00:00",
+          "iou": 0.9642857142857143
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-10T18:30:00+00:00",
+          "iou": 0.952
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-24T17:45:00+00:00",
+          "iou": 0.9961240310077519
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T22:20:00+00:00",
+          "iou": 0.8648648648648649
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-13T13:30:00+00:00",
+          "iou": 0.9646017699115044
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-29T11:40:00+00:00",
+          "iou": 0.9473684210526315
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T16:00:00+00:00",
+          "iou": 0.9951612903225806
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-28T20:45:00+00:00",
+          "iou": 0.8
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-28T10:35:00+00:00",
+          "iou": 0.9032258064516129
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T13:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T17:10:00+00:00",
+          "iou": 0.9957805907172996
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-13T15:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T10:45:00+00:00",
+          "iou": 0.7647058823529411
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-24T18:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-30T15:15:00+00:00",
+          "iou": 0.8524590163934426
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T12:40:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-16T14:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-21T20:05:00+00:00",
+          "iou": 0.9928057553956835
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-02T13:10:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T12:00:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-11T18:00:00+00:00",
+          "iou": 0.9393939393939394
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-08T13:35:00+00:00",
+          "iou": 0.9512195121951219
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T14:10:00+00:00",
+          "iou": 0.9908256880733946
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-23T13:15:00+00:00",
+          "iou": 0.979381443298969
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:55:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-26T15:30:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T15:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:10:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T17:30:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-03T15:30:00+00:00",
+          "iou": 0.8333333333333334
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T16:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-28T15:25:00+00:00",
+          "iou": 0.5909090909090909
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-30T08:30:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-22T08:55:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T17:00:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-02T13:15:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-06T10:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-18T09:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-09T10:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T09:50:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-09T12:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-15T14:55:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-08T06:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T08:15:00+00:00",
+          "iou": 0.8461538461538461
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-11T18:55:00+00:00",
+          "iou": 0.9166666666666666
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-22T16:45:00+00:00",
+          "iou": 0.9886363636363636
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T12:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-10T17:35:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T15:25:00+00:00",
+          "iou": 0.943502824858757
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-25T16:15:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-12T07:15:00+00:00",
+          "iou": 0.983739837398374
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-23T16:45:00+00:00",
+          "iou": 0.9801980198019802
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-02T13:40:00+00:00",
+          "iou": 0.8888888888888888
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-11T12:50:00+00:00",
+          "iou": 0.9714285714285714
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T12:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-04T17:35:00+00:00",
+          "iou": 0.9781659388646288
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-07T12:15:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T16:15:00+00:00",
+          "iou": 0.9621621621621622
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T13:25:00+00:00",
+          "iou": 0.9878048780487805
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T08:35:00+00:00",
+          "iou": 0.8765432098765432
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T13:45:00+00:00",
+          "iou": 0.990909090909091
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T12:05:00+00:00",
+          "iou": 0.9259259259259259
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T12:45:00+00:00",
+          "iou": 0.90625
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-27T16:00:00+00:00",
+          "iou": 0.935
+        }
+      ],
+      "cell_counts": {
+        "TP_cells": 5960,
+        "FP_cells": 157,
+        "FN_cells": 23,
+        "missed_support_FN_cells": 11,
+        "timing_FN_cells": 12,
+        "positive_link_timing_FP_cells": 105,
+        "complete_negative_link_FP_cells": 15,
+        "unknown_event_link_FP_cells": 37,
+        "known_positive_links": 1366,
+        "missed_positive_links": 8
+      },
+      "macro_FPR": 0.004277287279537733,
+      "window_errors": [
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-15T13:45:00+00:00",
+          "FP": 7,
+          "TP": 189,
+          "FN": 0,
+          "eligible_negative": 1007,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-10T18:30:00+00:00",
+          "FP": 12,
+          "TP": 238,
+          "FN": 0,
+          "eligible_negative": 958,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-24T17:45:00+00:00",
+          "FP": 2,
+          "TP": 514,
+          "FN": 0,
+          "eligible_negative": 684,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T22:20:00+00:00",
+          "FP": 5,
+          "TP": 32,
+          "FN": 0,
+          "eligible_negative": 1137,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-13T13:30:00+00:00",
+          "FP": 12,
+          "TP": 327,
+          "FN": 0,
+          "eligible_negative": 824,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-29T11:40:00+00:00",
+          "FP": 6,
+          "TP": 108,
+          "FN": 0,
+          "eligible_negative": 1066,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T16:00:00+00:00",
+          "FP": 0,
+          "TP": 617,
+          "FN": 3,
+          "eligible_negative": 613,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-28T20:45:00+00:00",
+          "FP": 14,
+          "TP": 56,
+          "FN": 0,
+          "eligible_negative": 1130,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-28T10:35:00+00:00",
+          "FP": 3,
+          "TP": 28,
+          "FN": 0,
+          "eligible_negative": 418,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T13:20:00+00:00",
+          "FP": 0,
+          "TP": 97,
+          "FN": 0,
+          "eligible_negative": 380,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T17:10:00+00:00",
+          "FP": 1,
+          "TP": 236,
+          "FN": 0,
+          "eligible_negative": 204,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-13T15:45:00+00:00",
+          "FP": 0,
+          "TP": 165,
+          "FN": 0,
+          "eligible_negative": 286,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T10:45:00+00:00",
+          "FP": 8,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 451,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-24T18:45:00+00:00",
+          "FP": 0,
+          "TP": 1,
+          "FN": 0,
+          "eligible_negative": 458,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-30T15:15:00+00:00",
+          "FP": 9,
+          "TP": 52,
+          "FN": 0,
+          "eligible_negative": 413,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T12:40:00+00:00",
+          "FP": 0,
+          "TP": 93,
+          "FN": 0,
+          "eligible_negative": 378,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-16T14:25:00+00:00",
+          "FP": 0,
+          "TP": 45,
+          "FN": 0,
+          "eligible_negative": 632,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-21T20:05:00+00:00",
+          "FP": 1,
+          "TP": 138,
+          "FN": 0,
+          "eligible_negative": 526,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-02T13:10:00+00:00",
+          "FP": 0,
+          "TP": 34,
+          "FN": 0,
+          "eligible_negative": 629,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T12:00:00+00:00",
+          "FP": 0,
+          "TP": 30,
+          "FN": 0,
+          "eligible_negative": 636,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-11T18:00:00+00:00",
+          "FP": 0,
+          "TP": 62,
+          "FN": 4,
+          "eligible_negative": 619,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-08T13:35:00+00:00",
+          "FP": 2,
+          "TP": 39,
+          "FN": 0,
+          "eligible_negative": 614,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T14:10:00+00:00",
+          "FP": 1,
+          "TP": 108,
+          "FN": 0,
+          "eligible_negative": 600,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-23T13:15:00+00:00",
+          "FP": 2,
+          "TP": 95,
+          "FN": 0,
+          "eligible_negative": 567,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:55:00+00:00",
+          "FP": 0,
+          "TP": 24,
+          "FN": 0,
+          "eligible_negative": 450,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-26T15:30:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 449,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T15:45:00+00:00",
+          "FP": 0,
+          "TP": 24,
+          "FN": 0,
+          "eligible_negative": 478,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:10:00+00:00",
+          "FP": 0,
+          "TP": 24,
+          "FN": 0,
+          "eligible_negative": 467,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T17:30:00+00:00",
+          "FP": 0,
+          "TP": 21,
+          "FN": 0,
+          "eligible_negative": 453,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-03T15:30:00+00:00",
+          "FP": 1,
+          "TP": 5,
+          "FN": 0,
+          "eligible_negative": 487,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T16:20:00+00:00",
+          "FP": 0,
+          "TP": 20,
+          "FN": 0,
+          "eligible_negative": 473,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-28T15:25:00+00:00",
+          "FP": 9,
+          "TP": 13,
+          "FN": 0,
+          "eligible_negative": 479,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-30T08:30:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 1362,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-22T08:55:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 1360,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T17:00:00+00:00",
+          "FP": 0,
+          "TP": 25,
+          "FN": 0,
+          "eligible_negative": 1354,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-02T13:15:00+00:00",
+          "FP": 0,
+          "TP": 21,
+          "FN": 0,
+          "eligible_negative": 1321,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-06T10:25:00+00:00",
+          "FP": 0,
+          "TP": 22,
+          "FN": 0,
+          "eligible_negative": 1311,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-18T09:25:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 1367,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-09T10:45:00+00:00",
+          "FP": 0,
+          "TP": 23,
+          "FN": 0,
+          "eligible_negative": 1349,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T09:50:00+00:00",
+          "FP": 0,
+          "TP": 22,
+          "FN": 0,
+          "eligible_negative": 1372,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-09T12:20:00+00:00",
+          "FP": 0,
+          "TP": 47,
+          "FN": 0,
+          "eligible_negative": 321,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-15T14:55:00+00:00",
+          "FP": 0,
+          "TP": 79,
+          "FN": 0,
+          "eligible_negative": 290,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-08T06:20:00+00:00",
+          "FP": 0,
+          "TP": 38,
+          "FN": 0,
+          "eligible_negative": 320,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T08:15:00+00:00",
+          "FP": 6,
+          "TP": 33,
+          "FN": 0,
+          "eligible_negative": 339,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-11T18:55:00+00:00",
+          "FP": 2,
+          "TP": 22,
+          "FN": 0,
+          "eligible_negative": 353,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-22T16:45:00+00:00",
+          "FP": 0,
+          "TP": 87,
+          "FN": 1,
+          "eligible_negative": 291,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T12:25:00+00:00",
+          "FP": 0,
+          "TP": 45,
+          "FN": 0,
+          "eligible_negative": 331,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-10T17:35:00+00:00",
+          "FP": 0,
+          "TP": 83,
+          "FN": 0,
+          "eligible_negative": 278,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T15:25:00+00:00",
+          "FP": 9,
+          "TP": 167,
+          "FN": 1,
+          "eligible_negative": 1451,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-25T16:15:00+00:00",
+          "FP": 0,
+          "TP": 149,
+          "FN": 0,
+          "eligible_negative": 1465,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-12T07:15:00+00:00",
+          "FP": 0,
+          "TP": 121,
+          "FN": 2,
+          "eligible_negative": 1459,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-23T16:45:00+00:00",
+          "FP": 1,
+          "TP": 297,
+          "FN": 5,
+          "eligible_negative": 1270,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-02T13:40:00+00:00",
+          "FP": 4,
+          "TP": 32,
+          "FN": 0,
+          "eligible_negative": 1573,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-11T12:50:00+00:00",
+          "FP": 2,
+          "TP": 68,
+          "FN": 0,
+          "eligible_negative": 1555,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T12:20:00+00:00",
+          "FP": 0,
+          "TP": 8,
+          "FN": 0,
+          "eligible_negative": 1600,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-04T17:35:00+00:00",
+          "FP": 4,
+          "TP": 224,
+          "FN": 1,
+          "eligible_negative": 1354,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-07T12:15:00+00:00",
+          "FP": 0,
+          "TP": 73,
+          "FN": 0,
+          "eligible_negative": 431,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T16:15:00+00:00",
+          "FP": 7,
+          "TP": 178,
+          "FN": 0,
+          "eligible_negative": 307,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T13:25:00+00:00",
+          "FP": 1,
+          "TP": 81,
+          "FN": 0,
+          "eligible_negative": 442,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T08:35:00+00:00",
+          "FP": 7,
+          "TP": 71,
+          "FN": 3,
+          "eligible_negative": 424,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T13:45:00+00:00",
+          "FP": 1,
+          "TP": 109,
+          "FN": 0,
+          "eligible_negative": 379,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T12:05:00+00:00",
+          "FP": 0,
+          "TP": 25,
+          "FN": 2,
+          "eligible_negative": 457,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T12:45:00+00:00",
+          "FP": 6,
+          "TP": 58,
+          "FN": 0,
+          "eligible_negative": 451,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-27T16:00:00+00:00",
+          "FP": 12,
+          "TP": 187,
+          "FN": 1,
+          "eligible_negative": 324,
+          "false_any": true,
+          "positive": true
+        }
+      ],
+      "per_road_FPR": {
+        "D12_I5_N": 0.007817765197465966,
+        "D12_I5_S": 0.007028112449799197,
+        "D7_I10_E": 0.0012440389798880364,
+        "D7_I10_W": 0.0026766595289079227,
+        "D7_I210_E": 0.0,
+        "D7_I210_W": 0.0031708283789139914,
+        "D7_I405_N": 0.0017054660185895796,
+        "D7_I405_S": 0.010575427682737169
+      }
+    },
+    "bce_a50": {
+      "onset_IoU": 0.9584456072670989,
+      "per_road": {
+        "D12_I5_N": 0.9359280509314979,
+        "D12_I5_S": 0.9385662758365902,
+        "D7_I10_E": 0.9820540070852245,
+        "D7_I10_W": 0.928030303030303,
+        "D7_I210_E": 1.0,
+        "D7_I210_W": 0.9689321095571095,
+        "D7_I405_N": 0.9675342954658845,
+        "D7_I405_S": 0.946519816230182
+      },
+      "windows": 64,
+      "window_rows": [
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-15T13:45:00+00:00",
+          "iou": 0.9692307692307692
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-10T18:30:00+00:00",
+          "iou": 0.952
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-24T17:45:00+00:00",
+          "iou": 0.9941972920696325
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T22:20:00+00:00",
+          "iou": 0.8648648648648649
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-13T13:30:00+00:00",
+          "iou": 0.9646017699115044
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-29T11:40:00+00:00",
+          "iou": 0.9473684210526315
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T16:00:00+00:00",
+          "iou": 0.9951612903225806
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-28T20:45:00+00:00",
+          "iou": 0.8
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-28T10:35:00+00:00",
+          "iou": 0.9032258064516129
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T13:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T17:10:00+00:00",
+          "iou": 0.9957805907172996
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-13T15:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T10:45:00+00:00",
+          "iou": 0.7428571428571429
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-24T18:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-30T15:15:00+00:00",
+          "iou": 0.8666666666666667
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T12:40:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-16T14:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-21T20:05:00+00:00",
+          "iou": 0.971830985915493
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-02T13:10:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T12:00:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-11T18:00:00+00:00",
+          "iou": 0.9393939393939394
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-08T13:35:00+00:00",
+          "iou": 0.975
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T14:10:00+00:00",
+          "iou": 0.9908256880733946
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-23T13:15:00+00:00",
+          "iou": 0.979381443298969
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:55:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-26T15:30:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T15:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:10:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T17:30:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-03T15:30:00+00:00",
+          "iou": 0.8333333333333334
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T16:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-28T15:25:00+00:00",
+          "iou": 0.5909090909090909
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-30T08:30:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-22T08:55:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T17:00:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-02T13:15:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-06T10:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-18T09:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-09T10:45:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T09:50:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-09T12:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-15T14:55:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-08T06:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T08:15:00+00:00",
+          "iou": 0.8461538461538461
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-11T18:55:00+00:00",
+          "iou": 0.9166666666666666
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-22T16:45:00+00:00",
+          "iou": 0.9886363636363636
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T12:25:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-10T17:35:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T15:25:00+00:00",
+          "iou": 0.9378531073446328
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-25T16:15:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-12T07:15:00+00:00",
+          "iou": 0.983739837398374
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-23T16:45:00+00:00",
+          "iou": 0.9801980198019802
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-02T13:40:00+00:00",
+          "iou": 0.8888888888888888
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-11T12:50:00+00:00",
+          "iou": 0.9714285714285714
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T12:20:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-04T17:35:00+00:00",
+          "iou": 0.9781659388646288
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-07T12:15:00+00:00",
+          "iou": 1.0
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T16:15:00+00:00",
+          "iou": 0.9621621621621622
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T13:25:00+00:00",
+          "iou": 0.9878048780487805
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T08:35:00+00:00",
+          "iou": 0.8780487804878049
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T13:45:00+00:00",
+          "iou": 0.990909090909091
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T12:05:00+00:00",
+          "iou": 0.9259259259259259
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T12:45:00+00:00",
+          "iou": 0.8923076923076924
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-27T16:00:00+00:00",
+          "iou": 0.935
+        }
+      ],
+      "cell_counts": {
+        "TP_cells": 5960,
+        "FP_cells": 161,
+        "FN_cells": 23,
+        "missed_support_FN_cells": 11,
+        "timing_FN_cells": 12,
+        "positive_link_timing_FP_cells": 112,
+        "complete_negative_link_FP_cells": 14,
+        "unknown_event_link_FP_cells": 35,
+        "known_positive_links": 1366,
+        "missed_positive_links": 8
+      },
+      "macro_FPR": 0.004406882734700253,
+      "window_errors": [
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-15T13:45:00+00:00",
+          "FP": 6,
+          "TP": 189,
+          "FN": 0,
+          "eligible_negative": 1007,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-10T18:30:00+00:00",
+          "FP": 12,
+          "TP": 238,
+          "FN": 0,
+          "eligible_negative": 958,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-24T17:45:00+00:00",
+          "FP": 3,
+          "TP": 514,
+          "FN": 0,
+          "eligible_negative": 684,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T22:20:00+00:00",
+          "FP": 5,
+          "TP": 32,
+          "FN": 0,
+          "eligible_negative": 1137,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-13T13:30:00+00:00",
+          "FP": 12,
+          "TP": 327,
+          "FN": 0,
+          "eligible_negative": 824,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-29T11:40:00+00:00",
+          "FP": 6,
+          "TP": 108,
+          "FN": 0,
+          "eligible_negative": 1066,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-08T16:00:00+00:00",
+          "FP": 0,
+          "TP": 617,
+          "FN": 3,
+          "eligible_negative": 613,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_N",
+          "origin": "2030-11-28T20:45:00+00:00",
+          "FP": 14,
+          "TP": 56,
+          "FN": 0,
+          "eligible_negative": 1130,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-28T10:35:00+00:00",
+          "FP": 3,
+          "TP": 28,
+          "FN": 0,
+          "eligible_negative": 418,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T13:20:00+00:00",
+          "FP": 0,
+          "TP": 97,
+          "FN": 0,
+          "eligible_negative": 380,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T17:10:00+00:00",
+          "FP": 1,
+          "TP": 236,
+          "FN": 0,
+          "eligible_negative": 204,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-13T15:45:00+00:00",
+          "FP": 0,
+          "TP": 165,
+          "FN": 0,
+          "eligible_negative": 286,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-07T10:45:00+00:00",
+          "FP": 9,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 451,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-24T18:45:00+00:00",
+          "FP": 0,
+          "TP": 1,
+          "FN": 0,
+          "eligible_negative": 458,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-30T15:15:00+00:00",
+          "FP": 8,
+          "TP": 52,
+          "FN": 0,
+          "eligible_negative": 413,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D12_I5_S",
+          "origin": "2030-11-09T12:40:00+00:00",
+          "FP": 0,
+          "TP": 93,
+          "FN": 0,
+          "eligible_negative": 378,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-16T14:25:00+00:00",
+          "FP": 0,
+          "TP": 45,
+          "FN": 0,
+          "eligible_negative": 632,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-21T20:05:00+00:00",
+          "FP": 4,
+          "TP": 138,
+          "FN": 0,
+          "eligible_negative": 526,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-02T13:10:00+00:00",
+          "FP": 0,
+          "TP": 34,
+          "FN": 0,
+          "eligible_negative": 629,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T12:00:00+00:00",
+          "FP": 0,
+          "TP": 30,
+          "FN": 0,
+          "eligible_negative": 636,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-11T18:00:00+00:00",
+          "FP": 0,
+          "TP": 62,
+          "FN": 4,
+          "eligible_negative": 619,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-08T13:35:00+00:00",
+          "FP": 1,
+          "TP": 39,
+          "FN": 0,
+          "eligible_negative": 614,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-10T14:10:00+00:00",
+          "FP": 1,
+          "TP": 108,
+          "FN": 0,
+          "eligible_negative": 600,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_E",
+          "origin": "2030-11-23T13:15:00+00:00",
+          "FP": 2,
+          "TP": 95,
+          "FN": 0,
+          "eligible_negative": 567,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:55:00+00:00",
+          "FP": 0,
+          "TP": 24,
+          "FN": 0,
+          "eligible_negative": 450,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-26T15:30:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 449,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T15:45:00+00:00",
+          "FP": 0,
+          "TP": 24,
+          "FN": 0,
+          "eligible_negative": 478,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-21T16:10:00+00:00",
+          "FP": 0,
+          "TP": 24,
+          "FN": 0,
+          "eligible_negative": 467,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T17:30:00+00:00",
+          "FP": 0,
+          "TP": 21,
+          "FN": 0,
+          "eligible_negative": 453,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-03T15:30:00+00:00",
+          "FP": 1,
+          "TP": 5,
+          "FN": 0,
+          "eligible_negative": 487,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-15T16:20:00+00:00",
+          "FP": 0,
+          "TP": 20,
+          "FN": 0,
+          "eligible_negative": 473,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I10_W",
+          "origin": "2030-11-28T15:25:00+00:00",
+          "FP": 9,
+          "TP": 13,
+          "FN": 0,
+          "eligible_negative": 479,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-30T08:30:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 1362,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-22T08:55:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 1360,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T17:00:00+00:00",
+          "FP": 0,
+          "TP": 25,
+          "FN": 0,
+          "eligible_negative": 1354,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-02T13:15:00+00:00",
+          "FP": 0,
+          "TP": 21,
+          "FN": 0,
+          "eligible_negative": 1321,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-06T10:25:00+00:00",
+          "FP": 0,
+          "TP": 22,
+          "FN": 0,
+          "eligible_negative": 1311,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-18T09:25:00+00:00",
+          "FP": 0,
+          "TP": 26,
+          "FN": 0,
+          "eligible_negative": 1367,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-09T10:45:00+00:00",
+          "FP": 0,
+          "TP": 23,
+          "FN": 0,
+          "eligible_negative": 1349,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_E",
+          "origin": "2030-11-14T09:50:00+00:00",
+          "FP": 0,
+          "TP": 22,
+          "FN": 0,
+          "eligible_negative": 1372,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-09T12:20:00+00:00",
+          "FP": 0,
+          "TP": 47,
+          "FN": 0,
+          "eligible_negative": 321,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-15T14:55:00+00:00",
+          "FP": 0,
+          "TP": 79,
+          "FN": 0,
+          "eligible_negative": 290,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-08T06:20:00+00:00",
+          "FP": 0,
+          "TP": 38,
+          "FN": 0,
+          "eligible_negative": 320,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T08:15:00+00:00",
+          "FP": 6,
+          "TP": 33,
+          "FN": 0,
+          "eligible_negative": 339,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-11T18:55:00+00:00",
+          "FP": 2,
+          "TP": 22,
+          "FN": 0,
+          "eligible_negative": 353,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-22T16:45:00+00:00",
+          "FP": 0,
+          "TP": 87,
+          "FN": 1,
+          "eligible_negative": 291,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-01T12:25:00+00:00",
+          "FP": 0,
+          "TP": 45,
+          "FN": 0,
+          "eligible_negative": 331,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I210_W",
+          "origin": "2030-11-10T17:35:00+00:00",
+          "FP": 0,
+          "TP": 83,
+          "FN": 0,
+          "eligible_negative": 278,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T15:25:00+00:00",
+          "FP": 9,
+          "TP": 166,
+          "FN": 2,
+          "eligible_negative": 1451,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-25T16:15:00+00:00",
+          "FP": 0,
+          "TP": 149,
+          "FN": 0,
+          "eligible_negative": 1465,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-12T07:15:00+00:00",
+          "FP": 0,
+          "TP": 121,
+          "FN": 2,
+          "eligible_negative": 1459,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-23T16:45:00+00:00",
+          "FP": 1,
+          "TP": 297,
+          "FN": 5,
+          "eligible_negative": 1270,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-02T13:40:00+00:00",
+          "FP": 4,
+          "TP": 32,
+          "FN": 0,
+          "eligible_negative": 1573,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-11T12:50:00+00:00",
+          "FP": 2,
+          "TP": 68,
+          "FN": 0,
+          "eligible_negative": 1555,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-30T12:20:00+00:00",
+          "FP": 0,
+          "TP": 8,
+          "FN": 0,
+          "eligible_negative": 1600,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_N",
+          "origin": "2030-11-04T17:35:00+00:00",
+          "FP": 4,
+          "TP": 224,
+          "FN": 1,
+          "eligible_negative": 1354,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-07T12:15:00+00:00",
+          "FP": 0,
+          "TP": 73,
+          "FN": 0,
+          "eligible_negative": 431,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T16:15:00+00:00",
+          "FP": 7,
+          "TP": 178,
+          "FN": 0,
+          "eligible_negative": 307,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T13:25:00+00:00",
+          "FP": 1,
+          "TP": 81,
+          "FN": 0,
+          "eligible_negative": 442,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-14T08:35:00+00:00",
+          "FP": 8,
+          "TP": 72,
+          "FN": 2,
+          "eligible_negative": 424,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T13:45:00+00:00",
+          "FP": 1,
+          "TP": 109,
+          "FN": 0,
+          "eligible_negative": 379,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-16T12:05:00+00:00",
+          "FP": 0,
+          "TP": 25,
+          "FN": 2,
+          "eligible_negative": 457,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-24T12:45:00+00:00",
+          "FP": 7,
+          "TP": 58,
+          "FN": 0,
+          "eligible_negative": 451,
+          "false_any": true,
+          "positive": true
+        },
+        {
+          "panel": "D7_I405_S",
+          "origin": "2030-11-27T16:00:00+00:00",
+          "FP": 12,
+          "TP": 187,
+          "FN": 1,
+          "eligible_negative": 324,
+          "false_any": true,
+          "positive": true
+        }
+      ],
+      "per_road_FPR": {
+        "D12_I5_N": 0.007817765197465966,
+        "D12_I5_S": 0.007028112449799197,
+        "D7_I10_E": 0.0016587186398507154,
+        "D7_I10_W": 0.0026766595289079227,
+        "D7_I210_E": 0.0,
+        "D7_I210_W": 0.0031708283789139914,
+        "D7_I405_N": 0.0017054660185895796,
+        "D7_I405_S": 0.01119751166407465
+      }
+    }
+  }
+}

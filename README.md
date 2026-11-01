@@ -1,10 +1,12 @@
-## Task 2 当前最高新口径代理Overall点估计：0.826387575（2026-10-31）
+## Task 2 当前最高新口径代理Overall点估计：0.827225403（2026-10-31）
 
-[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_082639_jaccard_20261031/README.md)
+[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_082723_horizon_20261031/README.md)
 
-采用 **固定最好Onset early_full + 完整已知时距监督和Soft-IoU损失的Ongoing**。二月新口径367个正例窗口：Overall **0.826387575**，Onset **0.776032314**，Ongoing **0.876742837**。相对[保留的0.822451408版本](experiments/task2/best_overall_082245_20261031/README.md)，Ongoing FP739→690、FN412→423。同数据同轮数BCE对照Ongoing为0.870013664。同一模型在旧410窗口上Overall0.771024918、Ongoing0.803951086，略低于0.82245版本的旧口径0.804078019。三种子固定，仅一月选择最高IoU门槛0.375，二月未调参。原0.82245、[0.82186](experiments/task2/best_overall_082186_20261031/README.md)和[0.81796](experiments/task2/best_overall_081796_20261030/README.md)及最好Onset均原样保留。
+采用 **固定最好Onset early_full + 冻结900树父模型与六个时距残差头的Ongoing**。二月新口径367个正例窗口：Overall **0.827225403**，Onset **0.776032314**，Ongoing **0.878418492**。相对[保留的0.82639版本](experiments/task2/best_overall_082639_jaccard_20261031/README.md)，Ongoing FP690→681、FN423→417，两者均减少。同一模型在旧410窗口上Overall0.772054927、Ongoing0.806011104。十月锁定两档残差收缩候选，三种子固定；仅一月选门槛0.375，二月未调参。此前所有版本和最好Onset均原样保留。
 
-以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。新口径增益95%日块区间仍跨零，本版作为另存研究候选，不宣称稳定提升。一月最高IoU门槛不满足原FN保护条件，本轮以一月最高IoU为主目标采用该点，二月没有重新选门槛。二月Ongoing尚未达到0.9。不同窗口口径分别报告，不拼接道路或按口径切换模型。24个900树Ongoing权重已入库，Onset沿用已发布权重，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。本版是另存的点估计领先候选，不宣称稳定提升。不同窗口口径分别报告，不拼接道路或按口径切换模型。144个100树残差头已入库，冻结900树父模型和Onset沿用既有发布目录，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+
+[原月度二月64个Ongoing窗口的同口径核对](experiments/task2/r127_same_window_audit_20261031/README.md)：R127 **0.894560498**，原0.82639模型 **0.911464403**，新分时距模型 **0.913578007**，全部固定一月门槛。该数字不是Overall，不能替代长期184窗口的主成绩。
 
 [原R127完整复现](experiments/task2/r127_reproduction_20261027/README.md) · [原0.79598版本与逐月审计](experiments/task2/r127_reproduction_20261027/reports/current_best_20261029/README.md)
 

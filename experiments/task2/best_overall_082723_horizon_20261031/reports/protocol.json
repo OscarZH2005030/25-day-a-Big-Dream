@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-31",
+  "method": "Frozen900-tree perroad parent + six5-30minute residual specialists. Residuals use external init_score; saved residual contains100newtrees only.",
+  "inputs": "Same274 causal features,8143June-Novwindows,selectednodes andIPW;allknownhorizons. Unknownfuturecells excluded. Perhorizon fit avoids sharing all short/long horizon corrections.",
+  "fitting": "Perroad/horizon/seed100trees,15leavesdepth4min100L2=50lr.03; same inverse-densitywindowfactor and80/20positive/auxmass,renormalized perhorizon. BCE or BCE+.75SoftIoU over nodes within window/horizon. Base900 frozen.",
+  "configs": [
+    {
+      "name": "bce_a50",
+      "capacity": "bce",
+      "alpha": 0.5,
+      "mix": "odds50"
+    },
+    {
+      "name": "bce_a100",
+      "capacity": "bce",
+      "alpha": 1.0,
+      "mix": "odds50"
+    },
+    {
+      "name": "soft_a50",
+      "capacity": "soft",
+      "alpha": 0.5,
+      "mix": "odds50"
+    },
+    {
+      "name": "soft_a100",
+      "capacity": "soft",
+      "alpha": 1.0,
+      "mix": "odds50"
+    }
+  ],
+  "capacities": {
+    "bce": {
+      "strength": 0.0
+    },
+    "soft": {
+      "strength": 0.75
+    }
+  },
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "October": "June-Sep900-tree j075parent andJune-Sep residuals;fixed.25 picktop2 of4(BCE/Soft x residual logit shrinkage.5/1) byIoU, FP/FN<=1.15R127 preferred. No January choice of head or shrinkage. R127fitthese dates,developmentnotpureOOS.",
+  "November": "Selected2three seeds,reportonly,noreselection. FinalJune-Nov900parent andresiduals.",
+  "January": "Only scalar threshold .05.. .75 step.025 maximizingIoU;record priorFP/FNguardrail feasibility and bestfeasiblethreshold but primaryunconstrained as higherIoUpriority.",
+  "February": "Allmodel/params/source+Januarythresholds hashfrozen before originalsame184/210ongoingpopulations. No tuning. Calendar64audit uses alreadyfrozen prior model andisreportonly,neverparameterselection.",
+  "caveat": "Reliableobservation proxy,not officialS_queue;Februaryreuseddevelopment,notblind. Preserve0.82639,0.82245,0.82186,bestonsetearly_full unchanged."
+}
