@@ -1,0 +1,1294 @@
+{
+  "primary_comparison": "retained vs R127; fixed before pooled calculation",
+  "scores": {
+    "R127": {
+      "metric": "proxy_IoU",
+      "official_truth_available": false,
+      "scope": "complete_eight_panel_proxy",
+      "complete": true,
+      "proxy_IoU": 0.7880435450105043,
+      "diagnostic_macro_IoU": 0.7880435450105043,
+      "missing_groups": [],
+      "n_windows": 1479,
+      "by_panel_condition": {
+        "D12_I5_N/queue_ongoing": 0.8485285122379548,
+        "D12_I5_N/queue_onset": 0.6984520873727295,
+        "D12_I5_S/queue_ongoing": 0.8288000871110878,
+        "D12_I5_S/queue_onset": 0.6691083440627782,
+        "D7_I10_E/queue_ongoing": 0.8548855038379458,
+        "D7_I10_E/queue_onset": 0.763765199166779,
+        "D7_I10_W/queue_ongoing": 0.7889787684186391,
+        "D7_I10_W/queue_onset": 0.6456468454413284,
+        "D7_I210_E/queue_ongoing": 0.9570348066795437,
+        "D7_I210_E/queue_onset": 0.9256042428191941,
+        "D7_I210_W/queue_ongoing": 0.8445027317650319,
+        "D7_I210_W/queue_onset": 0.680361881953031,
+        "D7_I405_N/queue_ongoing": 0.8371521658709032,
+        "D7_I405_N/queue_onset": 0.7553822268182183,
+        "D7_I405_S/queue_ongoing": 0.8294620791283285,
+        "D7_I405_S/queue_onset": 0.6810312374845747
+      },
+      "by_panel": {
+        "D7_I10_E": 0.8093253515023624,
+        "D7_I10_W": 0.7173128069299838,
+        "D7_I210_E": 0.9413195247493689,
+        "D7_I210_W": 0.7624323068590315,
+        "D7_I405_N": 0.7962671963445608,
+        "D7_I405_S": 0.7552466583064517,
+        "D12_I5_N": 0.7734902998053421,
+        "D12_I5_S": 0.748954215586933
+      },
+      "by_family": {
+        "D7_I10": 0.763319079216173,
+        "D7_I210": 0.8518759158042002,
+        "D7_I405": 0.7757569273255063,
+        "D12_I5": 0.7612222576961376
+      },
+      "counts": {
+        "D12_I5_N/queue_ongoing": 96,
+        "D12_I5_N/queue_onset": 96,
+        "D12_I5_S/queue_ongoing": 97,
+        "D12_I5_S/queue_onset": 97,
+        "D7_I10_E/queue_ongoing": 94,
+        "D7_I10_E/queue_onset": 92,
+        "D7_I10_W/queue_ongoing": 70,
+        "D7_I10_W/queue_onset": 56,
+        "D7_I210_E/queue_ongoing": 100,
+        "D7_I210_E/queue_onset": 98,
+        "D7_I210_W/queue_ongoing": 99,
+        "D7_I210_W/queue_onset": 97,
+        "D7_I405_N/queue_ongoing": 98,
+        "D7_I405_N/queue_onset": 99,
+        "D7_I405_S/queue_ongoing": 95,
+        "D7_I405_S/queue_onset": 95
+      },
+      "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+    },
+    "retained": {
+      "metric": "proxy_IoU",
+      "official_truth_available": false,
+      "scope": "complete_eight_panel_proxy",
+      "complete": true,
+      "proxy_IoU": 0.7906971079131812,
+      "diagnostic_macro_IoU": 0.7906971079131812,
+      "missing_groups": [],
+      "n_windows": 1479,
+      "by_panel_condition": {
+        "D12_I5_N/queue_ongoing": 0.8485285122379548,
+        "D12_I5_N/queue_onset": 0.6957620915342059,
+        "D12_I5_S/queue_ongoing": 0.8288000871110878,
+        "D12_I5_S/queue_onset": 0.6785384009447418,
+        "D7_I10_E/queue_ongoing": 0.8548855038379458,
+        "D7_I10_E/queue_onset": 0.7730838293320493,
+        "D7_I10_W/queue_ongoing": 0.7889787684186391,
+        "D7_I10_W/queue_onset": 0.6585727351141124,
+        "D7_I210_E/queue_ongoing": 0.9570348066795437,
+        "D7_I210_E/queue_onset": 0.9306873345843282,
+        "D7_I210_W/queue_ongoing": 0.8445027317650319,
+        "D7_I210_W/queue_onset": 0.6820837761342274,
+        "D7_I405_N/queue_ongoing": 0.8371521658709032,
+        "D7_I405_N/queue_onset": 0.7556520535560256,
+        "D7_I405_S/queue_ongoing": 0.8294620791283285,
+        "D7_I405_S/queue_onset": 0.6874288503617727
+      },
+      "by_panel": {
+        "D7_I10_E": 0.8139846665849976,
+        "D7_I10_W": 0.7237757517663758,
+        "D7_I210_E": 0.9438610706319359,
+        "D7_I210_W": 0.7632932539496297,
+        "D7_I405_N": 0.7964021097134644,
+        "D7_I405_S": 0.7584454647450506,
+        "D12_I5_N": 0.7721453018860803,
+        "D12_I5_S": 0.7536692440279148
+      },
+      "by_family": {
+        "D7_I10": 0.7688802091756867,
+        "D7_I210": 0.8535771622907828,
+        "D7_I405": 0.7774237872292575,
+        "D12_I5": 0.7629072729569976
+      },
+      "counts": {
+        "D12_I5_N/queue_ongoing": 96,
+        "D12_I5_N/queue_onset": 96,
+        "D12_I5_S/queue_ongoing": 97,
+        "D12_I5_S/queue_onset": 97,
+        "D7_I10_E/queue_ongoing": 94,
+        "D7_I10_E/queue_onset": 92,
+        "D7_I10_W/queue_ongoing": 70,
+        "D7_I10_W/queue_onset": 56,
+        "D7_I210_E/queue_ongoing": 100,
+        "D7_I210_E/queue_onset": 98,
+        "D7_I210_W/queue_ongoing": 99,
+        "D7_I210_W/queue_onset": 97,
+        "D7_I405_N/queue_ongoing": 98,
+        "D7_I405_N/queue_onset": 99,
+        "D7_I405_S/queue_ongoing": 95,
+        "D7_I405_S/queue_onset": 95
+      },
+      "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+    },
+    "shadow_explanations_observed_consensus": {
+      "metric": "proxy_IoU",
+      "official_truth_available": false,
+      "scope": "complete_eight_panel_proxy",
+      "complete": true,
+      "proxy_IoU": 0.7907434270831417,
+      "diagnostic_macro_IoU": 0.7907434270831417,
+      "missing_groups": [],
+      "n_windows": 1479,
+      "by_panel_condition": {
+        "D12_I5_N/queue_ongoing": 0.8485285122379548,
+        "D12_I5_N/queue_onset": 0.6957620915342059,
+        "D12_I5_S/queue_ongoing": 0.8288000871110878,
+        "D12_I5_S/queue_onset": 0.6785384009447418,
+        "D7_I10_E/queue_ongoing": 0.8548855038379458,
+        "D7_I10_E/queue_onset": 0.7730838293320493,
+        "D7_I10_W/queue_ongoing": 0.7889787684186391,
+        "D7_I10_W/queue_onset": 0.6593138418334801,
+        "D7_I210_E/queue_ongoing": 0.9570348066795437,
+        "D7_I210_E/queue_onset": 0.9306873345843282,
+        "D7_I210_W/queue_ongoing": 0.8445027317650319,
+        "D7_I210_W/queue_onset": 0.6820837761342274,
+        "D7_I405_N/queue_ongoing": 0.8371521658709032,
+        "D7_I405_N/queue_onset": 0.7556520535560256,
+        "D7_I405_S/queue_ongoing": 0.8294620791283285,
+        "D7_I405_S/queue_onset": 0.6874288503617727
+      },
+      "by_panel": {
+        "D7_I10_E": 0.8139846665849976,
+        "D7_I10_W": 0.7241463051260596,
+        "D7_I210_E": 0.9438610706319359,
+        "D7_I210_W": 0.7632932539496297,
+        "D7_I405_N": 0.7964021097134644,
+        "D7_I405_S": 0.7584454647450506,
+        "D12_I5_N": 0.7721453018860803,
+        "D12_I5_S": 0.7536692440279148
+      },
+      "by_family": {
+        "D7_I10": 0.7690654858555286,
+        "D7_I210": 0.8535771622907828,
+        "D7_I405": 0.7774237872292575,
+        "D12_I5": 0.7629072729569976
+      },
+      "counts": {
+        "D12_I5_N/queue_ongoing": 96,
+        "D12_I5_N/queue_onset": 96,
+        "D12_I5_S/queue_ongoing": 97,
+        "D12_I5_S/queue_onset": 97,
+        "D7_I10_E/queue_ongoing": 94,
+        "D7_I10_E/queue_onset": 92,
+        "D7_I10_W/queue_ongoing": 70,
+        "D7_I10_W/queue_onset": 56,
+        "D7_I210_E/queue_ongoing": 100,
+        "D7_I210_E/queue_onset": 98,
+        "D7_I210_W/queue_ongoing": 99,
+        "D7_I210_W/queue_onset": 97,
+        "D7_I405_N/queue_ongoing": 98,
+        "D7_I405_N/queue_onset": 99,
+        "D7_I405_S/queue_ongoing": 95,
+        "D7_I405_S/queue_onset": 95
+      },
+      "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+    }
+  },
+  "gains_vs_R127": {
+    "R127": {
+      "absolute": 0.0,
+      "percentage_points": 0.0,
+      "relative_percent": 0.0
+    },
+    "retained": {
+      "absolute": 0.0026535629026768204,
+      "percentage_points": 0.26535629026768204,
+      "relative_percent": 0.3367279536109269
+    },
+    "shadow_explanations_observed_consensus": {
+      "absolute": 0.002699882072637383,
+      "percentage_points": 0.2699882072637383,
+      "relative_percent": 0.3426056960597723
+    }
+  },
+  "monthly_deduplicated": {
+    "2030-12": {
+      "R127": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.8071053394129164,
+        "diagnostic_macro_IoU": 0.8071053394129164,
+        "missing_groups": [],
+        "n_windows": 354,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.847375171292588,
+          "D12_I5_N/queue_onset": 0.8019323500414837,
+          "D12_I5_S/queue_ongoing": 0.8911087453218932,
+          "D12_I5_S/queue_onset": 0.7011541242453556,
+          "D7_I10_E/queue_ongoing": 0.8584647320989752,
+          "D7_I10_E/queue_onset": 0.7434757105978367,
+          "D7_I10_W/queue_ongoing": 0.7550471521014157,
+          "D7_I10_W/queue_onset": 0.6426762779703955,
+          "D7_I210_E/queue_ongoing": 0.9780077561327561,
+          "D7_I210_E/queue_onset": 0.8873331529581531,
+          "D7_I210_W/queue_ongoing": 0.9161107498117772,
+          "D7_I210_W/queue_onset": 0.6703208743605086,
+          "D7_I405_N/queue_ongoing": 0.8425384633797156,
+          "D7_I405_N/queue_onset": 0.8034627923029252,
+          "D7_I405_S/queue_ongoing": 0.9006210928932313,
+          "D7_I405_S/queue_onset": 0.6740562850976524
+        },
+        "by_panel": {
+          "D7_I10_E": 0.800970221348406,
+          "D7_I10_W": 0.6988617150359056,
+          "D7_I210_E": 0.9326704545454546,
+          "D7_I210_W": 0.7932158120861429,
+          "D7_I405_N": 0.8230006278413204,
+          "D7_I405_S": 0.7873386889954419,
+          "D12_I5_N": 0.8246537606670359,
+          "D12_I5_S": 0.7961314347836244
+        },
+        "by_family": {
+          "D7_I10": 0.7499159681921558,
+          "D7_I210": 0.8629431333157987,
+          "D7_I405": 0.8051696584183812,
+          "D12_I5": 0.8103925977253301
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 24,
+          "D7_I10_W/queue_ongoing": 9,
+          "D7_I10_W/queue_onset": 9,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "retained": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.8080082881804196,
+        "diagnostic_macro_IoU": 0.8080082881804196,
+        "missing_groups": [],
+        "n_windows": 354,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.847375171292588,
+          "D12_I5_N/queue_onset": 0.8024163567754904,
+          "D12_I5_S/queue_ongoing": 0.8911087453218932,
+          "D12_I5_S/queue_onset": 0.706882859734153,
+          "D7_I10_E/queue_ongoing": 0.8584647320989752,
+          "D7_I10_E/queue_onset": 0.751948222580317,
+          "D7_I10_W/queue_ongoing": 0.7550471521014157,
+          "D7_I10_W/queue_onset": 0.6195476084649145,
+          "D7_I210_E/queue_ongoing": 0.9780077561327561,
+          "D7_I210_E/queue_onset": 0.8919627825877826,
+          "D7_I210_W/queue_ongoing": 0.9161107498117772,
+          "D7_I210_W/queue_onset": 0.6809491349887692,
+          "D7_I405_N/queue_ongoing": 0.8425384633797156,
+          "D7_I405_N/queue_onset": 0.8034627923029252,
+          "D7_I405_S/queue_ongoing": 0.9006210928932313,
+          "D7_I405_S/queue_onset": 0.6816889904200097
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8052064773396461,
+          "D7_I10_W": 0.6872973802831651,
+          "D7_I210_E": 0.9349852693602694,
+          "D7_I210_W": 0.7985299424002732,
+          "D7_I405_N": 0.8230006278413204,
+          "D7_I405_S": 0.7911550416566205,
+          "D12_I5_N": 0.8248957640340392,
+          "D12_I5_S": 0.798995802528023
+        },
+        "by_family": {
+          "D7_I10": 0.7462519288114056,
+          "D7_I210": 0.8667576058802713,
+          "D7_I405": 0.8070778347489704,
+          "D12_I5": 0.8119457832810311
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 24,
+          "D7_I10_W/queue_ongoing": 9,
+          "D7_I10_W/queue_onset": 9,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "shadow_explanations_observed_consensus": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.8080082881804196,
+        "diagnostic_macro_IoU": 0.8080082881804196,
+        "missing_groups": [],
+        "n_windows": 354,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.847375171292588,
+          "D12_I5_N/queue_onset": 0.8024163567754904,
+          "D12_I5_S/queue_ongoing": 0.8911087453218932,
+          "D12_I5_S/queue_onset": 0.706882859734153,
+          "D7_I10_E/queue_ongoing": 0.8584647320989752,
+          "D7_I10_E/queue_onset": 0.751948222580317,
+          "D7_I10_W/queue_ongoing": 0.7550471521014157,
+          "D7_I10_W/queue_onset": 0.6195476084649145,
+          "D7_I210_E/queue_ongoing": 0.9780077561327561,
+          "D7_I210_E/queue_onset": 0.8919627825877826,
+          "D7_I210_W/queue_ongoing": 0.9161107498117772,
+          "D7_I210_W/queue_onset": 0.6809491349887692,
+          "D7_I405_N/queue_ongoing": 0.8425384633797156,
+          "D7_I405_N/queue_onset": 0.8034627923029252,
+          "D7_I405_S/queue_ongoing": 0.9006210928932313,
+          "D7_I405_S/queue_onset": 0.6816889904200097
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8052064773396461,
+          "D7_I10_W": 0.6872973802831651,
+          "D7_I210_E": 0.9349852693602694,
+          "D7_I210_W": 0.7985299424002732,
+          "D7_I405_N": 0.8230006278413204,
+          "D7_I405_S": 0.7911550416566205,
+          "D12_I5_N": 0.8248957640340392,
+          "D12_I5_S": 0.798995802528023
+        },
+        "by_family": {
+          "D7_I10": 0.7462519288114056,
+          "D7_I210": 0.8667576058802713,
+          "D7_I405": 0.8070778347489704,
+          "D12_I5": 0.8119457832810311
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 24,
+          "D7_I10_W/queue_ongoing": 9,
+          "D7_I10_W/queue_onset": 9,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      }
+    },
+    "2031-01": {
+      "R127": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7924902177119033,
+        "diagnostic_macro_IoU": 0.7924902177119033,
+        "missing_groups": [],
+        "n_windows": 371,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.8823674511623949,
+          "D12_I5_N/queue_onset": 0.6258517516182466,
+          "D12_I5_S/queue_ongoing": 0.8619001336918588,
+          "D12_I5_S/queue_onset": 0.57693896142172,
+          "D7_I10_E/queue_ongoing": 0.8445623715426107,
+          "D7_I10_E/queue_onset": 0.755997876939125,
+          "D7_I10_W/queue_ongoing": 0.8443488407304197,
+          "D7_I10_W/queue_onset": 0.55130000718236,
+          "D7_I210_E/queue_ongoing": 0.9864864864864865,
+          "D7_I210_E/queue_onset": 0.9814178876678877,
+          "D7_I210_W/queue_ongoing": 0.8861996819548651,
+          "D7_I210_W/queue_onset": 0.6554903236598283,
+          "D7_I405_N/queue_ongoing": 0.8851423448187438,
+          "D7_I405_N/queue_onset": 0.779692916438606,
+          "D7_I405_S/queue_ongoing": 0.8291774156767855,
+          "D7_I405_S/queue_onset": 0.7329690323985131
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8002801242408679,
+          "D7_I10_W": 0.6978244239563899,
+          "D7_I210_E": 0.9839521870771871,
+          "D7_I210_W": 0.7708450028073467,
+          "D7_I405_N": 0.8324176306286749,
+          "D7_I405_S": 0.7810732240376492,
+          "D12_I5_N": 0.7541096013903208,
+          "D12_I5_S": 0.7194195475567894
+        },
+        "by_family": {
+          "D7_I10": 0.749052274098629,
+          "D7_I210": 0.8773985949422669,
+          "D7_I405": 0.806745427333162,
+          "D12_I5": 0.7367645744735551
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 24,
+          "D7_I10_W/queue_ongoing": 18,
+          "D7_I10_W/queue_onset": 17,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "retained": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7973210797080327,
+        "diagnostic_macro_IoU": 0.7973210797080327,
+        "missing_groups": [],
+        "n_windows": 371,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.8823674511623949,
+          "D12_I5_N/queue_onset": 0.6252467044914604,
+          "D12_I5_S/queue_ongoing": 0.8619001336918588,
+          "D12_I5_S/queue_onset": 0.5867495121039812,
+          "D7_I10_E/queue_ongoing": 0.8445623715426107,
+          "D7_I10_E/queue_onset": 0.7683109910840281,
+          "D7_I10_W/queue_ongoing": 0.8443488407304197,
+          "D7_I10_W/queue_onset": 0.5855167708108884,
+          "D7_I210_E/queue_ongoing": 0.9864864864864865,
+          "D7_I210_E/queue_onset": 0.9880952380952381,
+          "D7_I210_W/queue_ongoing": 0.8861996819548651,
+          "D7_I210_W/queue_onset": 0.6579940699135746,
+          "D7_I405_N/queue_ongoing": 0.8851423448187438,
+          "D7_I405_N/queue_onset": 0.7779793522250419,
+          "D7_I405_S/queue_ongoing": 0.8291774156767855,
+          "D7_I405_S/queue_onset": 0.7470599105401433
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8064366813133195,
+          "D7_I10_W": 0.7149328057706541,
+          "D7_I210_E": 0.9872908622908623,
+          "D7_I210_W": 0.7720968759342198,
+          "D7_I405_N": 0.8315608485218928,
+          "D7_I405_S": 0.7881186631084645,
+          "D12_I5_N": 0.7538070778269277,
+          "D12_I5_S": 0.72432482289792
+        },
+        "by_family": {
+          "D7_I10": 0.7606847435419868,
+          "D7_I210": 0.8796938691125411,
+          "D7_I405": 0.8098397558151786,
+          "D12_I5": 0.7390659503624238
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 24,
+          "D7_I10_W/queue_ongoing": 18,
+          "D7_I10_W/queue_onset": 17,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "shadow_explanations_observed_consensus": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7973210797080327,
+        "diagnostic_macro_IoU": 0.7973210797080327,
+        "missing_groups": [],
+        "n_windows": 371,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.8823674511623949,
+          "D12_I5_N/queue_onset": 0.6252467044914604,
+          "D12_I5_S/queue_ongoing": 0.8619001336918588,
+          "D12_I5_S/queue_onset": 0.5867495121039812,
+          "D7_I10_E/queue_ongoing": 0.8445623715426107,
+          "D7_I10_E/queue_onset": 0.7683109910840281,
+          "D7_I10_W/queue_ongoing": 0.8443488407304197,
+          "D7_I10_W/queue_onset": 0.5855167708108884,
+          "D7_I210_E/queue_ongoing": 0.9864864864864865,
+          "D7_I210_E/queue_onset": 0.9880952380952381,
+          "D7_I210_W/queue_ongoing": 0.8861996819548651,
+          "D7_I210_W/queue_onset": 0.6579940699135746,
+          "D7_I405_N/queue_ongoing": 0.8851423448187438,
+          "D7_I405_N/queue_onset": 0.7779793522250419,
+          "D7_I405_S/queue_ongoing": 0.8291774156767855,
+          "D7_I405_S/queue_onset": 0.7470599105401433
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8064366813133195,
+          "D7_I10_W": 0.7149328057706541,
+          "D7_I210_E": 0.9872908622908623,
+          "D7_I210_W": 0.7720968759342198,
+          "D7_I405_N": 0.8315608485218928,
+          "D7_I405_S": 0.7881186631084645,
+          "D12_I5_N": 0.7538070778269277,
+          "D12_I5_S": 0.72432482289792
+        },
+        "by_family": {
+          "D7_I10": 0.7606847435419868,
+          "D7_I210": 0.8796938691125411,
+          "D7_I405": 0.8098397558151786,
+          "D12_I5": 0.7390659503624238
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 24,
+          "D12_I5_N/queue_onset": 24,
+          "D12_I5_S/queue_ongoing": 24,
+          "D12_I5_S/queue_onset": 24,
+          "D7_I10_E/queue_ongoing": 24,
+          "D7_I10_E/queue_onset": 24,
+          "D7_I10_W/queue_ongoing": 18,
+          "D7_I10_W/queue_onset": 17,
+          "D7_I210_E/queue_ongoing": 24,
+          "D7_I210_E/queue_onset": 24,
+          "D7_I210_W/queue_ongoing": 24,
+          "D7_I210_W/queue_onset": 24,
+          "D7_I405_N/queue_ongoing": 24,
+          "D7_I405_N/queue_onset": 24,
+          "D7_I405_S/queue_ongoing": 24,
+          "D7_I405_S/queue_onset": 24
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      }
+    },
+    "2031-02": {
+      "R127": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7768737833471568,
+        "diagnostic_macro_IoU": 0.7768737833471568,
+        "missing_groups": [],
+        "n_windows": 754,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.8321857132484182,
+          "D12_I5_N/queue_onset": 0.683012123915594,
+          "D12_I5_S/queue_ongoing": 0.7820692929274586,
+          "D12_I5_S/queue_onset": 0.698556639144483,
+          "D7_I10_E/queue_ongoing": 0.85840406246454,
+          "D7_I10_E/queue_onset": 0.7790689141467406,
+          "D7_I10_W/queue_ongoing": 0.7729025648196383,
+          "D7_I10_W/queue_onset": 0.700001224029357,
+          "D7_I210_E/queue_ongoing": 0.933761900867164,
+          "D7_I210_E/queue_onset": 0.9171838164251207,
+          "D7_I210_W/queue_ongoing": 0.7911827467125246,
+          "D7_I210_W/queue_onset": 0.6974619142235905,
+          "D7_I405_N/queue_ongoing": 0.8115314571717096,
+          "D7_I405_N/queue_onset": 0.7213157538275854,
+          "D7_I405_S/queue_ongoing": 0.7932709215215064,
+          "D7_I405_S/queue_onset": 0.6580714881090767
+        },
+        "by_panel": {
+          "D7_I10_E": 0.8187364883056403,
+          "D7_I10_W": 0.7364518944244977,
+          "D7_I210_E": 0.9254728586461424,
+          "D7_I210_W": 0.7443223304680575,
+          "D7_I405_N": 0.7664236054996475,
+          "D7_I405_S": 0.7256712048152916,
+          "D12_I5_N": 0.757598918582006,
+          "D12_I5_S": 0.7403129660359709
+        },
+        "by_family": {
+          "D7_I10": 0.777594191365069,
+          "D7_I210": 0.8348975945571,
+          "D7_I405": 0.7460474051574695,
+          "D12_I5": 0.7489559423089884
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 48,
+          "D12_I5_N/queue_onset": 48,
+          "D12_I5_S/queue_ongoing": 49,
+          "D12_I5_S/queue_onset": 49,
+          "D7_I10_E/queue_ongoing": 46,
+          "D7_I10_E/queue_onset": 44,
+          "D7_I10_W/queue_ongoing": 43,
+          "D7_I10_W/queue_onset": 30,
+          "D7_I210_E/queue_ongoing": 52,
+          "D7_I210_E/queue_onset": 50,
+          "D7_I210_W/queue_ongoing": 51,
+          "D7_I210_W/queue_onset": 49,
+          "D7_I405_N/queue_ongoing": 50,
+          "D7_I405_N/queue_onset": 51,
+          "D7_I405_S/queue_ongoing": 47,
+          "D7_I405_S/queue_onset": 47
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "retained": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7787639149736031,
+        "diagnostic_macro_IoU": 0.7787639149736031,
+        "missing_groups": [],
+        "n_windows": 754,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.8321857132484182,
+          "D12_I5_N/queue_onset": 0.6776926524349364,
+          "D12_I5_S/queue_ongoing": 0.7820692929274586,
+          "D12_I5_S/queue_onset": 0.7096132238270354,
+          "D7_I10_E/queue_ongoing": 0.85840406246454,
+          "D7_I10_E/queue_onset": 0.7872157084228242,
+          "D7_I10_W/queue_ongoing": 0.7729025648196383,
+          "D7_I10_W/queue_onset": 0.711678652880699,
+          "D7_I210_E/queue_ongoing": 0.933761900867164,
+          "D7_I210_E/queue_onset": 0.9217193258574332,
+          "D7_I210_W/queue_ongoing": 0.7911827467125246,
+          "D7_I210_W/queue_onset": 0.6944385585176286,
+          "D7_I405_N/queue_ongoing": 0.8115314571717096,
+          "D7_I405_N/queue_onset": 0.7226459183014771,
+          "D7_I405_S/queue_ongoing": 0.7932709215215064,
+          "D7_I405_S/queue_onset": 0.6599099396026542
+        },
+        "by_panel": {
+          "D7_I10_E": 0.822809885443682,
+          "D7_I10_W": 0.7422906088501686,
+          "D7_I210_E": 0.9277406133622986,
+          "D7_I210_W": 0.7428106526150766,
+          "D7_I405_N": 0.7670886877365933,
+          "D7_I405_S": 0.7265904305620803,
+          "D12_I5_N": 0.7549391828416773,
+          "D12_I5_S": 0.745841258377247
+        },
+        "by_family": {
+          "D7_I10": 0.7825502471469253,
+          "D7_I210": 0.8352756329886877,
+          "D7_I405": 0.7468395591493369,
+          "D12_I5": 0.7503902206094621
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 48,
+          "D12_I5_N/queue_onset": 48,
+          "D12_I5_S/queue_ongoing": 49,
+          "D12_I5_S/queue_onset": 49,
+          "D7_I10_E/queue_ongoing": 46,
+          "D7_I10_E/queue_onset": 44,
+          "D7_I10_W/queue_ongoing": 43,
+          "D7_I10_W/queue_onset": 30,
+          "D7_I210_E/queue_ongoing": 52,
+          "D7_I210_E/queue_onset": 50,
+          "D7_I210_W/queue_ongoing": 51,
+          "D7_I210_W/queue_onset": 49,
+          "D7_I405_N/queue_ongoing": 50,
+          "D7_I405_N/queue_onset": 51,
+          "D7_I405_S/queue_ongoing": 47,
+          "D7_I405_S/queue_onset": 47
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      },
+      "shadow_explanations_observed_consensus": {
+        "metric": "proxy_IoU",
+        "official_truth_available": false,
+        "scope": "complete_eight_panel_proxy",
+        "complete": true,
+        "proxy_IoU": 0.7788503774241958,
+        "diagnostic_macro_IoU": 0.7788503774241958,
+        "missing_groups": [],
+        "n_windows": 754,
+        "by_panel_condition": {
+          "D12_I5_N/queue_ongoing": 0.8321857132484182,
+          "D12_I5_N/queue_onset": 0.6776926524349364,
+          "D12_I5_S/queue_ongoing": 0.7820692929274586,
+          "D12_I5_S/queue_onset": 0.7096132238270354,
+          "D7_I10_E/queue_ongoing": 0.85840406246454,
+          "D7_I10_E/queue_onset": 0.7872157084228242,
+          "D7_I10_W/queue_ongoing": 0.7729025648196383,
+          "D7_I10_W/queue_onset": 0.7130620520901851,
+          "D7_I210_E/queue_ongoing": 0.933761900867164,
+          "D7_I210_E/queue_onset": 0.9217193258574332,
+          "D7_I210_W/queue_ongoing": 0.7911827467125246,
+          "D7_I210_W/queue_onset": 0.6944385585176286,
+          "D7_I405_N/queue_ongoing": 0.8115314571717096,
+          "D7_I405_N/queue_onset": 0.7226459183014771,
+          "D7_I405_S/queue_ongoing": 0.7932709215215064,
+          "D7_I405_S/queue_onset": 0.6599099396026542
+        },
+        "by_panel": {
+          "D7_I10_E": 0.822809885443682,
+          "D7_I10_W": 0.7429823084549116,
+          "D7_I210_E": 0.9277406133622986,
+          "D7_I210_W": 0.7428106526150766,
+          "D7_I405_N": 0.7670886877365933,
+          "D7_I405_S": 0.7265904305620803,
+          "D12_I5_N": 0.7549391828416773,
+          "D12_I5_S": 0.745841258377247
+        },
+        "by_family": {
+          "D7_I10": 0.7828960969492968,
+          "D7_I210": 0.8352756329886877,
+          "D7_I405": 0.7468395591493369,
+          "D12_I5": 0.7503902206094621
+        },
+        "counts": {
+          "D12_I5_N/queue_ongoing": 48,
+          "D12_I5_N/queue_onset": 48,
+          "D12_I5_S/queue_ongoing": 49,
+          "D12_I5_S/queue_onset": 49,
+          "D7_I10_E/queue_ongoing": 46,
+          "D7_I10_E/queue_onset": 44,
+          "D7_I10_W/queue_ongoing": 43,
+          "D7_I10_W/queue_onset": 30,
+          "D7_I210_E/queue_ongoing": 52,
+          "D7_I210_E/queue_onset": 50,
+          "D7_I210_W/queue_ongoing": 51,
+          "D7_I210_W/queue_onset": 49,
+          "D7_I405_N/queue_ongoing": 50,
+          "D7_I405_N/queue_onset": 51,
+          "D7_I405_S/queue_ongoing": 47,
+          "D7_I405_S/queue_onset": 47
+        },
+        "aggregation": "window -> panel-condition -> panel -> family -> four-family macro"
+      }
+    }
+  },
+  "all_input_windows": {
+    "december": 435,
+    "january": 445,
+    "february_new": 367,
+    "february_old": 768
+  },
+  "scored_input_windows": {
+    "december": 354,
+    "january": 371,
+    "february_new": 367,
+    "february_old": 410
+  },
+  "unique_all_windows": 1992,
+  "unique_scored_windows": 1479,
+  "duplicates": [
+    {
+      "key": [
+        "D7_I10_E",
+        "2031-02-04",
+        144
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-04T12:00:00+00:00",
+        "2031-02-04T12:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I10_E",
+        "2031-02-13",
+        96
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-13T08:00:00+00:00",
+        "2031-02-13T08:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I10_E",
+        "2031-02-16",
+        138
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-16T11:30:00+00:00",
+        "2031-02-16T11:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I10_W",
+        "2031-02-08",
+        174
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-08T14:30:00+00:00",
+        "2031-02-08T14:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I10_W",
+        "2031-02-12",
+        186
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-12T15:30:00+00:00",
+        "2031-02-12T15:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I10_W",
+        "2031-02-21",
+        174
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-21T14:30:00+00:00",
+        "2031-02-21T14:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I10_W",
+        "2031-02-22",
+        174
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-22T14:30:00+00:00",
+        "2031-02-22T14:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I210_E",
+        "2031-02-09",
+        114
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-09T09:30:00+00:00",
+        "2031-02-09T09:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I210_E",
+        "2031-02-15",
+        102
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-15T08:30:00+00:00",
+        "2031-02-15T08:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I210_W",
+        "2031-02-06",
+        150
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-06T12:30:00+00:00",
+        "2031-02-06T12:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I210_W",
+        "2031-02-10",
+        72
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-10T06:00:00+00:00",
+        "2031-02-10T06:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I210_W",
+        "2031-02-17",
+        162
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-17T13:30:00+00:00",
+        "2031-02-17T13:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I210_W",
+        "2031-02-27",
+        66
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-27T05:30:00+00:00",
+        "2031-02-27T05:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I405_N",
+        "2031-02-04",
+        78
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-04T06:30:00+00:00",
+        "2031-02-04T06:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I405_N",
+        "2031-02-05",
+        78
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-05T06:30:00+00:00",
+        "2031-02-05T06:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I405_N",
+        "2031-02-09",
+        156
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-09T13:00:00+00:00",
+        "2031-02-09T13:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I405_S",
+        "2031-02-04",
+        96
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-04T08:00:00+00:00",
+        "2031-02-04T08:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I405_S",
+        "2031-02-10",
+        138
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-10T11:30:00+00:00",
+        "2031-02-10T11:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D7_I405_S",
+        "2031-02-25",
+        90
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-25T07:30:00+00:00",
+        "2031-02-25T07:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D12_I5_N",
+        "2031-02-06",
+        96
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-06T08:00:00+00:00",
+        "2031-02-06T08:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D12_I5_N",
+        "2031-02-06",
+        102
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-06T08:30:00+00:00",
+        "2031-02-06T08:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D12_I5_S",
+        "2031-02-16",
+        126
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-16T10:30:00+00:00",
+        "2031-02-16T10:30:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    },
+    {
+      "key": [
+        "D12_I5_S",
+        "2031-02-19",
+        156
+      ],
+      "kept_population": "february_new",
+      "removed_population": "february_old",
+      "scored": true,
+      "raw_origins": [
+        "2031-02-19T13:00:00+00:00",
+        "2031-02-19T13:00:00Z"
+      ],
+      "verified_equal": [
+        "condition",
+        "has_future_queue",
+        "y",
+        "m",
+        "R127_probability"
+      ]
+    }
+  ],
+  "duplicate_scored_windows": 23,
+  "duplicate_policy": "first occurrence in December,January,February-new,February-old; equality required, not best-scoring occurrence",
+  "identity": "actual loader panel/date/5-minute slot; timezone suffix not interpreted because loader uses raw clock/date",
+  "scope": "December,January,union of two February developed cohorts; November excluded because ongoing coverage incomplete; October training excluded",
+  "eligibility": "Same has_future_queue=True scoring windows as previous complete proxy evaluations; negative-window alarms remain separately diagnosed, not newly added to score",
+  "official_truth_available": false,
+  "all_months_reused_development": true,
+  "model_selection_from_this_pool": false,
+  "default_unchanged": true
+}

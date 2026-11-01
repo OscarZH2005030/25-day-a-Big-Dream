@@ -1,0 +1,19 @@
+{
+  "archive_and_all88_runtime_files_SHA256": true,
+  "portable_smoke_eight_panels": true,
+  "metrics_recomputed": {
+    "scores": {
+      "R127": 0.7880435450105043,
+      "retained": 0.7906971079131812,
+      "pending_shadow": 0.7908931920930213
+    },
+    "absolute_gain": 0.002849647082517004,
+    "unique_scored_windows": 1479,
+    "official_truth_available": false,
+    "repeated_development": true
+  },
+  "required_parent": "existing checksum-pinned ConditionalPosition-R127 release",
+  "raw_data_included": false,
+  "default_replaced": false,
+  "official_truth_available": false
+}

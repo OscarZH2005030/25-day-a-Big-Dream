@@ -1,0 +1,13 @@
+四项独立消融结果（公共partial-label基线、固定预算/阈值、严格日期统计）
+
+稳健可接受最好影子候选仍为0.790759528114；R127为0.788043545011。四组的compact+增强same-cause一致策略均与该候选打平，没有新增保真收益。
+
+arrival: {'consensus_overall': 0.7906784826994462, 'lost_known_TP': {'november': 3, 'december': 1, 'january': 0, 'february_new': 0, 'february_old': 0}, 'single_overall': 0.7908038689583448, 'safe_combination_overall': 0.7907595281136076, 'anchors': {'february_new': {'total': 6, 'kept': 6}, 'february_old': {'total': 17, 'kept': 17}}}
+smoothing: {'consensus_overall': 0.7907714886518271, 'lost_known_TP': {'november': 3, 'december': 1, 'january': 0, 'february_new': 0, 'february_old': 0}, 'single_overall': 0.790816406518226, 'safe_combination_overall': 0.7907595281136076, 'anchors': {'february_new': {'total': 6, 'kept': 6}, 'february_old': {'total': 17, 'kept': 17}}}
+hazard: {'consensus_overall': 0.790825145932047, 'lost_known_TP': {'november': 1, 'december': 0, 'january': 1, 'february_new': 0, 'february_old': 0}, 'single_overall': 0.790615525473771, 'safe_combination_overall': 0.7907595281136076, 'anchors': {'february_new': {'total': 6, 'kept': 6}, 'february_old': {'total': 17, 'kept': 17}}}
+fd: {'consensus_overall': 0.7906784826994462, 'lost_known_TP': {'november': 2, 'december': 1, 'january': 0, 'february_new': 0, 'february_old': 0}, 'single_overall': 0.7908357915279225, 'safe_combination_overall': 0.7907595281136076, 'anchors': {'february_new': {'total': 6, 'kept': 6}, 'february_old': {'total': 17, 'kept': 17}}}
+
+条件风险一致筛选0.790825145932，但11月/1月各丢1个TP；是更有潜力的研究方向，不是可采用胜者。容量密度单模型最高0.790835791528，但丢更多TP。
+6/6、17/17在所有16项策略中均保留；这不代表其余救援TP没有损失。
+条件风险诊断：11月误删TP已有本地拥堵，历史P(next30 | clear now)却被无条件输入；1月各折删除原因不一致（两折clear、一折pending）。下一步测试状态对齐、按预测时距的历史队列概率，取代只对clear-now定义的30分钟事件先验。
+139项测试通过。所有月份反复开发、仅public-speed proxy；不称独立泛化。默认不变。

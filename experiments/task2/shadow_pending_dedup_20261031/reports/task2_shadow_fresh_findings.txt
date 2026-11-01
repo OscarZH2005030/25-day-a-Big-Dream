@@ -1,0 +1,13 @@
+Task2 frozen shadow replay and fresh-origin diagnostic
+
+Standalone inference reconstructed 10 developed windows exactly; max571-feature error=0.0; target poisoning passed.
+New roster: 175 origins, two calendar dates/month, highest-observable-risk plus uniform history-eligible origins per available history condition. Dates avoid opened574 roster dates; origins >60min from developed and574 origins. Same developed months, history-risk sampled, not natural prevalence.
+All4 policies and model/file hashes frozen before selection/scoring. Inference files contain no labels; only after all175 predictions saved were outcomes opened. No training, threshold tuning or policy selection.
+
+New all-onset known cells: R127 TP256/FP36/FN63; retained/safe/pending TP262/FP40/FN57. Shadow decisions identical to retained on all175 origins; no new filter efficacy established.
+Relative to R127 the retained chain recovers6 TP and adds4 FP; both shadow filters leave those predictions unchanged. No newly lost retained TP observed, but this is not a precision improvement demonstration.
+10 positive-onset windows total: December7, January3, February0. Every pooled/monthly full macro score is null because required groups are missing. Do not call zero-Feb evidence cross-month success; do not replace null by partial or micro IoU.
+Frozen policies remain diagnostic only. Do not reuse these opened labels to train or choose subsequent models.
+
+Old developed1479-window dedup score remains0.790893192093, not recomputed with this small biased stress cohort. Default unchanged;6/17 old TP anchors remain as earlier verified.
+142 tests passed. Frozen ancestor1246 model/package hashes and new shadow model/prior/source hashes checked before/after.

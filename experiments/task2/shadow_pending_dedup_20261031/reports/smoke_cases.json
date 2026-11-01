@@ -1,0 +1,98 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "origin": "2030-12-16T11:30:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "ee82a668bfc8dcaa00909cf94d2e29efac18f9ee79ed0315efb3920c96a1ae95",
+      "retained": "082d775d2271c329519aaf4eead0082f40e2b4c4a05915321585fb5c3d0fa3b0",
+      "safe_shadow": "082d775d2271c329519aaf4eead0082f40e2b4c4a05915321585fb5c3d0fa3b0",
+      "pending_shadow": "082d775d2271c329519aaf4eead0082f40e2b4c4a05915321585fb5c3d0fa3b0"
+    }
+  },
+  {
+    "panel": "D7_I10_W",
+    "origin": "2030-12-05T14:45:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "3e076dacf1de6b19a0f158fc475479f50423b43ea8dfb5d53167d7216d3d34b9",
+      "retained": "b0cab7f443df2a7bc5a4ed923ee68a39a0fcc5d9940aa64bf9298ec976564b67",
+      "safe_shadow": "b0cab7f443df2a7bc5a4ed923ee68a39a0fcc5d9940aa64bf9298ec976564b67",
+      "pending_shadow": "b0cab7f443df2a7bc5a4ed923ee68a39a0fcc5d9940aa64bf9298ec976564b67"
+    }
+  },
+  {
+    "panel": "D7_I210_E",
+    "origin": "2030-12-29T09:30:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "0bcd8eb2b47ede494eb2b15b005bc587855cf8d6d1f1bec823ca69e3db90e3dc",
+      "retained": "0bcd8eb2b47ede494eb2b15b005bc587855cf8d6d1f1bec823ca69e3db90e3dc",
+      "safe_shadow": "0bcd8eb2b47ede494eb2b15b005bc587855cf8d6d1f1bec823ca69e3db90e3dc",
+      "pending_shadow": "0bcd8eb2b47ede494eb2b15b005bc587855cf8d6d1f1bec823ca69e3db90e3dc"
+    }
+  },
+  {
+    "panel": "D7_I210_W",
+    "origin": "2030-12-18T11:15:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "8f92772dd7828b885193cceab23c106f9c2d22f33e2b6ab0f7474e79c9faeb2b",
+      "retained": "8f92772dd7828b885193cceab23c106f9c2d22f33e2b6ab0f7474e79c9faeb2b",
+      "safe_shadow": "8f92772dd7828b885193cceab23c106f9c2d22f33e2b6ab0f7474e79c9faeb2b",
+      "pending_shadow": "8f92772dd7828b885193cceab23c106f9c2d22f33e2b6ab0f7474e79c9faeb2b"
+    }
+  },
+  {
+    "panel": "D7_I405_N",
+    "origin": "2030-12-31T12:15:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "5e2155d3ad1db198b51e3bf32caf423f9bbfb8e20fd5ab220f77b6bc4c151df9",
+      "retained": "5e2155d3ad1db198b51e3bf32caf423f9bbfb8e20fd5ab220f77b6bc4c151df9",
+      "safe_shadow": "5e2155d3ad1db198b51e3bf32caf423f9bbfb8e20fd5ab220f77b6bc4c151df9",
+      "pending_shadow": "5e2155d3ad1db198b51e3bf32caf423f9bbfb8e20fd5ab220f77b6bc4c151df9"
+    }
+  },
+  {
+    "panel": "D7_I405_S",
+    "origin": "2030-12-10T12:15:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "352b9c44de6cb11d598eea86fbd5604e0b9983fd2622fb69c559e5192a07060e",
+      "retained": "352b9c44de6cb11d598eea86fbd5604e0b9983fd2622fb69c559e5192a07060e",
+      "safe_shadow": "352b9c44de6cb11d598eea86fbd5604e0b9983fd2622fb69c559e5192a07060e",
+      "pending_shadow": "352b9c44de6cb11d598eea86fbd5604e0b9983fd2622fb69c559e5192a07060e"
+    }
+  },
+  {
+    "panel": "D12_I5_N",
+    "origin": "2030-12-13T13:30:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "7bd0ee72474bb9195081842bb8755de454d35417d5b61633ad87a7c230985a6f",
+      "retained": "41ff6b84c8ea818234d3e2b7cc9da35d090c945a91ae7d969dc772a133bbec65",
+      "safe_shadow": "41ff6b84c8ea818234d3e2b7cc9da35d090c945a91ae7d969dc772a133bbec65",
+      "pending_shadow": "41ff6b84c8ea818234d3e2b7cc9da35d090c945a91ae7d969dc772a133bbec65"
+    }
+  },
+  {
+    "panel": "D12_I5_S",
+    "origin": "2030-12-25T11:45:00+00:00",
+    "condition": 0,
+    "has_future_queue": true,
+    "prediction_sha256": {
+      "R127": "8954a6cd586bd0697b57f2fa0f3fe8797736ab0ab58fdb3de9b1575d25567bd0",
+      "retained": "8954a6cd586bd0697b57f2fa0f3fe8797736ab0ab58fdb3de9b1575d25567bd0",
+      "safe_shadow": "8954a6cd586bd0697b57f2fa0f3fe8797736ab0ab58fdb3de9b1575d25567bd0",
+      "pending_shadow": "8954a6cd586bd0697b57f2fa0f3fe8797736ab0ab58fdb3de9b1575d25567bd0"
+    }
+  }
+]

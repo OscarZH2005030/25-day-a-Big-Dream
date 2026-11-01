@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "panel": "D7_I10_E",
+      "origin": "2030-12-16T11:30:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "origin": "2030-12-05T14:45:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "origin": "2030-12-29T09:30:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "origin": "2030-12-18T11:15:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "origin": "2030-12-31T12:15:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "origin": "2030-12-10T12:15:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "origin": "2030-12-13T13:30:00+00:00",
+      "four_policies_exact": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "origin": "2030-12-25T11:45:00+00:00",
+      "four_policies_exact": true
+    }
+  ],
+  "score_replay": {
+    "scores": {
+      "R127": 0.7880435450105043,
+      "retained": 0.7906971079131812,
+      "pending_shadow": 0.7908931920930213
+    },
+    "absolute_gain": 0.002849647082517004,
+    "unique_scored_windows": 1479,
+    "official_truth_available": false,
+    "repeated_development": true
+  }
+}

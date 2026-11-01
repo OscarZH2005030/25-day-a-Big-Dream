@@ -1,0 +1,98 @@
+{
+  "groups": {
+    "arrival": {
+      "consensus_overall": 0.7906784826994462,
+      "lost_known_TP": {
+        "november": 3,
+        "december": 1,
+        "january": 0,
+        "february_new": 0,
+        "february_old": 0
+      },
+      "single_overall": 0.7908038689583448,
+      "safe_combination_overall": 0.7907595281136076,
+      "anchors": {
+        "february_new": {
+          "total": 6,
+          "kept": 6
+        },
+        "february_old": {
+          "total": 17,
+          "kept": 17
+        }
+      }
+    },
+    "smoothing": {
+      "consensus_overall": 0.7907714886518271,
+      "lost_known_TP": {
+        "november": 3,
+        "december": 1,
+        "january": 0,
+        "february_new": 0,
+        "february_old": 0
+      },
+      "single_overall": 0.790816406518226,
+      "safe_combination_overall": 0.7907595281136076,
+      "anchors": {
+        "february_new": {
+          "total": 6,
+          "kept": 6
+        },
+        "february_old": {
+          "total": 17,
+          "kept": 17
+        }
+      }
+    },
+    "hazard": {
+      "consensus_overall": 0.790825145932047,
+      "lost_known_TP": {
+        "november": 1,
+        "december": 0,
+        "january": 1,
+        "february_new": 0,
+        "february_old": 0
+      },
+      "single_overall": 0.790615525473771,
+      "safe_combination_overall": 0.7907595281136076,
+      "anchors": {
+        "february_new": {
+          "total": 6,
+          "kept": 6
+        },
+        "february_old": {
+          "total": 17,
+          "kept": 17
+        }
+      }
+    },
+    "fd": {
+      "consensus_overall": 0.7906784826994462,
+      "lost_known_TP": {
+        "november": 2,
+        "december": 1,
+        "january": 0,
+        "february_new": 0,
+        "february_old": 0
+      },
+      "single_overall": 0.7908357915279225,
+      "safe_combination_overall": 0.7907595281136076,
+      "anchors": {
+        "february_new": {
+          "total": 6,
+          "kept": 6
+        },
+        "february_old": {
+          "total": 17,
+          "kept": 17
+        }
+      }
+    }
+  },
+  "best_safe_shadow": 0.7907595281136076,
+  "R127": 0.7880435450105043,
+  "new_safe_winner": false,
+  "all_anchors_retained": true,
+  "tests": "139 passed",
+  "default_unchanged": true
+}

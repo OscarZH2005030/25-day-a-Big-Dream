@@ -1,0 +1,5659 @@
+{
+  "reports": {
+    "2030-12": {
+      "R127": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8324838717307852,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 26,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9619332961724266,
+            "D12_I5_N/queue_onset": 0.9148936170212766,
+            "D12_I5_S/queue_ongoing": 0.7243589743589743,
+            "D12_I5_S/queue_onset": 0.90625,
+            "D7_I10_E/queue_ongoing": 0.9618591934381407,
+            "D7_I210_E/queue_ongoing": 0.6552380952380953,
+            "D7_I210_E/queue_onset": 0.0,
+            "D7_I210_W/queue_ongoing": 0.8947368421052632,
+            "D7_I210_W/queue_onset": 0.7975,
+            "D7_I405_N/queue_ongoing": 0.8886128364389234,
+            "D7_I405_N/queue_onset": 0.8823529411764706,
+            "D7_I405_S/queue_ongoing": 0.9232142857142858
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9618591934381407,
+            "D7_I210_E": 0.32761904761904764,
+            "D7_I210_W": 0.8461184210526316,
+            "D7_I405_N": 0.885482888807697,
+            "D7_I405_S": 0.9232142857142858,
+            "D12_I5_N": 0.9384134565968516,
+            "D12_I5_S": 0.8153044871794872
+          },
+          "by_family": {
+            "D7_I10": 0.9618591934381407,
+            "D7_I210": 0.5868687343358396,
+            "D7_I405": 0.9043485872609913,
+            "D12_I5": 0.8768589718881694
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 2,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 3,
+            "D7_I210_E/queue_ongoing": 3,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 3,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 168,
+          "FP": 35,
+          "FN": 62,
+          "lost_retained_TP": 5,
+          "removed_retained_FP": 4,
+          "unknown_removed": 5,
+          "positive_onset_windows": 7,
+          "onset_windows": 32,
+          "ongoing_windows": 26,
+          "negative_false_any": 0.03125
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7647058823529411
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.90625
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.72
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9148936170212766
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          }
+        ]
+      },
+      "retained": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8325204616206097,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 26,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9619332961724266,
+            "D12_I5_N/queue_onset": 0.9166666666666666,
+            "D12_I5_S/queue_ongoing": 0.7243589743589743,
+            "D12_I5_S/queue_onset": 0.8787878787878788,
+            "D7_I10_E/queue_ongoing": 0.9618591934381407,
+            "D7_I210_E/queue_ongoing": 0.6552380952380953,
+            "D7_I210_E/queue_onset": 0.03333333333333333,
+            "D7_I210_W/queue_ongoing": 0.8947368421052632,
+            "D7_I210_W/queue_onset": 0.7708333333333333,
+            "D7_I405_N/queue_ongoing": 0.8886128364389234,
+            "D7_I405_N/queue_onset": 0.9019607843137255,
+            "D7_I405_S/queue_ongoing": 0.9232142857142858
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9618591934381407,
+            "D7_I210_E": 0.3442857142857143,
+            "D7_I210_W": 0.8327850877192982,
+            "D7_I405_N": 0.8952868103763245,
+            "D7_I405_S": 0.9232142857142858,
+            "D12_I5_N": 0.9392999814195466,
+            "D12_I5_S": 0.8015734265734266
+          },
+          "by_family": {
+            "D7_I10": 0.9618591934381407,
+            "D7_I210": 0.5885354010025062,
+            "D7_I405": 0.9092505480453051,
+            "D12_I5": 0.8704367039964866
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 2,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 3,
+            "D7_I210_E/queue_ongoing": 3,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 3,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 173,
+          "FP": 39,
+          "FN": 57,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 7,
+          "onset_windows": 32,
+          "ongoing_windows": 26,
+          "negative_false_any": 0.03125
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.03333333333333333
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.803921568627451
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8787878787878788
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6666666666666666
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9166666666666666
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          }
+        ]
+      },
+      "safe_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8325204616206097,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 26,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9619332961724266,
+            "D12_I5_N/queue_onset": 0.9166666666666666,
+            "D12_I5_S/queue_ongoing": 0.7243589743589743,
+            "D12_I5_S/queue_onset": 0.8787878787878788,
+            "D7_I10_E/queue_ongoing": 0.9618591934381407,
+            "D7_I210_E/queue_ongoing": 0.6552380952380953,
+            "D7_I210_E/queue_onset": 0.03333333333333333,
+            "D7_I210_W/queue_ongoing": 0.8947368421052632,
+            "D7_I210_W/queue_onset": 0.7708333333333333,
+            "D7_I405_N/queue_ongoing": 0.8886128364389234,
+            "D7_I405_N/queue_onset": 0.9019607843137255,
+            "D7_I405_S/queue_ongoing": 0.9232142857142858
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9618591934381407,
+            "D7_I210_E": 0.3442857142857143,
+            "D7_I210_W": 0.8327850877192982,
+            "D7_I405_N": 0.8952868103763245,
+            "D7_I405_S": 0.9232142857142858,
+            "D12_I5_N": 0.9392999814195466,
+            "D12_I5_S": 0.8015734265734266
+          },
+          "by_family": {
+            "D7_I10": 0.9618591934381407,
+            "D7_I210": 0.5885354010025062,
+            "D7_I405": 0.9092505480453051,
+            "D12_I5": 0.8704367039964866
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 2,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 3,
+            "D7_I210_E/queue_ongoing": 3,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 3,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 173,
+          "FP": 39,
+          "FN": 57,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 7,
+          "onset_windows": 32,
+          "ongoing_windows": 26,
+          "negative_false_any": 0.03125
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.03333333333333333
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.803921568627451
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8787878787878788
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6666666666666666
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9166666666666666
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          }
+        ]
+      },
+      "pending_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8325204616206097,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 26,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9619332961724266,
+            "D12_I5_N/queue_onset": 0.9166666666666666,
+            "D12_I5_S/queue_ongoing": 0.7243589743589743,
+            "D12_I5_S/queue_onset": 0.8787878787878788,
+            "D7_I10_E/queue_ongoing": 0.9618591934381407,
+            "D7_I210_E/queue_ongoing": 0.6552380952380953,
+            "D7_I210_E/queue_onset": 0.03333333333333333,
+            "D7_I210_W/queue_ongoing": 0.8947368421052632,
+            "D7_I210_W/queue_onset": 0.7708333333333333,
+            "D7_I405_N/queue_ongoing": 0.8886128364389234,
+            "D7_I405_N/queue_onset": 0.9019607843137255,
+            "D7_I405_S/queue_ongoing": 0.9232142857142858
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9618591934381407,
+            "D7_I210_E": 0.3442857142857143,
+            "D7_I210_W": 0.8327850877192982,
+            "D7_I405_N": 0.8952868103763245,
+            "D7_I405_S": 0.9232142857142858,
+            "D12_I5_N": 0.9392999814195466,
+            "D12_I5_S": 0.8015734265734266
+          },
+          "by_family": {
+            "D7_I10": 0.9618591934381407,
+            "D7_I210": 0.5885354010025062,
+            "D7_I405": 0.9092505480453051,
+            "D12_I5": 0.8704367039964866
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 2,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 3,
+            "D7_I210_E/queue_ongoing": 3,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 3,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 173,
+          "FP": 39,
+          "FN": 57,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 7,
+          "onset_windows": 32,
+          "ongoing_windows": 26,
+          "negative_false_any": 0.03125
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.03333333333333333
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.803921568627451
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8787878787878788
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6666666666666666
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9166666666666666
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          }
+        ]
+      }
+    },
+    "2031-01": {
+      "R127": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9426012754264315,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 29,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9276808594520007,
+            "D12_I5_S/queue_ongoing": 0.9096733902974272,
+            "D7_I10_E/queue_ongoing": 0.876871996924851,
+            "D7_I10_E/queue_onset": 0.9714285714285714,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9699498327759197,
+            "D7_I405_N/queue_ongoing": 0.9233413030484161,
+            "D7_I405_N/queue_onset": 1.0,
+            "D7_I405_S/queue_ongoing": 0.8476851851851852
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9241502841767112,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9699498327759197,
+            "D7_I405_N": 0.961670651524208,
+            "D7_I405_S": 0.8476851851851852,
+            "D12_I5_N": 0.9276808594520007,
+            "D12_I5_S": 0.9096733902974272
+          },
+          "by_family": {
+            "D7_I10": 0.9620751420883555,
+            "D7_I210": 0.9849749163879599,
+            "D7_I405": 0.9046779183546967,
+            "D12_I5": 0.918677124874714
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 3
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 88,
+          "FP": 1,
+          "FN": 1,
+          "lost_retained_TP": 1,
+          "removed_retained_FP": 0,
+          "unknown_removed": 1,
+          "positive_onset_windows": 3,
+          "onset_windows": 32,
+          "ongoing_windows": 28,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9714285714285714
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          }
+        ]
+      },
+      "retained": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9434941325692887,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 29,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9276808594520007,
+            "D12_I5_S/queue_ongoing": 0.9096733902974272,
+            "D7_I10_E/queue_ongoing": 0.876871996924851,
+            "D7_I10_E/queue_onset": 0.9857142857142858,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9699498327759197,
+            "D7_I405_N/queue_ongoing": 0.9233413030484161,
+            "D7_I405_N/queue_onset": 1.0,
+            "D7_I405_S/queue_ongoing": 0.8476851851851852
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9312931413195684,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9699498327759197,
+            "D7_I405_N": 0.961670651524208,
+            "D7_I405_S": 0.8476851851851852,
+            "D12_I5_N": 0.9276808594520007,
+            "D12_I5_S": 0.9096733902974272
+          },
+          "by_family": {
+            "D7_I10": 0.9656465706597842,
+            "D7_I210": 0.9849749163879599,
+            "D7_I405": 0.9046779183546967,
+            "D12_I5": 0.918677124874714
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 3
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 89,
+          "FP": 1,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 3,
+          "onset_windows": 32,
+          "ongoing_windows": 28,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9857142857142858
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          }
+        ]
+      },
+      "safe_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9434941325692887,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 29,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9276808594520007,
+            "D12_I5_S/queue_ongoing": 0.9096733902974272,
+            "D7_I10_E/queue_ongoing": 0.876871996924851,
+            "D7_I10_E/queue_onset": 0.9857142857142858,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9699498327759197,
+            "D7_I405_N/queue_ongoing": 0.9233413030484161,
+            "D7_I405_N/queue_onset": 1.0,
+            "D7_I405_S/queue_ongoing": 0.8476851851851852
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9312931413195684,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9699498327759197,
+            "D7_I405_N": 0.961670651524208,
+            "D7_I405_S": 0.8476851851851852,
+            "D12_I5_N": 0.9276808594520007,
+            "D12_I5_S": 0.9096733902974272
+          },
+          "by_family": {
+            "D7_I10": 0.9656465706597842,
+            "D7_I210": 0.9849749163879599,
+            "D7_I405": 0.9046779183546967,
+            "D12_I5": 0.918677124874714
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 3
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 89,
+          "FP": 1,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 3,
+          "onset_windows": 32,
+          "ongoing_windows": 28,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9857142857142858
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          }
+        ]
+      },
+      "pending_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9434941325692887,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 29,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9276808594520007,
+            "D12_I5_S/queue_ongoing": 0.9096733902974272,
+            "D7_I10_E/queue_ongoing": 0.876871996924851,
+            "D7_I10_E/queue_onset": 0.9857142857142858,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9699498327759197,
+            "D7_I405_N/queue_ongoing": 0.9233413030484161,
+            "D7_I405_N/queue_onset": 1.0,
+            "D7_I405_S/queue_ongoing": 0.8476851851851852
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9312931413195684,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9699498327759197,
+            "D7_I405_N": 0.961670651524208,
+            "D7_I405_S": 0.8476851851851852,
+            "D12_I5_N": 0.9276808594520007,
+            "D12_I5_S": 0.9096733902974272
+          },
+          "by_family": {
+            "D7_I10": 0.9656465706597842,
+            "D7_I210": 0.9849749163879599,
+            "D7_I405": 0.9046779183546967,
+            "D12_I5": 0.918677124874714
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 2,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_N/queue_onset": 2,
+            "D7_I405_S/queue_ongoing": 3
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 89,
+          "FP": 1,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 3,
+          "onset_windows": 32,
+          "ongoing_windows": 28,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9857142857142858
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          }
+        ]
+      }
+    },
+    "2031-02": {
+      "R127": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9684665805852894,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_N/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 25,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9674271089106253,
+            "D12_I5_S/queue_ongoing": 0.8701242520668641,
+            "D7_I10_E/queue_ongoing": 0.9821436525302466,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9967532467532467,
+            "D7_I405_N/queue_ongoing": 0.9646918198759492,
+            "D7_I405_S/queue_ongoing": 0.9844489120151372
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9821436525302466,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9967532467532467,
+            "D7_I405_N": 0.9646918198759492,
+            "D7_I405_S": 0.9844489120151372,
+            "D12_I5_N": 0.9674271089106253,
+            "D12_I5_S": 0.8701242520668641
+          },
+          "by_family": {
+            "D7_I10": 0.9821436525302466,
+            "D7_I210": 0.9983766233766234,
+            "D7_I405": 0.9745703659455431,
+            "D12_I5": 0.9187756804887447
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 3,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 0,
+          "onset_windows": 32,
+          "ongoing_windows": 25,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      },
+      "retained": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9684665805852894,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_N/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 25,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9674271089106253,
+            "D12_I5_S/queue_ongoing": 0.8701242520668641,
+            "D7_I10_E/queue_ongoing": 0.9821436525302466,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9967532467532467,
+            "D7_I405_N/queue_ongoing": 0.9646918198759492,
+            "D7_I405_S/queue_ongoing": 0.9844489120151372
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9821436525302466,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9967532467532467,
+            "D7_I405_N": 0.9646918198759492,
+            "D7_I405_S": 0.9844489120151372,
+            "D12_I5_N": 0.9674271089106253,
+            "D12_I5_S": 0.8701242520668641
+          },
+          "by_family": {
+            "D7_I10": 0.9821436525302466,
+            "D7_I210": 0.9983766233766234,
+            "D7_I405": 0.9745703659455431,
+            "D12_I5": 0.9187756804887447
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 3,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 0,
+          "onset_windows": 32,
+          "ongoing_windows": 25,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      },
+      "safe_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9684665805852894,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_N/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 25,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9674271089106253,
+            "D12_I5_S/queue_ongoing": 0.8701242520668641,
+            "D7_I10_E/queue_ongoing": 0.9821436525302466,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9967532467532467,
+            "D7_I405_N/queue_ongoing": 0.9646918198759492,
+            "D7_I405_S/queue_ongoing": 0.9844489120151372
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9821436525302466,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9967532467532467,
+            "D7_I405_N": 0.9646918198759492,
+            "D7_I405_S": 0.9844489120151372,
+            "D12_I5_N": 0.9674271089106253,
+            "D12_I5_S": 0.8701242520668641
+          },
+          "by_family": {
+            "D7_I10": 0.9821436525302466,
+            "D7_I210": 0.9983766233766234,
+            "D7_I405": 0.9745703659455431,
+            "D12_I5": 0.9187756804887447
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 3,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 0,
+          "onset_windows": 32,
+          "ongoing_windows": 25,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      },
+      "pending_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.9684665805852894,
+          "missing_groups": [
+            "D7_I10_E/queue_onset",
+            "D7_I10_W/queue_onset",
+            "D7_I10_W/queue_ongoing",
+            "D7_I210_E/queue_onset",
+            "D7_I210_W/queue_onset",
+            "D7_I405_N/queue_onset",
+            "D7_I405_S/queue_onset",
+            "D12_I5_N/queue_onset",
+            "D12_I5_S/queue_onset"
+          ],
+          "n_windows": 25,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9674271089106253,
+            "D12_I5_S/queue_ongoing": 0.8701242520668641,
+            "D7_I10_E/queue_ongoing": 0.9821436525302466,
+            "D7_I210_E/queue_ongoing": 1.0,
+            "D7_I210_W/queue_ongoing": 0.9967532467532467,
+            "D7_I405_N/queue_ongoing": 0.9646918198759492,
+            "D7_I405_S/queue_ongoing": 0.9844489120151372
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9821436525302466,
+            "D7_I210_E": 1.0,
+            "D7_I210_W": 0.9967532467532467,
+            "D7_I405_N": 0.9646918198759492,
+            "D7_I405_S": 0.9844489120151372,
+            "D12_I5_N": 0.9674271089106253,
+            "D12_I5_S": 0.8701242520668641
+          },
+          "by_family": {
+            "D7_I10": 0.9821436525302466,
+            "D7_I210": 0.9983766233766234,
+            "D7_I405": 0.9745703659455431,
+            "D12_I5": 0.9187756804887447
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 3,
+            "D12_I5_S/queue_ongoing": 4,
+            "D7_I10_E/queue_ongoing": 4,
+            "D7_I210_E/queue_ongoing": 4,
+            "D7_I210_W/queue_ongoing": 4,
+            "D7_I405_N/queue_ongoing": 4,
+            "D7_I405_S/queue_ongoing": 2
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 0,
+          "onset_windows": 32,
+          "ongoing_windows": 25,
+          "negative_false_any": 0.0
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      }
+    },
+    "all": {
+      "R127": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8680161840294489,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 80,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9545013768543902,
+            "D12_I5_N/queue_onset": 0.9148936170212766,
+            "D12_I5_S/queue_ongoing": 0.8567908518175115,
+            "D12_I5_S/queue_onset": 0.90625,
+            "D7_I10_E/queue_ongoing": 0.9383309252849831,
+            "D7_I10_E/queue_onset": 0.9714285714285714,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 0.9059740259740259,
+            "D7_I210_E/queue_onset": 0.0,
+            "D7_I210_W/queue_ongoing": 0.9591838949484051,
+            "D7_I210_W/queue_onset": 0.7975,
+            "D7_I405_N/queue_ongoing": 0.9255486531210962,
+            "D7_I405_N/queue_onset": 0.9411764705882353,
+            "D7_I405_S/queue_ongoing": 0.908340278716343
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9548797483567772,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 0.45298701298701294,
+            "D7_I210_W": 0.8783419474742025,
+            "D7_I405_N": 0.9333625618546657,
+            "D7_I405_S": 0.908340278716343,
+            "D12_I5_N": 0.9346974969378334,
+            "D12_I5_S": 0.8815204259087557
+          },
+          "by_family": {
+            "D7_I10": 0.9774398741783886,
+            "D7_I210": 0.6656644802306078,
+            "D7_I405": 0.9208514202855044,
+            "D12_I5": 0.9081089614232946
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 7,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 10,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 11,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 11,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 11,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 12,
+            "D7_I405_N/queue_onset": 4,
+            "D7_I405_S/queue_ongoing": 7
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 256,
+          "FP": 36,
+          "FN": 63,
+          "lost_retained_TP": 6,
+          "removed_retained_FP": 4,
+          "unknown_removed": 6,
+          "positive_onset_windows": 10,
+          "onset_windows": 96,
+          "ongoing_windows": 79,
+          "negative_false_any": 0.010416666666666666
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7647058823529411
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.90625
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.72
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9148936170212766
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9714285714285714
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      },
+      "retained": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8683328859640912,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 80,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9545013768543902,
+            "D12_I5_N/queue_onset": 0.9166666666666666,
+            "D12_I5_S/queue_ongoing": 0.8567908518175115,
+            "D12_I5_S/queue_onset": 0.8787878787878788,
+            "D7_I10_E/queue_ongoing": 0.9383309252849831,
+            "D7_I10_E/queue_onset": 0.9857142857142858,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 0.9059740259740259,
+            "D7_I210_E/queue_onset": 0.03333333333333333,
+            "D7_I210_W/queue_ongoing": 0.9591838949484051,
+            "D7_I210_W/queue_onset": 0.7708333333333333,
+            "D7_I405_N/queue_ongoing": 0.9255486531210962,
+            "D7_I405_N/queue_onset": 0.9509803921568627,
+            "D7_I405_S/queue_ongoing": 0.908340278716343
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9620226054996344,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 0.4696536796536796,
+            "D7_I210_W": 0.8650086141408692,
+            "D7_I405_N": 0.9382645226389794,
+            "D7_I405_S": 0.908340278716343,
+            "D12_I5_N": 0.9355840217605285,
+            "D12_I5_S": 0.8677893653026951
+          },
+          "by_family": {
+            "D7_I10": 0.9810113027498172,
+            "D7_I210": 0.6673311468972744,
+            "D7_I405": 0.9233024006776612,
+            "D12_I5": 0.9016866935316118
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 7,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 10,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 11,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 11,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 11,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 12,
+            "D7_I405_N/queue_onset": 4,
+            "D7_I405_S/queue_ongoing": 7
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 262,
+          "FP": 40,
+          "FN": 57,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 10,
+          "onset_windows": 96,
+          "ongoing_windows": 79,
+          "negative_false_any": 0.010416666666666666
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.03333333333333333
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.803921568627451
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8787878787878788
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6666666666666666
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9166666666666666
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9857142857142858
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      },
+      "safe_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8683328859640912,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 80,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9545013768543902,
+            "D12_I5_N/queue_onset": 0.9166666666666666,
+            "D12_I5_S/queue_ongoing": 0.8567908518175115,
+            "D12_I5_S/queue_onset": 0.8787878787878788,
+            "D7_I10_E/queue_ongoing": 0.9383309252849831,
+            "D7_I10_E/queue_onset": 0.9857142857142858,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 0.9059740259740259,
+            "D7_I210_E/queue_onset": 0.03333333333333333,
+            "D7_I210_W/queue_ongoing": 0.9591838949484051,
+            "D7_I210_W/queue_onset": 0.7708333333333333,
+            "D7_I405_N/queue_ongoing": 0.9255486531210962,
+            "D7_I405_N/queue_onset": 0.9509803921568627,
+            "D7_I405_S/queue_ongoing": 0.908340278716343
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9620226054996344,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 0.4696536796536796,
+            "D7_I210_W": 0.8650086141408692,
+            "D7_I405_N": 0.9382645226389794,
+            "D7_I405_S": 0.908340278716343,
+            "D12_I5_N": 0.9355840217605285,
+            "D12_I5_S": 0.8677893653026951
+          },
+          "by_family": {
+            "D7_I10": 0.9810113027498172,
+            "D7_I210": 0.6673311468972744,
+            "D7_I405": 0.9233024006776612,
+            "D12_I5": 0.9016866935316118
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 7,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 10,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 11,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 11,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 11,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 12,
+            "D7_I405_N/queue_onset": 4,
+            "D7_I405_S/queue_ongoing": 7
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 262,
+          "FP": 40,
+          "FN": 57,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 10,
+          "onset_windows": 96,
+          "ongoing_windows": 79,
+          "negative_false_any": 0.010416666666666666
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.03333333333333333
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.803921568627451
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8787878787878788
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6666666666666666
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9166666666666666
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9857142857142858
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      },
+      "pending_shadow": {
+        "scores": {
+          "metric": "proxy_IoU",
+          "official_truth_available": false,
+          "scope": "incomplete_diagnostic",
+          "complete": false,
+          "proxy_IoU": null,
+          "diagnostic_macro_IoU": 0.8683328859640912,
+          "missing_groups": [
+            "D7_I10_W/queue_onset",
+            "D7_I405_S/queue_onset"
+          ],
+          "n_windows": 80,
+          "by_panel_condition": {
+            "D12_I5_N/queue_ongoing": 0.9545013768543902,
+            "D12_I5_N/queue_onset": 0.9166666666666666,
+            "D12_I5_S/queue_ongoing": 0.8567908518175115,
+            "D12_I5_S/queue_onset": 0.8787878787878788,
+            "D7_I10_E/queue_ongoing": 0.9383309252849831,
+            "D7_I10_E/queue_onset": 0.9857142857142858,
+            "D7_I10_W/queue_ongoing": 1.0,
+            "D7_I210_E/queue_ongoing": 0.9059740259740259,
+            "D7_I210_E/queue_onset": 0.03333333333333333,
+            "D7_I210_W/queue_ongoing": 0.9591838949484051,
+            "D7_I210_W/queue_onset": 0.7708333333333333,
+            "D7_I405_N/queue_ongoing": 0.9255486531210962,
+            "D7_I405_N/queue_onset": 0.9509803921568627,
+            "D7_I405_S/queue_ongoing": 0.908340278716343
+          },
+          "by_panel": {
+            "D7_I10_E": 0.9620226054996344,
+            "D7_I10_W": 1.0,
+            "D7_I210_E": 0.4696536796536796,
+            "D7_I210_W": 0.8650086141408692,
+            "D7_I405_N": 0.9382645226389794,
+            "D7_I405_S": 0.908340278716343,
+            "D12_I5_N": 0.9355840217605285,
+            "D12_I5_S": 0.8677893653026951
+          },
+          "by_family": {
+            "D7_I10": 0.9810113027498172,
+            "D7_I210": 0.6673311468972744,
+            "D7_I405": 0.9233024006776612,
+            "D12_I5": 0.9016866935316118
+          },
+          "counts": {
+            "D12_I5_N/queue_ongoing": 7,
+            "D12_I5_N/queue_onset": 1,
+            "D12_I5_S/queue_ongoing": 10,
+            "D12_I5_S/queue_onset": 1,
+            "D7_I10_E/queue_ongoing": 11,
+            "D7_I10_E/queue_onset": 1,
+            "D7_I10_W/queue_ongoing": 1,
+            "D7_I210_E/queue_ongoing": 11,
+            "D7_I210_E/queue_onset": 1,
+            "D7_I210_W/queue_ongoing": 11,
+            "D7_I210_W/queue_onset": 2,
+            "D7_I405_N/queue_ongoing": 12,
+            "D7_I405_N/queue_onset": 4,
+            "D7_I405_S/queue_ongoing": 7
+          },
+          "aggregation": "window -> panel-condition -> panel -> family -> four-family macro",
+          "TP": 262,
+          "FP": 40,
+          "FN": 57,
+          "lost_retained_TP": 0,
+          "removed_retained_FP": 0,
+          "unknown_removed": 0,
+          "positive_onset_windows": 10,
+          "onset_windows": 96,
+          "ongoing_windows": 79,
+          "negative_false_any": 0.010416666666666666
+        },
+        "windows": [
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T13:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8961038961038961
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-11T17:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9894736842105263
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 0,
+            "window_id": "2030-12-11T16:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.03333333333333333
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-11T18:00:00Z",
+            "date": "2030-12-11",
+            "iou": 0.18
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-11T05:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.875
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-11T16:00:00Z",
+            "date": "2030-12-11",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-11T06:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.803921568627451
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T14:30:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8599033816425121
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-11T11:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.7777777777777778
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-11T16:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9933110367892977
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 0,
+            "window_id": "2030-12-11T12:45:00Z",
+            "date": "2030-12-11",
+            "iou": 0.8787878787878788
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-11T13:15:00Z",
+            "date": "2030-12-11",
+            "iou": 0.9487179487179487
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2030-12-27T21:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.7857142857142857
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 0,
+            "window_id": "2030-12-27T05:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6666666666666666
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T14:15:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2030-12-27T19:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.6842105263157895
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:00:00Z",
+            "date": "2030-12-27",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9739130434782609
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:30:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9428571428571428
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T18:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2030-12-27T11:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9464285714285714
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 0,
+            "window_id": "2030-12-27T13:45:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9166666666666666
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2030-12-27T14:00:00Z",
+            "date": "2030-12-27",
+            "iou": 0.9305555555555556
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2030-12-27T16:15:00Z",
+            "date": "2030-12-27",
+            "iou": 0.5
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 0,
+            "window_id": "2031-01-03T07:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9857142857142858
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T14:45:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9767441860465116
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-03T21:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.7272727272727273
+          },
+          {
+            "panel": "D7_I10_W",
+            "condition": 1,
+            "window_id": "2031-01-03T16:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T07:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-03T10:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T11:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-03T13:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.94
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-03T12:15:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T15:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9790794979079498
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-03T12:30:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:30:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9930555555555556
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-03T09:00:00Z",
+            "date": "2031-01-03",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T14:00:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9669421487603306
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-03T15:15:00Z",
+            "date": "2031-01-03",
+            "iou": 0.9717514124293786
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T14:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9834710743801653
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.82
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T17:00:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-01-12T15:45:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T14:00:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9615384615384616
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-01-12T16:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 0,
+            "window_id": "2031-01-12T13:15:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7142857142857143
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.55
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T13:45:00Z",
+            "date": "2031-01-12",
+            "iou": 0.881578947368421
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 0.9737827715355806
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T15:30:00Z",
+            "date": "2031-01-12",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-01-12T17:15:00Z",
+            "date": "2031-01-12",
+            "iou": 0.7
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T14:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9854014598540146
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9782608695652174
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-02T13:00:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.987012987012987
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9737991266375546
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-02T19:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.92
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T16:30:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9867549668874173
+          },
+          {
+            "panel": "D7_I405_S",
+            "condition": 1,
+            "window_id": "2031-02-02T15:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9821428571428571
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-02T15:45:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9583333333333334
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T14:00:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9824561403508771
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-02T12:15:00Z",
+            "date": "2031-02-02",
+            "iou": 0.9574468085106383
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T14:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I10_E",
+            "condition": 1,
+            "window_id": "2031-02-15T19:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9649122807017544
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T16:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_E",
+            "condition": 1,
+            "window_id": "2031-02-15T13:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T14:00:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I210_W",
+            "condition": 1,
+            "window_id": "2031-02-15T12:15:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.964968152866242
+          },
+          {
+            "panel": "D7_I405_N",
+            "condition": 1,
+            "window_id": "2031-02-15T17:45:00Z",
+            "date": "2031-02-15",
+            "iou": 1.0
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T15:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.95578231292517
+          },
+          {
+            "panel": "D12_I5_N",
+            "condition": 1,
+            "window_id": "2031-02-15T16:45:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9881656804733728
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T14:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.9405940594059405
+          },
+          {
+            "panel": "D12_I5_S",
+            "condition": 1,
+            "window_id": "2031-02-15T11:15:00Z",
+            "date": "2031-02-15",
+            "iou": 0.6
+          }
+        ]
+      }
+    }
+  },
+  "changed_cells": [],
+  "model_selection": false,
+  "refitting": false,
+  "threshold_changes": false,
+  "roster_sha256": "be26db3f4a74bcbbe7791bce14f00d19f22a97b7a5a3cc4cfdeca9993b3cbdf2",
+  "same_developed_months": true,
+  "independent_new_month": false,
+  "history_risk_sampling_bias": true,
+  "dates_per_month": 2,
+  "official_truth_available": false,
+  "old1479_score_unchanged": 0.7908931920930213
+}

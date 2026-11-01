@@ -1,0 +1,13 @@
+Pending-arrival specialist plus frozen safe shadow
+
+Motivation: original hazard committee mixes clear-suffix and pending causes across folds; January TP is not unanimously pending. Retain the prior safe shadow veto and add only P(pending)>=.5 in EVERY date-fold model. No uncertain clear-suffix vote is added. No new fitting, identity exceptions, future inputs, class boosts or threshold adjustments.
+Posthoc causal rule, developed after observing earlier failures; not blind selection.
+
+Dedup overall=0.790893192093; R127=.788043545011; old safe shadow=.790759528114; eligible=True.
+november: overall=None; deltaTP vsoldbest +0, deltaFP -1; lost retained knownTP=0; unknown_removed=1; anchors=None
+december: overall=0.8086834425014073; deltaTP vsoldbest +0, deltaFP -1; lost retained knownTP=0; unknown_removed=0; anchors=None
+january: overall=0.7973210797080327; deltaTP vsoldbest +0, deltaFP +0; lost retained knownTP=0; unknown_removed=1; anchors=None
+february_new: overall=0.7977994845916596; deltaTP vsoldbest +0, deltaFP -2; lost retained knownTP=0; unknown_removed=1; anchors={'total': 6, 'kept': 6}
+february_old: overall=0.7569982826672593; deltaTP vsoldbest +0, deltaFP +0; lost retained knownTP=0; unknown_removed=1; anchors={'total': 17, 'kept': 17}
+
+141 tests passed. Existing R127/rescue weights and defaults unchanged. Official queue truth unavailable; all months repeatedly developed, public-speed proxy only.23 duplicated February windows removed,1479 scored windows, original macro evaluation.

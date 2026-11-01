@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "pop": "december",
+      "panel": "D7_I10_W",
+      "origin": "2030-12-04T14:30:00+00:00",
+      "rescued_cells": 3,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "december",
+      "panel": "D7_I10_E",
+      "origin": "2030-12-16T11:30:00+00:00",
+      "rescued_cells": 7,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "january",
+      "panel": "D7_I405_S",
+      "origin": "2031-01-03T07:10:00+00:00",
+      "rescued_cells": 1,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "january",
+      "panel": "D7_I10_E",
+      "origin": "2031-01-16T11:25:00+00:00",
+      "rescued_cells": 2,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "february_new",
+      "panel": "D7_I10_W",
+      "origin": "2031-02-10T14:50:00+00:00",
+      "rescued_cells": 1,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "february_new",
+      "panel": "D7_I405_S",
+      "origin": "2031-02-06T12:45:00+00:00",
+      "rescued_cells": 8,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "february_new",
+      "panel": "D12_I5_N",
+      "origin": "2031-02-15T12:55:00+00:00",
+      "rescued_cells": 4,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "february_new",
+      "panel": "D7_I10_E",
+      "origin": "2031-02-25T07:25:00+00:00",
+      "rescued_cells": 1,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "february_old",
+      "panel": "D7_I10_W",
+      "origin": "2031-02-26T14:30:00Z",
+      "rescued_cells": 2,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    },
+    {
+      "pop": "february_old",
+      "panel": "D7_I10_E",
+      "origin": "2031-02-03T12:30:00Z",
+      "rescued_cells": 3,
+      "max_feature_error": 0.0,
+      "predictions_exact": true,
+      "target_poisoning_passed": true
+    }
+  ],
+  "official_truth_available": false,
+  "no_new_origin_labels_opened": true
+}
