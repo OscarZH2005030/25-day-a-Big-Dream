@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "onset_unchanged": true,
+  "all_weights_unchanged": true,
+  "January_only": true,
+  "February_parameter_selection": false,
+  "frozen_hashes_verified": true
+}

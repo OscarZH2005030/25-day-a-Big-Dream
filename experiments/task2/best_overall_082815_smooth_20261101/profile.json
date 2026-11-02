@@ -1,0 +1,54 @@
+{
+  "version": "task2-smooth-threshold-20261101",
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "onset_package": "../best_overall_081796_20261030",
+  "onset_candidate": "Frozen early_full",
+  "onset_threshold": [
+    0.5,
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "ongoing_candidate": "smooth_threshold",
+  "ongoing_threshold": [
+    0.375,
+    0.395,
+    0.415,
+    0.435,
+    0.45499999999999996,
+    0.475
+  ],
+  "ongoing_features": 274,
+  "ongoing_model": "Frozen900tree perroad parent+six100tree perhorizon residuals,external initial logit score,3seeds then equal log-odds R127 mixture",
+  "reference_cutoff": "2030-11-30",
+  "calibration": "January thresholds only",
+  "February_parameter_selection": false,
+  "official_S_queue": null,
+  "primary_result": {
+    "ongoing_IoU": 0.8802648434096034,
+    "onset_IoU": 0.7760323136566369,
+    "overall_IoU": 0.8281485785331202
+  },
+  "IoU_vs_previous_best": {
+    "delta": 0.0018463514272013537,
+    "day_cluster_95CI": [
+      -0.0007476380885490956,
+      0.004528641928815675
+    ],
+    "valid_resamples": 2000,
+    "days": 28
+  },
+  "selection_caveat": "Observed reused-February point-estimate leader, not independent blind confirmation. Same weights and thresholds for both populations.",
+  "tradeoff": "Main184 FP681->595,FN417->470;old210ongoing0.806011104->0.801366893. Point-estimate main-roster leader only; decline on old roster. January only2parameter threshold calibration; no new weights.",
+  "January_selected_threshold_guardrail_feasible": false,
+  "January_best_feasible_threshold": null,
+  "base_ongoing_package": "../best_overall_082639_jaccard_20261031",
+  "residual_alpha": 1.0,
+  "frozen_weights_package": "../best_overall_082723_horizon_20261031"
+}

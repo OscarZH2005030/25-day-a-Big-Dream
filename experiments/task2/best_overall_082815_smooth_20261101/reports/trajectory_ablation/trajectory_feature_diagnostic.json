@@ -1,0 +1,16 @@
+[
+  {
+    "head": "development_bce_20261030",
+    "models": 48,
+    "history_gain_share": 0.501312006959919,
+    "trajectory_gain_share": 0.4986879930400811,
+    "trajectory_logit_gain_share": 0.2805712493268981
+  },
+  {
+    "head": "development_soft_20261030",
+    "models": 48,
+    "history_gain_share": 0.3327744103288621,
+    "trajectory_gain_share": 0.6672255896711379,
+    "trajectory_logit_gain_share": 0.4321389762669149
+  }
+]

@@ -1,0 +1,23 @@
+{
+  ".gitattributes": "69eba908277e67c7b1ce8a890e6232827bf85eed0fb59798f3da80dcfc244996",
+  ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+  "evaluate.py": "9fa947080c1dd588481e7cb28950e3d660a6674defd0ce45d79c563432d30f90",
+  "profile.json": "7467241a65a4de7df75e108aa2463bde599396f82c975a09aacbb161b4f22f53",
+  "README.md": "dd39667bcd8a8206e26cb7c11d5d59d442fa94b8eed493a68f32fd1e0092945e",
+  "requirements.txt": "9f925cde729aabebc2662976468f0b08ad81664574ab5cf4c32b5e303d9b6f90",
+  "acceptance/metrics.json": "d116e9532470c9fc9bb275a9b1cd329eda28574e4574c9b6f4dc6475e68dfbfa",
+  "acceptance/verification.json": "b9da53d3772915eaa928130ae5b86276bcc879fdc14403b55a33f25f92783267",
+  "code/hybrid_smooth.py": "fcd1f6498ab523880b34c0840fb1dd41b689bd61775cc63b9764e4dada997d9f",
+  "reports/comparison.csv": "12ca010d53836202f188be3838c3a88efa86bb74c5b1844f722246c0f13d0971",
+  "reports/February_results.json": "ab30374aa7a9c64a66feb3f581bd43776b55907d9f9460275fb7a8db3ff3bfc8",
+  "reports/frozen_before_February.json": "e63c51cdde70aab8eeb2c23e836a45da19ba873ee5064e2a035612c2427c11ed",
+  "reports/January_grid.json": "df78815a08378fd84a5f2b9656690cc500d5369a3d2ce66f6e5d1dc78f0f3f43",
+  "reports/January_selection.json": "91d14134761497a65dd2b28efe684097fcde92d007bd700fce1df5912e9b17af",
+  "reports/protocol.json": "0f622f6b32866edfa91c1eef9378566aa5683d6c76d21b080f15c35aa4b05fc5",
+  "reports/verification.json": "8b3748036a815543766a0204c83b35a68c08e5e38b554e68e49de69f237e1dbc",
+  "training_archive/calibrate_ongoing_horizon_thresholds.py": "c9ad150dab1f080f172dee4fd8cf3b5454bbbae2fd29402fd9dc4cbc6af49bc3",
+  "reports/trajectory_ablation/acceptance.json": "2618763dca39a2d73c1aef07de09dab296fa41d5d79bf99700ae52ac57bee892",
+  "reports/trajectory_ablation/comparison.csv": "eabe91ba10db9d868f5df929b7622e0a8b3dab28f7ccaee59154eec02c31da59",
+  "reports/trajectory_ablation/protocol.json": "69d72207383770e83ee3d87fb746d7e2f8a0389cd93dec327c277b7c5b7599ad",
+  "reports/trajectory_ablation/trajectory_feature_diagnostic.json": "597281864f463e0317307605f425429a4978b773413ce13d8a879737fd7c54ef"
+}

@@ -1,14 +1,14 @@
-## Task 2 当前最高新口径代理Overall点估计：0.827225403（2026-10-31）
+## Task 2 当前最高新口径代理Overall点估计：0.828148579（2026-11-01）
 
-[固定模型、全部新增权重与原始数据复评入口](experiments/task2/best_overall_082723_horizon_20261031/README.md)
+[固定模型、一月门槛配置与原始数据复评入口](experiments/task2/best_overall_082815_smooth_20261101/README.md)
 
-采用 **固定最好Onset early_full + 冻结900树父模型与六个时距残差头的Ongoing**。二月新口径367个正例窗口：Overall **0.827225403**，Onset **0.776032314**，Ongoing **0.878418492**。相对[保留的0.82639版本](experiments/task2/best_overall_082639_jaccard_20261031/README.md)，Ongoing FP690→681、FN423→417，两者均减少。同一模型在旧410窗口上Overall0.772054927、Ongoing0.806011104。十月锁定两档残差收缩候选，三种子固定；仅一月选门槛0.375，二月未调参。此前所有版本和最好Onset均原样保留。
+**最好Onset early_full与全部模型权重不变**，仅将 ongoing 门槛改为一月选出的平滑时距门槛。二月相同新367正例窗口：Overall **0.828148579**，Onset **0.776032314**，Ongoing **0.880264843**。相对[保留的0.82723版](experiments/task2/best_overall_082723_horizon_20261031/README.md)，ongoing误报681→595，但漏报417→470。主窗口ongoing增益95%区间[-0.000748,0.004529]仍跨零。相同模型在旧410窗口ongoing **0.801366893**、Overall **0.769732821**，低于原0.82723版的0.806011104、0.772054927；旧窗口退步，不宣称全面或稳定提升。旧版全部保留，不按窗口切换模型。
 
-以上是公开带噪观测的代理评分，不是官方S_queue；二月反复用于研究，不能视为独立盲测。本版是另存的点估计领先候选，不宣称稳定提升。不同窗口口径分别报告，不拼接道路或按口径切换模型。144个100树残差头已入库，冻结900树父模型和Onset沿用既有发布目录，原R127完整父链沿用[既有Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。
+仅用一月选择门槛的两个参数，模型、代码和门槛哈希冻结后在二月比较，未用二月调参。777个原始窗口复算、32项未来标签/掩码/速度扰动检查通过。分数是可靠观测代理，不是官方S_queue；二月反复用于研究，非独立盲测。新增轨迹特征模型本轮训练未超过原版，结果作为失败对照保留。
 
-[原月度二月64个Ongoing窗口的同口径核对](experiments/task2/r127_same_window_audit_20261031/README.md)：R127 **0.894560498**，原0.82639模型 **0.911464403**，新分时距模型 **0.913578007**，全部固定一月门槛。该数字不是Overall，不能替代长期184窗口的主成绩。
+[原0.82723模型与完整新增残差权重](experiments/task2/best_overall_082723_horizon_20261031/README.md) · [0.82639父模型](experiments/task2/best_overall_082639_jaccard_20261031/README.md) · [R127完整Release](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)。本次权重完全不变，新增配置依赖以上原目录。
 
-[原R127完整复现](experiments/task2/r127_reproduction_20261027/README.md) · [原0.79598版本与逐月审计](experiments/task2/r127_reproduction_20261027/reports/current_best_20261029/README.md)
+[原月度二月64个Ongoing窗口的同口径核对](experiments/task2/r127_same_window_audit_20261031/README.md)：R127 **0.894560498**，原0.82639模型 **0.911464403**，0.82723分时距模型 **0.913578007**。这里的0.91358是原门槛在另一64窗口上的ongoing，不能作为本版Overall或主184窗口成绩。
 
 ## Task 2：12—2月去重评估的保真影子候选（2026-10-31）
 
