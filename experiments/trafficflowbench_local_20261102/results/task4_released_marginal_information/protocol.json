@@ -1,0 +1,8 @@
+{
+  "registered_utc": "2026-11-03T11:01:38.509157+00:00",
+  "seed": null,
+  "scope": "Linear observability audit for the released static count operator. Does not infer hidden margins, add detectors or calibrate a candidate.",
+  "queries": "Individual nonempty origin and destination indicators, origin minus destination at each zone, and total demand.",
+  "method": "Project each query onto the pivoted QR count row space. Record relative L2 residual and exact single-row equality separately. 1e-9 diagnostic relative tolerance.",
+  "source_sha256": "525dd48456db1913bfba381b8768f14f29acafebcdeedd290a4ab1df3cc5d063"
+}

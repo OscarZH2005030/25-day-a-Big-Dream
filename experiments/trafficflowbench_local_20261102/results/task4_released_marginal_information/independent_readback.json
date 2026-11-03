@@ -1,0 +1,218 @@
+{
+  "groups": 30,
+  "checks": [
+    {
+      "panel": "D12_I405_N",
+      "split": "private",
+      "queries": 128,
+      "exact_net_rank": 42,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "train",
+      "queries": 128,
+      "exact_net_rank": 42,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "validation",
+      "queries": 128,
+      "exact_net_rank": 42,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "private",
+      "queries": 107,
+      "exact_net_rank": 35,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "train",
+      "queries": 107,
+      "exact_net_rank": 35,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "validation",
+      "queries": 107,
+      "exact_net_rank": 35,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "private",
+      "queries": 278,
+      "exact_net_rank": 92,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "train",
+      "queries": 278,
+      "exact_net_rank": 92,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "validation",
+      "queries": 278,
+      "exact_net_rank": 92,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "private",
+      "queries": 302,
+      "exact_net_rank": 100,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "train",
+      "queries": 302,
+      "exact_net_rank": 100,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "validation",
+      "queries": 302,
+      "exact_net_rank": 100,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "private",
+      "queries": 278,
+      "exact_net_rank": 92,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "train",
+      "queries": 278,
+      "exact_net_rank": 92,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "validation",
+      "queries": 278,
+      "exact_net_rank": 92,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "private",
+      "queries": 302,
+      "exact_net_rank": 100,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "train",
+      "queries": 302,
+      "exact_net_rank": 100,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "validation",
+      "queries": 302,
+      "exact_net_rank": 100,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "private",
+      "queries": 218,
+      "exact_net_rank": 72,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "train",
+      "queries": 218,
+      "exact_net_rank": 72,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "validation",
+      "queries": 218,
+      "exact_net_rank": 72,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "private",
+      "queries": 245,
+      "exact_net_rank": 81,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "train",
+      "queries": 245,
+      "exact_net_rank": 81,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "validation",
+      "queries": 245,
+      "exact_net_rank": 81,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "private",
+      "queries": 287,
+      "exact_net_rank": 95,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "train",
+      "queries": 287,
+      "exact_net_rank": 95,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "validation",
+      "queries": 287,
+      "exact_net_rank": 95,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "private",
+      "queries": 290,
+      "exact_net_rank": 96,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "train",
+      "queries": 290,
+      "exact_net_rank": 96,
+      "integer_reconstruction_error": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "validation",
+      "queries": 290,
+      "exact_net_rank": 96,
+      "integer_reconstruction_error": 0
+    }
+  ],
+  "prime": 65521,
+  "source_sha256": "c0395ae3741b397d6eb2384b2502c4f3154030ade16b0b1159dd4ebb37dade6b",
+  "certificate": "Exact difference of common zone potentials gives rank upper bound. Modular elimination certifies matching lower bound. Triangle exchanges exclude interior gross margins and total demand."
+}
