@@ -1,0 +1,30 @@
+{
+  "registered_utc": "2026-11-03T04:43:58.519053+00:00",
+  "seed": 2026110328,
+  "cases": 120,
+  "noise": "shared_positive_background",
+  "truths": [
+    "short",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "drifts": [
+    "stable_pair",
+    "moderate_drift",
+    "replaced_pair"
+  ],
+  "replicates": 1,
+  "strength": 0.05,
+  "hypothesis": "Earlier source-count control changed both source flows and positive-median normalization. Hold the original source scale fixed to isolate that confound.",
+  "methods": [
+    "baseline",
+    "raw",
+    "adjusted_own_scale",
+    "adjusted_raw_scale"
+  ],
+  "evaluation": "New fixed draws in an already studied mechanism; not whole-system blind, hidden labels or proof of official improvement. All cases retained, no selected routing.",
+  "source_sha256": "9bd9e248677e44a20bcbab72b193a3b8dc8fae4a2b0a0d4a25c5f2f8cb20acaf",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee",
+  "original_baseline": "Frozen; no real flow export or Kaggle upload."
+}
