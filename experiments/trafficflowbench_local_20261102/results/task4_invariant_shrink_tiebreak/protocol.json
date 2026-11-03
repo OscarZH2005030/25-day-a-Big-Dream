@@ -1,0 +1,10 @@
+{
+  "scope": "Posthoc fixed-objective diagnostic on 40 exposed artificial cases. No tuning or fresh validation.",
+  "method": "Among equal minimum invisible-L1 solutions, minimize total L1 movement from the baseline. Keep all non-OD score constraints fixed.",
+  "blends": [
+    0.05,
+    1.0
+  ],
+  "source_sha256": "35e76e65b96f26ba6c08e484fea37e9bb149c5cefab2e0aad27da3f9b1d80656",
+  "case_table_sha256": "e729aee8ce1c588ab8b0c35c22f06ec3c8fae52908d453aafae72c11816b93d2"
+}

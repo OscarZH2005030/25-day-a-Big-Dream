@@ -63,6 +63,7 @@ def main():
  names.extend(['task4_minimum_repair_face'])
  names.extend(['task4_l1_repair_stress'])
  names.extend(['task4_invariant_invisible_shrink'])
+ names.extend(['task4_invariant_shrink_tiebreak'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
