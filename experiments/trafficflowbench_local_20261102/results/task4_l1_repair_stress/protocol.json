@@ -1,0 +1,7 @@
+{
+  "scope": "Posthoc comparison on 40 reused artificial cases, no selection or new evaluation. Both alternatives match the same generated counts exactly.",
+  "methods": "Minimum L1 to original prior versus minimum L1 to signed minimum-L2 net repair. Use deterministic HiGHS defaults and retain solver-selected ties. Frozen-style soft fit only a descriptive reference.",
+  "count_target": "Net target recovered solely from the observed cuts, before truth is used for scoring.",
+  "source_sha256": "3a537b72bc7eeb9bc1d6a4f4c996b7f7f8de1f839de09c4af0cb5914aeb468e7",
+  "case_table_sha256": "f6a76359fb007168b14f0e566c06101edd0a62ce78d2c3e3a77880cfb31f271f"
+}
