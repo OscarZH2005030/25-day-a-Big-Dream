@@ -1,0 +1,5 @@
+{
+  "scope": "Descriptive analysis of reused synthetic cases and public inputs. No thresholds, labels for real OD, or candidate changes.",
+  "metric": "Max across inputs of TV between normalized loaded and observed link count vectors",
+  "source_sha256": "1ded43a4118a2c52e29c8dec6d8ef97063a10cd4053f4e652527c4f916a0e083"
+}

@@ -1,0 +1,7 @@
+noise,method,cases,mean_delta,worst_delta,composite_harms,od_harms
+shared_lognormal,baseline,40,0.0,0.0,0,0
+shared_lognormal,geometry005,40,0.0071440059339713275,0.0003636385187192892,0,1
+shared_lognormal,pair005,40,0.0018686078009641518,-0.0010192721237247682,2,2
+shared_positive_background,baseline,40,0.0,0.0,0,0
+shared_positive_background,geometry005,40,-0.002600207871377802,-0.01665319122439729,31,35
+shared_positive_background,pair005,40,-0.0001863895383808198,-0.0025084967834754224,25,31
