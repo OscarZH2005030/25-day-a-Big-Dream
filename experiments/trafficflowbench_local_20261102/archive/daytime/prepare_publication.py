@@ -53,6 +53,7 @@ def main():
  names.extend(['task4_extra_measurement_audit','task4_fixed_input_reference_swap'])
  names.extend(['task4_local_span_null_stencil'])
  names.extend(['task4_full_path_incidence'])
+ names.extend(['task4_hypothetical_time_bins'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

@@ -1,0 +1,14 @@
+{
+  "registered_utc": "2026-11-03T10:05:50.804310+00:00",
+  "seed": 2026110342,
+  "widths": [
+    1,
+    8,
+    16,
+    32
+  ],
+  "construction": "Idealized single known departure pulse, travel time to each zone cut equals cut minus origin zone index. Group traversing trips into arrival bins of the stated width.",
+  "scope": "Hypothetical design using published OD support. No travel-time, detector, mapping or alignment assumptions are asserted for actual data.",
+  "check": "Width one identifies origin-resolved downstream counts. Recover each OD by differencing consecutive cuts on one fixed integer draw per network.",
+  "source_sha256": "025f6d02de6579df5367de4c9b42bd159ebe4682b600cbf8600b162c9cb955f9"
+}
