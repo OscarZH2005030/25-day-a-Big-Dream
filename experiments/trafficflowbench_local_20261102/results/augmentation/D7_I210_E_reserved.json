@@ -1,0 +1,74 @@
+[
+  {
+    "panel": "D7_I210_E",
+    "condition": "point10",
+    "variant": "baseline",
+    "recipe": "reference",
+    "S_state": 0.9429720361117506,
+    "speed_RMSE": 1.5278652521382448,
+    "flow_per_lane_RMSE": 31.33835796790877,
+    "station_target_deltaN_RMSE": 0.6031446176958558,
+    "target_rows": 8481,
+    "adjacent_target_pairs": 459
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": "point10",
+    "variant": "context",
+    "recipe": "reference",
+    "S_state": 0.9443105476676255,
+    "speed_RMSE": 1.4736580236382224,
+    "flow_per_lane_RMSE": 31.11970307189872,
+    "station_target_deltaN_RMSE": 0.598319935258581,
+    "target_rows": 8481,
+    "adjacent_target_pairs": 459
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": "point10",
+    "variant": "selected",
+    "recipe": "reference",
+    "S_state": 0.9443105476676255,
+    "speed_RMSE": 1.4736580236382224,
+    "flow_per_lane_RMSE": 31.11970307189872,
+    "station_target_deltaN_RMSE": 0.598319935258581,
+    "target_rows": 8481,
+    "adjacent_target_pairs": 459
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": "block10",
+    "variant": "baseline",
+    "recipe": "reference",
+    "S_state": 0.9433265727923198,
+    "speed_RMSE": 1.4809376929815334,
+    "flow_per_lane_RMSE": 32.19805179036409,
+    "station_target_deltaN_RMSE": 0.7034098483838036,
+    "target_rows": 8935,
+    "adjacent_target_pairs": 4084
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": "block10",
+    "variant": "context",
+    "recipe": "reference",
+    "S_state": 0.9445492198728607,
+    "speed_RMSE": 1.4368829849983964,
+    "flow_per_lane_RMSE": 31.84448824066184,
+    "station_target_deltaN_RMSE": 0.7001915152720337,
+    "target_rows": 8935,
+    "adjacent_target_pairs": 4084
+  },
+  {
+    "panel": "D7_I210_E",
+    "condition": "block10",
+    "variant": "selected",
+    "recipe": "reference",
+    "S_state": 0.9445492198728607,
+    "speed_RMSE": 1.4368829849983964,
+    "flow_per_lane_RMSE": 31.84448824066184,
+    "station_target_deltaN_RMSE": 0.7001915152720337,
+    "target_rows": 8935,
+    "adjacent_target_pairs": 4084
+  }
+]

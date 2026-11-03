@@ -1,0 +1,136 @@
+{
+  "files": {
+    "models\\D12_I405_N\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I405_N\\speed.txt",
+      "sha256": "dc4ec66cb5b50c73f58df028b07c8ddcdb62c85c4f07710eaa95b026bd7aa1e9"
+    },
+    "models\\D12_I405_N\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I405_N\\flow_per_lane.txt",
+      "sha256": "c59a584fb93a32d75fff9848b3ead4a62cd321e3128f372aa1e31bc323f9f79f"
+    },
+    "models\\D12_I405_N\\augmented\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D12_I405_N\\speed.txt",
+      "sha256": "70093132b6695df7e138803e0c2d55d9b5ceeb60445d72f288d9b116944f4e4a"
+    },
+    "models\\D12_I405_N\\augmented\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D12_I405_N\\flow_per_lane.txt",
+      "sha256": "9e688b115971218b303e5bc23f3598bfef427570d2e91176d77407ff94750370"
+    },
+    "models\\D12_I405_S\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I405_S\\speed.txt",
+      "sha256": "483cd2a92f58c4d531bf8f088b27cb4fcf3a5938a9d632d5e842829c91bde950"
+    },
+    "models\\D12_I405_S\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I405_S\\flow_per_lane.txt",
+      "sha256": "c9675934522c66a986810d8224071bd36dc4d1e0c36ae347fe2e3b32da37e0d5"
+    },
+    "models\\D12_I405_S\\augmented\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D12_I405_S\\speed.txt",
+      "sha256": "9dc584ed8a4727cf7b96893a305492e1ed3c7098d217917f1a507d6b81eb8877"
+    },
+    "models\\D12_I405_S\\augmented\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D12_I405_S\\flow_per_lane.txt",
+      "sha256": "8deeac84d14968b2215f44f286a7d6e3c07667e11455c7b83867651b736911fa"
+    },
+    "models\\D12_I5_N\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I5_N\\speed.txt",
+      "sha256": "666915086ef4d9f95d85fe053609b93e7c0a0cdeada6d2f4fa68b3e11e250747"
+    },
+    "models\\D12_I5_N\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I5_N\\flow_per_lane.txt",
+      "sha256": "1eea2472162995955e310536887cdbd0acdf01749f1d8092861cbfd5c40b9b3b"
+    },
+    "models\\D12_I5_N\\augmented\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D12_I5_N\\speed.txt",
+      "sha256": "db9fcd849c9199fcd688d1126bbc104b741f9f3368e028615977078e242e60c9"
+    },
+    "models\\D12_I5_N\\augmented\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D12_I5_N\\flow_per_lane.txt",
+      "sha256": "5d16ab3393017c938b649732e664403db25b387c467287e4963221819ae5d09d"
+    },
+    "models\\D12_I5_S\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I5_S\\speed.txt",
+      "sha256": "cdca907510983897c4046f6fd9b2142fca8b3bc5a772822a0d43c46b7a0f6498"
+    },
+    "models\\D12_I5_S\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D12_I5_S\\flow_per_lane.txt",
+      "sha256": "79142a9db29c6b7ad58b3c7cd60a7f8e394f016a326b4b53352cea402667a24a"
+    },
+    "models\\D7_I10_E\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I10_E\\speed.txt",
+      "sha256": "9780707d7f9b70ad5b03c66aaddf24a82866b0fb0c1c441e448d4dbee7ab0f16"
+    },
+    "models\\D7_I10_E\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I10_E\\flow_per_lane.txt",
+      "sha256": "5e8fe74dff1a0239dd5098b6f9469df70ca3525b59c6abed1b0fbae72c3b47ff"
+    },
+    "models\\D7_I10_W\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I10_W\\speed.txt",
+      "sha256": "3b28e97d72845854abfbb4c44ec42bf07d291535e0f25a27092ebf60f82f15ab"
+    },
+    "models\\D7_I10_W\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I10_W\\flow_per_lane.txt",
+      "sha256": "8096f7c33c88c6cc99a970fafe40c202b1eb5757212373a9306b52203431eb14"
+    },
+    "models\\D7_I10_W\\augmented\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D7_I10_W\\speed.txt",
+      "sha256": "1266e548190fb9cdeb7a95192b04c9233b7b12d288d0b3ce319fde1f30129de2"
+    },
+    "models\\D7_I10_W\\augmented\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D7_I10_W\\flow_per_lane.txt",
+      "sha256": "ab0a441c5660e911e78b6c66da4842e5eb58291c8bc9b7729f4c2d43a37e9e28"
+    },
+    "models\\D7_I210_E\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I210_E\\speed.txt",
+      "sha256": "2761832abddedba29fbfaf269892e3fc3b763b837407547f7c842559bec0a049"
+    },
+    "models\\D7_I210_E\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I210_E\\flow_per_lane.txt",
+      "sha256": "6db68a8d2c2922ab96c7da8a7b96fcca7be706df58a090719da24cee55b1d002"
+    },
+    "models\\D7_I210_W\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I210_W\\speed.txt",
+      "sha256": "62115a9c43ae28f26c81e27fd061353c3e68274feba3747880ace573fcceabd9"
+    },
+    "models\\D7_I210_W\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I210_W\\flow_per_lane.txt",
+      "sha256": "e07977da1d55ce03b759fa6d2771ac35d1fcb2724752523452552771c14713c8"
+    },
+    "models\\D7_I210_W\\augmented\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D7_I210_W\\speed.txt",
+      "sha256": "c918f0d1221d40341124dd9bc82ae4df1fe53a2e6cbf5e2f4b790c7ec548585e"
+    },
+    "models\\D7_I210_W\\augmented\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D7_I210_W\\flow_per_lane.txt",
+      "sha256": "206b993252877694f2c15145482c45e6455d355d1ffc43e8316c968388b2b0c0"
+    },
+    "models\\D7_I405_N\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I405_N\\speed.txt",
+      "sha256": "486b9b49fba0f768c7e41aab0df9df8e76d6775550a9d0b848ec75f903e32dfd"
+    },
+    "models\\D7_I405_N\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I405_N\\flow_per_lane.txt",
+      "sha256": "b40487dc18d9479e4e0769ab3512b2c294b20863153a4e3c0954f1b101d7591b"
+    },
+    "models\\D7_I405_S\\parent\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I405_S\\speed.txt",
+      "sha256": "be47c37a7221f3b6e0d543c2d5f8c67038d0f1393a4e95e3ea22b35580a66433"
+    },
+    "models\\D7_I405_S\\parent\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\multimonth_candidate\\models\\D7_I405_S\\flow_per_lane.txt",
+      "sha256": "62f0748f8daf9558706d449a5a446b2c11713b5e767fa97faa0e6417b2dd951b"
+    },
+    "models\\D7_I405_S\\augmented\\speed.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D7_I405_S\\speed.txt",
+      "sha256": "03c40e03ebc304833386c90a7632dd46e053a4d910054c08df8427fae83b1335"
+    },
+    "models\\D7_I405_S\\augmented\\flow_per_lane.txt": {
+      "source": "<research-workspace>\\outputs\\daytime\\severe_augmentation\\models\\D7_I405_S\\flow_per_lane.txt",
+      "sha256": "676bc538a5ef8f0a5975f658c0c1d0590d53c6a3f3a785d9762bca6d557c59e0"
+    }
+  },
+  "selected_policy_sha256": "19c8cb8aee1b996874ce8699be6ceefdd854ef9afb8775821a600cfba0e3da63",
+  "training_protocol_sha256": "88a0c5f2300878fffb1786948e0db5e8e889a8afd1a66162d06dfbe65aefae44",
+  "prepared_cases_sha256": "2924a0e450b2eaeb11bb90def46e70e6d75bcd50965161fd509db44e336be8f3",
+  "source_sha256": "72a803dbe74cec177acd8969781d43d9878e5417a9c36c01080e0b98f48d81c0"
+}

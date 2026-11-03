@@ -1,0 +1,7 @@
+{
+  "isolated_and_long_and_unknown_distances": true,
+  "feature_indices": {
+    "log_previous_speed_gap": 8,
+    "log_next_speed_gap": 9
+  }
+}

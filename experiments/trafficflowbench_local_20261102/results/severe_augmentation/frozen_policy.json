@@ -1,0 +1,299 @@
+{
+  "policy": {
+    "D12_I405_N": {
+      "gamma": 0.25,
+      "objective": 0.961328732080169,
+      "parent_alpha": 1.0,
+      "iterations": [
+        999,
+        994
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9607503300560233
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.961328732080169
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9617538760714089
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.962113402753411
+        }
+      }
+    },
+    "D12_I405_S": {
+      "gamma": 0.25,
+      "objective": 0.8839049187989203,
+      "parent_alpha": 1.0,
+      "iterations": [
+        993,
+        1000
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.8808281137014865
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.8839049187989203
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.8864602503714091
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.8898839763969706
+        }
+      }
+    },
+    "D12_I5_N": {
+      "gamma": 0.25,
+      "objective": 0.922812397792825,
+      "parent_alpha": 1.0,
+      "iterations": [
+        999,
+        991
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9187096743787245
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.922812397792825
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9259371369369257
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.928604713530857
+        }
+      }
+    },
+    "D12_I5_S": {
+      "gamma": 0.0,
+      "objective": 0.9025083170714661,
+      "parent_alpha": 1.0,
+      "iterations": [
+        991,
+        998
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9025083170714661
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.9074825742605661
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9111501943285524
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9140033333988885
+        }
+      }
+    },
+    "D7_I10_E": {
+      "gamma": 0.0,
+      "objective": 0.9276136166772533,
+      "parent_alpha": 1.0,
+      "iterations": [
+        996,
+        995
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9276136166772533
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.9293880827772938
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9306655840702027
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9316266758166982
+        }
+      }
+    },
+    "D7_I10_W": {
+      "gamma": 0.5,
+      "objective": 0.931912506593096,
+      "parent_alpha": 1.0,
+      "iterations": [
+        999,
+        993
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9301662852802249
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.9311335088900972
+        },
+        "0.5": {
+          "eligible": true,
+          "objective": 0.931912506593096
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9328797087217877
+        }
+      }
+    },
+    "D7_I210_E": {
+      "gamma": 0.0,
+      "objective": 0.9173559337911574,
+      "parent_alpha": 1.0,
+      "iterations": [
+        1000,
+        164
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9173559337911574
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.9194963042258281
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9213603217759375
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9241458305530852
+        }
+      }
+    },
+    "D7_I210_W": {
+      "gamma": 0.25,
+      "objective": 0.8774606874354274,
+      "parent_alpha": 1.0,
+      "iterations": [
+        1000,
+        999
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.872728060387896
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.8774606874354274
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.8813495991084902
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.8862069811927435
+        }
+      }
+    },
+    "D7_I405_N": {
+      "gamma": 0.0,
+      "objective": 0.924880369202263,
+      "parent_alpha": 1.0,
+      "iterations": [
+        1000,
+        1000
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.924880369202263
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.925735110479692
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9263105151547535
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9265844976934324
+        }
+      }
+    },
+    "D7_I405_S": {
+      "gamma": 0.5,
+      "objective": 0.8967410872201867,
+      "parent_alpha": 1.0,
+      "iterations": [
+        998,
+        1000
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.8919425161051887
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.8946468068059983
+        },
+        "0.5": {
+          "eligible": true,
+          "objective": 0.8967410872201867
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.8989531927448162
+        }
+      }
+    }
+  },
+  "frozen_utc": "2026-11-02T22:20:33.675873+00:00",
+  "protocol_sha256": "88a0c5f2300878fffb1786948e0db5e8e889a8afd1a66162d06dfbe65aefae44",
+  "fit_source_sha256": "480444ff3d088a5f782ddbd3f5b8fd9261e5206ed0bfd45ea85e2372e282bb89",
+  "model_sha256": {
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I405_N\\flow_per_lane.txt": "9e688b115971218b303e5bc23f3598bfef427570d2e91176d77407ff94750370",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I405_N\\speed.txt": "70093132b6695df7e138803e0c2d55d9b5ceeb60445d72f288d9b116944f4e4a",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I405_S\\flow_per_lane.txt": "8deeac84d14968b2215f44f286a7d6e3c07667e11455c7b83867651b736911fa",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I405_S\\speed.txt": "9dc584ed8a4727cf7b96893a305492e1ed3c7098d217917f1a507d6b81eb8877",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I5_N\\flow_per_lane.txt": "5d16ab3393017c938b649732e664403db25b387c467287e4963221819ae5d09d",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I5_N\\speed.txt": "db9fcd849c9199fcd688d1126bbc104b741f9f3368e028615977078e242e60c9",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I5_S\\flow_per_lane.txt": "42c669bbf4b8ee33c8752b0099f4fd45bb96efd974eb0d74714cf481bdce71bd",
+    "outputs\\daytime\\severe_augmentation\\models\\D12_I5_S\\speed.txt": "8c0135527d498cfef4237d081a98056980556c768e827f6e89da08ffa9cdac64",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I10_E\\flow_per_lane.txt": "6183807bac8ae0ab88709c1091613bbb439104cfd07d867abd4644ce9dfb73bd",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I10_E\\speed.txt": "7e84aedda977a6cbdd15b4f89660d978d69e0da873f407fce34ad89dc4168956",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I10_W\\flow_per_lane.txt": "ab0a441c5660e911e78b6c66da4842e5eb58291c8bc9b7729f4c2d43a37e9e28",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I10_W\\speed.txt": "1266e548190fb9cdeb7a95192b04c9233b7b12d288d0b3ce319fde1f30129de2",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I210_E\\flow_per_lane.txt": "ed49075ac3e3e7ef00f118ad864f69b6676c24945e7f02c06fca79ae852f6f67",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I210_E\\speed.txt": "52d14a3cc9f6d0ef14db0418e1aec8c513adf78a1fc866049bf97f4222f173de",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I210_W\\flow_per_lane.txt": "206b993252877694f2c15145482c45e6455d355d1ffc43e8316c968388b2b0c0",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I210_W\\speed.txt": "c918f0d1221d40341124dd9bc82ae4df1fe53a2e6cbf5e2f4b790c7ec548585e",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I405_N\\flow_per_lane.txt": "f50e2bb9183a38123d36553c5d91fe5f1a7aa8371078ba71d20a5f5447e3853b",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I405_N\\speed.txt": "761f867d2446af49c1ef8481802be0786abf7abadb3ae26a886e8a7d32104fdf",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I405_S\\flow_per_lane.txt": "676bc538a5ef8f0a5975f658c0c1d0590d53c6a3f3a785d9762bca6d557c59e0",
+    "outputs\\daytime\\severe_augmentation\\models\\D7_I405_S\\speed.txt": "03c40e03ebc304833386c90a7632dd46e053a4d910054c08df8427fae83b1335"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_mass": {
+    "original": 0.5000000000000001,
+    "station15": 0.25000000000000006,
+    "block30": 0.25
+  },
+  "normalized_total": 30.0,
+  "rows": 30
+}

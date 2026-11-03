@@ -1,0 +1,180 @@
+{
+  "frozen_utc": "2026-11-02T20:48:43.478660+00:00",
+  "policy": {
+    "D12_I405_N": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        999,
+        999
+      ],
+      "metrics": {
+        "S_state": 0.9650798085755113,
+        "speed_RMSE": 0.8311389320254071,
+        "flow_per_lane_RMSE": 22.131639773139025,
+        "station_target_deltaN_RMSE": 1.5031697194673415,
+        "target_rows": 70441,
+        "adjacent_target_pairs": 20328
+      }
+    },
+    "D12_I405_S": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        1000,
+        1000
+      ],
+      "metrics": {
+        "S_state": 0.9323254237357896,
+        "speed_RMSE": 1.5899796675050695,
+        "flow_per_lane_RMSE": 43.47523753839253,
+        "station_target_deltaN_RMSE": 4.182494135994772,
+        "target_rows": 42529,
+        "adjacent_target_pairs": 14475
+      }
+    },
+    "D12_I5_N": {
+      "recipe": "context",
+      "alpha": 1.0,
+      "metrics": {
+        "S_state": 0.9564021198751155,
+        "speed_RMSE": 1.0531551569484645,
+        "flow_per_lane_RMSE": 27.19529834973605,
+        "station_target_deltaN_RMSE": 1.2260022024481485,
+        "target_rows": 210059,
+        "adjacent_target_pairs": 61566
+      }
+    },
+    "D12_I5_S": {
+      "recipe": "context",
+      "alpha": 1.0,
+      "metrics": {
+        "S_state": 0.9397740143656822,
+        "speed_RMSE": 1.6992581805906088,
+        "flow_per_lane_RMSE": 30.68088121768784,
+        "station_target_deltaN_RMSE": 4.067616034154956,
+        "target_rows": 92205,
+        "adjacent_target_pairs": 31178
+      }
+    },
+    "D7_I10_E": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        999,
+        1000
+      ],
+      "metrics": {
+        "S_state": 0.9460648358081792,
+        "speed_RMSE": 1.349148607109267,
+        "flow_per_lane_RMSE": 32.339418623818226,
+        "station_target_deltaN_RMSE": 1.2607504068402957,
+        "target_rows": 115427,
+        "adjacent_target_pairs": 33557
+      }
+    },
+    "D7_I10_W": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        1000,
+        1000
+      ],
+      "metrics": {
+        "S_state": 0.9528133470381376,
+        "speed_RMSE": 1.204483127009757,
+        "flow_per_lane_RMSE": 27.612805328415373,
+        "station_target_deltaN_RMSE": 1.030101858545301,
+        "target_rows": 94696,
+        "adjacent_target_pairs": 29512
+      }
+    },
+    "D7_I210_E": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        1000,
+        999
+      ],
+      "metrics": {
+        "S_state": 0.9436581049790624,
+        "speed_RMSE": 1.5217297282114872,
+        "flow_per_lane_RMSE": 30.61634724987333,
+        "station_target_deltaN_RMSE": 0.9472139752312092,
+        "target_rows": 294049,
+        "adjacent_target_pairs": 100703
+      }
+    },
+    "D7_I210_W": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        1000,
+        993
+      ],
+      "metrics": {
+        "S_state": 0.926558264942873,
+        "speed_RMSE": 2.270911150016613,
+        "flow_per_lane_RMSE": 31.81311419578456,
+        "station_target_deltaN_RMSE": 2.369760002145668,
+        "target_rows": 65845,
+        "adjacent_target_pairs": 19189
+      }
+    },
+    "D7_I405_N": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        1000,
+        1000
+      ],
+      "metrics": {
+        "S_state": 0.9363911031575046,
+        "speed_RMSE": 1.6180693384906208,
+        "flow_per_lane_RMSE": 37.38078147534529,
+        "station_target_deltaN_RMSE": 1.5947482621608744,
+        "target_rows": 278273,
+        "adjacent_target_pairs": 80086
+      }
+    },
+    "D7_I405_S": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "iterations": [
+        997,
+        1000
+      ],
+      "metrics": {
+        "S_state": 0.9378563986444703,
+        "speed_RMSE": 1.7312304128166278,
+        "flow_per_lane_RMSE": 32.28133622437909,
+        "station_target_deltaN_RMSE": 1.4032708697730507,
+        "target_rows": 74030,
+        "adjacent_target_pairs": 17943
+      }
+    }
+  },
+  "protocol_sha256": "60f8e8383b7f76a204fb0d4e06428726520cea5b15dfc52f380e0703bd6d9504",
+  "model_sha256": {
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I405_N\\flow_per_lane.txt": "c59a584fb93a32d75fff9848b3ead4a62cd321e3128f372aa1e31bc323f9f79f",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I405_N\\speed.txt": "dc4ec66cb5b50c73f58df028b07c8ddcdb62c85c4f07710eaa95b026bd7aa1e9",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I405_S\\flow_per_lane.txt": "c9675934522c66a986810d8224071bd36dc4d1e0c36ae347fe2e3b32da37e0d5",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I405_S\\speed.txt": "483cd2a92f58c4d531bf8f088b27cb4fcf3a5938a9d632d5e842829c91bde950",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I5_N\\flow_per_lane.txt": "dd44b48998f67bc1859feb00194b657ddfeaf5ac5df177a73fe983015496d7a8",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I5_N\\speed.txt": "92f293f73b16a330010c09f0fc7ea1d216115e6f8dc20a2ba51dbf4ea58fb29d",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I5_S\\flow_per_lane.txt": "70ea12b555090b94664175c1c8ce519a3d17ad945ee2827bf9b6ce916e4fb227",
+    "outputs\\daytime\\multimonth_fit\\models\\D12_I5_S\\speed.txt": "3f7aef7f50de1bd96aaa0abf1e95395c9baf77bacbf5e9cf0bee991d85553ad5",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I10_E\\flow_per_lane.txt": "5e8fe74dff1a0239dd5098b6f9469df70ca3525b59c6abed1b0fbae72c3b47ff",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I10_E\\speed.txt": "9780707d7f9b70ad5b03c66aaddf24a82866b0fb0c1c441e448d4dbee7ab0f16",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I10_W\\flow_per_lane.txt": "8096f7c33c88c6cc99a970fafe40c202b1eb5757212373a9306b52203431eb14",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I10_W\\speed.txt": "3b28e97d72845854abfbb4c44ec42bf07d291535e0f25a27092ebf60f82f15ab",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I210_E\\flow_per_lane.txt": "6db68a8d2c2922ab96c7da8a7b96fcca7be706df58a090719da24cee55b1d002",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I210_E\\speed.txt": "2761832abddedba29fbfaf269892e3fc3b763b837407547f7c842559bec0a049",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I210_W\\flow_per_lane.txt": "e07977da1d55ce03b759fa6d2771ac35d1fcb2724752523452552771c14713c8",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I210_W\\speed.txt": "62115a9c43ae28f26c81e27fd061353c3e68274feba3747880ace573fcceabd9",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I405_N\\flow_per_lane.txt": "b40487dc18d9479e4e0769ab3512b2c294b20863153a4e3c0954f1b101d7591b",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I405_N\\speed.txt": "486b9b49fba0f768c7e41aab0df9df8e76d6775550a9d0b848ec75f903e32dfd",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I405_S\\flow_per_lane.txt": "62f0748f8daf9558706d449a5a446b2c11713b5e767fa97faa0e6417b2dd951b",
+    "outputs\\daytime\\multimonth_fit\\models\\D7_I405_S\\speed.txt": "be47c37a7221f3b6e0d543c2d5f8c67038d0f1393a4e95e3ea22b35580a66433"
+  }
+}

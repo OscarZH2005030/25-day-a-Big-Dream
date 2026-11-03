@@ -1,0 +1,74 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": "point10",
+    "variant": "baseline",
+    "recipe": "balanced_original",
+    "S_state": 0.9479448826393737,
+    "speed_RMSE": 1.2402788107978326,
+    "flow_per_lane_RMSE": 32.95447180094759,
+    "station_target_deltaN_RMSE": 0.9381205107393972,
+    "target_rows": 6404,
+    "adjacent_target_pairs": 299
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "point10",
+    "variant": "context",
+    "recipe": "balanced_original",
+    "S_state": 0.9492689495016481,
+    "speed_RMSE": 1.1919108658056403,
+    "flow_per_lane_RMSE": 32.59014234384791,
+    "station_target_deltaN_RMSE": 0.9192405202212032,
+    "target_rows": 6404,
+    "adjacent_target_pairs": 299
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "point10",
+    "variant": "selected",
+    "recipe": "balanced_original",
+    "S_state": 0.9498733320255863,
+    "speed_RMSE": 1.1821403494759302,
+    "flow_per_lane_RMSE": 32.077090990087434,
+    "station_target_deltaN_RMSE": 0.9171827112933348,
+    "target_rows": 6404,
+    "adjacent_target_pairs": 299
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "block10",
+    "variant": "baseline",
+    "recipe": "balanced_original",
+    "S_state": 0.942566002350782,
+    "speed_RMSE": 1.3966899268972128,
+    "flow_per_lane_RMSE": 35.56368942813685,
+    "station_target_deltaN_RMSE": 1.4150062057411867,
+    "target_rows": 6755,
+    "adjacent_target_pairs": 3060
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "block10",
+    "variant": "context",
+    "recipe": "balanced_original",
+    "S_state": 0.9442198738793405,
+    "speed_RMSE": 1.3331807592307794,
+    "flow_per_lane_RMSE": 35.195767462532366,
+    "station_target_deltaN_RMSE": 1.2611758815246448,
+    "target_rows": 6755,
+    "adjacent_target_pairs": 3060
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "block10",
+    "variant": "selected",
+    "recipe": "balanced_original",
+    "S_state": 0.9452179102931423,
+    "speed_RMSE": 1.3241509592050198,
+    "flow_per_lane_RMSE": 34.148385636559894,
+    "station_target_deltaN_RMSE": 1.2717450952129175,
+    "target_rows": 6755,
+    "adjacent_target_pairs": 3060
+  }
+]

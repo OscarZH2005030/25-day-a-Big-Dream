@@ -1,0 +1,25 @@
+{
+  "registered_utc": "2026-11-02T23:06:58.003043+00:00",
+  "hypothesis": "A fixed average across feature-sampling seeds can reduce prediction variance and sparse-missingness accumulation regressions.",
+  "seeds": [
+    2026110283,
+    2026110284,
+    2026110285
+  ],
+  "training_protocol_sha256": "88a0c5f2300878fffb1786948e0db5e8e889a8afd1a66162d06dfbe65aefae44",
+  "training_cases_sha256": "2924a0e450b2eaeb11bb90def46e70e6d75bcd50965161fd509db44e336be8f3",
+  "inherited_policy_sha256": "19c8cb8aee1b996874ce8699be6ceefdd854ef9afb8775821a600cfba0e3da63",
+  "source_sha256": "d0e7cec4831d585e7910fbd9ad859d85d38f3fd1b885fa73dd0ae435b759b0c7",
+  "selection": "None: inherited January-selected gamma/routes and channel tree counts; fixed three-seed arithmetic average of independently clipped augmented predictions before mixing. No best-seed selection, no new early stopping, no February training.",
+  "evaluation": {
+    "original": "All February01-28",
+    "cached_sets": {
+      "mild14": "<research-workspace>\\work\\daytime\\augmentation_evaluation",
+      "mild22": "<research-workspace>\\work\\daytime\\missingness_selection\\february",
+      "mild52": "<research-workspace>\\work\\daytime\\multimonth_robustness",
+      "severe82": "<research-workspace>\\work\\daytime\\severe_augmentation_evaluation"
+    },
+    "report": "All individual seeds and ensemble, all roads, all cached cases, preserve failures"
+  },
+  "caveat": "Adaptive exposed-development analysis, not independent blind or official Task3/total improvement. Original data/earlier candidates untouched, Task4 fixed, no Kaggle upload."
+}

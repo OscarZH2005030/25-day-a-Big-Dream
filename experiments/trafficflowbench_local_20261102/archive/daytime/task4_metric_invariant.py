@@ -1,0 +1,31 @@
+"""Real-network OD ambiguity preserving counts, OD margins and prior L1 exactly."""
+import common as d
+import numpy as np,pandas as pd,json,msvcrt,traceback
+from scipy import sparse
+from scipy.optimize import linprog
+from datetime import datetime,timezone
+O=d.OUT/'task4_metric_invariant';BASE=d.ROOT/'work/review-repo/experiments/task4/robust_odme_20261027/outputs/task4_path_flow.csv';SEED=2026110301
+
+def main():
+ protocol=dict(registered_utc=datetime.now(timezone.utc).isoformat(),hypothesis='Even matching link counts, both OD margins and prior-deviation magnitude can leave very different OD pair flows; hidden S_od must discriminate.',seed=SEED,objectives_per_case=8,splits=['validation','private'],constraints='A*f=A*f_base; origin/destination totals equal base; sign(f-b) remains in base orthant; signed prior deviation sum fixed. Thus L1(f-b) fixed, and S_link/S_dev/S_attr identical for any hidden reference (within numerical tolerance).',selection='No model or submission selection. Eight fixed random linear objectives per case; all failures kept; no hidden labels or fabricated scores.',baseline_sha256=d.sha(BASE),source_sha256=d.sha(__file__),scope='Feasible ambiguity witnesses only, not improvements or recommended submissions. Official frozen Task4 base unchanged, no Kaggle uploads.')
+ d.save(O/'protocol.json',protocol);base=pd.read_csv(BASE,dtype={k:str for k in ['panel','departure_time','path_id','origin_zone','destination_zone']});rows=[];inputs=[]
+ for pn,panel in enumerate(d.night.predictor.load_routes()):
+  net=d.DATA/'corridors'/panel/'network';paths=pd.read_csv(net/'path_set.csv',dtype=str);inc=pd.read_csv(net/'path_link_incidence.csv',dtype=str);ids=paths.path_id.tolist();pi={v:i for i,v in enumerate(ids)};oi=pd.factorize(paths.origin_zone,sort=True)[0];di=pd.factorize(paths.destination_zone,sort=True)[0];n=len(paths);Gorig=sparse.coo_matrix((np.ones(n),(oi,np.arange(n))),shape=(oi.max()+1,n)).tocsr();Gdest=sparse.coo_matrix((np.ones(n),(di,np.arange(n))),shape=(di.max()+1,n)).tocsr()
+  for si,split in enumerate(protocol['splits']):
+   d.check_deadline();d.state(status='running',stage='task4_metric_invariant_witness',panel=panel,split=split,next='Fixed-seed LP witnesses preserving all non-OD score terms; do not promote alternative flows')
+   folder=d.DATA/'task4'/panel/split;cf=pd.read_csv(folder/'synthetic_link_counts.csv',dtype={'link_id':str});prior=pd.read_csv(folder/'synthetic_weak_prior.csv',dtype={'path_id':str,'departure_time':str});b=prior.set_index('path_id').reindex(ids).path_flow.to_numpy(float);f0=base[(base.panel==panel)&(base.departure_time==prior.departure_time.iloc[0])].set_index('path_id').reindex(ids).path_flow.to_numpy(float);assert np.isfinite(f0).all() and (f0>=0).all();li={v:i for i,v in enumerate(cf.link_id)};sel=inc[inc.link_id.isin(li)];A=sparse.coo_matrix((np.ones(len(sel)),(sel.link_id.map(li).to_numpy(),sel.path_id.map(pi).to_numpy())),shape=(len(cf),n)).tocsr();A.data[:]=1;diff=f0-b;sign=np.sign(diff);H=sparse.vstack([A,Gorig,Gdest,sparse.csr_matrix(sign[None,:])],format='csr');rhs=H@f0;bounds=[(float(bj),None) if sj>0 else (0,float(bj)) if sj<0 else (float(bj),float(bj)) for bj,sj in zip(b,sign)];D0=float(np.abs(f0-b).sum());a0=np.asarray(Gdest@f0).ravel();a0/=a0.sum();c=cf['count'].to_numpy();base_link=max(0,1-float(np.abs(A@f0-c).sum()/c.sum()));rng=np.random.default_rng(SEED+pn*100+si)
+   for rep in range(protocol['objectives_per_case']):
+    d.check_deadline();result=linprog(rng.normal(size=n),A_eq=H,b_eq=rhs,bounds=bounds,method='highs');row=dict(panel=panel,split=split,replicate=rep,success=bool(result.success),message=result.message)
+    if result.success:
+     f=result.x;D=float(np.abs(f-b).sum());aa=np.asarray(Gdest@f).ravel();aa/=aa.sum();link=max(0,1-float(np.abs(A@f-c).sum()/c.sum()));count_delta=float(np.abs(A@(f-f0)).max());Drel=abs(D-D0)/max(D0,1);attrTV=float(.5*np.abs(aa-a0).sum());origin_delta=float(np.abs(Gorig@(f-f0)).max());relativeOD=float(np.abs(f-f0).sum()/f0.sum());assert abs(link-base_link)<1e-9 and Drel<1e-9 and attrTV<1e-9 and count_delta<1e-5 and origin_delta<1e-5 and f.min()>-1e-7
+     witness=d.WORK/'task4_metric_invariant'/panel/split;witness.mkdir(parents=True,exist_ok=True);path=witness/(f'linear_objective_{rep}_NOT_A_SUBMISSION.parquet');pd.DataFrame(dict(path_id=ids,baseline_flow=f0,witness_flow=f)).to_parquet(path,index=False);row.update(baseline_S_link=base_link,witness_S_link=link,maximum_count_change=count_delta,prior_L1_relative_change=Drel,destination_TV_change=attrTV,maximum_origin_total_change=origin_delta,OD_relative_L1_change=relativeOD,total_relative_change=float(abs(f.sum()-f0.sum())/max(f0.sum(),1)),witness_sha256=d.sha(path),hidden_S_od=None,hidden_S_dev=None,hidden_S_attr=None)
+    rows.append(row);pd.DataFrame(rows).to_csv(O/'witnesses.csv',index=False)
+   for source in [net/'path_set.csv',net/'path_link_incidence.csv',folder/'synthetic_link_counts.csv',folder/'synthetic_weak_prior.csv']:inputs.append(dict(path=str(source),sha256=d.sha(source)))
+   d.save(O/'input_sha256.json',inputs);print('METRIC INVARIANT',panel,split,flush=True)
+ df=pd.DataFrame(rows);df.groupby(['panel','split']).agg(successes=('success','sum'),OD_change_min=('OD_relative_L1_change','min'),OD_change_mean=('OD_relative_L1_change','mean'),OD_change_max=('OD_relative_L1_change','max'),max_count_change=('maximum_count_change','max'),max_prior_L1_relative_change=('prior_L1_relative_change','max'),max_attraction_TV=('destination_TV_change','max')).to_csv(O/'summary.csv');d.state(status='stage_complete',stage='task4_metric_invariant_complete',next='Interpret real feasible OD matching ambiguity with all three non-OD components unchanged; seek validated structural prior information, not S_link or deviation-only optimizations.')
+
+if __name__=='__main__':
+ O.mkdir(parents=True,exist_ok=True);lock=(d.ROOT/'work/overnight/research.lock').open('r+b');lock.seek(0);msvcrt.locking(lock.fileno(),msvcrt.LK_NBLCK,1)
+ try:main()
+ except Exception as e:d.state(status='failed_or_cutoff',stage='task4_metric_invariant',error=repr(e),next='Repair numerical witness audit without changing fixed objectives or invariance tolerances; preserve failures');traceback.print_exc();raise
+ finally:lock.seek(0);msvcrt.locking(lock.fileno(),msvcrt.LK_UNLCK,1);lock.close()

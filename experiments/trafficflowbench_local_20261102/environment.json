@@ -1,0 +1,12 @@
+{
+  "python": "3.13.11",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "pyarrow": "26.0.0",
+    "lightgbm": "4.7.0"
+  },
+  "baseline_source_repository": "https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission",
+  "baseline_source_commit": "e254d55acdb94261d03d2ea10a79c983f1e15d55"
+}

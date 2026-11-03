@@ -1,0 +1,174 @@
+{
+  "registered_utc": "2026-11-02T19:51:54.092215+00:00",
+  "hypothesis": "Original-mask January selection may suppress models robust to extra missingness; select on matched January auxiliary conditions with original-mask safety gates.",
+  "plans": {
+    "D12_I405_N": {
+      "january": [
+        "2031-01-24",
+        "2031-01-26",
+        "2031-01-28"
+      ],
+      "february": [
+        "2031-02-09",
+        "2031-02-13",
+        "2031-02-18"
+      ]
+    },
+    "D12_I405_S": {
+      "january": [
+        "2031-01-23",
+        "2031-01-26",
+        "2031-01-28"
+      ],
+      "february": [
+        "2031-02-10",
+        "2031-02-20",
+        "2031-02-24"
+      ]
+    },
+    "D12_I5_N": {
+      "january": [
+        "2031-01-23",
+        "2031-01-27",
+        "2031-01-28"
+      ],
+      "february": [
+        "2031-02-10",
+        "2031-02-16",
+        "2031-02-17"
+      ]
+    },
+    "D12_I5_S": {
+      "january": [
+        "2031-01-26",
+        "2031-01-27",
+        "2031-01-28"
+      ],
+      "february": [
+        "2031-02-13",
+        "2031-02-15",
+        "2031-02-18"
+      ]
+    },
+    "D7_I10_E": {
+      "january": [
+        "2031-01-23",
+        "2031-01-26",
+        "2031-01-29"
+      ],
+      "february": [
+        "2031-02-10",
+        "2031-02-17",
+        "2031-02-20"
+      ]
+    },
+    "D7_I10_W": {
+      "january": [
+        "2031-01-25",
+        "2031-01-26",
+        "2031-01-30"
+      ],
+      "february": [
+        "2031-02-13",
+        "2031-02-16",
+        "2031-02-21"
+      ]
+    },
+    "D7_I210_E": {
+      "january": [
+        "2031-01-24",
+        "2031-01-29"
+      ],
+      "february": [
+        "2031-02-05",
+        "2031-02-16",
+        "2031-02-20"
+      ]
+    },
+    "D7_I210_W": {
+      "january": [
+        "2031-01-25",
+        "2031-01-27",
+        "2031-01-28"
+      ],
+      "february": [
+        "2031-02-11",
+        "2031-02-16",
+        "2031-02-18"
+      ]
+    },
+    "D7_I405_N": {
+      "january": [
+        "2031-01-23",
+        "2031-01-25",
+        "2031-01-30"
+      ],
+      "february": [
+        "2031-02-11",
+        "2031-02-14",
+        "2031-02-21"
+      ]
+    },
+    "D7_I405_S": {
+      "january": [
+        "2031-01-25",
+        "2031-01-28",
+        "2031-01-29"
+      ],
+      "february": [
+        "2031-02-13",
+        "2031-02-17",
+        "2031-02-18"
+      ]
+    }
+  },
+  "january_seed": 2026110221,
+  "february_seed": 2026110222,
+  "training": "None; immutable existing January-trained balanced-original and augmented-balanced models",
+  "selection": "Maximize equal mean January S_state across original, point10, block10. Original S_state must be >= context minus 0.0001; each of three accumulation RMSEs <=1.01 times context. Context fallback, no February retuning.",
+  "source_sha256": "fa4f725deae2eb75ba32fc7f31ae2cd50ae82f0a712a66ab91979856b8a35814",
+  "generator_sha256": "7d84747eb6d3b8bd10725ac4fb91d4c048a0c2747a4cb1004be12ac22ed71f09",
+  "model_sha256": {
+    "outputs\\daytime\\augmentation\\models\\D7_I405_S\\augmented_balanced\\flow_per_lane.txt": "adb9b64fa5fc269fbc73b364626fe270a3f8abea5af31362fb5e36c57a83dd3f",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_S\\augmented_balanced\\speed.txt": "6d667682e3e9d8ba65e85d67da6e469613e97e7bac21fa1f1f3ca2af82129f33",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_S\\balanced_original\\flow_per_lane.txt": "8eca219ceed9e78005ddbdf521bf1fa7e05112a544cafd64de7402a372dc6a53",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_S\\balanced_original\\speed.txt": "c453cb675b0c9f4a5bd81873751c5509edf5fd1bf32aff6b65cf6b6ab61958ba",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_N\\augmented_balanced\\flow_per_lane.txt": "2581a4e16315dd723cfd451069c2640cedaa64c896a052633dd37de6a9c78dc6",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_N\\augmented_balanced\\speed.txt": "706440603c9dd7252f408d7614924111782ac6d25c780bae00e8fed181142275",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_N\\balanced_original\\flow_per_lane.txt": "ba62d0334b4bf7ea5f173ba7a82b103ecbedb90c0a28cd1ea341e0b01942b237",
+    "outputs\\daytime\\augmentation\\models\\D7_I405_N\\balanced_original\\speed.txt": "66d11cd30b0a47f7940c4864c6c0731cd2dfd78f024b5bf2a99507fa452d35c5",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_W\\augmented_balanced\\flow_per_lane.txt": "5f3e8fddbd19ffe181d6a06f5e24aa26025656dbe6f3cef087cfb568e5fd1c45",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_W\\augmented_balanced\\speed.txt": "b0b64cf105b99970e4ebacdd4cbf646be00c412f24bb33db60506ac8abe92683",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_W\\balanced_original\\flow_per_lane.txt": "7f89d97a22898de6d053593ef577a1cf529f3a71ca5d2ac66338b81ed86836b9",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_W\\balanced_original\\speed.txt": "7fcdfb0deee36eb7bc040cb21e31fb75fa00a0551202708fc30586e6340cf2e6",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_E\\augmented_balanced\\flow_per_lane.txt": "44684e000c4a06aaa4fecb9da72288629fb72f78f2a898f3a21409f867427f93",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_E\\augmented_balanced\\speed.txt": "896028123547e8eb0bf3045b50ca24eed90ae3c840fa288e2949a4a4f747d6a6",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_E\\balanced_original\\flow_per_lane.txt": "6d8b38cbb7930d5ce960e922d9dd221df07d2fd9c3777a788da9f1b668c608bf",
+    "outputs\\daytime\\augmentation\\models\\D7_I210_E\\balanced_original\\speed.txt": "92ad20ae29eeb53171ce45167c7e03a7dff2ba077abb50066d084e5c3dc94870",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_W\\augmented_balanced\\flow_per_lane.txt": "60193ee632d0f687f510309a296290239602037d340d5ad9e6e909e4b0ee0cf1",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_W\\augmented_balanced\\speed.txt": "fed71c6d110de0a9139a75a2074de248f42b6e1283ed76c44f77a6edd02672d1",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_W\\balanced_original\\flow_per_lane.txt": "2b7c169299e6202550fd9b616d4e47bed3433e2491a3f3a429ca66ef0e7da8d4",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_W\\balanced_original\\speed.txt": "41ed01b4cad0c3b082c9a4813129edb0597815e109a8384154e5085756baea89",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_E\\augmented_balanced\\flow_per_lane.txt": "1f3a03b1d2a50a36a55757d5672be2ed0a7576b2c0e6a8324eeb551b62df57cc",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_E\\augmented_balanced\\speed.txt": "e444e850a6779e59bd2f2bb8214fe23f5549868ba9cf5ae8e0fb54cc5f84b922",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_E\\balanced_original\\flow_per_lane.txt": "89a12d04a07d713cffa006361b4735af59a5402b9ca66eef8897e910e31a6b7b",
+    "outputs\\daytime\\augmentation\\models\\D7_I10_E\\balanced_original\\speed.txt": "6c718f7bc106499c0829d3bf3db0bcd11a883087658b90b8c9a04b99a933d657",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_S\\augmented_balanced\\flow_per_lane.txt": "7da7c091987d024cc06b6bb252ee5f4e4834eac6723d7ad01fe639757f7b5b2d",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_S\\augmented_balanced\\speed.txt": "2909b34ea96062717deb92ad56096656851da3f324f162cb21183afbb8408ba2",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_S\\balanced_original\\flow_per_lane.txt": "1328f320d56a7d2c632bd3ab22397e755fffeb26be401b6d9cf329a674c49354",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_S\\balanced_original\\speed.txt": "e85eb12b25491cf2b82127f5a54fa05f5277fec9f2894a729ae7ea024eca48fa",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_N\\augmented_balanced\\flow_per_lane.txt": "2ad3d40adbc8ef8f4dc5f20b5c1ff1fa6539ebcbae016356c2d7f8bed38c2366",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_N\\augmented_balanced\\speed.txt": "04154d5650f7607f9c98dce9a512ad2c66c859dc6ead6e9dccba4fc140df30fc",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_N\\balanced_original\\flow_per_lane.txt": "a32d7b3034a0579467defb26021af58a755153fb1415cd36a6b97f08f482613b",
+    "outputs\\daytime\\augmentation\\models\\D12_I5_N\\balanced_original\\speed.txt": "acc83f618499646244dfc72a20bd3c8660cfc3acccb261cf534fbd43dd65043e",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_S\\augmented_balanced\\flow_per_lane.txt": "d29ff4b89ddf34bdf957e32aaed45db3ebfa7363a3c87bef56f1de3c6bb470fd",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_S\\augmented_balanced\\speed.txt": "680c03e1f0b1741573db20f4a2f5a28b67d19ed3867215c3a07c58be6fd378b2",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_S\\balanced_original\\flow_per_lane.txt": "fed2ed8984e22db1453c1bb6c390a56cb9cc6520c86e120e737fb7ed50e332a8",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_S\\balanced_original\\speed.txt": "d6838932b3bea9a967c49b0cc936bf7a3821a98ac708c08e2e749b856dbd5bfa",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_N\\augmented_balanced\\flow_per_lane.txt": "f00aa27db887518d3207d403c345ebc73c2f50141db809ef6e877fcdfa6e878c",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_N\\augmented_balanced\\speed.txt": "25d106f24e98aaff49b225c9d2ccad247658d18f5e5c5caf6f9e0b79dc9b800a",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_N\\balanced_original\\flow_per_lane.txt": "56aba436ea78be4b6fc9b77e07858ad512012c8b25606789ef0064783b06aebf",
+    "outputs\\daytime\\augmentation\\models\\D12_I405_N\\balanced_original\\speed.txt": "a3c160f7e485d3158443f5e407a6e1a81fdb21889714a344e5046f577b93faaf"
+  },
+  "caveat": "Fresh masks on exposed public train, not whole-system blind; not official Task3 or leaderboard improvement. No Kaggle uploads; Task4 baseline frozen."
+}

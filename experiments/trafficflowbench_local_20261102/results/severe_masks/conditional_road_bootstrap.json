@@ -1,0 +1,135 @@
+{
+  "seed": 2026110273,
+  "replicates": 2000,
+  "scope": "Paired resampling of ten known roads; not official or population uncertainty",
+  "results": [
+    {
+      "condition": "block30",
+      "variant": "multimonth",
+      "metric": "S_state",
+      "difference": 0.0007554747622480207,
+      "conditional_low": 0.00012337169810415187,
+      "conditional_high": 0.0015202620600310735
+    },
+    {
+      "condition": "block30",
+      "variant": "multimonth",
+      "metric": "speed_RMSE",
+      "difference": -0.020351938861772535,
+      "conditional_low": -0.05007651427586371,
+      "conditional_high": 0.002910295189933032
+    },
+    {
+      "condition": "block30",
+      "variant": "multimonth",
+      "metric": "flow_per_lane_RMSE",
+      "difference": -0.4120081080439594,
+      "conditional_low": -0.8282062099205583,
+      "conditional_high": -0.10771431829972866
+    },
+    {
+      "condition": "block30",
+      "variant": "multimonth",
+      "metric": "station_target_deltaN_RMSE",
+      "difference": -0.020967290164305895,
+      "conditional_low": -0.04499567587316524,
+      "conditional_high": -4.290657629949085e-05
+    },
+    {
+      "condition": "block30",
+      "variant": "refit49",
+      "metric": "S_state",
+      "difference": 0.0012644796642878986,
+      "conditional_low": 0.000546444088790054,
+      "conditional_high": 0.0021023262715837167
+    },
+    {
+      "condition": "block30",
+      "variant": "refit49",
+      "metric": "speed_RMSE",
+      "difference": -0.03963743070604656,
+      "conditional_low": -0.07224632508775618,
+      "conditional_high": -0.014898949466517262
+    },
+    {
+      "condition": "block30",
+      "variant": "refit49",
+      "metric": "flow_per_lane_RMSE",
+      "difference": -0.5325797752659721,
+      "conditional_low": -0.9765988235838828,
+      "conditional_high": -0.17084982930037498
+    },
+    {
+      "condition": "block30",
+      "variant": "refit49",
+      "metric": "station_target_deltaN_RMSE",
+      "difference": -0.010262714119429172,
+      "conditional_low": -0.041046035217007296,
+      "conditional_high": 0.016890355973489177
+    },
+    {
+      "condition": "station15",
+      "variant": "multimonth",
+      "metric": "S_state",
+      "difference": 0.001089427663520104,
+      "conditional_low": 0.0003397995716927063,
+      "conditional_high": 0.0019806949181125073
+    },
+    {
+      "condition": "station15",
+      "variant": "multimonth",
+      "metric": "speed_RMSE",
+      "difference": -0.024526497761065823,
+      "conditional_low": -0.0438014434482629,
+      "conditional_high": -0.0063771274224911955
+    },
+    {
+      "condition": "station15",
+      "variant": "multimonth",
+      "metric": "flow_per_lane_RMSE",
+      "difference": -0.7299851894101067,
+      "conditional_low": -1.4269214749845784,
+      "conditional_high": -0.16543515617526117
+    },
+    {
+      "condition": "station15",
+      "variant": "multimonth",
+      "metric": "station_target_deltaN_RMSE",
+      "difference": -0.022230461382952326,
+      "conditional_low": -0.04680661244529432,
+      "conditional_high": 0.0003555411968710442
+    },
+    {
+      "condition": "station15",
+      "variant": "refit49",
+      "metric": "S_state",
+      "difference": 0.001726115596491873,
+      "conditional_low": 0.0004412209282653776,
+      "conditional_high": 0.0030602149031190087
+    },
+    {
+      "condition": "station15",
+      "variant": "refit49",
+      "metric": "speed_RMSE",
+      "difference": -0.04522936936670213,
+      "conditional_low": -0.08409117275257835,
+      "conditional_high": -0.00610851384658564
+    },
+    {
+      "condition": "station15",
+      "variant": "refit49",
+      "metric": "flow_per_lane_RMSE",
+      "difference": -0.9771668063101174,
+      "conditional_low": -1.783649003684268,
+      "conditional_high": -0.269621178254817
+    },
+    {
+      "condition": "station15",
+      "variant": "refit49",
+      "metric": "station_target_deltaN_RMSE",
+      "difference": -0.05844749221126059,
+      "conditional_low": -0.10570913566408016,
+      "conditional_high": -0.01903783218954898
+    }
+  ]
+}

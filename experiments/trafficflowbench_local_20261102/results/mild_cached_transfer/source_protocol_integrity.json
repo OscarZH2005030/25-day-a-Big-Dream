@@ -1,0 +1,17 @@
+{
+  "files": {
+    "seed2026110214": {
+      "path": "<research-workspace>\\outputs\\daytime\\augmentation\\protocol.json",
+      "sha256": "e578c6dc9b96f667461f0ef55bd9cfc1c10586776cdff451ff7d220178cbc2df"
+    },
+    "seed2026110222": {
+      "path": "<research-workspace>\\outputs\\daytime\\missingness_selection\\protocol.json",
+      "sha256": "53aabb63d02b573100afec6aab092eddc961892196fc650a93342e96b6b3f6c9"
+    },
+    "seed2026110252": {
+      "path": "<research-workspace>\\outputs\\daytime\\multimonth_robustness\\protocol.json",
+      "sha256": "5c417c7186beb70b3e758ffd658892e3c9b8132e00b986910fa13f29bae53e38"
+    }
+  },
+  "repair": "Replace false three-date assumption with exact original registered date sets. No masks, models or selection changed."
+}

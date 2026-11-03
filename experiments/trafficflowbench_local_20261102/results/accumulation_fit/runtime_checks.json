@@ -1,0 +1,4 @@
+{
+  "custom_gradient_finite_difference": true,
+  "diagonal_hessian_finite_difference": true
+}

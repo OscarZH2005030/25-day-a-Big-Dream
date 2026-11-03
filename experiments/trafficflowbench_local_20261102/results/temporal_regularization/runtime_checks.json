@@ -1,0 +1,6 @@
+{
+  "constant_correction_preserved": true,
+  "row_order_invariant": true,
+  "zero_lambda_identity": true,
+  "no_edges_across_gaps": true
+}

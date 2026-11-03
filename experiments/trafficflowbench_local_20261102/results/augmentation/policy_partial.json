@@ -1,0 +1,130 @@
+{
+  "D12_I405_N": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9647163993842938,
+      "speed_RMSE": 0.842362639050655,
+      "flow_per_lane_RMSE": 22.289436015929,
+      "station_target_deltaN_RMSE": 1.51128909632376,
+      "target_rows": 70441,
+      "adjacent_target_pairs": 20328
+    }
+  },
+  "D12_I405_S": {
+    "recipe": "balanced_original",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      741
+    ],
+    "metrics": {
+      "S_state": 0.9313699926372688,
+      "speed_RMSE": 1.611196596077975,
+      "flow_per_lane_RMSE": 44.1236881140613,
+      "station_target_deltaN_RMSE": 4.173182585350325,
+      "target_rows": 42529,
+      "adjacent_target_pairs": 14475
+    }
+  },
+  "D12_I5_N": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9564021198751155,
+      "speed_RMSE": 1.0531551569484645,
+      "flow_per_lane_RMSE": 27.19529834973605,
+      "station_target_deltaN_RMSE": 1.2260022024481485,
+      "target_rows": 210059,
+      "adjacent_target_pairs": 61566
+    }
+  },
+  "D12_I5_S": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9397740143656822,
+      "speed_RMSE": 1.6992581805906088,
+      "flow_per_lane_RMSE": 30.68088121768784,
+      "station_target_deltaN_RMSE": 4.067616034154956,
+      "target_rows": 92205,
+      "adjacent_target_pairs": 31178
+    }
+  },
+  "D7_I10_E": {
+    "recipe": "balanced_original",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      991
+    ],
+    "metrics": {
+      "S_state": 0.945736897440827,
+      "speed_RMSE": 1.3575782485538455,
+      "flow_per_lane_RMSE": 32.52966833531738,
+      "station_target_deltaN_RMSE": 1.2941717960087145,
+      "target_rows": 115427,
+      "adjacent_target_pairs": 33557
+    }
+  },
+  "D7_I10_W": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.952768981588973,
+      "speed_RMSE": 1.2056711302251497,
+      "flow_per_lane_RMSE": 27.637202606300566,
+      "station_target_deltaN_RMSE": 1.035546757213016,
+      "target_rows": 94696,
+      "adjacent_target_pairs": 29512
+    }
+  },
+  "D7_I210_E": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9434518621319152,
+      "speed_RMSE": 1.5276860497774893,
+      "flow_per_lane_RMSE": 30.71754677333625,
+      "station_target_deltaN_RMSE": 0.9621495403751406,
+      "target_rows": 294049,
+      "adjacent_target_pairs": 100703
+    }
+  },
+  "D7_I210_W": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9260487311719005,
+      "speed_RMSE": 2.2898484799145753,
+      "flow_per_lane_RMSE": 31.9441847764498,
+      "station_target_deltaN_RMSE": 2.44036105471106,
+      "target_rows": 65845,
+      "adjacent_target_pairs": 19189
+    }
+  },
+  "D7_I405_N": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9362040263371814,
+      "speed_RMSE": 1.6246172974174324,
+      "flow_per_lane_RMSE": 37.44031309382894,
+      "station_target_deltaN_RMSE": 1.6198551289896992,
+      "target_rows": 278273,
+      "adjacent_target_pairs": 80086
+    }
+  },
+  "D7_I405_S": {
+    "recipe": "reference",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9373591885573344,
+      "speed_RMSE": 1.7462309281725628,
+      "flow_per_lane_RMSE": 32.50724790539788,
+      "station_target_deltaN_RMSE": 1.4318559153870025,
+      "target_rows": 74030,
+      "adjacent_target_pairs": 17943
+    }
+  }
+}

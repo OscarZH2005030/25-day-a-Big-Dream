@@ -1,0 +1,29 @@
+{
+  "registered_utc": "2026-11-02T23:52:45.597766+00:00",
+  "hypothesis": "Public PM mainline/ramp averages may supply additional demand constraints only if compatible with released Task4 synthetic counts.",
+  "panels": [
+    "D12_I405_N",
+    "D12_I405_S",
+    "D12_I5_N",
+    "D12_I5_S",
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I210_E",
+    "D7_I210_W",
+    "D7_I405_N",
+    "D7_I405_S"
+  ],
+  "splits": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "hours_UTC": [
+    15,
+    19
+  ],
+  "aggregation": "Official public fallback aggregates every finite flow_vph over15<=UTC hour<19 by link. Also report quality-eligible-only variant. Train uses released complete states; evaluation uses only masked observations.",
+  "selection": "No model fitting or OD/path prediction changes; all panels and splits retained. Fitted global scales only diagnose compatibility, not evidence of hidden accuracy.",
+  "source_sha256": "9e680ce172e2360c0799f910287badaad00ca005a4ea26ccc31d4adff392d939",
+  "scope": "Source compatibility audit, not Task4 validation or hidden score. No Kaggle uploads or credential access; frozen Task4 baseline retained."
+}

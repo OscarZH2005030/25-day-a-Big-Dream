@@ -1,0 +1,25 @@
+{
+  "registered_utc": "2026-11-02T22:51:34.482356+00:00",
+  "source_sets": {
+    "seed2026110214": "<research-workspace>\\work\\daytime\\augmentation_evaluation",
+    "seed2026110222": "<research-workspace>\\work\\daytime\\missingness_selection\\february",
+    "seed2026110252": "<research-workspace>\\work\\daytime\\multimonth_robustness"
+  },
+  "conditions": [
+    "point10",
+    "block10"
+  ],
+  "selection": "None; evaluate every available case of all three registered prior mild-mask sets. Do not choose roads/seeds after results.",
+  "variants": [
+    "baseline",
+    "context",
+    "multimonth",
+    "refit49",
+    "severe_mixture"
+  ],
+  "cached_features": "Computed under the actual auxiliary mask before truth read; verify keys and reproduce original context predictions before evaluating new model.",
+  "policy_sha256": "19c8cb8aee1b996874ce8699be6ceefdd854ef9afb8775821a600cfba0e3da63",
+  "package_manifest_sha256": "ff2bed11f6a1de7bfcd46aac84b2260d8da3e43a46d7223d908100660ded6a55",
+  "source_sha256": "b21e5cb891702be3cc0ce3ca1d6eb4d347c55a030a998abb0a131cde9a42f2fd",
+  "scope": "Adaptively reused exposed development observations, not blind/official. Sources may overlap, not independent tests. No uploads."
+}

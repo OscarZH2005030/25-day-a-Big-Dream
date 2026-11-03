@@ -1,0 +1,35 @@
+[
+  {
+    "panel": "D12_I405_S",
+    "condition": "point10",
+    "variant": "baseline",
+    "S_state": 0.9308352207481748,
+    "speed_RMSE": 1.7130972399626172,
+    "flow_per_lane_RMSE": 41.950276785173045,
+    "station_target_deltaN_RMSE": 4.219791766458336,
+    "target_rows": 3864,
+    "adjacent_target_pairs": 196
+  },
+  {
+    "panel": "D12_I405_S",
+    "condition": "point10",
+    "variant": "context",
+    "S_state": 0.9333268721055941,
+    "speed_RMSE": 1.6538351354438776,
+    "flow_per_lane_RMSE": 40.36994213324121,
+    "station_target_deltaN_RMSE": 3.425176203094599,
+    "target_rows": 3864,
+    "adjacent_target_pairs": 196
+  },
+  {
+    "panel": "D12_I405_S",
+    "condition": "point10",
+    "variant": "late55",
+    "S_state": 0.9341451066677151,
+    "speed_RMSE": 1.6482750140921212,
+    "flow_per_lane_RMSE": 39.459330036384856,
+    "station_target_deltaN_RMSE": 3.5158436536550126,
+    "target_rows": 3864,
+    "adjacent_target_pairs": 196
+  }
+]

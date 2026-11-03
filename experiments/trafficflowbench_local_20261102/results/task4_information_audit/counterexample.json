@@ -1,0 +1,47 @@
+{
+  "scope": "Toy illustration, not real benchmark data",
+  "prior": [
+    [
+      250.0,
+      250.0
+    ],
+    [
+      250.0,
+      250.0
+    ]
+  ],
+  "truth": [
+    [
+      450.0,
+      50.0
+    ],
+    [
+      50.0,
+      450.0
+    ]
+  ],
+  "opposite_matching": [
+    [
+      50.0,
+      450.0
+    ],
+    [
+      450.0,
+      50.0
+    ]
+  ],
+  "true_submission": {
+    "S_od": 1.0,
+    "S_link": 1.0,
+    "S_dev": 1.0,
+    "S_attr": 1.0,
+    "S_ODME": 1.0
+  },
+  "wrong_submission": {
+    "S_od": 0.0,
+    "S_link": 1.0,
+    "S_dev": 1.0,
+    "S_attr": 1.0,
+    "S_ODME": 0.55
+  }
+}

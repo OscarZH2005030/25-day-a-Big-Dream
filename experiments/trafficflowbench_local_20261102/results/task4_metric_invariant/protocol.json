@@ -1,0 +1,15 @@
+{
+  "registered_utc": "2026-11-03T00:11:34.026667+00:00",
+  "hypothesis": "Even matching link counts, both OD margins and prior-deviation magnitude can leave very different OD pair flows; hidden S_od must discriminate.",
+  "seed": 2026110301,
+  "objectives_per_case": 8,
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "constraints": "A*f=A*f_base; origin/destination totals equal base; sign(f-b) remains in base orthant; signed prior deviation sum fixed. Thus L1(f-b) fixed, and S_link/S_dev/S_attr identical for any hidden reference (within numerical tolerance).",
+  "selection": "No model or submission selection. Eight fixed random linear objectives per case; all failures kept; no hidden labels or fabricated scores.",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "source_sha256": "365738fab28b37c31bcdc3b1275c1314e9f8705edd2cb2761263302509945f31",
+  "scope": "Feasible ambiguity witnesses only, not improvements or recommended submissions. Official frozen Task4 base unchanged, no Kaggle uploads."
+}

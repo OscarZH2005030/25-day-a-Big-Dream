@@ -1,0 +1,9 @@
+{
+  "successful_cases": 30,
+  "cases": 30,
+  "min_total_ratio": 18.680064393791884,
+  "max_total_ratio": 30.887527451316465,
+  "maximum_count_NMAE": 8.179723212221879e-17,
+  "missing_km_policy": "Leave mean path km null when any path metadata length is missing; use validated positive zone index differences for interval-span interpretation.",
+  "source_sha256": "c43fa1e9d5c47364220e7ab14d60354b70c038e94f38affb4806644171507604"
+}

@@ -1,0 +1,10 @@
+{
+  "portable_state_max_metric_difference": 0.0,
+  "portable_task4_count_bounds_reproduced": true,
+  "portable_task4_invariant_witnesses_passed": true,
+  "raw_target_rows_excluded": true,
+  "credential_pattern_scan_passed": true,
+  "files_below50MiB": true,
+  "model_and_inference_bytes_verified_against_local_manifests": true,
+  "scope": "Smoke test on one road/date plus pre-existing ten-road package checks; not new official validation"
+}

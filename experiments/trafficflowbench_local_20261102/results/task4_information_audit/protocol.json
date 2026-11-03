@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-02T23:44:17.907348+00:00",
+  "scope": "Linear identifiability of released measurement operator, not hidden-score estimation",
+  "source_sha256": "9eb5477ff11ba903d5b2232feca892a3c366c72d138409551d6e8c4d5e67e47b",
+  "tolerance": 1e-08,
+  "split": "validation",
+  "no_submission": true
+}

@@ -1,0 +1,13 @@
+{
+  "registered_utc": "2026-11-03T00:07:59.672381+00:00",
+  "hypothesis": "Saturated link fit can leave large uncertainty in number of trips and mean trip length. Quantify exact feasible bounds, rather than tuning link error.",
+  "splits": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "optimization": "min/max sum(f) subject released counted-link A*f=c and f>=0; no weak-prior bound imposed. Report infeasibility without silently replacing c.",
+  "extremes": "Artificial feasible endpoints, never recommended submissions or hidden-score estimates",
+  "source_sha256": "e151ee1cfcd26c8cdd8f2f2ec10897bca3e1eb20b5a8c6e31ac4c26b6ea3fa06",
+  "scope": "No hidden path labels, no candidate replacement, no Kaggle upload. Full Task4 and S_od/S_dev/S_attr remain unknown."
+}

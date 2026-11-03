@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-11-02T20:01:58.947699+00:00",
+  "policy": {
+    "D12_I405_N": {
+      "variant": "context",
+      "January_objective": 0.9662823065460806
+    },
+    "D12_I405_S": {
+      "variant": "context",
+      "January_objective": 0.9282181993697384
+    },
+    "D12_I5_N": {
+      "variant": "context",
+      "January_objective": 0.9438407558337522
+    },
+    "D12_I5_S": {
+      "variant": "context",
+      "January_objective": 0.9464004987126374
+    },
+    "D7_I10_E": {
+      "variant": "context",
+      "January_objective": 0.9445883626366997
+    },
+    "D7_I10_W": {
+      "variant": "context",
+      "January_objective": 0.9475827247781313
+    },
+    "D7_I210_E": {
+      "variant": "context",
+      "January_objective": 0.9396446379374624
+    },
+    "D7_I210_W": {
+      "variant": "context",
+      "January_objective": 0.9227463296090614
+    },
+    "D7_I405_N": {
+      "variant": "context",
+      "January_objective": 0.9364900840852552
+    },
+    "D7_I405_S": {
+      "variant": "context",
+      "January_objective": 0.9200276462996219
+    }
+  },
+  "protocol_sha256": "53aabb63d02b573100afec6aab092eddc961892196fc650a93342e96b6b3f6c9",
+  "note": "All routes frozen before new seed February evaluation; no retuning"
+}

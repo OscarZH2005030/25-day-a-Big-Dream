@@ -1,0 +1,28 @@
+{
+  "recipe": "context",
+  "alpha": 0.0,
+  "frozen_utc": "2026-11-02T20:29:15.676402+00:00",
+  "protocol_sha256": "50ca24b7f0d5e02589d0ea458d9e19542f21ccc35dda190ccaf8f96a003d5960",
+  "model_sha256": {
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I405_N\\lambda0.0.txt": "5e06969dacd520ffd904f348308df0763906269236696636d06b84cc40be872d",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I405_N\\lambda1.0.txt": "4b2eca086558449e65f69255d06e367b52b935064bb79abfe7129a26b35fef28",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I405_S\\lambda0.0.txt": "3f75030da8cefe43f065a701b65c8dba9757d9424b3d986596266ef7007ad2ab",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I405_S\\lambda1.0.txt": "d9b3187a155fc43b3575114afd80029ea903b2f2c69d2ff1a4a3b15d1be04f81",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I5_N\\lambda0.0.txt": "187221610fdffdf4037d497d3d0eb643b25551c2a47167d5a6150ddefc7007dd",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I5_N\\lambda1.0.txt": "4962eb95a7172b02112c11126421a8b22285c5b1622842360fd2f7f8f609d40c",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I5_S\\lambda0.0.txt": "366cf74eb4fd7aa19135f3f53cf1d664741fc6afe9b077eb372b6b6a528e9056",
+    "outputs\\daytime\\accumulation_fit\\models\\D12_I5_S\\lambda1.0.txt": "d4f330007551728cfcd812caf5776f80be5cf3b98b92a1a3df1509b8b5ba0d60",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I10_E\\lambda0.0.txt": "0067defe322b53e130c45f4d5891fd9aaa9938f51a9abade93ed3cd3c887c353",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I10_E\\lambda1.0.txt": "e354334d21c40a3e072070862b71fa35ec65ff1bb39c02ad49d75858f874ddee",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I10_W\\lambda0.0.txt": "f0a80b247927f131dc565df217385ccf78a30c513cd7ab4dbce7766457f9c92e",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I10_W\\lambda1.0.txt": "7517c4acc853fc5a8a66c75c5daba38e13874aabfe7426cd70d6cf7caa54e06b",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I210_E\\lambda0.0.txt": "216ade98a0ff136f48e39efaa6ce016fb6b5916fb2f8a8a5d2b714fef74b36c7",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I210_E\\lambda1.0.txt": "cb9aaf1829295db0aedfe6ad275e7b6b3fd3dc18bccef931816a84d64715c612",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I210_W\\lambda0.0.txt": "77a8948dc31cd2eb2673480f8fb8c24f007bd4e927b919ee1b8e5c4c367dd3b2",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I210_W\\lambda1.0.txt": "5bd97a5c9d0d1eac07aa6598631aa703decedff9c13ccacba2b45ab6581fd57c",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I405_N\\lambda0.0.txt": "c40a7825cf6a0e14419771ca5a86a93aa3804a63d4aca47578dacec7cecfaef8",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I405_N\\lambda1.0.txt": "2323076bf9a8b07878949291f608c1c381c1dc0ec3d4b887c0e90768020366ae",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I405_S\\lambda0.0.txt": "1b622bc01d59123f712ebba36ac49441d908123028aec9a25647c6cbdc2460a4",
+    "outputs\\daytime\\accumulation_fit\\models\\D7_I405_S\\lambda1.0.txt": "6b250a0fb9891559afd241f07af85b97d55403388b4361353fb7c1b554286cae"
+  }
+}

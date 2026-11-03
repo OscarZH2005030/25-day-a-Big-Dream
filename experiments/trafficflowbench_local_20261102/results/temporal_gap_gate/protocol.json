@@ -1,0 +1,38 @@
+{
+  "registered_utc": "2026-11-02T23:37:12.523187+00:00",
+  "hypothesis": "A fixed road-wide severe correction applies to mild isolated gaps too; attenuate it using public nearest-observation gap to reduce accumulation regressions.",
+  "gates": {
+    "unconditional": null,
+    "floor0.0_ticks3": [
+      0.0,
+      3
+    ],
+    "floor0.0_ticks6": [
+      0.0,
+      6
+    ],
+    "floor0.0_ticks12": [
+      0.0,
+      12
+    ],
+    "floor0.5_ticks3": [
+      0.5,
+      3
+    ],
+    "floor0.5_ticks6": [
+      0.5,
+      6
+    ],
+    "floor0.5_ticks12": [
+      0.5,
+      12
+    ]
+  },
+  "features": "28 temporal features indices8/9 are log1p previous/next observed speed distance. Integer nearest distance; unavailable both sides=288. No labels used.",
+  "selection": "One global gate minimizes equally weighted mean January accumulation RMSE across original/point10/block10/station15/block30, subject total mean S_state>=unconditional-0.00002, original mean state>=unconditional-0.0001, every road original state>=unconditional-0.0002, every condition mean accumulation<=unconditional, and every road/condition accumulation<=unconditional*1.02. Unconditional fallback.",
+  "January_dates": "Original Jan21-31; every cached development case from missingness_selection/january and severe_augmentation_data/development",
+  "inherited_policy_sha256": "19c8cb8aee1b996874ce8699be6ceefdd854ef9afb8775821a600cfba0e3da63",
+  "ensemble_policy_sha256": "62429554b79d4e8f25d0c42a201d362120d3a31f7cc8878402924739900f4e3d",
+  "source_sha256": "cb66dfced3f3f149835907bdf9d6b2598c8ff41c7887873cf2399db505d8fdbf",
+  "scope": "Adaptively reused exposed public development, no blind/official claim. No February model/road selection. Task4 baseline fixed; no uploads."
+}

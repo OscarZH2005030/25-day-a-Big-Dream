@@ -1,0 +1,308 @@
+{
+  "policy": {
+    "D12_I405_N": {
+      "gamma": 0.25,
+      "objective": 0.961328732080169,
+      "parent_alpha": 1.0,
+      "iterations": [
+        999,
+        994
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9607503300560233
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.961328732080169
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9617538760714089
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.962113402753411
+        }
+      }
+    },
+    "D12_I405_S": {
+      "gamma": 0.25,
+      "objective": 0.8839049187989203,
+      "parent_alpha": 1.0,
+      "iterations": [
+        993,
+        1000
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.8808281137014865
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.8839049187989203
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.8864602503714091
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.8898839763969706
+        }
+      }
+    },
+    "D12_I5_N": {
+      "gamma": 0.25,
+      "objective": 0.922812397792825,
+      "parent_alpha": 1.0,
+      "iterations": [
+        999,
+        991
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9187096743787245
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.922812397792825
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9259371369369257
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.928604713530857
+        }
+      }
+    },
+    "D12_I5_S": {
+      "gamma": 0.0,
+      "objective": 0.9025083170714661,
+      "parent_alpha": 1.0,
+      "iterations": [
+        991,
+        998
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9025083170714661
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.9074825742605661
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9111501943285524
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9140033333988885
+        }
+      }
+    },
+    "D7_I10_E": {
+      "gamma": 0.0,
+      "objective": 0.9276136166772533,
+      "parent_alpha": 1.0,
+      "iterations": [
+        996,
+        995
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9276136166772533
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.9293880827772938
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9306655840702027
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9316266758166982
+        }
+      }
+    },
+    "D7_I10_W": {
+      "gamma": 0.5,
+      "objective": 0.931912506593096,
+      "parent_alpha": 1.0,
+      "iterations": [
+        999,
+        993
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9301662852802249
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.9311335088900972
+        },
+        "0.5": {
+          "eligible": true,
+          "objective": 0.931912506593096
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9328797087217877
+        }
+      }
+    },
+    "D7_I210_E": {
+      "gamma": 0.0,
+      "objective": 0.9173559337911574,
+      "parent_alpha": 1.0,
+      "iterations": [
+        1000,
+        164
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.9173559337911574
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.9194963042258281
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9213603217759375
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9241458305530852
+        }
+      }
+    },
+    "D7_I210_W": {
+      "gamma": 0.25,
+      "objective": 0.8774606874354274,
+      "parent_alpha": 1.0,
+      "iterations": [
+        1000,
+        999
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.872728060387896
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.8774606874354274
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.8813495991084902
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.8862069811927435
+        }
+      }
+    },
+    "D7_I405_N": {
+      "gamma": 0.0,
+      "objective": 0.924880369202263,
+      "parent_alpha": 1.0,
+      "iterations": [
+        1000,
+        1000
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.924880369202263
+        },
+        "0.25": {
+          "eligible": false,
+          "objective": 0.925735110479692
+        },
+        "0.5": {
+          "eligible": false,
+          "objective": 0.9263105151547535
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.9265844976934324
+        }
+      }
+    },
+    "D7_I405_S": {
+      "gamma": 0.5,
+      "objective": 0.8967410872201867,
+      "parent_alpha": 1.0,
+      "iterations": [
+        998,
+        1000
+      ],
+      "January_choices": {
+        "0.0": {
+          "eligible": true,
+          "objective": 0.8919425161051887
+        },
+        "0.25": {
+          "eligible": true,
+          "objective": 0.8946468068059983
+        },
+        "0.5": {
+          "eligible": true,
+          "objective": 0.8967410872201867
+        },
+        "1.0": {
+          "eligible": false,
+          "objective": 0.8989531927448162
+        }
+      }
+    }
+  },
+  "seeds": [
+    2026110283,
+    2026110284,
+    2026110285
+  ],
+  "frozen_utc": "2026-11-02T23:15:50.264796+00:00",
+  "protocol_sha256": "a45fba83a6d07218d92e2ba2df7ea46bc4a31fb829865fc5931c8f4eedba91d6",
+  "model_sha256": {
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I405_S\\2026110284\\flow_per_lane.txt": "bec496b9310f367140adebe69021f595762d16e1ba5d5c50bc3b606df46f59d1",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I405_S\\2026110284\\speed.txt": "f5ebbf1d06ac08ca21df66032b58d77c69d2d46930002a7ba79dc9f892c0670d",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I405_S\\2026110285\\flow_per_lane.txt": "5478de88abe9029089b0bf13f88fa2a255c629b5b27993e3abd2cccc9798f2f5",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I405_S\\2026110285\\speed.txt": "20136c0a75a54693035385d728f5e312164783ae83fa5d61f27452caaa4f6804",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I210_W\\2026110284\\flow_per_lane.txt": "a7113d9a3140521a15cf58a88ab571b35f12fdfe434191896f1d5788855db2fe",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I210_W\\2026110284\\speed.txt": "ce792aabdb276314e587077eabff81ee3183ce03df7dae35201008705e5f5918",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I210_W\\2026110285\\flow_per_lane.txt": "e4fe612e0ae71221701b9719d6364abc614415f7dc89ff625112025ea771411e",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I210_W\\2026110285\\speed.txt": "9b518bd543bb5fe027b5a0c0358ade020a9d17dbecd6c597e9af2ca2f8a609a3",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I10_W\\2026110284\\flow_per_lane.txt": "7c4b41ff0b2d46abbcbeb85ba8784dad4c9f80b35fcb55cefed5c8b9ebf196d7",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I10_W\\2026110284\\speed.txt": "3d8b7c4e9860aa12fee24e28429a6179997d05cf345acb7192d1e5119e052f90",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I10_W\\2026110285\\flow_per_lane.txt": "bb4f2e36ca924b2096053ac43af314d26db09876e90278c37d11253f35ec494e",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D7_I10_W\\2026110285\\speed.txt": "5f77919009a62adc2e76b330a1c5980074fe34d782dc4e3e6c0e4cf71e71db67",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I5_N\\2026110284\\flow_per_lane.txt": "0b77b07a44e4ae9756e00c8c02cde78934278bc087ce45bc4ef3af1c64f33fdf",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I5_N\\2026110284\\speed.txt": "03b72b4ebfd3cfe939aba3ec15ee7ea8a2992483157d110bd86e60dd83202565",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I5_N\\2026110285\\flow_per_lane.txt": "d4519ac04ee5eed036dd1584bab9b64607cb4fb61c43e770f7207108decff0a7",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I5_N\\2026110285\\speed.txt": "263a4bbeb09318e4266f0eb7474842690cc77a1c98a5f96770b0864a85fb28d0",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_S\\2026110284\\flow_per_lane.txt": "4af4eeaf5bfc916d97c465702ea6522c09863096140be99c5a2782ff812e71f5",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_S\\2026110284\\speed.txt": "81594e5354a774f732f36301915d4952cf8123c6419c8645ff7f1993d8a8f372",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_S\\2026110285\\flow_per_lane.txt": "dfd56c9887f37866c938f02232aaf6bab21cc1f41134dd4384c970f675e79c68",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_S\\2026110285\\speed.txt": "dac05c453171eb083010b23e5b671ccab1ed58bb60ea8e092da59661d7745cec",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_N\\2026110284\\flow_per_lane.txt": "12c8aa01b19d0b4587b930d20953249f93294b7c0c178015c6c0ac9a70eb478b",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_N\\2026110284\\speed.txt": "80408bbae22c45969a372c28e328e792d2f3d9f0fc49f9de3914cd9654e128bb",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_N\\2026110285\\flow_per_lane.txt": "48678cbbac92666a6af51ebe0b1c32929c1cf108a73aa288649de7b3c7b1457d",
+    "outputs\\daytime\\severe_seed_ensemble\\models\\D12_I405_N\\2026110285\\speed.txt": "ad238f97881531fd9a28f75d9ef745e34b9b769155085542e0fa7ca0c9d8a71b"
+  },
+  "selection": "None; inherited gamma unchanged"
+}

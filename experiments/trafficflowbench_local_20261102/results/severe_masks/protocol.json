@@ -1,0 +1,73 @@
+{
+  "registered_utc": "2026-11-02T21:37:00.049737+00:00",
+  "hypothesis": "Expanded-label residual calibration may fail under station outages or longer gaps despite original-mask state improvements.",
+  "seed": 2026110272,
+  "plans": {
+    "D12_I405_N": [
+      "2031-02-09",
+      "2031-02-13",
+      "2031-02-18"
+    ],
+    "D12_I405_S": [
+      "2031-02-10",
+      "2031-02-20",
+      "2031-02-24"
+    ],
+    "D12_I5_N": [
+      "2031-02-10",
+      "2031-02-16",
+      "2031-02-17"
+    ],
+    "D12_I5_S": [
+      "2031-02-13",
+      "2031-02-15",
+      "2031-02-18"
+    ],
+    "D7_I10_E": [
+      "2031-02-10",
+      "2031-02-17",
+      "2031-02-20"
+    ],
+    "D7_I10_W": [
+      "2031-02-13",
+      "2031-02-16",
+      "2031-02-21"
+    ],
+    "D7_I210_E": [
+      "2031-02-05",
+      "2031-02-16",
+      "2031-02-20"
+    ],
+    "D7_I210_W": [
+      "2031-02-11",
+      "2031-02-16",
+      "2031-02-18"
+    ],
+    "D7_I405_N": [
+      "2031-02-11",
+      "2031-02-14",
+      "2031-02-21"
+    ],
+    "D7_I405_S": [
+      "2031-02-13",
+      "2031-02-17",
+      "2031-02-18"
+    ]
+  },
+  "conditions": {
+    "station15": "Random ceil15% of stations, hide every eligible currently observed cell all day",
+    "block30": "Hide about30% of currently observed eligible cells per station using randomly located two-hour blocks"
+  },
+  "variants": [
+    "baseline",
+    "context",
+    "multimonth",
+    "refit49"
+  ],
+  "selection": "None; all policies frozen, all roads retained, no per-road tuning after this evaluation",
+  "source_sha256": "01ab83aab3c8ac3990ce0a76d97a54c87bcb18f01083ea1a7ca8d68ec12effeb",
+  "generator_sha256": "7d84747eb6d3b8bd10725ac4fb91d4c048a0c2747a4cb1004be12ac22ed71f09",
+  "parent_policy_sha256": "f7b319ae30aabd9099b09fc84bf18e2b928096e935183683539bd7045985c2b3",
+  "refit_policy_sha256": "284e32df7976ccfda7e167295f6bc6b42771edc49a3c291413a3c00a723b5c00",
+  "scope": "Artificial sensitivity on exposed public train, no official Task3/LWR or whole-system blind claim. Task4 baseline frozen, no uploads."
+}

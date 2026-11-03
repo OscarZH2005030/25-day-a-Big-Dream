@@ -1,0 +1,92 @@
+{
+  "policy": {
+    "D12_I405_N": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D12_I405_S": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D12_I5_N": {
+      "recipe": "context",
+      "alpha": 1.0,
+      "features": 28
+    },
+    "D12_I5_S": {
+      "recipe": "context",
+      "alpha": 1.0,
+      "features": 28
+    },
+    "D7_I10_E": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D7_I10_W": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D7_I210_E": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D7_I210_W": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D7_I405_N": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    },
+    "D7_I405_S": {
+      "recipe": "december_january",
+      "alpha": 1.0,
+      "features": 61
+    }
+  },
+  "official_score": null,
+  "development_scope": "Exposed February evaluation; not official or whole-system blind",
+  "training_dates": [
+    "2030-12-14",
+    "2030-12-15",
+    "2030-12-16",
+    "2030-12-17",
+    "2030-12-18",
+    "2030-12-19",
+    "2030-12-20",
+    "2030-12-21",
+    "2030-12-22",
+    "2030-12-23",
+    "2030-12-24",
+    "2030-12-25",
+    "2030-12-26",
+    "2030-12-27",
+    "2030-12-28",
+    "2030-12-29",
+    "2030-12-30",
+    "2030-12-31",
+    "2031-01-05",
+    "2031-01-06",
+    "2031-01-07",
+    "2031-01-08",
+    "2031-01-09",
+    "2031-01-10",
+    "2031-01-11",
+    "2031-01-12",
+    "2031-01-13",
+    "2031-01-14",
+    "2031-01-15",
+    "2031-01-16",
+    "2031-01-17",
+    "2031-01-18",
+    "2031-01-19",
+    "2031-01-20"
+  ]
+}

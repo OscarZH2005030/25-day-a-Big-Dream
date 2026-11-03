@@ -1,0 +1,35 @@
+[
+  {
+    "panel": "D7_I10_E",
+    "condition": "block10",
+    "variant": "baseline",
+    "S_state": 0.9449646866970597,
+    "speed_RMSE": 1.3332486395327259,
+    "flow_per_lane_RMSE": 34.22236002917419,
+    "station_target_deltaN_RMSE": 1.076748235659042,
+    "target_rows": 13546,
+    "adjacent_target_pairs": 6157
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "block10",
+    "variant": "context",
+    "S_state": 0.9465392701900157,
+    "speed_RMSE": 1.2793954607272697,
+    "flow_per_lane_RMSE": 33.68581024992415,
+    "station_target_deltaN_RMSE": 0.9895812570132643,
+    "target_rows": 13546,
+    "adjacent_target_pairs": 6157
+  },
+  {
+    "panel": "D7_I10_E",
+    "condition": "block10",
+    "variant": "late55",
+    "S_state": 0.9470296862215646,
+    "speed_RMSE": 1.2685949479278296,
+    "flow_per_lane_RMSE": 33.35042987373162,
+    "station_target_deltaN_RMSE": 0.9674899359482204,
+    "target_rows": 13546,
+    "adjacent_target_pairs": 6157
+  }
+]

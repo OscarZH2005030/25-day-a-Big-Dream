@@ -1,0 +1,154 @@
+{
+  "D12_I405_N": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      999,
+      999
+    ],
+    "metrics": {
+      "S_state": 0.9650798085755113,
+      "speed_RMSE": 0.8311389320254071,
+      "flow_per_lane_RMSE": 22.131639773139025,
+      "station_target_deltaN_RMSE": 1.5031697194673415,
+      "target_rows": 70441,
+      "adjacent_target_pairs": 20328
+    }
+  },
+  "D12_I405_S": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      1000
+    ],
+    "metrics": {
+      "S_state": 0.9323254237357896,
+      "speed_RMSE": 1.5899796675050695,
+      "flow_per_lane_RMSE": 43.47523753839253,
+      "station_target_deltaN_RMSE": 4.182494135994772,
+      "target_rows": 42529,
+      "adjacent_target_pairs": 14475
+    }
+  },
+  "D12_I5_N": {
+    "recipe": "context",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9564021198751155,
+      "speed_RMSE": 1.0531551569484645,
+      "flow_per_lane_RMSE": 27.19529834973605,
+      "station_target_deltaN_RMSE": 1.2260022024481485,
+      "target_rows": 210059,
+      "adjacent_target_pairs": 61566
+    }
+  },
+  "D12_I5_S": {
+    "recipe": "context",
+    "alpha": 1.0,
+    "metrics": {
+      "S_state": 0.9397740143656822,
+      "speed_RMSE": 1.6992581805906088,
+      "flow_per_lane_RMSE": 30.68088121768784,
+      "station_target_deltaN_RMSE": 4.067616034154956,
+      "target_rows": 92205,
+      "adjacent_target_pairs": 31178
+    }
+  },
+  "D7_I10_E": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      999,
+      1000
+    ],
+    "metrics": {
+      "S_state": 0.9460648358081792,
+      "speed_RMSE": 1.349148607109267,
+      "flow_per_lane_RMSE": 32.339418623818226,
+      "station_target_deltaN_RMSE": 1.2607504068402957,
+      "target_rows": 115427,
+      "adjacent_target_pairs": 33557
+    }
+  },
+  "D7_I10_W": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      1000
+    ],
+    "metrics": {
+      "S_state": 0.9528133470381376,
+      "speed_RMSE": 1.204483127009757,
+      "flow_per_lane_RMSE": 27.612805328415373,
+      "station_target_deltaN_RMSE": 1.030101858545301,
+      "target_rows": 94696,
+      "adjacent_target_pairs": 29512
+    }
+  },
+  "D7_I210_E": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      999
+    ],
+    "metrics": {
+      "S_state": 0.9436581049790624,
+      "speed_RMSE": 1.5217297282114872,
+      "flow_per_lane_RMSE": 30.61634724987333,
+      "station_target_deltaN_RMSE": 0.9472139752312092,
+      "target_rows": 294049,
+      "adjacent_target_pairs": 100703
+    }
+  },
+  "D7_I210_W": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      993
+    ],
+    "metrics": {
+      "S_state": 0.926558264942873,
+      "speed_RMSE": 2.270911150016613,
+      "flow_per_lane_RMSE": 31.81311419578456,
+      "station_target_deltaN_RMSE": 2.369760002145668,
+      "target_rows": 65845,
+      "adjacent_target_pairs": 19189
+    }
+  },
+  "D7_I405_N": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      1000,
+      1000
+    ],
+    "metrics": {
+      "S_state": 0.9363911031575046,
+      "speed_RMSE": 1.6180693384906208,
+      "flow_per_lane_RMSE": 37.38078147534529,
+      "station_target_deltaN_RMSE": 1.5947482621608744,
+      "target_rows": 278273,
+      "adjacent_target_pairs": 80086
+    }
+  },
+  "D7_I405_S": {
+    "recipe": "december_january",
+    "alpha": 1.0,
+    "iterations": [
+      997,
+      1000
+    ],
+    "metrics": {
+      "S_state": 0.9378563986444703,
+      "speed_RMSE": 1.7312304128166278,
+      "flow_per_lane_RMSE": 32.28133622437909,
+      "station_target_deltaN_RMSE": 1.4032708697730507,
+      "target_rows": 74030,
+      "adjacent_target_pairs": 17943
+    }
+  }
+}

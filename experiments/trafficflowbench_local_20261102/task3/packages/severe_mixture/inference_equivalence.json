@@ -1,0 +1,82 @@
+[
+  {
+    "panel": "D12_I405_N",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 9659,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D12_I405_S",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 4817,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D12_I5_N",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 16985,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D12_I5_S",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 4301,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D7_I10_E",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 9545,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D7_I10_W",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 7074,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D7_I210_E",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 32719,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D7_I210_W",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 8807,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D7_I405_N",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 38753,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  },
+  {
+    "panel": "D7_I405_S",
+    "max_absolute_delta": 9.094947017729282e-13,
+    "rows": 4799,
+    "extra_truth_columns_ignored": true,
+    "duplicate_keys_rejected": true,
+    "row_order_invariant": true
+  }
+]
