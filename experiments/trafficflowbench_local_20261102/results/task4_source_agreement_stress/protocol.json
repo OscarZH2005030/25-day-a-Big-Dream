@@ -1,0 +1,24 @@
+{
+  "registered_utc": "2026-11-03T13:52:00.445189+00:00",
+  "seed": 2026110349,
+  "cases": 80,
+  "families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noises": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "target_tv": 0.14,
+  "relative_l1_cap": 0.002,
+  "objective": "Compare mean source residual with signed minimum agreement (zero on sign disagreement) before the same 95th-percentile clipping and re-projection. Both use the same path and global caps. Match realized L1 movement by rescaling both directions to the smaller movement.",
+  "path_cap": 0.05,
+  "constraints": "Hold baseline count predictions, gross margins, original-prior orthant and L1 distance fixed. Same global movement cap for both objectives.",
+  "scope": "Fresh artificial seed on previously studied support. Source interaction is heuristic. No hidden label or deployed candidate.",
+  "source_sha256": "a6eabe4216bbbb6525b3005a013643c943cbf1743e59427a89775ea67e4177c2",
+  "cap_source_sha256": "5bc80c617e9073b71590384a0e37c42f1fa15e69f97786b9331f4f0d4fd90250"
+}

@@ -1,0 +1,13 @@
+noise,method,cases,mean_od_delta,harms,mean_movement,mean_moved_paths
+independent_lognormal,agreement_source,20,0.0006307215731177762,2,0.0020000000000001406,132.95
+independent_lognormal,baseline,20,0.0,0,0.0,0.0
+independent_lognormal,mean_source,20,0.0006226454029390705,2,0.0020000000000001406,120.55
+independent_positive_background,agreement_source,20,0.0007580586764184161,2,0.00200000000000024,137.85
+independent_positive_background,baseline,20,0.0,0,0.0,0.0
+independent_positive_background,mean_source,20,0.0006352573846328425,1,0.00200000000000024,132.7
+shared_lognormal,agreement_source,20,5.731172972881504e-05,10,0.0020000000000001805,146.5
+shared_lognormal,baseline,20,0.0,0,0.0,0.0
+shared_lognormal,mean_source,20,3.284124805941202e-05,10,0.0020000000000001805,141.75
+shared_positive_background,agreement_source,20,0.0005794158944251837,4,0.0020000000000001883,173.85
+shared_positive_background,baseline,20,0.0,0,0.0,0.0
+shared_positive_background,mean_source,20,0.0005146964501751783,4,0.002000000000000188,169.7
