@@ -1,0 +1,11 @@
+{
+  "registered_utc": "2026-11-03T09:15:38.212503+00:00",
+  "seed": 2026110341,
+  "groups": 20,
+  "hypothesis": "Global and marginal trip-span summaries constrain some OD pair directions, while leaving count-compatible ambiguity.",
+  "measurements": "Zone-index span, not measured distance. Compare existing count and margin rows with total span, global span histogram, and histogram plus origin/destination span first moments.",
+  "witness": "One fixed random linear objective per panel and split, shared by both new measurement sets. Nonnegative flows in baseline prior orthant, fixed counts, margins and original-prior L1, plus hypothetical summaries fixed at baseline.",
+  "scope": "Measurement design and real-network feasible counterexamples. No extra measurements are available or imposed on an official candidate.",
+  "source_sha256": "5a9a9d445208d77e4b2d470face775a7c1fd70f7036ee805b62feb2c7fb90d6d",
+  "previous_witness_table_sha256": "3821bddc52cd1e08ce381f7bbbfb7edaea543693c0f8fd7c96ba0ceb2cbecc1b"
+}

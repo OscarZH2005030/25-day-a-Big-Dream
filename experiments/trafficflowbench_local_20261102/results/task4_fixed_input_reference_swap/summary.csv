@@ -1,0 +1,5 @@
+noise,method,cases,mean_original,mean_alternate,positive_to_negative,negative_to_positive
+shared_lognormal,clipped005,20,0.006919797652512499,0.000902536678539606,0,0
+shared_lognormal,raw005,20,0.002198573442015006,0.0008513896190066817,0,0
+shared_positive_background,clipped005,20,0.002188828419761657,0.00039140509805170586,1,5
+shared_positive_background,raw005,20,-0.0005199631921439351,0.0006814825934585266,2,8

@@ -50,6 +50,7 @@ def main():
  names.extend(['task4_source_clip_extended'])
  names.extend(['task4_source_clip_replaced'])
  names.extend(['task4_count_invariant_drift'])
+ names.extend(['task4_extra_measurement_audit','task4_fixed_input_reference_swap'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

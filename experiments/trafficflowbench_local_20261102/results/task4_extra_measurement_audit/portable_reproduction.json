@@ -1,0 +1,7 @@
+{
+  "matching_witness_hashes": 40,
+  "exact_result_tables": true,
+  "scope": "Portable anchors staged from the frozen prediction CSV, so anchor provenance hash differs.",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "entrypoint_sha256": "5b7da2fb52731a341b3b6982be6c99ec79d21c88f57076371dc33cd259e447e5"
+}

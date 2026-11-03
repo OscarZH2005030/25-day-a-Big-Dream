@@ -1,0 +1,7 @@
+{
+  "rank_checks": 80,
+  "witnesses": 40,
+  "max_constraint_error": 1.089046630428624e-13,
+  "span_identity": "Total span is destination weighted total minus origin weighted total.",
+  "source_sha256": "8851470a0e7f6987b78517aeca76347ac42f2aa40d91ad6eb7f00c66eeb86f4b"
+}
