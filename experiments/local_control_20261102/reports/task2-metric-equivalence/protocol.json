@@ -1,0 +1,6 @@
+{
+  "method": "Repackage cached public-speed proxy targets and fixed strong predictions into released scorer schema, compare every window score; explicit family/panel/condition aggregation.",
+  "warning": "Only arithmetic equivalence. True queue_targets.parquet withheld, so this cannot certify proxy labels or official hidden scores.",
+  "scorer_sha256": "0faff70ca6bbff8a12b804b7c4d7148abaede4c87aa8dfb26c3f083e18853849",
+  "no_upload": true
+}

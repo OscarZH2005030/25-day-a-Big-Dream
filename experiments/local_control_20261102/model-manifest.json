@@ -1,0 +1,34 @@
+{
+  "D7_I210_W": {
+    "path": "models/D7_I210_W.pt",
+    "sha256": "0cbfcb50ca38ba08261a02522118e449736ce8fddb947b43755d7397acbd6bcf"
+  },
+  "D7_I405_S": {
+    "path": "models/D7_I405_S.pt",
+    "sha256": "c4896d367c7e4618792846201d958d1c01a5c22c693a5ff6d547bd081dd36bb7"
+  },
+  "D12_I405_N": {
+    "path": "models/D12_I405_N.pt",
+    "sha256": "f4d92891d83d1e817e64057fc44a583252c5e46129939344ece87a21eeb76dc1"
+  },
+  "D12_I5_N": {
+    "path": "models/D12_I5_N.pt",
+    "sha256": "c1d3949844b9ee2f09262999083da8946305cadfd35173d9bdafe170764254a7"
+  },
+  "D12_I5_S": {
+    "path": "models/D12_I5_S.pt",
+    "sha256": "8a8521a222310d4fd89a81782457f823d25cfc592173f4f3ddcde05d2ef0a501"
+  },
+  "D7_I10_E": {
+    "path": "models/D7_I10_E.pt",
+    "sha256": "66648ef56f8e5d719f37bc87535481f60711d05adcae6fa8e70f306354edf2e6"
+  },
+  "D7_I10_W": {
+    "path": "models/D7_I10_W.pt",
+    "sha256": "6ce1a125184d6bbc4403a356d48beaf9d9a0ba2c0ee9a2946612fa9be8ff58d7"
+  },
+  "D7_I405_N": {
+    "path": "models/D7_I405_N.pt",
+    "sha256": "f39cbc1e209fe6f61c0b628d7141665cd4c2689b0d90badfad6757b2edfd6009"
+  }
+}

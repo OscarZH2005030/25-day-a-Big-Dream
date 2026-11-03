@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "road": "D7_I210_W",
+      "output": "D7_I210_W_2031-03-01.csv",
+      "rows": 7700,
+      "sha256": "da7e6f96399b93b564f4f09f48ad4ea2e73a30779211a2391c3cd368d4deee64",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D7_I405_S",
+      "output": "D7_I405_S_2031-03-01.csv",
+      "rows": 4445,
+      "sha256": "18a5c34676b6bec4c57441c6f4c9517964b8fa8d05b00bb469e4377450c7ef73",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D12_I405_N",
+      "output": "D12_I405_N_2031-03-01.csv",
+      "rows": 5884,
+      "sha256": "b88d6c213e6c1f9ee0ae6d900b3d738db673fbc40b0791168e54b55951236c0d",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D12_I5_N",
+      "output": "D12_I5_N_2031-03-01.csv",
+      "rows": 10402,
+      "sha256": "f95d07a0b420d1eea3d86c760a05e50d519f0127a921d38d0ad91a6fd16c2e55",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D12_I5_S",
+      "output": "D12_I5_S_2031-03-01.csv",
+      "rows": 5960,
+      "sha256": "52000274ce0de1fab426f703a2b502e2eea73d656e9f20a2c3625bed91ada078",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D7_I10_E",
+      "output": "D7_I10_E_2031-03-01.csv",
+      "rows": 14741,
+      "sha256": "4173b4acbac07cc5ee4a7e4761da889e872c3a5222bbdc5168eb3166e43d4253",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D7_I10_W",
+      "output": "D7_I10_W_2031-03-01.csv",
+      "rows": 6760,
+      "sha256": "7126163dc387c0fbc97a95fa2169a7cabcae18b330ee48065d39f235cbdad7e0",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    },
+    {
+      "road": "D7_I405_N",
+      "output": "D7_I405_N_2031-03-01.csv",
+      "rows": 21559,
+      "sha256": "3f2a601865077feb5b7090c9783e7bbbc2be2ea30bab858162425f2641af6168",
+      "reference_checked": true,
+      "no_truth_reads": true,
+      "official_score": null
+    }
+  ],
+  "reference": "Existing full candidate daily cache, keys exact and prediction tolerance rtol1e-6 atol1e-4",
+  "warning": "Only one date per changed road; complete full candidate checks separate. No hidden score."
+}

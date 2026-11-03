@@ -1,0 +1,23 @@
+{
+  "protocol": {
+    "method": "Paired date-block bootstrap, whole road/date concentration audit; 500 resamples seed20261102. No model selection or per-road routing from this report.",
+    "caveat": "Conditional on developed55 dates and fixed10 roads; not independent hidden-test uncertainty. Physics is truth-anchored analogue, not official."
+  },
+  "delta_state": 0.0001200393866235272,
+  "delta_physics_analogue": 0.0008307172580560573,
+  "paired_date_bootstrap_95percent": [
+    [
+      7.496729770099797e-05,
+      0.0007565411713381431
+    ],
+    [
+      0.0001703506205196214,
+      0.0009109557633680155
+    ]
+  ],
+  "positive_blocks": {
+    "panel": 6,
+    "date": 41
+  },
+  "official_score": null
+}

@@ -1,0 +1,7 @@
+{
+  "submission_repository_base": "e254d55acdb94261d03d2ea10a79c983f1e15d55",
+  "selection": "168trainingdays+22internalcheckpointdays,initialcheckpointeligible; fixedall8whole-roadcombination,55developeddays report,no perpoint routing.",
+  "official_score": null,
+  "no_kaggle_submission": true,
+  "full_csv_in_git": false
+}
