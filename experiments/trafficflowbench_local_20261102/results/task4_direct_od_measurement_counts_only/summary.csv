@@ -1,0 +1,9 @@
+weight_source,method,rank_gain,remaining_private_trace_ratio,shared_cells
+pooled,greedy,16.0,0.8669475204601831,7.8
+pooled,top_prior,16.0,0.8669475204601831,7.8
+private,greedy,16.0,0.820657672374483,16.0
+private,top_prior,16.0,0.820657672374483,16.0
+train,greedy,16.0,0.8704809040185613,7.8
+train,top_prior,16.0,0.8704809040185613,7.8
+validation,greedy,16.0,0.8826522275781379,6.8
+validation,top_prior,16.0,0.8826522275781379,6.8

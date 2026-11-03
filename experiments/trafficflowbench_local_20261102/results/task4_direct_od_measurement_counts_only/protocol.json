@@ -1,0 +1,7 @@
+{
+  "code_sha256": "a9fd2a34892cd32ce5b5a3347047cffc2c0df98b4e7ae11535e213d52898e27b",
+  "split": "train and validation → private",
+  "budget": 16,
+  "design": "Compare normalized train-only and validation-only weights with their fixed 50:50 average, scoring on private weights at identical released private count geometry. Private weights are an oracle comparator.",
+  "scope": "Hypothetical direct measurements conditional on released count rows only. No gross margins assumed. Private weak prior is a public input."
+}
