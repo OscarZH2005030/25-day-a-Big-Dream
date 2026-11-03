@@ -1,0 +1,32 @@
+{
+  "configs_in_fixed_October_order": [
+    {
+      "name": "dense_100",
+      "alpha": 1.0,
+      "role": "primary"
+    },
+    {
+      "name": "dense_50",
+      "alpha": 0.5,
+      "role": "secondary"
+    }
+  ],
+  "fit": "June-November actual-origin data, same v29 capacity/features/weights",
+  "data_parts": [
+    "outputs\\dense_ongoing_v28_20261102",
+    "outputs\\dense_ongoing_final_data_v30_20261102"
+  ],
+  "origin_shifts_minutes": [
+    -10,
+    -5,
+    5,
+    10
+  ],
+  "correlated_adjacent_origins_not_independent_dates": true,
+  "teacher": "Final frozen900+old100 logits; in-sample/nearby origin teacher, not OOF",
+  "model": "100trees15leafdepth4min100L250lr.03 maxbin127 featurefraction1 bag.9; original3seeds; 305columns=274+30NaN+horizon",
+  "January": "Only original smooth threshold family: intercept .05:.025:.75; slope 0,+/-.05,+/-.1,+/-.15; maxIoU subjectFP/FN<=1.05 R127 and perroadloss<=.03, otherwise diagnostic max",
+  "February": "Both fixed candidates after full model/code/threshold freeze; same184/210ongoing windows; onset unchanged for each population; no reselection",
+  "production_onset_and_default_unchanged": true,
+  "Kaggle_upload": false
+}

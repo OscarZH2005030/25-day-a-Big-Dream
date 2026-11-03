@@ -1,0 +1,45 @@
+{
+  "primary": "dense_100",
+  "seeds": [
+    20261030,
+    20261031,
+    20261101
+  ],
+  "candidates": {
+    "dense_100": {
+      "alpha": 1.0,
+      "thresholds": [
+        0.45,
+        0.43000000000000005,
+        0.41000000000000003,
+        0.39,
+        0.37,
+        0.35000000000000003
+      ],
+      "role": "primary"
+    },
+    "dense_50": {
+      "alpha": 0.5,
+      "thresholds": [
+        0.35,
+        0.36,
+        0.37,
+        0.38,
+        0.39,
+        0.4
+      ],
+      "role": "secondary"
+    }
+  },
+  "onset": "unchanged early_full",
+  "onset_thresholds": [
+    0.5,
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.55
+  ],
+  "production_default_unchanged": true,
+  "official_score": null
+}

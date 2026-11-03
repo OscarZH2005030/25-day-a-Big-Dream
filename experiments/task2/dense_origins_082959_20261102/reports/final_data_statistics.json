@@ -1,0 +1,50 @@
+{
+  "D7_I10_E": {
+    "original_windows": 336,
+    "new_origins": 1052,
+    "rows": 105532,
+    "rejected_nonongoing": 52
+  },
+  "D7_I10_W": {
+    "original_windows": 342,
+    "new_origins": 464,
+    "rows": 56777,
+    "rejected_nonongoing": 49
+  },
+  "D7_I210_E": {
+    "original_windows": 336,
+    "new_origins": 1010,
+    "rows": 92062,
+    "rejected_nonongoing": 43
+  },
+  "D7_I210_W": {
+    "original_windows": 336,
+    "new_origins": 1142,
+    "rows": 106800,
+    "rejected_nonongoing": 48
+  },
+  "D7_I405_N": {
+    "original_windows": 336,
+    "new_origins": 1094,
+    "rows": 171932,
+    "rejected_nonongoing": 48
+  },
+  "D7_I405_S": {
+    "original_windows": 336,
+    "new_origins": 1035,
+    "rows": 109380,
+    "rejected_nonongoing": 55
+  },
+  "D12_I5_N": {
+    "original_windows": 336,
+    "new_origins": 989,
+    "rows": 138623,
+    "rejected_nonongoing": 60
+  },
+  "D12_I5_S": {
+    "original_windows": 336,
+    "new_origins": 1005,
+    "rows": 106017,
+    "rejected_nonongoing": 49
+  }
+}

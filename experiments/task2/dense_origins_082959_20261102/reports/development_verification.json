@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "all_frozen_sources_unchanged": true,
+  "actual_new_origin_training": true,
+  "June_September_only_fit": true,
+  "expanded_October_only_selection": true,
+  "expanded_November_no_reselection": true,
+  "no_January_February": true,
+  "production_onset_and_default_unchanged": true,
+  "independent_raw_acceptance_pending": true,
+  "Kaggle_upload": false
+}

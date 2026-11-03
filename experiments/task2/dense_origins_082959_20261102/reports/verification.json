@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "full_parent_chain_and_new_models_saved_before_February": true,
+  "June_November_only_fit": true,
+  "January_only_threshold": true,
+  "fixed_October_ranking_no_reselection": true,
+  "January_portable_parity": true,
+  "incumbent_probability_and_score_parity": true,
+  "production_onset_and_default_unchanged": true,
+  "independent_raw_acceptance_pending": true,
+  "official_score": null,
+  "Kaggle_upload": false
+}

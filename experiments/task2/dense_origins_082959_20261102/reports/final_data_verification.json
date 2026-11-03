@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "panel": "D7_I10_E",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "all_original_X_y_m_exact": true,
+      "new_input_future_mutation_invariant": true,
+      "old_priors_not_updated_from_augmented_targets": true
+    }
+  ],
+  "October_November_only": true,
+  "June_September_readonly_reuse": true,
+  "new_labels_actual_observations": true,
+  "no_January_February": true,
+  "production_unchanged": true,
+  "Kaggle_upload": false
+}
