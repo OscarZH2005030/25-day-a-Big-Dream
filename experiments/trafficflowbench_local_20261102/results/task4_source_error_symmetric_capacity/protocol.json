@@ -1,0 +1,8 @@
+{
+  "seed": 2026110352,
+  "source_sha256": "3fed6927c6c7b1e4453cb47205e4730feb3332823059921655bd20f1894e3172",
+  "code_sha256": "1b86e7438baa52b106f6b509a18e2c3cf6a0ca2540f848bd1012dc4dc2c977c6",
+  "hypothesis": "Positive source error alignment can change OD reliability even at equal perturbation amplitude.",
+  "design": "Build a fresh exchange from disjoint four-cell cycles using symmetric headroom. Cap source movement at 10% of the smaller prior total. Compare (+,+), (-,-), (+,-), and (-,+) at equal realized target movement for both rules and the clean controls. Average antipodes within each alignment group.",
+  "scope": "Reused synthetic development cases. No hidden OD evaluation."
+}

@@ -1,0 +1,108 @@
+"""Compare aligned and opposed source errors after averaging over sign reversal."""
+import hashlib
+import msvcrt
+
+import numpy as np
+import pandas as pd
+
+import common as d
+from od_cycle_refinement import draw_cycles, path_lookup
+from audit_source_agreement_common_corruption import directions, capped_solution, inputs, basis, structure, score
+
+
+def main():
+    out = d.OUT / 'task4_source_error_symmetric_capacity'
+    source = d.OUT / 'task4_source_agreement_common_corruption/by_case.csv'
+    table = pd.read_csv(source, dtype={'seed': 'int64'}).query("version == 'clean' and rule == 'mean_source'")
+    d.save(out / 'protocol.json', dict(
+        seed=2026110352, source_sha256=d.sha(source), code_sha256=d.sha(__file__),
+        hypothesis='Positive source error alignment can change OD reliability even at equal perturbation amplitude.',
+        design='Build a fresh exchange from disjoint four-cell cycles using symmetric headroom. Cap source movement at 10% of the smaller prior total. Compare (+,+), (-,-), (+,-), and (-,+) at equal realized target movement for both rules and the clean controls. Average antipodes within each alignment group.',
+        scope='Reused synthetic development cases. No hidden OD evaluation.'))
+    rows, failures, hashes = [], [], {}
+    for panel, group in table.groupby('panel'):
+        paths, A, _, _, provenance = inputs.load(panel, 'train')
+        hashes.update(provenance)
+        origin, dest = [paths[k].str[1:].astype(int).to_numpy() for k in ['origin_zone', 'destination_zone']]
+        lookup = path_lookup(origin, dest)
+        Q, _ = basis(structure.features(paths)['span_origin_destination'])
+        for row in group.itertuples():
+            name = hashlib.sha256(row.case.encode()).hexdigest()[:16] + '.npz'
+            exchange = d.WORK / 'task4_source_agreement_common_corruption_cases' / name
+            assert d.sha(exchange) == row.artifact_sha256
+            with np.load(exchange) as z, np.load(d.WORK / 'task4_source_agreement_stress_cases' / name) as ref:
+                priors, base, truth, count = [ref[k] for k in ('priors', 'baseline', 'truth', 'counts')]
+                seed = int.from_bytes(hashlib.sha256(f'2026110352/{row.case}'.encode()).digest()[:8], 'little') % 2**63
+                rng = np.random.default_rng(seed)
+                headroom = np.min(priors[:2], axis=0)
+                remaining = .1 * np.min(priors[:2].sum(axis=1))
+                delta = np.zeros_like(base)
+                for cycle in draw_cycles(lookup, 8 * len(base), rng):
+                    cells = np.asarray(cycle)
+                    if np.any(delta[cells]):
+                        continue
+                    step = min(float(np.min(headroom[cells])), remaining / 4)
+                    if step <= 1e-12:
+                        continue
+                    step *= rng.choice([-1., 1.])
+                    delta[cells] = step * np.array([1., -1., -1., 1.])
+                    remaining -= 4 * abs(step)
+                    if remaining < 1e-10:
+                        break
+                assert np.max(np.abs(A @ delta)) < 1e-7
+                for idx in (origin, dest):
+                    assert np.max(np.abs(np.bincount(idx, weights=delta))) < 1e-7
+                alternatives = {(method, 'clean'): ref[method] for method in ('mean_source', 'agreement_source')}
+                for scenario, signs in [('aligned_plus', (1., 1.)), ('aligned_minus', (-1., -1.)), ('opposed_plus', (1., -1.)), ('opposed_minus', (-1., 1.))]:
+                    changed = priors.copy()
+                    changed[:2] += np.array(signs)[:, None] * delta
+                    assert changed.min() >= -1e-8
+                    for method, column in directions(changed, Q).items():
+                        result = capped_solution(base, priors[2], origin, dest, column)
+                        if result.success:
+                            alternatives[method, scenario] = result.x[:len(base)]
+                        else:
+                            failures.append(dict(case=row.case, method=method, scenario=scenario, error=result.message))
+                if len(alternatives) != 10:
+                    continue
+                sizes = {k: np.abs(f-base).sum() for k, f in alternatives.items()}
+                budget = min(sizes.values())
+                scores = {}
+                flows = {}
+                b = priors[2]
+                base_score = score(base, truth, b, A, count, dest)
+                for key, f in alternatives.items():
+                    flow = base + (f-base) * budget / max(sizes[key], 1e-12)
+                    od, total = score(flow, truth, b, A, count, dest)
+                    np.testing.assert_allclose(total-base_score[1], .45*(od-base_score[0]), atol=1e-10, rtol=0)
+                    scores[key] = od
+                    flows["_".join(key)] = flow
+                folder = d.WORK / "task4_source_error_symmetric_capacity_cases"
+                folder.mkdir(parents=True, exist_ok=True)
+                artifact = folder / name
+                np.savez_compressed(artifact, seed=seed, source_change=delta, **flows)
+                digest = d.sha(artifact)
+                for method in ('mean_source', 'agreement_source'):
+                    clean = scores[method, 'clean']
+                    aligned = np.mean([scores[method, 'aligned_plus'], scores[method, 'aligned_minus']])
+                    opposed = np.mean([scores[method, 'opposed_plus'], scores[method, 'opposed_minus']])
+                    rows.append(dict(case=row.case, panel=panel, noise=row.noise, seed=seed, rule=method,
+                                     source_movement=np.abs(delta).sum()/priors[:2].sum(axis=1).min(),
+                                     target_movement=budget/base.sum(), aligned_effect=aligned-clean,
+                                     opposed_effect=opposed-clean, aligned_minus_opposed=aligned-opposed, artifact_sha256=digest))
+    frame = pd.DataFrame(rows)
+    frame.to_csv(out / 'by_case.csv', index=False)
+    frame.groupby(['noise', 'rule']).agg(
+        cases=('case', 'size'), source_movement=('source_movement', 'mean'),
+        aligned=('aligned_effect', 'mean'), opposed=('opposed_effect', 'mean'),
+        alignment_contrast=('aligned_minus_opposed', 'mean')).to_csv(out / 'summary.csv')
+    d.save(out / 'failures.json', failures)
+    d.save(out / 'input_sha256.json', hashes)
+    d.state(status='stage_complete', stage='task4_source_error_symmetric_capacity_complete',
+            next='Verify achieved amplitude and compare with the prior symmetric test.')
+
+
+if __name__ == '__main__':
+    with (d.ROOT / 'work/overnight/research.lock').open('r+b') as lock:
+        msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
+        main()
