@@ -58,6 +58,7 @@ def main():
  names.extend(['task4_hypothetical_time_conditioning'])
  names.extend(['task4_hypothetical_time_monotone'])
  names.extend(['task4_released_marginal_information'])
+ names.extend(['task4_net_repair'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

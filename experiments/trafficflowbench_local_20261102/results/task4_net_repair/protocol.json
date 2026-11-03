@@ -1,0 +1,8 @@
+{
+  "registered_utc": "2026-11-03T11:25:08.548195+00:00",
+  "seed": null,
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "scope": "Released counts and frozen predictions only. Net recovery is conditional on the static exact-count interpretation. Signed corrections are diagnostics, not candidate flows.",
+  "decomposition": "Recover net targets from ordered cut differences. The minimum Euclidean-norm path repair of net imbalance r is (r_origin-r_destination)/n on the complete triangular support. Project the frozen baseline change similarly, leaving a count-null residual.",
+  "source_sha256": "5dc8eedda2e4b1935838e5e11ee28ccede22960b641ba582e8a7e92cad76472a"
+}
