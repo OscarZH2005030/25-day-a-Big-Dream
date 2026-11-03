@@ -1,0 +1,8 @@
+{
+  "scope": "Posthoc control on 40 reused artificial cases. Does not select or validate an official candidate.",
+  "design": "For the same clipped-source objective, cap each path movement at 5% of baseline flow in addition to the original global budget. Compare against its original global-only direction scaled to the same realized L1 movement.",
+  "path_cap": 0.05,
+  "global_cap": 0.002,
+  "source_sha256": "5bc80c617e9073b71590384a0e37c42f1fa15e69f97786b9331f4f0d4fd90250",
+  "case_table_sha256": "974d9048a8cf00bbe65ec1e240307698d470cce871fd08912d22da1bf842abb7"
+}

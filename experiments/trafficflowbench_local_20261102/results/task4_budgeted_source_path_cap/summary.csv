@@ -1,0 +1,5 @@
+noise,method,cases,mean_od_delta,harms,mean_moved_paths,mean_movement
+shared_lognormal,path_cap,20,-0.00013124729398281688,9,140.7,0.002000000000000209
+shared_lognormal,scaled_global,20,-0.0005263293311100648,10,20.1,0.0020000000000002095
+shared_positive_background,path_cap,20,0.0006199708273503246,3,167.4,0.002000000000000282
+shared_positive_background,scaled_global,20,0.00018434736047915902,6,32.75,0.0020000000000002646
