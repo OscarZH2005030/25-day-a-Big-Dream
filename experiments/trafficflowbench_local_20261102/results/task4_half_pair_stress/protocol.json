@@ -1,0 +1,23 @@
+{
+  "registered_utc": "2026-11-03T07:45:46.716427+00:00",
+  "seed": 2026110335,
+  "cases": 40,
+  "truth_families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noise_families": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "shape_tv": 0.14,
+  "folds": 5,
+  "blend": 0.05,
+  "hypothesis": "Half the unpenalized pair contribution may reduce shared-noise transfer while preserving some useful matching signal.",
+  "design": "Same unit-RMS pair column, folds, geometry penalty and target normalization. Compare pair penalty 1, pair penalty equal to fold partial information (half of unpenalized pair coefficient), and geometry only. All corrections blend 5% with original supplied prior.",
+  "scope": "New seed on previously studied artificial mechanisms. No tuning against hidden OD, blind-system or official score claim.",
+  "source_sha256": "fd06512b6c63cc00897bc8ff982a476c72c9ea2a3eb755af3a52481d3e210c09",
+  "tilt_source_sha256": "570d9a00a71bf059fb093578534a338adf309b8fbfd59cdcee739e233d7255fb",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee"
+}

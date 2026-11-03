@@ -1,0 +1,6 @@
+{
+  "scope": "Algebra and readback on exposed cases only.",
+  "source_sha256": "58180e42a3d57322a22c4752c5bf35d532ec68e50cd806a453a128fb9e8f43c0",
+  "case_table_sha256": "9f8d97825b6c0b101323c0feedde6254fb0c10f0b1c63d06cd8ff0c106144785",
+  "formula": "k = u.T @ (u - X ridge(X,u)). Standardized/raw coefficient contribution ratio = (k+1/rms^2)/(k+1)."
+}
