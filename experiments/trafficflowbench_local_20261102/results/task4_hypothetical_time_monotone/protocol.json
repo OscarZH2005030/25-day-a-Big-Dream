@@ -1,0 +1,6 @@
+{
+  "scope": "Posthoc estimator comparison on the same 80 artificial inverse cases. Uses hypothetical exact origin totals. No new trial, candidate or actual observation.",
+  "methods": "Raw deconvolution, nonnegative path clipping and per-origin rescaling, cumulative isotonic projection with fixed origin and zero terminal boundaries.",
+  "source_sha256": "ff86c79c67de0142927fb7291252ddf69cafd0c3f8e20b144011c6db4c85f43e",
+  "case_table_sha256": "619a16bf5e513d5efc47c79e83f75c0d4efc0b2540065066089a988d7683483b"
+}
