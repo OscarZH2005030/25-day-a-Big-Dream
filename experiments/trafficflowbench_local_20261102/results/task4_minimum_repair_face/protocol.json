@@ -1,0 +1,9 @@
+{
+  "registered_utc": "2026-11-03T11:53:54.069026+00:00",
+  "seed": 2026110345,
+  "scope": "Feasible ambiguity on the frozen-net L1 repair optimum. No hidden labels, deployment or alternative submission.",
+  "constraints": "Both gross margins of the saved optimum, nonnegativity and its minimum invisible L1 objective fixed. Use opposite fixed random linear objectives for two witnesses per group.",
+  "qualification": "Different pair allocations can retain the same diagnostic objective. Original-prior L1 and hidden metrics need not agree.",
+  "source_sha256": "26930511e22f868b257a5c8df55925e20a09a5e84aef76071316f4df8ba1539d",
+  "optimum_table_sha256": "7da1c51a79cea01c4f9b046a17a86f676837e073afb50367dda2c178091ab9e7"
+}
