@@ -1,0 +1,14 @@
+{
+  "seed": 2026110354,
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "budgets": [
+    4,
+    16
+  ],
+  "code_sha256": "0bf5c2fb833f19c134ddee01c70fcdf74dc23314e90ab8c35cffede033818107",
+  "design": "Condition a unit isotropic OD perturbation on exact public count and hypothetical gross margin rows. Compare direct OD cell measurements by uniform ordering, top weak prior and greedy weak-prior-weighted trace reduction.",
+  "scope": "Hypothetical linear measurement design. No direct OD labels are available or imposed, and isotropic variance is a diagnostic geometry."
+}
