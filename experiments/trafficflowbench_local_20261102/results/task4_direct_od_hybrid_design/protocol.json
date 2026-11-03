@@ -1,0 +1,7 @@
+{
+  "code_sha256": "0777f593a2c4aef0db1331ec58d42a0a4902bea3bbe44bc0633586a9f18ddebe",
+  "split": "private",
+  "budget": 16,
+  "design": "Preallocate 0, 4, 8, 12 or 16 selections to total weighted gain, then spend the remainder on unselected-cell gain. Use the fixed pooled historical weights and evaluate all designs with private weights.",
+  "scope": "Hypothetical exact measurements on released count geometry, isotropic diagnostic covariance."
+}
