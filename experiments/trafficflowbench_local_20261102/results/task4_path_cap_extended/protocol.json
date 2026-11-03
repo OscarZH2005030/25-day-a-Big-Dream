@@ -1,0 +1,24 @@
+{
+  "registered_utc": "2026-11-03T13:35:13.772195+00:00",
+  "seed": 2026110348,
+  "cases": 80,
+  "families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noises": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "target_tv": 0.14,
+  "relative_l1_cap": 0.002,
+  "objective": "Maximize alignment with the fixed 95th-percentile clipped and reprojected source interaction. Compare a 5% per-path cap with global-only movement rescaled to the same realized L1 length.",
+  "path_cap": 0.05,
+  "constraints": "Hold baseline count predictions, gross margins, original-prior orthant and L1 distance fixed. Same global movement cap for both objectives.",
+  "scope": "Fresh artificial seed on previously studied support. Source interaction is heuristic. No hidden label or deployed candidate.",
+  "source_sha256": "01f2fabcce7b6c4c5f6413b02a21117fed80ed9db6ca6a07d9a46db0f4f76cab",
+  "cap_source_sha256": "5bc80c617e9073b71590384a0e37c42f1fa15e69f97786b9331f4f0d4fd90250"
+}

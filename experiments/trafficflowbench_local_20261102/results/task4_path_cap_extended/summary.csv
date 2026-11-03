@@ -1,0 +1,13 @@
+noise,method,cases,mean_od_delta,harms,mean_movement,mean_moved_paths
+independent_lognormal,baseline,20,0.0,0,0.0,0.0
+independent_lognormal,matched_global,20,0.00018428398413580793,8,0.002000000000000308,16.6
+independent_lognormal,path_cap,20,0.0005735334271792403,3,0.002000000000000321,117.9
+independent_positive_background,baseline,20,0.0,0,0.0,0.0
+independent_positive_background,matched_global,20,0.0001602052495840556,7,0.002000000000000273,29.85
+independent_positive_background,path_cap,20,0.0005683051783757775,0,0.0020000000000002806,136.7
+shared_lognormal,baseline,20,0.0,0,0.0,0.0
+shared_lognormal,matched_global,20,-0.0003444000714544482,9,0.002000000000000204,16.35
+shared_lognormal,path_cap,20,-9.207208500121022e-05,10,0.002000000000000204,133.95
+shared_positive_background,baseline,20,0.0,0,0.0,0.0
+shared_positive_background,matched_global,20,-6.212616255484859e-05,8,0.002000000000000234,34.35
+shared_positive_background,path_cap,20,0.00044293396826221575,5,0.0020000000000002386,168.0

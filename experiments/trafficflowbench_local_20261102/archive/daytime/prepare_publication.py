@@ -67,6 +67,7 @@ def main():
  names.extend(['task4_equal_movement_ties'])
  names.extend(['task4_budgeted_source_direction'])
  names.extend(['task4_budgeted_source_path_cap'])
+ names.extend(['task4_path_cap_extended'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
