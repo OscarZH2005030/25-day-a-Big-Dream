@@ -1,0 +1,7 @@
+{
+  "code_sha256": "53ba703321e389340ac04c4c46d28a7901b346671956fdb9a935558263c849f8",
+  "split": "validation → private",
+  "budget": 16,
+  "design": "Freeze ordering weights on the validation prior and evaluate private-prior-weighted remaining trace. Both rules use identical private count/margin geometry; this isolates transfer of prior weights.",
+  "scope": "Hypothetical direct measurements. Private weak prior is a public input, not supervision."
+}
