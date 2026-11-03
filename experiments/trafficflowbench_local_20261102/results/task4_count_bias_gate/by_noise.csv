@@ -1,0 +1,13 @@
+noise,method,cases,enabled,mean_delta,worst_delta,harms,OD_harms
+independent_lognormal,baseline,40,40,0.0,0.0,0,0
+independent_lognormal,bias_gated005,40,40,0.011522969811721406,0.007767195701849916,0,0
+independent_lognormal,raw005,40,40,0.011522969811721406,0.007767195701849916,0,0
+independent_positive_background,baseline,40,0,0.0,0.0,0,0
+independent_positive_background,bias_gated005,40,0,0.0,0.0,0,0
+independent_positive_background,raw005,40,0,0.002636747370394624,-0.0018747999854068498,5,7
+shared_lognormal,baseline,40,38,0.0,0.0,0,0
+shared_lognormal,bias_gated005,40,38,0.0024661103285253507,0.0,0,0
+shared_lognormal,raw005,40,38,0.00252623276393496,-0.0005814536789195968,1,0
+shared_positive_background,baseline,40,0,0.0,0.0,0,0
+shared_positive_background,bias_gated005,40,0,0.0,0.0,0,0
+shared_positive_background,raw005,40,0,-0.0006230420123572444,-0.0034888306880932474,22,25

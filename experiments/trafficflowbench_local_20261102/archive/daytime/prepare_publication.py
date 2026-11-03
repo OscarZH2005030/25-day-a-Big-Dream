@@ -38,6 +38,7 @@ def main():
  names.extend(['task4_od_cycle_stress'])
  names.extend(['task4_source_scale_control'])
  names.extend(['task4_cycle_budget_check','task4_budget_dual_bounds'])
+ names.extend(['task4_count_bias_gate'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

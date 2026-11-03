@@ -1,0 +1,30 @@
+{
+  "registered_utc": "2026-11-03T05:48:57.659915+00:00",
+  "seed": 2026110329,
+  "cases": 160,
+  "truths": [
+    "short",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noises": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "strength": 0.05,
+  "threshold": 0.1,
+  "hypothesis": "Positive-background stress harms may be partly detectable from observable positive loaded-prior count bias; test a fixed rejection gate rather than relying on weak-prior CV.",
+  "gate": "Reject cross-input calibration if any of three supplied prior count totals exceed their own observed count total by more than10%. No fitting or threshold search. Rejection returns baseline exactly.",
+  "methods": [
+    "baseline",
+    "raw005",
+    "bias_gated005"
+  ],
+  "scope": "New seed in adaptively studied artificial mechanisms, moderate drift only, not whole-system blind, complete noise coverage or official OD validation.",
+  "source_sha256": "3e3cbb36bcf569c74119489740c4ebc0002a29396b66257f202d3b8af833f7ba",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee"
+}
