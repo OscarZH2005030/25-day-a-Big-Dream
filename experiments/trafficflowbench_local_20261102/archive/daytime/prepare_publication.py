@@ -34,6 +34,7 @@ def main():
  names.extend(['task4_crossmonth_pair_audit','task4_pair_marginal_controls'])
  names.extend(['task4_crossmonth_shared_noise_stress_qr'])
  names.extend(['task4_count_residual_alignment','task4_exact_pair_audit'])
+ names.extend(['task4_count_source_pair_stress'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
@@ -44,6 +45,7 @@ def main():
     if p.is_file() and p.suffix in ['.json','.csv']:copy(p,DEST/'results'/name/'failure_history'/p.name)
  for name in ['multimonth','severe_mixture']:copy(OUT/('scored_'+name+'_parts/acceptance.json'),DEST/'results/state_export_checks'/(name+'.json'))
  if (OUT/'runtime_save_repair.json').exists():copy(OUT/'runtime_save_repair.json',DEST/'results/runtime_save_repair.json')
+ if (OUT/'od_cycle_numerical_verification.json').exists():copy(OUT/'od_cycle_numerical_verification.json',DEST/'results/od_cycle_numerical_verification.json')
  for p in (ROOT/'work/daytime').glob('*.py'):copy(p,DEST/'archive/daytime'/p.name)
  for n in ['state_experiment.py','context_features.py','residual_state.py']:copy(ROOT/'work/overnight'/n,DEST/'archive/overnight'/n)
  copy(ROOT/'work/review-repo/experiments/task4/robust_odme_20261027/outputs/task4_path_flow.csv',DEST/'task4/frozen_reference_path_flow.csv')

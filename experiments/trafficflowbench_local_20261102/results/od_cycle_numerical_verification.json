@@ -1,0 +1,11 @@
+{
+  "seed": 2026110326,
+  "constructive_nonzero_cycle_exact": true,
+  "oracle_checks": 20,
+  "arbitrary_reference_invariant_checks": 60,
+  "maximum_non_OD_metric_drift": 1.1102230246251565e-16,
+  "minimum_oracle_L1_improvement": 0.6405020686485052,
+  "source_sha256": "31fac05bde57d1f62449fd43985ce72cc77973b89e443f9c4697eb945f58d116",
+  "verifier_sha256": "9315c449dddeeff8ad957febb06fe367fd3902f5bb0a2ca5da532d47ea232416",
+  "scope": "Oracle truth is used only in these numerical controls, never by research estimators. This proves feasible updates/numerics, not real OD gain or global optimality."
+}

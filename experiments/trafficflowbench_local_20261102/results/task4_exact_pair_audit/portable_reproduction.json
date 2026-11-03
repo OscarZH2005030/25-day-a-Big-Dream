@@ -1,0 +1,12 @@
+{
+  "maximum_CSV_metric_differences": {
+    "by_panel_split_fold.csv": 0.0,
+    "conditional_count_rank.csv": 0.0,
+    "fold_assignment.csv": 0.0,
+    "paired_comparison.csv": 0.0,
+    "paired_summary.csv": 0.0
+  },
+  "all_rows_availability_and_artifact_hashes_identical": true,
+  "runner_sha256": "a63ee3dca997f9fbb0fc3e6ceda6cf8b91d7f0650f02d71568e57e989ec261af",
+  "scope": "Reproduction of public development diagnostics/artificial risks, not real hidden OD validation."
+}

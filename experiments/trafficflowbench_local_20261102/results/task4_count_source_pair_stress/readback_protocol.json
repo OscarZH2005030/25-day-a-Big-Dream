@@ -1,0 +1,27 @@
+{
+  "seed": 2026110324,
+  "cases": [
+    "D7_I405_S/short/independent_lognormal/replaced_pair/0",
+    "D7_I405_S/piecewise_span/independent_positive_background/moderate_drift/0",
+    "D7_I210_E/origin_destination/independent_lognormal/moderate_drift/0",
+    "D7_I10_E/piecewise_span/shared_positive_background/replaced_pair/0",
+    "D12_I405_S/short/independent_positive_background/stable_pair/0",
+    "D12_I5_N/piecewise_span/independent_lognormal/replaced_pair/0",
+    "D12_I5_S/short/independent_positive_background/replaced_pair/0",
+    "D12_I5_S/short/independent_lognormal/stable_pair/0",
+    "D7_I10_E/piecewise_span/shared_lognormal/stable_pair/0",
+    "D7_I10_W/piecewise_span/shared_positive_background/replaced_pair/0",
+    "D12_I5_S/sparse/shared_positive_background/moderate_drift/0",
+    "D7_I10_E/sparse/shared_lognormal/stable_pair/0",
+    "D7_I405_N/sparse/shared_positive_background/replaced_pair/0",
+    "D12_I405_S/sparse/independent_lognormal/replaced_pair/0",
+    "D7_I210_W/sparse/independent_lognormal/stable_pair/0",
+    "D7_I210_W/sparse/independent_positive_background/replaced_pair/0",
+    "D12_I405_N/sparse/shared_lognormal/stable_pair/0",
+    "D7_I405_S/sparse/shared_lognormal/stable_pair/0",
+    "D12_I5_N/sparse/independent_positive_background/stable_pair/0",
+    "D7_I210_E/sparse/independent_positive_background/moderate_drift/0"
+  ],
+  "selection": "Ten sparse and ten non-sparse numerical checks selected without using scores; not scientific heldout evaluation.",
+  "source_sha256": "b34ee92892a975cd4eb99085d0ede46c7ec37c098a2cf11cdfb5566c91f6cebc"
+}

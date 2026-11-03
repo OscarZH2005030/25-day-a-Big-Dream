@@ -1,0 +1,57 @@
+{
+  "registered_utc": "2026-11-03T03:05:51.061036+00:00",
+  "seed": 2026110321,
+  "case_count": 480,
+  "replicates": 1,
+  "truths": [
+    "short",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noises": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drifts": [
+    "stable_pair",
+    "moderate_drift",
+    "replaced_pair"
+  ],
+  "methods": {
+    "baseline": [
+      "raw",
+      0.0
+    ],
+    "geometry005": [
+      "geometry",
+      0.05
+    ],
+    "raw_pair005": [
+      "raw_pair",
+      0.05
+    ],
+    "raw_pair025": [
+      "raw_pair",
+      0.25
+    ],
+    "count_pair005": [
+      "count_pair",
+      0.05
+    ],
+    "count_pair025": [
+      "count_pair",
+      0.25
+    ]
+  },
+  "hypothesis": "Shared source-prior artifacts can predict target priors without helping real OD. Source-month counts may remove some observable shared error before extracting pair affinity; compare raw and count-adjusted sources with identical target folds.",
+  "source_control": "Run baseline nonnegative lambda0.05 solver separately on each source prior and its OWN generated observed link counts; normalize and residualize estimates with span+origin/destination ridge1. Never impose equality of flows or counts across months.",
+  "observation_boundary": "Generator returns latent truth separately. Learner crossfit receives ONLY geometry, A, observed monthly counts, supplied priors and fixed fold. Source latent paths are never features.",
+  "fitting": "Same five target OD-entry folds and training-only target median for both source variants; augmented column-equilibrated QR ridge1, no hidden truth or model selection.",
+  "scope": "Fresh artificial seed in an adaptively chosen existing stress family; not system blind validation or real hidden OD scoring. No PM/ramp observations or unverified real-data constraints added. Official reference frozen; no Kaggle upload.",
+  "source_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee",
+  "generator_family_sha256": "5a62cf52fb1633f486b4dd10e07f4c15c5bda1d99a26cd10d5b0fac93514255c",
+  "QR_implementation_sha256": "7425d952c2a28a8381cdf6852de82ae66444515803dda6c302f3c8dba5019a77"
+}

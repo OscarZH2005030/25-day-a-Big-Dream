@@ -56,6 +56,7 @@ def main():
                     for name,prediction in methods.items():
                         metrics=generator.family.base.metrics(prediction,truth[2],b,A,c,dest)
                         row=dict(case=case,panel=panel,truth=truth_name,noise=noise,drift=drift,seed=seed,method=name,input_artifact_sha256=input_digest,prediction_artifact_sha256=prediction_digest,true_relative_OD_L1=float(np.abs(prediction-truth[2]).sum()/max(truth[2].sum(),1e-12)),**metrics,**diagnostics.get(name,{}))
+                        row.setdefault('relative_L1_movement',float(np.abs(prediction-base).sum()/max(base.sum(),1e-12)))
                         if name.startswith('cycle'):
                             count_drift=float(np.max(np.abs(A@(prediction-base))));origin_drift=float(np.max(np.abs(np.bincount(origin,weights=prediction-base))));dest_drift=float(np.max(np.abs(np.bincount(dest,weights=prediction-base))));prior_drift=abs(float(np.abs(prediction-b).sum()-np.abs(base-b).sum()));metric_drift=max(abs(metrics[k]-reference[k]) for k in ['synthetic_S_link','synthetic_S_dev','synthetic_S_attr'])
                             assert max(count_drift,origin_drift,dest_drift,prior_drift)<1e-7 and metric_drift<1e-9
