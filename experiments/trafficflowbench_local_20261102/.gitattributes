@@ -1,1 +1,4 @@
-* -text
+* -text whitespace=cr-at-eol
+**/models/** -diff
+task4/frozen_reference_path_flow.csv -diff
+archive/** whitespace=-blank-at-eol,cr-at-eol
