@@ -80,6 +80,12 @@ python task4/audit_task4.py --release-root /path/to/kaggle_public --baseline-pat
 
 协议、五个留一走廊的逐道路预测似然、所有优化启动及失败状态、协方差相似度和输入指纹在 `results/task4_covariance_audit/`；代码快照在 `archive/daytime/task4_covariance_audit.py`。后续检验弱先验的OD结构能否在不同道路和未用于拟合的先验条目上复用，不能把对弱先验的预测当真实OD验证。
 
+独立重算这轮全部训练/五折/公开评价输入，不需要旧工作区或基础模型：
+
+```sh
+python task4/audit_prior_covariance.py --release-root /path/to/kaggle_public --output /path/to/covariance_audit
+```
+
 ## 证据和复现范围
 
 - `results/`：登记协议、种子、逐道路/日期的聚合结果、数据/模型哈希、失败与导出验收。没有原始竞赛观测或逐单元训练真值。
