@@ -128,6 +128,25 @@ python task4/audit_prior_structure.py --release-root /path/to/kaggle_public --ou
 python task4/stress_span_shrink.py --release-root /path/to/kaggle_public --output /path/to/artificial_stress
 ```
 
+### 新进展与边界：可观测门控的新1440场景检验
+
+由旧720场景和弱先验留出结果形成的假设：只有两折先验跨度CV_R2>=0.2、最小值堆积<=1%时才启用固定5%平滑。阈值在新种子前冻结。新测试额外包含稀疏短途、稀疏长途、局部OD块与正背景噪声，避免只识别旧的稀疏/截断场景。噪声标定严格使用原协方差拟合的QR独立方程。
+
+| 方法 | 人工平均综合变化 | 人工最差综合变化 | 综合退步场景 | S_od退步场景 |
+|---|---:|---:|---:|---:|
+| 固定5%平滑 | +0.002837 | -0.041190 | 285/1440 | 339/1440 |
+| 可观测门控5% | +0.001027 | 0 | 0/1440 | **2/1440** |
+
+门控只在250/1440场景启用，其他场景与基准相同。两个S_od退步均为长途/相关误差，分别约-0.001459和-0.001818，虽人工综合仍改善，也不能说所有分项都不降。
+
+**这不是实际风险为零的证明。** 对真实train/validation/private公开先验，30套输入全部通过门控；它并未为真实OD配对增加任何新信息。所有公开输入仍有不可辨识性，门控无法排除同样观测对应不同真实OD。因此不替换官方Task4基准，也不动用Kaggle机会。
+
+全部场景和分项见 `results/task4_observable_gate_stress/`。可移植入口会从公开数据重建QR归一化缓存，完整1440场景复算与研究聚合指标差0：
+
+```sh
+python task4/stress_observable_gate.py --release-root /path/to/kaggle_public --output /path/to/fresh_gate_stress
+```
+
 ## 证据和复现范围
 
 - `results/`：登记协议、种子、逐道路/日期的聚合结果、数据/模型哈希、失败与导出验收。没有原始竞赛观测或逐单元训练真值。

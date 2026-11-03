@@ -1,0 +1,42 @@
+{
+  "registered_utc": "2026-11-03T01:11:56.290184+00:00",
+  "hypothesis": "Enable a fixed5% span prior blend only when supplied prior has reproducible span signal and no large floor atom; challenge with sparse-but-span-predictable and positive-background counterexamples.",
+  "seed": 2026110307,
+  "development_evidence": "Prior span holdouts and earlier720 artificial cases informed this hypothesis. This fresh stress is not whole-system blind.",
+  "gate": "Twofold weak-prior-entry CV_R2>=0.2 and fraction within1e-12*max(median,1) of minimum<=0.01; inputs are supplied prior and geometry only. Fixed alpha.05 if enabled,0 otherwise.",
+  "methods": [
+    "baseline",
+    "fixed005",
+    "gated005"
+  ],
+  "truths": [
+    "flat",
+    "short",
+    "long",
+    "origin_destination",
+    "sparse",
+    "piecewise_span",
+    "sparse_short",
+    "sparse_long",
+    "localized_OD_block"
+  ],
+  "noises": [
+    "additive_clipped",
+    "multiplicative",
+    "origin_destination",
+    "positive_background"
+  ],
+  "levels": [
+    "low",
+    "high"
+  ],
+  "replicates": 2,
+  "case_count": 1440,
+  "noise_calibration": "Use EXACT QR-selected count rows and additive component normalizer from registered train covariance audit; old full-row convention is not pooled. Other noise amplitudes unchanged; positive-background noise adds0.2/0.8 times truth mean with lognormal positive background.",
+  "selection": "No test tuning of thresholds, alpha or families. Report all failures, every harm, original and three new counterexample shapes. Baseline remains frozen.",
+  "source_sha256": "0422a1a2673bb67779c52fe5ffb3da4b297378588a3099ffa81a547e7adca64d",
+  "solver_source_sha256": "38a722233c71e1a33f796830d808b7cd5ccfd90ebe3ffda904c88e390b7ca232",
+  "feature_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "noise_model_sha256": "37d2aa657cc54ca3358a1261d786594da7e4da67d1cd724215c4873cfcbd7e31",
+  "scope": "Artificial sensitivity and public-input gate diagnostics only. No real hidden path labels, no official S_od/S_ODME claim, no Kaggle uploads."
+}

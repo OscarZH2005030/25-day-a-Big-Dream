@@ -1,0 +1,4 @@
+method,total_cases,successful_cases,paired_cases,mean_synthetic_score_delta,worst_synthetic_score_delta,harmed_cases,mean_synthetic_OD_delta,OD_harmed_cases,gate_enabled_cases
+baseline,1440,1440,1440,0.0,0.0,0,0.0,0,250
+fixed005,1440,1440,1440,0.002836807031726051,-0.04118964815463977,285,0.0036443126218345537,339,250
+gated005,1440,1440,1440,0.0010274797674232903,0.0,0,0.0018232825528709954,2,250
