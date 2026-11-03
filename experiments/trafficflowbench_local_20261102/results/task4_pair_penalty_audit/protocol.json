@@ -1,0 +1,6 @@
+{
+  "scope": "Descriptive existing cases and public inputs. No estimator or penalty selected.",
+  "source_sha256": "bf93914045cb8b2e3e7f5ad41bd2328c09875984468c2e8c8a5e3f4b3807547e",
+  "case_table_sha256": "31420255494b5b1ce846873acb903171750352488f471b5b1ed1e39ae1e816d9",
+  "identity": "For z=rms*u, penalty beta^2 on z equals theta^2/rms^2 on u with theta=rms*beta."
+}

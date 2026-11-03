@@ -43,6 +43,7 @@ def main():
  names.extend(['task4_count_shape_audit','task4_public_range_shape_stress'])
  names.extend(['task4_robust_prior_forecast'])
  names.extend(['task4_robust_prior_scale_audit','task4_sparse_cutoff_stress'])
+ names.extend(['task4_pair_penalty_audit','task4_pair_standardization_stress'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

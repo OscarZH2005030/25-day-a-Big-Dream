@@ -1,0 +1,23 @@
+{
+  "registered_utc": "2026-11-03T07:28:22.782299+00:00",
+  "seed": 2026110334,
+  "cases": 40,
+  "truth_families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noise_families": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "shape_tv": 0.14,
+  "folds": 5,
+  "blend": 0.05,
+  "hypothesis": "A unit-RMS pair column gives a comparable coefficient penalty across sparse and dense sources.",
+  "design": "Original versus training-fold unit-RMS pair column. Keep geometry, label normalization, source residualization, squared objective and ridge penalty 1 fixed. The new fit is equivalent to a penalty of training RMS squared on the raw pair coefficient.",
+  "scope": "New seed on previously studied artificial mechanisms. No tuning against hidden OD, blind-system or official score claim.",
+  "source_sha256": "b48b2955e737cc4a060ec8cdd6093a79d257bb98ff3b4ee6c086b3771c0a2f7d",
+  "tilt_source_sha256": "570d9a00a71bf059fb093578534a338adf309b8fbfd59cdcee739e233d7255fb",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee"
+}
