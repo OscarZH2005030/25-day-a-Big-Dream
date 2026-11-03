@@ -47,6 +47,7 @@ def main():
  names.extend(['task4_pair_partial_information','task4_half_pair_stress'])
  names.extend(['task4_local_pair_transfer','task4_half_pair_surrogate_audit'])
  names.extend(['task4_pair_agreement_audit','task4_source_clip_stress'])
+ names.extend(['task4_source_clip_extended'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
