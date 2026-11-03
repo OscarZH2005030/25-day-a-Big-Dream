@@ -1,0 +1,20 @@
+{
+  "registered_utc": "2026-11-03T01:31:34.740147+00:00",
+  "panel": "D12_I405_N",
+  "split": "validation",
+  "seed": 2026110309,
+  "chains": 4,
+  "burn_sweeps": 100,
+  "sample_sweeps": 400,
+  "sigma_multipliers": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "posterior": "exp(-||f-b||^2/(2 sigma^2)) on f>=0 and A*f=c. A Gaussian prior-error assumption, not proved by observed count covariance. No learned global beta is applied to the center.",
+  "moves": "Random state-independent triangle directions: long(i,k) +t, short(i,j)-t, short(j,k)-t.75% adjacent-split triples,25% uniform triples; exact truncated-normal line conditional. Counted operator must satisfy tested path concatenation identities.",
+  "convergence_gate": "Raw split-Rhat<1.05 and approximate autocorrelation ESS>=100 for total, priorL1,logdensity and20 fixed path entries. These diagnostics do not establish model correctness.",
+  "ranking": "No decision ranking unless gate passes. No hidden-reference score is evaluated; model posterior expectations, if later computed, are assumptions only.",
+  "source_sha256": "e62146d02f6511adfa2fbbda4af8943fea0abf9ea3a5f4531419ad98ef8f2314",
+  "scope": "Single-panel sampling correctness/mixing pilot, not a new official candidate or full-system validation. Frozen baseline unchanged, no Kaggle uploads."
+}

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "corridors\\D12_I405_N\\network\\path_set.csv": "7458fd1d0531ba26e5387c258a4098d1ce702f87d62ec9a35c1d055ec3fa3dce",
+    "corridors\\D12_I405_N\\network\\path_link_incidence.csv": "8414c86e957101bbb0ccc02fbe80ebc58c3e7cc75d0b6ecc45f708a6f31b84d2",
+    "task4\\D12_I405_N\\validation\\synthetic_link_counts.csv": "77908788e3906fc7cb99602f39d2dae2ab365c4b094c181bb00ba099f8ff558b",
+    "task4\\D12_I405_N\\validation\\synthetic_weak_prior.csv": "29cf8b3adf59a9a08d6eac252adda63d64f83807a1aeabaf6a58987625c61384"
+  },
+  "covariance_model_sha256": "37d2aa657cc54ca3358a1261d786594da7e4da67d1cd724215c4873cfcbd7e31",
+  "triangle_identities_checked": 12341,
+  "rank": 42,
+  "sigma_base": 111.02550696377685
+}

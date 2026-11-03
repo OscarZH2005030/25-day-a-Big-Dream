@@ -14,5 +14,7 @@
     "task4_prior_structure_transfer": 0.0
   },
   "portable_720_case_span_stress_max_metric_difference": 0.0,
-  "portable_1440_case_observable_gate_max_metric_difference": 0.0
+  "portable_1440_case_observable_gate_max_metric_difference": 0.0,
+  "portable_posterior_longrun_max_diagnostic_difference": 0.0,
+  "portable_posterior_longrun_draw_sha256_matches": true
 }

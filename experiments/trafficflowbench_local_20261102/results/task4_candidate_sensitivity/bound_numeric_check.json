@@ -1,0 +1,6 @@
+{
+  "seed": 2026110308,
+  "cases": 200,
+  "all_enclosed": true,
+  "note": "Checks implementation of inequalities, not hidden truth or statistical coverage."
+}

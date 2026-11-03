@@ -1,0 +1,19 @@
+{
+  "registered_utc": "2026-11-03T01:36:08.981342+00:00",
+  "hypothesis": "Initial100-burn/400-draw sweeps failed mixing; increase warmup and draw count at the predefined central sigma, then check every path rather than only20 entries.",
+  "panel": "D12_I405_N",
+  "split": "validation",
+  "seed": 2026110310,
+  "chains": 4,
+  "burn_sweeps": 1000,
+  "sample_sweeps": 2000,
+  "sigma_multiplier": 1.0,
+  "target": "Same count-conditioned nonnegative Gaussian centered at released weak prior; no mean or model alteration.",
+  "kernel": "Same75%adjacent/25%uniform independent triangle directions and exact truncated-normal updates as pilot.",
+  "diagnostic_gate": "Raw split-Rhat<1.05 and approximate autocorrelation ESS>=100 on every path and total/priorL1/logdensity diagnostics. No ranking if any gate fails.",
+  "selection": "Central sigma selected before results as default, not the easiest-converging sigma2. No hidden score or posterior decision ranking performed in this run.",
+  "source_sha256": "5ffd11e6aaf9d3082db3ceb247729917be20e398218378ea1d7ececb4c8a1179",
+  "sampler_source_sha256": "e62146d02f6511adfa2fbbda4af8943fea0abf9ea3a5f4531419ad98ef8f2314",
+  "initial_failure_sha256": "650a8680ad86790bcd95045a7e803d40ae2002d09441840e7683ef4e6e00d4ec",
+  "scope": "Single-panel convergence study only. Gaussian error remains an unproved assumption; better mixing cannot establish true OD recovery. Official baseline unchanged, no Kaggle upload."
+}

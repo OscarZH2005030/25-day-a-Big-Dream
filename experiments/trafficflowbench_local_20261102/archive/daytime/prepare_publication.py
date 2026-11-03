@@ -28,7 +28,7 @@ def main():
    if p.is_file() and '__pycache__' not in p.parts and p.name!='manifest.json':copy(p,target/p.relative_to(source))
   files={p.relative_to(target).as_posix():sha(p) for p in target.rglob('*') if p.is_file() and p.name!='manifest.json'}
   (target/'manifest.json').write_text(json.dumps(dict(files=files,source_manifest_sha256=sha(source/'manifest.json'),metadata_note='Local absolute source paths redacted; inference source/model bytes unchanged.'),indent=2),encoding='utf8')
- names=['fresh_masks','augmentation','augmentation_original_check','missingness_selection','temporal_regularization','accumulation_fit','multimonth_fit','refit49','severe_masks','severe_augmentation','mild_cached_transfer','severe_seed_ensemble','temporal_gap_gate','task4_information_audit','task4_count_evidence_audit','task4_demand_bounds','task4_metric_invariant','task4_covariance_audit','task4_prior_structure','task4_prior_structure_transfer','task4_span_shrink_stress','task4_observable_gate_stress']
+ names=['fresh_masks','augmentation','augmentation_original_check','missingness_selection','temporal_regularization','accumulation_fit','refit49','multimonth_fit','severe_masks','severe_augmentation','mild_cached_transfer','severe_seed_ensemble','temporal_gap_gate','task4_information_audit','task4_count_evidence_audit','task4_demand_bounds','task4_metric_invariant','task4_covariance_audit','task4_prior_structure','task4_prior_structure_transfer','task4_span_shrink_stress','task4_observable_gate_stress','task4_candidate_sensitivity','task4_gaussian_posterior_pilot','task4_posterior_longrun']
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
@@ -38,6 +38,7 @@ def main():
    for p in (folder/'failure_history').iterdir():
     if p.is_file() and p.suffix in ['.json','.csv']:copy(p,DEST/'results'/name/'failure_history'/p.name)
  for name in ['multimonth','severe_mixture']:copy(OUT/('scored_'+name+'_parts/acceptance.json'),DEST/'results/state_export_checks'/(name+'.json'))
+ if (OUT/'runtime_save_repair.json').exists():copy(OUT/'runtime_save_repair.json',DEST/'results/runtime_save_repair.json')
  for p in (ROOT/'work/daytime').glob('*.py'):copy(p,DEST/'archive/daytime'/p.name)
  for n in ['state_experiment.py','context_features.py','residual_state.py']:copy(ROOT/'work/overnight'/n,DEST/'archive/overnight'/n)
  copy(ROOT/'work/review-repo/experiments/task4/robust_odme_20261027/outputs/task4_path_flow.csv',DEST/'task4/frozen_reference_path_flow.csv')

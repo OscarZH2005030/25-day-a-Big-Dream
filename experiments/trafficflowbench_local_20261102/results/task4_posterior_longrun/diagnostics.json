@@ -1,0 +1,131 @@
+{
+  "sigma_multiplier": 1.0,
+  "sigma": 111.02550696377685,
+  "max_count_drift": 2.1827872842550278e-11,
+  "minimum_draw": 4.488105179945023e-06,
+  "degenerate_move_fraction": 0.0,
+  "ranking_eligible": true,
+  "diagnostics": [
+    {
+      "observable": "total_flow",
+      "raw_split_Rhat": 1.0308282954172387,
+      "approximate_ESS": 237.6616422116405
+    },
+    {
+      "observable": "prior_L1",
+      "raw_split_Rhat": 1.005118941130451,
+      "approximate_ESS": 968.2323439373823
+    },
+    {
+      "observable": "log_density",
+      "raw_split_Rhat": 1.0198548794711428,
+      "approximate_ESS": 284.8481964746429
+    },
+    {
+      "observable": "path_0",
+      "raw_split_Rhat": 1.0031341877222377,
+      "approximate_ESS": 1262.4690205563222
+    },
+    {
+      "observable": "path_47",
+      "raw_split_Rhat": 1.0025283850854438,
+      "approximate_ESS": 1099.5841690285697
+    },
+    {
+      "observable": "path_94",
+      "raw_split_Rhat": 1.0128461517215748,
+      "approximate_ESS": 874.0836986648874
+    },
+    {
+      "observable": "path_142",
+      "raw_split_Rhat": 1.000840314902596,
+      "approximate_ESS": 1225.493336117388
+    },
+    {
+      "observable": "path_189",
+      "raw_split_Rhat": 1.0004022910026185,
+      "approximate_ESS": 1435.9167231266374
+    },
+    {
+      "observable": "path_237",
+      "raw_split_Rhat": 1.0016844944374523,
+      "approximate_ESS": 1647.252416832841
+    },
+    {
+      "observable": "path_284",
+      "raw_split_Rhat": 1.0013747103087602,
+      "approximate_ESS": 1139.5632612591874
+    },
+    {
+      "observable": "path_332",
+      "raw_split_Rhat": 1.0046141698959188,
+      "approximate_ESS": 1206.6593159015017
+    },
+    {
+      "observable": "path_379",
+      "raw_split_Rhat": 1.0060677500206925,
+      "approximate_ESS": 771.7905663731711
+    },
+    {
+      "observable": "path_427",
+      "raw_split_Rhat": 1.0036743649183077,
+      "approximate_ESS": 1224.0605484155828
+    },
+    {
+      "observable": "path_474",
+      "raw_split_Rhat": 1.0038448688049286,
+      "approximate_ESS": 859.9319153209007
+    },
+    {
+      "observable": "path_522",
+      "raw_split_Rhat": 1.0019942759777192,
+      "approximate_ESS": 1526.4865611040457
+    },
+    {
+      "observable": "path_569",
+      "raw_split_Rhat": 1.0023865584120761,
+      "approximate_ESS": 1190.4475115204293
+    },
+    {
+      "observable": "path_617",
+      "raw_split_Rhat": 1.0009523542372196,
+      "approximate_ESS": 1203.7500325723681
+    },
+    {
+      "observable": "path_664",
+      "raw_split_Rhat": 1.0027109872225435,
+      "approximate_ESS": 1199.5499319918015
+    },
+    {
+      "observable": "path_712",
+      "raw_split_Rhat": 1.0017928941936403,
+      "approximate_ESS": 691.4322321542596
+    },
+    {
+      "observable": "path_759",
+      "raw_split_Rhat": 1.002446326085246,
+      "approximate_ESS": 822.4249149360974
+    },
+    {
+      "observable": "path_807",
+      "raw_split_Rhat": 1.0021586256810646,
+      "approximate_ESS": 866.7935057323044
+    },
+    {
+      "observable": "path_854",
+      "raw_split_Rhat": 1.0006182185307928,
+      "approximate_ESS": 1096.9819237238098
+    },
+    {
+      "observable": "path_902",
+      "raw_split_Rhat": 1.0054292101554188,
+      "approximate_ESS": 1497.8197019457123
+    }
+  ],
+  "all_path_max_Rhat": 1.0195710310728465,
+  "all_path_min_ESS": 164.99111187409554,
+  "paths_failing_Rhat": 0,
+  "paths_failing_ESS": 0,
+  "posterior_scores_evaluated": false,
+  "samples_sha256": "dd7297f13d9579fcbda2ed506b8c6170aea5906c5fd858d99010ad80c14ae1f6"
+}

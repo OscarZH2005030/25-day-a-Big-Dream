@@ -147,6 +147,24 @@ python task4/stress_span_shrink.py --release-root /path/to/kaggle_public --outpu
 python task4/stress_observable_gate.py --release-root /path/to/kaggle_public --output /path/to/fresh_gate_stress
 ```
 
+### 推断方法试验：守恒后验采样通过混合诊断，尚未验证真实OD
+
+为区别“拟合道路计数”和“恢复OD不确定性”，试验在 `f>=0, A*f=c` 的可行域上采样Gaussian模型 `exp(-||f-b||²/(2σ²))`。长OD与两段短OD的三角恒等式给出严格守恒的局部方向，沿方向用截断正态条件分布更新。**Gaussian先验误差假设并未由真实路径标签证明**，计数协方差证据也不能识别全部零空间分布。
+
+- 一维闭式对照：12,000次条件抽样，KS统计量0.00633；实际道路全部12,341个三角方向验证守恒。
+- 初始三种尺度的短链均失败，最大raw split-Rhat约1.307/1.284/1.072，负结果保留，没有据此排名。
+- 只延长预先默认的中央尺度：四链、1000个预热sweep、2000个保存sweep；全部903路径的最大raw split-Rhat **1.01957**、最小粗略ESS **164.99**，总量/先验距离/logdensity也通过原定门槛。
+- 独立回读全部8,000个样本，最大计数误差2.28e-11，样本非负；单独向量化重算全部路径Rhat，与原计算最大差2.23e-16。
+- 无旧工作区的可移植长链复跑诊断差0，原始模型抽样数组SHA256也一致。
+
+**这仅说明此单路假设模型的数值推断达标，不是真实OD分数或新官方候选。** 尚未对真实输入做后验“自评分”排名，也未替换基准。下一步以已知人工潜在需求的小网络检查匹配模型和错误噪声/稀疏反例；只有通过收敛检查的案例才参与配对比较，失败率同时保留。
+
+```sh
+python task4/sample_count_posterior.py --release-root /path/to/kaggle_public --output /path/to/posterior_diagnostics --long-run
+```
+
+`results/task4_gaussian_posterior_pilot/`、`results/task4_posterior_longrun/`保存正负诊断和指纹，不上传大规模抽样轨迹。`results/task4_candidate_sensitivity/`另记录研究性5%预览的可见量及显式假设计数兼容下的Lipschitz变化界；不是隐藏评分或统计置信区间。Windows临时状态读锁曾中断小网络试验，原记录保留，增加唯一临时文件和有界重试后按相同案例种子续跑，没有改科学参数。
+
 ## 证据和复现范围
 
 - `results/`：登记协议、种子、逐道路/日期的聚合结果、数据/模型哈希、失败与导出验收。没有原始竞赛观测或逐单元训练真值。

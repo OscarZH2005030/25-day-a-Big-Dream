@@ -1,0 +1,14 @@
+{
+  "samples_sha256_verified": true,
+  "shape": [
+    4,
+    2000,
+    903
+  ],
+  "all_draw_count_constraint_max_error": 2.2737367544323206e-11,
+  "minimum_draw": 4.488105179945023e-06,
+  "independent_vectorized_all_path_Rhat_max_difference": 2.220446049250313e-16,
+  "maximum_all_path_raw_split_Rhat": 1.0195710310728465,
+  "hidden_truth_used": false,
+  "scope": "Independent readback/invariant and diagnostic calculation, not actual OD validation."
+}

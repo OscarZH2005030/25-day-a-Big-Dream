@@ -1,0 +1,9 @@
+{
+  "seed": 2026110309,
+  "samples": 12000,
+  "sample_mean": 2.8574903715063726,
+  "analytic_mean": 2.8644511631904224,
+  "KS_statistic": 0.006334682306295025,
+  "all_nonnegative": true,
+  "scope": "Exact one-dimensional conditional-distribution test, not a hidden-OD check."
+}

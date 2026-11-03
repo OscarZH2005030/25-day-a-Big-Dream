@@ -1,0 +1,26 @@
+{
+  "registered_utc": "2026-11-03T01:22:23.852927+00:00",
+  "hypothesis": "Finite artificial zero-harm counts do not establish real OD safety. Inspect a frozen observable-gated5% preview and bound possible score changes under explicit reference-count compatibility assumptions.",
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "final_flow_blend": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "assumed_reference_count_NMAE": [
+    0.0,
+    0.01,
+    0.05
+  ],
+  "method": "Same registered observable gate, span ridge1, input-prior5% blend, nonnegative lambda.05 solve; blends are research sensitivity grid, not selected submissions.",
+  "bounds": "For nonnegative hidden f* with ||A f*-c||1<=eps*sum(c), K=max column sum(A), F*=sum f*>=(1-eps)sum(c)/K and D*=||f*-b||1>=max((||c-Ab||1-eps sum(c))/K,0). Score Lipschitz bounds follow; no hidden score is evaluated.",
+  "selection": "None; every panel, blend and assumption reported. No count-compatibility assumption is claimed verified for withheld reference.",
+  "source_sha256": "8f7101dad3dd5d19d9cb357770b3ec79b2cbc79bf1398cf4b63bc5022877530d",
+  "gate_source_sha256": "0422a1a2673bb67779c52fe5ffb3da4b297378588a3099ffa81a547e7adca64d",
+  "scope": "Conditional numerical sensitivity, not a guaranteed improvement or statistical confidence interval. Path previews stay in work, no Kaggle submission, official baseline unchanged."
+}

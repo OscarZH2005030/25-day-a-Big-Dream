@@ -1,0 +1,7 @@
+{
+  "Windows_reader_lock_retry_elapsed": 0.3843199000111781,
+  "concurrent_writers": 3,
+  "writes_per_writer": 10,
+  "valid_final_json": true,
+  "scientific_parameters_changed": false
+}
