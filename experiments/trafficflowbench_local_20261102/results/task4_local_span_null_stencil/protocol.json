@@ -1,0 +1,32 @@
+{
+  "scope": "Integer local null direction with a feasible numerical step around frozen flow. Hypothetical summaries only.",
+  "stencil": [
+    [
+      1,
+      -2,
+      1,
+      0
+    ],
+    [
+      -2,
+      3,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      -3,
+      2
+    ],
+    [
+      0,
+      -1,
+      2,
+      -1
+    ]
+  ],
+  "nonzero_cells": 12,
+  "source_sha256": "869befd987359cbb535291ece4f1f5c4cbad62ca63aa14ec391543debc6265fa",
+  "anchor_table_sha256": "ab3523587ff4a1900e5fd2c712acbee0c25228399cb2bfdfdf064b092cc41a3c"
+}
