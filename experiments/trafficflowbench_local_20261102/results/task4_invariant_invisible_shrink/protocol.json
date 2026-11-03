@@ -1,0 +1,24 @@
+{
+  "registered_utc": "2026-11-03T12:20:37.325159+00:00",
+  "seed": 2026110346,
+  "cases": 40,
+  "families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noises": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "target_tv": 0.14,
+  "blend": [
+    0.0,
+    0.05,
+    1.0
+  ],
+  "hypothesis": "Reducing the invisible L1 correction on the matched-score face may help OD if the baseline adds unnecessary matching distortion.",
+  "method": "Solve nonnegative invisible-L1 LP within baseline counts, gross margins and original-prior sign orthant and L1 distance. Full LP and fixed 5% interpolation with baseline. Non-OD score components remain equal up to numerical tolerance.",
+  "scope": "Fresh artificial seed on previously studied support and mechanisms. Does not select a deployed objective or validate hidden OD.",
+  "source_sha256": "55d53604b79fee02600c70da09b4d2d80d104889f679f453f37c9d5349e2d2b5"
+}

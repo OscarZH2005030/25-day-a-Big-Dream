@@ -1,0 +1,7 @@
+noise,blend,count,mean,min,<lambda_0>
+shared_lognormal,0.0,20,0.0,0.0,0
+shared_lognormal,0.05,20,0.0010197543882729866,0.0,0
+shared_lognormal,1.0,20,-0.0028226675102538514,-0.02453358627041391,11
+shared_positive_background,0.0,20,0.0,0.0,0
+shared_positive_background,0.05,20,-0.0002101073390061936,-0.0013884143904507873,7
+shared_positive_background,1.0,20,-0.009605533091516471,-0.029950798748722196,16
