@@ -1,0 +1,7 @@
+,streams,streams,rank_beyond_margins,rank_beyond_margins,linear_nullity,linear_nullity
+,min,max,min,max,min,max
+scenario,,,,,,
+full_compensation,1,1,0,0,561,4851
+half_compensation,18,51,289,2450,272,2401
+jitter4,25,68,433,3293,128,1802
+simultaneous,35,100,561,4851,0,0

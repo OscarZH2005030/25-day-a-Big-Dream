@@ -1,0 +1,8 @@
+{
+  "registered_utc": "2026-11-03T10:16:31.030290+00:00",
+  "seed": 2026110343,
+  "design": "Known integer pulse epoch per origin and deterministic delay cut minus origin. Origins with equal epoch-minus-origin share an arrival stream. Compare all-zero epochs, bounded jitter, half compensation and full compensation.",
+  "proof": "With origin margins, difference consecutive counts in each stream and add entering origin total to recover stream-specific destinations. The resulting bipartite graph per stream is connected through the last destination. Rank is origin nodes plus reachable destination nodes minus one per stream.",
+  "scope": "Idealized measurement design. No actual travel-time, pulse, detector mapping or independent timing evidence. Jitter is known to the hypothetical observer.",
+  "source_sha256": "13589f57de990614f5936047579b1274984ae8cf722fa5648574566e034a7fd9"
+}
