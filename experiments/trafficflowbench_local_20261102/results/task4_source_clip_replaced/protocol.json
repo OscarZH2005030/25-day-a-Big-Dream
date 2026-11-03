@@ -1,0 +1,28 @@
+{
+  "registered_utc": "2026-11-03T08:40:29.551889+00:00",
+  "seed": 2026110339,
+  "cases": 160,
+  "truth_families": [
+    "short",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noise_families": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drift": "replaced_pair",
+  "shape_tv": 0.14,
+  "folds": 5,
+  "blend": 0.05,
+  "hypothesis": "Clipping extreme source interactions may limit error transfer while retaining persistent matching structure.",
+  "design": "Raw exact geometry-orthogonal source versus symmetric clipping at its 95th absolute percentile followed by exact re-projection. Both columns scaled to unit RMS within target training fold. Same ridge1, five folds and 5% correction. Cutoff uses source inputs only.",
+  "scope": "New seed on previously studied artificial mechanisms. No tuning against hidden OD, blind-system or official score claim.",
+  "source_sha256": "882fa3ab82eede7dab8d8c877064b6cfd978d4472bbbdd67fe54a5024af01a73",
+  "tilt_source_sha256": "570d9a00a71bf059fb093578534a338adf309b8fbfd59cdcee739e233d7255fb",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee",
+  "frozen_forecast_source_sha256": "7e777e39f7477d611225837c595e6184c6714bf1ece38b9ab9cbfdd5f837cadb"
+}
