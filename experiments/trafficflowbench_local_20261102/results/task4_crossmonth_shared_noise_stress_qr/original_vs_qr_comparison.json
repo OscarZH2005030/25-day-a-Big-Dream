@@ -1,0 +1,13 @@
+{
+  "method_rows": 4800,
+  "maximum_metric_differences": {
+    "synthetic_S_od": 8.215650382226158e-15,
+    "synthetic_S_link": 3.3306690738754696e-16,
+    "synthetic_S_dev": 3.552713678800501e-15,
+    "synthetic_S_attr": 1.6653345369377348e-15,
+    "synthetic_S_ODME": 4.440892098500626e-15,
+    "pair_prior_prediction_MSE_reduction": 2.9976021664879227e-15
+  },
+  "same_availability": true,
+  "interpretation": "Same cases and mathematical objective; warnings did not imply a specific outcome difference. Independent QR/SVD and full reproducibility establish numerical evidence separately."
+}

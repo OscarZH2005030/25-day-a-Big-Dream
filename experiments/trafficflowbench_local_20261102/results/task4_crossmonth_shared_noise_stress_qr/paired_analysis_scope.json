@@ -1,0 +1,5 @@
+{
+  "analysis": "All same-case eligible comparisons retained. Positive prior-prediction gain is a descriptive slice using supplied-prior outcomes, not a selected deployment gate or fresh heldout claim.",
+  "source_sha256": "ec0a2c03c89fec99a440602683cc7f5ee3afe1aebdf007cd4482b3cc89d77fb5",
+  "hidden_OD_score": null
+}

@@ -1,0 +1,58 @@
+{
+  "registered_utc": "2026-11-03T02:52:07.931274+00:00",
+  "seed": 2026110317,
+  "case_count": 960,
+  "panels": 10,
+  "truths": [
+    "short",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noises": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drifts": [
+    "stable_pair",
+    "moderate_drift",
+    "replaced_pair"
+  ],
+  "replicates": 2,
+  "methods": {
+    "baseline": [
+      "raw",
+      0.0
+    ],
+    "geometry005": [
+      "geometry",
+      0.05
+    ],
+    "pair005": [
+      "pair",
+      0.05
+    ],
+    "pair025": [
+      "pair",
+      0.25
+    ],
+    "pair100": [
+      "pair",
+      1.0
+    ]
+  },
+  "hypothesis": "Held-out weak-prior predictability across months can reflect true common OD affinity or shared observation/prior noise; determine whether pair-based calibration risks erasing changing real demand while retaining common artifacts.",
+  "months": 3,
+  "target_month": 2,
+  "drift": "Monthly scales0.85/1/1.15. Stable: same base latent OD; moderate: independent mean-one lognormal path perturbation sd0.35; replaced: new independent latent draw of same geometry family each month.",
+  "noise": "Independent lognormal sd0.6; shared lognormal path error sd0.6 plus independent sd0.2 (mean-one factors); positive lognormal background sd0.7 amplitude0.8 times truth mean, either independent each month or shared path pattern plus independent amplitude0.1.",
+  "features": "Span+origin/destination ridge1. Source residual from other two priors only; target prior predictions cross-fit over five fixed case-seeded OD folds. No latent truth enters forecasts or strength selection.",
+  "calibration": "Freeze all alpha0/0.05/0.25/1 before draws; denoised prior=(1-alpha)*target_prior+alpha*crossfit prediction; all use baseline nonnegative lambda0.05 count solver. Geometry005 is an explicit non-pair control.",
+  "selection": "None. Public-network shapes repeated but new artificial draws. Prediction MSE of supplied prior and known-latent complete OD components reported separately, including all harms and solver failures.",
+  "source_sha256": "5a62cf52fb1633f486b4dd10e07f4c15c5bda1d99a26cd10d5b0fac93514255c",
+  "feature_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "solver_source_sha256": "38a722233c71e1a33f796830d808b7cd5ccfd90ebe3ffda904c88e390b7ca232",
+  "scope": "Artificial assumption stress, not hidden OD validation. Official frozen reference unchanged, no actual candidate export or Kaggle upload."
+}

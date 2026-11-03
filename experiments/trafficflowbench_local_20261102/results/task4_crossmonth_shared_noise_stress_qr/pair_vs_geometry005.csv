@@ -1,0 +1,13 @@
+noise,drift,score_delta_vs_geometry005,OD_delta_vs_geometry005
+independent_lognormal,moderate_drift,0.001912197792187252,0.006497245433687728
+independent_lognormal,replaced_pair,6.525833474284315e-06,1.5977197212446033e-05
+independent_lognormal,stable_pair,0.0021469750405182274,0.007384940920633234
+independent_positive_background,moderate_drift,0.007223146798320324,0.015523577461920087
+independent_positive_background,replaced_pair,1.1667332904542749e-05,2.5788278302141255e-05
+independent_positive_background,stable_pair,0.007850956401217513,0.016941363023360252
+shared_lognormal,moderate_drift,-0.0073543411692910555,-0.013653057633259882
+shared_lognormal,replaced_pair,-0.003138084750426262,-0.006839501418758195
+shared_lognormal,stable_pair,-0.00823558545095933,-0.014866059556369701
+shared_positive_background,moderate_drift,0.004353117493651712,0.008838549362081621
+shared_positive_background,replaced_pair,-0.0013479012996687495,-0.0031361702599815174
+shared_positive_background,stable_pair,0.004662376160455989,0.009625176552336173

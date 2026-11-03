@@ -1,0 +1,11 @@
+{
+  "cases": 20,
+  "actions_recomputed": 100,
+  "independent_solver": "Column-equilibrated augmented SVD (gelsd), versus pivoted QR (gelsy)",
+  "maximum_relative_physical_prediction_difference": 1.5378396477567233e-14,
+  "maximum_relative_ridge_objective_difference": 3.909835689849497e-16,
+  "maximum_score_readback_error": 1.1102230246251565e-16,
+  "maximum_prior_prediction_gain_error": 1.1102230246251565e-16,
+  "source_sha256": "d1835582702b0d12f346163b498c9dca416ef301f5cd6f520bebc1463c1e8c44",
+  "scope": "Numerical verification only, no hidden OD claim."
+}

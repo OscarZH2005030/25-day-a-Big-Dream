@@ -1,0 +1,10 @@
+{
+  "reason": "First fixed-seed attempt produced normal-equation LinAlgWarning near rcond1e-19 in sparse/artificial floor cases; its source, results and log remain unchanged and cannot be ranked before this check.",
+  "scientific_change": false,
+  "implementation": "Same ridge1 objective, unpenalized intercept, same five folds/source scales/clipping/alphas/seed; solve augmented least squares with column equilibration and pivoted QR instead of squaring condition number.",
+  "new_implementation_sha256": "7425d952c2a28a8381cdf6852de82ae66444515803dda6c302f3c8dba5019a77",
+  "original_source_sha256": "5a62cf52fb1633f486b4dd10e07f4c15c5bda1d99a26cd10d5b0fac93514255c",
+  "well_conditioned_comparison_cases": 20,
+  "maximum_coefficient_error": 2.7755575615628914e-16,
+  "scope": "Numerical repair is not a new positive scientific result or hidden OD validation."
+}

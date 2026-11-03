@@ -24,5 +24,8 @@
   "weighted_dual_solver_independent_primal_BVLS_checks": 20,
   "OD_invariant_arbitrary_reference_checks": 200,
   "portable_crossmonth_pair_audits_max_metric_difference": 0.0,
-  "portable_crossmonth_pair_model_files_hashes_identical": 1050
+  "portable_crossmonth_pair_model_files_hashes_identical": 1050,
+  "portable_shared_noise_960_case_max_metric_difference": 0.0,
+  "portable_shared_noise_4800_method_artifact_hashes_identical": true,
+  "independent_augmented_QR_vs_SVD_case_checks": 20
 }

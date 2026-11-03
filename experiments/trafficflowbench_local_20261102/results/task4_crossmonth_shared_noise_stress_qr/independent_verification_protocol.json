@@ -1,0 +1,28 @@
+{
+  "seed": 2026110319,
+  "cases": [
+    "D12_I405_S/origin_destination/independent_lognormal/stable_pair/0",
+    "D12_I405_N/piecewise_span/shared_positive_background/moderate_drift/1",
+    "D7_I10_E/short/shared_positive_background/moderate_drift/1",
+    "D7_I405_S/origin_destination/independent_lognormal/stable_pair/1",
+    "D7_I405_N/origin_destination/shared_positive_background/moderate_drift/0",
+    "D7_I210_W/short/independent_positive_background/replaced_pair/0",
+    "D12_I5_N/origin_destination/independent_positive_background/replaced_pair/1",
+    "D7_I210_E/origin_destination/shared_positive_background/stable_pair/1",
+    "D12_I405_S/piecewise_span/independent_positive_background/replaced_pair/1",
+    "D12_I405_S/origin_destination/shared_positive_background/replaced_pair/0",
+    "D12_I405_S/sparse/independent_lognormal/moderate_drift/1",
+    "D12_I5_N/sparse/independent_positive_background/replaced_pair/1",
+    "D7_I405_N/sparse/independent_lognormal/replaced_pair/1",
+    "D7_I10_W/sparse/shared_positive_background/stable_pair/0",
+    "D7_I10_W/sparse/independent_positive_background/moderate_drift/0",
+    "D12_I405_N/sparse/shared_lognormal/moderate_drift/0",
+    "D7_I405_N/sparse/shared_lognormal/replaced_pair/0",
+    "D12_I405_N/sparse/shared_lognormal/replaced_pair/1",
+    "D7_I405_S/sparse/independent_positive_background/replaced_pair/1",
+    "D12_I5_S/sparse/independent_positive_background/replaced_pair/0"
+  ],
+  "selection": "Ten sparse and ten non-sparse cases chosen without using scores; numerical verification, not new scientific heldout evaluation.",
+  "implementation": "Compare pivoted QR saved predictions with independently recomputed SVD augmented ridge; reconstruct all five actions and score against original supplied prior.",
+  "source_sha256": "d1835582702b0d12f346163b498c9dca416ef301f5cd6f520bebc1463c1e8c44"
+}

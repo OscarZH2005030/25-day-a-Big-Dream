@@ -1,0 +1,13 @@
+{
+  "case_count": 960,
+  "method_rows": 4800,
+  "all_artifact_hashes_identical": true,
+  "all_solver_availability_identical": true,
+  "maximum_CSV_metric_differences": {
+    "all_cases.csv": 0.0,
+    "by_assumption.csv": 0.0,
+    "paired_risk.csv": 0.0
+  },
+  "runner_sha256": "ec0a2c03c89fec99a440602683cc7f5ee3afe1aebdf007cd4482b3cc89d77fb5",
+  "scope": "Reproducibility of fixed artificial risks only; no official OD improvement."
+}

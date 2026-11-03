@@ -1,0 +1,12 @@
+{
+  "first_attempt_preserved": true,
+  "source_hash_matches_registration": true,
+  "all_recorded_input_hashes_verified": 40,
+  "warning_count": 600,
+  "minimum_reported_reciprocal_condition": 1.6882128042553902e-20,
+  "source_sha256": "5a62cf52fb1633f486b4dd10e07f4c15c5bda1d99a26cd10d5b0fac93514255c",
+  "protocol_sha256": "090179e27a16626ddc0a2422d306495778221817e98c2804ec007dfd471138a2",
+  "original_method_rows_sha256": "6f467740fc3f91935e6c1276e63b5ffeeba23dd4fc6e183804f6e58d04d05d7d",
+  "original_log_sha256": "23d9f606f0603d6a38509e5cbf874aaea6913021c408850e487e299bf60d94c8",
+  "scope": "Warnings alone do not prove inaccurate predictions. First-attempt numerical results remain provisional until independent QR/SVD verification and same-case comparison; no scientific outcome inferred here."
+}
