@@ -1,0 +1,10 @@
+{
+  "cases": 90,
+  "all_dual_artifact_hashes_identical": true,
+  "maximum_CSV_metric_differences": {
+    "by_panel.csv": 0.0,
+    "summary.csv": 0.0,
+    "independent_primal_checks.csv": 0.0
+  },
+  "scope": "Deterministic numerical geometry reproduction; no hidden OD improvement."
+}

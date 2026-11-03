@@ -1,0 +1,8 @@
+{
+  "rho": 0.001,
+  "assumed_count_NMAE": 0,
+  "actual_count_NMAE": 0.9900000000000001,
+  "guarded_OD_loss": 0.10000000000000003,
+  "conditional_bound_applicable": false,
+  "note": "Constructive counterexample: if count compatibility is false, supplied-count movement cap does not guarantee OD score loss <= rho. Nonnegative same-margin/same-prior-L1 segment; not competition data."
+}

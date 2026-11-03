@@ -1,0 +1,7 @@
+{
+  "rows": 3840,
+  "protocol_sha256": "a2141adc92812e6a349110844c8fa37f5c2075426e42fa1887fde81b8f0483fc",
+  "source_sha256": "4bc95e4151a80a26cccfd0d89bd0c7ddb92913f3bc0c8a84b02112e4429425c2",
+  "all_checks_passed": true,
+  "scope": "Conditional inequalities on existing exposed artificial cases; not new validation or hidden-score safety."
+}

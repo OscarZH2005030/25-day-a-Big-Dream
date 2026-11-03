@@ -1,0 +1,7 @@
+{
+  "cases": 90,
+  "all_passed": true,
+  "max_relative_primal_dual_gap": 1.0001667227799691e-10,
+  "source_sha256": "134329b90519bfe91de90ebd534c34efb683d4a0a4e1cc070150df6e45aa9c42",
+  "scope": "Independent original-variable LP and weak-duality numerical audit, not verified hidden-count compatibility or empirical OD improvement."
+}

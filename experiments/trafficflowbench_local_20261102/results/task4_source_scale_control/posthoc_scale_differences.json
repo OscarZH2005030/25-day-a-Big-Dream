@@ -1,0 +1,6 @@
+{
+  "cases": 120,
+  "maximum_absolute_paired_score_difference": 2.2590684533807526e-05,
+  "mean_paired_score_difference": 8.909082313425983e-07,
+  "scope": "Descriptive follow-up on same fixed cases, no held-out test or deployed routing selected."
+}

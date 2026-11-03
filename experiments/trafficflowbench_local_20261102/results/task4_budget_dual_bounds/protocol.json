@@ -1,0 +1,19 @@
+{
+  "registered_utc": "2026-11-03T05:14:42.182570+00:00",
+  "seed": null,
+  "deterministic": true,
+  "assumed_count_NMAE": [
+    0.0,
+    0.01,
+    0.05
+  ],
+  "splits": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "hypothesis": "Exploit released count geometry to tighten the crude total-demand lower bound used in conditional movement budgets.",
+  "certificate": "For any y with A.T@y <= 1 and nonnegative reference f with ||Af-c||1 <= eps*sum(c), sum(f) >= c@y-eps*sum(c)*max(abs(y)). Optimize y then shrink for numerical feasibility, retaining crude bound as fallback.",
+  "scope": "Conditional deterministic geometry audit, not OD validation, statistical coverage, official safety or new candidate.",
+  "source_sha256": "348f5ee0676d8c06873a611e617f2c5b34538347120a21b1922bb2ca3eb0ce35"
+}

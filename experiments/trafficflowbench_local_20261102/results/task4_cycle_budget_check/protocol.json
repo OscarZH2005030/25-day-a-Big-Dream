@@ -1,0 +1,20 @@
+{
+  "registered_utc": "2026-11-03T04:41:18.111041+00:00",
+  "seed": 2026110327,
+  "input_cases": "Existing frozen 480-case cycle experiment; numerical sensitivity only, not fresh validation.",
+  "rho": [
+    0.001,
+    0.005
+  ],
+  "assumed_count_NMAE": [
+    0.0,
+    0.05
+  ],
+  "methods": [
+    "cycle005",
+    "cycle025"
+  ],
+  "hypothesis": "Along a same-orthant feasible cycle segment, cap L1 movement using conditional reference-total lower bound; verify conditional OD and composite Lipschitz limits. Count compatibility is not known for hidden labels.",
+  "selection": "No tuning or candidate promotion; all budgets and assumptions retained.",
+  "source_inputs_sha256": "677d921787febb453c230e6f44f0c202fbb638a2f3481dc7efbf501d4e32631c"
+}
