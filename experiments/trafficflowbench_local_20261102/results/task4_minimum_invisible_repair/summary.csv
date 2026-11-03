@@ -1,0 +1,5 @@
+,minimum_relative_L1,minimum_relative_L1,minimum_relative_L1,frozen_relative_L1,frozen_relative_L1,frozen_relative_L1,optimum_to_frozen_ratio,optimum_to_frozen_ratio,optimum_to_frozen_ratio
+,min,median,max,min,median,max,min,median,max
+target,,,,,,,,,
+frozen,0.15015405902714146,0.1833186833584865,0.23835214893749138,0.18827706279548836,0.2275607597290205,0.29137383127128796,0.7626038052768279,0.802658150288791,0.8470038136360291
+released,0.1501954416297528,0.18344579511276532,0.23842894965175793,,,,,,

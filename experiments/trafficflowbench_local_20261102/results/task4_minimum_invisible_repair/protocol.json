@@ -1,0 +1,10 @@
+{
+  "registered_utc": "2026-11-03T11:40:01.598092+00:00",
+  "seed": null,
+  "scope": "Diagnostic optimization on published inputs and the frozen prediction. No hidden scores or deployment.",
+  "objective": "Minimize L1 distance to the signed minimum-L2 correction at fixed net vector, with nonnegative path flows. Solve for released and frozen net targets separately.",
+  "comparison": "Only compare the frozen invisible L1 size to its own matched-net optimum. Released-count compatibility with the hidden reference is unverified.",
+  "source_sha256": "3f7ea858a226be2d7d53685c2b4dec53dc63f387a1712121efc3511f0204ce3a",
+  "projection_table_sha256": "a5b4281addd5db16b76a8e9c1c319a32ebeb34810b45a06f582d4712fe19a8ed",
+  "frozen_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2"
+}
