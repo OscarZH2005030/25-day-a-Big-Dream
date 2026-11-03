@@ -1,0 +1,7 @@
+{
+  "code_sha256": "787bdf1d1b5bc3b894601c5a0fb8ec2e23e4f61f8e3d53c91f9d4115cba62ed2",
+  "split": "private",
+  "budget": 16,
+  "design": "Greedy pooled-history weighted reduction with and without the direct variance term. Score with private weights. Report the final reduction attributable to unselected cells as a fraction of initial weighted trace.",
+  "scope": "Hypothetical exact measurements on released count geometry, isotropic diagnostic covariance."
+}
