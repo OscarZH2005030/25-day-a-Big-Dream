@@ -1,0 +1,11 @@
+{
+  "registered_utc": "2026-11-03T07:59:52.084664+00:00",
+  "seed": 2026110336,
+  "folds": 5,
+  "hypothesis": "Common residuals may transfer across nearby OD pairs at fixed span. Compare locality with exact identity and a distant same-span control.",
+  "feature": "Use two non-target supplied priors. Remove full geometry span and marginal basis, then use direct, adjacent origin-rank mean, or half-group cyclic-shift residual at the same span. Groups smaller than four zeroed in all controls before re-projection. Re-projection can mix source entries.",
+  "fit": "Identical ridge1 and target training-fold median across all four designs.",
+  "scope": "Exposed public weak-prior prediction. No hidden OD inference, noise-origin identification or deployment selection.",
+  "source_sha256": "c57c967839d0f39e7fd7db9537197ff5fb4d6e1fa4f9fd71827592723113bfa6",
+  "projection_source_sha256": "1a42c330c647f0b61b5f20eb3b07599c5fd1d5041a65ea48122119f8d8f07aaf"
+}
