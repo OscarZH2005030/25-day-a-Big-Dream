@@ -1,0 +1,7 @@
+{
+  "code_sha256": "ac0f5b8d48fe940c0405c1ff6e591de62d88a8f85cda8c414c56e2cebc3e7789",
+  "split": "private",
+  "budget": 16,
+  "design": "Greedy pooled-history weighted reduction with and without the direct variance term. Score with private weights. Report the final reduction attributable to unselected cells as a fraction of initial weighted trace.",
+  "scope": "Hypothetical exact measurements on released count geometry, independent diagnostic variances proportional to pooled historical weak prior, floored at 10% of its mean and normalized."
+}
