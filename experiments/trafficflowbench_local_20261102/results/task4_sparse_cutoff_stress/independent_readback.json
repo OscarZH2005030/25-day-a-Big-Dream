@@ -1,0 +1,8 @@
+{
+  "actions": 80,
+  "fold_objective_checks": 200,
+  "max_objective_error": 128.0,
+  "max_objective_error_relative_to_initial": 6.29156601097077e-16,
+  "max_score_error": 1.1102230246251565e-16,
+  "source_sha256": "95eeb4984bfdf69824c718b7317b4323e1df07a834dfb326f41c172c41e13d46"
+}

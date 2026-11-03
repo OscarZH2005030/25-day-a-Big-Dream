@@ -1,0 +1,22 @@
+{
+  "registered_utc": "2026-11-03T07:17:15.947432+00:00",
+  "seed": 2026110333,
+  "cases": 20,
+  "truth_families": [
+    "sparse"
+  ],
+  "noise_families": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "shape_tv": 0.14,
+  "folds": 5,
+  "blend": 0.05,
+  "hypothesis": "A floor at the fold training mean can prevent the physical Huber cutoff collapsing at a sparse median.",
+  "design": "Same features, target normalization, folds and ridge penalty. Fixed eight IRLS steps. Physical cutoff equals median or max(median, mean), each computed on the target training fold.",
+  "scope": "New seed on previously studied artificial mechanisms. No tuning against hidden OD, blind-system or official score claim.",
+  "source_sha256": "50f6ea1460ab43139e47a667d9699380666f2532a1f3d831dce16960d73e9ea5",
+  "tilt_source_sha256": "570d9a00a71bf059fb093578534a338adf309b8fbfd59cdcee739e233d7255fb",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee"
+}
