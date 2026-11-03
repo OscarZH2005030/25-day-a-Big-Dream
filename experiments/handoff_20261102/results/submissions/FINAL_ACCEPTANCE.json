@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "source_repository": "https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission",
+  "source_commit": "d4a4810cf4add1cec039878eb87b9ae48c684b73",
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "task4_method": "geo_kl_mix_w0.5_b0.5",
+  "task4_prediction_sha256": "8cdc88aca7d34f3e2b8fa20830caaa1426b9a18183532009008a8ff3d96f118f",
+  "baseline_csv_sha256": "c37e1fbc9f3d9c1555c946c17da73f35d7a2f50f364c050d6ce53a83653d7d8b",
+  "candidate_csv_sha256": "4931c18d612743e3847e3ab278050103c57ee42510e12c78ce5e3ba543e5db02",
+  "non_task4_rows_byte_identical": true,
+  "non_task4_rows_sha256": "db9e10d408181ae79ed0cc2c6487bf2574b399e61b65bb36e5f07f3e7d70ef2e",
+  "changed_task4_rows": 70708,
+  "Task3_uses_same_Task1_values": true,
+  "archives": [
+    {
+      "file": "submission_baseline.zip",
+      "bytes": 149212646,
+      "sha256": "8dbf132552a6b40cd61ae116a90b5f84ab6688973cd106375a8217396524bdc4"
+    },
+    {
+      "file": "submission_candidate.zip",
+      "bytes": 149633667,
+      "sha256": "3fabd78fff01a4f8bec667040b95d1de3a1846cced03ff6ba09da3b67c033f5d"
+    }
+  ],
+  "kaggle_submitted": true,
+  "official_scores": {
+    "baseline": {
+      "submission_id": 57900964,
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.81135",
+      "private_score": null
+    },
+    "candidate": {
+      "submission_id": 57900990,
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.78677",
+      "private_score": null
+    }
+  },
+  "official_comparison": {
+    "baseline_public_score": 0.81135,
+    "candidate_public_score": 0.78677,
+    "total_score_delta": -0.02458,
+    "relative_change_percent": -3.029518703395584,
+    "task4_weight": 0.2,
+    "implied_task4_score_delta": -0.1229,
+    "non_task4_rows_byte_identical": true,
+    "winner": "baseline",
+    "note": "Public leaderboard comparison only; Task4 delta assumes published 20% weight and additive total metric."
+  },
+  "recommended_archive": "submission_baseline.zip",
+  "candidate_beats_baseline": false
+}

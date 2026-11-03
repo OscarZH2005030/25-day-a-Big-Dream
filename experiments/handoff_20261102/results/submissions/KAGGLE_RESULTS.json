@@ -1,0 +1,105 @@
+{
+  "competition": "2026-ieee-big-data-traffic-flow-bench",
+  "submissions": {
+    "baseline": {
+      "file": "submission_baseline.zip",
+      "sha256": "8dbf132552a6b40cd61ae116a90b5f84ab6688973cd106375a8217396524bdc4",
+      "description": "TFB-20261102 baseline: official frozen Task4; identical latest Task1-3",
+      "started_at_utc": "2026-11-02T08:05:23.669327+00:00",
+      "state": "submitted",
+      "bytes": 149212646,
+      "response": {
+        "ref": 57900964,
+        "message": "Successfully submitted to 2026 IEEE Big Data-Traffic Flow Bench"
+      },
+      "returned_at_utc": "2026-11-02T08:05:32.121230+00:00",
+      "remote": {
+        "ref": 57900964,
+        "date": "2026-11-02 08:05:30.660000",
+        "description": "TFB-20261102 baseline: official frozen Task4; identical latest Task1-3",
+        "file_name": "submission_baseline.zip",
+        "status": "SubmissionStatus.COMPLETE",
+        "public_score": "0.81135",
+        "private_score": "",
+        "error_description": "",
+        "team_name": "JaydenWang999",
+        "url": "/submissions/57900964/57900964.raw"
+      }
+    },
+    "candidate": {
+      "file": "submission_candidate.zip",
+      "sha256": "3fabd78fff01a4f8bec667040b95d1de3a1846cced03ff6ba09da3b67c033f5d",
+      "description": "TFB-20261102 candidate: Task4 geo_kl_mix_w0.5_b0.5; identical Task1-3",
+      "started_at_utc": "2026-11-02T08:05:58.142899+00:00",
+      "state": "submitted",
+      "bytes": 149633667,
+      "response": {
+        "ref": 57900990,
+        "message": "Successfully submitted to 2026 IEEE Big Data-Traffic Flow Bench"
+      },
+      "returned_at_utc": "2026-11-02T08:06:06.503015+00:00",
+      "remote": {
+        "ref": 57900990,
+        "date": "2026-11-02 08:06:04.953000",
+        "description": "TFB-20261102 candidate: Task4 geo_kl_mix_w0.5_b0.5; identical Task1-3",
+        "file_name": "submission_candidate.zip",
+        "status": "SubmissionStatus.COMPLETE",
+        "public_score": "0.78677",
+        "private_score": "",
+        "error_description": "",
+        "team_name": "JaydenWang999",
+        "url": "/submissions/57900990/57900990.raw"
+      }
+    }
+  },
+  "username": "jaydenwang999",
+  "latest_submission_snapshot": [
+    {
+      "ref": 57900990,
+      "date": "2026-11-02 08:06:04.953000",
+      "description": "TFB-20261102 candidate: Task4 geo_kl_mix_w0.5_b0.5; identical Task1-3",
+      "file_name": "submission_candidate.zip",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.78677",
+      "private_score": "",
+      "error_description": "",
+      "team_name": "JaydenWang999",
+      "url": "/submissions/57900990/57900990.raw"
+    },
+    {
+      "ref": 57900964,
+      "date": "2026-11-02 08:05:30.660000",
+      "description": "TFB-20261102 baseline: official frozen Task4; identical latest Task1-3",
+      "file_name": "submission_baseline.zip",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.81135",
+      "private_score": "",
+      "error_description": "",
+      "team_name": "JaydenWang999",
+      "url": "/submissions/57900964/57900964.raw"
+    }
+  ],
+  "limits": {
+    "num_today": 2,
+    "num_total": 2,
+    "num_allowed_now": 3,
+    "limited_by_total": false
+  },
+  "authenticated": true,
+  "updated_at_utc": "2026-11-02T08:07:15.679636+00:00",
+  "comparison": {
+    "baseline_public_score": 0.81135,
+    "candidate_public_score": 0.78677,
+    "total_score_delta": -0.02458,
+    "relative_change_percent": -3.029518703395584,
+    "task4_weight": 0.2,
+    "implied_task4_score_delta": -0.1229,
+    "non_task4_rows_byte_identical": true,
+    "winner": "baseline",
+    "note": "Public leaderboard comparison only; Task4 delta assumes published 20% weight and additive total metric."
+  },
+  "recommended_variant": "baseline",
+  "recommended_archive": "submission_baseline.zip",
+  "candidate_beats_baseline": false,
+  "scoring_spec_url": "https://github.com/jacky850/trafficflowbench-public/blob/main/docs/SCORING_SPEC.md"
+}

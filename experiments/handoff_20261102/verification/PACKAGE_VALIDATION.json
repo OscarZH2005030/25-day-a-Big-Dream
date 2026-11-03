@@ -1,0 +1,17 @@
+{
+  "checked_on_original_machine": true,
+  "target_new_machine_not_tested": true,
+  "no_kaggle_submission": true,
+  "portable_environment_imports_passed": true,
+  "Task1_relocated_prediction_rows": 5884,
+  "Task1_prediction_max_abs_difference": [
+    0.0,
+    0.0
+  ],
+  "Task2_smoke_rows": 34800,
+  "Task4_baseline_comparisons": 20,
+  "diagnostic_targets": 697070,
+  "diagnostic_days": 60,
+  "diagnostic_transition_rows": 890611,
+  "note": "GPU/driver on destination still must be checked; full payload hashes and archive CRC are verified separately."
+}

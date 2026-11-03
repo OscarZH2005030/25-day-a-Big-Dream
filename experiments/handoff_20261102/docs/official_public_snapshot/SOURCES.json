@@ -1,0 +1,31 @@
+{
+  "captured_at_utc": "2026-11-03T02:02:24.4682888Z",
+  "note": "Public repository snapshot only; not the private Kaggle evaluator, hidden labels or boundary flux. Existing release contract remains authoritative for supplied data.",
+  "files": [
+    {
+      "file": "SCORING_SPEC.md",
+      "source": "https://raw.githubusercontent.com/jacky850/trafficflowbench-public/main/docs/SCORING_SPEC.md",
+      "sha256": "41c165765ec25ce6ac47e2f6dde61021587a71f239fdfdf13bf87e89ed260d7a"
+    },
+    {
+      "file": "TASK3_LWR_COVERAGE_MODES.md",
+      "source": "https://raw.githubusercontent.com/jacky850/trafficflowbench-public/main/docs/TASK3_LWR_COVERAGE_MODES.md",
+      "sha256": "10b82ac55046d08efaccd294db67fef1bf95fda60618661db2921b7ca7afe71a"
+    },
+    {
+      "file": "score_task3.py",
+      "source": "https://raw.githubusercontent.com/jacky850/trafficflowbench-public/main/src/task3/score_task3.py",
+      "sha256": "98d88b6e7f6b7bb0e2bbb4b42e486d6690b6f14a5d3625649e85ddf828550409"
+    },
+    {
+      "file": "score_task4.py",
+      "source": "https://raw.githubusercontent.com/jacky850/trafficflowbench-public/main/src/task4/score_task4.py",
+      "sha256": "be15d732438d305e3d35cb41d3105fc03e3fb9459e5c050af39fe192cede30e3"
+    },
+    {
+      "file": "README.md",
+      "source": "https://raw.githubusercontent.com/jacky850/trafficflowbench-public/main/README.md",
+      "sha256": "999df93a5b28a7a26913705a54178444e11e4a25faafb303044b351e04c6390e"
+    }
+  ]
+}

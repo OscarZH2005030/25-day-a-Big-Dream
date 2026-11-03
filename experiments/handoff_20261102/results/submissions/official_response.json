@@ -1,0 +1,211 @@
+{
+  "format_note": "Official Kaggle SDK response properties; date and enum properties are serialized as strings. Empty SDK properties do not contain a published value. Upload receipts are from the original submissions. No new submission was made.",
+  "queried_at_utc": "2026-11-02T08:32:38.626091+00:00",
+  "competition": "2026-ieee-big-data-traffic-flow-bench",
+  "original_upload_receipts": {
+    "baseline": {
+      "ref": 57900964,
+      "message": "Successfully submitted to 2026 IEEE Big Data-Traffic Flow Bench"
+    },
+    "candidate": {
+      "ref": 57900990,
+      "message": "Successfully submitted to 2026 IEEE Big Data-Traffic Flow Bench"
+    }
+  },
+  "submission_details": {
+    "baseline": {
+      "ref": 57900964,
+      "total_bytes": 149212646,
+      "date": "2026-11-02 08:05:30.660000",
+      "description": "TFB-20261102 baseline: official frozen Task4; identical latest Task1-3",
+      "error_description": "",
+      "file_name": "submission_baseline.zip",
+      "public_score": "0.81135",
+      "private_score": "",
+      "status": "SubmissionStatus.COMPLETE",
+      "submitted_by": "jaydenwang999",
+      "submitted_by_ref": "jaydenwang999",
+      "team_name": "JaydenWang999",
+      "url": "/submissions/57900964/57900964.raw"
+    },
+    "candidate": {
+      "ref": 57900990,
+      "total_bytes": 149633667,
+      "date": "2026-11-02 08:06:04.953000",
+      "description": "TFB-20261102 candidate: Task4 geo_kl_mix_w0.5_b0.5; identical Task1-3",
+      "error_description": "",
+      "file_name": "submission_candidate.zip",
+      "public_score": "0.78677",
+      "private_score": "",
+      "status": "SubmissionStatus.COMPLETE",
+      "submitted_by": "jaydenwang999",
+      "submitted_by_ref": "jaydenwang999",
+      "team_name": "JaydenWang999",
+      "url": "/submissions/57900990/57900990.raw"
+    }
+  },
+  "submission_list": [
+    {
+      "ref": 57900990,
+      "total_bytes": 149633667,
+      "date": "2026-11-02 08:06:04.953000",
+      "description": "TFB-20261102 candidate: Task4 geo_kl_mix_w0.5_b0.5; identical Task1-3",
+      "error_description": "",
+      "file_name": "submission_candidate.zip",
+      "public_score": "0.78677",
+      "private_score": "",
+      "status": "SubmissionStatus.COMPLETE",
+      "submitted_by": "jaydenwang999",
+      "submitted_by_ref": "jaydenwang999",
+      "team_name": "JaydenWang999",
+      "url": "/submissions/57900990/57900990.raw"
+    },
+    {
+      "ref": 57900964,
+      "total_bytes": 149212646,
+      "date": "2026-11-02 08:05:30.660000",
+      "description": "TFB-20261102 baseline: official frozen Task4; identical latest Task1-3",
+      "error_description": "",
+      "file_name": "submission_baseline.zip",
+      "public_score": "0.81135",
+      "private_score": "",
+      "status": "SubmissionStatus.COMPLETE",
+      "submitted_by": "jaydenwang999",
+      "submitted_by_ref": "jaydenwang999",
+      "team_name": "JaydenWang999",
+      "url": "/submissions/57900964/57900964.raw"
+    }
+  ],
+  "submission_limits": {
+    "num_today": 2,
+    "num_total": 2,
+    "num_allowed_now": 3,
+    "limited_by_total": false
+  },
+  "leaderboard": {
+    "requested_page_size": 20,
+    "has_more_pages": true,
+    "entries": [
+      {
+        "team_id": 16922631,
+        "team_name": "Max Pollard",
+        "submission_date": "2026-11-02 08:05:23.946000",
+        "score": "0.93115"
+      },
+      {
+        "team_id": 17027267,
+        "team_name": "tyz123456",
+        "submission_date": "2026-11-02 05:51:53.343000",
+        "score": "0.92675"
+      },
+      {
+        "team_id": 16840508,
+        "team_name": "Pardheev Krishna",
+        "submission_date": "2026-09-12 04:43:21.796000",
+        "score": "0.92406"
+      },
+      {
+        "team_id": 16848392,
+        "team_name": "Musa Peker",
+        "submission_date": "2026-10-27 21:16:07.423000",
+        "score": "0.92226"
+      },
+      {
+        "team_id": 17034479,
+        "team_name": "Ashkan Zare",
+        "submission_date": "2026-11-02 07:31:23.140000",
+        "score": "0.92184"
+      },
+      {
+        "team_id": 16843699,
+        "team_name": "Jason Karpeles",
+        "submission_date": "2026-09-19 02:21:08.983000",
+        "score": "0.91665"
+      },
+      {
+        "team_id": 16845890,
+        "team_name": "Kushal Khemani",
+        "submission_date": "2026-09-10 09:35:43.820000",
+        "score": "0.91004"
+      },
+      {
+        "team_id": 16919563,
+        "team_name": "Lukas",
+        "submission_date": "2026-11-02 00:36:10.150000",
+        "score": "0.90985"
+      },
+      {
+        "team_id": 17124482,
+        "team_name": "TrinhDung16",
+        "submission_date": "2026-11-02 00:18:04.870000",
+        "score": "0.90793"
+      },
+      {
+        "team_id": 16957205,
+        "team_name": "Amin Mohamed",
+        "submission_date": "2026-10-20 05:09:12.443000",
+        "score": "0.90494"
+      },
+      {
+        "team_id": 17039006,
+        "team_name": "vacucity",
+        "submission_date": "2026-11-01 02:29:11.513000",
+        "score": "0.90336"
+      },
+      {
+        "team_id": 16855651,
+        "team_name": "Anton",
+        "submission_date": "2026-10-28 23:04:16.790000",
+        "score": "0.90303"
+      },
+      {
+        "team_id": 16933675,
+        "team_name": "D,rive",
+        "submission_date": "2026-11-02 03:00:57.903000",
+        "score": "0.90235"
+      },
+      {
+        "team_id": 17026504,
+        "team_name": "vc-nte",
+        "submission_date": "2026-10-29 05:15:56.046000",
+        "score": "0.90213"
+      },
+      {
+        "team_id": 16933260,
+        "team_name": "minjae Kim",
+        "submission_date": "2026-11-02 01:59:05.996000",
+        "score": "0.90198"
+      },
+      {
+        "team_id": 16880029,
+        "team_name": "takaito",
+        "submission_date": "2026-11-02 00:11:10.300000",
+        "score": "0.90090"
+      },
+      {
+        "team_id": 16978196,
+        "team_name": "Danielaijdkx",
+        "submission_date": "2026-11-02 00:12:33.593000",
+        "score": "0.90041"
+      },
+      {
+        "team_id": 17037518,
+        "team_name": "tellurium_rrr",
+        "submission_date": "2026-11-02 00:02:42.270000",
+        "score": "0.89942"
+      },
+      {
+        "team_id": 16947074,
+        "team_name": "KimMyeonghyeon",
+        "submission_date": "2026-10-31 14:59:49.576000",
+        "score": "0.89921"
+      },
+      {
+        "team_id": 16976307,
+        "team_name": "thisray",
+        "submission_date": "2026-11-01 22:50:36.116000",
+        "score": "0.89875"
+      }
+    ]
+  }
+}

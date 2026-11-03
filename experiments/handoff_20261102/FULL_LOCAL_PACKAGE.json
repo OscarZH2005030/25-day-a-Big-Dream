@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "archive": "TFB_20261102.zip",
+  "archive_bytes": 16015015925,
+  "archive_sha256": "0044b1b4f72d6c9e60d6aab3522f4f4295d4f4945f1024c9c6cae93ad222e209",
+  "archive_crc_all_members_passed": true,
+  "archive_members": 39890,
+  "payload_bytes": 24442236663,
+  "payload_files": 39888,
+  "original_release_hashes_verified": 5540,
+  "elapsed_s": 478.8,
+  "target": "Windows x64; portable Python and ML runtime; compatible NVIDIA driver still required for CUDA"
+}

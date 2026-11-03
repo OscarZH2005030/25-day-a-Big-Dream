@@ -1,0 +1,186 @@
+[
+  {
+    "category": "CPython DLLs",
+    "source": "C:\\Users\\wjc35\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs",
+    "destination": "runtime\\python\\DLLs",
+    "files": 37,
+    "bytes": 18504048,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "CPython Lib",
+    "source": "C:\\Users\\wjc35\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib",
+    "destination": "runtime\\python\\Lib",
+    "files": 738,
+    "bytes": 14240268,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "CPython include",
+    "source": "C:\\Users\\wjc35\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\include",
+    "destination": "runtime\\python\\include",
+    "files": 214,
+    "bytes": 1254634,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "CPython libs",
+    "source": "C:\\Users\\wjc35\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\libs",
+    "destination": "runtime\\python\\libs",
+    "files": 34,
+    "bytes": 728836,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "CPython tcl",
+    "source": "C:\\Users\\wjc35\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\tcl",
+    "destination": "runtime\\python\\tcl",
+    "files": 1265,
+    "bytes": 7121519,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Exact installed ML packages",
+    "source": "C:\\Users\\wjc35\\Desktop\\UW\\IEEE比赛\\.venv-t1-r943\\Lib\\site-packages",
+    "destination": "runtime\\python\\Lib\\site-packages",
+    "files": 22414,
+    "bytes": 4875646166,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Selected submission source and released weights",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\traffic_submission_source_20261101",
+    "destination": "project",
+    "files": 1654,
+    "bytes": 1011870141,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Complete public release including all three splits",
+    "source": "C:\\Users\\wjc35\\Desktop\\UW\\IEEE比赛\\kaggle_public",
+    "destination": "data\\kaggle_public",
+    "files": 9688,
+    "bytes": 12387782323,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Actual inference caches, R127 dependency and complete submissions",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\tfb_submit",
+    "destination": "work\\tfb_submit",
+    "files": 2075,
+    "bytes": 4475516449,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Desktop final submission and official receipts",
+    "source": "C:\\Users\\wjc35\\Desktop\\UW\\IEEE比赛\\final_submission_20261101_001",
+    "destination": "submissions",
+    "files": 19,
+    "bytes": 1091331618,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_bounded_span_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_bounded_span_20261102",
+    "destination": "research\\task4_bounded_span_20261102",
+    "files": 84,
+    "bytes": 5887851,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_correlated_prior_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_correlated_prior_20261102",
+    "destination": "research\\task4_correlated_prior_20261102",
+    "files": 281,
+    "bytes": 10647328,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_extended_20261101",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_extended_20261101",
+    "destination": "research\\task4_extended_20261101",
+    "files": 110,
+    "bytes": 108451149,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_improve_20261101",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_improve_20261101",
+    "destination": "research\\task4_improve_20261101",
+    "files": 138,
+    "bytes": 32672442,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_literature_review_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_literature_review_20261102",
+    "destination": "research\\task4_literature_review_20261102",
+    "files": 5,
+    "bytes": 89864,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_mechanism_audit_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_mechanism_audit_20261102",
+    "destination": "research\\task4_mechanism_audit_20261102",
+    "files": 26,
+    "bytes": 246453,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_reassessment_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_reassessment_20261102",
+    "destination": "research\\task4_reassessment_20261102",
+    "files": 94,
+    "bytes": 7825781,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_review_20261101",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_review_20261101",
+    "destination": "research\\task4_review_20261101",
+    "files": 1,
+    "bytes": 17809,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_single_period_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_single_period_20261102",
+    "destination": "research\\task4_single_period_20261102",
+    "files": 92,
+    "bytes": 16976009,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Existing Task4 research snapshot: task4_span_error_audit_20261102",
+    "source": "C:\\Users\\wjc35\\Documents\\New project\\staging\\task4_span_error_audit_20261102",
+    "destination": "research\\task4_span_error_audit_20261102",
+    "files": 71,
+    "bytes": 4455186,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Different retrained checkpoint (NOT the submitted weights)",
+    "source": "C:\\Users\\wjc35\\Desktop\\UW\\IEEE比赛\\task1_r943_reproduce_20261101_001\\work\\trained-bundle",
+    "destination": "archives\\retrained_task1\\work\\trained-bundle",
+    "files": 59,
+    "bytes": 80194140,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Different retrained checkpoint holdout predictions",
+    "source": "C:\\Users\\wjc35\\Desktop\\UW\\IEEE比赛\\task1_r943_reproduce_20261101_001\\work\\evaluation",
+    "destination": "archives\\retrained_task1\\work\\evaluation",
+    "files": 552,
+    "bytes": 124593178,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  },
+  {
+    "category": "Retraining process logs",
+    "source": "C:\\Users\\wjc35\\Desktop\\UW\\IEEE比赛\\task1_r943_reproduce_20261101_001\\work\\logs",
+    "destination": "archives\\retrained_task1\\work\\logs",
+    "files": 11,
+    "bytes": 2064869,
+    "source_capture": "copy2; source size and mtime stable during copy"
+  }
+]

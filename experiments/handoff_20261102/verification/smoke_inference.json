@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "device": "cuda",
+  "panel": "D12_I405_N",
+  "date": "2031-03-01",
+  "rows": 5884,
+  "max_abs_difference_by_channel": [
+    0.0,
+    0.0
+  ],
+  "comparison": "rtol=1e-5, atol=5e-4; no training or submission"
+}

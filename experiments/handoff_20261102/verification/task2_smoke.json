@@ -1,0 +1,218 @@
+{
+  "passed": true,
+  "rows_by_split": {
+    "validation": 17400,
+    "private": 17400
+  },
+  "total_rows": 34800,
+  "complete_official_templates": false,
+  "published_horizon_files_verified": 172,
+  "source_repository": "chengweiliu669-pixel/25-day-a-Big-Dream-submission",
+  "source_commit": "d4a4810cf4add1cec039878eb87b9ae48c684b73",
+  "future_label_causality_checks": [
+    {
+      "panel": "D7_I10_E",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "validation",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "validation",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "private",
+      "condition": 0,
+      "future_label_mutation_no_effect": true
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "private",
+      "condition": 1,
+      "future_label_mutation_no_effect": true
+    }
+  ],
+  "no_Task1_predictions_used": true,
+  "no_new_training_or_threshold_selection": true,
+  "official_S_queue": null,
+  "source_signature": {
+    "horizon_profile_sha256": "5fe6a9beb14b218b3f5c2624d11b3eef56ebb381b53eec90206761906901b20c",
+    "horizon_manifest_sha256": "fd20ef260ae800c06f6945f3230d6d382c827a88174c12dd937a684bbcc76cde",
+    "r127_manifest_sha256": "3feb65ac98d83d49b9c05a81001a0304a0272dfaf51a8ec12f4995bfff9a2472",
+    "exporter_sha256": "4305091fa84f9dff62c7834a8c8d570d9f9e9d49d973d4f5304924af4c0a8c6f",
+    "data_root": "C:\\Users\\wjc35\\Documents\\New project\\handoff\\TFB_20261102\\data\\kaggle_public",
+    "smoke": true
+  },
+  "seconds": 16.2106192111969
+}

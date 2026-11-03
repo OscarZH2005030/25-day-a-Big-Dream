@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "comparisons": [
+    {
+      "panel": "D12_I405_N",
+      "split": "validation",
+      "rows": 903,
+      "max_abs_difference": 3.126388037344441e-13
+    },
+    {
+      "panel": "D12_I405_N",
+      "split": "private",
+      "rows": 903,
+      "max_abs_difference": 4.263256414560601e-13
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "validation",
+      "rows": 630,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D12_I405_S",
+      "split": "private",
+      "rows": 630,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "validation",
+      "rows": 4278,
+      "max_abs_difference": 2.7000623958883807e-13
+    },
+    {
+      "panel": "D12_I5_N",
+      "split": "private",
+      "rows": 4278,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "validation",
+      "rows": 5050,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D12_I5_S",
+      "split": "private",
+      "rows": 5050,
+      "max_abs_difference": 4.547473508864641e-13
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "validation",
+      "rows": 4278,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D7_I10_E",
+      "split": "private",
+      "rows": 4278,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "validation",
+      "rows": 5050,
+      "max_abs_difference": 3.410605131648481e-13
+    },
+    {
+      "panel": "D7_I10_W",
+      "split": "private",
+      "rows": 5050,
+      "max_abs_difference": 1.2079226507921703e-13
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "validation",
+      "rows": 2628,
+      "max_abs_difference": 3.694822225952521e-13
+    },
+    {
+      "panel": "D7_I210_E",
+      "split": "private",
+      "rows": 2628,
+      "max_abs_difference": 4.263256414560601e-13
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "validation",
+      "rows": 3321,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D7_I210_W",
+      "split": "private",
+      "rows": 3321,
+      "max_abs_difference": 4.547473508864641e-13
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "validation",
+      "rows": 4560,
+      "max_abs_difference": 4.547473508864641e-13
+    },
+    {
+      "panel": "D7_I405_N",
+      "split": "private",
+      "rows": 4560,
+      "max_abs_difference": 2.8421709430404007e-13
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "validation",
+      "rows": 4656,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    {
+      "panel": "D7_I405_S",
+      "split": "private",
+      "rows": 4656,
+      "max_abs_difference": 2.2737367544323206e-13
+    }
+  ],
+  "scope": "Released-input baseline equality only; not hidden path labels or official Task4 score."
+}

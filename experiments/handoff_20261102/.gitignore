@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+local_reports/
+new_runs/
+kaggle_public/
+*.part[0-9][0-9][0-9]
+*.zip

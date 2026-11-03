@@ -1,0 +1,58 @@
+{
+  "release_tag": "handoff-windows-20261102-081135",
+  "release_visibility": "draft; contains raw competition inputs; keep accessible to authorized repository collaborators only",
+  "archive_name": "TFB_20261102.zip",
+  "archive_bytes": 16015015925,
+  "archive_sha256": "0044b1b4f72d6c9e60d6aab3522f4f4295d4f4945f1024c9c6cae93ad222e209",
+  "parts": [
+    {
+      "name": "TFB_20261102.zip.part001",
+      "bytes": 2000000000,
+      "sha256": "ea0b070aeec075ed1e97ebe14d3c06ddd5b02ef941a0542487d97ad841cd8e89"
+    },
+    {
+      "name": "TFB_20261102.zip.part002",
+      "bytes": 2000000000,
+      "sha256": "11e9f70ba0fed281ff9cf30277a3dc40523422c8409a36f376708f5a5f3d59c0"
+    },
+    {
+      "name": "TFB_20261102.zip.part003",
+      "bytes": 2000000000,
+      "sha256": "039ca4094aff8c4ad8033fe32366e31751248bceb9b13f1ee28934aec7f6f700"
+    },
+    {
+      "name": "TFB_20261102.zip.part004",
+      "bytes": 2000000000,
+      "sha256": "d1ffddfeb2c19f54cdef665e8d602cd8e22c1c8b121e083b3b451dc6558d2481"
+    },
+    {
+      "name": "TFB_20261102.zip.part005",
+      "bytes": 2000000000,
+      "sha256": "a6811fea79c19486deb42cb5c00481595db802a8b3749e63a0ffa1bb16ec7499"
+    },
+    {
+      "name": "TFB_20261102.zip.part006",
+      "bytes": 2000000000,
+      "sha256": "a5301ed070e1714d5616afc7d3c364e6781cd0b3adfedbecad5587c2ed08fe8c"
+    },
+    {
+      "name": "TFB_20261102.zip.part007",
+      "bytes": 2000000000,
+      "sha256": "325168c890f42d2a8db4d7d22a0bef64ad9dee233bbc55e0db20db06c64d7b29"
+    },
+    {
+      "name": "TFB_20261102.zip.part008",
+      "bytes": 2000000000,
+      "sha256": "896ee74d40a7ef9b1ab901b5920a1a57056a6a17f12970d7d885b0fe778be5ad"
+    },
+    {
+      "name": "TFB_20261102.zip.part009",
+      "bytes": 15015925,
+      "sha256": "739ebd31df68a508d6bb0ffccbb4a1324d10439b1d322fccb9ccf5e82ac9b3db"
+    }
+  ],
+  "part_size_limit_bytes": 2000000000,
+  "reassembly": "Concatenate parts in listed order, verify archive SHA256, then extract.",
+  "no_credentials_included": true,
+  "no_kaggle_submission": true
+}

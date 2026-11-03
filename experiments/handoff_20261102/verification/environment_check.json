@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\wjc35\\Documents\\New project\\handoff\\TFB_20261102\\runtime\\python\\python.exe",
+  "prefix": "C:\\Users\\wjc35\\Documents\\New project\\handoff\\TFB_20261102\\runtime\\python",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.0",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.9.1+cu128"
+  },
+  "cuda_available": true,
+  "torch_cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "gpu_memory_GiB": 7.99560546875,
+  "cuda_matmul_passed": true,
+  "errors": [],
+  "passed": true
+}
