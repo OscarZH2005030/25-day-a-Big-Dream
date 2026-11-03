@@ -1,0 +1,10 @@
+{
+  "scope": "Posthoc same-case direction comparison. No threshold tuning or fresh validation.",
+  "design": "Scale default-tie direction to the full minimum-move tie L1 length. Preserve all non-OD components. The scaled default endpoint need not retain the optimal primary objective.",
+  "fractions": [
+    0.05,
+    1.0
+  ],
+  "source_sha256": "a63acd1d3c83c393de4a10370d2c07659b2df0a2747d294789647ea190ff80dc",
+  "case_table_sha256": "95d9e69ced0a2bdcec04debf9d51a6807940364cef1c805fcf4893b3e374a0a6"
+}
