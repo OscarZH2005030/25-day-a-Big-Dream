@@ -1,0 +1,19 @@
+{
+  "registered_utc": "2026-11-03T02:43:05.140761+00:00",
+  "seed": 2026110316,
+  "folds": 5,
+  "hypothesis": "Initial cross-month pair feature predicts held-out public priors beyond span, but might only capture shared origin/destination margins. Residualize both source and target geometry against span plus origin/destination effects, retain shuffled-pair control.",
+  "models": [
+    "geometry",
+    "geometry_pair",
+    "geometry_shuffled_pair"
+  ],
+  "geometry": "Same fixed span spline plus full origin/destination one-hot, ridge1, unpenalized intercept.",
+  "source": "Other two public months only, each normalized by its positive median; mean source minus ridge1 geometry fit to source values. No target held-out values in features.",
+  "negative_control": "Fixed permutation of source residual within ten normalized-span bins.",
+  "target_scale": "Positive target-prior training-fold median only.",
+  "evaluation": "All three public months, five fixed shuffled OD-entry folds; outcomes are supplied weak-prior entries, never true OD. Follow-up on already exposed data, not independent whole-system validation.",
+  "source_sha256": "defa21f532ab438adf5d2af652f2ee20aa5d27ce2a4699f5b3fa69f59b3398b3",
+  "feature_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "scope": "Even repeatable pair signal could be common synthetic noise; no actual OD candidate, official baseline unchanged, no Kaggle upload."
+}

@@ -1,0 +1,25 @@
+{
+  "registered_utc": "2026-11-03T02:39:58.148578+00:00",
+  "hypothesis": "Counts leave OD pairings ambiguous; other public months might contain stable pair-specific prior signal beyond geometry. Test held-out target-prior entries against a within-span-bin shuffled source control before considering cross-month denoising.",
+  "seed": 2026110315,
+  "folds": 5,
+  "targets": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "source_rule": "For each target month use only the other two PUBLIC weak-prior vectors. Independently scale each source by its positive median, average, remove a ridge1 span fit using source values only. Same-pair residual is a feature; never use target-month held-out values as inputs.",
+  "negative_control": "Permute the source residual within ten fixed normalized-span bins using a fixed seed. Same geometry distribution, broken exact OD-pair alignment. All models retained.",
+  "target_scale": "Median positive target prior in training fold only; all target fitting excludes held-out OD entries.",
+  "models": [
+    "global",
+    "span",
+    "span_pair",
+    "span_shuffled_pair"
+  ],
+  "ridge": 1.0,
+  "selection": "No model promotion or actual OD candidate. Same previously exposed public priors; weak-prior predictability is not true OD or official-score accuracy.",
+  "source_sha256": "eb3e13108c8fd80516f64e62030d6bf717e9146d2db368601ab0a442759c1632",
+  "feature_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "scope": "A cross-month correlation could reflect shared synthetic noise or seasonality; it cannot establish true latent OD structure. Preserve official Task4 baseline, no Kaggle upload."
+}

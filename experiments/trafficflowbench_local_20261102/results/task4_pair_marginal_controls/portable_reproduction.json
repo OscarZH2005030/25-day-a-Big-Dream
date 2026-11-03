@@ -1,0 +1,13 @@
+{
+  "all_CSV_maximum_metric_differences": {
+    "by_panel_split_fold.csv": 0.0,
+    "by_split.csv": 0.0,
+    "fold_assignment.csv": 0.0,
+    "paired_comparison.csv": 0.0,
+    "paired_summary.csv": 0.0
+  },
+  "all_model_file_hashes_identical": true,
+  "model_files": 450,
+  "runner_sha256": "71296025083830a7881ff9d7396ac2e0ca8e3c5876295036d48e921ae21c9713",
+  "scope": "Public weak-prior prediction and negative controls only; hidden OD truth unobserved."
+}

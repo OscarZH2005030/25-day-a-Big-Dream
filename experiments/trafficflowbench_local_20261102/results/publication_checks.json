@@ -22,5 +22,7 @@
   "portable_background_mean_all_table_and_model_differences_zero": true,
   "portable_span_uncertainty_four_studies_max_metric_difference": 0.0,
   "weighted_dual_solver_independent_primal_BVLS_checks": 20,
-  "OD_invariant_arbitrary_reference_checks": 200
+  "OD_invariant_arbitrary_reference_checks": 200,
+  "portable_crossmonth_pair_audits_max_metric_difference": 0.0,
+  "portable_crossmonth_pair_model_files_hashes_identical": 1050
 }
