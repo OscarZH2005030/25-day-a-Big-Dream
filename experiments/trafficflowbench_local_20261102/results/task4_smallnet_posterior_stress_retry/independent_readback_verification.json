@@ -1,0 +1,9 @@
+{
+  "cases": 96,
+  "converged_cases": 95,
+  "metric_max_abs_error": 1.1102230246251565e-16,
+  "all_artifact_hashes_checked": true,
+  "all_draws_nonnegative_and_count_conserving": true,
+  "verifier_sha256": "6bc22ef19785bd8263bd75ecddc2b0e63f6872ade7b93d990adb3768180c7eae",
+  "scope": "Synthetic known-latent results only; no hidden OD validation."
+}

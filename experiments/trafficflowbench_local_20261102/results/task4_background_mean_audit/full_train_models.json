@@ -1,0 +1,46 @@
+{
+  "models": {
+    "zero": {
+      "model": "zero",
+      "scale_beta": 0.0,
+      "path_background_gamma": 0.0,
+      "variance": 0.07908819910666942,
+      "train_NLL_per_dimension": -1.1640985540509332,
+      "success": true,
+      "message": "Zero mean fixed",
+      "two_component_design_condition": 4.788186176387667
+    },
+    "scale": {
+      "model": "scale",
+      "scale_beta": -0.16443908972830704,
+      "path_background_gamma": 0.0,
+      "variance": 0.07692532181886222,
+      "train_NLL_per_dimension": -1.1779628387282863,
+      "success": true,
+      "message": "The unconstrained solution is optimal.",
+      "two_component_design_condition": 4.788186176387667
+    },
+    "background": {
+      "model": "background",
+      "scale_beta": 0.0,
+      "path_background_gamma": -0.08094166182277424,
+      "variance": 0.07768816126586824,
+      "train_NLL_per_dimension": -1.1730289505461302,
+      "success": true,
+      "message": "The unconstrained solution is optimal.",
+      "two_component_design_condition": 4.788186176387667
+    },
+    "scale_background": {
+      "model": "scale_background",
+      "scale_beta": -0.13114684562658788,
+      "path_background_gamma": -0.03857197542752323,
+      "variance": 0.0766960420644461,
+      "train_NLL_per_dimension": -1.1794553389825795,
+      "success": true,
+      "message": "The unconstrained solution is optimal.",
+      "two_component_design_condition": 4.788186176387667
+    }
+  },
+  "frozen_utc": "2026-11-03T02:11:52.080925+00:00",
+  "protocol_sha256": "714205b41f36ae16ab5a712b557a75c9d26bac2c3b652a5bcfbfce98256e858a"
+}

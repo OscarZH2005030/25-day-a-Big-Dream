@@ -1,0 +1,11 @@
+{
+  "maximum_metric_absolute_errors": {
+    "family_cv_by_panel.csv": 0.0,
+    "family_cv_summary.csv": 0.0,
+    "transfer_by_panel.csv": 0.0,
+    "transfer_summary.csv": 0.0
+  },
+  "all_rows_and_models_compared": true,
+  "verifier_sha256": "85bdb13fb434ba510b6315477c5a764a26bf84908ddab566859413eeafdb20d0",
+  "scope": "Public count residual model checks only; no hidden OD scoring."
+}

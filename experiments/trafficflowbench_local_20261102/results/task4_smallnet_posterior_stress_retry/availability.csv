@@ -1,0 +1,8 @@
+method,total_cases,action_available,converged_cases
+baseline,96,96,95
+median,96,95,95
+posterior_mean,96,95,95
+projected_median,96,95,95
+projected_relative_L1_median,96,95,95
+relative_L1_median,96,95,95
+weak_prior,96,96,95

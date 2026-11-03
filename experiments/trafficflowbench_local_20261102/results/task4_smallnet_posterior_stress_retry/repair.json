@@ -1,0 +1,9 @@
+{
+  "reason": "Windows reader temporarily denied atomic status replacement; bounded PermissionError retry and unique temp filenames added.",
+  "old_results_protocol_sha256": "32fe75cb56920d779a93598fd38aaea96bd1f280426ad0d0ca55394ea34bcbb0",
+  "old_source_snapshot_sha256": "14da8018c4804cb5d058b60ac916fbc3d6c82a052bf29ec757fbb03cc1f9d870",
+  "new_source_sha256": "1ece0dc8a674f829e0068e2a899a8a1cbfdef8d6664228023260918e45f1cb63",
+  "resume": "Completed seven-method cases with saved diagnostics are skipped, all earlier outcomes retained. Incomplete cases rerun from the same case seed.",
+  "scientific_protocol_unchanged": true,
+  "IO_test_sha256": "548dcde13f279f05ee7d7f2208d49cb010feb0f07a3225d8fbedc1e8555168a6"
+}

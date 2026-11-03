@@ -165,6 +165,10 @@ python task4/sample_count_posterior.py --release-root /path/to/kaggle_public --o
 
 `results/task4_gaussian_posterior_pilot/`、`results/task4_posterior_longrun/`保存正负诊断和指纹，不上传大规模抽样轨迹。`results/task4_candidate_sensitivity/`另记录研究性5%预览的可见量及显式假设计数兼容下的Lipschitz变化界；不是隐藏评分或统计置信区间。Windows临时状态读锁曾中断小网络试验，原记录保留，增加唯一临时文件和有界重试后按相同案例种子续跑，没有改科学参数。
 
+### 后验决策压力与背景均值的负结果
+
+[完整结果、配对分母与独立复现入口](task4/POSTERIOR_LIMITS.md)：96个人工案例中95例通过收敛门槛，但后验均值相对基准仍有51例人工综合退步，平均差-0.060776。匹配Gaussian假设的控制改善不能代替真实OD验证。公开train五走廊留出也未支持直接扣路径背景：零均值预测NLL优于训练拟合的缩放/背景项。保留全部方法、失败和官方冻结基准。
+
 ## 证据和复现范围
 
 - `results/`：登记协议、种子、逐道路/日期的聚合结果、数据/模型哈希、失败与导出验收。没有原始竞赛观测或逐单元训练真值。

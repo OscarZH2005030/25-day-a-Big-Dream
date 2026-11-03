@@ -16,5 +16,8 @@
   "portable_720_case_span_stress_max_metric_difference": 0.0,
   "portable_1440_case_observable_gate_max_metric_difference": 0.0,
   "portable_posterior_longrun_max_diagnostic_difference": 0.0,
-  "portable_posterior_longrun_draw_sha256_matches": true
+  "portable_posterior_longrun_draw_sha256_matches": true,
+  "portable_96_case_posterior_stress_max_metric_difference": 0.0,
+  "portable_96_case_posterior_stress_all_sample_hashes_identical": true,
+  "portable_background_mean_all_table_and_model_differences_zero": true
 }

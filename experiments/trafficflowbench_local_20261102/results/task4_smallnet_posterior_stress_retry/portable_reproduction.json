@@ -1,0 +1,9 @@
+{
+  "cases": 96,
+  "rows": 672,
+  "all_sample_artifact_hashes_identical": true,
+  "all_convergence_and_availability_flags_identical": true,
+  "maximum_metric_absolute_error": 0.0,
+  "runner_sha256": "ba416b9148ead2e44579b5650c4f4aacf9e862205c5a5c6695af8aaeba877698",
+  "scope": "Reproducibility of artificial negative results; not official OD validation."
+}

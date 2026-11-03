@@ -1,0 +1,42 @@
+{
+  "registered_utc": "2026-11-03T02:03:21.120940+00:00",
+  "hypothesis": "A converged conditional posterior is not necessarily a correct model; compare loss-motivated mean/median decisions against KNOWN artificial latent flows under matched and misspecified assumptions.",
+  "seed": 2026110311,
+  "network_nodes": [
+    6,
+    9
+  ],
+  "scenarios": [
+    "matched_conditional",
+    "near_sparse_censored",
+    "positive_background",
+    "correlated_multiplicative"
+  ],
+  "true_noise_factors": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "replicates": 4,
+  "case_count": 96,
+  "chains": 4,
+  "burn_sweeps": 200,
+  "sample_sweeps": 800,
+  "assumed_sigma": 5.0,
+  "methods": [
+    "weak_prior",
+    "baseline",
+    "posterior_mean",
+    "median",
+    "projected_median",
+    "relative_L1_median",
+    "projected_relative_L1_median"
+  ],
+  "relative_L1_median": "Coordinate weighted median with posterior sample weights1/sum(flow), motivated by UNCLIPPED relativeL1; not claimed optimal for clipped/composite score.",
+  "matched_control": "Generate supplied b first; draw latent f* from independent nonnegative Gaussian centered at b, then c=A*f*. Only factor1 exactly matches assumed posterior. Counterexamples draw sparse/structured f* first and corrupt b with wrong noise.",
+  "convergence_gate": "Every path and global diagnostics raw split-Rhat<1.05, approximate ESS>=100. Posterior method scores are withheld if gate fails; paired comparisons only share eligible cases and failure rates are reported.",
+  "selection": "No method/assumption selection on artificial scores. All seven actions and all failure cases retained. This is not real OD validation.",
+  "source_sha256": "1ece0dc8a674f829e0068e2a899a8a1cbfdef8d6664228023260918e45f1cb63",
+  "sampler_source_sha256": "e62146d02f6511adfa2fbbda4af8943fea0abf9ea3a5f4531419ad98ef8f2314",
+  "scope": "Controlled small synthetic networks only; matched-case wins are calibration checks, not independent evidence for real traffic. Official Task4 baseline unchanged, no Kaggle upload."
+}
