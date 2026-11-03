@@ -1,0 +1,9 @@
+{
+  "actions": 120,
+  "fold_objective_checks": 200,
+  "first_absolute_objective_tolerance": 1e-07,
+  "max_objective_error": 128.0,
+  "max_objective_error_relative_to_initial": 6.156459305440895e-16,
+  "max_score_error": 1.1102230246251565e-16,
+  "source_sha256": "df27389c041981f0ac3ebe178a1975e7bb3ad54083ab87d864343ff6bfa5a538"
+}

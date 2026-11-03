@@ -1,0 +1,23 @@
+{
+  "registered_utc": "2026-11-03T06:43:55.394718+00:00",
+  "seed": 2026110332,
+  "cases": 40,
+  "truth_families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noise_families": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "shape_tv": 0.14,
+  "folds": 5,
+  "blend": 0.05,
+  "hypothesis": "Limiting large target-prior residual influence may reduce fragile cross-input forecasts.",
+  "design": "Identical squared and Huber features and folds. Ridge penalty 1 excludes intercept. Fixed eight IRLS iterations with Huber delta 1 in training-median units. No convergence or optimality claim.",
+  "scope": "New seed on previously studied artificial mechanisms. No tuning against hidden OD, blind-system or official score claim.",
+  "source_sha256": "9c605566f9ef81f55d21a1112b72aab3aae194c26def56da410777e95642b0d3",
+  "tilt_source_sha256": "570d9a00a71bf059fb093578534a338adf309b8fbfd59cdcee739e233d7255fb",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee"
+}
