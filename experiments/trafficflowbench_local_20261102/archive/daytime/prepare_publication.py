@@ -68,7 +68,7 @@ def main():
  names.extend(['task4_budgeted_source_direction'])
  names.extend(['task4_budgeted_source_path_cap'])
  names.extend(['task4_path_cap_extended'])
- names.extend(['task4_source_agreement_stress','task4_source_agreement_corruption','task4_source_agreement_common_corruption','task4_source_error_correlation'])
+ names.extend(['task4_source_agreement_stress','task4_source_agreement_corruption','task4_source_agreement_common_corruption','task4_source_error_correlation','task4_source_error_sign_symmetry'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

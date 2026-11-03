@@ -1,0 +1,8 @@
+{
+  "seed": 2026110351,
+  "source_sha256": "3fed6927c6c7b1e4453cb47205e4730feb3332823059921655bd20f1894e3172",
+  "code_sha256": "19b1eeeb7fa8cc6e284ba047859f9c586713a46eb131b8c6e615df1d8f8611f1",
+  "hypothesis": "Positive source error alignment can change OD reliability even at equal perturbation amplitude.",
+  "design": "Use the same seeded exchange in both scenarios. Cap it for feasibility under both signs in both source priors. Compare (+,+), (-,-), (+,-), and (-,+) at equal realized target movement for both rules and the clean controls. Average antipodes within each alignment group.",
+  "scope": "Reused synthetic development cases. No hidden OD evaluation."
+}
