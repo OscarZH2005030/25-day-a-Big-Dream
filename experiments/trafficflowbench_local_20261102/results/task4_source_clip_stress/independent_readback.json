@@ -1,0 +1,8 @@
+{
+  "actions": 120,
+  "fold_checks": 400,
+  "max_relative_scale_error": 0.0,
+  "max_relative_stationarity_error": 1.1215504059036727e-14,
+  "max_score_error": 1.1102230246251565e-16,
+  "source_sha256": "3e4e5aeb794aca10eaeeb251635d92a160c8e24749939dc9da5c0dc9a064e807"
+}
