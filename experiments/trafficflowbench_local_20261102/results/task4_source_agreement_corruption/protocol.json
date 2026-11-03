@@ -1,0 +1,7 @@
+{
+  "seed": 2026110350,
+  "scope": "Paired posthoc perturbation on 80 reused synthetic cases. No fresh hidden validation.",
+  "method": "Apply seeded nonnegative OD exchanges to source zero only. Limit to 0.1 source-relative L1. Preserve source gross margins and loaded counts exactly. Recompute both objectives and match the smallest movement across clean and perturbed versions.",
+  "source_sha256": "e7d7e5a8d70f0d2ebf39d00ed2604e4d8afe95f1427a7ee24faef3ad4124c474",
+  "case_table_sha256": "70bd470c0908376ac39eacd1f482485301ff4d83771e608c6d7fe20c25b32e16"
+}

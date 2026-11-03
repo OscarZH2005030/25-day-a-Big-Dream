@@ -6,7 +6,7 @@ import stress_budgeted_source_direction
 from stress_observable_gate import load
 
 
-if __name__ == '__main__':
+def main():
     stress_budgeted_source_direction.main()
     import common
     archive=Path(__file__).resolve().parents[1]/'archive/daytime'
@@ -15,3 +15,6 @@ if __name__ == '__main__':
     shutil.copy2(archive/'audit_budgeted_source_path_cap.py', common.WORK/'audit_budgeted_source_path_cap.py')
     load('audit_budgeted_source_path_cap',archive/'audit_budgeted_source_path_cap.py')
     load('registered_source_agreement',archive/'task4_source_agreement_stress.py').main()
+
+if __name__ == '__main__':
+    main()
