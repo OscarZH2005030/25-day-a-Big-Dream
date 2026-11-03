@@ -1,0 +1,7 @@
+{
+  "seed": 2026110351,
+  "scope": "Paired posthoc perturbation on 80 reused synthetic cases. No fresh hidden validation.",
+  "method": "Draw a common OD exchange from the elementwise minimum of both source priors and apply the same exchange to both. Cap relative L1 at 0.1 of the smaller source total. Preserve both sources gross margins and loaded counts exactly. Recompute both objectives and match the smallest movement across clean and perturbed versions.",
+  "source_sha256": "43c53582d8367a187cc448887378caf4334bc7a7c52972d2fb41e2a396babbe5",
+  "case_table_sha256": "70bd470c0908376ac39eacd1f482485301ff4d83771e608c6d7fe20c25b32e16"
+}
