@@ -27,5 +27,8 @@
   "portable_crossmonth_pair_model_files_hashes_identical": 1050,
   "portable_shared_noise_960_case_max_metric_difference": 0.0,
   "portable_shared_noise_4800_method_artifact_hashes_identical": true,
-  "independent_augmented_QR_vs_SVD_case_checks": 20
+  "independent_augmented_QR_vs_SVD_case_checks": 20,
+  "portable_exact_pair_and_count_alignment_max_metric_difference": 0.0,
+  "portable_exact_pair_model_hashes_identical": 600,
+  "independent_integer_count_marginal_identity_panels": 10
 }

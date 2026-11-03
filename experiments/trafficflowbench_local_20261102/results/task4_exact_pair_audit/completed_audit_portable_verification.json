@@ -1,0 +1,12 @@
+{
+  "maximum_CSV_metric_differences": {
+    "by_panel_split_fold.csv": 0.0,
+    "conditional_count_rank.csv": 0.0,
+    "fold_assignment.csv": 0.0,
+    "paired_comparison.csv": 0.0,
+    "paired_summary.csv": 0.0
+  },
+  "exact_models_hashes_identical": 600,
+  "source_sha256": "6c6290ba63fa7fd9748275f3eb31f22c65584d04c7514e1cc65e52506e6e33a0",
+  "scope": "These two completed portable audits verified while a separate subsequent synthetic study continues; no unfinished outputs used. No hidden OD validation."
+}

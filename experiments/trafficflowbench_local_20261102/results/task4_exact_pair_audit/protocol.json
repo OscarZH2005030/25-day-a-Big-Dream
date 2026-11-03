@@ -1,0 +1,14 @@
+{
+  "registered_utc": "2026-11-03T03:17:28.202113+00:00",
+  "seed": 2026110323,
+  "folds": 5,
+  "hypothesis": "Count-source adjustment might only alter origin/destination effects; prior ridge1 marginal controls were not an exact orthogonal removal. Audit conditional count rank and isolate exact geometry-orthogonal cross-input information.",
+  "counts": "Union all three Task4 incidence row sets; compare their span with exact origin/destination marginal row space. No hidden truth used.",
+  "features": "Same source priors and same target folds for geometry baseline, ridge1-source pair, exactly geometry-orthogonal source pair, and shuffled-then-reprojected source pair.",
+  "projection": "Pivoted QR basis of full span+origin/destination geometry with rank threshold1e-10 relative; exact source residual=(I-QQ.T)*mean normalized source prior. Within-span-bin shuffled residual reprojected into same nullspace.",
+  "target_fit": "Unchanged augmented QR ridge1, unpenalized intercept, target training-fold median only. Other two public priors as source; held-out target entries not inputs.",
+  "scope": "All inputs exposed. A regularized marginal predictor is distinct from exact interaction removal. Target is supplied weak prior, not hidden OD; all four models retained, no official candidate or Kaggle upload.",
+  "source_sha256": "1a42c330c647f0b61b5f20eb3b07599c5fd1d5041a65ea48122119f8d8f07aaf",
+  "geometry_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "numerical_source_sha256": "7425d952c2a28a8381cdf6852de82ae66444515803dda6c302f3c8dba5019a77"
+}

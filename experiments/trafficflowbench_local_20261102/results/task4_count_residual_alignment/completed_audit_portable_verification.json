@@ -1,0 +1,10 @@
+{
+  "maximum_CSV_metric_differences": {
+    "by_panel_pair.csv": 0.0,
+    "common_equation_inventory.csv": 0.0,
+    "summary.csv": 0.0
+  },
+  "exact_models_hashes_identical": null,
+  "source_sha256": "6c6290ba63fa7fd9748275f3eb31f22c65584d04c7514e1cc65e52506e6e33a0",
+  "scope": "These two completed portable audits verified while a separate subsequent synthetic study continues; no unfinished outputs used. No hidden OD validation."
+}

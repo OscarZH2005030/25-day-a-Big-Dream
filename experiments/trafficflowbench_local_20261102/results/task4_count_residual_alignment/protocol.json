@@ -1,0 +1,25 @@
+{
+  "registered_utc": "2026-11-03T03:12:14.201386+00:00",
+  "seed": 2026110322,
+  "hypothesis": "Cross-input prior predictability could partly reflect shared observable count/prior mismatches. Audit their cross-group alignment, retaining both raw and nuisance-projected comparisons; do not attribute covariance to hidden path errors without evidence.",
+  "inputs": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "alignment": "Intersect link IDs across all three Task4 count files and assert incidence row equality; QR-select one common independent equation set. No PM/mainline/ramp observations used.",
+  "residual": "(c-Ab)/median_positive(Ab) on common QR equations.",
+  "covariances": [
+    "uniform path covariance",
+    "fixed previously trained span covariance eta=6.467968852345548"
+  ],
+  "projection": [
+    "none",
+    "remove each group loaded-prior vector",
+    "remove each group loaded-prior and constant-path-background vectors"
+  ],
+  "reference": "2000 independent standard Gaussian whitened vector pairs per road/kernel/projection, with the SAME nuisance projection spaces. Conditional illustrative independent-Gaussian reference only, not a distribution-free significance test or proof of noise generation.",
+  "source_sha256": "4458950a8d573cc9d0513a1c82e1f13a3c0c70cefa9c0685eaf5d15b882e4866",
+  "model_sha256": "ef6755932a08181ebde785a84662ee9eb036a8fd1120c7ce4104318e92d81835",
+  "scope": "All public input groups previously exposed; this is an observable-space development diagnostic, not true OD identification, official score improvement or a new hard cross-group constraint. Frozen baseline unchanged, no Kaggle upload."
+}

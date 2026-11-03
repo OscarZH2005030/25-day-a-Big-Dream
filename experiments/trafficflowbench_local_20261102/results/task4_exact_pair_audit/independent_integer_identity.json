@@ -1,0 +1,67 @@
+{
+  "identity": "For every observed count row and OD(o,d): A(o,d)=A(o,last)+A(first,d)-A(first,last). Thus that row is an exact linear combination of origin/destination marginals.",
+  "panels": [
+    {
+      "panel": "D12_I405_N",
+      "path_count": 903,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "path_count": 630,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "path_count": 4278,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "path_count": 5050,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D7_I10_E",
+      "path_count": 4278,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "path_count": 5050,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "path_count": 2628,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "path_count": 3321,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "path_count": 4560,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "path_count": 4656,
+      "all_three_input_row_sets_exact_integer_identity": true,
+      "maximum_count_incidence_error": 0
+    }
+  ],
+  "source_sha256": "a63ee3dca997f9fbb0fc3e6ceda6cf8b91d7f0650f02d71568e57e989ec261af",
+  "scope": "Release-specific exact incidence identity, no hidden OD labels or floating rank tolerance required. Counts do not add pairing information conditional on all margins."
+}
