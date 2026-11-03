@@ -1,0 +1,11 @@
+{
+  "basis": "October-selected dense100 primary and dense50 secondary both confirmed on expanded November; final-fit preparation only, no new model or alpha selection",
+  "fit": "October-November new part; June-September frozen v28 reused via manifest",
+  "policy": "Same actual origin shifts -10/-5/+5/+10 minutes; bounds12..281; causal ongoing condition; actual masked labels, no shifted targets; exact original X/y/m parity",
+  "prior": "Load frozen September30 PastContext, only original roster targets update at day end; augmented targets never update priors",
+  "seed": 20261204,
+  "correlation": "Adjacent origins are correlated, not new independent dates",
+  "no_January_February": true,
+  "production_unchanged": true,
+  "Kaggle_upload": false
+}

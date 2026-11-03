@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "raw_ongoing_windows": 394,
+  "all_raw_X_parent_y_m_exact": true,
+  "all_candidate_probabilities_IoU_FP_FN_reproduced": true,
+  "causality_checks": [
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I10_E",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I10_W",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I210_E",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I210_W",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I405_N",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D7_I405_S",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D12_I5_N",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "new_phase_population",
+      "panel": "D12_I5_S",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I10_E",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I10_W",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I210_E",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I210_W",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I405_N",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D7_I405_S",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D12_I5_N",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    },
+    {
+      "population": "old410",
+      "panel": "D12_I5_S",
+      "future_y_m_speed_y_mutation_input_and_prediction_invariant": true
+    }
+  ],
+  "raw_day_arrays_hash_checked": 197,
+  "onset_hashes_unchanged": true,
+  "onset_not_newly_recomputed": true,
+  "no_default_updated": true,
+  "no_February_selection": true,
+  "official_score": null,
+  "Kaggle_upload": false
+}

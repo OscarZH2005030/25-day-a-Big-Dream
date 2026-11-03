@@ -16,7 +16,15 @@ Task4新审计：真实网络160个可行反例保持S_link、S_dev、S_attr不�
 
 后验决策的新反例：96个人工案例中95例收敛，但后验均值仍在51例损害人工综合分；跨走廊公开计数检验也不支持直接扣除路径背景。[全部固定方法、失败和复现入口](experiments/trafficflowbench_local_20261102/task4/POSTERIOR_LIMITS.md)。这些负结果用于排除不可靠改法，没有证明隐藏提分，继续保留官方基准。
 
-## Task 2 当前最高新口径代理Overall点估计：0.828148579（2026-11-01）
+## Task 2 研究候选：真实新增训练时刻，代理Overall点估计0.829591955（2026-11-02）
+
+[144份新权重、完整父链依赖、固定推理与独立原始观测验收](experiments/task2/dense_origins_082959_20261102/README.md)。October固定primary dense100，November扩展673正例窗口ongoing增益0.00769249、日聚类95%区间[0.00479242,0.01072068]；最终June–November拟合后，仅January选择平滑时距门槛，全部冻结才报告February。
+
+相同主184个ongoing窗口，新候选ongoing **0.883151597**、固定最好onset **0.776032314**、Overall **0.829591955**；相对保留生产默认FP595→628、FN470→428，有误报/漏报权衡。主ongoing增益区间[-0.00129321,0.00727883]跨零，February反复开发，**不宣称稳定或官方提分，不自动替换默认**。相同旧210个ongoing窗口Overall0.771234736。两个October固定候选都完整报告，不按November/February换primary或拼接窗口。
+
+同容量、同274输入，新增±5/10分钟真实origin并重新取公开masked标签，未平移标签；32,087个相邻相关窗口不等于新增独立日期。完整394个ongoing原始窗口X/R127/标签逐位复现、16项道路/口径未来标签扰动和两候选概率/IoU/FP/FN独立复核通过；onset仅核对冻结哈希，不冒称本轮重算全部777个onset/ongoing窗口。旧最好全部保留，无Kaggle上传或提交。
+
+## Task 2 保留生产默认：代理Overall点估计0.828148579（2026-11-01）
 
 [固定模型、一月门槛配置与原始数据复评入口](experiments/task2/best_overall_082815_smooth_20261101/README.md)
 

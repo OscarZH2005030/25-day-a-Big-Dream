@@ -1,0 +1,13 @@
+{
+  "candidates_in_fixed_October_order": [
+    "dense_100",
+    "dense_50"
+  ],
+  "primary": "dense_100",
+  "scope": "Fresh public raw observations, all184+210ongoingwindows; original onset unchanged by hash, not a new777window onset re-evaluation",
+  "no_training_selection_or_threshold_change": true,
+  "production_unchanged": true,
+  "Kaggle_upload": false,
+  "source_sha256": "2781f3c09403e00de3d1ed0209e08c3a05174c551cf6c6df26ca43e967ecc799",
+  "runtime_sha256": "9455eaf72e09686a27fc0b536e3d30efbdf829b0fce4a393e5a7b3489a2887df"
+}

@@ -1,0 +1,7 @@
+{
+  "June_September": "outputs/dense_ongoing_v28_20261102",
+  "October_November": "outputs\\dense_ongoing_final_data_v30_20261102",
+  "primary": "dense_100",
+  "secondary": "dense_50",
+  "selection": "Fixed October ranking; November confirmation only"
+}
