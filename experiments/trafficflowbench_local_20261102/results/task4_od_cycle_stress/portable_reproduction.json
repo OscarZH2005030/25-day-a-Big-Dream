@@ -1,0 +1,12 @@
+{
+  "cases": 480,
+  "method_rows": 2880,
+  "all_input_and_prediction_artifact_hashes_identical": true,
+  "maximum_CSV_metric_differences": {
+    "all_cases.csv": 0.0,
+    "paired_risk.csv": 0.0,
+    "by_assumption.csv": 0.0
+  },
+  "source_sha256": "4619bd3d0ac4c297ec275d31a70d4090616ab7282dfbe5a70831fbf3978e1a43",
+  "scope": "Fixed artificial heuristic tradeoff reproduction, not hidden OD validation."
+}

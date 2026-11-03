@@ -35,6 +35,7 @@ def main():
  names.extend(['task4_crossmonth_shared_noise_stress_qr'])
  names.extend(['task4_count_residual_alignment','task4_exact_pair_audit'])
  names.extend(['task4_count_source_pair_stress'])
+ names.extend(['task4_od_cycle_stress'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name

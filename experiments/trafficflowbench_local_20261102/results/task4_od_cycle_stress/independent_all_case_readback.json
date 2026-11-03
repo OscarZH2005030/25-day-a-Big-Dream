@@ -1,0 +1,12 @@
+{
+  "cases": 480,
+  "actions": 2880,
+  "input_and_prediction_artifact_hashes_verified": 960,
+  "independent_score_formula": "NumPy direct OD L1, count reconstruction, original-prior deviation and bincount destination TV",
+  "maximum_score_or_movement_error": 2.220446049250313e-16,
+  "maximum_constraint_drift": 7.275957614183426e-12,
+  "maximum_target_distance_readback_error": 1.8189894035458565e-12,
+  "all_L1_surrogates_nonincreasing": true,
+  "source_sha256": "1d3883367b26abe6a723ff4520257932e30af564ba1f30241b26cc86e1b595b3",
+  "scope": "Numerical audit of known artificial labels only; no hidden OD validation or guaranteed OD improvement."
+}

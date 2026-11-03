@@ -1,0 +1,43 @@
+{
+  "registered_utc": "2026-11-03T03:45:14.863798+00:00",
+  "seed": 2026110325,
+  "case_count": 480,
+  "replicates": 1,
+  "truths": [
+    "short",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noises": [
+    "independent_lognormal",
+    "shared_lognormal",
+    "independent_positive_background",
+    "shared_positive_background"
+  ],
+  "drifts": [
+    "stable_pair",
+    "moderate_drift",
+    "replaced_pair"
+  ],
+  "methods": [
+    "baseline",
+    "geometry005",
+    "direct005",
+    "direct025",
+    "cycle005",
+    "cycle025"
+  ],
+  "hypothesis": "Exactly geometry-orthogonal cross-input signal predicts public priors. Test whether feasible OD cycle updates can retain its matching benefit while keeping all three non-OD metrics at baseline, instead of following marginal recalibration.",
+  "source_feature": "Mean normalized source prior projected exactly out of span+origin/destination geometry; target cross-fit ridge1 with one common five-fold assignment.",
+  "cycle": "Sample 4*path_count fixed random valid four-zone rectangles per case, shared between strengths. Cycle(+1,-1,-1,+1) preserves all origin/destination margins. Require original prior-sign derivative0 and retain original orthant/nonnegative bounds, preserving prior L1 deviation. Each accepted step decreases L1 distance to the estimated direct candidate; no latent truth enters direction, bound or acceptance.",
+  "target": "Direct nonnegative lambda0.05 predictions at fixed5% and25% prior mixture. Cycle starts at original baseline and uses the same cycle sequence for both strengths.",
+  "guarantee": "Release-specific count rows are marginal combinations, so feasible cycles preserve counts, S_link/S_attr/S_dev within numerical precision. S_od can still worsen. Heuristic coordinate updates are not a proven global projection or optimum.",
+  "numerical_controls": "Separate constructive nonzero rectangle and 20 oracle L1 monotonicity controls must pass before use. Oracle truth is confined to those numerical checks, never supplied to this estimator.",
+  "evaluation": "Report all known-latent clipped scores AND unclipped true relative OD L1, all zero movement, accepted updates and constraint drift. Fresh artificial draws in adaptively chosen family; not whole-system blind or official validation.",
+  "source_sha256": "fd44717abb5234a0e4e61ad28c57903d9e8884c46868908b1e24bfbb23c04a45",
+  "cycle_source_sha256": "31fac05bde57d1f62449fd43985ce72cc77973b89e443f9c4697eb945f58d116",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee",
+  "exact_projection_sha256": "1a42c330c647f0b61b5f20eb3b07599c5fd1d5041a65ea48122119f8d8f07aaf",
+  "scope": "No real candidate or Kaggle upload; frozen official baseline retained."
+}
