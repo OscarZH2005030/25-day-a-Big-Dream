@@ -1,0 +1,37 @@
+{
+  "registered_utc": "2026-11-03T00:56:04.981564+00:00",
+  "hypothesis": "Small span-smoothing of noisy priors may improve path estimates under some error structures; quantify harms under non-span/sparse/correlated counterexamples before considering any real candidate.",
+  "seed": 2026110306,
+  "truths": [
+    "flat",
+    "short",
+    "long",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noises": [
+    "additive_clipped",
+    "multiplicative",
+    "origin_destination"
+  ],
+  "levels": [
+    "low",
+    "high"
+  ],
+  "replicates": 2,
+  "case_count": 720,
+  "methods": {
+    "baseline": 0.0,
+    "span005": 0.05,
+    "span010": 0.1,
+    "span025": 0.25
+  },
+  "algorithm": "Fit fixed ridge1 span spline to supplied noisy prior; blend original prior with smoothed prior by fixed0/.05/.1/.25; each solves the same nonnegative official lambda.05 objective.",
+  "calibration": "Truth draws independent of released b, scaled to released train median link load. Additive noise scale uses train-only count-covariance path variance estimate; low/high multipliers .5/2. Multiplicative logsigma .35/.8; origin/destination correlated log factors .25/.6.",
+  "selection": "None. All methods and harms reported, no best synthetic model promoted; original official Task4 baseline unchanged.",
+  "source_sha256": "38a722233c71e1a33f796830d808b7cd5ccfd90ebe3ffda904c88e390b7ca232",
+  "feature_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "covariance_model_sha256": "37d2aa657cc54ca3358a1261d786594da7e4da67d1cd724215c4873cfcbd7e31",
+  "scope": "Artificial sensitivity, not hidden path validation. Actual priors have positive continuous values with no observed zero atom; clipped Gaussian stress is explicitly a counter-assumption, not claimed true generation. No Kaggle upload."
+}

@@ -12,5 +12,6 @@
   "portable_prior_structure_max_metric_differences": {
     "task4_prior_structure": 0.0,
     "task4_prior_structure_transfer": 0.0
-  }
+  },
+  "portable_720_case_span_stress_max_metric_difference": 0.0
 }
