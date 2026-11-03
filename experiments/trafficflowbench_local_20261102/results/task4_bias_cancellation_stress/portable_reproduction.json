@@ -1,0 +1,28 @@
+{
+  "paired_cases": 40,
+  "initial_exact_comparison_failed": true,
+  "matching_artifact_bytes": 16,
+  "artifacts_numerically_verified": 80,
+  "maximum_absolute_table_errors": {
+    "all_cases.csv/max_count_bias": 4.440892098500626e-16,
+    "all_cases.csv/synthetic_S_od": 4.440892098500626e-16,
+    "all_cases.csv/synthetic_S_link": 3.3306690738754696e-16,
+    "all_cases.csv/synthetic_S_dev": 2.1094237467877974e-15,
+    "all_cases.csv/synthetic_S_attr": 8.881784197001252e-16,
+    "all_cases.csv/synthetic_S_ODME": 2.220446049250313e-16,
+    "summary.csv/mean": 0.0,
+    "summary.csv/min": 0.0
+  },
+  "maximum_relative_array_errors": {
+    "truth": 4.761549348620275e-16,
+    "counts": 1.230004471844083e-15,
+    "prior": 7.782018015572335e-16,
+    "coefficients": 9.807784716394124e-15,
+    "scales": 7.570117022753438e-16,
+    "baseline": 5.6886779869017965e-15,
+    "direct": 7.335288391831623e-15
+  },
+  "exact_generator_folds_and_seeds": true,
+  "entrypoint_sha256": "a607c6c856faf2cd7341ff20a7ecf54d0219500b13eabcb39b85b058d080536b",
+  "source_sha256": "22d03f2a2f0c87d2cf0aaa91f7d55ebe96076fcadf29fcf2fa4e40a2fb4e3f84"
+}

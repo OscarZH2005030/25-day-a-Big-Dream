@@ -1,0 +1,14 @@
+{
+  "registered_utc": "2026-11-03T06:00:47.390793+00:00",
+  "seed": 2026110330,
+  "cases": 40,
+  "drift": "moderate_drift",
+  "noise": "shared_positive_background",
+  "threshold": 0.1,
+  "strength": 0.05,
+  "hypothesis": "Bulk count normalization can hide positive background from the fixed one-sided gate.",
+  "control": "Same truth and folds with original supplied-style prior versus globally rescaled prior. Rescaling uses only observable total counts for each input.",
+  "scope": "Constructed artificial mechanism, not a public generation model or official validation.",
+  "source_sha256": "5d323915ebac85b0fee1877397b497435eceed7e942f12d9b6c7fe7d29b4ff6c",
+  "generator_sha256": "5062f1dd0737bff404a7f993884ea0006fbee55a866f705210f07f7a1fa3f8ee"
+}
