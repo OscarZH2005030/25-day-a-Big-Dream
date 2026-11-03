@@ -1,0 +1,8 @@
+{
+  "seed": 2026110353,
+  "draws": 10000,
+  "input_sha256": "e90517f458393ece1449d419851ecc48016c5548a0b46487d64ded946c2166cc",
+  "code_sha256": "67ca69285913275ea567624f5ad5664a6e3543c872120acd9b1f37b61b907c20",
+  "scope": "Posthoc descriptive sensitivity on reused artificial cases.",
+  "design": "Pair by case and use whole-road panels as resampling blocks. Use common draws across noise families."
+}
