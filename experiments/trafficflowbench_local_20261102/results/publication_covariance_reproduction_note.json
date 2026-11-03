@@ -1,0 +1,9 @@
+{
+  "first_reproduction_max_difference": 9.977255e-07,
+  "first_strict_tolerance": 1e-08,
+  "fixed_models_max_difference": 1.2e-15,
+  "cause": "Wrapper omitted explicit BLAS/OMP thread count; numerical finite-difference optimizer converged to a marginally different mixture.",
+  "repair": "Set OMP/OPENBLAS/MKL threads to4 before importing numerical packages, matching original research environment.",
+  "repaired_all_model_max_metric_difference": 0.0,
+  "conclusion": "Same five-family conclusion; no hidden score or prediction changed."
+}

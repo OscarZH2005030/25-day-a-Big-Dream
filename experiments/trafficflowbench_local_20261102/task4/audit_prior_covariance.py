@@ -1,7 +1,8 @@
 """Portable entrypoint for the archived, fixed-protocol prior covariance audit."""
-import argparse,hashlib,importlib.util,json,sys,types
+import argparse,hashlib,importlib.util,json,sys,types,os
 from pathlib import Path
 from datetime import datetime,timezone
+os.environ.update(OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4',MKL_NUM_THREADS='4')
 
 def sha(path):
  h=hashlib.sha256()
