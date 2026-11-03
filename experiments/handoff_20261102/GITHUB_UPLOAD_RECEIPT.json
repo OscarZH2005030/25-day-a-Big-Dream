@@ -1,0 +1,144 @@
+{
+  "uploaded_at_utc": "2026-11-03T04:33:15.749312+00:00",
+  "repository": "OscarZH2005030/25-day-a-Big-Dream",
+  "branch": "codex/handoff-20261102",
+  "artifact_source_commit": "dd3b0c1b92777af9ab506b5aa79849ee02e85c47",
+  "branch_url": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/tree/codex/handoff-20261102",
+  "release": {
+    "id": 432274739,
+    "html_url": "https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/untagged-cceb41eaeff01fa6177d",
+    "tag_name": "handoff-windows-20261102-081135",
+    "draft": true
+  },
+  "archive_sha256": "0044b1b4f72d6c9e60d6aab3522f4f4295d4f4945f1024c9c6cae93ad222e209",
+  "all_assets_remote_sha256_verified": true,
+  "no_kaggle_submission": true,
+  "assets": [
+    {
+      "name": "handoff-parts.json",
+      "bytes": 2095,
+      "sha256": "47589cc8dee06ed3da7c36baa85c22f900946d864118fdccd3e7f8387991b92c",
+      "github_asset_id": 704264642,
+      "github_digest": "sha256:47589cc8dee06ed3da7c36baa85c22f900946d864118fdccd3e7f8387991b92c"
+    },
+    {
+      "name": "Extract_Handoff.ps1",
+      "bytes": 1755,
+      "sha256": "d3b44df7eaf08208d9d912906878d9a1d6164effd54f4b95d2b53575a8a54409",
+      "github_asset_id": 704264638,
+      "github_digest": "sha256:d3b44df7eaf08208d9d912906878d9a1d6164effd54f4b95d2b53575a8a54409"
+    },
+    {
+      "name": "NEW_CHAT_SUMMARY.md",
+      "bytes": 8791,
+      "sha256": "ce4a016063be00e30bf29148cfd550c5d3225fa9ab5256cacc1dcf9e491c0e6f",
+      "github_asset_id": 704264671,
+      "github_digest": "sha256:ce4a016063be00e30bf29148cfd550c5d3225fa9ab5256cacc1dcf9e491c0e6f"
+    },
+    {
+      "name": "OFFICIAL_SCORING_MIT_LICENSE.txt",
+      "bytes": 1084,
+      "sha256": "58a76ce49e978f5e897e1ec30d20dbca346be98549cc561d665b6eb82d07cd05",
+      "github_asset_id": 704264685,
+      "github_digest": "sha256:58a76ce49e978f5e897e1ec30d20dbca346be98549cc561d665b6eb82d07cd05"
+    },
+    {
+      "name": "README_FIRST.md",
+      "bytes": 4453,
+      "sha256": "68a21e54d99f742200cecd540827fa8794ace10d3169785de0965e4b06f17213",
+      "github_asset_id": 704264716,
+      "github_digest": "sha256:68a21e54d99f742200cecd540827fa8794ace10d3169785de0965e4b06f17213"
+    },
+    {
+      "name": "Restore_From_Parts.ps1",
+      "bytes": 3127,
+      "sha256": "5e8717b0c9213963c9e15068accdcf0658f8ccedf971ad161a485f82183f89ad",
+      "github_asset_id": 704264720,
+      "github_digest": "sha256:5e8717b0c9213963c9e15068accdcf0658f8ccedf971ad161a485f82183f89ad"
+    },
+    {
+      "name": "TFB_20261102.zip.part001",
+      "bytes": 2000000000,
+      "sha256": "ea0b070aeec075ed1e97ebe14d3c06ddd5b02ef941a0542487d97ad841cd8e89",
+      "github_asset_id": 704264751,
+      "github_digest": "sha256:ea0b070aeec075ed1e97ebe14d3c06ddd5b02ef941a0542487d97ad841cd8e89"
+    },
+    {
+      "name": "TFB_20261102.zip.part002",
+      "bytes": 2000000000,
+      "sha256": "11e9f70ba0fed281ff9cf30277a3dc40523422c8409a36f376708f5a5f3d59c0",
+      "github_asset_id": 704264760,
+      "github_digest": "sha256:11e9f70ba0fed281ff9cf30277a3dc40523422c8409a36f376708f5a5f3d59c0"
+    },
+    {
+      "name": "TFB_20261102.zip.part003",
+      "bytes": 2000000000,
+      "sha256": "039ca4094aff8c4ad8033fe32366e31751248bceb9b13f1ee28934aec7f6f700",
+      "github_asset_id": 704272181,
+      "github_digest": "sha256:039ca4094aff8c4ad8033fe32366e31751248bceb9b13f1ee28934aec7f6f700"
+    },
+    {
+      "name": "TFB_20261102.zip.part004",
+      "bytes": 2000000000,
+      "sha256": "d1ffddfeb2c19f54cdef665e8d602cd8e22c1c8b121e083b3b451dc6558d2481",
+      "github_asset_id": 704275649,
+      "github_digest": "sha256:d1ffddfeb2c19f54cdef665e8d602cd8e22c1c8b121e083b3b451dc6558d2481"
+    },
+    {
+      "name": "TFB_20261102.zip.part005",
+      "bytes": 2000000000,
+      "sha256": "a6811fea79c19486deb42cb5c00481595db802a8b3749e63a0ffa1bb16ec7499",
+      "github_asset_id": 704277553,
+      "github_digest": "sha256:a6811fea79c19486deb42cb5c00481595db802a8b3749e63a0ffa1bb16ec7499"
+    },
+    {
+      "name": "TFB_20261102.zip.part006",
+      "bytes": 2000000000,
+      "sha256": "a5301ed070e1714d5616afc7d3c364e6781cd0b3adfedbecad5587c2ed08fe8c",
+      "github_asset_id": 704282597,
+      "github_digest": "sha256:a5301ed070e1714d5616afc7d3c364e6781cd0b3adfedbecad5587c2ed08fe8c"
+    },
+    {
+      "name": "TFB_20261102.zip.part007",
+      "bytes": 2000000000,
+      "sha256": "325168c890f42d2a8db4d7d22a0bef64ad9dee233bbc55e0db20db06c64d7b29",
+      "github_asset_id": 704284844,
+      "github_digest": "sha256:325168c890f42d2a8db4d7d22a0bef64ad9dee233bbc55e0db20db06c64d7b29"
+    },
+    {
+      "name": "TFB_20261102.zip.part008",
+      "bytes": 2000000000,
+      "sha256": "896ee74d40a7ef9b1ab901b5920a1a57056a6a17f12970d7d885b0fe778be5ad",
+      "github_asset_id": 704289238,
+      "github_digest": "sha256:896ee74d40a7ef9b1ab901b5920a1a57056a6a17f12970d7d885b0fe778be5ad"
+    },
+    {
+      "name": "TFB_20261102.zip.part009",
+      "bytes": 15015925,
+      "sha256": "739ebd31df68a508d6bb0ffccbb4a1324d10439b1d322fccb9ccf5e82ac9b3db",
+      "github_asset_id": 704290654,
+      "github_digest": "sha256:739ebd31df68a508d6bb0ffccbb4a1324d10439b1d322fccb9ccf5e82ac9b3db"
+    },
+    {
+      "name": "TFB_20261102.zip.sha256",
+      "bytes": 84,
+      "sha256": "64c3d3fbf605bb44fc8f71b7f10c838e470fa12c97f3f0180d6b946a80b1acef",
+      "github_asset_id": 704290769,
+      "github_digest": "sha256:64c3d3fbf605bb44fc8f71b7f10c838e470fa12c97f3f0180d6b946a80b1acef"
+    },
+    {
+      "name": "TODAY_FINDINGS.md",
+      "bytes": 4352,
+      "sha256": "cc266bd9ab182614afcac7021b0eccb57906fb491719c14a45d75e0542d4d21c",
+      "github_asset_id": 704290796,
+      "github_digest": "sha256:cc266bd9ab182614afcac7021b0eccb57906fb491719c14a45d75e0542d4d21c"
+    },
+    {
+      "name": "TRANSFER_INFO.json",
+      "bytes": 490,
+      "sha256": "9c1fc79752951c02a013d0c527e32970c8ddea22a804a3ff4be5cfff03124513",
+      "github_asset_id": 704290866,
+      "github_digest": "sha256:9c1fc79752951c02a013d0c527e32970c8ddea22a804a3ff4be5cfff03124513"
+    }
+  ]
+}

@@ -36,7 +36,7 @@ Task1单点RMSE不直接评价误差在时间上的排列。Task3由同一预测
 
 GitHub每个Release附件必须小于2GiB，因此原ZIP已无损切为9份，每份不超过2,000,000,000字节。没有把16GB二进制包或原始观测写入Git历史。
 
-**完整包含原始竞赛输入，拟保存为仅有仓库push权限的协作者可见的草稿Release**，tag为 `handoff-windows-20261102-081135`。本目录的清单只表示本地准备完成，不单独证明远端附件已上传；实际远端状态以Release页面/上传回执为准。不要未经核对把含原始数据的草稿改成公开发布。GitHub草稿只对有写权限的账户可见，新电脑需登录相应团队账户查看。
+**完整包含原始竞赛输入，已上传为仅有仓库push权限的协作者可见的草稿Release**，tag为 `handoff-windows-20261102-081135`。18个附件均已核对远端SHA256；见[GITHUB_UPLOAD_RECEIPT.json](GITHUB_UPLOAD_RECEIPT.json)。[新电脑下载与合并指南](GITHUB_DOWNLOAD.md)列出了完整步骤。不要未经核对把含原始数据的草稿改成公开发布。GitHub草稿只对有写权限的账户可见，新电脑需登录相应团队账户查看。
 
 取齐该Release的9个 `.partNNN`、`handoff-parts.json`、`Restore_From_Parts.ps1`、`Extract_Handoff.ps1` 后，在同一文件夹运行：
 

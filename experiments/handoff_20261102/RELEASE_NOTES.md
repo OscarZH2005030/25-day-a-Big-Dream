@@ -1,6 +1,6 @@
 # Windows交接：已测0.81135基线、完整预测与历史物理诊断
 
-本Release拟保存为草稿，仅有Oscar仓库写权限的团队账户可查看。完整包含原始竞赛输入，保留其许可和来源，不把它公开到Git历史。不含Kaggle Token或账户密钥。
+本Release保留为草稿，仅有Oscar仓库写权限的团队账户可查看。完整包含原始竞赛输入，保留其许可和来源，不把它公开到Git历史。不含Kaggle Token或账户密钥。
 
 共9个无损分卷，原ZIP16,015,015,925字节；SHA256 `0044b1b4f72d6c9e60d6aab3522f4f4295d4f4945f1024c9c6cae93ad222e209`。下载全部parts和JSON清单，运行Restore_From_Parts.ps1合并校验，再运行Extract_Handoff.ps1解压。
 
@@ -9,3 +9,5 @@
 官方对照：冻结基线0.81135（57900964），v20候选0.78677（57900990）；未得到官方提升，没有Task分项。697070历史目标诊断揭示单点RMSE与车辆存量时间差分的区别，不是提交月隐藏标签或官方Task3分数。新多目标Task1训练仅为建议，尚未实现/训练。
 
 无新增Kaggle提交；新电脑继续工作也必须得到用户当次明确授权才能提交。Git目录只保留报告、代码、聚合结果和清单。
+
+新电脑分卷下载需同时保留分卷、合并ZIP和解压目录，建议至少65GB空闲空间。完整指南：https://github.com/OscarZH2005030/25-day-a-Big-Dream/blob/codex/handoff-20261102/experiments/handoff_20261102/GITHUB_DOWNLOAD.md
