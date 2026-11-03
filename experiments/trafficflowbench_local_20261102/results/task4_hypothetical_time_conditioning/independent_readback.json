@@ -1,0 +1,6 @@
+{
+  "actions": 80,
+  "regularized_inverse_checks": 40,
+  "max_relative_inverse_error": 2.0962832456045557e-13,
+  "source_sha256": "0162c412f75eace2c0286fbc1210377d3ed089e00a18f831f443f7084da45803"
+}
