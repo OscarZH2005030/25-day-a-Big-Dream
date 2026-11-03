@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "panel": "D7_I10_E",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 146
+    },
+    {
+      "panel": "D7_I10_W",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 107
+    },
+    {
+      "panel": "D7_I210_E",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 297
+    },
+    {
+      "panel": "D7_I210_W",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 81
+    },
+    {
+      "panel": "D7_I405_N",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 352
+    },
+    {
+      "panel": "D7_I405_S",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 109
+    },
+    {
+      "panel": "D12_I5_N",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 258
+    },
+    {
+      "panel": "D12_I5_S",
+      "features_exact": true,
+      "prediction_exact": true,
+      "own_T_speed_value_removed": true,
+      "nodes": 100
+    }
+  ],
+  "no_raw_input_uploaded": true
+}

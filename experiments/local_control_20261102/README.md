@@ -23,3 +23,21 @@ python experiments/local_control_20261102/predict.py --data-root D:/data/kaggle_
 training-source保存本轮训练、全字段评价及审计原码。它们是原工作目录的研究快照，依赖此前缓存、基础模型和路径配置，**不能当作一条命令从零训练的便携工具**；便携入口为上面的predict.py。原配方、日期、检查点和哈希分别保存在artifact-provenance.json、model-manifest.json与reports。
 
 Task2研究发现早期漏报大多发生在预测起点尚无已观测拥堵的窗口。多个GRU、风险、联合模式与需求模型未胜过冻结强基线，未混入本版本。1860个公共代理窗口的IoU与发布版评分器算术一致，但真实queue_targets仍不可得，不能把代理分当作官方成绩。Task4几何先验仅有计数留出上的小收益且对合成噪声敏感，未改变本目录的状态模型。
+
+## 附：因果起点状态重建，有重建收益但没有预测收益
+
+`state_bridge.py`是独立辅助工具，不加入默认队列模型。仅用允许的13帧、流量、占有率、邻居观测和静态信息重建T时刻速度；训练和查询都移除本地点T速度及其派生通道，不调用全天状态模型。模型约1.1MB，哈希在state-bridge-manifest.json。
+
+固定June-Nov模型在实际缺失T速度格的道路宏RMSE：十二月5.351→4.399、一月5.128→4.282、新二月4.540→3.750、旧二月4.098→3.230 km/h。均为已开发日期上的重建评估，不是官方Task1状态分或未来队列IoU。
+
+重要负结果：三个整日期折交叉拟合重建器，排除训练查询所在日期所有道路样本，再把重建特征加到原固定需求树。十二月混合0.1为0.821056、混合0.25为0.818848，均低于强基线0.821792，最终权重0。没有把当前状态改善当成拥堵预测改善；不继续调这套组合。详见reports/state-bridge。
+
+辅助工具接受本地NPZ，而不是下载或上传数据：
+
+```powershell
+python experiments/local_control_20261102/state_bridge.py --sample local_sample.npz --network local_network.npz --output estimated_current_state.npz
+```
+
+sample中x形状[13,N,16]：R127公开样本13个历史通道，加星期正余弦和周末标记3通道；network包含static[N,8]、up[N,N]、down[N,N]，与本轮公开邻接预处理一致。static前6列为R127静态特征，后2列为按发布order_index归一化的位置及其有效标记；邻接是含自环的按行归一化上/下游平均矩阵，工具在计算当前邻居速度时再移除自环。输出只是估计速度与free_speed之比，保留原缺失/质量语义，不能当真实观测或直接作为官方提交。未来标签、掩码和真值不在该API输入中。
+
+八道路特征与预测逐值一致，修改本地点T速度及派生值不改变其输入特征，检查见portable-check.json。没有上传测试输入或原始比赛数据。

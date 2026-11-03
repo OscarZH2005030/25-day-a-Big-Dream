@@ -1,0 +1,8 @@
+{
+  "path": "models/causal-state-bridge.txt",
+  "sha256": "3b13c650ee1ead67d5f6020e6b626b317b2dbf1bc698809751664cce6fbe23a9",
+  "target": "Current T speed / published free speed; no future queue output",
+  "trained": "June-Nov only",
+  "queue_improvement": false,
+  "official_score": null
+}

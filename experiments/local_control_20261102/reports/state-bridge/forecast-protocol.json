@@ -1,0 +1,8 @@
+{
+  "method": "Use new causal current-state reconstruction features in unchanged compact physicaldemand head. Pairedcontrol is existing49feature fixed300tree head. Noclassweight/threshold/hyperparameterchange.",
+  "crossfit": "Three whole-date folds sharedacrossroads; each trainingquery gets imputer excluding ALL samplesofitsdate. Models may trainonotherJuneNovdates; offlinecrossfit,not forward-blindvalidation. December+ use frozenfullJuneNovimputer. Never feedtrueTlabelinto forecastfeature.",
+  "feature": "Imputed/currentobservedTspeedratio,margin,densityproxy,deviationfromlatestpast,neighbor estimatedqueuefraction andmargin. Currentreliableobservationsretained. Originalmask/qualityunchanged.",
+  "selection": "SameDecemberweights[0,.1,.25], frozenbeforeJanFebselected+baselineonly. Allmonthsdeveloped. Onefixedhypothesis, no repeatedsearch.",
+  "budget": "Threefixed300tree imputers plus onefixed300tree forecasthead; caches resumable.",
+  "no_upload": true
+}

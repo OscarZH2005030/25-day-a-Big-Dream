@@ -1,0 +1,21 @@
+{
+  "method": "Cross-task current-state reconstruction as a prerequisite to sensor/forecast fusion. Single fixed LightGBM speed imputer, no queue model or thresholds changed.",
+  "input": "Only13allowedframes. Mask ALL ownTspeed-derivedchannels0/4/9/10 in trainandquery; observedneighborTspeed allowed after removing selfedges. Keepflow/occupancy/quality/missingness/static/history; nofuturedata.",
+  "targets": "JuneNov unmaskedtrueTspeed only as supervisedstate target, reliable eligiblecurrenttruth; neverinput. Uniform64knownnodes/window, independentofspeed/queue label.",
+  "evaluation": "December actualunobserved/lowqualityTspeed cells, compare causal latestreliablepreTspeed. Report roadmacroRMSE normalizedbyfreespeed and kmh. Reconstruction gain alone is not queue improvement.",
+  "params": {
+    "objective": "regression",
+    "learning_rate": 0.04,
+    "num_leaves": 31,
+    "min_data_in_leaf": 120,
+    "lambda_l2": 15,
+    "num_threads": 4,
+    "seed": 20261103,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1
+  },
+  "rounds": 300,
+  "budget": "Onefixedregressor; ifreconstructiondoesnotimprove noforecastbridge training.",
+  "no_upload": true
+}
