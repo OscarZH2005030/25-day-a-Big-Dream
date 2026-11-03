@@ -8,5 +8,9 @@
   "model_and_inference_bytes_verified_against_local_manifests": true,
   "scope": "Smoke test on one road/date plus pre-existing ten-road package checks; not new official validation",
   "portable_covariance_full_five_family_max_metric_difference": 0.0,
-  "covariance_numerical_threads": 4
+  "covariance_numerical_threads": 4,
+  "portable_prior_structure_max_metric_differences": {
+    "task4_prior_structure": 0.0,
+    "task4_prior_structure_transfer": 0.0
+  }
 }

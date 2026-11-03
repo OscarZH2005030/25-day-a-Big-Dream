@@ -1,0 +1,17 @@
+{
+  "registered_utc": "2026-11-03T00:44:28.257544+00:00",
+  "hypothesis": "Independent additive prior noise may hide reusable span and origin/destination signal; evaluate predicting withheld weak-prior entries without their values as features.",
+  "split": "train only",
+  "folds": 5,
+  "seeds": [
+    2026110302,
+    2026110303
+  ],
+  "assignment": "Fixed shuffled OD entries, one path per OD; all seeds and folds reported, no best-seed selection",
+  "features": "Geometry only: normalized positive zone span cubic spline with fixed interior knots .05/.1/.2/.4/.6/.8, origin/destination one-hot, intercept. No prior target or loaded-count-derived feature.",
+  "models": "Global training mean; span; origin/destination; span+origin/destination. Each nonconstant model reports all ridge penalties1/10/100, no tuning on evaluation entries.",
+  "target_scale": "Median positive weak-prior value in each training fold only",
+  "score": "MAE/RMSE on held-out weak prior, normalized by training scale; NOT hidden path accuracy or S_od. Clipped-zero predictions and clipping rate reported.",
+  "source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "scope": "Tests predictable weak-prior structure only. Independent/clipped noise assumptions can fail; this does not validate denoising real OD, and repeated public inputs are not blind. Frozen Task4 baseline retained, no Kaggle upload."
+}

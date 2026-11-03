@@ -86,6 +86,28 @@ python task4/audit_task4.py --release-root /path/to/kaggle_public --baseline-pat
 python task4/audit_prior_covariance.py --release-root /path/to/kaggle_public --output /path/to/covariance_audit
 ```
 
+### 新进展：弱先验中可复用的区域跨度结构
+
+只用几何变量预测未参与拟合的**弱先验条目**，固定两种子、五折、全部十方向，比较全局均值、区域跨度样条、起终点主效应及其组合；所有ridge1/10/100结果均保留。跨度不是公里距离，未补造缺失长度。
+
+跨度ridge1相对全局均值的平均逐折MSE下降 **51.30%**，十方向均改善（各方向平均44.23%—60.12%）。加入起终点主效应并未超过简单跨度对照，部分预测须裁剪为零。随后把特征、样条结点和ridge1冻结，应用到独立生成月份的公开先验条目留出：
+
+| 输入先验 | 全局均值归一化RMSE | 跨度ridge1归一化RMSE | 平均逐折相对MSE下降 |
+|---|---:|---:|---:|
+| train，两种子五折 | 9.251928 | 6.441704 | 51.30% |
+| validation，冻结配方五折 | 9.035713 | 6.362745 | 50.31% |
+| private公开输入，冻结配方五折 | 9.599654 | 6.942661 | 46.07% |
+
+归一化只用各折训练条目的正值中位数，未用留出目标确定尺度。这支持弱先验存在可预测的跨度结构，**不等于真实OD误差下降了上述比例**。被预测的目标仍是含误差的公开弱先验，可能有偏、有截断、有相关噪声；尚未据此把平滑先验当真值或替换Task4基准。
+
+结果与固定折指纹见 `results/task4_prior_structure/`、`results/task4_prior_structure_transfer/`。可移植入口在全十方向、两种子五折及两个评价输入上复算，与原研究聚合指标差0：
+
+```sh
+python task4/audit_prior_structure.py --release-root /path/to/kaggle_public --output /path/to/prior_structure
+```
+
+下一步仅研究保守跨度去噪与计数条件化的假设敏感性，保留不符合跨度结构、稀疏需求和相关噪声反例；人工路径分不能替代隐藏验证。
+
 ## 证据和复现范围
 
 - `results/`：登记协议、种子、逐道路/日期的聚合结果、数据/模型哈希、失败与导出验收。没有原始竞赛观测或逐单元训练真值。

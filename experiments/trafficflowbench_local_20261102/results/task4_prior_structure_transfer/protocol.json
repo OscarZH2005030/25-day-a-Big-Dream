@@ -1,0 +1,22 @@
+{
+  "registered_utc": "2026-11-03T00:49:16.998435+00:00",
+  "hypothesis": "Geometry signal found in train weak priors transfers to independently generated public validation/private priors with a train-frozen recipe.",
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "seed": 2026110305,
+  "folds": 5,
+  "models": [
+    "global_mean",
+    "span_ridge1",
+    "origin_destination_ridge1",
+    "span_origin_destination_ridge1"
+  ],
+  "selection": "No evaluation tuning: features/knots and ridge1 fixed from completed train study, every road and split kept; no best-fold or best-road selection.",
+  "targets": "Withheld entries of published WEAK PRIOR, not hidden path-flow truth. Other prior entries are available input; fold-only positive median normalization.",
+  "train_study_protocol_sha256": "e4022c43b89db86a4646bba8f24ea2d5821365f115ef1e4a5418c78309695aba",
+  "feature_source_sha256": "f3de6dec3a990cba8a28072caa11922a49f4a553b9238e1452f48c174f0c7e9b",
+  "source_sha256": "e3e5810bd0bb7df92a6755e88ee3e8ace2912cbb5c806ddcec88cf3362685e78",
+  "scope": "Recipe transfer only, not independent system blind or S_od/S_ODME validation. Task4 baseline unchanged, no Kaggle uploads."
+}
