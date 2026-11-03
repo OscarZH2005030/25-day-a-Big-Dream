@@ -1,0 +1,6 @@
+{
+  "paired_cases": 40,
+  "exact_csv_match": true,
+  "matching_artifact_hashes": 80,
+  "entrypoint_sha256": "89790cf577f7dfed5f8a00246ba528186f533d2d7ccf2fdb3b4dfe91dc4894c3"
+}

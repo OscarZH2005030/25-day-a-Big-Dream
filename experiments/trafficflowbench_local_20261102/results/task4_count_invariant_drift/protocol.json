@@ -1,0 +1,21 @@
+{
+  "registered_utc": "2026-11-03T08:49:09.001294+00:00",
+  "seed": 2026110340,
+  "paired_cases": 40,
+  "families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noises": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "folds": 5,
+  "blend": 0.05,
+  "hypothesis": "Source clipping can react differently to hidden target re-pairing when counts and margins are fixed.",
+  "construction": "Moderate shared-truth drift first. Change target alone with 4*n bounded random four-cell exchanges. Use identical source priors, target count vector, target error draws and folds across paired versions. Construct each supplied prior with TV .14; target tilt is recalibrated per version.",
+  "scope": "Paired artificial falsification on exposed networks. Target priors change with the latent pairing. This is not an indistinguishable-observables certificate or hidden OD validation.",
+  "source_sha256": "411d73f05bc8e338082e3495e692278de1e4f80268d9f3167da24b5aa8b2450e",
+  "forecast_sha256": "7e777e39f7477d611225837c595e6184c6714bf1ece38b9ab9cbfdd5f837cadb",
+  "cycles_sha256": "31fac05bde57d1f62449fd43985ce72cc77973b89e443f9c4697eb945f58d116"
+}

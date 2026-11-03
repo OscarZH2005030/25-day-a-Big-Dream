@@ -1,0 +1,7 @@
+{
+  "actions": 240,
+  "paired_cases": 40,
+  "max_score_error": 1.1102230246251565e-16,
+  "max_relative_invariance_error": 4.815811439379815e-17,
+  "source_sha256": "0051d66db65009aeeda06262afeae313cf1a2662b7f43557891b8fafb415b44e"
+}
