@@ -1,0 +1,11 @@
+{
+  "seed": 2026110314,
+  "cases": 20,
+  "independent_solver": "SciPy primal augmented bounded least squares, BVLS",
+  "maximum_primal_solution_difference": 1.4210854715202004e-13,
+  "maximum_KKT_violation": 8.737476887843432e-14,
+  "arbitrary_reference_invariant_checks": 200,
+  "maximum_non_OD_metric_drift": 3.3306690738754696e-16,
+  "source_sha256": "920d40d574597787e799fb4dcd7b3c5f2c52244b85e8f2af7a77fd4c5ac091a8",
+  "scope": "Numerical correctness only; no OD improvement guarantee."
+}

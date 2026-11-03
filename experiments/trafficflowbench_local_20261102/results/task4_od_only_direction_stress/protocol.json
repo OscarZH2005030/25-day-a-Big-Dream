@@ -1,0 +1,38 @@
+{
+  "registered_utc": "2026-11-03T02:35:11.133733+00:00",
+  "seed": 2026110313,
+  "case_count": 192,
+  "nodes": [
+    6,
+    9
+  ],
+  "scenarios": [
+    "matched_conditional",
+    "near_sparse_censored",
+    "positive_background",
+    "correlated_multiplicative"
+  ],
+  "true_noise_factors": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "replicates": 8,
+  "methods": [
+    "baseline",
+    "weighted010",
+    "weighted100",
+    "od_only010",
+    "od_only100"
+  ],
+  "hypothesis": "Span uncertainty corrections may harm non-OD components; project their direction onto the count/margin/prior-distance invariant set to isolate actual OD-pairing benefit and risk.",
+  "algorithm": "Freeze zero or prior-sign-boundary coordinates; orthogonally project target-minus-baseline direction onto nullspace of A, origin sums, destination sums and sign(f_base-b); truncate one step to retain nonnegativity and the baseline prior orthant. No truth enters direction or step.",
+  "guarantee": "Within numerical precision, predicted counts, all origin/destination margins and prior L1 deviation equal baseline. Thus S_link/S_attr/S_dev are unchanged for every hidden reference; S_od may improve OR worsen.",
+  "eta_from_public_train": 6.467968852345548,
+  "generator": "Reuse four explicitly artificial mechanisms from previous smallnet study with a new fixed seed. No MCMC here, no posterior claim. Prior studies informed this algorithm, so these are new artificial draws, not whole-system blind validation.",
+  "source_sha256": "775893e6ac8a4a0913a8c40d1b50c7a8fe7846249fd7fd35a732bcec65f74a4a",
+  "generator_sha256": "1ece0dc8a674f829e0068e2a899a8a1cbfdef8d6664228023260918e45f1cb63",
+  "weighted_solver_sha256": "6548dff61aa860284ed75cec0dec627e3ddd563834da06dde5c1188c7518b737",
+  "model_sha256": "ef6755932a08181ebde785a84662ee9eb036a8fd1120c7ce4104318e92d81835",
+  "scope": "Preserving other metrics cannot establish correct OD pairing. All outcomes retained; official Task4 reference unchanged, no Kaggle uploads."
+}

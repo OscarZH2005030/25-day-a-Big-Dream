@@ -19,5 +19,8 @@
   "portable_posterior_longrun_draw_sha256_matches": true,
   "portable_96_case_posterior_stress_max_metric_difference": 0.0,
   "portable_96_case_posterior_stress_all_sample_hashes_identical": true,
-  "portable_background_mean_all_table_and_model_differences_zero": true
+  "portable_background_mean_all_table_and_model_differences_zero": true,
+  "portable_span_uncertainty_four_studies_max_metric_difference": 0.0,
+  "weighted_dual_solver_independent_primal_BVLS_checks": 20,
+  "OD_invariant_arbitrary_reference_checks": 200
 }

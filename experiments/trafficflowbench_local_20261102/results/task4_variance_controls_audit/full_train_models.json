@@ -1,0 +1,117 @@
+{
+  "models": {
+    "uniform": {
+      "model": "uniform",
+      "kind": "span",
+      "parameter": 0.0,
+      "variance": 0.07908819910666941,
+      "train_NLL_per_dimension": -1.1640985540509332,
+      "diagnostics": null
+    },
+    "span4": {
+      "model": "span4",
+      "kind": "span",
+      "parameter": 4.0,
+      "variance": 0.0949914955832443,
+      "train_NLL_per_dimension": -1.4020945204650832,
+      "diagnostics": null
+    },
+    "span8": {
+      "model": "span8",
+      "kind": "span",
+      "parameter": 8.0,
+      "variance": 0.17583621953463666,
+      "train_NLL_per_dimension": -1.4377147259922853,
+      "diagnostics": null
+    },
+    "span12": {
+      "model": "span12",
+      "kind": "span",
+      "parameter": 12.0,
+      "variance": 0.5849551295552164,
+      "train_NLL_per_dimension": -1.2102837303027256,
+      "diagnostics": null
+    },
+    "extended_span": {
+      "model": "extended_span",
+      "kind": "span",
+      "parameter": 6.467968852345548,
+      "variance": 0.1283543226086645,
+      "train_NLL_per_dimension": -1.4602020195267649,
+      "diagnostics": {
+        "grid": [
+          -4.0,
+          -3.0,
+          -2.0,
+          -1.0,
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0
+        ],
+        "losses": [
+          -0.994738106223302,
+          -1.0267729881388354,
+          -1.0645275013768476,
+          -1.1100254765655337,
+          -1.1640985540509332,
+          -1.225263483538061,
+          -1.2893658303547944,
+          -1.3504141807841352,
+          -1.4020945204650832,
+          -1.439125330030254,
+          -1.4580439192221073,
+          -1.4574339939133638,
+          -1.4377147259922853,
+          -1.400633146183536,
+          -1.3486471865374194,
+          -1.2843847446041388,
+          -1.2102837303027256
+        ],
+        "optimizer_success": true,
+        "boundary": false
+      }
+    },
+    "global_demand_mixture": {
+      "model": "global_demand_mixture",
+      "kind": "global",
+      "parameter": 0.2460758532121129,
+      "variance": 0.10196480191334452,
+      "train_NLL_per_dimension": -1.1704756341256846,
+      "diagnostics": {
+        "grid": [
+          0.0,
+          0.1,
+          0.25,
+          0.5,
+          0.75,
+          0.9,
+          0.99,
+          0.9999
+        ],
+        "losses": [
+          -1.1640985540509332,
+          -1.1690500226533775,
+          -1.1704749521720206,
+          -1.1684854633047699,
+          -1.1633308321589955,
+          -1.1565031742239524,
+          -1.1391828108027848,
+          -1.0310016009299101
+        ],
+        "optimizer_success": true,
+        "boundary": false
+      }
+    }
+  },
+  "frozen_utc": "2026-11-03T02:25:09.959088+00:00"
+}

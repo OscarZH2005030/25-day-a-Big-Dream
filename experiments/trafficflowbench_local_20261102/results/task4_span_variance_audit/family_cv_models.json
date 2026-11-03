@@ -1,0 +1,347 @@
+{
+  "D12_I405/uniform": {
+    "model": "uniform",
+    "eta": 0.0,
+    "variance": 0.03541984540358262,
+    "train_NLL_per_dimension": -1.6441358129939943,
+    "diagnostics": null
+  },
+  "D12_I405/short_variance": {
+    "model": "short_variance",
+    "eta": -2.0,
+    "variance": 0.0318579324672803,
+    "train_NLL_per_dimension": -1.5355808773940427,
+    "diagnostics": null
+  },
+  "D12_I405/long_variance": {
+    "model": "long_variance",
+    "eta": 2.0,
+    "variance": 0.03865858643237578,
+    "train_NLL_per_dimension": -1.7653391825899263,
+    "diagnostics": null
+  },
+  "D12_I405/learned_span": {
+    "model": "learned_span",
+    "eta": 4.0,
+    "variance": 0.04391434582307621,
+    "train_NLL_per_dimension": -1.866091613204492,
+    "diagnostics": {
+      "grid_eta": [
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "grid_losses": [
+        -1.4434324450821796,
+        -1.4655930051257808,
+        -1.4881857172166928,
+        -1.5114372910136868,
+        -1.5355808773940427,
+        -1.560826376385847,
+        -1.5873233252127843,
+        -1.6151213650944563,
+        -1.6441358129939943,
+        -1.6741265872615938,
+        -1.7046967067929009,
+        -1.7353120985908497,
+        -1.7653391825899263,
+        -1.7940928203728994,
+        -1.8208860672690466,
+        -1.8450746148020585,
+        -1.866091613204492
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "Solution found."
+    }
+  },
+  "D12_I5/uniform": {
+    "model": "uniform",
+    "eta": 0.0,
+    "variance": 0.09403473910389709,
+    "train_NLL_per_dimension": -1.051152203064472,
+    "diagnostics": null
+  },
+  "D12_I5/short_variance": {
+    "model": "short_variance",
+    "eta": -2.0,
+    "variance": 0.08292926073261336,
+    "train_NLL_per_dimension": -0.9535583889719157,
+    "diagnostics": null
+  },
+  "D12_I5/long_variance": {
+    "model": "long_variance",
+    "eta": 2.0,
+    "variance": 0.10184442468468202,
+    "train_NLL_per_dimension": -1.1759788930815316,
+    "diagnostics": null
+  },
+  "D12_I5/learned_span": {
+    "model": "learned_span",
+    "eta": 4.0,
+    "variance": 0.11297690200943765,
+    "train_NLL_per_dimension": -1.289052313598616,
+    "diagnostics": {
+      "grid_eta": [
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "grid_losses": [
+        -0.8876550526764353,
+        -0.9019482112682691,
+        -0.9175063965272026,
+        -0.934616190594602,
+        -0.9535583889719157,
+        -0.9745768721216388,
+        -0.9978399635786328,
+        -1.0233990768265495,
+        -1.051152203064472,
+        -1.0808208177310026,
+        -1.1119469617290747,
+        -1.14391273307186,
+        -1.1759788930815316,
+        -1.2073350943412002,
+        -1.2371529316057701,
+        -1.264634525070001,
+        -1.289052313598616
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "Solution found."
+    }
+  },
+  "D7_I10/uniform": {
+    "model": "uniform",
+    "eta": 0.0,
+    "variance": 0.09050999135767451,
+    "train_NLL_per_dimension": -1.0702542193537032,
+    "diagnostics": null
+  },
+  "D7_I10/short_variance": {
+    "model": "short_variance",
+    "eta": -2.0,
+    "variance": 0.08001410181761663,
+    "train_NLL_per_dimension": -0.971450925076609,
+    "diagnostics": null
+  },
+  "D7_I10/long_variance": {
+    "model": "long_variance",
+    "eta": 2.0,
+    "variance": 0.0973007792224577,
+    "train_NLL_per_dimension": -1.1987985946350517,
+    "diagnostics": null
+  },
+  "D7_I10/learned_span": {
+    "model": "learned_span",
+    "eta": 4.0,
+    "variance": 0.1064851521287568,
+    "train_NLL_per_dimension": -1.318641229610401,
+    "diagnostics": {
+      "grid_eta": [
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "grid_losses": [
+        -0.9060626128282987,
+        -0.9200988326382458,
+        -0.9354802883971121,
+        -0.9525011900977141,
+        -0.971450925076609,
+        -0.9925831502754563,
+        -1.0160772877391122,
+        -1.0419971555163303,
+        -1.0702542193537032,
+        -1.1005839919201545,
+        -1.1325423066710791,
+        -1.165523695932508,
+        -1.1987985946350517,
+        -1.2315619283726806,
+        -1.2629843962082146,
+        -1.2922593500459696,
+        -1.318641229610401
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "Solution found."
+    }
+  },
+  "D7_I210/uniform": {
+    "model": "uniform",
+    "eta": 0.0,
+    "variance": 0.08887041448491734,
+    "train_NLL_per_dimension": -1.1060680610819176,
+    "diagnostics": null
+  },
+  "D7_I210/short_variance": {
+    "model": "short_variance",
+    "eta": -2.0,
+    "variance": 0.07873799894087821,
+    "train_NLL_per_dimension": -1.0059720968993773,
+    "diagnostics": null
+  },
+  "D7_I210/long_variance": {
+    "model": "long_variance",
+    "eta": 2.0,
+    "variance": 0.09581834724177124,
+    "train_NLL_per_dimension": -1.2331876675941236,
+    "diagnostics": null
+  },
+  "D7_I210/learned_span": {
+    "model": "learned_span",
+    "eta": 4.0,
+    "variance": 0.105785679540909,
+    "train_NLL_per_dimension": -1.3485705618391384,
+    "diagnostics": {
+      "grid_eta": [
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "grid_losses": [
+        -0.9367709483691948,
+        -0.9519807516525105,
+        -0.9683931664717618,
+        -0.9862956133060141,
+        -1.0059720968993773,
+        -1.0276722407606393,
+        -1.0515725617241138,
+        -1.0777346937922136,
+        -1.1060680610819176,
+        -1.136305602578259,
+        -1.1679994261685396,
+        -1.2005388336683678,
+        -1.2331876675941236,
+        -1.2651337159012834,
+        -1.2955415374594397,
+        -1.3236014840624346,
+        -1.3485705618391384
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "Solution found."
+    }
+  },
+  "D7_I405/uniform": {
+    "model": "uniform",
+    "eta": 0.0,
+    "variance": 0.08660600518327555,
+    "train_NLL_per_dimension": -1.0928190381294853,
+    "diagnostics": null
+  },
+  "D7_I405/short_variance": {
+    "model": "short_variance",
+    "eta": -2.0,
+    "variance": 0.07639873015196971,
+    "train_NLL_per_dimension": -0.9950859942045422,
+    "diagnostics": null
+  },
+  "D7_I405/long_variance": {
+    "model": "long_variance",
+    "eta": 2.0,
+    "variance": 0.09433029232142294,
+    "train_NLL_per_dimension": -1.2148207127469197,
+    "diagnostics": null
+  },
+  "D7_I405/learned_span": {
+    "model": "learned_span",
+    "eta": 4.0,
+    "variance": 0.10579539841404177,
+    "train_NLL_per_dimension": -1.322409211675679,
+    "diagnostics": {
+      "grid_eta": [
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "grid_losses": [
+        -0.9263407442565341,
+        -0.9415689586742761,
+        -0.9579193106569728,
+        -0.9756678376089982,
+        -0.9950859942045422,
+        -1.0164097031764894,
+        -1.0398008104281753,
+        -1.0653057525882348,
+        -1.0928190381294853,
+        -1.1220602107919797,
+        -1.1525711563011996,
+        -1.1837360598462525,
+        -1.2148207127469197,
+        -1.2450235754954762,
+        -1.273529621707121,
+        -1.299559460029275,
+        -1.322409211675679
+      ],
+      "optimizer_success": true,
+      "optimizer_message": "Solution found."
+    }
+  }
+}

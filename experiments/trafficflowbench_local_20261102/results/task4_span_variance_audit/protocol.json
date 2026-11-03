@@ -1,0 +1,17 @@
+{
+  "registered_utc": "2026-11-03T02:22:36.451655+00:00",
+  "hypothesis": "Uniform independent additive path errors may miss span-dependent uncertainty; compare fixed and train-fitted variance shapes across corridor families before any OD inference.",
+  "models": {
+    "uniform": 0.0,
+    "short_variance": -2.0,
+    "long_variance": 2.0,
+    "learned_span": null
+  },
+  "mean": "Zero mean fixed: preceding mean audit favored zero mean in cross-family CV; no background subtraction or GLS scaling fitted here.",
+  "covariance": "A diag(exp(eta*(zone_span-mean_span)/max_span)) A.T; each road normalized to mean diagonal1, jitter1e-6, one shared profiled variance.",
+  "learned_search": "17-point grid on[-4,4], bounded refinement only between neighboring grid points, retain better grid/refinement candidate; training objective only.",
+  "validation": "Five leave-one-corridor-family folds on public train; freeze full-train models before reporting all supplied validation/private public residuals.",
+  "seed": "No randomness; fixed four BLAS threads.",
+  "source_sha256": "cc2d3431b6331f874d0a52581717a99de3d2d6c98ea4038517746d1bdd73ab28",
+  "scope": "Exposed public count-space development diagnostic, not hidden OD validation. Covariance does not identify arbitrary nullspace error; no path candidate produced and official baseline unchanged."
+}

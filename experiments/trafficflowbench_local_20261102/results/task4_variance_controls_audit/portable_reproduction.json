@@ -1,0 +1,12 @@
+{
+  "all_CSV_maximum_metric_differences": {
+    "family_cv_by_panel.csv": 0.0,
+    "family_cv_summary.csv": 0.0,
+    "transfer_by_panel.csv": 0.0,
+    "transfer_summary.csv": 0.0
+  },
+  "all_rows_and_missingness_identical": true,
+  "full_train_models_identical": true,
+  "runner_sha256": "7273a6a17b49452468aef4ea587c50d37194e4b73dd070c8c6a781cdd3aa4693",
+  "scope": "Reproduction of public-input diagnostics/artificial scores, not official OD validation."
+}

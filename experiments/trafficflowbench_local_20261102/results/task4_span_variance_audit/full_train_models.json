@@ -1,0 +1,75 @@
+{
+  "models": {
+    "uniform": {
+      "model": "uniform",
+      "eta": 0.0,
+      "variance": 0.07908819910666941,
+      "train_NLL_per_dimension": -1.1640985540509332,
+      "diagnostics": null
+    },
+    "short_variance": {
+      "model": "short_variance",
+      "eta": -2.0,
+      "variance": 0.06998760482207164,
+      "train_NLL_per_dimension": -1.0645275013768476,
+      "diagnostics": null
+    },
+    "long_variance": {
+      "model": "long_variance",
+      "eta": 2.0,
+      "variance": 0.08559048598054195,
+      "train_NLL_per_dimension": -1.2893658303547944,
+      "diagnostics": null
+    },
+    "learned_span": {
+      "model": "learned_span",
+      "eta": 4.0,
+      "variance": 0.0949914955832443,
+      "train_NLL_per_dimension": -1.4020945204650832,
+      "diagnostics": {
+        "grid_eta": [
+          -4.0,
+          -3.5,
+          -3.0,
+          -2.5,
+          -2.0,
+          -1.5,
+          -1.0,
+          -0.5,
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0
+        ],
+        "grid_losses": [
+          -0.994738106223302,
+          -1.0101815398512313,
+          -1.0267729881388354,
+          -1.0447952953752004,
+          -1.0645275013768476,
+          -1.086213893638263,
+          -1.1100254765655337,
+          -1.136018639213706,
+          -1.1640985540509332,
+          -1.1939958732009381,
+          -1.225263483538061,
+          -1.2572955835224868,
+          -1.2893658303547944,
+          -1.320677112240712,
+          -1.3504141807841352,
+          -1.377791863068268,
+          -1.4020945204650832
+        ],
+        "optimizer_success": true,
+        "optimizer_message": "Solution found."
+      }
+    }
+  },
+  "frozen_utc": "2026-11-03T02:22:40.677046+00:00",
+  "protocol_sha256": "3da3b7a2fdb2c3b74033612acb609197f47d854f2fff75228433a59aaaaa8858"
+}

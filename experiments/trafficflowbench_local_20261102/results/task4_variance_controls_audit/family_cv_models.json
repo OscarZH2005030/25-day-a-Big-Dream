@@ -1,0 +1,562 @@
+{
+  "D12_I405/uniform": {
+    "model": "uniform",
+    "kind": "span",
+    "parameter": 0.0,
+    "variance": 0.03541984540358262,
+    "train_NLL_per_dimension": -1.6441358129939943,
+    "diagnostics": null
+  },
+  "D12_I405/span4": {
+    "model": "span4",
+    "kind": "span",
+    "parameter": 4.0,
+    "variance": 0.04391434582307621,
+    "train_NLL_per_dimension": -1.866091613204492,
+    "diagnostics": null
+  },
+  "D12_I405/span8": {
+    "model": "span8",
+    "kind": "span",
+    "parameter": 8.0,
+    "variance": 0.08334575969120157,
+    "train_NLL_per_dimension": -1.8876253834510295,
+    "diagnostics": null
+  },
+  "D12_I405/span12": {
+    "model": "span12",
+    "kind": "span",
+    "parameter": 12.0,
+    "variance": 0.26453552877060094,
+    "train_NLL_per_dimension": -1.681571129022318,
+    "diagnostics": null
+  },
+  "D12_I405/extended_span": {
+    "model": "extended_span",
+    "kind": "span",
+    "parameter": 6.303134154014741,
+    "variance": 0.059040387108005625,
+    "train_NLL_per_dimension": -1.9116530385728518,
+    "diagnostics": {
+      "grid": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "losses": [
+        -1.4434324450821796,
+        -1.4881857172166928,
+        -1.5355808773940427,
+        -1.5873233252127843,
+        -1.6441358129939943,
+        -1.7046967067929009,
+        -1.7653391825899263,
+        -1.8208860672690466,
+        -1.866091613204492,
+        -1.8968621185299464,
+        -1.9108541700653165,
+        -1.907494675046447,
+        -1.8876253834510295,
+        -1.8529841832975982,
+        -1.8057010382263279,
+        -1.7479189728968865,
+        -1.681571129022318
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D12_I405/global_demand_mixture": {
+    "model": "global_demand_mixture",
+    "kind": "global",
+    "parameter": 0.6138230114484449,
+    "variance": 0.08267756244102832,
+    "train_NLL_per_dimension": -1.6824840059607533,
+    "diagnostics": {
+      "grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        0.99,
+        0.9999
+      ],
+      "losses": [
+        -1.6441358129939943,
+        -1.6639507443873272,
+        -1.6757254891608633,
+        -1.6819579555462378,
+        -1.681686652446221,
+        -1.677764179689111,
+        -1.6645500729700835,
+        -1.5524527192008652
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D12_I5/uniform": {
+    "model": "uniform",
+    "kind": "span",
+    "parameter": 0.0,
+    "variance": 0.09403473910389709,
+    "train_NLL_per_dimension": -1.051152203064472,
+    "diagnostics": null
+  },
+  "D12_I5/span4": {
+    "model": "span4",
+    "kind": "span",
+    "parameter": 4.0,
+    "variance": 0.11297690200943765,
+    "train_NLL_per_dimension": -1.289052313598616,
+    "diagnostics": null
+  },
+  "D12_I5/span8": {
+    "model": "span8",
+    "kind": "span",
+    "parameter": 8.0,
+    "variance": 0.20917650511212765,
+    "train_NLL_per_dimension": -1.3250471924117004,
+    "diagnostics": null
+  },
+  "D12_I5/span12": {
+    "model": "span12",
+    "kind": "span",
+    "parameter": 12.0,
+    "variance": 0.6980052401167336,
+    "train_NLL_per_dimension": -1.0967392778381475,
+    "diagnostics": null
+  },
+  "D12_I5/extended_span": {
+    "model": "extended_span",
+    "kind": "span",
+    "parameter": 6.470861456789326,
+    "variance": 0.1526887779028429,
+    "train_NLL_per_dimension": -1.3475778161855403,
+    "diagnostics": {
+      "grid": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "losses": [
+        -0.8876550526764353,
+        -0.9175063965272026,
+        -0.9535583889719157,
+        -0.9978399635786328,
+        -1.051152203064472,
+        -1.1119469617290747,
+        -1.1759788930815316,
+        -1.2371529316057701,
+        -1.289052313598616,
+        -1.3263051569879643,
+        -1.3453806483792576,
+        -1.3448240562175333,
+        -1.3250471924117004,
+        -1.2878140517483887,
+        -1.2356119798161072,
+        -1.1710994589757866,
+        -1.0967392778381475
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D12_I5/global_demand_mixture": {
+    "model": "global_demand_mixture",
+    "kind": "global",
+    "parameter": 0.19916900756282874,
+    "variance": 0.1147391307373174,
+    "train_NLL_per_dimension": -1.0556969979583177,
+    "diagnostics": {
+      "grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        0.99,
+        0.9999
+      ],
+      "losses": [
+        -1.0511522030644722,
+        -1.0549931823912906,
+        -1.0555761264751835,
+        -1.0527975491995498,
+        -1.0469979059045842,
+        -1.0396133340341787,
+        -1.0212201605519606,
+        -0.9159193289384282
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D7_I10/uniform": {
+    "model": "uniform",
+    "kind": "span",
+    "parameter": 0.0,
+    "variance": 0.09050999135767451,
+    "train_NLL_per_dimension": -1.0702542193537032,
+    "diagnostics": null
+  },
+  "D7_I10/span4": {
+    "model": "span4",
+    "kind": "span",
+    "parameter": 4.0,
+    "variance": 0.1064851521287568,
+    "train_NLL_per_dimension": -1.318641229610401,
+    "diagnostics": null
+  },
+  "D7_I10/span8": {
+    "model": "span8",
+    "kind": "span",
+    "parameter": 8.0,
+    "variance": 0.19053811262402323,
+    "train_NLL_per_dimension": -1.371710280811843,
+    "diagnostics": null
+  },
+  "D7_I10/span12": {
+    "model": "span12",
+    "kind": "span",
+    "parameter": 12.0,
+    "variance": 0.626993495728356,
+    "train_NLL_per_dimension": -1.1503844994004622,
+    "diagnostics": null
+  },
+  "D7_I10/extended_span": {
+    "model": "extended_span",
+    "kind": "span",
+    "parameter": 6.689616383411096,
+    "variance": 0.1461043645759161,
+    "train_NLL_per_dimension": -1.3886286419311022,
+    "diagnostics": {
+      "grid": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "losses": [
+        -0.9060626128282987,
+        -0.9354802883971121,
+        -0.971450925076609,
+        -1.0160772877391122,
+        -1.0702542193537032,
+        -1.1325423066710791,
+        -1.1987985946350517,
+        -1.2629843962082146,
+        -1.318641229610401,
+        -1.3602132361904904,
+        -1.3838414766695273,
+        -1.3876628578840038,
+        -1.371710280811843,
+        -1.3374954940400328,
+        -1.2874169474271344,
+        -1.2241819867642065,
+        -1.1503844994004622
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D7_I10/global_demand_mixture": {
+    "model": "global_demand_mixture",
+    "kind": "global",
+    "parameter": 0.08737448881805006,
+    "variance": 0.09823708708717864,
+    "train_NLL_per_dimension": -1.0714067135484737,
+    "diagnostics": {
+      "grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        0.99,
+        0.9999
+      ],
+      "losses": [
+        -1.0702542193537032,
+        -1.0713927209072425,
+        -1.069991412559803,
+        -1.0656540764052371,
+        -1.0590610845310007,
+        -1.0513623922774031,
+        -1.0328134891503873,
+        -0.927298555385522
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D7_I210/uniform": {
+    "model": "uniform",
+    "kind": "span",
+    "parameter": 0.0,
+    "variance": 0.08887041448491734,
+    "train_NLL_per_dimension": -1.1060680610819176,
+    "diagnostics": null
+  },
+  "D7_I210/span4": {
+    "model": "span4",
+    "kind": "span",
+    "parameter": 4.0,
+    "variance": 0.105785679540909,
+    "train_NLL_per_dimension": -1.3485705618391384,
+    "diagnostics": null
+  },
+  "D7_I210/span8": {
+    "model": "span8",
+    "kind": "span",
+    "parameter": 8.0,
+    "variance": 0.19505917372801207,
+    "train_NLL_per_dimension": -1.38625748549469,
+    "diagnostics": null
+  },
+  "D7_I210/span12": {
+    "model": "span12",
+    "kind": "span",
+    "parameter": 12.0,
+    "variance": 0.6540919687224769,
+    "train_NLL_per_dimension": -1.1550091634477262,
+    "diagnostics": null
+  },
+  "D7_I210/extended_span": {
+    "model": "extended_span",
+    "kind": "span",
+    "parameter": 6.48376855209798,
+    "variance": 0.14272840778214707,
+    "train_NLL_per_dimension": -1.4088574944137884,
+    "diagnostics": {
+      "grid": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "losses": [
+        -0.9367709483691948,
+        -0.9683931664717618,
+        -1.0059720968993773,
+        -1.0515725617241138,
+        -1.1060680610819176,
+        -1.1679994261685396,
+        -1.2331876675941236,
+        -1.2955415374594397,
+        -1.3485705618391384,
+        -1.3867744531990844,
+        -1.4064906308579848,
+        -1.4061825507305399,
+        -1.38625748549469,
+        -1.3485431158785657,
+        -1.2956262109130834,
+        -1.2302665905803396,
+        -1.1550091634477262
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D7_I210/global_demand_mixture": {
+    "model": "global_demand_mixture",
+    "kind": "global",
+    "parameter": 0.2247665135281807,
+    "variance": 0.11185846251086022,
+    "train_NLL_per_dimension": -1.1111749428121942,
+    "diagnostics": {
+      "grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        0.99,
+        0.9999
+      ],
+      "losses": [
+        -1.1060680610819176,
+        -1.110160166115658,
+        -1.111147178369644,
+        -1.1088636696077838,
+        -1.103514422145989,
+        -1.0965284191536715,
+        -1.0788748418455445,
+        -0.9686682076228488
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D7_I405/uniform": {
+    "model": "uniform",
+    "kind": "span",
+    "parameter": 0.0,
+    "variance": 0.08660600518327555,
+    "train_NLL_per_dimension": -1.0928190381294853,
+    "diagnostics": null
+  },
+  "D7_I405/span4": {
+    "model": "span4",
+    "kind": "span",
+    "parameter": 4.0,
+    "variance": 0.10579539841404177,
+    "train_NLL_per_dimension": -1.322409211675679,
+    "diagnostics": null
+  },
+  "D7_I405/span8": {
+    "model": "span8",
+    "kind": "span",
+    "parameter": 8.0,
+    "variance": 0.20106154651781874,
+    "train_NLL_per_dimension": -1.3453445536300004,
+    "diagnostics": null
+  },
+  "D7_I405/span12": {
+    "model": "span12",
+    "kind": "span",
+    "parameter": 12.0,
+    "variance": 0.6811494144379153,
+    "train_NLL_per_dimension": -1.1094684401776753,
+    "diagnostics": null
+  },
+  "D7_I405/extended_span": {
+    "model": "extended_span",
+    "kind": "span",
+    "parameter": 6.30165728580326,
+    "variance": 0.1411320632607423,
+    "train_NLL_per_dimension": -1.3728046937149456,
+    "diagnostics": {
+      "grid": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "losses": [
+        -0.9263407442565341,
+        -0.9579193106569728,
+        -0.9950859942045422,
+        -1.0398008104281753,
+        -1.0928190381294853,
+        -1.1525711563011996,
+        -1.2148207127469197,
+        -1.273529621707121,
+        -1.322409211675679,
+        -1.3562941210245272,
+        -1.3719121153269624,
+        -1.368062155612632,
+        -1.3453445536300004,
+        -1.3056146153818495,
+        -1.2513608415606825,
+        -1.1851846147325786,
+        -1.1094684401776753
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  },
+  "D7_I405/global_demand_mixture": {
+    "model": "global_demand_mixture",
+    "kind": "global",
+    "parameter": 0.23007999427654885,
+    "variance": 0.10946487665712215,
+    "train_NLL_per_dimension": -1.098622570678435,
+    "diagnostics": {
+      "grid": [
+        0.0,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        0.99,
+        0.9999
+      ],
+      "losses": [
+        -1.0928190381294853,
+        -1.097439820949524,
+        -1.098604154113593,
+        -1.0962683238103037,
+        -1.090688395293839,
+        -1.083391294553929,
+        -1.0650341259094278,
+        -0.9586106462750363
+      ],
+      "optimizer_success": true,
+      "boundary": false
+    }
+  }
+}

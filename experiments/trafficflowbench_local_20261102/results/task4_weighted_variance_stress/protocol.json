@@ -1,0 +1,41 @@
+{
+  "registered_utc": "2026-11-03T02:26:35.056733+00:00",
+  "seed": 2026110312,
+  "hypothesis": "A span-dependent variance shape supported by public train count covariance may improve weighted OD inference, but observable likelihood cannot rule out harmful nullspace extrapolation. Stress all fixed strengths under matched-shape and wrong-noise cases.",
+  "truths": [
+    "flat",
+    "short",
+    "long",
+    "origin_destination",
+    "sparse",
+    "piecewise_span"
+  ],
+  "noises": [
+    "additive_clipped",
+    "multiplicative",
+    "origin_destination",
+    "positive_background",
+    "span_heterogeneous_clipped"
+  ],
+  "levels": [
+    "low",
+    "high"
+  ],
+  "replicates": 2,
+  "panels": 10,
+  "case_count": 1200,
+  "eta_frozen_from_train": 6.467968852345548,
+  "uniform_noise_variance_frozen_from_train": 0.07908819910666941,
+  "methods": {
+    "baseline": 0.0,
+    "variance010": 0.1,
+    "variance025": 0.25,
+    "variance100": 1.0
+  },
+  "algorithm": "Nonnegative weighted ridge, objective0.5||Af-c||2+0.5*0.05*sum((f-b)^2/w). w=(1-alpha)+alpha*w_span, w_span trace-normalized relative to uniform under original independent QR equations.",
+  "noise": "Additive scales0.5/2 from uniform covariance fit; logsigma0.35/0.8, origin/destination0.25/0.6, positive lognormal background0.5/2 times truth mean. Span noise uses calibrated w_span then clips supplied b positive; clipping is explicit misspecification, not an exact posterior-model control.",
+  "selection": "All four strengths retained, no selection on these artificial scores. Same public networks but new synthetic seed, not whole-system blind data or hidden OD validation.",
+  "source_sha256": "6548dff61aa860284ed75cec0dec627e3ddd563834da06dde5c1188c7518b737",
+  "source_model_sha256": "ef6755932a08181ebde785a84662ee9eb036a8fd1120c7ce4104318e92d81835",
+  "scope": "No actual Task4 candidate exported, official frozen reference unchanged and no Kaggle upload."
+}

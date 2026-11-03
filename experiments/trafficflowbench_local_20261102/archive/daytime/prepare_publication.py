@@ -30,6 +30,7 @@ def main():
   (target/'manifest.json').write_text(json.dumps(dict(files=files,source_manifest_sha256=sha(source/'manifest.json'),metadata_note='Local absolute source paths redacted; inference source/model bytes unchanged.'),indent=2),encoding='utf8')
  names=['fresh_masks','augmentation','augmentation_original_check','missingness_selection','temporal_regularization','accumulation_fit','refit49','multimonth_fit','severe_masks','severe_augmentation','mild_cached_transfer','severe_seed_ensemble','temporal_gap_gate','task4_information_audit','task4_count_evidence_audit','task4_demand_bounds','task4_metric_invariant','task4_covariance_audit','task4_prior_structure','task4_prior_structure_transfer','task4_span_shrink_stress','task4_observable_gate_stress','task4_candidate_sensitivity','task4_gaussian_posterior_pilot','task4_posterior_longrun']
  names.extend(['task4_smallnet_posterior_stress_retry','task4_background_mean_audit'])
+ names.extend(['task4_span_variance_audit','task4_variance_controls_audit','task4_weighted_variance_stress','task4_od_only_direction_stress'])
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
