@@ -1,0 +1,40 @@
+{
+  "registered_utc": "2026-11-03T00:35:53.308031+00:00",
+  "hypothesis": "Public train count/prior residuals may distinguish independent path errors from origin/destination-correlated errors; transferable covariance assumptions can guide demand inference, while nullspace extrapolation remains an assumption.",
+  "panels": [
+    "D12_I405_N",
+    "D12_I405_S",
+    "D12_I5_N",
+    "D12_I5_S",
+    "D7_I10_E",
+    "D7_I10_W",
+    "D7_I210_E",
+    "D7_I210_W",
+    "D7_I405_N",
+    "D7_I405_S"
+  ],
+  "train_split": "train",
+  "cross_validation": "Leave one corridor family (both directions) out, five folds; no evaluation count inputs used for fitting.",
+  "models": [
+    "link_iid",
+    "path_additive",
+    "path_multiplicative",
+    "origin_destination",
+    "learned_mixture"
+  ],
+  "components": [
+    "link_independent",
+    "path_additive",
+    "path_multiplicative",
+    "origin_correlated",
+    "destination_correlated"
+  ],
+  "normalization": "Prior-loaded median count scale only; independent QR-selected count equations; each covariance component normalized to mean diagonal1; each road contributes equally per dimension.",
+  "mean": "One shared prior-loaded global scale correction beta, profiled GLS and clipped[-.9,2]",
+  "variance": "Shared residual variance profiled on training roads only",
+  "mixture": "Five nonnegative normalized covariance components, minimum weight0.0001 each; deterministic three initializations; L-BFGS-B maxiter80; training objective selects optimizer start.",
+  "evaluation": "After all train CV and full-train fits freeze, report predictive count/prior-residual log density on supplied validation/private inputs for every model; no path truth, no hidden score, no model promotion.",
+  "source_sha256": "7c3ed5ba7f3aa6983b2d580cdd57717203eb2e9626c434a795bd5e3e01d47cc7",
+  "seed": "No randomness; deterministic linear algebra and optimizer initializations",
+  "caveat": "Observed count covariance cannot identify arbitrary nullspace error. Counts/prior are public and previously exposed. Predictive likelihood is evidence about error assumptions only, not S_od/S_ODME. Official frozen baseline retained, no uploads."
+}

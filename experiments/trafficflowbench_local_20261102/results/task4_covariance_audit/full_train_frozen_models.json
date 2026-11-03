@@ -1,0 +1,96 @@
+{
+  "models": {
+    "link_iid": {
+      "name": "link_iid",
+      "weights": {
+        "link_independent": 1.0,
+        "path_additive": 0.0,
+        "path_multiplicative": 0.0,
+        "origin_correlated": 0.0,
+        "destination_correlated": 0.0
+      },
+      "beta": -0.40677574478280587,
+      "variance": 0.1020127833918647,
+      "train_NLL_per_dimension": 0.2776104601146916,
+      "optimizer_trials": []
+    },
+    "path_additive": {
+      "name": "path_additive",
+      "weights": {
+        "link_independent": 0.0,
+        "path_additive": 1.0,
+        "path_multiplicative": 0.0,
+        "origin_correlated": 0.0,
+        "destination_correlated": 0.0
+      },
+      "beta": -0.16443908972830695,
+      "variance": 0.07692532181886222,
+      "train_NLL_per_dimension": -1.1779628387282863,
+      "optimizer_trials": []
+    },
+    "path_multiplicative": {
+      "name": "path_multiplicative",
+      "weights": {
+        "link_independent": 0.0,
+        "path_additive": 0.0,
+        "path_multiplicative": 1.0,
+        "origin_correlated": 0.0,
+        "destination_correlated": 0.0
+      },
+      "beta": -0.23667359402623803,
+      "variance": 0.06490875825605262,
+      "train_NLL_per_dimension": -0.34560787247852576,
+      "optimizer_trials": []
+    },
+    "origin_destination": {
+      "name": "origin_destination",
+      "weights": {
+        "link_independent": 0.0,
+        "path_additive": 0.0,
+        "path_multiplicative": 0.0,
+        "origin_correlated": 0.5,
+        "destination_correlated": 0.5
+      },
+      "beta": -0.19320300152501632,
+      "variance": 0.04155448793439219,
+      "train_NLL_per_dimension": -0.8779942467371402,
+      "optimizer_trials": []
+    },
+    "learned_mixture": {
+      "name": "learned_mixture",
+      "weights": {
+        "link_independent": 0.0001001705907141731,
+        "path_additive": 0.9995483082779518,
+        "path_multiplicative": 0.00010000206001650106,
+        "origin_correlated": 0.00010614418832043084,
+        "destination_correlated": 0.00014537488299705333
+      },
+      "beta": -0.16461190343282342,
+      "variance": 0.07676493508700424,
+      "train_NLL_per_dimension": -1.1764520396687967,
+      "optimizer_trials": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "objective": -1.1764499247216826,
+          "iterations": 11
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "objective": -1.1764422340148843,
+          "iterations": 12
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "objective": -1.1764520396687967,
+          "iterations": 13
+        }
+      ]
+    }
+  },
+  "frozen_utc": "2026-11-03T00:35:56.048534+00:00",
+  "protocol_sha256": "9ae73fb90b3218188eb7845d468753c3906187ee802e2bd2500180f7df0f4456",
+  "scope": "No validation/private data in fitting; no path-flow model is submitted."
+}

@@ -1,0 +1,447 @@
+{
+  "D12_I405/link_iid": {
+    "name": "link_iid",
+    "weights": {
+      "link_independent": 1.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.5185621396897722,
+    "variance": 0.034009589402475206,
+    "train_NLL_per_dimension": -0.2716173432370077,
+    "optimizer_trials": []
+  },
+  "D12_I405/path_additive": {
+    "name": "path_additive",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 1.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.22487636610200912,
+    "variance": 0.031985151998172645,
+    "train_NLL_per_dimension": -1.695136049303672,
+    "optimizer_trials": []
+  },
+  "D12_I405/path_multiplicative": {
+    "name": "path_multiplicative",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 1.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.4408266688737114,
+    "variance": 0.02660265507530999,
+    "train_NLL_per_dimension": -0.8078061819935356,
+    "optimizer_trials": []
+  },
+  "D12_I405/origin_destination": {
+    "name": "origin_destination",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.5,
+      "destination_correlated": 0.5
+    },
+    "beta": -0.4188914246025833,
+    "variance": 0.018816805486248398,
+    "train_NLL_per_dimension": -1.3169846813164388,
+    "optimizer_trials": []
+  },
+  "D12_I405/learned_mixture": {
+    "name": "learned_mixture",
+    "weights": {
+      "link_independent": 0.00010000206001438194,
+      "path_additive": 0.9995472801592775,
+      "path_multiplicative": 0.00010034761255810266,
+      "origin_correlated": 0.00010699533182946866,
+      "destination_correlated": 0.00014537483632053773
+    },
+    "beta": -0.22601740715238225,
+    "variance": 0.03190922222432892,
+    "train_NLL_per_dimension": -1.6934728935714545,
+    "optimizer_trials": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.6934728935714545,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.69346819651579,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.6934666999174137,
+        "iterations": 5
+      }
+    ]
+  },
+  "D12_I5/link_iid": {
+    "name": "link_iid",
+    "weights": {
+      "link_independent": 1.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.3654259878015338,
+    "variance": 0.11590303484303892,
+    "train_NLL_per_dimension": 0.34143836122143556,
+    "optimizer_trials": []
+  },
+  "D12_I5/path_additive": {
+    "name": "path_additive",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 1.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.15852369590041446,
+    "variance": 0.09190122355333916,
+    "train_NLL_per_dimension": -1.062627170912097,
+    "optimizer_trials": []
+  },
+  "D12_I5/path_multiplicative": {
+    "name": "path_multiplicative",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 1.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.17862366941425287,
+    "variance": 0.07529022152145308,
+    "train_NLL_per_dimension": -0.2695185021286992,
+    "optimizer_trials": []
+  },
+  "D12_I5/origin_destination": {
+    "name": "origin_destination",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.5,
+      "destination_correlated": 0.5
+    },
+    "beta": -0.13622433163104813,
+    "variance": 0.049188661048710974,
+    "train_NLL_per_dimension": -0.7803272658407518,
+    "optimizer_trials": []
+  },
+  "D12_I5/learned_mixture": {
+    "name": "learned_mixture",
+    "weights": {
+      "link_independent": 0.0001000020600148672,
+      "path_additive": 0.9995475155888676,
+      "path_multiplicative": 0.00010005304489462355,
+      "origin_correlated": 0.00010705445921397703,
+      "destination_correlated": 0.00014537484700902459
+    },
+    "beta": -0.1584158964115932,
+    "variance": 0.09171534782987015,
+    "train_NLL_per_dimension": -1.0611902508991675,
+    "optimizer_trials": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.0611902508991675,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.0611803583164892,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.0611895647319196,
+        "iterations": 13
+      }
+    ]
+  },
+  "D7_I10/link_iid": {
+    "name": "link_iid",
+    "weights": {
+      "link_independent": 1.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.3397259927325987,
+    "variance": 0.10455488953614328,
+    "train_NLL_per_dimension": 0.2899174898252872,
+    "optimizer_trials": []
+  },
+  "D7_I10/path_additive": {
+    "name": "path_additive",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 1.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.12895988090285723,
+    "variance": 0.08909890819501623,
+    "train_NLL_per_dimension": -1.078110802181779,
+    "optimizer_trials": []
+  },
+  "D7_I10/path_multiplicative": {
+    "name": "path_multiplicative",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 1.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.17702374489833006,
+    "variance": 0.07251470741989527,
+    "train_NLL_per_dimension": -0.28408282100018245,
+    "optimizer_trials": []
+  },
+  "D7_I10/origin_destination": {
+    "name": "origin_destination",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.5,
+      "destination_correlated": 0.5
+    },
+    "beta": -0.12799182333881862,
+    "variance": 0.04699966575075675,
+    "train_NLL_per_dimension": -0.7929682786198042,
+    "optimizer_trials": []
+  },
+  "D7_I10/learned_mixture": {
+    "name": "learned_mixture",
+    "weights": {
+      "link_independent": 0.00010020506090781213,
+      "path_additive": 0.9995483199645327,
+      "path_multiplicative": 0.00010000206001652514,
+      "origin_correlated": 0.00010609803101531857,
+      "destination_correlated": 0.00014537488352762328
+    },
+    "beta": -0.12892816639511318,
+    "variance": 0.08890708265510311,
+    "train_NLL_per_dimension": -1.0766963143141282,
+    "optimizer_trials": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.0766924852817974,
+        "iterations": 11
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.0766858778576278,
+        "iterations": 11
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.0766963143141282,
+        "iterations": 13
+      }
+    ]
+  },
+  "D7_I210/link_iid": {
+    "name": "link_iid",
+    "weights": {
+      "link_independent": 1.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.40415379382398137,
+    "variance": 0.11946841433651487,
+    "train_NLL_per_dimension": 0.3565874043426267,
+    "optimizer_trials": []
+  },
+  "D7_I210/path_additive": {
+    "name": "path_additive",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 1.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.16038013564093873,
+    "variance": 0.08685457496704796,
+    "train_NLL_per_dimension": -1.117540122950028,
+    "optimizer_trials": []
+  },
+  "D7_I210/path_multiplicative": {
+    "name": "path_multiplicative",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 1.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.20468694506524024,
+    "variance": 0.07494126162312288,
+    "train_NLL_per_dimension": -0.27190899001269253,
+    "optimizer_trials": []
+  },
+  "D7_I210/origin_destination": {
+    "name": "origin_destination",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.5,
+      "destination_correlated": 0.5
+    },
+    "beta": -0.16121777430245204,
+    "variance": 0.047767805407039496,
+    "train_NLL_per_dimension": -0.8150515793906989,
+    "optimizer_trials": []
+  },
+  "D7_I210/learned_mixture": {
+    "name": "learned_mixture",
+    "weights": {
+      "link_independent": 0.00010019196459250265,
+      "path_additive": 0.9995484378656532,
+      "path_multiplicative": 0.00010000206001676815,
+      "origin_correlated": 0.00010599322085727465,
+      "destination_correlated": 0.00014537488888032588
+    },
+    "beta": -0.1605181821409662,
+    "variance": 0.08667403707247884,
+    "train_NLL_per_dimension": -1.1160274096612546,
+    "optimizer_trials": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.1160255826793446,
+        "iterations": 11
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.1160186343017344,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.1160274096612546,
+        "iterations": 13
+      }
+    ]
+  },
+  "D7_I405/link_iid": {
+    "name": "link_iid",
+    "weights": {
+      "link_independent": 1.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.40183615060207944,
+    "variance": 0.11894050952174934,
+    "train_NLL_per_dimension": 0.35437311777563996,
+    "optimizer_trials": []
+  },
+  "D7_I405/path_additive": {
+    "name": "path_additive",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 1.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.16117019251917078,
+    "variance": 0.08442669650045513,
+    "train_NLL_per_dimension": -1.1055617862535632,
+    "optimizer_trials": []
+  },
+  "D7_I405/path_multiplicative": {
+    "name": "path_multiplicative",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 1.0,
+      "origin_correlated": 0.0,
+      "destination_correlated": 0.0
+    },
+    "beta": -0.21652263664298488,
+    "variance": 0.0683849716363179,
+    "train_NLL_per_dimension": -0.3131750738500032,
+    "optimizer_trials": []
+  },
+  "D7_I405/origin_destination": {
+    "name": "origin_destination",
+    "weights": {
+      "link_independent": 0.0,
+      "path_additive": 0.0,
+      "path_multiplicative": 0.0,
+      "origin_correlated": 0.5,
+      "destination_correlated": 0.5
+    },
+    "beta": -0.17537649826688093,
+    "variance": 0.04312261452895224,
+    "train_NLL_per_dimension": -0.8466765273908214,
+    "optimizer_trials": []
+  },
+  "D7_I405/learned_mixture": {
+    "name": "learned_mixture",
+    "weights": {
+      "link_independent": 0.00010000206001015476,
+      "path_additive": 0.9995452292787237,
+      "path_multiplicative": 0.00010001821178661176,
+      "origin_correlated": 0.00010937570626886116,
+      "destination_correlated": 0.00014537474321070463
+    },
+    "beta": -0.16116914684853595,
+    "variance": 0.08425179193738862,
+    "train_NLL_per_dimension": -1.1041663732645932,
+    "optimizer_trials": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.1041663732645932,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.1041585568905727,
+        "iterations": 12
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "objective": -1.1041619719233826,
+        "iterations": 11
+      }
+    ]
+  }
+}

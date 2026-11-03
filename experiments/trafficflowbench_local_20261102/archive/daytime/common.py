@@ -6,12 +6,16 @@ from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[2];WORK=ROOT/'work/daytime';OUT=ROOT/'outputs/daytime';OUT.mkdir(parents=True,exist_ok=True)
 sys.path.insert(0,str(ROOT/'work/overnight'))
 import state_experiment as night
-DATA=night.DATA;KEYS=night.KEYS;DEADLINE=datetime(2026,11,3,8,tzinfo=timezone.utc)
+DATA=night.DATA;KEYS=night.KEYS
+# Latest explicit user instruction: continue after breakthroughs and GitHub pushes.
+# An optional environment deadline remains available for a bounded manual run.
+deadline_setting=os.environ.get('TFB_RESEARCH_DEADLINE_UTC')
+DEADLINE=datetime.fromisoformat(deadline_setting.replace('Z','+00:00')) if deadline_setting else None
 def save(path,value):
  p=Path(path);p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_suffix(p.suffix+'.tmp');tmp.write_text(json.dumps(value,indent=2,ensure_ascii=False),encoding='utf8');tmp.replace(p)
-def state(**kw):save(WORK/'STATE.json',dict(pid=os.getpid(),utc=datetime.now(timezone.utc).isoformat(),deadline_utc=DEADLINE.isoformat(),automation_id='trafficflowbench',kaggle_upload_authorized=False,remaining_opportunities_user_reported=2,**kw))
+def state(**kw):save(WORK/'STATE.json',dict(pid=os.getpid(),utc=datetime.now(timezone.utc).isoformat(),deadline_utc=DEADLINE.isoformat() if DEADLINE else None,continuation='until_user_stops',automation_id='trafficflowbench',github_push_authorized_repository='https://github.com/OscarZH2005030/25-day-a-Big-Dream',kaggle_upload_authorized=False,remaining_opportunities_user_reported=2,**kw))
 def check_deadline():
- if datetime.now(timezone.utc)>=DEADLINE:raise TimeoutError('Daytime cutoff reached')
+ if DEADLINE is not None and datetime.now(timezone.utc)>=DEADLINE:raise TimeoutError('Configured research cutoff reached')
 def sha(path):
  h=hashlib.sha256()
  with Path(path).open('rb') as f:

@@ -28,7 +28,7 @@ def main():
    if p.is_file() and '__pycache__' not in p.parts and p.name!='manifest.json':copy(p,target/p.relative_to(source))
   files={p.relative_to(target).as_posix():sha(p) for p in target.rglob('*') if p.is_file() and p.name!='manifest.json'}
   (target/'manifest.json').write_text(json.dumps(dict(files=files,source_manifest_sha256=sha(source/'manifest.json'),metadata_note='Local absolute source paths redacted; inference source/model bytes unchanged.'),indent=2),encoding='utf8')
- names=['fresh_masks','augmentation','augmentation_original_check','missingness_selection','temporal_regularization','accumulation_fit','multimonth_fit','refit49','severe_masks','severe_augmentation','mild_cached_transfer','severe_seed_ensemble','temporal_gap_gate','task4_information_audit','task4_count_evidence_audit','task4_demand_bounds','task4_metric_invariant']
+ names=['fresh_masks','augmentation','augmentation_original_check','missingness_selection','temporal_regularization','accumulation_fit','multimonth_fit','refit49','severe_masks','severe_augmentation','mild_cached_transfer','severe_seed_ensemble','temporal_gap_gate','task4_information_audit','task4_count_evidence_audit','task4_demand_bounds','task4_metric_invariant','task4_covariance_audit']
  excluded={'per_link.csv','daily_PM_aggregates.csv'}
  for name in names:
   folder=OUT/name
