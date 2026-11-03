@@ -1,0 +1,11 @@
+{
+  "cases": 120,
+  "actions": 480,
+  "maximum_CSV_differences": {
+    "all_cases.csv": 0.0,
+    "paired_risk.csv": 0.0
+  },
+  "all240_artifact_hashes_identical": true,
+  "source_sha256": "571442d5d66ef65f1905d4d4d718789fd02481b81ac79df854ef3e1f8801d989",
+  "scope": "Artificial paired ablation only, not official improvement."
+}
