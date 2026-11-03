@@ -1,0 +1,7 @@
+noise,method,cases,mean_od_delta,harms,mean_movement
+shared_lognormal,baseline,20,0.0,0,0.0
+shared_lognormal,clipped_source,20,-0.0005263293311104144,10,0.0020000000000010383
+shared_lognormal,raw_source,20,-0.0005967597014199966,12,0.0020000000000011697
+shared_positive_background,baseline,20,0.0,0,0.0
+shared_positive_background,clipped_source,20,0.00018434736047918122,6,0.0020000000000008167
+shared_positive_background,raw_source,20,0.00011475241929911895,10,0.0020000000000012187

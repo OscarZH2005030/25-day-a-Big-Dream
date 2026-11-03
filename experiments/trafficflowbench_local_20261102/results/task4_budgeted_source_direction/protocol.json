@@ -1,0 +1,20 @@
+{
+  "registered_utc": "2026-11-03T13:06:36.533136+00:00",
+  "seed": 2026110347,
+  "cases": 40,
+  "families": [
+    "origin_destination",
+    "sparse"
+  ],
+  "noises": [
+    "shared_lognormal",
+    "shared_positive_background"
+  ],
+  "drift": "moderate_drift",
+  "target_tv": 0.14,
+  "relative_l1_cap": 0.002,
+  "objective": "Maximize alignment with the exact source interaction or its 95th-percentile clipped and reprojected version.",
+  "constraints": "Hold baseline count predictions, gross margins, original-prior orthant and L1 distance fixed. Same global movement cap for both objectives.",
+  "scope": "Fresh artificial seed on previously studied support. Source interaction is heuristic. No hidden label or deployed candidate.",
+  "source_sha256": "9124bac317cae94504a78b78ad8d7faf0c67faf1282afa94400699a84cd51813"
+}
