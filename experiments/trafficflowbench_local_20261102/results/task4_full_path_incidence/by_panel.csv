@@ -1,0 +1,11 @@
+panel,paths,all_incidence_rows,uncounted_rows,failed_rows,failed_uncounted_rows,maximum_integer_error,rank_beyond_margins
+D12_I405_N,903,152,71,0,0,0,0
+D12_I405_S,630,132,97,0,0,0,0
+D12_I5_N,4278,343,86,0,0,0,0
+D12_I5_S,5050,370,270,0,0,0,0
+D7_I10_E,4278,373,236,0,0,0,0
+D7_I10_W,5050,427,327,0,0,0,0
+D7_I210_E,2628,396,102,0,0,0,0
+D7_I210_W,3321,398,317,0,0,0,0
+D7_I405_N,4560,516,166,0,0,0,0
+D7_I405_S,4656,496,400,0,0,0,0

@@ -1,0 +1,7 @@
+{
+  "registered_utc": "2026-11-03T09:49:07.387795+00:00",
+  "seed": null,
+  "scope": "Structural test of every released path-link incidence row, including rows absent from Task4 counts. No detector measurements, physical mapping or time alignment assumed.",
+  "identity": "Compare A[:,o,d] with A[:,o,last] + A[:,first,d] - A[:,first,last] in exact integer arithmetic.",
+  "source_sha256": "6ec8fbfcc6351796c57c8c9180190a49c8d99a287a91100a6ec5398dad523838"
+}

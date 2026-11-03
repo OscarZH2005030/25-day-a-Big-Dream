@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "panel": "D12_I405_N",
+      "links": 152,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D12_I405_S",
+      "links": 132,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D12_I5_N",
+      "links": 343,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D12_I5_S",
+      "links": 370,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D7_I10_E",
+      "links": 373,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D7_I10_W",
+      "links": 427,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D7_I210_E",
+      "links": 396,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D7_I210_W",
+      "links": 398,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D7_I405_N",
+      "links": 516,
+      "components": 1,
+      "max_error": 0
+    },
+    {
+      "panel": "D7_I405_S",
+      "links": 496,
+      "components": 1,
+      "max_error": 0
+    }
+  ],
+  "source_sha256": "2c48f6186653766ff34f8bdc28e79cc9221d6a46282fe3294e6f9acb85959d66",
+  "certificate": "Integer origin/destination graph potentials reproduce every link indicator on every path."
+}
