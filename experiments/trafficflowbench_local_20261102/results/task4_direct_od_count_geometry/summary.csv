@@ -1,0 +1,5 @@
+weight_source,shared_cells,identical_order,off_cell_gain_share
+pooled,16.0,1.0,0.0011837229272718575
+private,16.0,1.0,0.0010234899640578332
+train,16.0,1.0,0.0010295036704559778
+validation,16.0,1.0,0.0011830952193247369

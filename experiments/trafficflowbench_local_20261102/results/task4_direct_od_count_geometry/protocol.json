@@ -1,0 +1,7 @@
+{
+  "code_sha256": "da45746f9d3fbffc639cea652f0e89793c7522efad1a683c5ec45807aef5b775",
+  "budget": 16,
+  "split": "private",
+  "design": "Use the count-row Gram pseudoinverse, independently of the original QR basis. Record exact selection agreement and the fraction of each greedy gain attributable to uncertainty in other OD cells.",
+  "scope": "Hypothetical exact direct OD measurements on released count geometry. No hidden labels."
+}
