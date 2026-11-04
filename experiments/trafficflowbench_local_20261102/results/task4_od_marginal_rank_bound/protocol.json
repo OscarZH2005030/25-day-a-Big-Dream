@@ -1,0 +1,15 @@
+{
+  "code_sha256": "57b90f02d375b4283791891cb6cbc022fb6702cea260cede4de8b62a76a387f8",
+  "reference_sha256": "5c8830d014a419e64b543e0b2a99bea764edacdcd3e0dce7bc57d58d55c69f79",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0,
+    0.5,
+    1
+  ],
+  "method": "Whitened row-space projection; exact count conditioning; pooled prior variance sensitivity; Ky Fan upper bound for 16 arbitrary exact linear measurements."
+}

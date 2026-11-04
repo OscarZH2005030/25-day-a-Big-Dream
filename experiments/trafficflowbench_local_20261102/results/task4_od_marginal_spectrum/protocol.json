@@ -1,0 +1,6 @@
+{
+  "code_sha256": "e099cd8b28006211db9ccb43587e5715076c8639d40062dfd3aac8704ecc9fa6",
+  "split": "private",
+  "method": "Equal cell variance conditional on exact published counts; spectrum of origin-total covariance.",
+  "tolerance": 1e-10
+}
