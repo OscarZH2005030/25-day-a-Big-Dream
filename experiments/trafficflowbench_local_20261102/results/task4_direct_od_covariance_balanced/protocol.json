@@ -1,0 +1,14 @@
+{
+  "code_sha256": "d9d52c0e6baeb0cf968362430699ec18d569966c0be4f08381a3f2658c18fea1",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Add correlation 0.125 each for shared origins and shared destinations before conditioning on counts, holding marginal variances fixed. Select by maximizing the worst normalized marginal gain over both covariance models and three design exponents. Freeze both sets and evaluate under both joint and diagonal covariance on cells measured by neither policy. Normalize both by the same initial full weighted trace.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
