@@ -1,0 +1,19 @@
+{
+  "code_sha256": "11947213a6c87c031db892bade96fa3833c0615c8632a8120fda73c357807652",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "correlations": [
+    0.0,
+    0.125,
+    0.25
+  ],
+  "method": "Condition matched diagonal variances and shared origin/destination errors on exact counts, then exact complete margins. Compare sequential and stacked projections in the factor space. No draws."
+}
