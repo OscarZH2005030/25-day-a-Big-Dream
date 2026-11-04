@@ -1,0 +1,14 @@
+{
+  "code_sha256": "4ca3e1d195308a274d9ce74ec77596bdd5fc41420211a277d9f59f4c90a1aac6",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Repeat the two balanced policies and evaluate indirect gains on cells measured by neither policy. Normalize both by the same initial full weighted trace.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
