@@ -1,0 +1,14 @@
+{
+  "code_sha256": "59a17197700abd1a60df2caea31f9cc34f50f7bc7ada7ec113c53bb0437c95df",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Add within-origin correlation 0.25 before conditioning on counts, holding marginal variances fixed. Repeat the two balanced policies and evaluate indirect gains on cells measured by neither policy. Normalize both by the same initial full weighted trace.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
