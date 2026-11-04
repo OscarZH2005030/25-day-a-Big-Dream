@@ -1,0 +1,15 @@
+{
+  "code_sha256": "bd13a238f279bb8375fe04d5d06628a5b9ebaec1cdbf5ebcca3e046891448f47",
+  "reference_sha256": "578824b444663c8ad6657996f202343375f822c96b8b7022d63944cafe514209",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0,
+    0.5,
+    1
+  ],
+  "method": "Whitened row-space projection; exact count conditioning; pooled prior variance sensitivity; Select 16 exact origin totals under each power and evaluate frozen selections under all three powers. Also choose a balanced set maximizing the worst marginal gain as a fraction of initial trace across the three laws. Score fixed sets with common sensor bias variance equal to independent noise variance, holding independent variance fixed at 0.25 and 1 times mean eligible origin variance. Evaluate one independent reference measurement of the bias, with error variance 0.25, 1, or 4 times the bias variance. Hold the sensor budget at 16 by replacing the last selected origin with the reference. Compare with 16 biased origins and the diagnostic upper bound from choosing the dropped origin with knowledge of the evaluation covariance. Resolve near ties by sorted zone order within 1e-12 of initial trace."
+}
