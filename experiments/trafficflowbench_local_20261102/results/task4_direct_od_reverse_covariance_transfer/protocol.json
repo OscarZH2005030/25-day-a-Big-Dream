@@ -1,0 +1,14 @@
+{
+  "code_sha256": "f0c842f22ee9dec36890ab1b11db0fd5e7462a0b64987caa5f8c84cb83b48f13",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Add correlation 0.125 each for shared origins and shared destinations before conditioning on counts, holding marginal variances fixed. Select under diagonal covariance. Freeze both sets and evaluate under both joint and diagonal covariance on cells measured by neither policy. Normalize both by the same initial full weighted trace.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
