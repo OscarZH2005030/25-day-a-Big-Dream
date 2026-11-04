@@ -1,0 +1,14 @@
+{
+  "code_sha256": "ee11d25ed911b434ad6bae08872c5a0b186c4ec97519d0cc8055d7a55c7993f4",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Use independent measurement noise variance 0.25 in normalized OD variance units. Repeat the two balanced policies and evaluate indirect gains on cells measured by neither policy. Normalize both by the same initial full weighted trace.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
