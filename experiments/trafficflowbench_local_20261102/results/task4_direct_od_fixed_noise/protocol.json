@@ -1,0 +1,14 @@
+{
+  "code_sha256": "45a035a031b131493c2dd23d610703cb501eb0febc0f45682f0f8048072d1bdb",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Freeze exact-measurement selections. Score both on their shared unmeasured cells at noise variances 0, 0.25 and 1 using batch covariance conditioning.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
