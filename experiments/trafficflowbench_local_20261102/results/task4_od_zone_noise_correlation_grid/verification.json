@@ -1,0 +1,9 @@
+{
+  "reference_sha256": {
+    "negative_measurement_noise": "25a0a1d18f08882b81bb05bdf282b35a7f1870cea5e2b86241552db1f3082692",
+    "measurement_noise": "a790a58256233a6b5c5ec23c1677c6aa9d5b187a1644d554f9165546cbd6e46b",
+    "shared_measurement_noise": "9d4f94589aa2027116d94b5245d72a0804762ad827c41e7f7975575a31c7bec9"
+  },
+  "code_sha256": "4fc4df22d787ab613cfa90417ef02bdc90b112102b1e2812ff3a9366ca0a19de",
+  "failures": []
+}
