@@ -1,0 +1,14 @@
+{
+  "code_sha256": "99860691971f84ec5f3e760cd5ae8ac061d26e0a7750e51adb568c8ea8cb37c1",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Compare selection assuming exact versus noisy measurements for each policy. Score at noise variance 0.25 on cells omitted by all four designs.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
