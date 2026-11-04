@@ -1,0 +1,15 @@
+{
+  "code_sha256": "f77e2ebd51ad78720c12df026d3182d8750d18f0ae42668e6a17301df03d01d8",
+  "reference_sha256": "1512c1ecdfe3979963f4ac5a3f50fab3309c67786e9ce7251876e2c6b397d94e",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0,
+    0.5,
+    1
+  ],
+  "method": "Whitened row-space projection; exact count conditioning; pooled prior variance sensitivity; Compare 16 greedy exact origin-total measurements with the arbitrary linear measurement bound."
+}
