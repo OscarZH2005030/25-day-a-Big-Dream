@@ -1,0 +1,14 @@
+{
+  "code_sha256": "060ec682bbe3d4c1e55148e0493455e8c3fc169c4b1c3b29fc98527aea9390d1",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "design": "Use fixed pooled historical selection weights and private evaluation weights. Select under each law or maximize worst per-law fractional marginal gain relative to the best candidate in that law at that step. Evaluate fixed sets under the three design laws and two interpolation laws excluded from the selection objective.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}
