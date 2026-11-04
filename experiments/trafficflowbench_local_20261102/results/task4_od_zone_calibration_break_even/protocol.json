@@ -1,0 +1,15 @@
+{
+  "code_sha256": "5f8f98a13810a720af721de6ce1bf894e9195f289b2e715ff7ce3701117c07dc",
+  "reference_sha256": "578824b444663c8ad6657996f202343375f822c96b8b7022d63944cafe514209",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0,
+    0.5,
+    1
+  ],
+  "method": "Keep 16 total sensors and replace one of 16 frozen origin measurements with a reference. Compute the largest reference error variance relative to shared bias that breaks even. Compare the last selected origin with an oracle that tests all 16 omissions. No draws."
+}
