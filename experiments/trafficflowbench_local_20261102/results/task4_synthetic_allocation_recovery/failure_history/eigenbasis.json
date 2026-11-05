@@ -1,0 +1,4 @@
+{
+  "error": "Portable seeded confusion tables differed on three roads despite matching data hashes",
+  "correction": "Use first independent original count rows in input order; rerun both local and portable"
+}

@@ -1,0 +1,21 @@
+{
+  "code_sha256": "36387e3aba02a9ae4fd9f9efefd073a08aae949a643360264675b8685b84ced2",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "seed": 2026110501,
+  "draws": 512,
+  "count_basis": "First linearly independent original rows in input order",
+  "method": "Simulate centered count errors under every registered Gaussian covariance. Profile global scale in each candidate likelihood. Compare allocating shared error with power and shared fraction known or profiled across the full grid."
+}

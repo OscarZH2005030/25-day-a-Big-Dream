@@ -1,0 +1,5 @@
+{
+  "error": "NameError: models not defined",
+  "correction": "Initialize candidate dictionary once per road before its covariance loops",
+  "completed_draws": 0
+}
