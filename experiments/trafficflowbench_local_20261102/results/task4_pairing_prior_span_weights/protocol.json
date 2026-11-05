@@ -1,0 +1,11 @@
+{
+  "source_sha256": "251f859489a678490f3b3e00ad00d1b030b63626fb39c2932ad1f84a7ce55a0d",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare fixed span-dependent weights after matching L2 norm to uniform half-average. Released weak prior targets only."
+}
