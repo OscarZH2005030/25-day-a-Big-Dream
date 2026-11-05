@@ -1,0 +1,10 @@
+{
+  "source_sha256": "60d18d1ce22e5cb1b99cef1384e3b2850e6955c3f7386a0f01100c16f2c3f4b2",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Bound mean squared zone span among near-optimal minimax solutions on two prespecified roads at a 1 percent movement cap with the prior-distance bound relaxed."
+}

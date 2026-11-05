@@ -1,0 +1,18 @@
+{
+  "corridors\\D12_I405_N\\network\\path_set.csv": "7458fd1d0531ba26e5387c258a4098d1ce702f87d62ec9a35c1d055ec3fa3dce",
+  "corridors\\D12_I405_N\\network\\path_link_incidence.csv": "8414c86e957101bbb0ccc02fbe80ebc58c3e7cc75d0b6ecc45f708a6f31b84d2",
+  "task4\\D12_I405_N\\private\\synthetic_link_counts.csv": "208da298fd7c633a6c8c6d76d7976a59ac555a595a3e2cbb0fb4309cd41abfff",
+  "task4\\D12_I405_N\\private\\synthetic_weak_prior.csv": "a69ae97c71292b123317b41abbe592c3208f0511b75f8ed57aefb4b13b330c8d",
+  "task4\\D12_I405_N\\train\\synthetic_link_counts.csv": "4110e3e74ff639c9ff64df23eee484287fde1ea01e289f2aa2beac498f4374a5",
+  "task4\\D12_I405_N\\train\\synthetic_weak_prior.csv": "2e0a43f929f9e128744d5f2a290a2145cd7f958212e5d6a436a655029e2998fe",
+  "task4\\D12_I405_N\\validation\\synthetic_link_counts.csv": "77908788e3906fc7cb99602f39d2dae2ab365c4b094c181bb00ba099f8ff558b",
+  "task4\\D12_I405_N\\validation\\synthetic_weak_prior.csv": "29cf8b3adf59a9a08d6eac252adda63d64f83807a1aeabaf6a58987625c61384",
+  "corridors\\D7_I10_E\\network\\path_set.csv": "a76363222ddfcbb05fdecb9991e0c5868c12bc9117d599250e919421c790345f",
+  "corridors\\D7_I10_E\\network\\path_link_incidence.csv": "2c8518c1f0e3db67d8727a4b1ce5c6ee0baaea10c254984e9e4579c2ef1b256d",
+  "task4\\D7_I10_E\\private\\synthetic_link_counts.csv": "1e061ae38daf59bb55786507e10c9ce501bb9f7ee3610731b6483ca539ce233f",
+  "task4\\D7_I10_E\\private\\synthetic_weak_prior.csv": "ca151872385a0f8ecdba788e7889584d9199f1ea3e6ef171bb6c2633b3688ab9",
+  "task4\\D7_I10_E\\train\\synthetic_link_counts.csv": "bfb398efa10242f432c51aa095a9506a04dc6938a16af56cb74b545433bd7163",
+  "task4\\D7_I10_E\\train\\synthetic_weak_prior.csv": "7b2d7e7c785217ad70190b752a6a387cdc5d3cff79fbd26bafff3feb441fc0a2",
+  "task4\\D7_I10_E\\validation\\synthetic_link_counts.csv": "42f52a7beaa409ecb55d85a7b49ba8ed9e6ec012551738469ed0b9f29cfe88a7",
+  "task4\\D7_I10_E\\validation\\synthetic_weak_prior.csv": "bb322fd25dcf1c6516ccbaa47b1817dba78ad52d92184c510c1a911eb13b7050"
+}
