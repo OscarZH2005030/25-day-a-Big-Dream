@@ -1,0 +1,11 @@
+{
+  "source_sha256": "a285bc66bdae66615df1a6a581e3de8bde08634b15f9212c1028eb9bddb7ed77",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "shrinkage": 0.5,
+  "method": "Compare opposite proxy targets at a fixed 5 percent cap and exact prior distance within the baseline sign orthant. No draws."
+}
