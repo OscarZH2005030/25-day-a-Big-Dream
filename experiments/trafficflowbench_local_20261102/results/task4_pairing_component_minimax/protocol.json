@@ -1,0 +1,10 @@
+{
+  "source_sha256": "9c5e60b0ca7c6f5f760008b39e548137a59283dbb58cb12d99b32ef1608ef1c2",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Minimize the largest cell movement among near-optimal L1 solutions under the same constraints."
+}
