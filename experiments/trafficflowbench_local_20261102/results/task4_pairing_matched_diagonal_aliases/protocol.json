@@ -1,0 +1,6 @@
+{
+  "source_sha256": "43e0321db748b2b35b29441c4bca5d25a5ed1e97178842a3ecb7fe43da88cf2d",
+  "geometry": "validation",
+  "weights": "train",
+  "method": "Construct disjoint unit null directions by projecting prior separately on alternating prior-ranked OD subsets. Sum and difference match all cell variances. Compare the prior linear-functional variance. No draws."
+}
