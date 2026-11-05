@@ -1,0 +1,7 @@
+view,method,distance_to_ideal,movement,prior_distance_delta
+margins,baseline,0.8471606525515896,0.0,0.0
+margins,interpolate,0.8471606525515896,0.0,0.0
+margins,l1_projection,0.4808674604604227,0.5905744958073161,0.35279791871072924
+margins_and_histogram,baseline,0.7106629242213128,0.0,0.0
+margins_and_histogram,interpolate,0.7106629242213128,0.0,0.0
+margins_and_histogram,l1_projection,0.31324374772048524,0.5554702667055159,0.35532859593294863

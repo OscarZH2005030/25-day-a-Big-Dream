@@ -1,0 +1,11 @@
+{
+  "source_sha256": "4e1fcfdbf29be41774ee0f493ba80876eeeca24c275254f59df51d78236c7130",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "shrinkage": 0.5,
+  "method": "Compare direct feasible interpolation with L1 projection onto baseline observation constraints. No draws or hidden labels."
+}

@@ -1,0 +1,8 @@
+{
+  "max_absolute_differences": {
+    "distance_to_ideal": 6.661338147750939e-16,
+    "movement": 0.007094583487466055,
+    "prior_distance_delta": 0.006385955106512992
+  },
+  "scope": "Same objective and feasible endpoints; optimizer may select different points on its optimal face."
+}
