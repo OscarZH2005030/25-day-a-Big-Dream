@@ -1,0 +1,11 @@
+view,method,relative_l1,relative_squared_error
+margins,average_full,0.6422979995769696,0.48888178181503916
+margins,average_half,0.6893431510527714,0.5488425115333049
+margins,train_half,0.7114575570506568,0.572162104607006
+margins,validation_half,0.7220160112729129,0.5948944324925148
+margins,zero,1.0,1.0
+margins_and_histogram,average_full,0.9033588771612646,0.8834639219148359
+margins_and_histogram,average_half,0.8578384607577334,0.7807397266323461
+margins_and_histogram,train_half,0.8925588598411641,0.8297345887124052
+margins_and_histogram,validation_half,0.8973549540742575,0.858686004628011
+margins_and_histogram,zero,1.0,1.0

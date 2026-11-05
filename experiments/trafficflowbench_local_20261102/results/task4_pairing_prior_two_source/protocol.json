@@ -1,0 +1,11 @@
+{
+  "source_sha256": "22ec72e77ae0490c80fb173702f78b0130ea94c9847c3280be1c40313a3bc8dc",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Frozen half shrinkage of each source and the equal average, plus fixed controls. Released weak prior targets only."
+}
