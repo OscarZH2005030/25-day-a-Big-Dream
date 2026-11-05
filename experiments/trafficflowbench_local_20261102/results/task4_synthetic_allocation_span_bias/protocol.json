@@ -1,0 +1,21 @@
+{
+  "code_sha256": "cf6f5476a4a9b1a05e6999486a871cdc40c81d86f8a17a011f600b4622716798",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "seed": 2026110501,
+  "draws": 512,
+  "count_basis": "First linearly independent original rows in input order",
+  "method": "Add a mean error in the prior-weighted OD span direction. Compare raw likelihood and contrasts removing the prior count profile alone or both the prior profile and span tilt."
+}
