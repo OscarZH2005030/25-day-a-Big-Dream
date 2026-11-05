@@ -1,0 +1,7 @@
+{
+  "source_sha256": "7ba73327ebc6fcc779ec5387d17ac378ccf826c93977e377f14f7327059bbe1d",
+  "predictor_split": "train",
+  "coefficient_split": "validation",
+  "evaluation_split": "private",
+  "scope": "Calibrate exact weighted-median L1 shrinkage from other corridor families, compare to L2 shrinkage and fixed coefficients, and score relative L1 on released weak priors."
+}
