@@ -1,0 +1,12 @@
+{
+  "source_sha256": "84881b2d3235a0aec4be322e0d1018014097d640305a5f0c7f8c5adb0edd1dc6",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "quantiles": [
+    0.5
+  ],
+  "method": "Compare median span bounds at minimum feasible L1 distance and at the midpoint to the frozen baseline L1 distance. Minimum gets a numerical slack of 1e-8 times fixed total demand. No draws."
+}
