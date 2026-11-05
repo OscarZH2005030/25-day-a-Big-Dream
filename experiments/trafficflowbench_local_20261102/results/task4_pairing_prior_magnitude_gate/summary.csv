@@ -1,0 +1,9 @@
+view,method,relative_l1,relative_squared_error
+margins,agreement_matched,0.6974509345846991,0.5537349496475994
+margins,average_half,0.6893431510527714,0.5488425115333049
+margins,magnitude_matched,0.6907927419342045,0.5490938215980586
+margins,zero,1.0,1.0
+margins_and_histogram,agreement_matched,0.8723561660144789,0.8119442866959027
+margins_and_histogram,average_half,0.8578384607577334,0.7807397266323461
+margins_and_histogram,magnitude_matched,0.8592685130285241,0.7812562911087738
+margins_and_histogram,zero,1.0,1.0

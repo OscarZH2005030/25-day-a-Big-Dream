@@ -1,0 +1,11 @@
+{
+  "source_sha256": "c2f2b4c60a8898658bd1742e3e13f8e3a8585d6364779d7d45721c3d3d78c0da",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare sign and magnitude gates at matched cell count and L2 norm after projection. Released weak prior targets only."
+}
