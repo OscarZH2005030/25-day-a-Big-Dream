@@ -1,0 +1,4 @@
+{
+  "issue": "Unthresholded floating-point signs changed agreement fractions in portable reproduction",
+  "correction": "Exclude both projected magnitudes at or below 1e-12 before gating"
+}

@@ -1,0 +1,11 @@
+{
+  "source_sha256": "65d97ed954e64431a7e39c056f0fca3e53e3cd9a18bfa974241ed1de1f87aba2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare half-average against its reprojected same-sign and opposite-sign components. Released weak prior targets only."
+}
