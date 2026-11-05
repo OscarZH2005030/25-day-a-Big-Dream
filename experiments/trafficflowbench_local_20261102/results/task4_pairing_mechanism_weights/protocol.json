@@ -1,0 +1,11 @@
+{
+  "source_sha256": "d297e1ad0355b9f34e873e90ea2385f915aa74c6444c9d4ef633eb96487dba9e",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare fixed 0.7 weights on opposite signs or same-sign imbalance at matched projected norm. Released weak prior targets only."
+}
