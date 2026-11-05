@@ -1,0 +1,5 @@
+{
+  "source_sha256": "25f7e33c0d33eac49e2f8cf95a3df79571cda35a8bb2be26da940a1c0db7621d",
+  "geometry": "validation",
+  "method": "Project all nonconstant integer long-trip threshold queries and a linear span control onto the count and count-plus-margin nullspaces. No draws."
+}
