@@ -1,0 +1,13 @@
+{
+  "source_sha256": "d87221682fadcfe4809418dab007041fec9af05cd9187469a796471026819a90",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "seed": 2026110503,
+  "random_replicates": 32,
+  "scope": "Compare gates at matched size and norm with uniform random masks. Released weak prior targets only."
+}
