@@ -1,0 +1,11 @@
+{
+  "source_sha256": "0b9ef94aec155c60ffe692c86fab182b713d12f249380e7b2ea55a692ac0c699",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare whole-prediction scaling with scaling only the histogram-nullspace component and with no scaling."
+}
