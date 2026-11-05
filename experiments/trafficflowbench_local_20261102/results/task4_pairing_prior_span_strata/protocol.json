@@ -1,0 +1,11 @@
+{
+  "source_sha256": "ffb2e8292508f30a815b09c3eacdde3569ef1415712e01699ab5d76e84537ab9",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare the fixed half-average with zero by three equal-width zone-span bands. Released weak prior targets only."
+}
