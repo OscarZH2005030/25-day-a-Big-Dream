@@ -1,0 +1,6 @@
+{
+  "source_sha256": "63faa059b851a676c0d4f5cef164929fa437fbcd8fbcedae95d2d827590ba3c0",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "evaluation_split": "private",
+  "method": "Project a fixed two-source half-average displacement onto the exact-L1 reversible subspace. Compare retained energy and signed feasible moves. No draws."
+}
