@@ -1,0 +1,9 @@
+{
+  "source_sha256": "f0ba092afecbb0218aac542c66d5f7f22e8a082078c2eac2c751f1cd36010b20",
+  "training_split": "train",
+  "evaluation_splits": [
+    "validation",
+    "private"
+  ],
+  "scope": "Released normalized weak-prior repeatability. The train predictor and zero comparator are fixed; no fitting to evaluation prior. No hidden OD labels."
+}

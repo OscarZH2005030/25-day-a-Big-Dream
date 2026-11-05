@@ -1,0 +1,7 @@
+{
+  "source_sha256": "8cb85194b71713a3fa3003c27ad99da6c13f496b888bc12268dd83f5a4bdd178",
+  "predictor_split": "train",
+  "coefficient_split": "validation",
+  "evaluation_split": "private",
+  "scope": "Learn one shrinkage coefficient from other corridor families. Compare to fixed 0, .5, 1 on private released weak priors only."
+}
