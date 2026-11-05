@@ -1,0 +1,11 @@
+{
+  "source_sha256": "b01f40a7e06518888a8c7dcfdb4a7717726f969b78a862eaa3d8fd55822e95a4",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare same-sign imbalance weights derived with or without a histogram and scored in one common count-plus-margin geometry. Exposed weak-prior target only."
+}

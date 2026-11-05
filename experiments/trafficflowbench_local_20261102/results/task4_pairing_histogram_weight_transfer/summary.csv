@@ -1,0 +1,4 @@
+view,method,relative_l1,relative_squared_error
+margins,histogram_mask,0.6898521725954048,0.5455877319012457
+margins,margin_mask,0.6942329990965513,0.5555769255293621
+margins,uniform,0.6893431510527716,0.5488425115333049
