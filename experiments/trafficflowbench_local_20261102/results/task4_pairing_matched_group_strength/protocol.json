@@ -1,0 +1,18 @@
+{
+  "code_sha256": "cf1cbee5707b5fc3fd1770c734cd5f8183b673ebc787b29360792270e6f74df7",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "correlations": [
+    0.125,
+    0.25
+  ],
+  "method": "Hold the covariance diagonal fixed. Compare cell-scaled group errors to group-specific constants with variance rho times the smallest cell variance of the group. Match prior-weighted shared variance across factors with one global rescaling per road and setting, then adjust independent variance to keep each cell total variance fixed. Condition via symmetric constraint Gram matrices. No draws."
+}
