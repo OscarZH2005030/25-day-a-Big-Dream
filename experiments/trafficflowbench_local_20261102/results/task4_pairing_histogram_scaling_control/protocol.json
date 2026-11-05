@@ -1,0 +1,11 @@
+{
+  "source_sha256": "aece565754cc76fbc14cd127cacb4e1626527e79679d7a299b666156b92a768c",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Separate the effect of scaling the baseline and adding the mask-derived correction."
+}
