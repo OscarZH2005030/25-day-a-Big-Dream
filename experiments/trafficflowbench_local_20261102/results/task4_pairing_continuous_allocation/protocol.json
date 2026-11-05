@@ -1,0 +1,18 @@
+{
+  "code_sha256": "9e3f13b6a92315bf31973b36f4135f941169e9fce3114a479ea060438113817a",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "method": "Hold total and shared variance fixed in every cell. Use a symmetric constraint eigendecomposition to calculate the continuous conditional trace curve and maximize it using its derivative. No draws."
+}
