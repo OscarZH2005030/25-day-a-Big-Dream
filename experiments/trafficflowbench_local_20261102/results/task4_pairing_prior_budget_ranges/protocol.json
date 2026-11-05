@@ -1,0 +1,12 @@
+{
+  "source_sha256": "c2c30541a58a66bd56b8d578f4e2220fa22ba2bcd9bb6a136b70076df32681ff",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "quantiles": [
+    0.5
+  ],
+  "method": "Compare median span bounds without a prior restriction and with an unrestricted-sign L1 budget. No draws."
+}
