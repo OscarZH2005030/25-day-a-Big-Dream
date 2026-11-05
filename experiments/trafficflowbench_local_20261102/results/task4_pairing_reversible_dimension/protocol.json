@@ -1,0 +1,6 @@
+{
+  "source_sha256": "adffb0fa4b44b4a6e69547f9d4aac3ccfb5d8d63d24d6a804fb7fc864eec3312",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "evaluation_split": "private",
+  "method": "Compute the local two-sided OD nullspace fixing zero flows, exact prior ties, counts, margins, prior L1, and optionally the span histogram. No draws."
+}
