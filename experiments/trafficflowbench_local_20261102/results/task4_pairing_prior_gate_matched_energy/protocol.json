@@ -1,0 +1,11 @@
+{
+  "source_sha256": "bbeb4ba4eac08bd450b594b8d8c096cb874bb5a7b741d706ee78b573b3723618",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare the reprojected agreement gate at its natural and matched L2 norms. Released weak prior targets only."
+}
