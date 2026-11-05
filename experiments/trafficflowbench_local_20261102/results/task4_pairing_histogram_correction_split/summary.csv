@@ -1,0 +1,5 @@
+view,method,relative_l1,relative_squared_error
+margins,full_correction,0.6898521725954048,0.5455877319012457
+margins,histogram_changing,0.6975007711556435,0.5554037343692041
+margins,histogram_preserving,0.6828041556429658,0.5401883224780658
+margins,uniform,0.6893431510527714,0.5488425115333049

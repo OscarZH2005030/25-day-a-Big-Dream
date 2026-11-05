@@ -1,0 +1,11 @@
+{
+  "source_sha256": "278b24052253611bd7b869ecde324e30c035432094c1d758a00ae21f279b082f",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Split the transferred histogram-mask correction into histogram-preserving and histogram-changing components."
+}
