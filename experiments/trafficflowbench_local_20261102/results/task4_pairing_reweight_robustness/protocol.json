@@ -1,0 +1,8 @@
+{
+  "source_sha256": "bb415fb41bdfd1490a595bf9cf63d9b42a0cc6868becbeff0f774dfee2eb63a1",
+  "input_sha256": {
+    "task4_pairing_prior_span_weights\\by_panel.csv": "9adbb775667e017e14d69ab4e3a897e98e81b10bf32a4d3a463224835f4d8734",
+    "task4_pairing_prior_disagreement_weights\\by_panel.csv": "30dd56f0b035efc078f8e5501fcaaf3300e8cd5a197645cb967fa10006cb568e"
+  },
+  "scope": "Descriptive road pairs and family sensitivity on exposed weak-prior targets. No tuning, sampling or hidden labels."
+}
