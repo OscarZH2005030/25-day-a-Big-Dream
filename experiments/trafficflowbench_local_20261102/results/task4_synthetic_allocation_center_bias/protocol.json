@@ -1,0 +1,21 @@
+{
+  "code_sha256": "08ab9b01b544a2128d42cf731a129a404a62f8c9517ff919824d9e95bf86d273",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "seed": 2026110501,
+  "draws": 512,
+  "count_basis": "First linearly independent original rows in input order",
+  "method": "Reuse centered Gaussian draws, add mean shifts along the pooled-prior count profile at 0, .5 and 1 whitened RMS, and compare profile likelihood before and after removing the known shift direction."
+}
