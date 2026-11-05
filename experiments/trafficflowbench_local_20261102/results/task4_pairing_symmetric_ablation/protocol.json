@@ -1,0 +1,6 @@
+{
+  "source_sha256": "80cba1ea91be8db5fdcef72358fdefc7ccc9c5cc2e469c9f0c1faaf9aba6f3eb",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "evaluation_split": "private",
+  "method": "Compare positivity alone, fixed prior signs, and fixed signs plus exact prior L1 at the symmetric target-aligned optimum. No draws."
+}
