@@ -1,0 +1,22 @@
+{
+  "code_sha256": "b07289be0dcc83d91b9eef5092a1814cea4ed355230d61f69388b5f4b9318335",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "seed": 2026110501,
+  "draws": 512,
+  "count_basis": "First linearly independent original rows in input order",
+  "factor_seed": 2026110502,
+  "method": "Add independent Gaussian quadratic span factor outside candidate covariance grid. Compare raw likelihood, prior-plus-linear-span contrasts and contrasts additionally removing quadratic span."
+}
