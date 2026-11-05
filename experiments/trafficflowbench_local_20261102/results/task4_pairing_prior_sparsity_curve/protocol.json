@@ -1,0 +1,19 @@
+{
+  "source_sha256": "bb2c23c1fd3cccc775f79aa8819fbc73a6a3b1edc537bc2037dd04a6a82190d1",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "retained_fractions": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "scope": "Fixed magnitude budgets matched for projected norm. Released weak prior targets only."
+}
