@@ -1,0 +1,6 @@
+{
+  "source_sha256": "7de7b3e5e5c4cfcbf32c7f37fc83bcdb218acb0a41604835bdb4edca25226471",
+  "geometry": "validation",
+  "weights": "train",
+  "method": "Project OD coordinate vectors into the count-plus-margin nullspace. Choose extremes of weighted variance for equal unit trace additions to a shared-factor covariance. No random draws."
+}
