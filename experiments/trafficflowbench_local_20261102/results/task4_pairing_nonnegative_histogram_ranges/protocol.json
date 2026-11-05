@@ -1,0 +1,13 @@
+{
+  "source_sha256": "da25143204ea6bdd064446fd4490d2cd41908c66383f57a2ed51f677de2ff23f",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "regimes": [
+    "margins",
+    "margins_and_histogram"
+  ],
+  "method": "Bound total flow in the top half of weak-prior OD cells under baseline counts, margins and exact prior L1 in its orthant, with and without exact baseline span histogram. No draws."
+}
