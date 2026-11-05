@@ -1,0 +1,9 @@
+[
+  {
+    "panel": "D12_I405_S",
+    "view": "margins",
+    "amplitude_bin": 14,
+    "stratum": "imbalanced",
+    "error": "Empty stratum"
+  }
+]
