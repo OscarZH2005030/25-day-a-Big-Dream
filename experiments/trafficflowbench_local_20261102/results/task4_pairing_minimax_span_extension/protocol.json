@@ -1,0 +1,10 @@
+{
+  "source_sha256": "6324804dac9a0175a8b71d63c4a4b4980f19a9d30db8b0e27aed123b9ea5592a",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Bound mean squared zone span among near-optimal minimax solutions on the eight remaining roads."
+}
