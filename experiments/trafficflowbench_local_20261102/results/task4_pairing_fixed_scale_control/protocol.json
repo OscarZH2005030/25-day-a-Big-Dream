@@ -1,0 +1,11 @@
+{
+  "source_sha256": "f178955afc4a6b1acd3285ffb502abe93992d6f4d12b694bf79585eb57b2f0f7",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare a fixed 1.03 scale with mask-derived scaling of the unchanged prediction."
+}
