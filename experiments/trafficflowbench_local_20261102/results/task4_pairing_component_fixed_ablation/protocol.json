@@ -1,0 +1,7 @@
+{
+  "source_sha256": "9586b4e57a4e1f44ab4b5b3d6282a70a80d238e750a1ebae7dd0d5eda77bc1be",
+  "predictor_split": "train",
+  "coefficient_split": "validation",
+  "evaluation_split": "private",
+  "scope": "Fixed component ablation against other-corridor calibration on the same exposed weak-prior targets."
+}
