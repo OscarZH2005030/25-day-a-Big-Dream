@@ -1,0 +1,25 @@
+{
+  "source_sha256": "4fdb7a365389c5e8f50959211a6042ec6f8aeda8e2d5a1a0f369033ff7b42a8f",
+  "train": "train",
+  "evaluation": "validation",
+  "baseline": [
+    0.5,
+    0.25,
+    0.5
+  ],
+  "powers": [
+    0,
+    0.5,
+    1
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "origin_shares": [
+    0,
+    0.5,
+    1
+  ],
+  "scope": "Compare profiled covariance shape score on released count-minus-prior residuals. No hidden OD labels, random draws, or assumed residual provenance."
+}
