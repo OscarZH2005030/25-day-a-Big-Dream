@@ -1,0 +1,11 @@
+{
+  "source_sha256": "465dda55531a18d22d1bdf48997a6f3102af61b1a5e7a7caae62e2b85fb50c7a",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Frozen 0.5 disagreement threshold within predictor amplitude quartiles. Compare absolute per-cell errors and gain over zero with the same exposed proxy."
+}
