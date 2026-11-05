@@ -1,0 +1,18 @@
+{
+  "code_sha256": "62896fea4507b932d5993d7ff1eddbc40561036611840e8df1ca651b75c44d90",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "method": "Keep total and shared variance fixed in every cell. Allocate shared variance between origin and destination group factors at origin fractions 0, .25, .5, .75, 1. Condition via symmetric constraint Gram matrices. No draws."
+}
