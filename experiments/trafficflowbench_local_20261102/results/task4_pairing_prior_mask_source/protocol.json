@@ -1,0 +1,16 @@
+{
+  "source_sha256": "7e02790288e3e942a77fbe13631639072d6fdec68370153f09df22c1e81ebe82",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "retained_fractions": [
+    0.05,
+    0.25,
+    0.5
+  ],
+  "scope": "Select masks from train, validation or their average at matched norm. Released weak prior targets only."
+}
