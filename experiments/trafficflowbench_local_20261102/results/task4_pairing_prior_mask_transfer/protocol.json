@@ -1,0 +1,16 @@
+{
+  "source_sha256": "9e7db3d1f5738896ce52ce34b32fd1f8251cca81f68ffd242418bf2a00eca43c",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "retained_fractions": [
+    0.05,
+    0.25,
+    0.5
+  ],
+  "scope": "Transfer masks between margin-only and margin-plus-span projections at matched norm. Released weak prior targets only."
+}
