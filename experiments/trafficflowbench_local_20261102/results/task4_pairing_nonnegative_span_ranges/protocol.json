@@ -1,0 +1,14 @@
+{
+  "source_sha256": "cb58a073bbd3d42c6cd2a3c4336150117bc9f27f254ab0fbba10f13444ff4102",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "splits": [
+    "validation",
+    "private"
+  ],
+  "quantiles": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "method": "Nonnegative LP bounds under baseline counts, both margins and exact prior L1 in baseline orthant. No draws."
+}
