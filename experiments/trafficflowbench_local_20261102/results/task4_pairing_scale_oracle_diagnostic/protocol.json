@@ -1,0 +1,11 @@
+{
+  "source_sha256": "49e50251ebc829700e309dd5155a3865536a7cfe31f90d86134e93578226721f",
+  "predictor_splits": "two non-target released splits",
+  "geometry_split": "private",
+  "evaluation_splits": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "scope": "Diagnostic target-oracle multipliers for L1 and squared error in each orthogonal subspace."
+}
