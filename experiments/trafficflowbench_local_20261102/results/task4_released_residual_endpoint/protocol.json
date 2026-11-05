@@ -1,0 +1,17 @@
+{
+  "source_sha256": "bbff7731c7ef337b71af7b2ac9326871f72e4f0a6fe0074c93b3b37d401b62ba",
+  "splits": [
+    "train",
+    "validation"
+  ],
+  "fractions": [
+    0.99,
+    0.999,
+    0.9999,
+    0.999999,
+    1.0
+  ],
+  "power": 0.0,
+  "origin_share": 0.5,
+  "scope": "Released residual score at the exposed boundary, using a fixed generalized eigenspace. No hidden OD inference."
+}
