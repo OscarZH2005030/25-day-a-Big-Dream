@@ -1,0 +1,18 @@
+{
+  "code_sha256": "52b0ffdbf7b138720a6d96f832b46b413e806e4d5ea065b095de782d36b0d81b",
+  "split": "private",
+  "weighting_split": [
+    "train",
+    "validation"
+  ],
+  "powers": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "shared_fractions": [
+    0.25,
+    0.5
+  ],
+  "method": "Compare covariance shapes of idealized centered Gaussian count errors for allocations 0, .5, 1, with a fitted global scale as a nuisance parameter. No draws or observed error residuals."
+}
