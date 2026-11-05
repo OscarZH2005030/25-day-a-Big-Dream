@@ -1,0 +1,6 @@
+{
+  "source_sha256": "bba04c2a2d16afc9474181e19079dc4ec775fa4d5b52356443ba0ec0aaf0851e",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "evaluation_split": "private",
+  "method": "Maximize symmetric feasible L1 movement aligned cellwise with the signed two-source pairing target. No draws."
+}
