@@ -1,0 +1,6 @@
+{
+  "source_sha256": "dbcc68df6d04a89f51b10a3508a92ee6b6ffbfe1379d17f9261a5b721cdc3ea0",
+  "geometry": "validation",
+  "weights": "train",
+  "method": "Mix matched-diagonal rank-one aliases with an identical trace-normalized joint nullspace projector. Compare prior, long-trip and total-span linear functionals. No draws."
+}
