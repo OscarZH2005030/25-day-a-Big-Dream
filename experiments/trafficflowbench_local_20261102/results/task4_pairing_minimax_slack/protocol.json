@@ -1,0 +1,10 @@
+{
+  "source_sha256": "2e9e1c6408513b9be202a502c7a6d256813e3008709d6fab907361bf9d9f7c87",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Bound mean squared zone span among near-optimal minimax solutions on two prespecified roads at a 1 percent movement cap and 25 percent minimax slack."
+}
