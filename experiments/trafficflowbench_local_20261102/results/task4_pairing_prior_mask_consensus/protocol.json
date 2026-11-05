@@ -1,0 +1,16 @@
+{
+  "source_sha256": "6429dd8ee721d7fac1c8c8d70e326f02ac918910f7f9a70d1c0dfb24a45b98a4",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "retained_fractions": [
+    0.05,
+    0.25,
+    0.5
+  ],
+  "scope": "Compare signed pooled ranking with minimum, maximum and mean absolute source amplitudes at matched norm. Released weak prior targets only."
+}
