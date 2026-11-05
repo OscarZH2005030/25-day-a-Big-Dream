@@ -1,0 +1,7 @@
+view,method,relative_l1,relative_squared_error
+margins,downweight_disagreement,0.6947836460300668,0.5537869818693577
+margins,uniform,0.6893431510527716,0.5488425115333049
+margins,upweight_disagreement,0.6944812479954532,0.5561452864839405
+margins_and_histogram,downweight_disagreement,0.856437391544616,0.7812038436446724
+margins_and_histogram,uniform,0.8578384607577334,0.7807397266323461
+margins_and_histogram,upweight_disagreement,0.8676563633829115,0.7925701060373839

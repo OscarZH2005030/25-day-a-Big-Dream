@@ -1,0 +1,11 @@
+{
+  "source_sha256": "16faedc8d44f4238a07a2b402a05a66fff61d1eb72f9bed1ab66c6e62f5ef5b3",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Compare continuous disagreement weights and reverse weights at matched projected norm. Released weak prior targets only."
+}
