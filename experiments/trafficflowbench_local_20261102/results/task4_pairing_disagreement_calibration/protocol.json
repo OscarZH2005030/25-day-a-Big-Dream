@@ -1,0 +1,11 @@
+{
+  "source_sha256": "3942565a012c14e92cbb1f1b6f78d9617fa92f3cc7ae4c9c699bf2b77defeb52",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_splits": [
+    "private"
+  ],
+  "scope": "Frozen 0.5 disagreement threshold within predictor amplitude quartiles. Aggregate weak-prior proxy diagnostics only."
+}
