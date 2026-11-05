@@ -1,0 +1,7 @@
+{
+  "source_sha256": "4a3af4eb1c7bf0cadadd0201b31eab84f53459af8e8f40dddc2537426f9cb3f4",
+  "predictor_split": "train",
+  "coefficient_split": "validation",
+  "evaluation_split": "private",
+  "scope": "Test whether train-to-validation component coefficients transfer to a two-source mean predictor."
+}
