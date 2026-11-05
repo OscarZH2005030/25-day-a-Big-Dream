@@ -1,0 +1,11 @@
+{
+  "source_sha256": "aa6e0498fbcb0281b2a7924ab82412ffb5bfa8d2641cc87f88ea2fc93c15b659",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "shrinkage": 0.5,
+  "method": "Constrain L1 movement to 1, 5 or 10 percent of baseline demand and require original weak-prior distance not to increase. No draws."
+}
