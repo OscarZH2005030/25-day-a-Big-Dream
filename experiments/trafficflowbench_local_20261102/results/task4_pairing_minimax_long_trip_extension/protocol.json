@@ -1,0 +1,10 @@
+{
+  "source_sha256": "298f233652109e19ba9ea4a2e2f10f5c10921c6ec3a15c27e655814818bfb7b6",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Bound the long-trip share among near-optimal minimax solutions on the eight remaining roads."
+}
