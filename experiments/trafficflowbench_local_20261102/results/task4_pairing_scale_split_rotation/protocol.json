@@ -1,0 +1,11 @@
+{
+  "source_sha256": "ac255ab47d467343caaaa1007e9b35b023861aec344868708d20cdd95cd4b8a2",
+  "predictor_splits": "two non-target released splits",
+  "geometry_split": "private",
+  "evaluation_splits": [
+    "train",
+    "validation",
+    "private"
+  ],
+  "scope": "Rotate the target split using one fixed scale and a common count-plus-margins geometry per road."
+}
