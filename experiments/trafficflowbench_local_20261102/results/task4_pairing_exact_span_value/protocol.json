@@ -1,0 +1,8 @@
+{
+  "source_sha256": "32bc1d4db6d0aceba76a79fe864dc69f2b09f68dc236bf12dab34f275b8bda54",
+  "geometry": [
+    "validation",
+    "private"
+  ],
+  "method": "Compare count plus margin geometry with and without hypothetical exact full span histogram. Conditional isotropic OD diagonal from orthogonal projectors. No draws."
+}
