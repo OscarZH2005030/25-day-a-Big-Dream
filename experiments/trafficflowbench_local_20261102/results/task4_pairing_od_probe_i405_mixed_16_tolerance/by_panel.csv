@@ -1,0 +1,2 @@
+panel,selected_probe_count,pair_l1_gap,witness_probe_l1,minimum_probe_l1,alternate_pair_l1,zone_group_rows,nullspace_rank,minimum_row_tolerance,contrast_min,contrast_max
+D12_I405_N,256,0.0031450917634552435,41.78777429666598,3.419486915845482e-14,0.006996234031970575,136,780,0.19870822484392947,-0.0012226322800998766,0.001500222907265655
