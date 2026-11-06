@@ -1,0 +1,11 @@
+{
+  "source_sha256": "6567352ed4eb021c9905e107f2f9831be6b29536482c67c1edd6e6db6cd3c812",
+  "probe_model": "two fixed witnesses, equal prior odds, independent equal Gaussian measurement errors; oracle probe placement",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Find the smallest common minimax multiplier auditing hypothetical direct OD measurement resolution."
+}
