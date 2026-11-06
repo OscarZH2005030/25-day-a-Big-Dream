@@ -1,0 +1,10 @@
+{
+  "source_sha256": "fbab513da2176c45d2e667176791866b771c62c138a5e5895fc304f70d9ee4fa",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Select conditional direct cells at the same nominal row count as the 16-by-16 mixed design by residual nullspace leverage, conditioned on previously selected cells. Minimize the maximum per-row disagreement on the direct probes, compute the minimum and maximum signed contrast between the same two near-optimal witness sets. The contrast is the sign of the pooled train/validation prior component in the count, margin and span nullspace. No random draws."
+}

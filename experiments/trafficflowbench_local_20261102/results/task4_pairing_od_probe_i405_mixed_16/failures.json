@@ -1,0 +1,14 @@
+[
+  {
+    "panel": "D12_I405_N",
+    "view": "margins",
+    "endpoint": "contrast_min",
+    "error": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+  },
+  {
+    "panel": "D12_I405_N",
+    "view": "margins",
+    "endpoint": "contrast_max",
+    "error": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)"
+  }
+]
