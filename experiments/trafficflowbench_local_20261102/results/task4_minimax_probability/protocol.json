@@ -1,0 +1,6 @@
+{
+  "input_sha256": "96dcd60645051b3e6d453e25c2c645e1d95743e47b989f863862ae76961dba4b",
+  "source_sha256": "4747bbb78f360b16caa5e2f25a2473adc81f86309eb49e1b4f2668302723f6c1",
+  "scope": "Exposed synthetic cases. Expected scores of randomized method choices, not flow mixtures.",
+  "seed": null
+}
