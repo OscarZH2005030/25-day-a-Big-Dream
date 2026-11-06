@@ -1,0 +1,10 @@
+{
+  "source_sha256": "52a2f5a34923e9f92efdee8ac5fd7c1f7e56fe1ec1b4cfa6b9341d8562e95307",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Find the smallest common minimax multiplier testing fixed adaptive eight-cell batches OD probes across near-optimal witnesses."
+}
