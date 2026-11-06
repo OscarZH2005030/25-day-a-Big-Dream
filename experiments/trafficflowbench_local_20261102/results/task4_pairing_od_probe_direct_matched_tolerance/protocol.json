@@ -1,0 +1,10 @@
+{
+  "source_sha256": "2edb3c271bb5056a074aa480c33fdf460760dc1643e912bbe76420592bde1163",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Select 784 OD cells by residual nullspace leverage, conditioned on previously selected cells. Allow per-row differences of 0.00001 times reference demand on the direct probes, compute the minimum and maximum signed contrast between the same two near-optimal witness sets. The contrast is the sign of the pooled train/validation prior component in the count, margin and span nullspace. No random draws."
+}
