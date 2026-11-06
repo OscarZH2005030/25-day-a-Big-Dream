@@ -1,0 +1,10 @@
+{
+  "source_sha256": "65329a34a87341f478d7125c2f4e4e32a08953f6f289598f8a801aa64f84a3ee",
+  "baseline_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "predictor_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": "private",
+  "method": "Find the smallest common minimax multiplier allowing identical complete span histograms."
+}
