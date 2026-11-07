@@ -38,6 +38,8 @@ def main():
     parser.add_argument('--road', default='D7_I10_E')
     parser.add_argument('--evaluate-adapter', type=Path)
     parser.add_argument('--variable', choices=['both', 'speed_kmh', 'flow_vph'], default='both')
+    parser.add_argument('--seq-len', type=int, default=96)
+    parser.add_argument('--evaluation-keys-file', type=Path)
     args = parser.parse_args()
     if args.evaluate_adapter is not None:
         args.steps = 0
@@ -66,17 +68,17 @@ def main():
     values = np.stack(arrays, axis=1)
     train_means = np.nanmean(values[:20 * 288], axis=0)
     input_values = pd.DataFrame(values).ffill(limit=12).fillna(dict(enumerate(train_means))).to_numpy(dtype=np.float32)
-    splits = {'train': (96, 20 * 288), 'validation': (20 * 288, 24 * 288), 'test': (24 * 288, 30 * 288)}
+    splits = {'train': (args.seq_len, 20 * 288), 'validation': (20 * 288, 24 * 288), 'test': (24 * 288, 30 * 288)}
     windows = {}
     for split, (start, end) in splits.items():
         keys = []
         for tick in range(start, end - 11, 12):
             for channel in range(values.shape[1]):
                 if (np.isfinite(values[tick:tick + 12, channel]).all()
-                        and np.isfinite(values[tick - 96:tick, channel]).mean() >= 0.75):
+                        and np.isfinite(values[tick - args.seq_len:tick, channel]).mean() >= 0.75):
                     keys.append((tick, channel))
         windows[split] = keys
-    config = SimpleNamespace(task_name='short_term_forecast', pred_len=12, seq_len=96,
+    config = SimpleNamespace(task_name='short_term_forecast', pred_len=12, seq_len=args.seq_len,
         d_ff=32, llm_dim=768, patch_len=16, stride=8, llm_model='GPT2', llm_layers=args.layers,
         prompt_domain=True, content='Freeway station traffic measurements at five-minute intervals, including speed or vehicle flow.',
         dropout=0.1, d_model=32, n_heads=4, enc_in=1)
@@ -91,6 +93,7 @@ def main():
         'selection': ('Frozen source-road adapter, no target-road fitting or checkpoint selection.' if args.evaluate_adapter else
                       'Fixed config, best validation scaled MSE at 50-step checkpoints. Test evaluated once per run; exposed after first pilot.'),
         'variable': args.variable,
+        'evaluation_keys_sha256': digest(args.evaluation_keys_file) if args.evaluation_keys_file else None,
         'eligibility': 'Targets fully observed and eligible. Inputs at least 75% observed, causal forward-fill up to 12 ticks then training-only channel mean. Stations selected on train availability only.',
         'train_channel_means': train_means.tolist()}
     (OUT / 'protocol.json').write_text(json.dumps(protocol, indent=2), encoding='utf-8')
@@ -106,7 +109,7 @@ def main():
     rng = np.random.default_rng(SEED)
 
     def batch(keys):
-        x = np.stack([input_values[tick - 96:tick, channel] for tick, channel in keys])
+        x = np.stack([input_values[tick - args.seq_len:tick, channel] for tick, channel in keys])
         y = np.stack([values[tick:tick + 12, channel] for tick, channel in keys])
         return torch.from_numpy(x[:, :, None]).cuda(), torch.from_numpy(y[:, :, None]).cuda()
 
@@ -122,6 +125,13 @@ def main():
     # A fixed bounded subset keeps this a deadline-feasible pilot.
     validation_keys = windows['validation'][::max(1, len(windows['validation']) // 64)][:64]
     test_keys = windows['test'][::max(1, len(windows['test']) // 128)][:128]
+    if args.evaluation_keys_file:
+        frozen_keys = json.loads(args.evaluation_keys_file.read_text(encoding='utf-8'))
+        validation_keys = [tuple(key) for key in frozen_keys['validation']]
+        test_keys = [tuple(key) for key in frozen_keys['test']]
+        for split, keys in [('validation', validation_keys), ('test', test_keys)]:
+            if not set(keys).issubset(set(windows[split])):
+                raise RuntimeError(f'Frozen {split} keys fail current history eligibility')
     (OUT / 'evaluation_keys.json').write_text(json.dumps({'validation': validation_keys, 'test': test_keys}), encoding='utf-8')
     best = float('inf')
     started = time.monotonic()

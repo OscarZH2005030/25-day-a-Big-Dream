@@ -62,3 +62,18 @@ Direct East-to-West adapter transfer failed to beat either baseline on both vari
 Use `--road D7_I10_W` to train the West model with the same options above. To evaluate a frozen East adapter, add `--evaluate-adapter D:/traffic-research/outputs/daytime/time_llm_full12/adapter.pt` and select a fresh output directory. The target road's training observations are used for availability selection and missing-input mean statistics, while the source adapter is frozen.
 
 `--variable speed_kmh` or `--variable flow_vph` restricts the shared channel-independent model to one variable for subsequent exploratory studies. The results in the tables use `--variable both`.
+
+## West speed-only training
+
+The joint model's speed failure motivated a speed-only experiment with the same full GPT-2, seed, 1000 optimizer steps, learning rate and chronological split. Speed-only training uses 96 training windows, 13 validation windows and 13 evaluation windows. The 116 observed evaluation points match the speed support of the joint experiment.
+
+| West speed method | RMSE, km/h | MAE, km/h |
+| --- | --- | --- |
+| Persistence | 22.791492 | 7.454367 |
+| Previous day | 7.997691 | 2.172683 |
+| Joint Time-LLM | 20.917006 | 6.947301 |
+| Speed-only Time-LLM | 9.304894 | 2.338155 |
+
+The speed-only model improved substantially over joint training, while previous-day speed remained stronger. The same number of optimizer steps allocates more updates to speed in the speed-only experiment. The configuration was chosen after observing joint performance, and this is a development comparison on exposed data.
+
+Run the West command with `--variable speed_kmh` to reproduce. Further history-length studies can use `--seq-len 384 --evaluation-keys-file <speed-only-output>/evaluation_keys.json` to retain the speed-only validation/evaluation windows. The runner rejects frozen windows that fail the new history eligibility threshold. Such a change creates a different prediction head and requires training a fresh adapter.

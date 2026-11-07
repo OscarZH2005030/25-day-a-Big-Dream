@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "seconds": 76.6560705999982,
+  "adapter_sha256": "e9fbc59871d5144c824d101170d2d5bd76974bbd6064ea44a6185439f4816940",
+  "torch": "2.9.1+cu128",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "official_score": null,
+  "test_windows": 13
+}

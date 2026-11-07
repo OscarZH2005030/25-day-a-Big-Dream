@@ -1,0 +1,111 @@
+{
+  "seed": 2026110701,
+  "road": "D7_I10_W",
+  "source_month": "2030-06",
+  "splits": {
+    "train": [
+      96,
+      5760
+    ],
+    "validation": [
+      5760,
+      6912
+    ],
+    "test": [
+      6912,
+      8640
+    ]
+  },
+  "windows": {
+    "train": 96,
+    "validation": 13,
+    "test": 13
+  },
+  "channels": [
+    [
+      "SYN_D7_I10_W_0076",
+      "speed_kmh",
+      100.0
+    ],
+    [
+      "SYN_D7_I10_W_0004",
+      "speed_kmh",
+      100.0
+    ],
+    [
+      "SYN_D7_I10_W_0012",
+      "speed_kmh",
+      100.0
+    ],
+    [
+      "SYN_D7_I10_W_0023",
+      "speed_kmh",
+      100.0
+    ]
+  ],
+  "config": {
+    "task_name": "short_term_forecast",
+    "pred_len": 12,
+    "seq_len": 96,
+    "d_ff": 32,
+    "llm_dim": 768,
+    "patch_len": 16,
+    "stride": 8,
+    "llm_model": "GPT2",
+    "llm_layers": 12,
+    "prompt_domain": true,
+    "content": "Freeway station traffic measurements at five-minute intervals, including speed or vehicle flow.",
+    "dropout": 0.1,
+    "d_model": 32,
+    "n_heads": 4,
+    "enc_in": 1
+  },
+  "steps": 1000,
+  "batch_size": 8,
+  "learning_rate": 0.0001,
+  "evaluate_adapter_sha256": null,
+  "upstream_commit": "b13e881f86cd0475ce1b72c17110430663334955",
+  "source_hashes": {
+    "synthetic_mainline_2030_06_01.parquet": "510f839edae9ec4bcfdc06b2d45c6e08e2a49db982aa4ea73337cc590c53d0d4",
+    "synthetic_mainline_2030_06_02.parquet": "4288c998955cc015861d02e1c9a3dc27b0121ebb59ad0891646fb9dc27766429",
+    "synthetic_mainline_2030_06_03.parquet": "6fd8812cebb3062c7a790c0dba3e63894e65404d0e7827d14198ccab7965efa1",
+    "synthetic_mainline_2030_06_04.parquet": "241ba1560d09f942af81d4302495b1a1a55caf2b6cd36ab4d50d265ee0fb1ee0",
+    "synthetic_mainline_2030_06_05.parquet": "6a651c445c1ee774cc353a745b1da57f15ed3c437bcb960be361cd246e92337c",
+    "synthetic_mainline_2030_06_06.parquet": "34789cef78d42ea638fe7d43ccc5a73752545756693ac7098a0e4af8cd6f514d",
+    "synthetic_mainline_2030_06_07.parquet": "d04c7fb102109dd60c06277b30efce40c02895e67cfb68db6915e13c138f5b4b",
+    "synthetic_mainline_2030_06_08.parquet": "f02ff85c86c56485ae3ef1484b879fc9f65cfa675bf6a6bd7b60724c4c445bed",
+    "synthetic_mainline_2030_06_09.parquet": "0babbccf5989d91a818700c0f58fbc2f7c918f5b7b563926e3b4b21fd4eed1e9",
+    "synthetic_mainline_2030_06_10.parquet": "25614af55eca89f48425c8699280ed7f35c5af05cceb583a3f64ba8983bdf34b",
+    "synthetic_mainline_2030_06_11.parquet": "fb4f568ad10a76b45883a779902520229a9dbd03fef81efd173ce4442135f9ce",
+    "synthetic_mainline_2030_06_12.parquet": "baeea316de5e45a29b4aadd4e6be31c7ac09337d90eef236d1886010ecc37864",
+    "synthetic_mainline_2030_06_13.parquet": "7986873981ccced6a4b36c6ee2ad654354e680ba98731ece66e355832fccef7b",
+    "synthetic_mainline_2030_06_14.parquet": "946f86b07bfbe7bcbc319be3cb6e29eee0eaa877d6da346ace479e7e3484d8d7",
+    "synthetic_mainline_2030_06_15.parquet": "1abdf7bb75b1c778039a2569e274cf199554925dbe12baccf63e09ed54f1104d",
+    "synthetic_mainline_2030_06_16.parquet": "ce2f47fd8d6d4bf23502e1264d10b4b259eb7cb38c84c5cbdb1a399cb977aaa2",
+    "synthetic_mainline_2030_06_17.parquet": "d9eb7abfe655c6d401430040fb1a8def71ff3defab8e427e79248b3b38ca188f",
+    "synthetic_mainline_2030_06_18.parquet": "774898a33ebcc00a5bd8cfca3ced31edd8a07a49e9a00857cb430f3e1891fdc6",
+    "synthetic_mainline_2030_06_19.parquet": "f41e401fa65db0a56cdb05ebad80c68197761c1b45b1cb1836f75eacc4b9478c",
+    "synthetic_mainline_2030_06_20.parquet": "6512d123c23e029925676fb1e8982c62d2908dd4094c9534c46229a70ffee3d3",
+    "synthetic_mainline_2030_06_21.parquet": "bde13226c1e4dd2b4f4236bf247a530ae3c2512f4da9bcb035ea06edb2b7de31",
+    "synthetic_mainline_2030_06_22.parquet": "5a9bd8d3c8f9afbbc4580f047ebf08f2ffa2065c58afed63bdb6de147e4bcd49",
+    "synthetic_mainline_2030_06_23.parquet": "a3f66a7bccfa94eff23856a9ac9959c1320ccfc42020ce1b879e8e0ae1dd40d5",
+    "synthetic_mainline_2030_06_24.parquet": "61065ad996d50262777824e8c44807e9fb2db4db782dbb52bac166ed66b7f4bb",
+    "synthetic_mainline_2030_06_25.parquet": "e3513543597a21d93a1169475d569766f74292ef6233e253901204fa4f1de29c",
+    "synthetic_mainline_2030_06_26.parquet": "001fe927e9a551c78d9579368921f73493b9949eca66db2603e991a7c413a1d4",
+    "synthetic_mainline_2030_06_27.parquet": "f0f3bd28918d33a604fe1e128e095a617acbfb88b8b4ef03da4e2b555209b460",
+    "synthetic_mainline_2030_06_28.parquet": "b6b337335ae9adf69fe0864f1b819fa84f71c28eea1c3a7b12e387b6e6baeffd",
+    "synthetic_mainline_2030_06_29.parquet": "2f8fdffba43a9b20d361f8dcbbdbc5eba6b19234b8d64d092ccdb58a825b9b56",
+    "synthetic_mainline_2030_06_30.parquet": "726a99277059266fcc366fcd5934756871265bbf50deedac61f32a77af2fdd76"
+  },
+  "runner_sha256": "fc641d72737a6d8c6adaa8e33127e0bddefea305219e83ddf3283bc6ba9528db",
+  "scope": "Exposed public-data forecasting diagnostic, not official imputation or hidden score.",
+  "selection": "Fixed config, best validation scaled MSE at 50-step checkpoints. Test evaluated once per run; exposed after first pilot.",
+  "variable": "speed_kmh",
+  "eligibility": "Targets fully observed and eligible. Inputs at least 75% observed, causal forward-fill up to 12 ticks then training-only channel mean. Stations selected on train availability only.",
+  "train_channel_means": [
+    1.1685556173324585,
+    1.0383726358413696,
+    1.185233473777771,
+    1.0970418453216553
+  ]
+}
