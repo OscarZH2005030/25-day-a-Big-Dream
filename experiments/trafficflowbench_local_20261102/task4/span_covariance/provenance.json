@@ -1,0 +1,16 @@
+{
+  "source_sha256": "af452c0677ab7e4bb0b6f50938c3b6cae1dc5043f27ae1e6b89e59a692d8d172",
+  "inputs": {
+    "origin_destination": {
+      "by_panel.csv": "99a99a04634262c6ac9ae6d053996aa99a883e11f7c9a73e927c90bf07236f35",
+      "protocol.json": "792aa7ab4f201a01861f7da3171876eba512db6ab69a4b7245e22cb4a8fcd44f",
+      "input_sha256.json": "863fc64f019715a776bb19dfe5500b5c6fa1b068cf9442c4f010fabcf88a5de3"
+    },
+    "with_span": {
+      "by_panel.csv": "da0f95c7bcfb4879b8f8e1bca7fbe148ba463b70ef91d734c686a32ba1a37373",
+      "protocol.json": "8b7800006f7fd77f4598f47bdd2f8555ea0c66fb00e6a935554d1f381290d5da",
+      "input_sha256.json": "863fc64f019715a776bb19dfe5500b5c6fa1b068cf9442c4f010fabcf88a5de3"
+    }
+  },
+  "scope": "Other-target minus total-target inside each experiment. Each experiment defines its own common unmeasured OD set. Covariance laws are hypothetical, and cell-set changes prevent direct comparison of absolute common-set reductions across experiments."
+}

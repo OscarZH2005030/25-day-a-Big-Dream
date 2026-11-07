@@ -12,6 +12,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--release-root', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
+    parser.add_argument('--span-correlation', action='store_true')
     args = parser.parse_args()
     common = types.ModuleType('common')
     common.DATA, common.OUT = args.release_root.resolve(), args.output.resolve()
@@ -27,7 +28,8 @@ def main():
                  'task4_crossmonth_shared_noise_qr', 'task4_exact_pair_audit', 'task4_extra_measurement_audit',
                  'audit_direct_od_measurement_design', 'audit_direct_od_marginal_measurement_gain'):
         load(name, archive / (name + '.py'))
-    sys.modules['audit_direct_od_marginal_measurement_gain'].main()
+    audit_args = ['--span-correlation'] if args.span_correlation else []
+    sys.modules['audit_direct_od_marginal_measurement_gain'].main(audit_args)
 
 
 if __name__ == '__main__':

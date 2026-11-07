@@ -1,5 +1,7 @@
 """Compare balanced designs on the same unmeasured OD cells."""
+import argparse
 import msvcrt
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -11,10 +13,24 @@ from audit_direct_od_measurement_design import base
 EXPONENTS=(0.,.5,1.,.25,.75)
 
 
-def main():
-    out=d.OUT/'task4_direct_od_marginal_measurement_gain'
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--span-correlation', action='store_true',
+                        help='Assign half the shared variance to exact trip-span groups')
+    parser.add_argument('--output-dir', type=Path)
+    parser.add_argument('--span-shared-weight', type=float, default=.125)
+    args = parser.parse_args(argv)
+    if not 0 <= args.span_shared_weight <= .25:
+        parser.error('span shared weight must be between 0 and 0.25')
+    if args.span_shared_weight != .125 and (not args.span_correlation or args.output_dir is None):
+        parser.error('custom span weight requires --span-correlation and a separate --output-dir')
+    stage = 'task4_direct_od_span_covariance' if args.span_correlation else 'task4_direct_od_marginal_measurement_gain'
+    out = args.output_dir or d.OUT / stage
+    span_weight = args.span_shared_weight if args.span_correlation else 0.
+    margin_weight = (.25 - span_weight) / 2
+    shared_weights = {'origin': margin_weight, 'destination': margin_weight, 'span': span_weight}
     d.save(out/'protocol.json',dict(code_sha256=d.sha(__file__), split='private', budget=16,
-        exponents=EXPONENTS, design='Add correlation 0.125 each for shared origins and shared destinations before conditioning on counts, holding marginal variances fixed. Select by maximizing the worst normalized marginal gain over both covariance models and three design exponents. Freeze all six sets across three selection models and evaluate under both joint and diagonal covariance on cells measured by none of the six policies. Also score unweighted variance reduction of the origin and destination totals using the same fixed measurements.',
+        exponents=EXPONENTS, shared_weights=shared_weights, design='Add the specified shared-group covariance before conditioning on counts, holding marginal variances fixed. Exact span is destination zone index minus origin zone index. Select by maximizing the worst normalized marginal gain over both covariance models and three design exponents. Freeze all six sets across three selection models and evaluate under both joint and diagonal covariance on cells measured by none of the six policies. Also score unweighted variance reduction of the origin and destination totals using the same fixed measurements.',
         scope='Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors.'))
     rows,hashes=[],{}
     for panel in d.night.predictor.load_routes():
@@ -31,13 +47,19 @@ def main():
         same_origin=origin[:,None]==origin[None,:]
         destination,_=pd.factorize(paths.destination_zone,sort=True)
         same_destination=destination[:,None]==destination[None,:]
+        shared = shared_weights['origin'] * same_origin + shared_weights['destination'] * same_destination
+        if args.span_correlation:
+            origin_index, destination_index = [paths[key].str.extract(r'^Z([0-9]+)$', expand=False).astype(int).to_numpy()
+                                                for key in ('origin_zone', 'destination_zone')]
+            span = destination_index - origin_index
+            shared += shared_weights['span'] * (span[:, None] == span[None, :])
         starts=[]
         diagonal_starts=[]
         for power in EXPONENTS:
             variance=np.maximum(w,.1/n)**power
             variance/=variance.mean()
             sd=np.sqrt(variance)
-            prior_cov=.75*np.diag(variance)+.125*(same_origin.astype(float)+same_destination)*sd[:,None]*sd[None,:]
+            prior_cov=.75*np.diag(variance)+shared*sd[:,None]*sd[None,:]
             np.testing.assert_allclose(prior_cov.diagonal(),variance,rtol=0,atol=1e-12)
             cross=A@prior_cov
             covariance=prior_cov-cross.T@pinvh(cross@A.T)@cross
@@ -89,12 +111,13 @@ def main():
                     rows.append(dict(panel=panel,design=name,selection=selection,exponent=power,law=law,
                                      total_reduction=reduction.sum()/scale,
                                      common_reduction=reduction[common].sum()/scale,**marginal_gains))
+        print(panel, flush=True)
     frame=pd.DataFrame(rows)
     frame.to_csv(out/'by_panel.csv',index=False)
     frame.groupby(['design','selection','exponent','law'])[['total_reduction','common_reduction','origin_reduction','destination_reduction']].mean().to_csv(out/'summary.csv')
     d.save(out/'input_sha256.json',hashes)
     d.save(out/'failures.json',[])
-    d.state(status='stage_complete',stage='task4_direct_od_marginal_measurement_gain_complete',
+    d.state(status='stage_complete',stage=stage+'_complete',
             next='Compare gains with total-target selections using matched roads and variance laws.')
 
 
