@@ -1,0 +1,42 @@
+{
+  "D12_I405_N": {
+    "cells": 210,
+    "mask_sha256": "c250f0e48a5c75752e2b0eb1f702db1a19e74cc0634d56f8744b60d311dd96ad"
+  },
+  "D12_I405_S": {
+    "cells": 170,
+    "mask_sha256": "637fcc371eeb86ce905f54b688811ff456d0c0f59091e5d65de5661848737710"
+  },
+  "D12_I5_N": {
+    "cells": 1055,
+    "mask_sha256": "e5ab52736791b42b781d3e67c244f8077537ce18ab7f5aef25c4c010eeea5edb"
+  },
+  "D12_I5_S": {
+    "cells": 1277,
+    "mask_sha256": "598269599354ddabfa3f441195c0036d4aec9d9d582636f7f5540682d84fae57"
+  },
+  "D7_I10_E": {
+    "cells": 1013,
+    "mask_sha256": "bdce7dbcc8f5f70c12c293bc4966bcdfa4e223138c24299084e600bebe1c1a03"
+  },
+  "D7_I10_W": {
+    "cells": 1288,
+    "mask_sha256": "c6105b4692280ddcba5cbe6dc3e625467447af1b9b616e913eeb898c9a6e0651"
+  },
+  "D7_I210_E": {
+    "cells": 641,
+    "mask_sha256": "8b0977fefda99fcce4e352788630e075c7325267c31d2feb49c0c3d61c44018e"
+  },
+  "D7_I210_W": {
+    "cells": 883,
+    "mask_sha256": "43408fa35dabf46a13c2a7eecf9041cd21ac3250d1c3c568907c622a21e69f1d"
+  },
+  "D7_I405_N": {
+    "cells": 1129,
+    "mask_sha256": "a16a1358b57b227b9128bb9b18346ba3fa7903db688a112e0663fc8dbeb54950"
+  },
+  "D7_I405_S": {
+    "cells": 1158,
+    "mask_sha256": "f72e1a0c95ef7ef5161b1b90de77bd626de530b0e11e502baaa66e3116bbcfed"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "zero": {
+      "protocol.json": "4f0d7b9657366c1528e07b97b3d1642d2dcb6cb5979cb05f91d3c7acc77b5e98",
+      "by_panel.csv": "36ca495c8065920d60fd7895dab8c927985bf54064f6c74337f1811d55b3a92a",
+      "input_sha256.json": "863fc64f019715a776bb19dfe5500b5c6fa1b068cf9442c4f010fabcf88a5de3",
+      "holdout_sha256.json": "d9317cee0c143dbb2131c408ff33a648811618f45ee8da0246e90dea5f7d8749"
+    },
+    "weak": {
+      "protocol.json": "37cc0a7d43713a0721ecbf00b9f2faae1cec0afc4d04fe3e727996956e4947aa",
+      "by_panel.csv": "1e55a14b6c1179fcd756c76953a8d52e20e80e8f45bc4e4849f1fb8d348fef81",
+      "input_sha256.json": "863fc64f019715a776bb19dfe5500b5c6fa1b068cf9442c4f010fabcf88a5de3",
+      "holdout_sha256.json": "d9317cee0c143dbb2131c408ff33a648811618f45ee8da0246e90dea5f7d8749"
+    },
+    "strong": {
+      "protocol.json": "10a4ecf559e87c7451bac8f42facd053a36eee7c98e9bbdbf0840fda6c377bc2",
+      "by_panel.csv": "8c55569d45e8322e90fb9e4d11502e5abd9da16cab0796b939bf2d615d821421",
+      "input_sha256.json": "863fc64f019715a776bb19dfe5500b5c6fa1b068cf9442c4f010fabcf88a5de3",
+      "holdout_sha256.json": "d9317cee0c143dbb2131c408ff33a648811618f45ee8da0246e90dea5f7d8749"
+    }
+  },
+  "source_sha256": "0c549ab7b44feefd11234d8f2e832eafbd9ff9bad33a3f3e17d77ecec8d1b5d5",
+  "scope": "Fixed reserved OD cells are identical across policies and covariance assumptions. Gains are within-law relative variance reductions, not OD recovery scores."
+}

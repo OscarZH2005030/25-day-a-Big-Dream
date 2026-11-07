@@ -1,0 +1,27 @@
+{
+  "absolute_tolerance": 1e-12,
+  "entry_sha256": "0a632d03ad2fdc794c6a1593fdee281395fa63ee008f5a98310e1037f566df8e",
+  "verified": {
+    "zero": {
+      "maximum_absolute_differences": {
+        "by_panel.csv": 7.601558271730369e-15,
+        "summary.csv": 2.8033131371785203e-15
+      },
+      "inputs_masks_and_failures_match": true
+    },
+    "weak": {
+      "maximum_absolute_differences": {
+        "by_panel.csv": 4.010680676458378e-15,
+        "summary.csv": 5.967448757360216e-16
+      },
+      "inputs_masks_and_failures_match": true
+    },
+    "strong": {
+      "maximum_absolute_differences": {
+        "by_panel.csv": 1.2601031329495527e-14,
+        "summary.csv": 1.1934897514720433e-15
+      },
+      "inputs_masks_and_failures_match": true
+    }
+  }
+}
