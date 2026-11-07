@@ -1,0 +1,58 @@
+[
+  {
+    "variant": "time_llm_west_fit",
+    "file": "metrics.csv",
+    "original_sha256": "725F910023DE00C25C1170C703E761704B4206FE5D0BF4E7A84872B7CE903489",
+    "replay_sha256": "725F910023DE00C25C1170C703E761704B4206FE5D0BF4E7A84872B7CE903489",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_fit",
+    "file": "per_station.csv",
+    "original_sha256": "CC8EF38859BFA4DCEB0E7A66D42929E26B9FCB8D658258C7874DE7F7A1FE4F97",
+    "replay_sha256": "CC8EF38859BFA4DCEB0E7A66D42929E26B9FCB8D658258C7874DE7F7A1FE4F97",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_fit",
+    "file": "window_keys.npz",
+    "original_sha256": "E81CA64D0844CBDD79561D401347D5D2598C4C26420B82CFA32A40C3A41ACF68",
+    "replay_sha256": "E81CA64D0844CBDD79561D401347D5D2598C4C26420B82CFA32A40C3A41ACF68",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_fit",
+    "file": "evaluation_keys.json",
+    "original_sha256": "68171E8A7F9183E4A908F5BB0DB23E75B33C5859B733799CAC5F142863F237F1",
+    "replay_sha256": "68171E8A7F9183E4A908F5BB0DB23E75B33C5859B733799CAC5F142863F237F1",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_transfer",
+    "file": "metrics.csv",
+    "original_sha256": "BD30F41629DBF2CA7C8A6EC4E313EAE9E8363121C76F3C4D8C9D998380C30AB4",
+    "replay_sha256": "BD30F41629DBF2CA7C8A6EC4E313EAE9E8363121C76F3C4D8C9D998380C30AB4",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_transfer",
+    "file": "per_station.csv",
+    "original_sha256": "3E29302E86B47D63E15880A574A965F006CAEBEC6B927DD36230031B567CB4E6",
+    "replay_sha256": "3E29302E86B47D63E15880A574A965F006CAEBEC6B927DD36230031B567CB4E6",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_transfer",
+    "file": "window_keys.npz",
+    "original_sha256": "E81CA64D0844CBDD79561D401347D5D2598C4C26420B82CFA32A40C3A41ACF68",
+    "replay_sha256": "E81CA64D0844CBDD79561D401347D5D2598C4C26420B82CFA32A40C3A41ACF68",
+    "identical": true
+  },
+  {
+    "variant": "time_llm_west_transfer",
+    "file": "evaluation_keys.json",
+    "original_sha256": "68171E8A7F9183E4A908F5BB0DB23E75B33C5859B733799CAC5F142863F237F1",
+    "replay_sha256": "68171E8A7F9183E4A908F5BB0DB23E75B33C5859B733799CAC5F142863F237F1",
+    "identical": true
+  }
+]

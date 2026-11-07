@@ -36,7 +36,11 @@ def main():
     parser.add_argument('--learning-rate', type=float, default=0.001)
     parser.add_argument('--layers', type=int, default=4)
     parser.add_argument('--road', default='D7_I10_E')
+    parser.add_argument('--evaluate-adapter', type=Path)
+    parser.add_argument('--variable', choices=['both', 'speed_kmh', 'flow_vph'], default='both')
     args = parser.parse_args()
+    if args.evaluate_adapter is not None:
+        args.steps = 0
     OUT = args.output_dir
     OUT.mkdir(parents=True, exist_ok=True)
     random.seed(SEED)
@@ -55,6 +59,8 @@ def main():
     for station in stations:
         selected = frame.loc[frame.station_id == station].set_index('timestamp').reindex(times)
         for column, scale in [('speed_kmh', 100.0), ('flow_vph', 1000.0)]:
+            if args.variable != 'both' and args.variable != column:
+                continue
             arrays.append(selected[column].to_numpy(dtype=np.float32) / scale)
             labels.append((station, column, scale))
     values = np.stack(arrays, axis=1)
@@ -78,10 +84,13 @@ def main():
         'splits': splits, 'windows': {key: len(value) for key, value in windows.items()},
         'channels': labels, 'config': vars(config), 'steps': args.steps, 'batch_size': 8,
         'learning_rate': args.learning_rate,
+        'evaluate_adapter_sha256': digest(args.evaluate_adapter) if args.evaluate_adapter else None,
         'upstream_commit': subprocess.check_output(['git', '-C', str(UPSTREAM), 'rev-parse', 'HEAD'], text=True).strip(),
         'source_hashes': {path.name: digest(path) for path in files},
         'runner_sha256': digest(Path(__file__)), 'scope': 'Exposed public-data forecasting diagnostic, not official imputation or hidden score.',
-        'selection': 'Fixed config, best validation scaled MSE at 50-step checkpoints. Test evaluated once per run; exposed after first pilot.',
+        'selection': ('Frozen source-road adapter, no target-road fitting or checkpoint selection.' if args.evaluate_adapter else
+                      'Fixed config, best validation scaled MSE at 50-step checkpoints. Test evaluated once per run; exposed after first pilot.'),
+        'variable': args.variable,
         'eligibility': 'Targets fully observed and eligible. Inputs at least 75% observed, causal forward-fill up to 12 ticks then training-only channel mean. Stations selected on train availability only.',
         'train_channel_means': train_means.tolist()}
     (OUT / 'protocol.json').write_text(json.dumps(protocol, indent=2), encoding='utf-8')
@@ -142,7 +151,8 @@ def main():
                 torch.save({name: value.cpu() for name, value in model.state_dict().items()
                             if not name.startswith('llm_model.') and name != 'word_embeddings'}, OUT / 'adapter.pt')
                 (OUT / 'best.json').write_text(json.dumps({'step': step, 'validation_scaled_mse': score}))
-    model.load_state_dict(torch.load(OUT / 'adapter.pt', weights_only=True), strict=False)
+    adapter_path = args.evaluate_adapter or OUT / 'adapter.pt'
+    model.load_state_dict(torch.load(adapter_path, weights_only=True), strict=False)
     prediction = evaluate(test_keys)
     if not np.isfinite(prediction).all():
         raise RuntimeError('Nonfinite prediction')
@@ -166,7 +176,7 @@ def main():
     metrics.to_csv(OUT / 'metrics.csv', index=False)
     errors.groupby(['station', 'variable', 'method']).agg(mse=('squared_error', 'mean'), mae=('absolute_error', 'mean'), n=('squared_error', 'size')).to_csv(OUT / 'per_station.csv')
     (OUT / 'acceptance.json').write_text(json.dumps({'completed': True, 'seconds': time.monotonic() - started,
-        'adapter_sha256': digest(OUT / 'adapter.pt'), 'torch': torch.__version__,
+        'adapter_sha256': digest(adapter_path), 'torch': torch.__version__,
         'model_revision': getattr(model.llm_model.config, '_commit_hash', None),
         'official_score': None, 'test_windows': len(test_keys)}, indent=2))
     (OUT / 'gpu_memory.json').write_text(json.dumps({

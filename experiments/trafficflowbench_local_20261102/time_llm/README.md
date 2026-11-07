@@ -45,3 +45,20 @@ python run_time_llm_pilot.py --output-dir D:/traffic-research/outputs/daytime/ti
 Run the setup in a new workspace. Preserve any existing research lock and coordinate GPU use before starting. The runner acquires an exclusive shared Windows byte lock before loading the model. Public safe-format GPT-2 weights are downloaded with implicit authentication disabled. The patch fixes first-load checkpoint resolution by explicitly requesting safe weights from the public model host.
 
 Included files contain source, configuration/data/model hashes and aggregate station metrics. Raw observations, evaluation cell keys and the approximately 202 MB adapter checkpoint remain local. Model revision is pinned in acceptance metadata. Official upstream code and license are available at https://github.com/KimMeen/Time-LLM and the paper at https://arxiv.org/abs/2310.01728.
+
+## I10 West replication and transfer failure
+
+The same fixed 12-layer configuration was examined on I10 West after inspecting the East results. West has 192 training windows, 26 validation windows and 26 evaluation windows across four stations. Metrics use 116 common observed points per variable. This is another exposed small-sample development comparison.
+
+| Method on West | Speed RMSE, km/h | Flow RMSE, vehicles/hour |
+| --- | --- | --- |
+| Persistence | 22.791492 | 671.583000 |
+| Previous day | 7.997691 | 561.777435 |
+| Frozen East adapter, zero West training | 34.571556 | 699.604203 |
+| West-trained adapter, unchanged 1000-step configuration | 20.917006 | 478.244596 |
+
+Direct East-to-West adapter transfer failed to beat either baseline on both variables. West fitting reduced flow RMSE by 28.79% against persistence and 14.87% against previous day. West speed remained much worse than the previous-day baseline. These results support further study of road-specific flow forecasting, with speed and cross-road transfer failures retained. They do not establish competition imputation gains.
+
+Use `--road D7_I10_W` to train the West model with the same options above. To evaluate a frozen East adapter, add `--evaluate-adapter D:/traffic-research/outputs/daytime/time_llm_full12/adapter.pt` and select a fresh output directory. The target road's training observations are used for availability selection and missing-input mean statistics, while the source adapter is frozen.
+
+`--variable speed_kmh` or `--variable flow_vph` restricts the shared channel-independent model to one variable for subsequent exploratory studies. The results in the tables use `--variable both`.

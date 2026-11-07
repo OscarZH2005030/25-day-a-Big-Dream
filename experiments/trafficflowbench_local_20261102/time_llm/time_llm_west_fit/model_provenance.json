@@ -1,0 +1,15 @@
+{
+  "upstream_model_sha256": "db0f8b5ac3ecbf52a08b76231a36dae7d39829b184db8a3c54eb2b646d1fec76",
+  "model_files": {
+    "snapshots\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "snapshots\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "snapshots\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\model.safetensors": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+    "snapshots\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "snapshots\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+    "snapshots\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783",
+    ".no_exist\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\added_tokens.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".no_exist\\607a30d783dfa663caf39e06633721c8d4cfcd7e\\special_tokens_map.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "trainable_parameters": 50564316,
+  "frozen_parameters": 124439808
+}
