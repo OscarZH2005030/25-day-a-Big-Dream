@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-11-07T05:01:04.817932+00:00",
+  "tasks": [
+    {
+      "name": "west_speed_384",
+      "road": "D7_I10_W",
+      "variable": "speed_kmh",
+      "seq_len": 384,
+      "keys": "outputs/daytime/time_llm_west_speed_only/evaluation_keys.json"
+    },
+    {
+      "name": "east_speed_96",
+      "road": "D7_I10_E",
+      "variable": "speed_kmh",
+      "seq_len": 96
+    },
+    {
+      "name": "east_speed_384",
+      "road": "D7_I10_E",
+      "variable": "speed_kmh",
+      "seq_len": 384,
+      "keys": "outputs/daytime/time_llm_replication/east_speed_96/evaluation_keys.json"
+    },
+    {
+      "name": "D7_I210_E",
+      "road": "D7_I210_E",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D7_I210_W",
+      "road": "D7_I210_W",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D7_I405_N",
+      "road": "D7_I405_N",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D7_I405_S",
+      "road": "D7_I405_S",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D12_I5_N",
+      "road": "D12_I5_N",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D12_I5_S",
+      "road": "D12_I5_S",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D12_I405_N",
+      "road": "D12_I405_N",
+      "variable": "both",
+      "seq_len": 96
+    },
+    {
+      "name": "D12_I405_S",
+      "road": "D12_I405_S",
+      "variable": "both",
+      "seq_len": 96
+    }
+  ],
+  "steps": 1000,
+  "layers": 12,
+  "learning_rate": 0.0001,
+  "seed": 2026110701,
+  "purpose": "Exposed public June forecasting diagnostics, preserve every failure and baseline comparison.",
+  "runner_sha256": "e38fb382c84ae6a4a278a417c57806092b1c91ef9223174ce2d235c7154c1162"
+}

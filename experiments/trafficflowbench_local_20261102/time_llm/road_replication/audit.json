@@ -1,0 +1,109 @@
+{
+  "summaries": {
+    "flow_vph": {
+      "roads": 10,
+      "points": 2325,
+      "beats_both": 3,
+      "beats_persistence": 4,
+      "beats_previous_day": 8
+    },
+    "speed_kmh": {
+      "roads": 10,
+      "points": 2325,
+      "beats_both": 2,
+      "beats_persistence": 4,
+      "beats_previous_day": 5
+    }
+  },
+  "failed_runs": [
+    {
+      "run": "west_speed_384",
+      "exit_code": 1,
+      "stderr_sha256": "7636dbb4e7d0e80eef2d87979362c9b3186352b0774f7cc12abae3247ca31454",
+      "reason": "RuntimeError: Frozen validation keys fail current history eligibility"
+    },
+    {
+      "run": "east_speed_384",
+      "exit_code": 1,
+      "stderr_sha256": "7636dbb4e7d0e80eef2d87979362c9b3186352b0774f7cc12abae3247ca31454",
+      "reason": "RuntimeError: Frozen validation keys fail current history eligibility"
+    }
+  ],
+  "hashes": {
+    "west_speed_384": {
+      "protocol_sha256": "bb47b28e1d02db9a88eb243c6105bb9059a4ce34773233d2104cb20b1ff5e7d6"
+    },
+    "east_speed_96": {
+      "protocol_sha256": "c36727661ebe44a928d1b4e8edee9ef3053f18d5538283fe6c0d1a49ab88a42e",
+      "adapter_sha256": "8ae22a764dbda7925c3aaa57f39ccd0a15a7d8823a51f00dc4babd90308acad4",
+      "metrics_sha256": "99c7ac212b5a5089f5028474560937ac8b185e69318b8534a99f48e24ef04d7d",
+      "per_station_sha256": "875279c06de8f459c8491fedcb2b45fe19c807cb916682393748ef8a7b1d5c2b"
+    },
+    "east_speed_384": {
+      "protocol_sha256": "7d17f3db2cd989bb79f8b5249c8ee41f922f03d62c0c8ed6b5b44fed8157beca"
+    },
+    "D7_I210_E": {
+      "protocol_sha256": "37235ecc0b3aae036414990c3de73e1b9a7662d4eb1b5ce441f8841ba098c4fb",
+      "adapter_sha256": "801ff38dc2990427d71ded421b63f6469a639d67881e7229023c64a712e49b3d",
+      "metrics_sha256": "83fc1047060bc2b9e413fb963adde24e5ffe6e906a43908ea0995eb8c45bcd9e",
+      "per_station_sha256": "44e9cdbaa1c3a73499c70fa0fbaf38f9e8cebd192dc0807c13cde7eafd24e988"
+    },
+    "D7_I210_W": {
+      "protocol_sha256": "451e7f478c261694d790d9974577213164b9d7522443b7db6ce5899f1b521cd8",
+      "adapter_sha256": "4d1775263f3b42dbd0e13f754e2b70bc2e05e94255c2a5b735ca362a0a2ed951",
+      "metrics_sha256": "7d9e0b8fef797c80f21a58365dc166210d9705d251eefedb1d1f0976f90b47e7",
+      "per_station_sha256": "c667f6f26aac323d092e5fb4018353f9a16d1a56be5250de952b40c7dc51d99a"
+    },
+    "D7_I405_N": {
+      "protocol_sha256": "11531a412fe14bb27ae3ce80e75bab88a24156c097f28d260b7b65cc11ee5d06",
+      "adapter_sha256": "2e7454499b6a5e1883e2a3ac5a2436ec6ff494e46fbba512e2c13be28cdba161",
+      "metrics_sha256": "45835eb5dc29fa168e42a8fba0695ba71f919a9585019fb75143e2f57c21ca9c",
+      "per_station_sha256": "a77bedf797c2003b97be88fa5e30935b133dd22e85f1e65fe06d48796248cc19"
+    },
+    "D7_I405_S": {
+      "protocol_sha256": "001c85ac658910d8f236e6a1f4c062e2041460d4af210945a9968dd6d2eb2d6b",
+      "adapter_sha256": "e888b0f0e0c231b3f124318fea4929a5cddbb5ab0066842345fbb55c12dbfd29",
+      "metrics_sha256": "1a2a18cd9ddb44f0329b80f96cb1cb8a4579b31ea6453f33fc915378ce8ce7be",
+      "per_station_sha256": "83f67aeb185bb703d97de3762a03b0f836a75ba4f3b9577eb8a341f697d1a51f"
+    },
+    "D12_I5_N": {
+      "protocol_sha256": "eb856e80eedf1d2061a438a8c11f3a9a4e210d49c6ac7fa8886625829da61cdc",
+      "adapter_sha256": "5748687a241fdb725a0cbd9787ce9338cf5c465f29d7687b49334890b1f57c12",
+      "metrics_sha256": "873d7abfc6d6d76a207c1e1e2171151dbf083501220e5c0d7555bb6343405622",
+      "per_station_sha256": "58f0b76fba6b8a24115331c3944312091402628716eea8e848d7716cbd7cadc5"
+    },
+    "D12_I5_S": {
+      "protocol_sha256": "3536784c173b17af9d1cedd39bdf6d98f47686bb4eca91696d19a78f0fdc8df9",
+      "adapter_sha256": "d6682b98e4d67ae85b4e48992789d93b80b2f329eb7fe73b7c4bc8d3cbe55263",
+      "metrics_sha256": "3f4e8efb06f99ee8376e879c224a6a77a31e092d2d554f08e2145610fa402b74",
+      "per_station_sha256": "31e47ca3c3a833af659e07f1a6dd5ef0eed95ad2c280f01f04b475a87ef0e2cb"
+    },
+    "D12_I405_N": {
+      "protocol_sha256": "38b5eebf4b07d69eb3c8b400225962adaf0165a572e173bae25756b631309334",
+      "adapter_sha256": "78e6987c29b0685722d5dad1e3c9aaf727e3e40221926d88605def0a49b0e57b",
+      "metrics_sha256": "b5129b122609d8a3d3503ae75ddb9308443269fbfe72a1a3bda2520b2fb2a527",
+      "per_station_sha256": "3ebac4014ad6fac087706146f298cefd0fdc600d10dda72d8f8f24558781190c"
+    },
+    "D12_I405_S": {
+      "protocol_sha256": "0150cfaa91dbc360e1612333534cc94248094b0dc852a17015016323df8207be",
+      "adapter_sha256": "9047b036c5d3d9773f8a90962dd06efbae1ff5578f636ff70703838ae7b1216b",
+      "metrics_sha256": "72f7cde207fe1164a08fbbfc201472af3fae3c66f1d3f988514b07cf6d008513",
+      "per_station_sha256": "a205bafde840f28e255fa5f92a615d329b809b72e5006adf76c17b5680daffa4"
+    },
+    "time_llm_full12": {
+      "protocol_sha256": "2453ee2f8b85c0664cb470818988cbc86b97292ea89ad808495f5ccfb38e0744",
+      "adapter_sha256": "a089cae5d545cd5c616b4ae3e334c5626495bfe0be42fc99be4b7073708d668e",
+      "metrics_sha256": "3a53e672d5548d89b627de5487eb1ea55add5a14f2023f8d7a85bcb5d4f1f12a",
+      "per_station_sha256": "f232b0b2422190073b8f01156e675ad756cf3ecbacf94f86cecbbd80061e2fd1"
+    },
+    "time_llm_west_fit": {
+      "protocol_sha256": "76cbe96f8c88c0c7bcf43fb506123f692f79e4d50994fb0ecc053cdc0d685baf",
+      "adapter_sha256": "617b080e6e7bf9fb917247172eaadcc2cb84abd8b6945cc1af53568d6f499289",
+      "metrics_sha256": "725f910023de00c25c1170c703e761704b4206fe5d0bf4e7a84872b7ce903489",
+      "per_station_sha256": "cc8ef38859bfa4dceb0e7a66d42929e26b9fcb8d658258c7874de7f7a1fe4f97"
+    }
+  },
+  "registry_sha256": "02784a4a63d09588dacdefddf6b60b2832e92c508cfddbe20c31eb20aa3b87cf",
+  "audit_sha256": "57f8ca70cc3d2322e016333423d01e4574da0fc9278af172f35f650dc294eea6",
+  "scope": "Exposed June forecasting diagnostics. Independent aggregate reconstruction and adapter hash checks."
+}
