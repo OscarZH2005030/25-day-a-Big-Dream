@@ -13,6 +13,7 @@ def main():
     parser.add_argument('--release-root', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--span-correlation', action='store_true')
+    parser.add_argument('--span-shared-weight', type=float, default=.125)
     args = parser.parse_args()
     common = types.ModuleType('common')
     common.DATA, common.OUT = args.release_root.resolve(), args.output.resolve()
@@ -29,6 +30,9 @@ def main():
                  'audit_direct_od_measurement_design', 'audit_direct_od_marginal_measurement_gain'):
         load(name, archive / (name + '.py'))
     audit_args = ['--span-correlation'] if args.span_correlation else []
+    if args.span_shared_weight != .125:
+        audit_args.extend(['--span-shared-weight', str(args.span_shared_weight), '--output-dir',
+                           str(common.OUT / 'task4_direct_od_custom_span_covariance')])
     sys.modules['audit_direct_od_marginal_measurement_gain'].main(audit_args)
 
 

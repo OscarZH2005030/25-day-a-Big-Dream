@@ -1,0 +1,19 @@
+{
+  "code_sha256": "64a7532377e5f294e554d93894776fd3f68f1d0907ca6e8cd7ccc9591ab5cfac",
+  "split": "private",
+  "budget": 16,
+  "exponents": [
+    0.0,
+    0.5,
+    1.0,
+    0.25,
+    0.75
+  ],
+  "shared_weights": {
+    "origin": 0.109375,
+    "destination": 0.109375,
+    "span": 0.03125
+  },
+  "design": "Add the specified shared-group covariance before conditioning on counts, holding marginal variances fixed. Exact span is destination zone index minus origin zone index. Select by maximizing the worst normalized marginal gain over both covariance models and three design exponents. Freeze all six sets across three selection models and evaluate under both joint and diagonal covariance on cells measured by none of the six policies. Also score unweighted variance reduction of the origin and destination totals using the same fixed measurements.",
+  "scope": "Hypothetical direct measurements. Variance laws are sensitivity assumptions, not fitted to hidden OD errors."
+}

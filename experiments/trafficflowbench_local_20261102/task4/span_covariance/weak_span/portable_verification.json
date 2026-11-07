@@ -1,0 +1,9 @@
+{
+  "absolute_tolerance": 1e-12,
+  "maximum_absolute_differences": {
+    "by_panel.csv": 3.9968028886505635e-15,
+    "summary.csv": 4.996003610813204e-16
+  },
+  "input_hashes_match": true,
+  "failure_records_match": true
+}
